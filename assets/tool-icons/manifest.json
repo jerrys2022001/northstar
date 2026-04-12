@@ -1,0 +1,810 @@
+{
+  "adobeexpress": {
+    "fallback": "adobeexpress.svg",
+    "tool_url": "https://www.adobe.com/express/",
+    "file": "adobeexpress.svg",
+    "content_type": "image/svg+xml",
+    "source": "local",
+    "url": "local://assets/tool-icons/adobeexpress.svg"
+  },
+  "adobefirefly": {
+    "fallback": "adobefirefly.svg",
+    "tool_url": "https://www.adobe.com/products/firefly.html",
+    "file": "adobefirefly.ico",
+    "content_type": "image/x-icon",
+    "source": "local",
+    "url": "local://assets/tool-icons/adobefirefly.ico"
+  },
+  "airtable": {
+    "content_type": "image/png",
+    "fallback": "airtable.svg",
+    "file": "airtable.png",
+    "source": "local",
+    "tool_url": "https://www.airtable.com/platform/ai",
+    "url": "local://assets/tool-icons/airtable.png"
+  },
+  "beautifulai": {
+    "content_type": "image/x-icon",
+    "fallback": "beautifulai.svg",
+    "file": "beautifulai.ico",
+    "source": "local",
+    "tool_url": "https://www.beautiful.ai/",
+    "url": "local://assets/tool-icons/beautifulai.ico"
+  },
+  "bolt": {
+    "content_type": "image/svg+xml",
+    "fallback": "bolt.svg",
+    "file": "bolt.svg",
+    "source": "local",
+    "tool_url": "https://bolt.new/",
+    "url": "local://assets/tool-icons/bolt.svg"
+  },
+  "canva": {
+    "content_type": "image/png",
+    "fallback": "canva.svg",
+    "file": "canva.png",
+    "source": "local",
+    "tool_url": "https://www.canva.com/",
+    "url": "local://assets/tool-icons/canva.png"
+  },
+  "capcut": {
+    "content_type": "image/x-icon",
+    "fallback": "capcut.svg",
+    "file": "capcut.ico",
+    "source": "local",
+    "tool_url": "https://www.capcut.com/",
+    "url": "local://assets/tool-icons/capcut.ico"
+  },
+  "characterai": {
+    "content_type": "image/x-icon",
+    "fallback": "characterai.svg",
+    "file": "characterai.ico",
+    "source": "local",
+    "tool_url": "https://character.ai/",
+    "url": "local://assets/tool-icons/characterai.ico"
+  },
+  "chatgpt": {
+    "content_type": "image/png",
+    "fallback": "chatgpt.svg",
+    "file": "chatgpt.png",
+    "source": "local",
+    "tool_url": "https://chatgpt.com/",
+    "url": "local://assets/tool-icons/chatgpt.png"
+  },
+  "claude": {
+    "content_type": "image/png",
+    "fallback": "claude.svg",
+    "file": "claude.png",
+    "source": "local",
+    "tool_url": "https://claude.ai/",
+    "url": "local://assets/tool-icons/claude.png"
+  },
+  "clickup": {
+    "content_type": "image/png",
+    "fallback": "clickup.svg",
+    "file": "clickup.png",
+    "source": "local",
+    "tool_url": "https://clickup.com/ai",
+    "url": "local://assets/tool-icons/clickup.png"
+  },
+  "clipchamp": {
+    "content_type": "image/x-icon",
+    "fallback": "clipchamp.svg",
+    "file": "clipchamp.ico",
+    "source": "local",
+    "tool_url": "https://clipchamp.com/",
+    "url": "local://assets/tool-icons/clipchamp.ico"
+  },
+  "clipdrop": {
+    "content_type": "image/x-icon",
+    "fallback": "clipdrop.svg",
+    "file": "clipdrop.ico",
+    "source": "local",
+    "tool_url": "https://clipdrop.co/",
+    "url": "local://assets/tool-icons/clipdrop.ico"
+  },
+  "coda": {
+    "content_type": "image/png",
+    "fallback": "coda.svg",
+    "file": "coda.png",
+    "source": "local",
+    "tool_url": "https://coda.io/",
+    "url": "local://assets/tool-icons/coda.png"
+  },
+  "codeium": {
+    "content_type": "image/x-icon",
+    "fallback": "codeium.svg",
+    "file": "codeium.ico",
+    "source": "local",
+    "tool_url": "https://codeium.com/",
+    "url": "local://assets/tool-icons/codeium.ico"
+  },
+  "consensus": {
+    "content_type": "image/png",
+    "fallback": "consensus.svg",
+    "file": "consensus.png",
+    "source": "local",
+    "tool_url": "https://consensus.app/",
+    "url": "local://assets/tool-icons/consensus.png"
+  },
+  "continue": {
+    "content_type": "image/png",
+    "fallback": "continue.svg",
+    "file": "continue.png",
+    "source": "local",
+    "tool_url": "https://www.continue.dev/",
+    "url": "local://assets/tool-icons/continue.png"
+  },
+  "copyai": {
+    "content_type": "image/png",
+    "fallback": "copyai.svg",
+    "file": "copyai.png",
+    "source": "local",
+    "tool_url": "https://www.copy.ai/",
+    "url": "local://assets/tool-icons/copyai.png"
+  },
+  "cursor": {
+    "content_type": "image/png",
+    "fallback": "cursor.svg",
+    "file": "cursor.png",
+    "source": "local",
+    "tool_url": "https://cursor.com/",
+    "url": "local://assets/tool-icons/cursor.png"
+  },
+  "cutoutpro": {
+    "fallback": "cutoutpro.svg",
+    "tool_url": "https://www.cutout.pro/",
+    "file": "cutoutpro.png",
+    "content_type": "image/png",
+    "source": "local",
+    "url": "local://assets/tool-icons/cutoutpro.png"
+  },
+  "deepl": {
+    "content_type": "image/png",
+    "fallback": "deepl.svg",
+    "file": "deepl.png",
+    "source": "local",
+    "tool_url": "https://www.deepl.com/",
+    "url": "local://assets/tool-icons/deepl.png"
+  },
+  "deepseek": {
+    "content_type": "image/png",
+    "fallback": "deepseek.svg",
+    "file": "deepseek.png",
+    "source": "local",
+    "tool_url": "https://chat.deepseek.com/",
+    "url": "local://assets/tool-icons/deepseek.png"
+  },
+  "descript": {
+    "fallback": "descript.svg",
+    "tool_url": "https://www.descript.com/",
+    "file": "descript.svg",
+    "content_type": "image/svg+xml",
+    "source": "local",
+    "url": "local://assets/tool-icons/descript.svg"
+  },
+  "elevenlabs": {
+    "fallback": "elevenlabs.svg",
+    "tool_url": "https://elevenlabs.io/",
+    "file": "elevenlabs.png",
+    "content_type": "image/png",
+    "source": "local",
+    "url": "local://assets/tool-icons/elevenlabs.png"
+  },
+  "elicit": {
+    "content_type": "image/png",
+    "fallback": "elicit.svg",
+    "file": "elicit.png",
+    "source": "local",
+    "tool_url": "https://elicit.com/",
+    "url": "local://assets/tool-icons/elicit.png"
+  },
+  "fellow": {
+    "content_type": "image/png",
+    "fallback": "fellow.svg",
+    "file": "fellow.png",
+    "source": "local",
+    "tool_url": "https://fellow.app/",
+    "url": "local://assets/tool-icons/fellow.png"
+  },
+  "figma": {
+    "content_type": "image/x-icon",
+    "fallback": "figma.svg",
+    "file": "figma.ico",
+    "source": "local",
+    "tool_url": "https://www.figma.com/ai/",
+    "url": "local://assets/tool-icons/figma.ico"
+  },
+  "filmora": {
+    "content_type": "image/png",
+    "fallback": "filmora.svg",
+    "file": "filmora.png",
+    "source": "local",
+    "tool_url": "https://filmora.wondershare.com/",
+    "url": "local://assets/tool-icons/filmora.png"
+  },
+  "fireflies": {
+    "content_type": "image/x-icon",
+    "fallback": "fireflies.svg",
+    "file": "fireflies.ico",
+    "source": "local",
+    "tool_url": "https://fireflies.ai/",
+    "url": "local://assets/tool-icons/fireflies.ico"
+  },
+  "framer": {
+    "content_type": "image/png",
+    "fallback": "framer.svg",
+    "file": "framer.png",
+    "source": "local",
+    "tool_url": "https://www.framer.com/ai/",
+    "url": "local://assets/tool-icons/framer.png"
+  },
+  "freepik": {
+    "content_type": "image/x-icon",
+    "fallback": "freepik.svg",
+    "file": "freepik.ico",
+    "source": "local",
+    "tool_url": "https://www.freepik.com/ai",
+    "url": "local://assets/tool-icons/freepik.ico"
+  },
+  "gamma": {
+    "fallback": "gamma.svg",
+    "tool_url": "https://gamma.app/",
+    "file": "gamma.jpg",
+    "content_type": "image/jpeg",
+    "source": "local",
+    "url": "local://assets/tool-icons/gamma.jpg"
+  },
+  "gemini": {
+    "content_type": "image/png",
+    "fallback": "gemini.svg",
+    "file": "gemini.png",
+    "source": "local",
+    "tool_url": "https://gemini.google.com/",
+    "url": "local://assets/tool-icons/gemini.png"
+  },
+  "genspark": {
+    "content_type": "image/png",
+    "fallback": "genspark.svg",
+    "file": "genspark.png",
+    "source": "local",
+    "tool_url": "https://www.genspark.ai/",
+    "url": "local://assets/tool-icons/genspark.png"
+  },
+  "githubcopilot": {
+    "content_type": "image/x-icon",
+    "fallback": "githubcopilot.svg",
+    "file": "githubcopilot.ico",
+    "source": "local",
+    "tool_url": "https://github.com/features/copilot",
+    "url": "local://assets/tool-icons/githubcopilot.ico"
+  },
+  "glean": {
+    "fallback": "glean.svg",
+    "tool_url": "https://www.glean.com/",
+    "file": "glean.png",
+    "content_type": "image/png",
+    "source": "local",
+    "url": "local://assets/tool-icons/glean.png"
+  },
+  "goodnotes": {
+    "content_type": "image/png",
+    "fallback": "goodnotes.svg",
+    "file": "goodnotes.png",
+    "source": "local",
+    "tool_url": "https://www.goodnotes.com/ai",
+    "url": "local://assets/tool-icons/goodnotes.png"
+  },
+  "googleaistudio": {
+    "content_type": "image/png",
+    "fallback": "googleaistudio.svg",
+    "file": "googleaistudio.png",
+    "source": "local",
+    "tool_url": "https://aistudio.google.com/",
+    "url": "local://assets/tool-icons/googleaistudio.png"
+  },
+  "gptzero": {
+    "content_type": "image/x-icon",
+    "fallback": "gptzero.svg",
+    "file": "gptzero.ico",
+    "source": "local",
+    "tool_url": "https://gptzero.me/",
+    "url": "local://assets/tool-icons/gptzero.ico"
+  },
+  "grammarly": {
+    "content_type": "image/png",
+    "fallback": "grammarly.svg",
+    "file": "grammarly.png",
+    "source": "local",
+    "tool_url": "https://www.grammarly.com/",
+    "url": "local://assets/tool-icons/grammarly.png"
+  },
+  "granola": {
+    "content_type": "image/png",
+    "fallback": "granola.svg",
+    "file": "granola.png",
+    "source": "local",
+    "tool_url": "https://www.granola.ai/",
+    "url": "local://assets/tool-icons/granola.png"
+  },
+  "grok": {
+    "content_type": "image/png",
+    "fallback": "grok.svg",
+    "file": "grok.png",
+    "source": "local",
+    "tool_url": "https://grok.com/",
+    "url": "local://assets/tool-icons/grok.png"
+  },
+  "heygen": {
+    "fallback": "heygen.svg",
+    "tool_url": "https://www.heygen.com/",
+    "file": "heygen.png",
+    "content_type": "image/png",
+    "source": "local",
+    "url": "local://assets/tool-icons/heygen.png"
+  },
+  "hubspot": {
+    "content_type": "image/png",
+    "fallback": "hubspot.svg",
+    "file": "hubspot.png",
+    "source": "local",
+    "tool_url": "https://www.hubspot.com/artificial-intelligence",
+    "url": "local://assets/tool-icons/hubspot.png"
+  },
+  "huggingface": {
+    "content_type": "image/x-icon",
+    "fallback": "huggingface.svg",
+    "file": "huggingface.ico",
+    "source": "local",
+    "tool_url": "https://huggingface.co/",
+    "url": "local://assets/tool-icons/huggingface.ico"
+  },
+  "ideogram": {
+    "fallback": "ideogram.svg",
+    "tool_url": "https://ideogram.ai/",
+    "file": "ideogram.svg",
+    "content_type": "image/svg+xml",
+    "source": "local-fallback",
+    "url": "local://assets/tool-icons/ideogram.svg"
+  },
+  "intercom": {
+    "fallback": "intercom.svg",
+    "tool_url": "https://www.intercom.com/ai",
+    "file": "intercom.svg",
+    "content_type": "image/svg+xml",
+    "source": "local-fallback",
+    "url": "local://assets/tool-icons/intercom.svg"
+  },
+  "invideo": {
+    "fallback": "invideo.svg",
+    "tool_url": "https://invideo.io/",
+    "file": "invideo.svg",
+    "content_type": "image/svg+xml",
+    "source": "local-fallback",
+    "url": "local://assets/tool-icons/invideo.svg"
+  },
+  "jasper": {
+    "content_type": "image/png",
+    "fallback": "jasper.svg",
+    "file": "jasper.png",
+    "source": "local",
+    "tool_url": "https://www.jasper.ai/",
+    "url": "local://assets/tool-icons/jasper.png"
+  },
+  "jotform": {
+    "content_type": "image/png",
+    "fallback": "jotform.svg",
+    "file": "jotform.png",
+    "source": "local",
+    "tool_url": "https://www.jotform.com/ai/agents/",
+    "url": "local://assets/tool-icons/jotform.png"
+  },
+  "kapwing": {
+    "fallback": "kapwing.svg",
+    "tool_url": "https://www.kapwing.com/ai",
+    "file": "kapwing.svg",
+    "content_type": "image/svg+xml",
+    "source": "local-fallback",
+    "url": "local://assets/tool-icons/kapwing.svg"
+  },
+  "krea": {
+    "content_type": "image/png",
+    "fallback": "krea.svg",
+    "file": "krea.png",
+    "source": "local",
+    "tool_url": "https://www.krea.ai/",
+    "url": "local://assets/tool-icons/krea.png"
+  },
+  "leonardo": {
+    "fallback": "leonardo.svg",
+    "tool_url": "https://leonardo.ai/",
+    "file": "leonardo.svg",
+    "content_type": "image/svg+xml",
+    "source": "local-fallback",
+    "url": "local://assets/tool-icons/leonardo.svg"
+  },
+  "lindy": {
+    "content_type": "image/png",
+    "fallback": "lindy.svg",
+    "file": "lindy.png",
+    "source": "local",
+    "tool_url": "https://www.lindy.ai/",
+    "url": "local://assets/tool-icons/lindy.png"
+  },
+  "lovable": {
+    "content_type": "image/png",
+    "fallback": "lovable.svg",
+    "file": "lovable.png",
+    "source": "local",
+    "tool_url": "https://lovable.dev/",
+    "url": "local://assets/tool-icons/lovable.png"
+  },
+  "luma": {
+    "content_type": "image/x-icon",
+    "fallback": "luma.svg",
+    "file": "luma.ico",
+    "source": "local",
+    "tool_url": "https://lumalabs.ai/",
+    "url": "local://assets/tool-icons/luma.ico"
+  },
+  "make": {
+    "content_type": "image/x-icon",
+    "fallback": "make.svg",
+    "file": "make.ico",
+    "source": "local",
+    "tool_url": "https://www.make.com/",
+    "url": "local://assets/tool-icons/make.ico"
+  },
+  "mem": {
+    "content_type": "image/png",
+    "fallback": "mem.svg",
+    "file": "mem.png",
+    "source": "local",
+    "tool_url": "https://mem.ai/",
+    "url": "local://assets/tool-icons/mem.png"
+  },
+  "midjourney": {
+    "content_type": "image/png",
+    "fallback": "midjourney.svg",
+    "file": "midjourney.png",
+    "source": "local",
+    "tool_url": "https://www.midjourney.com/",
+    "url": "local://assets/tool-icons/midjourney.png"
+  },
+  "miro": {
+    "content_type": "image/png",
+    "fallback": "miro.svg",
+    "file": "miro.png",
+    "source": "local",
+    "tool_url": "https://miro.com/ai/",
+    "url": "local://assets/tool-icons/miro.png"
+  },
+  "monica": {
+    "content_type": "image/png",
+    "fallback": "monica.svg",
+    "file": "monica.png",
+    "source": "local",
+    "tool_url": "https://monica.im/",
+    "url": "local://assets/tool-icons/monica.png"
+  },
+  "murf": {
+    "content_type": "image/png",
+    "fallback": "murf.svg",
+    "file": "murf.png",
+    "source": "local",
+    "tool_url": "https://murf.ai/",
+    "url": "local://assets/tool-icons/murf.png"
+  },
+  "n8n": {
+    "content_type": "image/x-icon",
+    "fallback": "n8n.svg",
+    "file": "n8n.ico",
+    "source": "local",
+    "tool_url": "https://n8n.io/",
+    "url": "local://assets/tool-icons/n8n.ico"
+  },
+  "notebooklm": {
+    "content_type": "image/svg+xml",
+    "fallback": "notebooklm.svg",
+    "file": "notebooklm.svg",
+    "source": "local",
+    "tool_url": "https://notebooklm.google.com/",
+    "url": "local://assets/tool-icons/notebooklm.svg"
+  },
+  "notion": {
+    "content_type": "image/png",
+    "fallback": "notion.svg",
+    "file": "notion.png",
+    "source": "local",
+    "tool_url": "https://www.notion.so/product/ai",
+    "url": "local://assets/tool-icons/notion.png"
+  },
+  "openart": {
+    "content_type": "image/png",
+    "fallback": "openart.svg",
+    "file": "openart.png",
+    "source": "local",
+    "tool_url": "https://openart.ai/",
+    "url": "local://assets/tool-icons/openart.png"
+  },
+  "openrouter": {
+    "content_type": "image/x-icon",
+    "fallback": "openrouter.svg",
+    "file": "openrouter.ico",
+    "source": "local",
+    "tool_url": "https://openrouter.ai/",
+    "url": "local://assets/tool-icons/openrouter.ico"
+  },
+  "opusclip": {
+    "fallback": "opusclip.svg",
+    "tool_url": "https://www.opus.pro/",
+    "file": "opusclip.svg",
+    "content_type": "image/svg+xml",
+    "source": "local-fallback",
+    "url": "local://assets/tool-icons/opusclip.svg"
+  },
+  "otter": {
+    "content_type": "image/png",
+    "fallback": "otter.svg",
+    "file": "otter.png",
+    "source": "local",
+    "tool_url": "https://otter.ai/",
+    "url": "local://assets/tool-icons/otter.png"
+  },
+  "perplexity": {
+    "content_type": "image/png",
+    "fallback": "perplexity.svg",
+    "file": "perplexity.png",
+    "source": "local",
+    "tool_url": "https://www.perplexity.ai/",
+    "url": "local://assets/tool-icons/perplexity.png"
+  },
+  "photoroom": {
+    "fallback": "photoroom.svg",
+    "tool_url": "https://www.photoroom.com/",
+    "file": "photoroom.png",
+    "content_type": "image/png",
+    "source": "local",
+    "url": "local://assets/tool-icons/photoroom.png"
+  },
+  "pika": {
+    "fallback": "pika.svg",
+    "tool_url": "https://pika.art/",
+    "file": "pika.svg",
+    "content_type": "image/svg+xml",
+    "source": "local-fallback",
+    "url": "local://assets/tool-icons/pika.svg"
+  },
+  "pitch": {
+    "content_type": "image/x-icon",
+    "fallback": "pitch.svg",
+    "file": "pitch.ico",
+    "source": "local",
+    "tool_url": "https://pitch.com/",
+    "url": "local://assets/tool-icons/pitch.ico"
+  },
+  "pixlr": {
+    "fallback": "pixlr.svg",
+    "tool_url": "https://pixlr.com/",
+    "file": "pixlr.svg",
+    "content_type": "image/svg+xml",
+    "source": "local-fallback",
+    "url": "local://assets/tool-icons/pixlr.svg"
+  },
+  "poe": {
+    "content_type": "image/x-icon",
+    "fallback": "poe.svg",
+    "file": "poe.ico",
+    "source": "local",
+    "tool_url": "https://poe.com/",
+    "url": "local://assets/tool-icons/poe.ico"
+  },
+  "quillbot": {
+    "content_type": "image/png",
+    "fallback": "quillbot.svg",
+    "file": "quillbot.png",
+    "source": "local",
+    "tool_url": "https://quillbot.com/",
+    "url": "local://assets/tool-icons/quillbot.png"
+  },
+  "qwen": {
+    "content_type": "image/png",
+    "fallback": "qwen.svg",
+    "file": "qwen.png",
+    "source": "local",
+    "tool_url": "https://chat.qwen.ai/",
+    "url": "local://assets/tool-icons/qwen.png"
+  },
+  "readai": {
+    "content_type": "image/png",
+    "fallback": "readai.svg",
+    "file": "readai.png",
+    "source": "local",
+    "tool_url": "https://www.read.ai/",
+    "url": "local://assets/tool-icons/readai.png"
+  },
+  "recraft": {
+    "content_type": "image/png",
+    "fallback": "recraft.svg",
+    "file": "recraft.png",
+    "source": "local",
+    "tool_url": "https://www.recraft.ai/",
+    "url": "local://assets/tool-icons/recraft.png"
+  },
+  "removebg": {
+    "content_type": "image/x-icon",
+    "fallback": "removebg.svg",
+    "file": "removebg.ico",
+    "source": "local",
+    "tool_url": "https://www.remove.bg/",
+    "url": "local://assets/tool-icons/removebg.ico"
+  },
+  "replit": {
+    "content_type": "image/png",
+    "fallback": "replit.svg",
+    "file": "replit.png",
+    "source": "local",
+    "tool_url": "https://replit.com/ai",
+    "url": "local://assets/tool-icons/replit.png"
+  },
+  "runway": {
+    "content_type": "image/png",
+    "fallback": "runway.svg",
+    "file": "runway.png",
+    "source": "local",
+    "tool_url": "https://runwayml.com/",
+    "url": "local://assets/tool-icons/runway.png"
+  },
+  "scispace": {
+    "fallback": "scispace.svg",
+    "tool_url": "https://typeset.io/",
+    "file": "scispace.svg",
+    "content_type": "image/svg+xml",
+    "source": "local-fallback",
+    "url": "local://assets/tool-icons/scispace.svg"
+  },
+  "scite": {
+    "content_type": "image/x-icon",
+    "fallback": "scite.svg",
+    "file": "scite.ico",
+    "source": "local",
+    "tool_url": "https://scite.ai/",
+    "url": "local://assets/tool-icons/scite.ico"
+  },
+  "semanticscholar": {
+    "content_type": "image/png",
+    "fallback": "semanticscholar.svg",
+    "file": "semanticscholar.png",
+    "source": "local",
+    "tool_url": "https://www.semanticscholar.org/",
+    "url": "local://assets/tool-icons/semanticscholar.png"
+  },
+  "sourcegraph": {
+    "content_type": "image/svg+xml",
+    "fallback": "sourcegraph.svg",
+    "file": "sourcegraph.svg",
+    "source": "local",
+    "tool_url": "https://sourcegraph.com/cody",
+    "url": "local://assets/tool-icons/sourcegraph.svg"
+  },
+  "speechify": {
+    "fallback": "speechify.svg",
+    "tool_url": "https://speechify.com/",
+    "file": "speechify.svg",
+    "content_type": "image/svg+xml",
+    "source": "local",
+    "url": "local://assets/tool-icons/speechify.svg"
+  },
+  "stitch": {
+    "content_type": "image/png",
+    "fallback": "stitch.svg",
+    "file": "stitch.png",
+    "source": "local",
+    "tool_url": "https://stitch.withgoogle.com/",
+    "url": "local://assets/tool-icons/stitch.png"
+  },
+  "suno": {
+    "fallback": "suno.svg",
+    "tool_url": "https://suno.com/",
+    "file": "suno.png",
+    "content_type": "image/png",
+    "source": "local",
+    "url": "local://assets/tool-icons/suno.png"
+  },
+  "superhuman": {
+    "content_type": "image/png",
+    "fallback": "superhuman.svg",
+    "file": "superhuman.png",
+    "source": "local",
+    "tool_url": "https://superhuman.com/",
+    "url": "local://assets/tool-icons/superhuman.png"
+  },
+  "synthesia": {
+    "fallback": "synthesia.svg",
+    "tool_url": "https://www.synthesia.io/",
+    "file": "synthesia.png",
+    "content_type": "image/png",
+    "source": "local",
+    "url": "local://assets/tool-icons/synthesia.png"
+  },
+  "tabnine": {
+    "fallback": "tabnine.svg",
+    "tool_url": "https://www.tabnine.com/",
+    "file": "tabnine.svg",
+    "content_type": "image/svg+xml",
+    "source": "local",
+    "url": "local://assets/tool-icons/tabnine.svg"
+  },
+  "taskade": {
+    "content_type": "image/png",
+    "fallback": "taskade.svg",
+    "file": "taskade.png",
+    "source": "local",
+    "tool_url": "https://www.taskade.com/",
+    "url": "local://assets/tool-icons/taskade.png"
+  },
+  "tldv": {
+    "content_type": "image/png",
+    "fallback": "tldv.svg",
+    "file": "tldv.png",
+    "source": "local",
+    "tool_url": "https://tldv.io/",
+    "url": "local://assets/tool-icons/tldv.png"
+  },
+  "tome": {
+    "fallback": "tome.svg",
+    "tool_url": "https://tome.app/",
+    "file": "tome.svg",
+    "content_type": "image/svg+xml",
+    "source": "local-fallback",
+    "url": "local://assets/tool-icons/tome.svg"
+  },
+  "v0": {
+    "content_type": "image/png",
+    "fallback": "v0.svg",
+    "file": "v0.png",
+    "source": "local",
+    "tool_url": "https://v0.dev/",
+    "url": "local://assets/tool-icons/v0.png"
+  },
+  "veed": {
+    "fallback": "veed.svg",
+    "tool_url": "https://www.veed.io/",
+    "file": "veed.png",
+    "content_type": "image/png",
+    "source": "local",
+    "url": "local://assets/tool-icons/veed.png"
+  },
+  "vidnoz": {
+    "content_type": "image/x-icon",
+    "fallback": "vidnoz.svg",
+    "file": "vidnoz.ico",
+    "source": "local",
+    "tool_url": "https://www.vidnoz.com/",
+    "url": "local://assets/tool-icons/vidnoz.ico"
+  },
+  "windsurf": {
+    "content_type": "image/png",
+    "fallback": "windsurf.svg",
+    "file": "windsurf.png",
+    "source": "local",
+    "tool_url": "https://windsurf.com/",
+    "url": "local://assets/tool-icons/windsurf.png"
+  },
+  "youcom": {
+    "content_type": "image/x-icon",
+    "fallback": "youcom.svg",
+    "file": "youcom.ico",
+    "source": "local",
+    "tool_url": "https://you.com/",
+    "url": "local://assets/tool-icons/youcom.ico"
+  },
+  "zapier": {
+    "content_type": "image/png",
+    "fallback": "zapier.svg",
+    "file": "zapier.png",
+    "source": "local",
+    "tool_url": "https://zapier.com/ai",
+    "url": "local://assets/tool-icons/zapier.png"
+  }
+}
