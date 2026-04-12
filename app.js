@@ -98,6 +98,345 @@
       ]
     }
   ];
+  const newsSourceLadder = [
+    {
+      tier: "Tier 1",
+      title: "Must Watch",
+      note: "Highest density for AI tool discovery and product movement.",
+      sources: ["The Rundown AI", "Superhuman AI", "Ben's Bites"]
+    },
+    {
+      tier: "Tier 2",
+      title: "Context Layer",
+      note: "Useful for momentum, broader discussion, and live operator sentiment.",
+      sources: ["TLDR AI", "The Neuron", "Hacker News"]
+    },
+    {
+      tier: "Tier 3",
+      title: "Authority Layer",
+      note: "Best for original technical releases, research, and official product narratives.",
+      sources: ["MIT News", "OpenAI Blog", "DeepMind"]
+    }
+  ];
+  const newsFeed = [
+    {
+      date: "2026-04-12",
+      label: "April 12, 2026",
+      items: [
+        {
+          id: "chatgpt-100-tier-apr12",
+          category: "Product Updates",
+          title: "ChatGPT's new $100 plan makes Codex-heavy usage feel more mainstream",
+          source: "The Neuron",
+          summary: "OpenAI's new pricing layer widens the on-ramp for heavier ChatGPT and Codex usage, making advanced agent workflows feel less niche than a single premium paywall approach.",
+          href: "https://www.theneurondaily.com/p/chatgpt-gets-a-100-tier#openai-adds-100-tier",
+          imageUrl: "assets/news/chatgpt-100-tier-source.png",
+          excerpt: "Heat read: with ChatGPT still one of the highest-traffic AI products online, pricing moves are effectively market signals about where real demand is concentrating."
+        },
+        {
+          id: "gemini-flash-live-apr12",
+          category: "Model Releases",
+          title: "Gemini 3.1 Flash Live becomes Google's clearest push into always-on voice AI",
+          source: "Google Blog",
+          summary: "Google is pushing Gemini deeper into real-time assistant workflows with a lower-latency audio model that feels built for live conversation, demos, and multimodal agent experiences.",
+          href: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+          imageUrl: "assets/news/google-gemini-flash-live-source.webp",
+          excerpt: "Heat read: Gemini still leads this site's traffic ranking, so product moves that improve latency and voice reliability are among the most representative April signals."
+        },
+        {
+          id: "adobe-firefly-precision-apr12",
+          category: "Creative AI",
+          title: "Adobe Firefly shifts from wow-factor generation toward exact image control",
+          source: "Adobe Blog",
+          summary: "Adobe's latest Firefly release is less about one-click novelty and more about precise editing controls that fit real creative-team revision loops inside an existing production stack.",
+          href: "https://blog.adobe.com/en/publish/2026/04/09/new-image-editing-features-adobe-firefly-get-you-from-almost-there-to-exactly-right",
+          imageUrl: "assets/news/adobe-firefly-precision-flow.jpg",
+          excerpt: "Heat read: Firefly remains one of the biggest design-side AI destinations, so practical editing upgrades matter more than another benchmark-style announcement."
+        },
+        {
+          id: "claude-managed-agents-apr12",
+          category: "Agents",
+          title: "Claude Managed Agents gives Anthropic a more complete hosted agent stack",
+          source: "Anthropic Engineering",
+          summary: "Anthropic is turning Claude from a strong chat surface into more durable agent infrastructure, with hosted sessions designed for longer-running, recoverable production work.",
+          href: "https://www.anthropic.com/engineering/managed-agents",
+          excerpt: "Heat read: Claude remains one of the highest-traffic top tools on the site, so managed orchestration is a more meaningful signal than another generic model benchmark."
+        },
+        {
+          id: "perplexity-build-challenge-apr12",
+          category: "Agents",
+          title: "Perplexity keeps using Computer to reposition itself as a builder platform",
+          source: "Superhuman AI",
+          summary: "Perplexity is using a public startup challenge to frame Computer as more than a research assistant, pushing it toward an agent platform with broader builder appeal.",
+          href: "https://www.superhuman.ai/p/perplexity-s-billion-dollar-challenge",
+          excerpt: "Heat read: Perplexity's traffic is lower than ChatGPT or Gemini, but product momentum remains unusually strong whenever it expands beyond search."
+        }
+      ]
+    },
+    {
+      date: "2026-04-11",
+      label: "April 11, 2026",
+      items: [
+        {
+          id: "gemma-4-open-weight-apr11",
+          category: "Open Models",
+          title: "Gemma 4 strengthens Google's open-weight story for AI Studio builders",
+          source: "DeepMind",
+          summary: "DeepMind is framing Gemma 4 around practical capability per parameter, giving Google a stronger open-model narrative that complements Gemini and boosts the AI Studio ecosystem.",
+          href: "https://deepmind.google/discover/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+          excerpt: "Tool angle: for Google AI Studio users, Gemma 4 is important because it broadens what the Google stack can offer outside a single closed-model lane."
+        },
+        {
+          id: "codex-3m-weekly-users-apr11",
+          category: "Developer Tools",
+          title: "Codex at 3M weekly users shows coding agents are crossing into the mainstream",
+          source: "The Neuron",
+          summary: "The latest Codex growth milestone suggests AI coding agents are no longer just for early adopters and power users, but are becoming part of the default developer toolkit.",
+          href: "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#codex-3m-users",
+          excerpt: "Tool angle: ChatGPT and Codex are increasingly winning not just on model quality but on repeated, habitual use."
+        },
+        {
+          id: "deepseek-v3-open-source-pressure-apr11",
+          category: "Open Models",
+          title: "DeepSeek V3-0324 keeps raising pressure on proprietary model leaders",
+          source: "AI News",
+          summary: "DeepSeek continues to gain attention as one of the few open-model challengers forcing Gemini, Claude, and ChatGPT to respond to faster-moving price and capability pressure.",
+          href: "https://www.artificialintelligence-news.com/news/deepseek-v3-0324-tops-non-reasoning-ai-models-open-source-first/",
+          excerpt: "Tool angle: DeepSeek remains one of the clearest open-model stories inside this site's top-traffic AI stack."
+        },
+        {
+          id: "claude-mythos-cyber-positioning-apr11",
+          category: "Model Releases",
+          title: "Claude Mythos keeps pushing Anthropic toward a cyber-and-safety-first release posture",
+          source: "Superhuman AI",
+          summary: "Anthropic's Mythos messaging is positioning Claude as a higher-stakes model family, with benchmark gains wrapped in a more defensive release narrative around security risk.",
+          href: "https://www.superhuman.ai/p/anthropic-announces-new-claude-mythos-model",
+          excerpt: "Tool angle: this is less about a single launch and more about how Anthropic wants the market to interpret Claude's next frontier step."
+        },
+        {
+          id: "openai-intelligence-age-policy-apr11",
+          category: "Policy",
+          title: "OpenAI's Intelligence Age memo makes ChatGPT's policy ambition impossible to ignore",
+          source: "The Neuron",
+          summary: "OpenAI is signaling that the next phase of ChatGPT is not just a product story but a broader attempt to shape labor, infrastructure, taxation, and AI governance debates.",
+          href: "https://www.theneurondaily.com/p/what-does-openai-see-coming#intelligence-age",
+          excerpt: "Tool angle: OpenAI is increasingly acting like both a lab and a policy platform."
+        }
+      ]
+    },
+    {
+      date: "2026-04-10",
+      label: "April 10, 2026",
+      items: [
+        {
+          id: "gemini-notebooks-persistent-context-apr10",
+          category: "Research Workflows",
+          title: "Notebooks in Gemini brings longer-lived project context into Google's consumer stack",
+          source: "The Neuron",
+          summary: "Google's new notebooks layer makes Gemini feel more useful for recurring research and presentation work by turning one-off chats into reusable, project-based context.",
+          href: "https://www.theneurondaily.com/p/chatgpt-gets-a-100-tier#notebooklm-in-gemini",
+          excerpt: "Why it matters: persistent context is one of the most practical product levers for keeping users inside one AI ecosystem."
+        },
+        {
+          id: "gemini-mental-health-safeguards-apr10",
+          category: "Safety",
+          title: "Google adds stronger mental-health safeguards to Gemini after lawsuits",
+          source: "The Neuron",
+          summary: "Google is widening Gemini's safety posture with crisis hotlines and anti-self-harm design changes, showing how trust and liability are becoming product-level concerns.",
+          href: "https://www.theneurondaily.com/p/too-dangerous-to-release#gemini-safeguards",
+          excerpt: "Why it matters: the next competitive layer is not just capability, but whether products can operate safely at consumer scale."
+        },
+        {
+          id: "adobe-student-spaces-apr10",
+          category: "Productivity",
+          title: "Adobe pushes Firefly-adjacent study workflows into Acrobat with Student Spaces",
+          source: "The Neuron",
+          summary: "Adobe is extending its AI footprint beyond image generation by turning Acrobat into a study and synthesis tool for notes, flashcards, podcasts, and presentations.",
+          href: "https://www.theneurondaily.com/p/too-dangerous-to-release#adobe-student-spaces",
+          excerpt: "Why it matters: Adobe is using existing workflow surfaces, not standalone hype, to deepen AI usage."
+        },
+        {
+          id: "openai-child-safety-blueprint-apr10",
+          category: "Safety",
+          title: "OpenAI expands its trust narrative with the Child Safety Blueprint",
+          source: "OpenAI Blog",
+          summary: "OpenAI's latest safety framework pushes ChatGPT's public story beyond launches and pricing into reporting systems, enforcement coordination, and safer default behavior.",
+          href: "https://openai.com/index/introducing-child-safety-blueprint/",
+          excerpt: "Why it matters: frontier labs are increasingly competing on visible safety infrastructure as well as model capability."
+        },
+        {
+          id: "deepl-agent-rollout-apr10",
+          category: "Translation AI",
+          title: "DeepL is positioning AI Agent as a multilingual workflow layer for business teams",
+          source: "DeepL",
+          summary: "DeepL is framing AI Agent as more than translation, pushing toward a broader business assistant layer for international teams handling support, writing, and operations.",
+          href: "https://www.deepl.com/en/products/ai-agent",
+          excerpt: "Why it matters: DeepL remains one of the most commercially credible AI tools outside the big model labs."
+        }
+      ]
+    },
+    {
+      date: "2026-04-09",
+      label: "April 9, 2026",
+      items: [
+        {
+          id: "claude-code-leak-blueprint-apr09",
+          category: "Developer Tools",
+          title: "Claude Code's leak turned Anthropic's harness into a public design reference",
+          source: "The Neuron",
+          summary: "The Claude Code source leak made the orchestration layer behind one of the hottest coding agents unusually legible, giving the market a clearer look at how serious agent harnesses are being built.",
+          href: "https://www.theneurondaily.com/p/anthropic-accidentally-leaked-claude-code-s-entire-source-code#blueprint",
+          excerpt: "Why it matters: the AI coding race increasingly looks like a harness race, not just a model race."
+        },
+        {
+          id: "openai-122b-round-apr09",
+          category: "Funding",
+          title: "OpenAI's $122B funding round reset expectations for frontier-AI scale",
+          source: "The Neuron",
+          summary: "OpenAI's enormous raise reinforces that ChatGPT's commercial position is now influencing how the entire market thinks about compute, infrastructure, and capital requirements.",
+          href: "https://www.theneurondaily.com/p/anthropic-accidentally-leaked-claude-code-s-entire-source-code#openai-funding",
+          excerpt: "Why it matters: funding scale now shapes which labs can keep pushing expensive frontier products."
+        },
+        {
+          id: "perplexity-computer-taxes-apr09",
+          category: "Agents",
+          title: "Perplexity Computer keeps stretching from research into end-to-end task execution",
+          source: "Superhuman AI",
+          summary: "Perplexity's push into tasks like tax prep shows the company wants Computer to be seen as an action-taking agent, not just a better search box.",
+          href: "https://www.superhuman.ai/p/perplexity-computer-does-your-taxes",
+          excerpt: "Why it matters: the market is rewarding products that can actually complete work, not only summarize it."
+        },
+        {
+          id: "grok-translation-photo-editing-apr09",
+          category: "Product Updates",
+          title: "Grok expands inside X with translation and photo-editing features",
+          source: "The Neuron",
+          summary: "X is widening Grok's usefulness with built-in translation and image-editing tools, reinforcing its strategy of making the assistant feel native to the platform rather than separate from it.",
+          href: "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#grok-updates",
+          excerpt: "Why it matters: Grok's scale advantage comes from distribution through X, not just model branding."
+        },
+        {
+          id: "openai-illinois-liability-bill-apr09",
+          category: "Policy",
+          title: "OpenAI's Illinois liability push shows regulation is now a product-adjacent battle",
+          source: "Ben's Bites",
+          summary: "OpenAI's support for an Illinois liability bill highlights how legal definitions around AI responsibility are becoming a meaningful competitive issue for major labs.",
+          href: "https://news.bensbites.co/openai-backs-an-illinois-bill-that-would-limit-when-ai-labs-can-be-held-liable/",
+          excerpt: "Why it matters: regulation is no longer outside the product story; it directly shapes deployment risk."
+        }
+      ]
+    },
+    {
+      date: "2026-04-08",
+      label: "April 8, 2026",
+      items: [
+        {
+          id: "project-glasswing-apr08",
+          category: "Safety",
+          title: "Project Glasswing gives defenders early access to Anthropic's unreleased cyber model",
+          source: "The Neuron",
+          summary: "Anthropic is using Project Glasswing to put Mythos Preview in defenders' hands first, signaling a more security-first release strategy for high-risk Claude capabilities.",
+          href: "https://www.theneurondaily.com/p/too-dangerous-to-release#project-glasswing",
+          excerpt: "Why it matters: Claude's strongest upcoming capabilities are being framed as a deployment-governance problem, not just a product launch."
+        },
+        {
+          id: "google-ai-studio-gemma-leverage-apr08",
+          category: "Open Models",
+          title: "Google AI Studio gets a stronger developer story when Gemma and Gemini move together",
+          source: "DeepMind",
+          summary: "Gemma 4 gives Google AI Studio more open-model credibility, making Google's stack feel broader than a single closed Gemini endpoint for developers and prototype teams.",
+          href: "https://deepmind.google/discover/blog/gemma-4-byte-for-byte-the-most-capable-open-models/#google-ai-studio",
+          excerpt: "Why it matters: the most durable platforms usually win by offering multiple lanes, not one monolithic model."
+        },
+        {
+          id: "anti-distillation-frontier-labs-apr08",
+          category: "Policy",
+          title: "OpenAI, Anthropic, and Google align more openly against model-copying pressure",
+          source: "The Neuron",
+          summary: "The leading labs are taking a harder public line on distillation and model copying, a sign that open-model pressure from players like DeepSeek is reshaping the rules of competition.",
+          href: "https://www.theneurondaily.com/p/too-dangerous-to-release#anti-distillation",
+          excerpt: "Why it matters: open-model competition is now triggering strategy changes inside the biggest closed-model labs."
+        },
+        {
+          id: "state-sponsored-hackers-gemini-apr08",
+          category: "Security",
+          title: "Google identifies state-backed attackers using Gemini inside real campaigns",
+          source: "AI News",
+          summary: "A new report ties Gemini to real-world abuse by state-sponsored threat actors, underscoring how frontier tools are already being folded into phishing and malware operations.",
+          href: "https://www.artificialintelligence-news.com/news/state-sponsored-hackers-ai-cyberattacks-google/",
+          excerpt: "Why it matters: safety and abuse resistance are now operational product requirements, not abstract research talking points."
+        },
+        {
+          id: "deepl-agent-enterprise-apr08",
+          category: "Translation AI",
+          title: "DeepL is broadening from translation into agent-style enterprise assistance",
+          source: "DeepL",
+          summary: "DeepL's AI Agent positioning suggests the company wants to own more of the multilingual workflow stack, not just the final translation step.",
+          href: "https://www.deepl.com/en/products/ai-agent#enterprise",
+          excerpt: "Why it matters: specialized AI products can still grow by expanding around one trusted core job."
+        }
+      ]
+    },
+    {
+      date: "2026-04-07",
+      label: "April 7, 2026",
+      items: [
+        {
+          id: "openai-mini-new-deal-apr07",
+          category: "Policy",
+          title: "OpenAI's policy paper reads like a mini-New Deal for the AI economy",
+          source: "The Neuron",
+          summary: "OpenAI is no longer speaking only as a lab shipping ChatGPT upgrades, but as a company actively trying to shape how governments respond to large-scale AI disruption.",
+          href: "https://www.theneurondaily.com/p/what-does-openai-see-coming#mini-new-deal",
+          excerpt: "Why it matters: AI policy is becoming a direct extension of platform strategy."
+        },
+        {
+          id: "openai-anthropic-ipo-pressure-apr07",
+          category: "Finance",
+          title: "OpenAI and Anthropic are being discussed more like future IPO companies than labs",
+          source: "The Neuron",
+          summary: "Reporting around IPO pressure shows how quickly the frontier-model race is being financialized as ChatGPT and Claude keep scaling revenue and compute spend at the same time.",
+          href: "https://www.theneurondaily.com/p/what-does-openai-see-coming#ipo-pressure",
+          excerpt: "Why it matters: the market is increasingly evaluating AI leaders as giant infrastructure businesses, not just products."
+        },
+        {
+          id: "anthropic-google-broadcom-compute-deal-apr07",
+          category: "Infrastructure",
+          title: "Anthropic's huge TPU deal shows Claude's growth is now gated by infrastructure scale",
+          source: "The Neuron",
+          summary: "Anthropic's expanded compute arrangement with Google and Broadcom makes clear that serving and training Claude at the frontier is now as much an infrastructure story as a model story.",
+          href: "https://www.theneurondaily.com/p/too-dangerous-to-release#anthropic-compute-deal",
+          excerpt: "Why it matters: demand for top assistants is increasingly constrained by how much compute can actually be delivered."
+        },
+        {
+          id: "perplexity-arr-growth-apr07",
+          category: "Business",
+          title: "Perplexity's reported ARR momentum suggests research products can still break out",
+          source: "The Neuron",
+          summary: "Reported revenue momentum is reinforcing Perplexity's shift from interesting search startup to one of the few serious consumer AI products with clear commercial pull.",
+          href: "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#perplexity-arr",
+          excerpt: "Why it matters: revenue traction matters because it shows users are paying for a research-native alternative to the biggest general assistants."
+        },
+        {
+          id: "codex-spark-salesforce-clone-apr07",
+          category: "Developer Tools",
+          title: "Codex Spark building a Salesforce-style app in seconds sharpened the coding-agent race",
+          source: "The Neuron",
+          summary: "A fast Codex Spark demo highlighted just how compelling coding agents become when they are measured by end-to-end output rather than raw model benchmarks.",
+          href: "https://www.theneurondaily.com/p/chatgpt-gets-a-100-tier#codex-spark",
+          excerpt: "Why it matters: agent demos are getting better at showing product value in a way benchmark charts cannot."
+        }
+      ]
+    }
+  ];
+  const newsCategories = ["All", ...new Set(newsFeed.flatMap((group) => group.items.map((item) => item.category)))];
+  const flatNewsItems = newsFeed.flatMap((group) =>
+    group.items.map((item) => ({
+      ...item,
+      date: group.date,
+      dateLabel: group.label
+    }))
+  );
   const sidebarIconMap = {
     All: `
       <svg viewBox="0 0 24 24" fill="none">
@@ -389,6 +728,7 @@
     activeCategory: "All",
     activePricing: "All",
     activeRanking: "Assistants",
+    activeNewsCategory: "All",
     activePromptTrack: promptTrackIds.has(promptQuery.get("track")) ? promptQuery.get("track") : "deepseek",
     featuredVisibleCounts: {}
   };
@@ -499,6 +839,12 @@
     searchButton: document.getElementById("search-button"),
     hotFilters: document.getElementById("hot-filters"),
     hotGrid: document.getElementById("hot-grid"),
+    newsLeadGrid: document.getElementById("news-lead-grid"),
+    newsFeed: document.getElementById("news-feed"),
+    newsAds: document.getElementById("news-ads"),
+    newsHotTools: document.getElementById("news-hot-tools"),
+    newsLatestTools: document.getElementById("news-latest-tools"),
+    newsLatestArticles: document.getElementById("news-latest-articles"),
     todayList: document.getElementById("today-list"),
     editorList: document.getElementById("editor-list"),
     stackList: document.getElementById("stack-list"),
@@ -804,6 +1150,281 @@
         </span>
       </a>
     `;
+  }
+
+  function filteredNewsItems() {
+    if (state.activeNewsCategory === "All") {
+      return flatNewsItems;
+    }
+    return flatNewsItems.filter((item) => item.category === state.activeNewsCategory);
+  }
+
+  function newsToolListMarkup(items, badgeBuilder) {
+    return items
+      .map((tool, index) => `
+        <a class="news-tool-row" href="${detailUrl(tool)}">
+          ${iconShell(tool, "is-compact-chip")}
+          <span class="news-tool-row-copy">
+            <strong>${tool.name}</strong>
+            <span>${tool.vendor}</span>
+          </span>
+          <span class="news-tool-row-badge">${badgeBuilder(tool, index)}</span>
+        </a>
+      `)
+      .join("");
+  }
+
+  function newsImageMarkup(item, className) {
+    if (!item.imageUrl) {
+      return "";
+    }
+    return `
+      <span class="${className}">
+        <img src="${item.imageUrl}" alt="${escapeAttribute(item.title)}" loading="lazy" onerror="const media=this.parentElement; if(media){media.style.display='none';} const card=this.closest('.news-feature-card, .news-list-item, .news-article-row'); if(card){card.classList.remove('has-media');}">
+      </span>
+    `;
+  }
+
+  function shortenWords(value, limit) {
+    const text = String(value || "").trim();
+    if (!text) {
+      return "";
+    }
+    const words = text.split(/\s+/);
+    if (words.length <= limit) {
+      return text;
+    }
+    return `${words.slice(0, limit).join(" ")}...`;
+  }
+
+  function normalizeNewsTitle(title) {
+    return String(title || "")
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, " ")
+      .split(/\s+/)
+      .filter((token) => token && token.length > 2 && !["the", "and", "for", "with", "from", "that", "this", "into"].includes(token));
+  }
+
+  function areNewsItemsSimilar(left, right) {
+    if (!left || !right) {
+      return false;
+    }
+    if (left.id && right.id && left.id === right.id) {
+      return true;
+    }
+    if (left.href && right.href && left.href === right.href) {
+      return true;
+    }
+
+    const leftTokens = normalizeNewsTitle(left.title);
+    const rightTokens = normalizeNewsTitle(right.title);
+    if (!leftTokens.length || !rightTokens.length) {
+      return false;
+    }
+
+    const rightTokenSet = new Set(rightTokens);
+    const overlapCount = leftTokens.filter((token) => rightTokenSet.has(token)).length;
+    const overlapRatio = overlapCount / Math.min(leftTokens.length, rightTokens.length);
+    return overlapRatio >= 0.72;
+  }
+
+  function distinctNewsItems(items, limit, excludedItems) {
+    const picks = [];
+    const blocked = excludedItems || [];
+
+    items.forEach((item) => {
+      if (picks.length >= limit) {
+        return;
+      }
+      const seenAlready = blocked.some((other) => areNewsItemsSimilar(item, other)) || picks.some((other) => areNewsItemsSimilar(item, other));
+      if (!seenAlready) {
+        picks.push(item);
+      }
+    });
+
+    return picks;
+  }
+
+  function newsToolIds(item) {
+    const haystack = `${item.title || ""} ${item.summary || ""} ${item.excerpt || ""} ${item.source || ""}`.toLowerCase();
+    const matches = [];
+    const pushIfMissing = (toolId) => {
+      if (toolId && !matches.includes(toolId) && tools.some((tool) => tool.id === toolId)) {
+        matches.push(toolId);
+      }
+    };
+
+    if (haystack.includes("gemini") || haystack.includes("gemma") || haystack.includes("google")) {
+      pushIfMissing("gemini");
+      pushIfMissing("googleaistudio");
+    }
+    if (haystack.includes("claude") || haystack.includes("anthropic")) {
+      pushIfMissing("claude");
+    }
+    if (haystack.includes("chatgpt") || haystack.includes("openai") || haystack.includes("codex")) {
+      pushIfMissing("chatgpt");
+    }
+    if (haystack.includes("perplexity")) {
+      pushIfMissing("perplexity");
+    }
+    if (haystack.includes("deepseek")) {
+      pushIfMissing("deepseek");
+    }
+    if (haystack.includes("adobe")) {
+      pushIfMissing("adobefirefly");
+    }
+    if (haystack.includes("notion")) {
+      pushIfMissing("notion");
+    }
+    if (haystack.includes("deepl")) {
+      pushIfMissing("deepl");
+    }
+
+    if (!matches.length) {
+      pushIfMissing("chatgpt");
+    }
+
+    return pickTools(matches).slice(0, 2);
+  }
+
+  function renderNewsHub() {
+    if (!ui.newsLeadGrid || !ui.newsFeed) {
+      return;
+    }
+
+    const isNewsPage = document.body?.dataset?.page === "news";
+    const items = filteredNewsItems();
+    const featuredItems = distinctNewsItems(items, 3, []);
+    const visibleGroups = isNewsPage ? newsFeed : newsFeed.slice(0, 4);
+
+    if (!items.length) {
+      ui.newsLeadGrid.innerHTML = "";
+      ui.newsFeed.innerHTML = `
+        <div class="empty-state">
+          <p class="kicker">No News</p>
+          <h3>No stories are available for this topic yet. Try another news lane.</h3>
+        </div>
+      `;
+      return;
+    }
+
+    ui.newsLeadGrid.innerHTML = featuredItems
+      .map((item, index) => {
+        const isHomePage = !isNewsPage;
+        const title = isHomePage ? shortenWords(item.title, 7) : item.title;
+        const summary = isHomePage ? shortenWords(item.summary, 18) : item.summary;
+        const excerpt = item.excerpt ? (isHomePage ? shortenWords(item.excerpt, 18) : item.excerpt) : "";
+        return `
+        <article class="news-feature-card ${index === 0 ? "is-primary" : ""} ${item.imageUrl ? "has-media" : ""}">
+          ${newsImageMarkup(item, "news-feature-media")}
+          <div class="news-card-topline">
+            <span class="news-topic-badge">${item.category}</span>
+            <span class="news-card-date">${item.dateLabel}</span>
+          </div>
+          <h3><a href="${item.href}" target="_blank" rel="noreferrer">${title}</a></h3>
+          <p class="news-summary">${summary}</p>
+          ${excerpt ? `<p class="news-excerpt">${excerpt}</p>` : ""}
+          <div class="news-card-meta">
+            <span>${item.source}</span>
+            <a class="news-inline-link" href="${item.href}" target="_blank" rel="noreferrer">View source</a>
+          </div>
+        </article>
+      `;
+      })
+      .join("");
+
+    const timelineItems = [];
+    const groupedMarkup = visibleGroups
+      .map((group) => {
+        const groupItems = distinctNewsItems(
+          group.items.filter((item) => state.activeNewsCategory === "All" || item.category === state.activeNewsCategory),
+          isNewsPage ? 12 : 5,
+          [...featuredItems, ...timelineItems]
+        );
+        if (!groupItems.length) {
+          return "";
+        }
+        timelineItems.push(...groupItems);
+        return `
+          <section class="news-day-group">
+            <div class="news-day-header">
+              <h3>${group.label}</h3>
+            </div>
+            <div class="news-tree">
+              ${groupItems
+                .map((item) => `
+                  <article class="news-tree-item">
+                    <span class="news-tree-node" aria-hidden="true"></span>
+                    <div class="news-tree-content">
+                      <div class="news-tree-tools">
+                        ${newsToolIds(item)
+                          .map((tool) => iconShell(tool, "news-tree-tool-icon"))
+                          .join("")}
+                      </div>
+                      <p class="news-tree-summary"><a href="${item.href}" target="_blank" rel="noreferrer">${item.summary}</a></p>
+                    </div>
+                  </article>
+                `)
+                .join("")}
+            </div>
+          </section>
+        `;
+      })
+      .join("");
+
+    ui.newsFeed.innerHTML = groupedMarkup;
+
+    if (ui.newsAds) {
+      ui.newsAds.innerHTML = `
+        <a class="news-ad-card is-primary" href="featured.html">
+          <span class="news-ad-eyebrow">Sponsor Slot</span>
+          <strong>Featured placement for AI brands</strong>
+          <p>Use this right-rail placement for campaigns, launches, premium tools, or editorial sponsorships.</p>
+          <span class="news-ad-cta">Featured Flow</span>
+        </a>
+        <a class="news-ad-card" href="directory.html">
+          <span class="news-ad-eyebrow">Submit Lane</span>
+          <strong>List your AI tool</strong>
+          <p>Connect directory placement, launch pages, and topical discovery into one homepage conversion path.</p>
+          <span class="news-ad-cta">Pro Directory</span>
+        </a>
+      `;
+    }
+
+    if (ui.newsHotTools) {
+      ui.newsHotTools.innerHTML = newsToolListMarkup(tools.slice(0, 5), (tool) => formatVisits(tool.monthlyVisits));
+    }
+
+    if (ui.newsLatestTools) {
+      ui.newsLatestTools.innerHTML = newsToolListMarkup(pickTools(newAndNotableIds).slice(0, 5), () => "New");
+    }
+
+    if (ui.newsLatestArticles) {
+      let latestArticleItems = distinctNewsItems(
+        items.filter((item) => !featuredItems.some((featuredItem) => areNewsItemsSimilar(item, featuredItem))),
+        6,
+        []
+      );
+      if (latestArticleItems.length < 6) {
+        latestArticleItems = distinctNewsItems(items, 6, []);
+      }
+      ui.newsLatestArticles.innerHTML = latestArticleItems
+        .map((item) => `
+          <a class="news-article-row ${item.imageUrl ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
+            ${newsImageMarkup(item, "news-article-media")}
+            <span class="news-article-copy">
+              <span class="news-card-topline">
+                <span class="news-topic-badge">${item.category}</span>
+                <span class="news-card-date">${item.dateLabel}</span>
+              </span>
+              <strong>${shortenWords(item.title, 11)}</strong>
+              <span class="news-article-summary">${shortenWords(item.summary, 20)}</span>
+              <span class="news-article-meta">${item.source}</span>
+            </span>
+          </a>
+        `)
+        .join("");
+    }
   }
 
   function renderSidebar() {
@@ -1706,6 +2327,7 @@
         state.activeCategory = "All";
         state.activePricing = "All";
         state.activeRanking = "Assistants";
+        state.activeNewsCategory = "All";
         ui.searchInput.value = "";
         renderAll();
       });
@@ -1733,6 +2355,7 @@
   function renderAll() {
     renderPromptNavFlyout();
     renderSidebar();
+    renderNewsHub();
     renderHeroMetrics();
     renderHotFilters();
     renderHotGrid();

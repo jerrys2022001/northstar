@@ -3,16 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Northstar AI Directory</title>
-  <meta
-    name="description"
-    content="A Western-facing AI tools and navigation portal inspired by faxianai, curated from Futurepedia and Toolify with stronger traffic filtering and an Apple-like interface."
-  >
-  <meta name="theme-color" content="#f3f4f6">
+  <title>NEWS - Northstar AI</title>
+  <meta name="description" content="Daily AI news across launches, model releases, funding, coding tools, and open-source momentum.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body data-page="home">
+<body data-page="news">
   <div class="page-glow glow-a"></div>
   <div class="page-glow glow-b"></div>
 
@@ -28,8 +24,8 @@
     </div>
 
     <nav class="topnav" aria-label="Primary">
-      <a class="is-active" href="index.html">Home</a>
-      <a href="news.html">NEWS</a>
+      <a href="index.html">Home</a>
+      <a class="is-active" href="news.html">NEWS</a>
       <div class="nav-item nav-item-with-panel">
         <a class="nav-trigger" href="featured.html">
           <span>Featured Flow</span>
@@ -63,12 +59,12 @@
       <a href="directory.html">Pro Directory</a>
     </nav>
 
-    <button class="icon-button" type="button" aria-label="Search">
-      <span>&#8981;</span>
-    </button>
+    <a class="icon-button" href="index.html" aria-label="Back to home">
+      <span>&#8962;</span>
+    </a>
   </header>
 
-  <main class="portal" id="home">
+  <main class="portal">
     <aside class="sidebar glass">
       <div class="sidebar-section">
         <h2>Browse</h2>
@@ -77,65 +73,17 @@
     </aside>
 
     <section class="content">
-      <section class="search-hero glass" id="search-hub">
-        <div class="hero-layout">
-          <div class="hero-main">
-            <div class="hero-copy">
-              <p class="kicker">Discover Faster</p>
-              <h1>
-                Discover The Best
-                <span class="hero-keyword hero-keyword-ai">AI</span>
-                <span class="hero-keyword hero-keyword-web">Websites</span>
-                &amp;
-                <span class="hero-keyword hero-keyword-tools">Tools</span>
-              </h1>
-              <p class="hero-subtitle">
-                <strong id="hero-tools-copy">--</strong> curated AI tools across
-                <strong id="hero-category-copy">--</strong> categories for Western teams.
-              </p>
-            </div>
-
-            <div class="search-panel">
-              <label class="search-shell" for="search-input">
-                <input id="search-input" type="search" placeholder="Search by AI tool, workflow, vendor, or category">
-                <button id="search-button" class="search-button" type="button" aria-label="Search">
-                  <span>Search</span>
-                  <span class="search-button-icon">&#8981;</span>
-                </button>
-              </label>
-            </div>
-
-            <div class="hero-quick-links">
-              <a class="hero-quick-link" href="#news-hub">Daily AI News</a>
-              <a class="hero-quick-link" href="#hot-tools">Trending picks</a>
-              <a class="hero-quick-link" href="#usecase-boards">Use Cases</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-card section-shell" id="hot-tools">
-        <div class="section-header">
-          <div class="section-header-copy">
-            <p class="kicker">Hot AI</p>
-            <h2>Trending AI picks</h2>
-            <p class="section-lead">The fastest way to see what is drawing attention across the current catalog.</p>
-          </div>
-          <a class="link-button" href="directory.html">more+</a>
-        </div>
-
-        <div class="section-filter-row" id="hot-filters"></div>
-        <div class="tool-portal-grid" id="hot-grid" aria-live="polite"></div>
-      </section>
-
       <section class="section-card section-shell news-shell" id="news-hub">
-        <div class="section-header">
+        <div class="section-header news-shell-header">
           <div class="section-header-copy">
             <p class="kicker">Daily AI News</p>
-            <h2>NEWS</h2>
-            <p class="section-lead">A homepage preview for fast AI headlines, product launches, model updates, funding activity, and open-source momentum.</p>
+            <h1 class="news-title">NEWS</h1>
+            <p class="section-lead">Track fast-moving AI headlines across launches, model releases, coding tools, funding, open-source momentum, and operator discussion.</p>
           </div>
-          <a class="link-button" href="news.html">more+</a>
+          <div class="news-shell-meta">
+            <span class="news-stat-pill"><strong id="hero-tools-copy">--</strong> AI tools tracked</span>
+            <span class="news-stat-pill"><strong id="hero-category-copy">--</strong> categories indexed</span>
+          </div>
         </div>
 
         <div class="news-layout">
@@ -148,6 +96,20 @@
             <div class="news-side-card news-ad-stack" id="news-ads"></div>
             <div class="news-side-card">
               <div class="news-side-head">
+                <p class="kicker">Popular Tools</p>
+                <h3>Popular AI Tools</h3>
+              </div>
+              <div class="news-tool-list" id="news-hot-tools"></div>
+            </div>
+            <div class="news-side-card">
+              <div class="news-side-head">
+                <p class="kicker">Latest Tools</p>
+                <h3>Latest Tools</h3>
+              </div>
+              <div class="news-tool-list" id="news-latest-tools"></div>
+            </div>
+            <div class="news-side-card">
+              <div class="news-side-head">
                 <p class="kicker">Latest Articles</p>
                 <h3>Latest Articles</h3>
               </div>
@@ -155,18 +117,6 @@
             </div>
           </aside>
         </div>
-      </section>
-
-      <section class="section-card section-shell" id="usecase-boards">
-        <div class="section-header">
-          <div class="section-header-copy">
-            <p class="kicker">Use Cases</p>
-            <h2>Start from the job to be done</h2>
-            <p class="section-lead">Browse from workflow intent when users care more about outcomes than tool brands.</p>
-          </div>
-          <a class="link-button" href="usecases.html">more+</a>
-        </div>
-        <div class="usecase-wall" id="usecase-wall"></div>
       </section>
     </section>
   </main>
@@ -176,10 +126,10 @@
     <p>Structured like a portal, curated like a product, and filtered for higher-traction AI tools.</p>
   </footer>
 
-    <script src="catalog.js"></script>
-    <script src="catalog_extra_1.js"></script>
-    <script src="catalog_extra_2.js"></script>
-    <script src="catalog_extra_3.js"></script>
-    <script src="app.js"></script>
+  <script src="catalog.js"></script>
+  <script src="catalog_extra_1.js"></script>
+  <script src="catalog_extra_2.js"></script>
+  <script src="catalog_extra_3.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
