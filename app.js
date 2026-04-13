@@ -1570,11 +1570,8 @@
 
     if (ui.newsAds) {
       ui.newsAds.innerHTML = `
-        <a class="news-ad-card is-primary" href="featured.html">
-          <span class="news-ad-eyebrow">Sponsor Slot</span>
-          <strong>Featured placement for AI brands</strong>
-          <p>Use this right-rail placement for campaigns, launches, premium tools, or editorial sponsorships.</p>
-          <span class="news-ad-cta">Featured Flow</span>
+        <a class="news-ad-card is-primary is-image-only" href="https://velocai.net" target="_blank" rel="noreferrer sponsored">
+          <img class="news-ad-image" src="assets/sponsors/velocai.jpg" alt="VelocAI sponsor banner">
         </a>
         <a class="news-ad-card" href="directory.html">
           <span class="news-ad-eyebrow">Submit Lane</span>
