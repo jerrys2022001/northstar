@@ -2110,6 +2110,10 @@ h6 {
   gap: 14px;
 }
 
+.count-emphasis {
+  color: var(--accent-dark);
+}
+
 .directory-toolbar {
   margin-top: 8px;
   display: grid;

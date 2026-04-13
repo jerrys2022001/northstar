@@ -2229,6 +2229,10 @@
     return `<button class="${className} ${currentValue === label ? "is-active" : ""}" type="button" data-${key}="${label}">${label}</button>`;
   }
 
+  function directoryCountMarkup(toolCount, categoryCount, categoryLabel) {
+    return `<span class="count-emphasis">${toolCount}</span> filtered tools across <span class="count-emphasis">${categoryCount}</span> ${categoryLabel}`;
+  }
+
   function renderDirectoryFilters() {
     if (!ui.categoryFilters || !ui.pricingFilters) {
       return;
@@ -2269,7 +2273,8 @@
       }))
       .filter((entry) => entry.items.length);
 
-    ui.resultsCount.textContent = `${items.length} filtered tools across ${visibleCategories.length} categories`;
+    const categoryLabel = visibleCategories.length === 1 ? "category" : "categories";
+    ui.resultsCount.innerHTML = directoryCountMarkup(items.length, visibleCategories.length, categoryLabel);
 
     if (!items.length) {
       if (ui.directoryOverviewGrid) {
@@ -2295,7 +2300,7 @@
               <p class="kicker">Category Snapshot</p>
               <h3>Scroll through every active AI lane</h3>
             </div>
-            <p class="directory-overview-summary">${items.length} tools live across ${visibleCategories.length} active categories.</p>
+            <p class="directory-overview-summary">${directoryCountMarkup(items.length, visibleCategories.length, `active ${categoryLabel}`)}</p>
           </div>
           <div class="directory-overview-scroll" role="list">
             ${visibleCategories
@@ -2663,8 +2668,14 @@
         state.activePricing = "All";
         state.activeRanking = "Assistants";
         state.activeNewsCategory = "All";
-        ui.searchInput.value = "";
+        if (ui.searchInput) {
+          ui.searchInput.value = "";
+        }
+        if (window.history && window.history.replaceState && /(^|\/)directory\.html$/i.test(window.location.pathname || "")) {
+          window.history.replaceState({}, "", "directory.html#directory");
+        }
         renderAll();
+        document.getElementById("directory")?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     }
 
