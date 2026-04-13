@@ -1993,10 +1993,10 @@ h6 {
 
 .directory-overview-grid {
   margin-top: 14px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
 }
 
-.directory-overview-card,
+.directory-overview-panel,
 .directory-category-section {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(252, 249, 244, 0.94));
   border: 1px solid rgba(20, 20, 20, 0.07);
@@ -2004,20 +2004,20 @@ h6 {
   box-shadow: 0 10px 24px rgba(17, 17, 17, 0.03);
 }
 
-.directory-overview-card {
+.directory-overview-panel {
   display: grid;
-  gap: 10px;
-  padding: 14px 15px;
+  gap: 14px;
+  padding: 16px;
 }
 
-.directory-overview-head {
+.directory-overview-header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 16px;
+  align-items: end;
 }
 
-.directory-overview-card h3,
+.directory-overview-panel h3,
 .directory-subhead h3,
 .directory-category-section h3 {
   margin: 0;
@@ -2025,19 +2025,98 @@ h6 {
   letter-spacing: -0.03em;
 }
 
-.directory-overview-card p,
-.directory-overview-meta {
+.directory-overview-summary,
+.directory-overview-row-copy,
+.directory-overview-row-meta {
   margin: 0;
   color: var(--muted);
 }
 
-.directory-overview-button {
-  width: fit-content;
+.directory-overview-summary {
+  max-width: 340px;
+  text-align: right;
+  font-size: 0.92rem;
 }
 
-.directory-overview-meta {
+.directory-overview-scroll {
+  display: grid;
+  gap: 10px;
+  max-height: 360px;
+  overflow-y: auto;
+  padding-right: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(22, 61, 122, 0.55) rgba(17, 17, 17, 0.08);
+}
+
+.directory-overview-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.directory-overview-scroll::-webkit-scrollbar-track {
+  background: rgba(17, 17, 17, 0.08);
+  border-radius: 999px;
+}
+
+.directory-overview-scroll::-webkit-scrollbar-thumb {
+  background: rgba(22, 61, 122, 0.55);
+  border-radius: 999px;
+}
+
+.directory-overview-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) auto minmax(170px, 0.9fr);
+  gap: 14px;
+  align-items: center;
+  padding: 14px 15px;
+  border-radius: 16px;
+  border: 1px solid rgba(20, 20, 20, 0.07);
+  background: rgba(255, 255, 255, 0.82);
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+}
+
+.directory-overview-row:hover,
+.directory-overview-row:focus-visible {
+  border-color: rgba(22, 61, 122, 0.24);
+  background: rgba(247, 250, 255, 0.96);
+  transform: translateY(-1px);
+}
+
+.directory-overview-row-main {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.directory-overview-row-title,
+.directory-overview-row-count {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.directory-overview-row-title {
+  font-size: 1rem;
+}
+
+.directory-overview-row-copy,
+.directory-overview-row-meta {
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.directory-overview-row-count {
+  white-space: nowrap;
+  justify-self: end;
+}
+
+.directory-overview-row-meta {
   font-size: 0.82rem;
   font-weight: 600;
+  justify-self: end;
+  text-align: right;
 }
 
 .directory-sections {
@@ -3643,7 +3722,7 @@ body[data-page="home"] .news-feature-card .news-excerpt {
   }
 
   .directory-overview-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
   }
 
   .detail-hero,
@@ -3817,6 +3896,23 @@ body[data-page="home"] .news-feature-card .news-excerpt {
   .directory-overview-grid,
   .sidebar-nav {
     grid-template-columns: 1fr;
+  }
+
+  .directory-overview-row {
+    grid-template-columns: 1fr;
+  }
+
+  .directory-overview-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .directory-overview-summary,
+  .directory-overview-row-count,
+  .directory-overview-row-meta {
+    max-width: none;
+    justify-self: start;
+    text-align: left;
   }
 
   .topbar,

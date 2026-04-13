@@ -2235,26 +2235,38 @@
     }
 
     if (ui.directoryOverviewGrid) {
-      ui.directoryOverviewGrid.innerHTML = visibleCategories
-        .map(({ category, items: categoryItems }) => {
-          const topNames = categoryItems.slice(0, 3).map((tool) => tool.name).join(" · ");
-          const lead = categoryItems[0];
-          return `
-            <article class="directory-overview-card">
-              <div class="directory-overview-head">
-                <p class="kicker">${category}</p>
-                <strong>${categoryItems.length} tools</strong>
-              </div>
-              <h3>${category}</h3>
-              <p>${topNames}</p>
-              <button class="secondary-button directory-overview-button" type="button" data-category="${category}">
-                Explore ${category}
-              </button>
-              <span class="directory-overview-meta">${lead.trafficLabel} leader · ${lead.name}</span>
-            </article>
-          `;
-        })
-        .join("");
+      ui.directoryOverviewGrid.innerHTML = `
+        <section class="directory-overview-panel">
+          <div class="directory-overview-header">
+            <div>
+              <p class="kicker">Category Snapshot</p>
+              <h3>Scroll through every active AI lane</h3>
+            </div>
+            <p class="directory-overview-summary">${items.length} tools live across ${visibleCategories.length} active categories.</p>
+          </div>
+          <div class="directory-overview-scroll" role="list">
+            ${visibleCategories
+              .map(({ category, items: categoryItems }) => {
+                const topNames = categoryItems
+                  .slice(0, 4)
+                  .map((tool) => tool.name)
+                  .join(" · ");
+                const lead = categoryItems[0];
+                return `
+                  <button class="directory-overview-row" type="button" data-category="${category}" role="listitem">
+                    <span class="directory-overview-row-main">
+                      <span class="directory-overview-row-title">${category}</span>
+                      <span class="directory-overview-row-copy">${topNames}</span>
+                    </span>
+                    <span class="directory-overview-row-count">${categoryItems.length} tools</span>
+                    <span class="directory-overview-row-meta">${lead.trafficLabel} leader · ${lead.name}</span>
+                  </button>
+                `;
+              })
+              .join("")}
+          </div>
+        </section>
+      `;
 
       ui.directoryOverviewGrid.querySelectorAll("[data-category]").forEach((button) => {
         button.addEventListener("click", () => {
@@ -2278,7 +2290,6 @@
             </div>
             <div class="directory-category-grid">
               ${categoryItems
-                .slice(0, state.activeCategory === "All" ? 8 : 12)
                 .map((tool) =>
                   toolCard(tool, {
                     className: "directory-item",
