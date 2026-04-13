@@ -22,12 +22,7 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parent
-DATA_FILES = [
-    ROOT / "catalog.js",
-    ROOT / "catalog_extra_1.js",
-    ROOT / "catalog_extra_2.js",
-    ROOT / "catalog_extra_3.js",
-]
+DATA_FILES = [ROOT / "catalog.js", *sorted(ROOT.glob("catalog_extra_*.js"))]
 OUTPUT_DIR = ROOT / "assets" / "tool-icons"
 MANIFEST_FILE = OUTPUT_DIR / "manifest.json"
 USER_AGENT = (
@@ -279,6 +274,9 @@ BRAND_ICON_OVERRIDES: dict[str, list[str]] = {
     "adobeexpress": [
         "https://www.adobe.com/favicon.ico",
     ],
+    "intercomfin": [
+        "https://www.intercom.com/favicon.ico",
+    ],
     "suno": [
         "https://suno.com/favicon.ico",
         "https://suno.com/apple-touch-icon.png",
@@ -289,6 +287,10 @@ BRAND_ICON_OVERRIDES: dict[str, list[str]] = {
     "veed": [
         "https://www.veed.io/favicon.ico",
     ],
+}
+
+PRIMARY_ICON_FILE_ALIASES: dict[str, str] = {
+    "intercomfin": "intercom.svg",
 }
 
 DEFAULT_ICON_PATHS = [
@@ -601,6 +603,31 @@ def write_manifest(entries: dict[str, dict[str, str]]) -> None:
     MANIFEST_FILE.write_text(json.dumps(entries, indent=2, sort_keys=True), encoding="utf-8")
 
 
+def aliased_or_fallback_primary(tool_id: str, fallback_file: str) -> dict[str, str]:
+    alias_file = PRIMARY_ICON_FILE_ALIASES.get(tool_id)
+    if alias_file:
+        extension = Path(alias_file).suffix.lower()
+        if extension == ".png":
+            content_type = "image/png"
+        elif extension == ".ico":
+            content_type = "image/x-icon"
+        else:
+            content_type = "image/svg+xml"
+        return {
+            "file": alias_file,
+            "source": "local-alias",
+            "url": f"local://assets/tool-icons/{alias_file}",
+            "content_type": content_type,
+        }
+
+    return {
+        "file": fallback_file,
+        "source": "generated-fallback",
+        "url": f"local://assets/tool-icons/{fallback_file}",
+        "content_type": "image/svg+xml",
+    }
+
+
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     existing_manifest = load_existing_manifest()
@@ -626,6 +653,8 @@ def main() -> None:
         if primary_asset is not None:
             downloaded += 1
             entry.update(primary_asset)
+        else:
+            entry.update(aliased_or_fallback_primary(tool_id, fallback_file))
         manifest_payload[tool_id] = entry
 
     write_manifest(manifest_payload)

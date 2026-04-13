@@ -119,316 +119,289 @@
     }
   ];
   const newsFeed = [
-    {
-      date: "2026-04-12",
-      label: "April 12, 2026",
-      items: [
-        {
-          id: "chatgpt-100-tier-apr12",
-          category: "Product Updates",
-          title: "ChatGPT's new $100 plan makes Codex-heavy usage feel more mainstream",
-          source: "The Neuron",
-          summary: "OpenAI's new pricing layer widens the on-ramp for heavier ChatGPT and Codex usage, making advanced agent workflows feel less niche than a single premium paywall approach.",
-          href: "https://www.theneurondaily.com/p/chatgpt-gets-a-100-tier#openai-adds-100-tier",
-          imageUrl: "assets/news/chatgpt-100-tier-source.png",
-          excerpt: "Heat read: with ChatGPT still one of the highest-traffic AI products online, pricing moves are effectively market signals about where real demand is concentrating."
-        },
-        {
-          id: "gemini-flash-live-apr12",
-          category: "Model Releases",
-          title: "Gemini 3.1 Flash Live becomes Google's clearest push into always-on voice AI",
-          source: "Google Blog",
-          summary: "Google is pushing Gemini deeper into real-time assistant workflows with a lower-latency audio model that feels built for live conversation, demos, and multimodal agent experiences.",
-          href: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
-          imageUrl: "assets/news/google-gemini-flash-live-source.webp",
-          excerpt: "Heat read: Gemini still leads this site's traffic ranking, so product moves that improve latency and voice reliability are among the most representative April signals."
-        },
-        {
-          id: "adobe-firefly-precision-apr12",
-          category: "Creative AI",
-          title: "Adobe Firefly shifts from wow-factor generation toward exact image control",
-          source: "Adobe Blog",
-          summary: "Adobe's latest Firefly release is less about one-click novelty and more about precise editing controls that fit real creative-team revision loops inside an existing production stack.",
-          href: "https://blog.adobe.com/en/publish/2026/04/09/new-image-editing-features-adobe-firefly-get-you-from-almost-there-to-exactly-right",
-          imageUrl: "assets/news/adobe-firefly-precision-flow.jpg",
-          excerpt: "Heat read: Firefly remains one of the biggest design-side AI destinations, so practical editing upgrades matter more than another benchmark-style announcement."
-        },
-        {
-          id: "claude-managed-agents-apr12",
-          category: "Agents",
-          title: "Claude Managed Agents gives Anthropic a more complete hosted agent stack",
-          source: "Anthropic Engineering",
-          summary: "Anthropic is turning Claude from a strong chat surface into more durable agent infrastructure, with hosted sessions designed for longer-running, recoverable production work.",
-          href: "https://www.anthropic.com/engineering/managed-agents",
-          excerpt: "Heat read: Claude remains one of the highest-traffic top tools on the site, so managed orchestration is a more meaningful signal than another generic model benchmark."
-        },
-        {
-          id: "perplexity-build-challenge-apr12",
-          category: "Agents",
-          title: "Perplexity keeps using Computer to reposition itself as a builder platform",
-          source: "Superhuman AI",
-          summary: "Perplexity is using a public startup challenge to frame Computer as more than a research assistant, pushing it toward an agent platform with broader builder appeal.",
-          href: "https://www.superhuman.ai/p/perplexity-s-billion-dollar-challenge",
-          excerpt: "Heat read: Perplexity's traffic is lower than ChatGPT or Gemini, but product momentum remains unusually strong whenever it expands beyond search."
-        }
-      ]
-    },
-    {
-      date: "2026-04-11",
-      label: "April 11, 2026",
-      items: [
-        {
-          id: "gemma-4-open-weight-apr11",
-          category: "Open Models",
-          title: "Gemma 4 strengthens Google's open-weight story for AI Studio builders",
-          source: "DeepMind",
-          summary: "DeepMind is framing Gemma 4 around practical capability per parameter, giving Google a stronger open-model narrative that complements Gemini and boosts the AI Studio ecosystem.",
-          href: "https://deepmind.google/discover/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
-          excerpt: "Tool angle: for Google AI Studio users, Gemma 4 is important because it broadens what the Google stack can offer outside a single closed-model lane."
-        },
-        {
-          id: "codex-3m-weekly-users-apr11",
-          category: "Developer Tools",
-          title: "Codex at 3M weekly users shows coding agents are crossing into the mainstream",
-          source: "The Neuron",
-          summary: "The latest Codex growth milestone suggests AI coding agents are no longer just for early adopters and power users, but are becoming part of the default developer toolkit.",
-          href: "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#codex-3m-users",
-          excerpt: "Tool angle: ChatGPT and Codex are increasingly winning not just on model quality but on repeated, habitual use."
-        },
-        {
-          id: "deepseek-v3-open-source-pressure-apr11",
-          category: "Open Models",
-          title: "DeepSeek V3-0324 keeps raising pressure on proprietary model leaders",
-          source: "AI News",
-          summary: "DeepSeek continues to gain attention as one of the few open-model challengers forcing Gemini, Claude, and ChatGPT to respond to faster-moving price and capability pressure.",
-          href: "https://www.artificialintelligence-news.com/news/deepseek-v3-0324-tops-non-reasoning-ai-models-open-source-first/",
-          excerpt: "Tool angle: DeepSeek remains one of the clearest open-model stories inside this site's top-traffic AI stack."
-        },
-        {
-          id: "claude-mythos-cyber-positioning-apr11",
-          category: "Model Releases",
-          title: "Claude Mythos keeps pushing Anthropic toward a cyber-and-safety-first release posture",
-          source: "Superhuman AI",
-          summary: "Anthropic's Mythos messaging is positioning Claude as a higher-stakes model family, with benchmark gains wrapped in a more defensive release narrative around security risk.",
-          href: "https://www.superhuman.ai/p/anthropic-announces-new-claude-mythos-model",
-          excerpt: "Tool angle: this is less about a single launch and more about how Anthropic wants the market to interpret Claude's next frontier step."
-        },
-        {
-          id: "openai-intelligence-age-policy-apr11",
-          category: "Policy",
-          title: "OpenAI's Intelligence Age memo makes ChatGPT's policy ambition impossible to ignore",
-          source: "The Neuron",
-          summary: "OpenAI is signaling that the next phase of ChatGPT is not just a product story but a broader attempt to shape labor, infrastructure, taxation, and AI governance debates.",
-          href: "https://www.theneurondaily.com/p/what-does-openai-see-coming#intelligence-age",
-          excerpt: "Tool angle: OpenAI is increasingly acting like both a lab and a policy platform."
-        }
-      ]
-    },
-    {
-      date: "2026-04-10",
-      label: "April 10, 2026",
-      items: [
-        {
-          id: "gemini-notebooks-persistent-context-apr10",
-          category: "Research Workflows",
-          title: "Notebooks in Gemini brings longer-lived project context into Google's consumer stack",
-          source: "The Neuron",
-          summary: "Google's new notebooks layer makes Gemini feel more useful for recurring research and presentation work by turning one-off chats into reusable, project-based context.",
-          href: "https://www.theneurondaily.com/p/chatgpt-gets-a-100-tier#notebooklm-in-gemini",
-          excerpt: "Why it matters: persistent context is one of the most practical product levers for keeping users inside one AI ecosystem."
-        },
-        {
-          id: "gemini-mental-health-safeguards-apr10",
-          category: "Safety",
-          title: "Google adds stronger mental-health safeguards to Gemini after lawsuits",
-          source: "The Neuron",
-          summary: "Google is widening Gemini's safety posture with crisis hotlines and anti-self-harm design changes, showing how trust and liability are becoming product-level concerns.",
-          href: "https://www.theneurondaily.com/p/too-dangerous-to-release#gemini-safeguards",
-          excerpt: "Why it matters: the next competitive layer is not just capability, but whether products can operate safely at consumer scale."
-        },
-        {
-          id: "adobe-student-spaces-apr10",
-          category: "Productivity",
-          title: "Adobe pushes Firefly-adjacent study workflows into Acrobat with Student Spaces",
-          source: "The Neuron",
-          summary: "Adobe is extending its AI footprint beyond image generation by turning Acrobat into a study and synthesis tool for notes, flashcards, podcasts, and presentations.",
-          href: "https://www.theneurondaily.com/p/too-dangerous-to-release#adobe-student-spaces",
-          excerpt: "Why it matters: Adobe is using existing workflow surfaces, not standalone hype, to deepen AI usage."
-        },
-        {
-          id: "openai-child-safety-blueprint-apr10",
-          category: "Safety",
-          title: "OpenAI expands its trust narrative with the Child Safety Blueprint",
-          source: "OpenAI Blog",
-          summary: "OpenAI's latest safety framework pushes ChatGPT's public story beyond launches and pricing into reporting systems, enforcement coordination, and safer default behavior.",
-          href: "https://openai.com/index/introducing-child-safety-blueprint/",
-          excerpt: "Why it matters: frontier labs are increasingly competing on visible safety infrastructure as well as model capability."
-        },
-        {
-          id: "deepl-agent-rollout-apr10",
-          category: "Translation AI",
-          title: "DeepL is positioning AI Agent as a multilingual workflow layer for business teams",
-          source: "DeepL",
-          summary: "DeepL is framing AI Agent as more than translation, pushing toward a broader business assistant layer for international teams handling support, writing, and operations.",
-          href: "https://www.deepl.com/en/products/ai-agent",
-          excerpt: "Why it matters: DeepL remains one of the most commercially credible AI tools outside the big model labs."
-        }
-      ]
-    },
-    {
-      date: "2026-04-09",
-      label: "April 9, 2026",
-      items: [
-        {
-          id: "claude-code-leak-blueprint-apr09",
-          category: "Developer Tools",
-          title: "Claude Code's leak turned Anthropic's harness into a public design reference",
-          source: "The Neuron",
-          summary: "The Claude Code source leak made the orchestration layer behind one of the hottest coding agents unusually legible, giving the market a clearer look at how serious agent harnesses are being built.",
-          href: "https://www.theneurondaily.com/p/anthropic-accidentally-leaked-claude-code-s-entire-source-code#blueprint",
-          excerpt: "Why it matters: the AI coding race increasingly looks like a harness race, not just a model race."
-        },
-        {
-          id: "openai-122b-round-apr09",
-          category: "Funding",
-          title: "OpenAI's $122B funding round reset expectations for frontier-AI scale",
-          source: "The Neuron",
-          summary: "OpenAI's enormous raise reinforces that ChatGPT's commercial position is now influencing how the entire market thinks about compute, infrastructure, and capital requirements.",
-          href: "https://www.theneurondaily.com/p/anthropic-accidentally-leaked-claude-code-s-entire-source-code#openai-funding",
-          excerpt: "Why it matters: funding scale now shapes which labs can keep pushing expensive frontier products."
-        },
-        {
-          id: "perplexity-computer-taxes-apr09",
-          category: "Agents",
-          title: "Perplexity Computer keeps stretching from research into end-to-end task execution",
-          source: "Superhuman AI",
-          summary: "Perplexity's push into tasks like tax prep shows the company wants Computer to be seen as an action-taking agent, not just a better search box.",
-          href: "https://www.superhuman.ai/p/perplexity-computer-does-your-taxes",
-          excerpt: "Why it matters: the market is rewarding products that can actually complete work, not only summarize it."
-        },
-        {
-          id: "grok-translation-photo-editing-apr09",
-          category: "Product Updates",
-          title: "Grok expands inside X with translation and photo-editing features",
-          source: "The Neuron",
-          summary: "X is widening Grok's usefulness with built-in translation and image-editing tools, reinforcing its strategy of making the assistant feel native to the platform rather than separate from it.",
-          href: "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#grok-updates",
-          excerpt: "Why it matters: Grok's scale advantage comes from distribution through X, not just model branding."
-        },
-        {
-          id: "openai-illinois-liability-bill-apr09",
-          category: "Policy",
-          title: "OpenAI's Illinois liability push shows regulation is now a product-adjacent battle",
-          source: "Ben's Bites",
-          summary: "OpenAI's support for an Illinois liability bill highlights how legal definitions around AI responsibility are becoming a meaningful competitive issue for major labs.",
-          href: "https://news.bensbites.co/openai-backs-an-illinois-bill-that-would-limit-when-ai-labs-can-be-held-liable/",
-          excerpt: "Why it matters: regulation is no longer outside the product story; it directly shapes deployment risk."
-        }
-      ]
-    },
-    {
-      date: "2026-04-08",
-      label: "April 8, 2026",
-      items: [
-        {
-          id: "project-glasswing-apr08",
-          category: "Safety",
-          title: "Project Glasswing gives defenders early access to Anthropic's unreleased cyber model",
-          source: "The Neuron",
-          summary: "Anthropic is using Project Glasswing to put Mythos Preview in defenders' hands first, signaling a more security-first release strategy for high-risk Claude capabilities.",
-          href: "https://www.theneurondaily.com/p/too-dangerous-to-release#project-glasswing",
-          excerpt: "Why it matters: Claude's strongest upcoming capabilities are being framed as a deployment-governance problem, not just a product launch."
-        },
-        {
-          id: "google-ai-studio-gemma-leverage-apr08",
-          category: "Open Models",
-          title: "Google AI Studio gets a stronger developer story when Gemma and Gemini move together",
-          source: "DeepMind",
-          summary: "Gemma 4 gives Google AI Studio more open-model credibility, making Google's stack feel broader than a single closed Gemini endpoint for developers and prototype teams.",
-          href: "https://deepmind.google/discover/blog/gemma-4-byte-for-byte-the-most-capable-open-models/#google-ai-studio",
-          excerpt: "Why it matters: the most durable platforms usually win by offering multiple lanes, not one monolithic model."
-        },
-        {
-          id: "anti-distillation-frontier-labs-apr08",
-          category: "Policy",
-          title: "OpenAI, Anthropic, and Google align more openly against model-copying pressure",
-          source: "The Neuron",
-          summary: "The leading labs are taking a harder public line on distillation and model copying, a sign that open-model pressure from players like DeepSeek is reshaping the rules of competition.",
-          href: "https://www.theneurondaily.com/p/too-dangerous-to-release#anti-distillation",
-          excerpt: "Why it matters: open-model competition is now triggering strategy changes inside the biggest closed-model labs."
-        },
-        {
-          id: "state-sponsored-hackers-gemini-apr08",
-          category: "Security",
-          title: "Google identifies state-backed attackers using Gemini inside real campaigns",
-          source: "AI News",
-          summary: "A new report ties Gemini to real-world abuse by state-sponsored threat actors, underscoring how frontier tools are already being folded into phishing and malware operations.",
-          href: "https://www.artificialintelligence-news.com/news/state-sponsored-hackers-ai-cyberattacks-google/",
-          excerpt: "Why it matters: safety and abuse resistance are now operational product requirements, not abstract research talking points."
-        },
-        {
-          id: "deepl-agent-enterprise-apr08",
-          category: "Translation AI",
-          title: "DeepL is broadening from translation into agent-style enterprise assistance",
-          source: "DeepL",
-          summary: "DeepL's AI Agent positioning suggests the company wants to own more of the multilingual workflow stack, not just the final translation step.",
-          href: "https://www.deepl.com/en/products/ai-agent#enterprise",
-          excerpt: "Why it matters: specialized AI products can still grow by expanding around one trusted core job."
-        }
-      ]
-    },
-    {
-      date: "2026-04-07",
-      label: "April 7, 2026",
-      items: [
-        {
-          id: "openai-mini-new-deal-apr07",
-          category: "Policy",
-          title: "OpenAI's policy paper reads like a mini-New Deal for the AI economy",
-          source: "The Neuron",
-          summary: "OpenAI is no longer speaking only as a lab shipping ChatGPT upgrades, but as a company actively trying to shape how governments respond to large-scale AI disruption.",
-          href: "https://www.theneurondaily.com/p/what-does-openai-see-coming#mini-new-deal",
-          excerpt: "Why it matters: AI policy is becoming a direct extension of platform strategy."
-        },
-        {
-          id: "openai-anthropic-ipo-pressure-apr07",
-          category: "Finance",
-          title: "OpenAI and Anthropic are being discussed more like future IPO companies than labs",
-          source: "The Neuron",
-          summary: "Reporting around IPO pressure shows how quickly the frontier-model race is being financialized as ChatGPT and Claude keep scaling revenue and compute spend at the same time.",
-          href: "https://www.theneurondaily.com/p/what-does-openai-see-coming#ipo-pressure",
-          excerpt: "Why it matters: the market is increasingly evaluating AI leaders as giant infrastructure businesses, not just products."
-        },
-        {
-          id: "anthropic-google-broadcom-compute-deal-apr07",
-          category: "Infrastructure",
-          title: "Anthropic's huge TPU deal shows Claude's growth is now gated by infrastructure scale",
-          source: "The Neuron",
-          summary: "Anthropic's expanded compute arrangement with Google and Broadcom makes clear that serving and training Claude at the frontier is now as much an infrastructure story as a model story.",
-          href: "https://www.theneurondaily.com/p/too-dangerous-to-release#anthropic-compute-deal",
-          excerpt: "Why it matters: demand for top assistants is increasingly constrained by how much compute can actually be delivered."
-        },
-        {
-          id: "perplexity-arr-growth-apr07",
-          category: "Business",
-          title: "Perplexity's reported ARR momentum suggests research products can still break out",
-          source: "The Neuron",
-          summary: "Reported revenue momentum is reinforcing Perplexity's shift from interesting search startup to one of the few serious consumer AI products with clear commercial pull.",
-          href: "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#perplexity-arr",
-          excerpt: "Why it matters: revenue traction matters because it shows users are paying for a research-native alternative to the biggest general assistants."
-        },
-        {
-          id: "codex-spark-salesforce-clone-apr07",
-          category: "Developer Tools",
-          title: "Codex Spark building a Salesforce-style app in seconds sharpened the coding-agent race",
-          source: "The Neuron",
-          summary: "A fast Codex Spark demo highlighted just how compelling coding agents become when they are measured by end-to-end output rather than raw model benchmarks.",
-          href: "https://www.theneurondaily.com/p/chatgpt-gets-a-100-tier#codex-spark",
-          excerpt: "Why it matters: agent demos are getting better at showing product value in a way benchmark charts cannot."
-        }
-      ]
-    }
-  ];
+  {
+    "date": "2026-04-12",
+    "label": "April 12, 2026",
+    "items": [
+      {
+        "id": "perplexity-build-challenge-apr12",
+        "category": "Agents",
+        "title": "Perplexity keeps using Computer to reposition itself as a builder platform",
+        "source": "Superhuman AI",
+        "summary": "Perplexity is using a public startup challenge to frame Computer as more than a research assistant, pushing it toward an agent platform with broader builder appeal.",
+        "href": "https://www.superhuman.ai/p/perplexity-s-billion-dollar-challenge",
+        "excerpt": "Heat read: Perplexity's traffic is lower than ChatGPT or Gemini, but product momentum remains unusually strong whenever it expands beyond search."
+      },
+      {
+        "id": "gemini-flash-live-apr12",
+        "category": "Model Releases",
+        "title": "Gemini 3.1 Flash Live becomes Google's clearest push into always-on voice AI",
+        "source": "Google Blog",
+        "summary": "Google is pushing Gemini deeper into real-time assistant workflows with a lower-latency audio model that feels built for live conversation, demos, and multimodal agent experiences.",
+        "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+        "imageUrl": "assets/news/google-gemini-flash-live-source.webp",
+        "excerpt": "Heat read: Gemini still leads this site's traffic ranking, so product moves that improve latency and voice reliability are among the most representative April signals."
+      },
+      {
+        "id": "claude-managed-agents-apr12",
+        "category": "Agents",
+        "title": "Claude Managed Agents gives Anthropic a more complete hosted agent stack",
+        "source": "Anthropic Engineering",
+        "summary": "Anthropic is turning Claude from a strong chat surface into more durable agent infrastructure, with hosted sessions designed for longer-running, recoverable production work.",
+        "href": "https://www.anthropic.com/engineering/managed-agents",
+        "excerpt": "Heat read: Claude remains one of the highest-traffic top tools on the site, so managed orchestration is a more meaningful signal than another generic model benchmark."
+      },
+      {
+        "id": "chatgpt-100-tier-apr12",
+        "category": "Product Updates",
+        "title": "ChatGPT's new $100 plan makes Codex-heavy usage feel more mainstream",
+        "source": "The Neuron",
+        "summary": "OpenAI's new pricing layer widens the on-ramp for heavier ChatGPT and Codex usage, making advanced agent workflows feel less niche than a single premium paywall approach.",
+        "href": "https://www.theneurondaily.com/p/chatgpt-gets-a-100-tier#openai-adds-100-tier",
+        "imageUrl": "assets/news/chatgpt-100-tier-source.png",
+        "excerpt": "Heat read: with ChatGPT still one of the highest-traffic AI products online, pricing moves are effectively market signals about where real demand is concentrating."
+      },
+      {
+        "id": "adobe-firefly-precision-apr12",
+        "category": "Creative AI",
+        "title": "Adobe Firefly shifts from wow-factor generation toward exact image control",
+        "source": "Adobe Blog",
+        "summary": "Adobe's latest Firefly release is less about one-click novelty and more about precise editing controls that fit real creative-team revision loops inside an existing production stack.",
+        "href": "https://blog.adobe.com/en/publish/2026/04/09/new-image-editing-features-adobe-firefly-get-you-from-almost-there-to-exactly-right",
+        "imageUrl": "assets/news/adobe-firefly-precision-flow.jpg",
+        "excerpt": "Heat read: Firefly remains one of the biggest design-side AI destinations, so practical editing upgrades matter more than another benchmark-style announcement."
+      }
+    ]
+  },
+  {
+    "date": "2026-04-11",
+    "label": "April 11, 2026",
+    "items": [
+      {
+        "id": "gemma-4-open-weight-apr11",
+        "category": "Open Models",
+        "title": "Gemma 4 strengthens Google's open-weight story for AI Studio builders",
+        "source": "DeepMind",
+        "summary": "DeepMind is framing Gemma 4 around practical capability per parameter, giving Google a stronger open-model narrative that complements Gemini and boosts the AI Studio ecosystem.",
+        "href": "https://deepmind.google/discover/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+        "excerpt": "Tool angle: for Google AI Studio users, Gemma 4 is important because it broadens what the Google stack can offer outside a single closed-model lane."
+      },
+      {
+        "id": "deepseek-v3-open-source-pressure-apr11",
+        "category": "Open Models",
+        "title": "DeepSeek V3-0324 keeps raising pressure on proprietary model leaders",
+        "source": "AI News",
+        "summary": "DeepSeek continues to gain attention as one of the few open-model challengers forcing Gemini, Claude, and ChatGPT to respond to faster-moving price and capability pressure.",
+        "href": "https://www.artificialintelligence-news.com/news/deepseek-v3-0324-tops-non-reasoning-ai-models-open-source-first/",
+        "excerpt": "Tool angle: DeepSeek remains one of the clearest open-model stories inside this site's top-traffic AI stack."
+      },
+      {
+        "id": "codex-3m-weekly-users-apr11",
+        "category": "Developer Tools",
+        "title": "Codex at 3M weekly users shows coding agents are crossing into the mainstream",
+        "source": "The Neuron",
+        "summary": "The latest Codex growth milestone suggests AI coding agents are no longer just for early adopters and power users, but are becoming part of the default developer toolkit.",
+        "href": "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#codex-3m-users",
+        "excerpt": "Tool angle: ChatGPT and Codex are increasingly winning not just on model quality but on repeated, habitual use."
+      },
+      {
+        "id": "claude-mythos-cyber-positioning-apr11",
+        "category": "Model Releases",
+        "title": "Claude Mythos keeps pushing Anthropic toward a cyber-and-safety-first release posture",
+        "source": "Superhuman AI",
+        "summary": "Anthropic's Mythos messaging is positioning Claude as a higher-stakes model family, with benchmark gains wrapped in a more defensive release narrative around security risk.",
+        "href": "https://www.superhuman.ai/p/anthropic-announces-new-claude-mythos-model",
+        "excerpt": "Tool angle: this is less about a single launch and more about how Anthropic wants the market to interpret Claude's next frontier step."
+      }
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "label": "April 10, 2026",
+    "items": [
+      {
+        "id": "openai-child-safety-blueprint-apr10",
+        "category": "Safety",
+        "title": "OpenAI expands its trust narrative with the Child Safety Blueprint",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI's latest safety framework pushes ChatGPT's public story beyond launches and pricing into reporting systems, enforcement coordination, and safer default behavior.",
+        "href": "https://openai.com/index/introducing-child-safety-blueprint/",
+        "excerpt": "Why it matters: frontier labs are increasingly competing on visible safety infrastructure as well as model capability."
+      },
+      {
+        "id": "gemini-notebooks-persistent-context-apr10",
+        "category": "Research Workflows",
+        "title": "Notebooks in Gemini brings longer-lived project context into Google's consumer stack",
+        "source": "The Neuron",
+        "summary": "Google's new notebooks layer makes Gemini feel more useful for recurring research and presentation work by turning one-off chats into reusable, project-based context.",
+        "href": "https://www.theneurondaily.com/p/chatgpt-gets-a-100-tier#notebooklm-in-gemini",
+        "excerpt": "Why it matters: persistent context is one of the most practical product levers for keeping users inside one AI ecosystem."
+      },
+      {
+        "id": "gemini-mental-health-safeguards-apr10",
+        "category": "Safety",
+        "title": "Google adds stronger mental-health safeguards to Gemini after lawsuits",
+        "source": "The Neuron",
+        "summary": "Google is widening Gemini's safety posture with crisis hotlines and anti-self-harm design changes, showing how trust and liability are becoming product-level concerns.",
+        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#gemini-safeguards",
+        "excerpt": "Why it matters: the next competitive layer is not just capability, but whether products can operate safely at consumer scale."
+      },
+      {
+        "id": "deepl-agent-rollout-apr10",
+        "category": "Translation AI",
+        "title": "DeepL is positioning AI Agent as a multilingual workflow layer for business teams",
+        "source": "DeepL",
+        "summary": "DeepL is framing AI Agent as more than translation, pushing toward a broader business assistant layer for international teams handling support, writing, and operations.",
+        "href": "https://www.deepl.com/en/products/ai-agent",
+        "excerpt": "Why it matters: DeepL remains one of the most commercially credible AI tools outside the big model labs."
+      },
+      {
+        "id": "adobe-student-spaces-apr10",
+        "category": "Productivity",
+        "title": "Adobe pushes Firefly-adjacent study workflows into Acrobat with Student Spaces",
+        "source": "The Neuron",
+        "summary": "Adobe is extending its AI footprint beyond image generation by turning Acrobat into a study and synthesis tool for notes, flashcards, podcasts, and presentations.",
+        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#adobe-student-spaces",
+        "excerpt": "Why it matters: Adobe is using existing workflow surfaces, not standalone hype, to deepen AI usage."
+      }
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "label": "April 9, 2026",
+    "items": [
+      {
+        "id": "perplexity-computer-taxes-apr09",
+        "category": "Agents",
+        "title": "Perplexity Computer keeps stretching from research into end-to-end task execution",
+        "source": "Superhuman AI",
+        "summary": "Perplexity's push into tasks like tax prep shows the company wants Computer to be seen as an action-taking agent, not just a better search box.",
+        "href": "https://www.superhuman.ai/p/perplexity-computer-does-your-taxes",
+        "excerpt": "Why it matters: the market is rewarding products that can actually complete work, not only summarize it."
+      },
+      {
+        "id": "openai-illinois-liability-bill-apr09",
+        "category": "Policy",
+        "title": "OpenAI's Illinois liability push shows regulation is now a product-adjacent battle",
+        "source": "Ben's Bites",
+        "summary": "OpenAI's support for an Illinois liability bill highlights how legal definitions around AI responsibility are becoming a meaningful competitive issue for major labs.",
+        "href": "https://news.bensbites.co/openai-backs-an-illinois-bill-that-would-limit-when-ai-labs-can-be-held-liable/",
+        "excerpt": "Why it matters: regulation is no longer outside the product story; it directly shapes deployment risk."
+      },
+      {
+        "id": "openai-122b-round-apr09",
+        "category": "Funding",
+        "title": "OpenAI's $122B funding round reset expectations for frontier-AI scale",
+        "source": "The Neuron",
+        "summary": "OpenAI's enormous raise reinforces that ChatGPT's commercial position is now influencing how the entire market thinks about compute, infrastructure, and capital requirements.",
+        "href": "https://www.theneurondaily.com/p/anthropic-accidentally-leaked-claude-code-s-entire-source-code#openai-funding",
+        "excerpt": "Why it matters: funding scale now shapes which labs can keep pushing expensive frontier products."
+      },
+      {
+        "id": "grok-translation-photo-editing-apr09",
+        "category": "Product Updates",
+        "title": "Grok expands inside X with translation and photo-editing features",
+        "source": "The Neuron",
+        "summary": "X is widening Grok's usefulness with built-in translation and image-editing tools, reinforcing its strategy of making the assistant feel native to the platform rather than separate from it.",
+        "href": "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#grok-updates",
+        "excerpt": "Why it matters: Grok's scale advantage comes from distribution through X, not just model branding."
+      },
+      {
+        "id": "claude-code-leak-blueprint-apr09",
+        "category": "Developer Tools",
+        "title": "Claude Code's leak turned Anthropic's harness into a public design reference",
+        "source": "The Neuron",
+        "summary": "The Claude Code source leak made the orchestration layer behind one of the hottest coding agents unusually legible, giving the market a clearer look at how serious agent harnesses are being built.",
+        "href": "https://www.theneurondaily.com/p/anthropic-accidentally-leaked-claude-code-s-entire-source-code#blueprint",
+        "excerpt": "Why it matters: the AI coding race increasingly looks like a harness race, not just a model race."
+      }
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "label": "April 8, 2026",
+    "items": [
+      {
+        "id": "project-glasswing-apr08",
+        "category": "Safety",
+        "title": "Project Glasswing gives defenders early access to Anthropic's unreleased cyber model",
+        "source": "The Neuron",
+        "summary": "Anthropic is using Project Glasswing to put Mythos Preview in defenders' hands first, signaling a more security-first release strategy for high-risk Claude capabilities.",
+        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#project-glasswing",
+        "excerpt": "Why it matters: Claude's strongest upcoming capabilities are being framed as a deployment-governance problem, not just a product launch."
+      },
+      {
+        "id": "google-ai-studio-gemma-leverage-apr08",
+        "category": "Open Models",
+        "title": "Google AI Studio gets a stronger developer story when Gemma and Gemini move together",
+        "source": "DeepMind",
+        "summary": "Gemma 4 gives Google AI Studio more open-model credibility, making Google's stack feel broader than a single closed Gemini endpoint for developers and prototype teams.",
+        "href": "https://deepmind.google/discover/blog/gemma-4-byte-for-byte-the-most-capable-open-models/#google-ai-studio",
+        "excerpt": "Why it matters: the most durable platforms usually win by offering multiple lanes, not one monolithic model."
+      },
+      {
+        "id": "deepl-agent-enterprise-apr08",
+        "category": "Translation AI",
+        "title": "DeepL is broadening from translation into agent-style enterprise assistance",
+        "source": "DeepL",
+        "summary": "DeepL's AI Agent positioning suggests the company wants to own more of the multilingual workflow stack, not just the final translation step.",
+        "href": "https://www.deepl.com/en/products/ai-agent#enterprise",
+        "excerpt": "Why it matters: specialized AI products can still grow by expanding around one trusted core job."
+      },
+      {
+        "id": "anti-distillation-frontier-labs-apr08",
+        "category": "Policy",
+        "title": "OpenAI, Anthropic, and Google align more openly against model-copying pressure",
+        "source": "The Neuron",
+        "summary": "The leading labs are taking a harder public line on distillation and model copying, a sign that open-model pressure from players like DeepSeek is reshaping the rules of competition.",
+        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anti-distillation",
+        "excerpt": "Why it matters: open-model competition is now triggering strategy changes inside the biggest closed-model labs."
+      }
+    ]
+  },
+  {
+    "date": "2026-04-07",
+    "label": "April 7, 2026",
+    "items": [
+      {
+        "id": "perplexity-arr-growth-apr07",
+        "category": "Business",
+        "title": "Perplexity's reported ARR momentum suggests research products can still break out",
+        "source": "The Neuron",
+        "summary": "Reported revenue momentum is reinforcing Perplexity's shift from interesting search startup to one of the few serious consumer AI products with clear commercial pull.",
+        "href": "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#perplexity-arr",
+        "excerpt": "Why it matters: revenue traction matters because it shows users are paying for a research-native alternative to the biggest general assistants."
+      },
+      {
+        "id": "openai-mini-new-deal-apr07",
+        "category": "Policy",
+        "title": "OpenAI's policy paper reads like a mini-New Deal for the AI economy",
+        "source": "The Neuron",
+        "summary": "OpenAI is no longer speaking only as a lab shipping ChatGPT upgrades, but as a company actively trying to shape how governments respond to large-scale AI disruption.",
+        "href": "https://www.theneurondaily.com/p/what-does-openai-see-coming#mini-new-deal",
+        "excerpt": "Why it matters: AI policy is becoming a direct extension of platform strategy."
+      },
+      {
+        "id": "openai-anthropic-ipo-pressure-apr07",
+        "category": "Finance",
+        "title": "OpenAI and Anthropic are being discussed more like future IPO companies than labs",
+        "source": "The Neuron",
+        "summary": "Reporting around IPO pressure shows how quickly the frontier-model race is being financialized as ChatGPT and Claude keep scaling revenue and compute spend at the same time.",
+        "href": "https://www.theneurondaily.com/p/what-does-openai-see-coming#ipo-pressure",
+        "excerpt": "Why it matters: the market is increasingly evaluating AI leaders as giant infrastructure businesses, not just products."
+      },
+      {
+        "id": "anthropic-google-broadcom-compute-deal-apr07",
+        "category": "Infrastructure",
+        "title": "Anthropic's huge TPU deal shows Claude's growth is now gated by infrastructure scale",
+        "source": "The Neuron",
+        "summary": "Anthropic's expanded compute arrangement with Google and Broadcom makes clear that serving and training Claude at the frontier is now as much an infrastructure story as a model story.",
+        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anthropic-compute-deal",
+        "excerpt": "Why it matters: demand for top assistants is increasingly constrained by how much compute can actually be delivered."
+      }
+    ]
+  }
+];
   const newsCategories = ["All", ...new Set(newsFeed.flatMap((group) => group.items.map((item) => item.category)))];
   const flatNewsItems = newsFeed.flatMap((group) =>
     group.items.map((item) => ({
@@ -864,6 +837,8 @@
     promptGuideGrid: document.getElementById("prompt-guide-grid"),
     categoryFilters: document.getElementById("category-filters"),
     pricingFilters: document.getElementById("pricing-filters"),
+    directoryOverviewGrid: document.getElementById("directory-overview-grid"),
+    directorySections: document.getElementById("directory-sections"),
     directoryGrid: document.getElementById("directory-grid"),
     resultsCount: document.getElementById("results-count"),
     heroToolsCopy: document.getElementById("hero-tools-copy"),
@@ -2126,9 +2101,23 @@
       return;
     }
     const items = filteredTools();
-    ui.resultsCount.textContent = `${items.length} filtered tools`;
+    const visibleCategories = categories
+      .filter((category) => category !== "All")
+      .map((category) => ({
+        category,
+        items: items.filter((tool) => tool.categories.includes(category))
+      }))
+      .filter((entry) => entry.items.length);
+
+    ui.resultsCount.textContent = `${items.length} filtered tools across ${visibleCategories.length} categories`;
 
     if (!items.length) {
+      if (ui.directoryOverviewGrid) {
+        ui.directoryOverviewGrid.innerHTML = "";
+      }
+      if (ui.directorySections) {
+        ui.directorySections.innerHTML = "";
+      }
       ui.directoryGrid.innerHTML = `
         <div class="empty-state">
           <p class="kicker">No matches</p>
@@ -2138,7 +2127,69 @@
       return;
     }
 
+    if (ui.directoryOverviewGrid) {
+      ui.directoryOverviewGrid.innerHTML = visibleCategories
+        .map(({ category, items: categoryItems }) => {
+          const topNames = categoryItems.slice(0, 3).map((tool) => tool.name).join(" · ");
+          const lead = categoryItems[0];
+          return `
+            <article class="directory-overview-card">
+              <div class="directory-overview-head">
+                <p class="kicker">${category}</p>
+                <strong>${categoryItems.length} tools</strong>
+              </div>
+              <h3>${category}</h3>
+              <p>${topNames}</p>
+              <button class="secondary-button directory-overview-button" type="button" data-category="${category}">
+                Explore ${category}
+              </button>
+              <span class="directory-overview-meta">${lead.trafficLabel} leader · ${lead.name}</span>
+            </article>
+          `;
+        })
+        .join("");
+
+      ui.directoryOverviewGrid.querySelectorAll("[data-category]").forEach((button) => {
+        button.addEventListener("click", () => {
+          state.activeCategory = button.dataset.category;
+          renderAll();
+          document.getElementById("directory")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+      });
+    }
+
+    if (ui.directorySections) {
+      ui.directorySections.innerHTML = visibleCategories
+        .map(({ category, items: categoryItems }) => `
+          <section class="directory-category-section">
+            <div class="section-header compact-header">
+              <div class="section-header-copy">
+                <p class="kicker">${category}</p>
+                <h3>${category} picks</h3>
+                <p class="section-lead">${categoryItems.length} tools currently match this lane.</p>
+              </div>
+            </div>
+            <div class="directory-category-grid">
+              ${categoryItems
+                .slice(0, state.activeCategory === "All" ? 8 : 12)
+                .map((tool) =>
+                  toolCard(tool, {
+                    className: "directory-item",
+                    id: slugify(`${category}-${tool.name}`),
+                    meta: tool.pricing,
+                    summary: tool.summary,
+                    summaryLength: 96
+                  })
+                )
+                .join("")}
+            </div>
+          </section>
+        `)
+        .join("");
+    }
+
     ui.directoryGrid.innerHTML = items
+      .slice(0, 12)
       .map((tool) =>
         toolCard(tool, {
           className: "directory-item",

@@ -1985,6 +1985,81 @@ h6 {
   gap: 8px;
 }
 
+.directory-overview-grid,
+.directory-category-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.directory-overview-grid {
+  margin-top: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.directory-overview-card,
+.directory-category-section {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(252, 249, 244, 0.94));
+  border: 1px solid rgba(20, 20, 20, 0.07);
+  border-radius: 18px;
+  box-shadow: 0 10px 24px rgba(17, 17, 17, 0.03);
+}
+
+.directory-overview-card {
+  display: grid;
+  gap: 10px;
+  padding: 14px 15px;
+}
+
+.directory-overview-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.directory-overview-card h3,
+.directory-subhead h3,
+.directory-category-section h3 {
+  margin: 0;
+  font-size: 1.08rem;
+  letter-spacing: -0.03em;
+}
+
+.directory-overview-card p,
+.directory-overview-meta {
+  margin: 0;
+  color: var(--muted);
+}
+
+.directory-overview-button {
+  width: fit-content;
+}
+
+.directory-overview-meta {
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.directory-sections {
+  margin-top: 16px;
+  display: grid;
+  gap: 16px;
+}
+
+.directory-category-section {
+  padding: 16px;
+}
+
+.directory-category-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.directory-subhead {
+  margin-top: 18px;
+  display: grid;
+  gap: 3px;
+}
+
 .directory-item {
   display: flex;
   flex-direction: column;
@@ -3561,8 +3636,13 @@ body[data-page="home"] .news-feature-card .news-excerpt {
   .usecase-wall,
   .deep-ranking-wall,
   .directory-grid,
+  .directory-category-grid,
   .rank-grid,
   .dual-panels {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .directory-overview-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -3724,6 +3804,7 @@ body[data-page="home"] .news-feature-card .news-excerpt {
   .feature-stream,
   .triple-panels,
   .directory-grid,
+  .directory-category-grid,
   .rank-grid,
   .dual-panels,
   .lane-wall,
@@ -3733,6 +3814,7 @@ body[data-page="home"] .news-feature-card .news-excerpt {
   .overview-grid,
   .home-overview-grid,
   .rankings-overview-grid,
+  .directory-overview-grid,
   .sidebar-nav {
     grid-template-columns: 1fr;
   }
