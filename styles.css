@@ -3122,6 +3122,10 @@ h6 {
   box-shadow: 0 10px 24px rgba(17, 17, 17, 0.03);
 }
 
+.news-side-card .news-side-head h3 {
+  color: var(--accent-dark);
+}
+
 .news-date-browser,
 .news-calendar-shell {
   display: grid;
