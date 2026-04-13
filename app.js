@@ -842,6 +842,7 @@
     newsLeadGrid: document.getElementById("news-lead-grid"),
     newsFeed: document.getElementById("news-feed"),
     newsAds: document.getElementById("news-ads"),
+    newsDateBrowser: document.getElementById("news-date-browser"),
     newsHotTools: document.getElementById("news-hot-tools"),
     newsLatestTools: document.getElementById("news-latest-tools"),
     newsLatestArticles: document.getElementById("news-latest-articles"),
@@ -1287,6 +1288,10 @@
     return pickTools(matches).slice(0, 2);
   }
 
+  function newsGroupAnchorId(group) {
+    return `news-date-${group.date}`;
+  }
+
   function renderNewsHub() {
     if (!ui.newsLeadGrid || !ui.newsFeed) {
       return;
@@ -1346,7 +1351,7 @@
         }
         timelineItems.push(...groupItems);
         return `
-          <section class="news-day-group">
+          <section class="news-day-group" id="${newsGroupAnchorId(group)}">
             <div class="news-day-header">
               <h3>${group.label}</h3>
             </div>
@@ -1389,6 +1394,17 @@
           <span class="news-ad-cta">Pro Directory</span>
         </a>
       `;
+    }
+
+    if (ui.newsDateBrowser) {
+      ui.newsDateBrowser.innerHTML = newsFeed
+        .map((group, index) => `
+          <a class="news-date-chip ${index === 0 ? "is-active" : ""}" href="#${newsGroupAnchorId(group)}">
+            <span class="news-date-chip-day">${group.label}</span>
+            <span class="news-date-chip-meta">${group.items.length} tool-linked stories</span>
+          </a>
+        `)
+        .join("");
     }
 
     if (ui.newsHotTools) {
