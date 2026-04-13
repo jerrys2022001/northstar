@@ -3132,14 +3132,14 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 62px;
-  padding: 0 18px;
-  border-radius: 20px;
+  min-height: 56px;
+  padding: 0 16px;
+  border-radius: 18px;
   background: linear-gradient(180deg, rgba(252, 251, 247, 0.98), rgba(255, 255, 255, 0.96));
   border: 1px solid rgba(22, 51, 95, 0.22);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.68);
   color: var(--text);
-  font-size: 1.12rem;
+  font-size: 0.98rem;
   font-weight: 400;
 }
 
@@ -3151,9 +3151,9 @@ h6 {
 
 .news-calendar-panel {
   display: grid;
-  gap: 14px;
-  padding: 16px;
-  border-radius: 24px;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 20px;
   background:
     radial-gradient(circle at top left, rgba(249, 115, 22, 0.08), transparent 24%),
     radial-gradient(circle at top right, rgba(22, 51, 95, 0.08), transparent 30%),
@@ -3164,17 +3164,17 @@ h6 {
 .news-calendar-toolbar {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto auto;
-  gap: 10px;
+  gap: 8px;
   align-items: center;
 }
 
 .news-calendar-nav {
   display: inline-grid;
   place-items: center;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   color: var(--muted);
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   line-height: 1;
 }
 
@@ -3182,22 +3182,23 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 48px;
-  padding: 0 16px;
-  border-radius: 16px;
+  min-height: 42px;
+  padding: 0 14px;
+  border-radius: 14px;
   background: rgba(255, 255, 255, 0.82);
   border: 1px solid rgba(20, 20, 20, 0.08);
   color: var(--text);
-  font-size: 0.98rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 
 .news-calendar-select.is-year {
-  min-width: 110px;
+  min-width: 96px;
 }
 
 .news-calendar-dropdown {
   width: 100%;
+  min-width: 0;
   border: none;
   background: transparent;
   color: inherit;
@@ -3207,12 +3208,13 @@ h6 {
   -webkit-appearance: none;
   -moz-appearance: none;
   outline: none;
-  padding-right: 8px;
+  padding-right: 4px;
   cursor: pointer;
+  text-overflow: ellipsis;
 }
 
 .news-calendar-caret {
-  font-size: 0.7rem;
+  font-size: 0.62rem;
   color: var(--muted);
 }
 
@@ -3223,27 +3225,27 @@ h6 {
 }
 
 .news-calendar-weekdays {
-  gap: 6px;
+  gap: 4px;
 }
 
 .news-calendar-weekdays span {
   text-align: center;
-  font-size: 0.76rem;
+  font-size: 0.7rem;
   font-weight: 400;
   letter-spacing: 0.06em;
   color: #8a877f;
 }
 
 .news-calendar-grid {
-  gap: 8px 6px;
+  gap: 6px 4px;
 }
 
 .news-calendar-day {
   display: inline-grid;
   place-items: center;
-  min-height: 42px;
+  min-height: 34px;
   border-radius: 999px;
-  font-size: 0.98rem;
+  font-size: 0.88rem;
   font-weight: 400;
   color: #5b5f69;
 }
@@ -3269,7 +3271,7 @@ h6 {
 .news-calendar-day.is-link.is-active {
   color: #0f4861;
   background: radial-gradient(circle at top, rgba(49, 190, 211, 0.16), rgba(34, 134, 168, 0.2));
-  box-shadow: inset 0 0 0 1px rgba(41, 161, 194, 0.55), 0 8px 18px rgba(44, 150, 180, 0.16);
+  box-shadow: inset 0 0 0 1px rgba(41, 161, 194, 0.55), 0 5px 12px rgba(44, 150, 180, 0.14);
 }
 
 .news-ad-stack {
@@ -3303,6 +3305,42 @@ h6 {
   font-size: 0.78rem;
   font-weight: 700;
   color: var(--accent-dark);
+}
+
+.news-side-card .news-side-head .kicker {
+  color: #1a4d86;
+}
+
+.news-side-card:nth-of-type(2) .news-side-head .kicker {
+  color: #1a4d86;
+}
+
+.news-side-card:nth-of-type(3) .news-side-head .kicker {
+  color: #0f7b6c;
+}
+
+.news-side-card:nth-of-type(4) .news-side-head .kicker {
+  color: #c46a11;
+}
+
+.news-tool-row-badge {
+  color: #0f7b6c;
+  background: rgba(15, 123, 108, 0.1);
+  border: 1px solid rgba(15, 123, 108, 0.16);
+}
+
+.news-article-row .news-topic-badge {
+  background: rgba(22, 51, 95, 0.06);
+  border-color: rgba(22, 51, 95, 0.1);
+  color: #1a4d86;
+}
+
+.news-article-copy strong {
+  color: #25314b;
+}
+
+.news-article-meta {
+  color: #a45d11;
 }
 
 .news-tool-list,
@@ -3637,14 +3675,18 @@ body[data-page="home"] .news-feature-card .news-excerpt {
   }
 
   .news-calendar-selected {
-    min-height: 56px;
-    font-size: 1rem;
+    min-height: 52px;
+    font-size: 0.94rem;
   }
 
   .news-calendar-select {
-    min-height: 44px;
-    padding: 0 14px;
-    font-size: 0.92rem;
+    min-height: 40px;
+    padding: 0 12px;
+    font-size: 0.86rem;
+  }
+
+  .news-calendar-select.is-year {
+    min-width: 88px;
   }
 
   .news-day-group {
@@ -3754,8 +3796,8 @@ body[data-page="home"] .news-feature-card .news-excerpt {
 
 @media (max-width: 560px) {
   .news-calendar-panel {
-    padding: 12px;
-    gap: 12px;
+    padding: 10px;
+    gap: 10px;
   }
 
   .news-calendar-toolbar {
@@ -3772,8 +3814,8 @@ body[data-page="home"] .news-feature-card .news-excerpt {
   }
 
   .news-calendar-day {
-    min-height: 36px;
-    font-size: 0.9rem;
+    min-height: 32px;
+    font-size: 0.82rem;
   }
 
   .news-feature-card,
