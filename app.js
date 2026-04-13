@@ -1323,6 +1323,10 @@
     const leadingEmptyDays = firstDay.getDay();
     const weekdayLabels = ["SU", "MO", "TU", "WE", "TH", "FR", "SA"];
     const newsDateMap = new Map(newsFeed.map((group) => [group.date, group]));
+    const monthOptions = [...new Set(newsFeed.map((group) => new Date(`${group.date}T12:00:00`).getMonth()))]
+      .sort((left, right) => left - right);
+    const yearOptions = [...new Set(newsFeed.map((group) => new Date(`${group.date}T12:00:00`).getFullYear()))]
+      .sort((left, right) => left - right);
     const dayCells = [];
 
     for (let index = 0; index < leadingEmptyDays; index += 1) {
@@ -1350,8 +1354,25 @@
         <div class="news-calendar-panel">
           <div class="news-calendar-toolbar">
             <span class="news-calendar-nav" aria-hidden="true">&#8249;</span>
-            <span class="news-calendar-select">${monthLabel}<span class="news-calendar-caret">&#9662;</span></span>
-            <span class="news-calendar-select is-year">${year}<span class="news-calendar-caret">&#9662;</span></span>
+            <label class="news-calendar-select">
+              <select class="news-calendar-dropdown" data-news-calendar="month" aria-label="Select month">
+                ${monthOptions
+                  .map((optionMonth) => {
+                    const optionLabel = new Date(year, optionMonth, 1).toLocaleDateString("en-US", { month: "long" });
+                    return `<option value="${optionMonth}" ${optionMonth === monthIndex ? "selected" : ""}>${optionLabel}</option>`;
+                  })
+                  .join("")}
+              </select>
+              <span class="news-calendar-caret">&#9662;</span>
+            </label>
+            <label class="news-calendar-select is-year">
+              <select class="news-calendar-dropdown" data-news-calendar="year" aria-label="Select year">
+                ${yearOptions
+                  .map((optionYear) => `<option value="${optionYear}" ${optionYear === year ? "selected" : ""}>${optionYear}</option>`)
+                  .join("")}
+              </select>
+              <span class="news-calendar-caret">&#9662;</span>
+            </label>
             <span class="news-calendar-nav" aria-hidden="true">&#8250;</span>
           </div>
           <div class="news-calendar-weekdays">
@@ -2436,6 +2457,32 @@
       }
       increaseFeaturedVisibleCount(button.dataset.featuredMore);
       renderTodayBoards();
+    });
+
+    document.addEventListener("change", (event) => {
+      const dropdown = event.target.closest(".news-calendar-dropdown");
+      if (!dropdown) {
+        return;
+      }
+
+      const monthSelect = document.querySelector('.news-calendar-dropdown[data-news-calendar="month"]');
+      const yearSelect = document.querySelector('.news-calendar-dropdown[data-news-calendar="year"]');
+      if (!monthSelect || !yearSelect) {
+        return;
+      }
+
+      const selectedMonth = Number(monthSelect.value);
+      const selectedYear = Number(yearSelect.value);
+      const matchingGroup = newsFeed.find((group) => {
+        const groupDate = new Date(`${group.date}T12:00:00`);
+        return groupDate.getMonth() === selectedMonth && groupDate.getFullYear() === selectedYear;
+      });
+
+      if (matchingGroup) {
+        window.location.hash = newsGroupAnchorId(matchingGroup);
+      } else {
+        renderNewsDateBrowser();
+      }
     });
 
     window.addEventListener("hashchange", () => {
