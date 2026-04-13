@@ -3625,6 +3625,52 @@ h6 {
     linear-gradient(180deg, #fff7ef 0%, #fffdfa 100%);
 }
 
+.news-ad-card-submit {
+  grid-template-columns: 1fr;
+  align-items: stretch;
+  gap: 10px;
+  padding: 18px;
+}
+
+.submit-app-link {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  min-height: 78px;
+  padding: 10px 12px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(20, 20, 20, 0.06);
+  color: var(--text);
+  text-decoration: none;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.submit-app-link:hover,
+.submit-app-link:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(22, 61, 122, 0.22);
+  box-shadow: 0 10px 18px rgba(17, 17, 17, 0.08);
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.submit-app-icon {
+  display: block;
+  width: 58px;
+  height: 58px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.submit-app-name {
+  display: block;
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #2747c7;
+}
+
 .news-ad-eyebrow,
 .news-ad-cta {
   font-size: 0.78rem;
@@ -3930,6 +3976,10 @@ body[data-page="home"] .news-feature-card .news-excerpt {
     grid-template-columns: 1fr;
   }
 
+  .news-ad-card-submit {
+    grid-template-columns: 1fr;
+  }
+
   .release-ticker {
     grid-template-columns: 1fr;
     gap: 10px;
@@ -4156,6 +4206,25 @@ body[data-page="home"] .news-feature-card .news-excerpt {
     gap: 2px;
   }
 
+  .news-ad-card-submit {
+    gap: 10px;
+    padding: 14px;
+  }
+
+  .submit-app-link {
+    grid-template-columns: 52px minmax(0, 1fr);
+    min-height: 72px;
+  }
+
+  .submit-app-icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .submit-app-name {
+    font-size: 0.92rem;
+  }
+
   .rank-number {
     display: none;
   }
@@ -4173,6 +4242,27 @@ body[data-page="home"] .news-feature-card .news-excerpt {
 }
 
 @media (max-width: 560px) {
+  .news-ad-card-submit {
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .submit-app-link {
+    grid-template-columns: 48px minmax(0, 1fr);
+    min-height: 68px;
+    gap: 10px;
+    border-radius: 16px;
+  }
+
+  .submit-app-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .submit-app-name {
+    font-size: 0.88rem;
+  }
+
   .news-calendar-panel {
     padding: 10px;
     gap: 10px;

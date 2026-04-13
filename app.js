@@ -1573,12 +1573,28 @@
         <a class="news-ad-card is-primary is-image-only" href="https://velocai.net" target="_blank" rel="noreferrer sponsored">
           <img class="news-ad-image" src="assets/sponsors/velocai.jpg" alt="VelocAI sponsor banner">
         </a>
-        <a class="news-ad-card" href="directory.html">
-          <span class="news-ad-eyebrow">Submit Lane</span>
-          <strong>List your AI tool</strong>
-          <p>Connect directory placement, launch pages, and topical discovery into one homepage conversion path.</p>
-          <span class="news-ad-cta">Pro Directory</span>
-        </a>
+        <div class="news-ad-card news-ad-card-submit" aria-label="Submit Lane app shortcuts">
+          <a class="submit-app-link" href="https://apps.apple.com/app/ai-cleanup-kit/id6757135968" target="_blank" rel="noreferrer" aria-label="Cleanup Pro on the App Store">
+            <img class="submit-app-icon" src="assets/submit-lane/cleanup-pro.png" alt="Cleanup Pro">
+            <span class="submit-app-name">App Name: Cleanup Pro</span>
+          </a>
+          <a class="submit-app-link" href="https://apps.apple.com/app/ai-find/id6757230039" target="_blank" rel="noreferrer" aria-label="Find AI on the App Store">
+            <img class="submit-app-icon" src="assets/submit-lane/find-ai.png" alt="Find AI">
+            <span class="submit-app-name">App Name: Find AI</span>
+          </a>
+          <a class="submit-app-link" href="https://apps.apple.com/app/bluetooth-explorer-ai-terminal/id6757826313" target="_blank" rel="noreferrer" aria-label="Bluetooth Explorer on the App Store">
+            <img class="submit-app-icon" src="assets/submit-lane/bluetooth-explorer.png" alt="Bluetooth Explorer">
+            <span class="submit-app-name">App Name: Bluetooth Explorer</span>
+          </a>
+          <a class="submit-app-link" href="https://apps.apple.com/app/translate-ai-ai-translator/id6757105258" target="_blank" rel="noreferrer" aria-label="AI Translator on the App Store">
+            <img class="submit-app-icon" src="assets/submit-lane/ai-translator.png" alt="AI Translator">
+            <span class="submit-app-name">App Name: AI Translator</span>
+          </a>
+          <a class="submit-app-link" href="https://velocai.net" target="_blank" rel="noreferrer sponsored" aria-label="DualShot Camera on VelocAI">
+            <img class="submit-app-icon" src="assets/submit-lane/watch-companion.png" alt="DualShot Camera">
+            <span class="submit-app-name">App Name: DualShot Camera</span>
+          </a>
+        </div>
       `;
     }
 
