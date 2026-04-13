@@ -680,20 +680,20 @@
     "url": "local://assets/tool-icons/semanticscholar.png"
   },
   "sourcegraph": {
-    "content_type": "image/svg+xml",
-    "fallback": "sourcegraph.svg",
-    "file": "sourcegraph.svg",
+    "content_type": "image/png",
+    "fallback": "sourcegraph.png",
+    "file": "sourcegraph.png",
     "source": "local",
     "tool_url": "https://sourcegraph.com/cody",
-    "url": "local://assets/tool-icons/sourcegraph.svg"
+    "url": "local://assets/tool-icons/sourcegraph.png"
   },
   "speechify": {
-    "fallback": "speechify.svg",
+    "fallback": "speechify.png",
     "tool_url": "https://speechify.com/",
-    "file": "speechify.svg",
-    "content_type": "image/svg+xml",
+    "file": "speechify.png",
+    "content_type": "image/png",
     "source": "local",
-    "url": "local://assets/tool-icons/speechify.svg"
+    "url": "local://assets/tool-icons/speechify.png"
   },
   "stitch": {
     "content_type": "image/png",

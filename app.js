@@ -1077,21 +1077,33 @@
 
   function filteredTools() {
     const query = state.query.trim().toLowerCase();
+    const queryTokens = query
+      .replace(/[^a-z0-9]+/g, " ")
+      .split(/\s+/)
+      .filter(Boolean);
+
     return tools.filter((tool) => {
       const haystack = [
+        tool.id,
         tool.name,
         tool.vendor,
         tool.summary,
         tool.recommendation,
+        tool.pricing,
+        tool.trafficLabel,
+        tool.url,
         ...tool.categories,
-        ...tool.audience
+        ...tool.audience,
+        ...(tool.searchTerms || []),
+        ...Object.values(tool.sources || {})
       ]
         .join(" ")
-        .toLowerCase();
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, " ");
 
       const categoryMatches = state.activeCategory === "All" || tool.categories.includes(state.activeCategory);
       const pricingMatches = state.activePricing === "All" || tool.pricing === state.activePricing;
-      const queryMatches = !query || haystack.includes(query);
+      const queryMatches = !queryTokens.length || queryTokens.every((token) => haystack.includes(token));
       return categoryMatches && pricingMatches && queryMatches;
     });
   }
