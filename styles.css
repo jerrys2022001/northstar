@@ -2132,14 +2132,14 @@ h6 {
 
 .directory-overview-panel {
   display: grid;
-  gap: 12px;
-  padding: 14px;
+  gap: 10px;
+  padding: 12px;
 }
 
 .directory-overview-header {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
+  gap: 10px;
   align-items: end;
 }
 
@@ -2159,16 +2159,16 @@ h6 {
 }
 
 .directory-overview-summary {
-  max-width: 300px;
+  max-width: 270px;
   text-align: right;
-  font-size: 0.88rem;
+  font-size: 0.84rem;
 }
 
 .directory-overview-scroll {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px 12px;
-  max-height: 224px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px 10px;
+  max-height: 172px;
   overflow-y: auto;
   padding-right: 4px;
   scrollbar-width: thin;
@@ -2193,11 +2193,11 @@ h6 {
   width: 100%;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 4px 12px;
+  gap: 3px 10px;
   align-items: start;
-  padding: 11px 12px;
-  min-height: 84px;
-  border-radius: 14px;
+  padding: 9px 10px;
+  min-height: 72px;
+  border-radius: 12px;
   border: 1px solid rgba(20, 20, 20, 0.07);
   background: rgba(255, 255, 255, 0.82);
   color: inherit;
@@ -2215,7 +2215,7 @@ h6 {
 
 .directory-overview-row-main {
   display: grid;
-  gap: 3px;
+  gap: 2px;
   min-width: 0;
   grid-row: 1 / span 2;
 }
@@ -2227,27 +2227,27 @@ h6 {
 }
 
 .directory-overview-row-title {
-  font-size: 0.98rem;
+  font-size: 0.92rem;
 }
 
 .directory-overview-row-copy,
 .directory-overview-row-meta {
-  font-size: 0.82rem;
-  line-height: 1.35;
+  font-size: 0.76rem;
+  line-height: 1.25;
 }
 
 .directory-overview-row-count {
   white-space: nowrap;
   justify-self: end;
   align-self: start;
-  font-size: 0.96rem;
+  font-size: 0.88rem;
 }
 
 .directory-overview-row-meta {
   font-weight: 600;
   justify-self: end;
   text-align: right;
-  max-width: 170px;
+  max-width: 126px;
   align-self: end;
 }
 
@@ -3863,6 +3863,11 @@ body[data-page="home"] .news-feature-card .news-excerpt {
 
   .directory-overview-grid {
     grid-template-columns: 1fr;
+  }
+
+  .directory-overview-scroll {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-height: 248px;
   }
 
   .detail-hero,

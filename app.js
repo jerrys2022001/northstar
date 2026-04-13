@@ -1640,7 +1640,9 @@
       button.addEventListener("click", () => {
         state.activeCategory = button.dataset.category;
         renderAll();
-        document.getElementById("hot-tools").scrollIntoView({ behavior: "smooth", block: "start" });
+        const targetCategory = button.dataset.category;
+        const targetId = targetCategory === "All" ? "directory" : `directory-section-${slugify(targetCategory)}`;
+        document.getElementById(targetId)?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     });
   }
@@ -2321,7 +2323,7 @@
     if (ui.directorySections) {
       ui.directorySections.innerHTML = visibleCategories
         .map(({ category, items: categoryItems }) => `
-          <section class="directory-category-section">
+          <section class="directory-category-section" id="directory-section-${slugify(category)}" data-directory-category="${category}">
             <div class="section-header compact-header">
               <div class="section-header-copy">
                 <p class="kicker">${category}</p>
