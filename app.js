@@ -812,6 +812,7 @@
     sidebarNav: document.getElementById("sidebar-nav"),
     searchInput: document.getElementById("search-input"),
     searchButton: document.getElementById("search-button"),
+    releaseTickerTrack: document.getElementById("release-ticker-track"),
     hotFilters: document.getElementById("hot-filters"),
     hotGrid: document.getElementById("hot-grid"),
     newsLeadGrid: document.getElementById("news-lead-grid"),
@@ -1651,6 +1652,46 @@
     if (ui.heroCategoryCopy) {
       ui.heroCategoryCopy.textContent = String(categories.length - 1);
     }
+  }
+
+  function renderReleaseTicker() {
+    if (!ui.releaseTickerTrack) {
+      return;
+    }
+
+    const releaseTools = pickTools(newAndNotableIds).slice(0, 8);
+    if (!releaseTools.length) {
+      ui.releaseTickerTrack.innerHTML = `
+        <div class="release-ticker-empty">
+          <span>No new product release notices yet.</span>
+        </div>
+      `;
+      return;
+    }
+
+    const releaseMarkup = releaseTools
+      .map((tool) => `
+        <a class="release-ticker-item" href="${detailUrl(tool)}">
+          ${iconShell(tool, "release-ticker-icon")}
+          <span class="release-ticker-copy">
+            <strong>${tool.name}</strong>
+            <span>${tool.vendor} · ${tool.categories.slice(0, 2).join(" / ")}</span>
+          </span>
+          <span class="release-ticker-badge">New</span>
+        </a>
+      `)
+      .join("");
+
+    ui.releaseTickerTrack.innerHTML = `
+      <div class="release-ticker-marquee">
+        <div class="release-ticker-lane">
+          ${releaseMarkup}
+        </div>
+        <div class="release-ticker-lane" aria-hidden="true">
+          ${releaseMarkup}
+        </div>
+      </div>
+    `;
   }
 
   function renderHotFilters() {
@@ -2673,6 +2714,7 @@
 
   function renderAll() {
     renderPromptNavFlyout();
+    renderReleaseTicker();
     renderSidebar();
     renderNewsHub();
     renderHeroMetrics();
