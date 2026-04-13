@@ -1162,13 +1162,117 @@
       .join("");
   }
 
-  function newsImageMarkup(item, className) {
-    if (!item.imageUrl) {
+  const NEWS_IMAGE_FALLBACKS = {
+    default: "assets/news/google-gemini-flash-live-source.webp",
+    agents: "assets/news/ai-news-goldman-agents.png",
+    model: "assets/news/google-gemini-flash-live-source.webp",
+    open: "assets/news/deepseek-v3-open-source-first.png",
+    funding: "assets/news/perplexity-billion-build.png",
+    business: "assets/news/perplexity-billion-build.png",
+    finance: "assets/news/neuron-chatgpt-100-tier.png",
+    policy: "assets/news/rundown-meta-superintelligence.png",
+    safety: "assets/news/mit-compressm.png",
+    research: "assets/news/google-gemini-flash-live.png",
+    translation: "assets/news/google-gemini-flash-live.png",
+    productivity: "assets/news/adobe-firefly-precision-flow.jpg",
+    creative: "assets/news/adobe-firefly-precision-flow.jpg",
+    developer: "assets/news/chatgpt-100-tier-source.png",
+    infrastructure: "assets/news/superhuman-personal-agents.png",
+    anthropic: "assets/news/superhuman-claude-mythos.png",
+    perplexity: "assets/news/perplexity-billion-build-source.jpg",
+    google: "assets/news/google-gemini-flash-live-source-large.webp",
+    openai: "assets/news/chatgpt-100-tier-source.png",
+    adobe: "assets/news/adobe-firefly-precision-flow.jpg",
+    deepseek: "assets/news/deepseek-v3-open-source-first.png",
+    claude: "assets/news/superhuman-claude-mythos.png",
+    gemini: "assets/news/google-gemini-flash-live-source.webp"
+  };
+
+  function newsImageUrl(item, options) {
+    if (item.imageUrl) {
+      return item.imageUrl;
+    }
+
+    const settings = options || {};
+    if (!settings.allowFallback) {
+      return "";
+    }
+
+    const toolMatches = newsToolIds(item);
+    const haystack = `${item.category || ""} ${item.title || ""} ${item.summary || ""} ${item.source || ""}`.toLowerCase();
+
+    if (toolMatches.some((tool) => tool.id === "perplexity") || haystack.includes("perplexity")) {
+      return NEWS_IMAGE_FALLBACKS.perplexity;
+    }
+    if (toolMatches.some((tool) => tool.id === "claude") || haystack.includes("anthropic") || haystack.includes("claude")) {
+      return NEWS_IMAGE_FALLBACKS.claude;
+    }
+    if (toolMatches.some((tool) => tool.id === "gemini") || haystack.includes("google") || haystack.includes("gemini")) {
+      return NEWS_IMAGE_FALLBACKS.gemini;
+    }
+    if (toolMatches.some((tool) => tool.id === "chatgpt") || haystack.includes("openai") || haystack.includes("codex")) {
+      return NEWS_IMAGE_FALLBACKS.openai;
+    }
+    if (toolMatches.some((tool) => tool.id === "adobefirefly") || haystack.includes("adobe") || haystack.includes("firefly")) {
+      return NEWS_IMAGE_FALLBACKS.adobe;
+    }
+    if (toolMatches.some((tool) => tool.id === "deepseek") || haystack.includes("deepseek")) {
+      return NEWS_IMAGE_FALLBACKS.deepseek;
+    }
+    if (haystack.includes("agent")) {
+      return NEWS_IMAGE_FALLBACKS.agents;
+    }
+    if (haystack.includes("open model") || haystack.includes("open-weight") || haystack.includes("open source")) {
+      return NEWS_IMAGE_FALLBACKS.open;
+    }
+    if (haystack.includes("funding")) {
+      return NEWS_IMAGE_FALLBACKS.funding;
+    }
+    if (haystack.includes("policy")) {
+      return NEWS_IMAGE_FALLBACKS.policy;
+    }
+    if (haystack.includes("safety")) {
+      return NEWS_IMAGE_FALLBACKS.safety;
+    }
+    if (haystack.includes("research")) {
+      return NEWS_IMAGE_FALLBACKS.research;
+    }
+    if (haystack.includes("translation")) {
+      return NEWS_IMAGE_FALLBACKS.translation;
+    }
+    if (haystack.includes("developer")) {
+      return NEWS_IMAGE_FALLBACKS.developer;
+    }
+    if (haystack.includes("creative")) {
+      return NEWS_IMAGE_FALLBACKS.creative;
+    }
+    if (haystack.includes("infrastructure")) {
+      return NEWS_IMAGE_FALLBACKS.infrastructure;
+    }
+    if (haystack.includes("business")) {
+      return NEWS_IMAGE_FALLBACKS.business;
+    }
+    if (haystack.includes("finance")) {
+      return NEWS_IMAGE_FALLBACKS.finance;
+    }
+    if (haystack.includes("productivity")) {
+      return NEWS_IMAGE_FALLBACKS.productivity;
+    }
+    if (haystack.includes("model")) {
+      return NEWS_IMAGE_FALLBACKS.model;
+    }
+
+    return NEWS_IMAGE_FALLBACKS.default;
+  }
+
+  function newsImageMarkup(item, className, options) {
+    const imageUrl = newsImageUrl(item, options);
+    if (!imageUrl) {
       return "";
     }
     return `
       <span class="${className}">
-        <img src="${item.imageUrl}" alt="${escapeAttribute(item.title)}" loading="lazy" onerror="const media=this.parentElement; if(media){media.style.display='none';} const card=this.closest('.news-feature-card, .news-list-item, .news-article-row'); if(card){card.classList.remove('has-media');}">
+        <img src="${imageUrl}" alt="${escapeAttribute(item.title)}" loading="lazy" onerror="const media=this.parentElement; if(media){media.style.display='none';} const card=this.closest('.news-feature-card, .news-list-item, .news-article-row'); if(card){card.classList.remove('has-media');}">
       </span>
     `;
   }
@@ -1380,7 +1484,8 @@
 
     const isNewsPage = document.body?.dataset?.page === "news";
     const items = filteredNewsItems();
-    const featuredItems = distinctNewsItems(items, 3, []);
+    const featuredCandidatesWithImages = items.filter((item) => newsImageUrl(item, { allowFallback: true }));
+    const featuredItems = distinctNewsItems(featuredCandidatesWithImages, 3, []);
     const visibleGroups = isNewsPage ? newsFeed : newsFeed.slice(0, 4);
 
     if (!items.length) {
@@ -1401,8 +1506,8 @@
         const summary = isHomePage ? shortenWords(item.summary, 18) : item.summary;
         const excerpt = item.excerpt ? (isHomePage ? shortenWords(item.excerpt, 18) : item.excerpt) : "";
         return `
-        <article class="news-feature-card ${index === 0 ? "is-primary" : ""} ${item.imageUrl ? "has-media" : ""}">
-          ${newsImageMarkup(item, "news-feature-media")}
+        <article class="news-feature-card ${index === 0 ? "is-primary" : ""} ${newsImageUrl(item, { allowFallback: true }) ? "has-media" : ""}">
+          ${newsImageMarkup(item, "news-feature-media", { allowFallback: true })}
           <div class="news-card-topline">
             <span class="news-topic-badge">${item.category}</span>
             <span class="news-card-date">${item.dateLabel}</span>
@@ -1498,8 +1603,8 @@
       }
       ui.newsLatestArticles.innerHTML = latestArticleItems
         .map((item) => `
-          <a class="news-article-row ${item.imageUrl ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
-            ${newsImageMarkup(item, "news-article-media")}
+          <a class="news-article-row ${newsImageUrl(item, { allowFallback: false }) ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
+            ${newsImageMarkup(item, "news-article-media", { allowFallback: false })}
             <span class="news-article-copy">
               <span class="news-card-topline">
                 <span class="news-topic-badge">${item.category}</span>
