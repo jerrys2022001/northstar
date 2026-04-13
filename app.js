@@ -130,6 +130,7 @@
         "source": "Superhuman AI",
         "summary": "Perplexity is using a public startup challenge to frame Computer as more than a research assistant, pushing it toward an agent platform with broader builder appeal.",
         "href": "https://www.superhuman.ai/p/perplexity-s-billion-dollar-challenge",
+        "imageUrl": "assets/news/perplexity-build-challenge-original.jpg",
         "excerpt": "Heat read: Perplexity's traffic is lower than ChatGPT or Gemini, but product momentum remains unusually strong whenever it expands beyond search."
       },
       {
@@ -149,6 +150,7 @@
         "source": "Anthropic Engineering",
         "summary": "Anthropic is turning Claude from a strong chat surface into more durable agent infrastructure, with hosted sessions designed for longer-running, recoverable production work.",
         "href": "https://www.anthropic.com/engineering/managed-agents",
+        "imageUrl": "assets/news/claude-managed-agents-original.png",
         "excerpt": "Heat read: Claude remains one of the highest-traffic top tools on the site, so managed orchestration is a more meaningful signal than another generic model benchmark."
       },
       {
