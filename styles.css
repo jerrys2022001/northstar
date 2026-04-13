@@ -399,14 +399,19 @@ h6 {
 }
 
 .icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 48px;
   height: 48px;
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.92);
-  color: var(--blue);
+  color: var(--accent-dark);
   border: 1px solid rgba(20, 20, 20, 0.08);
   box-shadow: none;
   font-size: 1.4rem;
+  line-height: 1;
+  text-align: center;
 }
 
 .portal {
