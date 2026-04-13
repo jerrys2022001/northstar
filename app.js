@@ -1292,6 +1292,79 @@
     return `news-date-${group.date}`;
   }
 
+  function activeNewsDate() {
+    const hash = String(window.location.hash || "").replace(/^#/, "");
+    const matched = newsFeed.find((group) => newsGroupAnchorId(group) === hash);
+    return matched ? matched.date : newsFeed[0]?.date;
+  }
+
+  function formatNewsDateLabel(dateValue) {
+    const date = new Date(`${dateValue}T12:00:00`);
+    return date.toLocaleDateString("en-US", {
+      month: "long",
+      day: "numeric",
+      year: "numeric"
+    });
+  }
+
+  function renderNewsDateBrowser() {
+    if (!ui.newsDateBrowser || !newsFeed.length) {
+      return;
+    }
+
+    const selectedDate = activeNewsDate();
+    const selectedGroup = newsFeed.find((group) => group.date === selectedDate) || newsFeed[0];
+    const selectedDateObject = new Date(`${selectedGroup.date}T12:00:00`);
+    const year = selectedDateObject.getFullYear();
+    const monthIndex = selectedDateObject.getMonth();
+    const monthLabel = selectedDateObject.toLocaleDateString("en-US", { month: "long" });
+    const firstDay = new Date(year, monthIndex, 1);
+    const daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
+    const leadingEmptyDays = firstDay.getDay();
+    const weekdayLabels = ["SU", "MO", "TU", "WE", "TH", "FR", "SA"];
+    const newsDateMap = new Map(newsFeed.map((group) => [group.date, group]));
+    const dayCells = [];
+
+    for (let index = 0; index < leadingEmptyDays; index += 1) {
+      dayCells.push('<span class="news-calendar-day is-empty" aria-hidden="true"></span>');
+    }
+
+    for (let day = 1; day <= daysInMonth; day += 1) {
+      const dateKey = `${year}-${String(monthIndex + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+      const matchingGroup = newsDateMap.get(dateKey);
+      const isActive = selectedDate === dateKey;
+      if (matchingGroup) {
+        dayCells.push(`
+          <a class="news-calendar-day is-link ${isActive ? "is-active" : ""}" href="#${newsGroupAnchorId(matchingGroup)}" aria-label="${formatNewsDateLabel(dateKey)}">
+            ${day}
+          </a>
+        `);
+      } else {
+        dayCells.push(`<span class="news-calendar-day is-disabled">${day}</span>`);
+      }
+    }
+
+    ui.newsDateBrowser.innerHTML = `
+      <div class="news-calendar-shell">
+        <div class="news-calendar-selected">${formatNewsDateLabel(selectedGroup.date)}</div>
+        <div class="news-calendar-panel">
+          <div class="news-calendar-toolbar">
+            <span class="news-calendar-nav" aria-hidden="true">&#8249;</span>
+            <span class="news-calendar-select">${monthLabel}<span class="news-calendar-caret">&#9662;</span></span>
+            <span class="news-calendar-select is-year">${year}<span class="news-calendar-caret">&#9662;</span></span>
+            <span class="news-calendar-nav" aria-hidden="true">&#8250;</span>
+          </div>
+          <div class="news-calendar-weekdays">
+            ${weekdayLabels.map((label) => `<span>${label}</span>`).join("")}
+          </div>
+          <div class="news-calendar-grid">
+            ${dayCells.join("")}
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
   function renderNewsHub() {
     if (!ui.newsLeadGrid || !ui.newsFeed) {
       return;
@@ -1396,16 +1469,7 @@
       `;
     }
 
-    if (ui.newsDateBrowser) {
-      ui.newsDateBrowser.innerHTML = newsFeed
-        .map((group, index) => `
-          <a class="news-date-chip ${index === 0 ? "is-active" : ""}" href="#${newsGroupAnchorId(group)}">
-            <span class="news-date-chip-day">${group.label}</span>
-            <span class="news-date-chip-meta">${group.items.length} tool-linked stories</span>
-          </a>
-        `)
-        .join("");
-    }
+    renderNewsDateBrowser();
 
     if (ui.newsHotTools) {
       ui.newsHotTools.innerHTML = newsToolListMarkup(tools.slice(0, 5), (tool) => formatVisits(tool.monthlyVisits));
@@ -2359,12 +2423,23 @@
     });
 
     document.addEventListener("click", (event) => {
+      const newsCalendarLink = event.target.closest(".news-calendar-day.is-link");
+      if (newsCalendarLink) {
+        window.setTimeout(() => {
+          renderNewsDateBrowser();
+        }, 0);
+      }
+
       const button = event.target.closest("[data-featured-more]");
       if (!button) {
         return;
       }
       increaseFeaturedVisibleCount(button.dataset.featuredMore);
       renderTodayBoards();
+    });
+
+    window.addEventListener("hashchange", () => {
+      renderNewsDateBrowser();
     });
   }
 
