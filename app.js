@@ -1640,11 +1640,21 @@
       button.addEventListener("click", () => {
         state.activeCategory = button.dataset.category;
         renderAll();
-        const targetCategory = button.dataset.category;
-        const targetId = targetCategory === "All" ? "directory" : `directory-section-${slugify(targetCategory)}`;
-        document.getElementById(targetId)?.scrollIntoView({ behavior: "smooth", block: "start" });
+        navigateToDirectoryCategory(button.dataset.category);
       });
     });
+  }
+
+  function navigateToDirectoryCategory(category) {
+    const targetId = category === "All" ? "directory" : `directory-section-${slugify(category)}`;
+    const isDirectoryPage = /(^|\/)directory\.html$/i.test(window.location.pathname || "");
+
+    if (isDirectoryPage && document.getElementById(targetId)) {
+      document.getElementById(targetId)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+
+    window.location.href = `directory.html#${targetId}`;
   }
 
   function renderHeroMetrics() {
