@@ -534,15 +534,15 @@
       guidance: "Claude works best when the brief is document-heavy and the desired output should feel measured, polished, and calm."
     },
     {
-      id: "deepseek",
-      label: "DeepSeek",
-      icon: "DS",
-      toolId: "deepseek",
-      description: "Reasoning-first prompts for analysis and technical problem solving.",
-      headline: "Reasoning-first prompts for technical and analytical work",
-      bestFor: ["Architecture reviews", "Debugging", "Tradeoff analysis", "Step-by-step reasoning"],
-      formula: ["Problem", "Assumptions", "Alternatives", "Evaluation criteria", "Recommended answer"],
-      guidance: "DeepSeek prompts perform best when you explicitly ask for assumptions, alternative paths, edge cases, and a final recommendation."
+      id: "gemini",
+      label: "Gemini",
+      icon: "G",
+      toolId: "gemini",
+      description: "Research and synthesis prompts for multimodal planning and fast exploration.",
+      headline: "Multimodal prompt patterns for research, planning, and synthesis",
+      bestFor: ["Research synthesis", "Notebook planning", "Multimodal input", "Fast comparisons"],
+      formula: ["Objective", "Context", "Inputs", "Evaluation lens", "Output structure"],
+      guidance: "Gemini gets stronger when you give it mixed inputs, explicit comparison criteria, and a structured format for the final answer."
     },
     {
       id: "midjourney",
@@ -556,26 +556,135 @@
       guidance: "Midjourney prompts get better when you define composition, material cues, lighting, and the exact mood before adding style references."
     },
     {
-      id: "marketing",
-      label: "Marketing",
-      icon: "Mk",
-      toolId: "jasper",
-      description: "Campaign, landing page, and positioning prompt patterns.",
-      headline: "Positioning, copy, and campaign prompts for growth teams",
-      bestFor: ["Positioning", "Landing pages", "ICP work", "Campaign planning"],
-      formula: ["Audience", "Pain", "Offer", "Proof", "CTA"],
-      guidance: "Marketing prompts improve when you define buyer pain, buying trigger, proof, and the exact conversion action you want."
+      id: "perplexity",
+      label: "Perplexity",
+      icon: "P",
+      toolId: "perplexity",
+      description: "Search-first prompts for source-backed answers, scans, and market checks.",
+      headline: "Search-native prompt patterns for source-backed research",
+      bestFor: ["Fact finding", "Source-backed summaries", "Market scans", "Rapid Q&A"],
+      formula: ["Question", "Scope", "Source expectations", "Decision criteria", "Cited output"],
+      guidance: "Perplexity works best when you define the search scope, ask for citations, and state how the answer should be organized for decision-making."
     },
     {
-      id: "coding",
-      label: "Coding",
-      icon: "</>",
+      id: "githubcopilot",
+      label: "GitHub Copilot",
+      icon: "GH",
       toolId: "githubcopilot",
       description: "Prompt starters for shipping features, fixing bugs, and planning builds.",
-      headline: "Engineering prompts for planning, debugging, and delivery",
+      headline: "Engineering prompts for implementation, debugging, and delivery",
       bestFor: ["Feature planning", "Bug triage", "Refactoring", "Rollout checklists"],
       formula: ["Problem statement", "Constraints", "Affected systems", "Test plan", "Risk review"],
-      guidance: "Coding prompts are stronger when you define affected modules, constraints, test expectations, and rollout risks up front."
+      guidance: "GitHub Copilot prompts are stronger when you define the affected modules, constraints, test expectations, and rollout risks up front."
+    },
+    {
+      id: "runway",
+      label: "Runway",
+      icon: "R",
+      toolId: "runway",
+      description: "Video-generation prompts for motion, edits, and story-driven creative work.",
+      headline: "Prompt building for AI video scenes, edits, and motion direction",
+      bestFor: ["Motion concepts", "Storyboard beats", "Video edits", "Creative testing"],
+      formula: ["Scene goal", "Subject", "Camera movement", "Style cues", "Output length"],
+      guidance: "Runway prompts improve when you specify scene action, camera behavior, style cues, and the exact duration or beat you want."
+    },
+    {
+      id: "jasper",
+      label: "Jasper",
+      icon: "J",
+      toolId: "jasper",
+      description: "Campaign, landing page, and positioning prompt patterns for growth teams.",
+      headline: "Positioning, campaign, and brand-safe copy prompts",
+      bestFor: ["Positioning", "Landing pages", "ICP work", "Campaign planning"],
+      formula: ["Audience", "Pain", "Offer", "Proof", "CTA"],
+      guidance: "Jasper prompts improve when you define buyer pain, buying trigger, proof, and the exact conversion action you want."
+    },
+    {
+      id: "canva",
+      label: "Canva",
+      icon: "Ca",
+      toolId: "canva",
+      description: "Creative brief prompts for social assets, decks, and lightweight design systems.",
+      headline: "Prompt structures for design briefs, decks, and social assets",
+      bestFor: ["Social content", "Presentation outlines", "Creative briefs", "Brand kits"],
+      formula: ["Asset type", "Audience", "Brand cues", "Content blocks", "Format specs"],
+      guidance: "Canva prompts work better when you define the asset type, brand mood, required sections, and the platform or format constraints."
+    },
+    {
+      id: "notion",
+      label: "Notion",
+      icon: "N",
+      toolId: "notion",
+      description: "Workspace prompts for docs, project planning, and internal operating systems.",
+      headline: "Prompt patterns for docs, project plans, and team knowledge",
+      bestFor: ["Project docs", "Team wikis", "Meeting notes", "Knowledge organization"],
+      formula: ["Workspace goal", "Inputs", "Structure", "Owners", "Next actions"],
+      guidance: "Notion AI prompts get more useful when you define the workspace outcome, the exact sections needed, and who will act on the result."
+    },
+    {
+      id: "grammarly",
+      label: "Grammarly",
+      icon: "Gr",
+      toolId: "grammarly",
+      description: "Editing prompts for clarity, tone control, and concise professional writing.",
+      headline: "Prompt patterns for rewriting, tone adjustment, and clarity",
+      bestFor: ["Email editing", "Tone shifts", "Clarity rewrites", "Professional polish"],
+      formula: ["Draft", "Audience", "Tone target", "Clarity goal", "Final constraints"],
+      guidance: "Grammarly-style prompts are best when you define the audience, target tone, and exactly what should be preserved or cut."
+    },
+    {
+      id: "elevenlabs",
+      label: "ElevenLabs",
+      icon: "11",
+      toolId: "elevenlabs",
+      description: "Voice prompts for narration, dialogue style, and audio delivery control.",
+      headline: "Prompt patterns for AI voice, narration, and spoken delivery",
+      bestFor: ["Voiceovers", "Narration style", "Dialogue pacing", "Audio localization"],
+      formula: ["Voice role", "Emotion", "Pacing", "Pronunciation notes", "Output usage"],
+      guidance: "ElevenLabs prompts improve when you specify voice intent, pacing, pronunciation notes, and how the audio will actually be used."
+    },
+    {
+      id: "synthesia",
+      label: "Synthesia",
+      icon: "Sy",
+      toolId: "synthesia",
+      description: "Avatar-video prompts for training, explainers, and customer-facing walkthroughs.",
+      headline: "Prompt structures for AI presenters, explainers, and training videos",
+      bestFor: ["Training videos", "Product explainers", "Internal enablement", "Localized video"],
+      formula: ["Audience", "Script goal", "On-screen flow", "Visual aids", "Delivery tone"],
+      guidance: "Synthesia prompts are clearer when you define the audience, script goal, scene flow, and what should appear on screen with the presenter."
+    },
+    {
+      id: "pictory",
+      label: "Pictory",
+      icon: "Pi",
+      description: "Prompt starters for turning scripts, blogs, and summaries into short videos.",
+      headline: "Prompt patterns for script-to-video and repurposed content",
+      bestFor: ["Blog-to-video", "Repurposing content", "Explainer clips", "Short-form edits"],
+      formula: ["Source content", "Audience", "Key beats", "Visual treatment", "Output format"],
+      guidance: "Pictory-style prompts work best when you define the source material, visual pacing, key moments, and the target video format."
+    },
+    {
+      id: "copyai",
+      label: "Copy.ai",
+      icon: "Co",
+      toolId: "copyai",
+      description: "GTM prompts for outbound, pipeline messaging, and revenue-team workflows.",
+      headline: "Prompt structures for GTM copy, outbound, and sales enablement",
+      bestFor: ["Outbound messaging", "Sales sequences", "GTM ops", "Pipeline content"],
+      formula: ["Persona", "Pain", "Offer", "Proof", "Desired response"],
+      guidance: "Copy.ai prompts are stronger when you define the buyer persona, trigger event, business pain, and the exact response you want back."
+    },
+    {
+      id: "deepseek",
+      label: "DeepSeek",
+      icon: "DS",
+      toolId: "deepseek",
+      description: "Reasoning-first prompts for analysis and technical problem solving.",
+      headline: "Reasoning-first prompts for technical and analytical work",
+      bestFor: ["Architecture reviews", "Debugging", "Tradeoff analysis", "Step-by-step reasoning"],
+      formula: ["Problem", "Assumptions", "Alternatives", "Evaluation criteria", "Recommended answer"],
+      guidance: "DeepSeek prompts perform best when you explicitly ask for assumptions, alternative paths, edge cases, and a final recommendation."
     }
   ];
   const promptLibrary = [
@@ -614,6 +723,24 @@
       title: "Policy and tone editor",
       summary: "Improve clarity without losing nuance or intent.",
       body: "Edit this policy draft for clarity, consistency, and executive readability. Keep the original intent, remove ambiguity, unify terminology, and end with a short list of sections that still need a human review."
+    },
+    {
+      track: "gemini",
+      title: "Research synthesis board",
+      summary: "Turn mixed notes and links into a structured brief.",
+      body: "Act as a research analyst. Use the notes, links, and screenshots below to produce a synthesis with the main findings, conflicting signals, open questions, and the three actions we should take next."
+    },
+    {
+      track: "gemini",
+      title: "Multimodal comparison prompt",
+      summary: "Compare screenshots, docs, and notes in one pass.",
+      body: "Compare these assets across usability, message clarity, trust signals, and visual hierarchy. Return a ranked comparison, the strongest patterns, the weakest points, and what we should test next."
+    },
+    {
+      track: "gemini",
+      title: "Planning notebook starter",
+      summary: "Convert scattered context into a workable plan.",
+      body: "You are a strategy associate. Turn the material below into a project notebook with goals, assumptions, workstreams, dependencies, questions to resolve, and a recommended order of execution."
     },
     {
       track: "deepseek",
@@ -658,40 +785,202 @@
       body: "Editorial portrait of a modern technology founder, soft natural light, refined composition, neutral wardrobe, glass-and-aluminum environment, premium magazine styling, subtle depth, restrained luxury, realistic texture."
     },
     {
-      track: "marketing",
+      track: "perplexity",
+      title: "Source-backed market scan",
+      summary: "Find signal fast and keep the citations attached.",
+      body: "Research this topic and return a market scan with key players, the current state of the market, notable shifts in the last 12 months, and cited sources for every major claim."
+    },
+    {
+      track: "perplexity",
+      title: "Decision memo with citations",
+      summary: "Compress web research into a clean recommendation.",
+      body: "Act as an analyst. Answer the question below with a short decision memo including recommendation, evidence, counterpoints, and source links. Prioritize current, primary, and high-signal sources."
+    },
+    {
+      track: "perplexity",
+      title: "Competitive fact check",
+      summary: "Verify claims before they get into a deck or memo.",
+      body: "Fact-check these claims about the company, product, and market. Separate confirmed facts from weak claims, link to the supporting sources, and note where the evidence is thin or outdated."
+    },
+    {
+      track: "githubcopilot",
       title: "Landing page messaging",
-      summary: "Turn features into cleaner homepage copy.",
-      body: "You are a senior conversion copywriter. Using the product notes below, write a landing page structure with hero headline, subhead, three benefit blocks, proof points, objections, and a CTA that feels premium but clear."
-    },
-    {
-      track: "marketing",
-      title: "Audience ICP builder",
-      summary: "Sharpen positioning before writing campaigns.",
-      body: "Based on this product description, define three high-fit ICPs. For each one, include pains, buying triggers, objections, use cases, and the value proposition angle most likely to convert."
-    },
-    {
-      track: "marketing",
-      title: "Campaign angle generator",
-      summary: "Generate stronger hooks before ad and launch work begins.",
-      body: "Act as a product marketing lead. Based on the product, audience, and current market context, generate five campaign angles. For each one include the core tension, headline direction, proof point, objection to overcome, and the CTA that best fits the angle."
-    },
-    {
-      track: "coding",
-      title: "Feature implementation plan",
-      summary: "Break a request into concrete engineering work.",
+      summary: "Turn a request into an implementation-ready build plan.",
       body: "Act as a staff engineer. Convert this feature request into a practical implementation plan with assumptions, affected modules, API changes, UI changes, migration needs, test plan, and rollout risks."
     },
     {
-      track: "coding",
+      track: "githubcopilot",
       title: "Bug triage prompt",
       summary: "Faster debugging for reproducible issues.",
       body: "You are debugging a production issue. Given the error, logs, and recent changes, propose the most likely root causes, what to inspect first, and the smallest safe fix path. End with tests to prevent regression."
     },
     {
-      track: "coding",
+      track: "githubcopilot",
       title: "Refactor risk review",
       summary: "Evaluate what can break before touching live modules.",
       body: "Act as a senior engineer reviewing a refactor proposal. List the modules most at risk, the behaviors that could regress, the tests that should exist first, and a phased rollout plan with rollback checkpoints."
+    },
+    {
+      track: "runway",
+      title: "Scene generation brief",
+      summary: "Create cleaner motion prompts before rendering.",
+      body: "Generate a short cinematic scene for an AI product launch: sleek interface details, subtle forward camera move, soft atmospheric lighting, premium commercial look, and a restrained futuristic mood."
+    },
+    {
+      track: "runway",
+      title: "Storyboard beat planner",
+      summary: "Map video beats before you render them.",
+      body: "Turn this concept into a five-shot storyboard. For each shot include subject, motion, camera movement, lighting, duration, and transition so the final sequence feels consistent and premium."
+    },
+    {
+      track: "runway",
+      title: "Edit extension prompt",
+      summary: "Guide AI-assisted edits with tighter creative control.",
+      body: "Extend this shot by 4 seconds while preserving subject identity, color palette, and camera continuity. Add subtle environmental motion and keep the pacing smooth enough for a premium product ad."
+    },
+    {
+      track: "jasper",
+      title: "Landing page messaging",
+      summary: "Turn features into cleaner homepage copy.",
+      body: "You are a senior conversion copywriter. Using the product notes below, write a landing page structure with hero headline, subhead, three benefit blocks, proof points, objections, and a CTA that feels premium but clear."
+    },
+    {
+      track: "jasper",
+      title: "Audience ICP builder",
+      summary: "Sharpen positioning before writing campaigns.",
+      body: "Based on this product description, define three high-fit ICPs. For each one, include pains, buying triggers, objections, use cases, and the value proposition angle most likely to convert."
+    },
+    {
+      track: "jasper",
+      title: "Campaign angle generator",
+      summary: "Generate stronger hooks before ad and launch work begins.",
+      body: "Act as a product marketing lead. Based on the product, audience, and current market context, generate five campaign angles. For each one include the core tension, headline direction, proof point, objection to overcome, and the CTA that best fits the angle."
+    },
+    {
+      track: "canva",
+      title: "Carousel creative brief",
+      summary: "Turn a content idea into a social-ready asset plan.",
+      body: "Create a LinkedIn carousel brief with slide-by-slide copy, design direction, visual hierarchy, and CTA. Keep the tone polished, minimal, and optimized for executive readers."
+    },
+    {
+      track: "canva",
+      title: "Deck outline builder",
+      summary: "Translate a message into a clearer presentation flow.",
+      body: "Build a presentation outline from the notes below. Return slide titles, key points, chart ideas, and design cues so the deck feels sharp, modern, and easy to present."
+    },
+    {
+      track: "canva",
+      title: "Brand asset prompt",
+      summary: "Keep lightweight design work aligned to brand.",
+      body: "Using this brand summary, generate a creative brief for a launch graphic set including colors, typography mood, image direction, icon style, and the mandatory content blocks for each asset."
+    },
+    {
+      track: "notion",
+      title: "Project hub setup",
+      summary: "Convert notes into a practical team workspace.",
+      body: "Turn the material below into a project hub structure with overview, goals, timeline, owners, dependencies, meeting cadence, and a running decisions log."
+    },
+    {
+      track: "notion",
+      title: "Meeting notes organizer",
+      summary: "Make raw notes easier to act on and archive.",
+      body: "Reformat these meeting notes into a Notion-ready structure with agenda, decisions, action items, owners, deadlines, and open questions. Keep it concise and easy to scan."
+    },
+    {
+      track: "notion",
+      title: "Wiki page builder",
+      summary: "Create clearer internal documentation from rough input.",
+      body: "Draft an internal wiki page from the source material below. Include purpose, process steps, roles, tools used, common mistakes, and a short FAQ for new team members."
+    },
+    {
+      track: "grammarly",
+      title: "Executive email polish",
+      summary: "Tighten tone without losing the message.",
+      body: "Rewrite this email to sound confident, concise, and executive-friendly. Remove filler, sharpen the ask, preserve the facts, and keep the final version under 180 words."
+    },
+    {
+      track: "grammarly",
+      title: "Tone shift editor",
+      summary: "Adjust the voice for a new audience quickly.",
+      body: "Rewrite this draft for a more professional audience. Keep the meaning intact, reduce casual phrasing, smooth the transitions, and flag any sentence that still sounds too vague."
+    },
+    {
+      track: "grammarly",
+      title: "Clarity rewrite",
+      summary: "Remove friction from dense or messy writing.",
+      body: "Edit the passage below for clarity and readability. Shorten long sentences, remove repetition, simplify awkward phrasing, and preserve any key terminology that must stay exact."
+    },
+    {
+      track: "elevenlabs",
+      title: "Voiceover direction",
+      summary: "Define delivery before generating narration.",
+      body: "Read this script as a calm, confident product narrator. Use natural pacing, clear emphasis on product benefits, and slight warmth without sounding overly promotional."
+    },
+    {
+      track: "elevenlabs",
+      title: "Pronunciation-safe read",
+      summary: "Reduce misreads on names, brands, and terms.",
+      body: "Generate a voice read for this script with careful pronunciation on all product names, acronyms, and technical terms. Add pacing that feels natural for an explainer video."
+    },
+    {
+      track: "elevenlabs",
+      title: "Dialogue style pass",
+      summary: "Shape the voice to fit a specific scene.",
+      body: "Perform this short dialogue with a conversational, grounded tone. Keep the rhythm realistic, the pauses subtle, and the emotional delivery supportive rather than theatrical."
+    },
+    {
+      track: "synthesia",
+      title: "Training explainer script",
+      summary: "Structure a presenter-led video for clarity.",
+      body: "Write a Synthesia-ready training script with opening context, step-by-step instruction, on-screen callouts, and a short recap. Keep the language simple and easy to localize."
+    },
+    {
+      track: "synthesia",
+      title: "Product walkthrough video",
+      summary: "Turn feature notes into a clean avatar-led flow.",
+      body: "Convert these product notes into a 90-second walkthrough script for an AI presenter. Include scene order, on-screen text suggestions, and the moments where the UI should appear."
+    },
+    {
+      track: "synthesia",
+      title: "Localization-ready presenter brief",
+      summary: "Make the script easier to adapt across markets.",
+      body: "Rewrite this presenter script so it is easy to translate and reuse globally. Use plain language, short sentences, and clear visual instructions for each scene."
+    },
+    {
+      track: "pictory",
+      title: "Blog-to-video converter",
+      summary: "Turn written content into a short video outline.",
+      body: "Convert this blog post into a 60-second video plan with hook, key points, suggested scene text, B-roll direction, and closing CTA. Keep the pacing crisp and social-friendly."
+    },
+    {
+      track: "pictory",
+      title: "Script highlight edit",
+      summary: "Extract the best moments into a tighter clip.",
+      body: "Take this long script and build a short highlight video structure with strongest lines first, scene-by-scene captions, simple visual suggestions, and a clear ending beat."
+    },
+    {
+      track: "pictory",
+      title: "Repurposing prompt",
+      summary: "Reuse source material without losing the core message.",
+      body: "Repurpose the content below into a short-form video summary. Identify the main takeaway, supporting moments, ideal caption text, and the visual rhythm that will keep viewers watching."
+    },
+    {
+      track: "copyai",
+      title: "Outbound sequence starter",
+      summary: "Build a cleaner sales sequence from raw product context.",
+      body: "Act as a GTM operator. Create a three-step outbound email sequence for this persona with subject lines, opening hooks, pain framing, proof, and one clear CTA per email."
+    },
+    {
+      track: "copyai",
+      title: "Sales enablement brief",
+      summary: "Package product context for revenue teams.",
+      body: "Turn these product notes into a sales enablement brief with buyer pains, common objections, proof points, competitor contrasts, and the top message each rep should use."
+    },
+    {
+      track: "copyai",
+      title: "Pipeline message map",
+      summary: "Align GTM copy to buyer stage and intent.",
+      body: "Create message variants for awareness, evaluation, and decision stages. For each stage include the buyer problem, value angle, proof to use, and the exact next action we want."
     }
   ];
 
@@ -704,7 +993,7 @@
     activePricing: "All",
     activeRanking: "Assistants",
     activeNewsCategory: "All",
-    activePromptTrack: promptTrackIds.has(promptQuery.get("track")) ? promptQuery.get("track") : "deepseek",
+    activePromptTrack: promptTrackIds.has(promptQuery.get("track")) ? promptQuery.get("track") : "chatgpt",
     featuredVisibleCounts: {}
   };
 
@@ -971,10 +1260,20 @@
     const keywordMap = {
       chatgpt: ["ChatGPT", "research", "writing", "operator"],
       claude: ["Claude", "long-context", "writing", "document"],
+      gemini: ["Gemini", "multimodal", "research", "comparison", "synthesis"],
       deepseek: ["DeepSeek", "Reasoning-first", "technical", "analysis", "assumptions", "alternative", "recommendation"],
       midjourney: ["Midjourney", "Visual", "imagery", "concept", "lighting", "mood"],
-      marketing: ["Marketing", "campaign", "positioning", "copy", "growth", "CTA"],
-      coding: ["Coding", "Engineering", "debugging", "delivery", "test", "risk"]
+      perplexity: ["Perplexity", "search", "citations", "sources", "research"],
+      githubcopilot: ["GitHub Copilot", "Engineering", "debugging", "delivery", "test", "risk"],
+      runway: ["Runway", "video", "motion", "scene", "camera"],
+      jasper: ["Jasper", "campaign", "positioning", "copy", "growth", "CTA"],
+      canva: ["Canva", "design", "carousel", "deck", "brand"],
+      notion: ["Notion", "workspace", "docs", "wiki", "project"],
+      grammarly: ["Grammarly", "rewrite", "clarity", "tone", "editing"],
+      elevenlabs: ["ElevenLabs", "voice", "narration", "audio", "pacing"],
+      synthesia: ["Synthesia", "presenter", "training", "video", "script"],
+      pictory: ["Pictory", "video", "repurpose", "script", "summary"],
+      copyai: ["Copy.ai", "outbound", "GTM", "sales", "pipeline"]
     };
     const fallbackTrack = promptTrackMeta(trackId);
     const keywords = keywordMap[trackId] || [fallbackTrack.label];

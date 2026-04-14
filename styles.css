@@ -2613,7 +2613,7 @@ h6 {
 
 .prompt-page-hero h1 {
   margin: 0;
-  font-size: clamp(2rem, 3.2vw, 3rem);
+  font-size: clamp(1.9rem, 3vw, 2.72rem);
   line-height: 1.08;
   letter-spacing: -0.05em;
 }
@@ -4192,7 +4192,7 @@ body[data-page="home"] .news-feature-card .news-excerpt {
 
 
   .prompt-page-hero h1 {
-    font-size: clamp(1.8rem, 9vw, 2.5rem);
+    font-size: clamp(1.68rem, 8vw, 2.28rem);
   }
 
   .search-hero h1 {
