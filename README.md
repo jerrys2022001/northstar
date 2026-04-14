@@ -48,6 +48,17 @@ python generate_static_tool_pages.py
 
 This writes standalone pages like `tools/chatgpt.html` and `tools/claude.html`.
 
+## Refresh AI news
+
+Northstar imports AI/tech signals from the public LearnPrompt `ai-news-radar` data format, falls back to curated RSS sources, then merges the result into the existing NEWS page archive.
+
+```powershell
+python scripts\fetch_ai_news_radar.py --date 2026-04-14
+python scripts\run_daily_news_task.py --date 2026-04-14 --skip-render-validation
+```
+
+The GitHub Actions workflow at `.github/workflows/update-ai-news.yml` runs the same pipeline daily against the `codex/news-updates` branch. GitHub only runs scheduled workflows from the default branch, so merge that workflow into `main` when the daily automation should become active.
+
 ## Cache local tool icons
 
 ```powershell
