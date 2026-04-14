@@ -692,19 +692,21 @@ h6 {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);
   align-items: center;
-  gap: 16px;
-  padding: 12px 18px;
-  border-radius: 30px;
+  gap: 12px;
+  width: min(100%, 1460px);
+  justify-self: start;
+  padding: 10px 14px;
+  border-radius: 26px;
   overflow: hidden;
 }
 
 .release-ticker-label {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding-right: 10px;
+  gap: 8px;
+  padding-right: 6px;
   white-space: nowrap;
-  font-size: 0.86rem;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -730,24 +732,24 @@ h6 {
   display: flex;
   width: max-content;
   min-width: 100%;
-  gap: 18px;
+  gap: 14px;
   animation: releaseTickerScroll 34s linear infinite;
 }
 
 .release-ticker-lane {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
   flex-shrink: 0;
 }
 
 .release-ticker-item {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   min-width: max-content;
-  padding: 9px 12px;
-  border-radius: 16px;
+  padding: 7px 10px;
+  border-radius: 14px;
   background: rgba(255, 255, 255, 0.72);
   border: 1px solid rgba(20, 20, 20, 0.06);
   transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
@@ -760,9 +762,9 @@ h6 {
 }
 
 .release-ticker-icon {
-  width: 32px;
-  height: 32px;
-  border-radius: 10px;
+  width: 28px;
+  height: 28px;
+  border-radius: 9px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -770,18 +772,18 @@ h6 {
 .release-ticker-copy {
   display: inline-flex;
   align-items: baseline;
-  gap: 8px;
+  gap: 6px;
   white-space: nowrap;
 }
 
 .release-ticker-copy strong {
-  font-size: 0.98rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--text);
 }
 
 .release-ticker-copy span {
-  font-size: 0.86rem;
+  font-size: 0.8rem;
   color: var(--muted);
 }
 
@@ -789,11 +791,11 @@ h6 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 4px 9px;
+  padding: 3px 8px;
   border-radius: 999px;
   background: rgba(249, 115, 22, 0.12);
   color: var(--accent-dark);
-  font-size: 0.74rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -4080,8 +4082,9 @@ body[data-page="home"] .news-feature-card .news-excerpt {
 
   .release-ticker {
     grid-template-columns: 1fr;
-    gap: 10px;
-    padding: 12px 14px;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 12px;
   }
 
   .release-ticker-label {

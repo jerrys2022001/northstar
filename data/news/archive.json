@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-04-13T11:56:17",
-  "runDate": "2026-04-13",
+  "updatedAt": "2026-04-14T12:46:00",
+  "runDate": "2026-04-14",
   "items": [
+    {
+      "id": "cursor-3-1-tiled-agents-apr13",
+      "date": "2026-04-13",
+      "dateLabel": "April 13, 2026",
+      "category": "Developer Tools",
+      "title": "Cursor 3.1 adds tiled agent views and more reliable voice input",
+      "source": "Cursor Changelog",
+      "summary": "Cursor's latest release makes multi-agent coding sessions easier to supervise by adding a tiled layout in the Agents Window and upgrading dictation with batch speech-to-text.",
+      "href": "https://cursor.com/changelog",
+      "excerpt": "Why it matters: coding tools are shifting from single-chat copilots toward parallel agent workspaces that feel closer to an operating console.",
+      "imageUrl": "",
+      "toolIds": [
+        "cursor"
+      ]
+    },
     {
       "id": "perplexity-build-challenge-apr12",
       "date": "2026-04-12",
@@ -12,7 +27,7 @@
       "summary": "Perplexity is using a public startup challenge to frame Computer as more than a research assistant, pushing it toward an agent platform with broader builder appeal.",
       "href": "https://www.superhuman.ai/p/perplexity-s-billion-dollar-challenge",
       "excerpt": "Heat read: Perplexity's traffic is lower than ChatGPT or Gemini, but product momentum remains unusually strong whenever it expands beyond search.",
-      "imageUrl": "",
+      "imageUrl": "assets/news/perplexity-build-challenge-original.jpg",
       "toolIds": [
         "gemini",
         "chatgpt",
@@ -44,7 +59,7 @@
       "summary": "Anthropic is turning Claude from a strong chat surface into more durable agent infrastructure, with hosted sessions designed for longer-running, recoverable production work.",
       "href": "https://www.anthropic.com/engineering/managed-agents",
       "excerpt": "Heat read: Claude remains one of the highest-traffic top tools on the site, so managed orchestration is a more meaningful signal than another generic model benchmark.",
-      "imageUrl": "",
+      "imageUrl": "assets/news/claude-managed-agents-original.png",
       "toolIds": [
         "claude"
       ]
@@ -279,6 +294,21 @@
       ]
     },
     {
+      "id": "claude-cowork-ga-apr09",
+      "date": "2026-04-09",
+      "dateLabel": "April 9, 2026",
+      "category": "Product Updates",
+      "title": "Claude Cowork reaches general availability on desktop for enterprise teams",
+      "source": "Anthropic Release Notes",
+      "summary": "Anthropic moved Claude Cowork to general availability on macOS and Windows, adding usage analytics, OpenTelemetry support, and tighter enterprise controls around rollout.",
+      "href": "https://docs.anthropic.com/en/release-notes/claude-apps",
+      "excerpt": "Why it matters: Anthropic is turning Claude from a strong assistant into a more governable workplace product with adoption tracking and admin controls.",
+      "imageUrl": "",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
       "id": "claude-code-leak-blueprint-apr09",
       "date": "2026-04-09",
       "dateLabel": "April 9, 2026",
@@ -309,6 +339,19 @@
       ]
     },
     {
+      "id": "meta-muse-spark-apr08",
+      "date": "2026-04-08",
+      "dateLabel": "April 8, 2026",
+      "category": "Model Releases",
+      "title": "Meta launches Muse Spark to upgrade Meta AI across apps and API preview",
+      "source": "Meta",
+      "summary": "Meta introduced Muse Spark as the first model from Meta Superintelligence Labs, using it to power faster multimodal Meta AI experiences and a private preview API for partners.",
+      "href": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+      "excerpt": "Why it matters: Meta is tying a new flagship model directly to consumer distribution across WhatsApp, Instagram, Facebook, Messenger, and AI glasses.",
+      "imageUrl": "",
+      "toolIds": []
+    },
+    {
       "id": "google-ai-studio-gemma-leverage-apr08",
       "date": "2026-04-08",
       "dateLabel": "April 8, 2026",
@@ -322,6 +365,21 @@
       "toolIds": [
         "gemini",
         "googleaistudio"
+      ]
+    },
+    {
+      "id": "github-copilot-vscode-agents-apr08",
+      "date": "2026-04-08",
+      "dateLabel": "April 8, 2026",
+      "category": "Developer Tools",
+      "title": "GitHub Copilot expands agent control and browser debugging in VS Code",
+      "source": "GitHub Changelog",
+      "summary": "GitHub's March releases for Copilot in VS Code added Autopilot sessions, finer agent permissions, integrated browser debugging, and richer media support inside chat.",
+      "href": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases/",
+      "excerpt": "Why it matters: GitHub is pushing Copilot further into full-session autonomous development instead of keeping it as a narrow inline completion tool.",
+      "imageUrl": "",
+      "toolIds": [
+        "githubcopilot"
       ]
     },
     {
@@ -417,6 +475,36 @@
       "toolIds": [
         "gemini",
         "claude"
+      ]
+    },
+    {
+      "id": "figma-canvas-agents-mar24",
+      "date": "2026-03-24",
+      "dateLabel": "March 24, 2026",
+      "category": "Design AI",
+      "title": "Figma opens its canvas to AI agents with an MCP server beta",
+      "source": "Figma Blog",
+      "summary": "Figma now lets AI agents create and edit design assets on the canvas through its MCP server beta, with skills used to encode design-system rules and workflow context.",
+      "href": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/",
+      "excerpt": "Why it matters: design tools are becoming part of the agent loop, not just a handoff destination after code is written.",
+      "imageUrl": "",
+      "toolIds": [
+        "figma"
+      ]
+    },
+    {
+      "id": "chatgpt-file-library-mar23",
+      "date": "2026-03-23",
+      "dateLabel": "March 23, 2026",
+      "category": "Product Updates",
+      "title": "ChatGPT adds a File Library for saved uploads and generated assets",
+      "source": "OpenAI Help Center",
+      "summary": "OpenAI added a persistent Library in ChatGPT so uploaded files and generated assets can be reused later, with recent-file insertion and sidebar browsing across web and mobile surfaces.",
+      "href": "https://help.openai.com/en/articles/6825453-chatgpt-browser",
+      "excerpt": "Why it matters: persistent files make ChatGPT feel more like an ongoing workspace than a disposable chat window.",
+      "imageUrl": "",
+      "toolIds": [
+        "chatgpt"
       ]
     }
   ]

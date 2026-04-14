@@ -410,9 +410,22 @@ def write_daily_log(
     render_validation: str,
 ) -> Path:
     NEWS_LOG_DIR.mkdir(parents=True, exist_ok=True)
+    path = NEWS_LOG_DIR / f"{run_date}.md"
     run_items = [item for item in kept_items if item["date"] == run_date]
     candidate_ids = {item["id"] for item in candidate_items}
     added_today = [item for item in run_items if item["id"] in candidate_ids]
+    archive_ids_before_run = {item["id"] for item in archive_items}
+    newly_merged_candidates = [item for item in candidate_items if item["id"] not in archive_ids_before_run]
+
+    preserved_story_lines: list[str] = []
+    if path.exists() and not newly_merged_candidates:
+        existing_log = path.read_text(encoding="utf-8")
+        marker = "## Stories introduced by this run"
+        if marker in existing_log:
+            section = existing_log.split(marker, 1)[1]
+            next_section_match = re.search(r"\n## ", section)
+            section_body = section[: next_section_match.start()] if next_section_match else section
+            preserved_story_lines = [line.rstrip() for line in section_body.strip().splitlines() if line.strip()]
 
     lines = [
         f"# Daily AI News Run - {run_date}",
@@ -422,6 +435,7 @@ def write_daily_log(
         f"- Current feed items: {sum(len(group['items']) for group in grouped_feed)}",
         f"- Incoming candidate items: {len(candidate_items)}",
         f"- New items added for {run_date}: {len(added_today)}",
+        f"- Candidate stories newly merged into archive: {len(newly_merged_candidates)}",
         f"- Duplicate items skipped: {len(dedupe_summary['duplicatesSkipped'])}",
         f"- Same-tool cap skips: {len(dedupe_summary['toolCapSkipped'])}",
         f"- Static validation: {static_validation['groups']} groups / {static_validation['items']} items / {static_validation['imagesChecked']} images checked",
@@ -438,6 +452,14 @@ def write_daily_log(
     else:
         lines.append("- No stories are currently assigned to this run date.")
 
+    if newly_merged_candidates:
+        lines.extend(["", "## Stories introduced by this run", ""])
+        for item in newly_merged_candidates:
+            lines.append(f"- {item['title']} [{item['source']}] - dated {item['date']}")
+    elif preserved_story_lines:
+        lines.extend(["", "## Stories introduced by this run", ""])
+        lines.extend(preserved_story_lines)
+
     if dedupe_summary["duplicatesSkipped"]:
         lines.extend(["", "## Duplicate stories skipped", ""])
         for item in dedupe_summary["duplicatesSkipped"][:10]:
@@ -449,7 +471,6 @@ def write_daily_log(
             skipped_tools = ", ".join(item.get("skippedToolIds", [])) or "unknown"
             lines.append(f"- {item['date']} - {item['title']} [{skipped_tools}]")
 
-    path = NEWS_LOG_DIR / f"{run_date}.md"
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return path
 

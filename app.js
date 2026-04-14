@@ -120,6 +120,21 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-04-13",
+    "label": "April 13, 2026",
+    "items": [
+      {
+        "id": "cursor-3-1-tiled-agents-apr13",
+        "category": "Developer Tools",
+        "title": "Cursor 3.1 adds tiled agent views and more reliable voice input",
+        "source": "Cursor Changelog",
+        "summary": "Cursor's latest release makes multi-agent coding sessions easier to supervise by adding a tiled layout in the Agents Window and upgrading dictation with batch speech-to-text.",
+        "href": "https://cursor.com/changelog",
+        "excerpt": "Why it matters: coding tools are shifting from single-chat copilots toward parallel agent workspaces that feel closer to an operating console."
+      }
+    ]
+  },
+  {
     "date": "2026-04-12",
     "label": "April 12, 2026",
     "items": [
@@ -309,6 +324,15 @@
         "excerpt": "Why it matters: Grok's scale advantage comes from distribution through X, not just model branding."
       },
       {
+        "id": "claude-cowork-ga-apr09",
+        "category": "Product Updates",
+        "title": "Claude Cowork reaches general availability on desktop for enterprise teams",
+        "source": "Anthropic Release Notes",
+        "summary": "Anthropic moved Claude Cowork to general availability on macOS and Windows, adding usage analytics, OpenTelemetry support, and tighter enterprise controls around rollout.",
+        "href": "https://docs.anthropic.com/en/release-notes/claude-apps",
+        "excerpt": "Why it matters: Anthropic is turning Claude from a strong assistant into a more governable workplace product with adoption tracking and admin controls."
+      },
+      {
         "id": "claude-code-leak-blueprint-apr09",
         "category": "Developer Tools",
         "title": "Claude Code's leak turned Anthropic's harness into a public design reference",
@@ -333,6 +357,15 @@
         "excerpt": "Why it matters: Claude's strongest upcoming capabilities are being framed as a deployment-governance problem, not just a product launch."
       },
       {
+        "id": "meta-muse-spark-apr08",
+        "category": "Model Releases",
+        "title": "Meta launches Muse Spark to upgrade Meta AI across apps and API preview",
+        "source": "Meta",
+        "summary": "Meta introduced Muse Spark as the first model from Meta Superintelligence Labs, using it to power faster multimodal Meta AI experiences and a private preview API for partners.",
+        "href": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+        "excerpt": "Why it matters: Meta is tying a new flagship model directly to consumer distribution across WhatsApp, Instagram, Facebook, Messenger, and AI glasses."
+      },
+      {
         "id": "google-ai-studio-gemma-leverage-apr08",
         "category": "Open Models",
         "title": "Google AI Studio gets a stronger developer story when Gemma and Gemini move together",
@@ -340,6 +373,15 @@
         "summary": "Gemma 4 gives Google AI Studio more open-model credibility, making Google's stack feel broader than a single closed Gemini endpoint for developers and prototype teams.",
         "href": "https://deepmind.google/discover/blog/gemma-4-byte-for-byte-the-most-capable-open-models/#google-ai-studio",
         "excerpt": "Why it matters: the most durable platforms usually win by offering multiple lanes, not one monolithic model."
+      },
+      {
+        "id": "github-copilot-vscode-agents-apr08",
+        "category": "Developer Tools",
+        "title": "GitHub Copilot expands agent control and browser debugging in VS Code",
+        "source": "GitHub Changelog",
+        "summary": "GitHub's March releases for Copilot in VS Code added Autopilot sessions, finer agent permissions, integrated browser debugging, and richer media support inside chat.",
+        "href": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases/",
+        "excerpt": "Why it matters: GitHub is pushing Copilot further into full-session autonomous development instead of keeping it as a narrow inline completion tool."
       },
       {
         "id": "deepl-agent-enterprise-apr08",
@@ -400,6 +442,36 @@
         "summary": "Anthropic's expanded compute arrangement with Google and Broadcom makes clear that serving and training Claude at the frontier is now as much an infrastructure story as a model story.",
         "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anthropic-compute-deal",
         "excerpt": "Why it matters: demand for top assistants is increasingly constrained by how much compute can actually be delivered."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "label": "March 24, 2026",
+    "items": [
+      {
+        "id": "figma-canvas-agents-mar24",
+        "category": "Design AI",
+        "title": "Figma opens its canvas to AI agents with an MCP server beta",
+        "source": "Figma Blog",
+        "summary": "Figma now lets AI agents create and edit design assets on the canvas through its MCP server beta, with skills used to encode design-system rules and workflow context.",
+        "href": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/",
+        "excerpt": "Why it matters: design tools are becoming part of the agent loop, not just a handoff destination after code is written."
+      }
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "label": "March 23, 2026",
+    "items": [
+      {
+        "id": "chatgpt-file-library-mar23",
+        "category": "Product Updates",
+        "title": "ChatGPT adds a File Library for saved uploads and generated assets",
+        "source": "OpenAI Help Center",
+        "summary": "OpenAI added a persistent Library in ChatGPT so uploaded files and generated assets can be reused later, with recent-file insertion and sidebar browsing across web and mobile surfaces.",
+        "href": "https://help.openai.com/en/articles/6825453-chatgpt-browser",
+        "excerpt": "Why it matters: persistent files make ChatGPT feel more like an ongoing workspace than a disposable chat window."
       }
     ]
   }
@@ -658,6 +730,7 @@
       id: "pictory",
       label: "Pictory",
       icon: "Pi",
+      toolId: "pictory",
       description: "Prompt starters for turning scripts, blogs, and summaries into short videos.",
       headline: "Prompt patterns for script-to-video and repurposed content",
       bestFor: ["Blog-to-video", "Repurposing content", "Explainer clips", "Short-form edits"],
