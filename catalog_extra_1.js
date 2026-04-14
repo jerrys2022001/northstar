@@ -48,6 +48,22 @@ window.AI_CATALOG.tools.push(
     sources: { futurepedia: "https://www.futurepedia.io/ai-tools", toolify: "https://www.toolify.ai/Best-trending-AI-Tools" }
   },
   {
+    id: "pictory",
+    name: "Pictory",
+    vendor: "Pictory",
+    logoLetter: "P",
+    accent: "linear-gradient(145deg, #2563eb, #14b8a6)",
+    url: "https://pictory.ai/",
+    summary: "A script-to-video platform that helps teams turn long-form content, blog posts, webinars, and clips into short, reusable video assets.",
+    categories: ["Video", "Writing", "Productivity"],
+    audience: ["Marketers", "Content teams", "Creators", "Small businesses"],
+    pricing: "Freemium",
+    monthlyVisits: 3200000,
+    trafficLabel: "3.2M monthly visits",
+    recommendation: "A practical fit when your team already has source content and wants faster repurposing into publishable video without a heavy editing workflow.",
+    sources: { futurepedia: "https://www.futurepedia.io/ai-tools", toolify: "https://www.toolify.ai/Best-trending-AI-Tools" }
+  },
+  {
     id: "leonardo",
     name: "Leonardo AI",
     vendor: "Leonardo",

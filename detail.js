@@ -99,6 +99,37 @@
         ["Team fit", "Strong for analyst teams"]
       ]
     },
+    pictory: {
+      why: [
+        "Strong fit when the real job is repurposing existing content into video instead of editing from scratch.",
+        "Especially useful for teams turning blogs, webinars, scripts, or long clips into shorter social and marketing assets.",
+        "A more operations-friendly pick than heavier creative suites when speed matters more than frame-level control."
+      ],
+      strengths: [
+        "Good for script-to-video and article-to-video workflows where the source material already exists.",
+        "Useful for content teams that need more output volume without a full editing bench.",
+        "Sits at a practical intersection of video, writing, and productivity work."
+      ],
+      watchouts: [
+        "Less compelling if your team wants cinematic control or advanced motion generation from first principles.",
+        "Can feel limiting for editors who expect a full creative timeline or detailed post-production workflow."
+      ],
+      useWhen: [
+        "You already have source content and want to repurpose it into faster video output.",
+        "Your team needs marketing clips, explainers, or social assets without a heavy edit cycle."
+      ],
+      avoidWhen: [
+        "You need deeper visual generation, avatar workflows, or more advanced editing control.",
+        "Your workflow starts with blank-canvas filmmaking rather than structured content repurposing."
+      ],
+      pricingAdvice: "Best justified when video repurposing is recurring work and the bottleneck is production speed, not creative ideation.",
+      decisionMatrix: [
+        ["Breadth", "Focused"],
+        ["Repurposing speed", "Strong"],
+        ["Editing depth", "Moderate"],
+        ["Team fit", "Strong for content teams"]
+      ]
+    },
     deepl: {
       why: [
         "One of the clearest specialist buys for companies that operate across languages.",
