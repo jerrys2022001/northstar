@@ -257,6 +257,18 @@ def is_ai_focused(item: dict[str, Any]) -> bool:
     return any(keyword in haystack for keyword in AI_KEYWORDS) or bool(item.get("toolIds"))
 
 
+def is_publishable_english(item: dict[str, Any]) -> bool:
+    text = " ".join(str(item.get(key, "")) for key in ("title", "summary"))
+    mojibake_markers = ("�", "鈥", "銆", "锛", "紵", "涓", "鍚", "噺", "绋", "鐨")
+    if any(marker in text for marker in mojibake_markers):
+        return False
+    if any(not char.isascii() for char in text):
+        return False
+
+    ascii_letters = sum(1 for char in text if char.isascii() and char.isalpha())
+    return ascii_letters >= 12
+
+
 def classify_category(text: str) -> str:
     haystack = text.lower()
     for category, keywords in CATEGORY_RULES:
@@ -337,7 +349,7 @@ def main() -> int:
     candidates = [
         item
         for item in dedupe(items)
-        if item.get("title") and item.get("href") and is_ai_focused(item)
+        if item.get("title") and item.get("href") and is_ai_focused(item) and is_publishable_english(item)
         if cutoff.date() <= datetime.strptime(item["date"], "%Y-%m-%d").replace(tzinfo=timezone.utc).date() < upper_bound.date()
     ][: args.limit]
 

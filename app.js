@@ -120,6 +120,30 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-04-14",
+    "label": "April 14, 2026",
+    "items": [
+      {
+        "id": "human-machine-teaming-dives-underwater-84d4323c-apr14",
+        "category": "Research Workflows",
+        "title": "Human-machine teaming dives underwater",
+        "source": "MIT News AI",
+        "summary": "Researchers are developing hardware and algorithms to improve collaboration between divers and autonomous underwater vehicles engaged in maritime missions.",
+        "href": "https://news.mit.edu/2026/human-machine-teaming-dives-underwater-0414",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "bringing-people-together-at-ai-for-the-economy-f-373936d3-apr14",
+        "category": "Product Updates",
+        "title": "Bringing people together at AI for the Economy Forum",
+        "source": "Google AI Blog",
+        "summary": "Google is bringing people together in Washington D.C. at our AI for the Economy Forum.",
+        "href": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-04-13",
     "label": "April 13, 2026",
     "items": [
