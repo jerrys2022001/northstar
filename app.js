@@ -1662,8 +1662,8 @@
   }
 
   const NEWS_IMAGE_FALLBACKS = {
-    default: "assets/news/google-gemini-flash-live-source.webp",
-    agents: "assets/news/ai-news-goldman-agents.png",
+    default: "assets/brand-mark.png",
+    agents: "assets/news/superhuman-personal-agents.png",
     model: "assets/news/google-gemini-flash-live-source.webp",
     open: "assets/news/deepseek-v3-open-source-first.png",
     funding: "assets/news/perplexity-billion-build.png",
@@ -1676,7 +1676,7 @@
     productivity: "assets/news/adobe-firefly-precision-flow.jpg",
     creative: "assets/news/adobe-firefly-precision-flow.jpg",
     developer: "assets/news/chatgpt-100-tier-source.png",
-    infrastructure: "assets/news/superhuman-personal-agents.png",
+    infrastructure: "assets/news/openai-cyber-defense-local.jpg",
     anthropic: "assets/news/superhuman-claude-mythos.png",
     perplexity: "assets/news/perplexity-billion-build-source.jpg",
     google: "assets/news/google-gemini-flash-live-source-large.webp",
@@ -1686,15 +1686,38 @@
     claude: "assets/news/superhuman-claude-mythos.png",
     gemini: "assets/news/google-gemini-flash-live-source.webp"
   };
+  const NEWS_BRAND_FALLBACK_IMAGE = "assets/brand-mark.png";
+  const NEWS_TREE_FALLBACK_ICON = "assets/news/northstar-icon-fallback.svg";
+  const NEWS_BRIGHT_IMAGE_FALLBACKS = {
+    default: "assets/news/bright-product-updates.svg",
+    "Product Updates": "assets/news/bright-product-updates.svg",
+    Productivity: "assets/news/bright-productivity.svg",
+    Safety: "assets/news/bright-safety.svg"
+  };
+  const NEWS_PORTRAIT_IMAGE_URLS = new Set([
+    "assets/news/gemini-personal-intelligence-local.jpg"
+  ]);
+
+  function brightNewsImageUrl(item) {
+    return NEWS_BRIGHT_IMAGE_FALLBACKS[item.category] || NEWS_BRIGHT_IMAGE_FALLBACKS.default;
+  }
 
   function newsImageUrl(item, options) {
-    if (item.imageUrl) {
+    const settings = options || {};
+    if (settings.useBrightFallback) {
+      return brightNewsImageUrl(item);
+    }
+
+    if (item.imageUrl && !(settings.avoidPortraits && NEWS_PORTRAIT_IMAGE_URLS.has(item.imageUrl))) {
       return item.imageUrl;
     }
 
-    const settings = options || {};
     if (!settings.allowFallback) {
       return "";
+    }
+
+    if (settings.useBrandFallback) {
+      return NEWS_BRAND_FALLBACK_IMAGE;
     }
 
     const toolMatches = newsToolIds(item);
@@ -1768,6 +1791,10 @@
     const imageUrl = newsImageUrl(item, options);
     if (!imageUrl) {
       return "";
+    }
+    const settings = options || {};
+    if (settings.useBrightFallback) {
+      return `<span class="${className} is-bright-news-art" data-news-art="${escapeAttribute(item.category || "default")}"></span>`;
     }
     return `
       <span class="${className}">
@@ -1852,7 +1879,7 @@
     );
   }
 
-  function homeNewsGroups(limit = 10) {
+  function homeNewsGroups(limit = 18) {
     const selectedItems = [];
     for (const group of newsFeed) {
       for (const item of sortNewsItems(group.items)) {
@@ -1928,6 +1955,29 @@
     }
 
     return pickTools(matches).slice(0, 2);
+  }
+
+  function newsTreeToolIcons(item) {
+    const matchedTools = newsToolIds(item, { allowFallback: false });
+    if (matchedTools.length) {
+      return matchedTools.map((tool) => {
+        const tooltip = escapeAttribute(tooltipText(tool));
+        return `
+          <span class="tool-icon-wrap news-tree-tool-icon" data-tip="${tooltip}">
+            <span class="tool-icon-shell">
+              <img src="${tool.iconUrl}" alt="${tool.name} icon" loading="eager" onerror="this.onerror=null;this.closest('.tool-icon-shell').classList.add('is-brand-fallback');this.src='${NEWS_TREE_FALLBACK_ICON}';">
+            </span>
+          </span>
+        `;
+      }).join("");
+    }
+    return `
+      <span class="tool-icon-wrap news-tree-tool-icon" data-tip="Northstar signal">
+        <span class="tool-icon-shell is-brand-fallback">
+          <img src="${NEWS_TREE_FALLBACK_ICON}" alt="Northstar signal icon" loading="lazy">
+        </span>
+      </span>
+    `;
   }
 
   function newsHeatScore(item) {
@@ -2111,12 +2161,13 @@
     ui.newsLeadGrid.innerHTML = featuredItems
       .map((item, index) => {
         const isHomePage = !isNewsPage;
+        const featureImageOptions = isHomePage ? { allowFallback: true, useBrightFallback: true } : { allowFallback: true };
         const title = isHomePage ? shortenWords(item.title, 7) : item.title;
         const summary = isHomePage ? shortenWords(item.summary, 18) : item.summary;
         const excerpt = item.excerpt ? (isHomePage ? shortenWords(item.excerpt, 18) : item.excerpt) : "";
         return `
-        <article class="news-feature-card ${index === 0 ? "is-primary" : ""} ${newsImageUrl(item, { allowFallback: true }) ? "has-media" : ""}">
-          ${newsImageMarkup(item, "news-feature-media", { allowFallback: true })}
+        <article class="news-feature-card ${index === 0 ? "is-primary" : ""} ${newsImageUrl(item, featureImageOptions) ? "has-media" : ""}">
+          ${newsImageMarkup(item, "news-feature-media", featureImageOptions)}
           <div class="news-card-topline">
             <span class="news-topic-badge">${item.category}</span>
             <span class="news-card-date">${item.dateLabel}</span>
@@ -2158,9 +2209,7 @@
                     <span class="news-tree-node" aria-hidden="true"></span>
                     <div class="news-tree-content">
                       <div class="news-tree-tools">
-                        ${newsToolIds(item)
-                          .map((tool) => iconShell(tool, "news-tree-tool-icon"))
-                          .join("")}
+                        ${newsTreeToolIcons(item)}
                       </div>
                       <p class="news-tree-summary"><a href="${item.href}" target="_blank" rel="noreferrer">${item.summary}</a></p>
                     </div>
@@ -2219,8 +2268,8 @@
       const latestArticleItems = latestRecentNewsItems(items, 5);
       ui.newsLatestArticles.innerHTML = latestArticleItems
         .map((item) => `
-          <a class="news-article-row ${newsImageUrl(item, { allowFallback: false }) ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
-            ${newsImageMarkup(item, "news-article-media", { allowFallback: false })}
+          <a class="news-article-row ${newsImageUrl(item, { allowFallback: true, useBrightFallback: true }) ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
+            ${newsImageMarkup(item, "news-article-media", { allowFallback: true, useBrightFallback: true })}
             <span class="news-article-copy">
               <span class="news-card-topline">
                 <span class="news-topic-badge">${item.category}</span>
