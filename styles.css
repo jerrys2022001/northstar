@@ -3235,7 +3235,17 @@ body[data-page="directory"] .section-lead {
 
 .news-more-footer .link-button {
   pointer-events: auto;
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
   box-shadow: 0 10px 24px rgba(17, 17, 17, 0.06);
+}
+
+.news-more-footer .link-button:hover,
+.news-more-footer .link-button:focus-visible {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: #fff;
 }
 
 .news-shell-header {
