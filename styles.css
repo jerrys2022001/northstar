@@ -3981,6 +3981,24 @@ body[data-page="home"] .news-feature-card {
   min-height: 292px;
 }
 
+body[data-page="home"] .news-layout {
+  align-items: stretch;
+}
+
+body[data-page="home"] .news-main,
+body[data-page="home"] .news-sidebar {
+  align-self: stretch;
+}
+
+body[data-page="home"] .news-main {
+  grid-template-rows: auto minmax(0, 1fr);
+}
+
+body[data-page="home"] .news-feed {
+  min-height: 0;
+  align-content: space-between;
+}
+
 body[data-page="home"] .news-feature-card h3 {
   display: -webkit-box;
   -webkit-box-orient: vertical;

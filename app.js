@@ -1736,6 +1736,57 @@
     return picks;
   }
 
+  function latestRecentNewsItems(items, limit) {
+    const latestDates = [...new Set(items.map((item) => item.date).filter(Boolean))]
+      .sort((left, right) => right.localeCompare(left))
+      .slice(0, 2);
+
+    if (!latestDates.length) {
+      return [];
+    }
+
+    return distinctNewsItems(
+      items.filter((item) => latestDates.includes(item.date)),
+      limit,
+      []
+    );
+  }
+
+  function homeNewsGroups(limit = 15) {
+    const selectedItems = [];
+    for (const group of newsFeed) {
+      for (const item of group.items) {
+        if (state.activeNewsCategory !== "All" && item.category !== state.activeNewsCategory) {
+          continue;
+        }
+        selectedItems.push({ group, item });
+        if (selectedItems.length >= limit) {
+          break;
+        }
+      }
+      if (selectedItems.length >= limit) {
+        break;
+      }
+    }
+
+    return newsFeed
+      .map((group) => ({
+        ...group,
+        items: selectedItems.filter((entry) => entry.group === group).map((entry) => entry.item)
+      }))
+      .filter((group) => group.items.length);
+  }
+
+  function homeNewsItems() {
+    return homeNewsGroups().flatMap((group) =>
+      group.items.map((item) => ({
+        ...item,
+        date: group.date,
+        dateLabel: group.label
+      }))
+    );
+  }
+
   function newsToolIds(item) {
     const haystack = `${item.title || ""} ${item.summary || ""} ${item.excerpt || ""} ${item.source || ""}`.toLowerCase();
     const matches = [];
@@ -1883,11 +1934,12 @@
 
     const isNewsPage = document.body?.dataset?.page === "news";
     const items = filteredNewsItems();
-    const featuredCandidatesWithImages = items.filter((item) => newsImageUrl(item, { allowFallback: true }));
+    const displayItems = isNewsPage ? items : homeNewsItems();
+    const featuredCandidatesWithImages = displayItems.filter((item) => newsImageUrl(item, { allowFallback: true }));
     const featuredItems = distinctNewsItems(featuredCandidatesWithImages, 3, []);
-    const visibleGroups = isNewsPage ? newsFeed : newsFeed.slice(0, 4);
+    const visibleGroups = isNewsPage ? newsFeed : homeNewsGroups();
 
-    if (!items.length) {
+    if (!displayItems.length) {
       ui.newsLeadGrid.innerHTML = "";
       ui.newsFeed.innerHTML = `
         <div class="empty-state">
@@ -1926,10 +1978,11 @@
     const timelineItems = [];
     const groupedMarkup = visibleGroups
       .map((group) => {
+        const groupExclusions = timelineItems;
         const groupItems = distinctNewsItems(
           group.items.filter((item) => state.activeNewsCategory === "All" || item.category === state.activeNewsCategory),
-          isNewsPage ? 12 : 5,
-          [...featuredItems, ...timelineItems]
+          isNewsPage ? group.items.length : 15,
+          groupExclusions
         );
         if (!groupItems.length) {
           return "";
@@ -2005,14 +2058,7 @@
     }
 
     if (ui.newsLatestArticles) {
-      let latestArticleItems = distinctNewsItems(
-        items.filter((item) => !featuredItems.some((featuredItem) => areNewsItemsSimilar(item, featuredItem))),
-        6,
-        []
-      );
-      if (latestArticleItems.length < 6) {
-        latestArticleItems = distinctNewsItems(items, 6, []);
-      }
+      const latestArticleItems = latestRecentNewsItems(isNewsPage ? items : displayItems, 5);
       ui.newsLatestArticles.innerHTML = latestArticleItems
         .map((item) => `
           <a class="news-article-row ${newsImageUrl(item, { allowFallback: false }) ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
@@ -2055,15 +2101,24 @@
   }
 
   function navigateToDirectoryCategory(category) {
-    const targetId = category === "All" ? "directory" : `directory-section-${slugify(category)}`;
+    const targetId = directoryCategoryTargetId(category);
     const isDirectoryPage = /(^|\/)directory\.html$/i.test(window.location.pathname || "");
 
     if (isDirectoryPage && document.getElementById(targetId)) {
-      document.getElementById(targetId)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      scrollToDirectoryCategory(category);
       return;
     }
 
     window.location.href = `directory.html#${targetId}`;
+  }
+
+  function directoryCategoryTargetId(category) {
+    return category === "All" ? "directory" : `directory-section-${slugify(category)}`;
+  }
+
+  function scrollToDirectoryCategory(category) {
+    const target = document.getElementById(directoryCategoryTargetId(category));
+    target?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function renderHeroMetrics() {
@@ -2658,6 +2713,7 @@
       button.addEventListener("click", () => {
         state.activeCategory = button.dataset.category;
         renderAll();
+        scrollToDirectoryCategory(button.dataset.category);
       });
     });
 
@@ -2739,7 +2795,7 @@
         button.addEventListener("click", () => {
           state.activeCategory = button.dataset.category;
           renderAll();
-          document.getElementById("directory")?.scrollIntoView({ behavior: "smooth", block: "start" });
+          scrollToDirectoryCategory(button.dataset.category);
         });
       });
     }
