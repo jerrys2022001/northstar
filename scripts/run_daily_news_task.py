@@ -73,6 +73,12 @@ def parse_args() -> argparse.Namespace:
         help="Maximum number of same-tool stories allowed for a single day.",
     )
     parser.add_argument(
+        "--min-daily-items",
+        type=int,
+        default=10,
+        help="Minimum number of stories required for the run date.",
+    )
+    parser.add_argument(
         "--skip-render-validation",
         action="store_true",
         help="Skip the Playwright news page render check.",
@@ -350,7 +356,7 @@ def format_date_label(date_value: str) -> str:
     return datetime.strptime(date_value, "%Y-%m-%d").strftime("%B %-d, %Y") if sys.platform != "win32" else datetime.strptime(date_value, "%Y-%m-%d").strftime("%B %#d, %Y")
 
 
-def validate_static_news_assets(grouped_feed: list[dict[str, Any]]) -> dict[str, Any]:
+def validate_static_news_assets(grouped_feed: list[dict[str, Any]], run_date: str, min_daily_items: int) -> dict[str, Any]:
     app_js_text = APP_JS_PATH.read_text(encoding="utf-8")
     html_text = NEWS_HTML_PATH.read_text(encoding="utf-8")
     errors: list[str] = []
@@ -363,6 +369,10 @@ def validate_static_news_assets(grouped_feed: list[dict[str, Any]]) -> dict[str,
         errors.append("app.js is missing renderNewsHub()")
     if not grouped_feed:
         errors.append("Grouped news feed is empty")
+    run_group = next((group for group in grouped_feed if group["date"] == run_date), None)
+    run_group_count = len(run_group["items"]) if run_group else 0
+    if run_group_count < min_daily_items:
+        errors.append(f"{run_date} has {run_group_count} news items; expected at least {min_daily_items}")
 
     image_errors: list[str] = []
     for group in grouped_feed:
@@ -381,6 +391,7 @@ def validate_static_news_assets(grouped_feed: list[dict[str, Any]]) -> dict[str,
     return {
         "groups": len(grouped_feed),
         "items": sum(len(group["items"]) for group in grouped_feed),
+        "runDateItems": run_group_count,
         "imagesChecked": sum(1 for group in grouped_feed for item in group["items"] if item.get("imageUrl")),
     }
 
@@ -439,6 +450,7 @@ def write_daily_log(
         f"- Duplicate items skipped: {len(dedupe_summary['duplicatesSkipped'])}",
         f"- Same-tool cap skips: {len(dedupe_summary['toolCapSkipped'])}",
         f"- Static validation: {static_validation['groups']} groups / {static_validation['items']} items / {static_validation['imagesChecked']} images checked",
+        f"- Run-date news items: {static_validation.get('runDateItems', 0)}",
         f"- Render validation: {render_validation}",
         "",
         "## Items visible for this run date",
@@ -508,7 +520,7 @@ def main() -> int:
     grouped_feed = group_items_for_feed(kept_items)
     rewrite_app_js_news_feed(grouped_feed)
     write_archive(kept_items, grouped_feed, run_date)
-    static_validation = validate_static_news_assets(grouped_feed)
+    static_validation = validate_static_news_assets(grouped_feed, run_date, args.min_daily_items)
     render_validation = "skipped"
     if not args.skip_render_validation:
         render_validation = run_render_validation(run_date=run_date, validation_port=args.validation_port)

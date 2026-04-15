@@ -1,7 +1,149 @@
 {
-  "updatedAt": "2026-04-14T23:26:13",
-  "runDate": "2026-04-14",
+  "updatedAt": "2026-04-15T13:38:45",
+  "runDate": "2026-04-15",
   "items": [
+    {
+      "id": "synera-agentic-engineering-funding-apr15",
+      "date": "2026-04-15",
+      "dateLabel": "April 15, 2026",
+      "category": "Funding",
+      "title": "Synera raises $40M to bring agentic AI into industrial engineering",
+      "source": "Business Wire",
+      "summary": "Synera raised a $40 million Series B to scale an agentic AI platform that orchestrates engineering workflows across existing design and simulation tools.",
+      "href": "https://finance.yahoo.com/sectors/technology/articles/synera-raises-40m-series-b-120000022.html",
+      "excerpt": "Funding read: agentic AI is moving into high-value engineering work where integrations and on-prem deployment matter.",
+      "imageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "ranger-ai-industrial-rfp-funding-apr15",
+      "date": "2026-04-15",
+      "dateLabel": "April 15, 2026",
+      "category": "Funding",
+      "title": "Ranger AI surfaces as another industrial agent workflow bet",
+      "source": "AlleyWatch",
+      "summary": "Ranger AI, an AI agent platform for industrial RFP response and tendering workflows, reported a $6 million funding round in the April 14 startup funding report.",
+      "href": "https://alleywatch.com/2026/04/the-alleywatch-startup-daily-funding-report-4-14-2026/",
+      "excerpt": "Startup signal: investors are backing narrower agent platforms that target expensive operational paperwork.",
+      "imageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "openai-gpt-54-cyber-tac-apr15",
+      "date": "2026-04-15",
+      "dateLabel": "April 15, 2026",
+      "category": "Safety",
+      "title": "OpenAI opens GPT-5.4-Cyber through a broader trusted-access program",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI is expanding Trusted Access for Cyber and introducing GPT-5.4-Cyber, a cyber-permissive GPT-5.4 variant for verified defensive security teams.",
+      "href": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+      "excerpt": "Signal: OpenAI is moving from blanket restriction toward verified-access deployment for high-capability defensive cyber models.",
+      "imageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "nvidia-ising-quantum-ai-apr15",
+      "date": "2026-04-15",
+      "dateLabel": "April 15, 2026",
+      "category": "Open Models",
+      "title": "Nvidia launches open Ising AI models for quantum computing",
+      "source": "Nvidia",
+      "summary": "Nvidia introduced the Ising open model family to help researchers and enterprises improve quantum processor calibration and error correction.",
+      "href": "https://seekingalpha.com/pr/20472509-nvidia-launches-ising-the-world-s-first-open-ai-models-to-accelerate-the-path-to-useful",
+      "excerpt": "Infrastructure signal: AI is becoming a control layer for the next generation of quantum-computing hardware.",
+      "imageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "microsoft-copilot-openclaw-like-agents-apr15",
+      "date": "2026-04-15",
+      "dateLabel": "April 15, 2026",
+      "category": "Agents",
+      "title": "Microsoft tests OpenClaw-like agents for Microsoft 365 Copilot",
+      "source": "The Verge",
+      "summary": "Microsoft is testing always-on Copilot agents for Microsoft 365 that could watch inboxes, calendars, and role-specific work streams while staying inside enterprise controls.",
+      "href": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
+      "excerpt": "Enterprise angle: Microsoft is trying to turn agent autonomy into a managed workplace feature, not a loose desktop experiment.",
+      "imageUrl": "",
+      "toolIds": [
+        "githubcopilot"
+      ]
+    },
+    {
+      "id": "gemini-personal-intelligence-india-apr15",
+      "date": "2026-04-15",
+      "dateLabel": "April 15, 2026",
+      "category": "Product Updates",
+      "title": "Gemini Personal Intelligence expands to India",
+      "source": "TechCrunch",
+      "summary": "Google is bringing Gemini's Personal Intelligence feature to India, letting paid users connect Google services so Gemini can answer with account-aware context.",
+      "href": "https://techcrunch.com/2026/04/14/google-brings-its-gemini-personal-intelligence-feature-to-india/",
+      "excerpt": "Market read: India gives Google a large proving ground for personalized assistant workflows grounded in first-party services.",
+      "imageUrl": "",
+      "toolIds": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "chrome-gemini-skills-apr15",
+      "date": "2026-04-15",
+      "dateLabel": "April 15, 2026",
+      "category": "Productivity",
+      "title": "Chrome turns Gemini prompts into repeatable Skills",
+      "source": "The Verge",
+      "summary": "Google is rolling out Chrome Skills so users can save Gemini prompts and reuse them across pages for repeatable browsing, shopping, research, and productivity tasks.",
+      "href": "https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch",
+      "excerpt": "Product angle: prompt reuse is moving from power-user habit into browser-native workflow infrastructure.",
+      "imageUrl": "",
+      "toolIds": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "bluefish-ai-visibility-series-b-apr15",
+      "date": "2026-04-15",
+      "dateLabel": "April 15, 2026",
+      "category": "Funding",
+      "title": "Bluefish raises $43M for AI visibility and agentic marketing",
+      "source": "citybiz",
+      "summary": "Bluefish raised $43 million in Series B funding for a platform that helps brands understand and influence how they appear inside AI-generated discovery surfaces.",
+      "href": "https://www.citybiz.co/article/832169/nea-backed-bluefish-raises-43-million-series-b-as-fortune-500-adopts-ai-marketing-platform/",
+      "excerpt": "Market signal: enterprises are starting to budget for how brands show up inside LLM answers, not just search pages.",
+      "imageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "axios-openai-cyber-access-apr15",
+      "date": "2026-04-15",
+      "dateLabel": "April 15, 2026",
+      "category": "Safety",
+      "title": "OpenAI's cyber model rollout tests the market for verified AI defense access",
+      "source": "Axios",
+      "summary": "OpenAI's GPT-5.4-Cyber launch gives vetted security vendors, organizations, and researchers access to stronger defensive tooling while keeping the program gated.",
+      "href": "https://www.axios.com/2026/04/14/openai-model-cyber-program-release",
+      "excerpt": "Why it matters: access-control policy is becoming a product feature for frontier cybersecurity models.",
+      "imageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "anthropic-mythos-cisa-response-apr15",
+      "date": "2026-04-15",
+      "dateLabel": "April 15, 2026",
+      "category": "Policy",
+      "title": "Anthropic Mythos forces a harder government conversation about AI cyber defense",
+      "source": "Axios",
+      "summary": "Anthropic's Mythos Preview has renewed debate over how public agencies should use frontier AI for critical-infrastructure defense amid CISA staffing and funding pressure.",
+      "href": "https://www.axios.com/2026/04/14/anthropic-mythos-trump-administration-cisa-cuts",
+      "excerpt": "Policy angle: powerful defensive models are only useful if governments can absorb them operationally.",
+      "imageUrl": "",
+      "toolIds": [
+        "claude"
+      ]
+    },
     {
       "id": "human-machine-teaming-dives-underwater-84d4323c-apr14",
       "date": "2026-04-14",
