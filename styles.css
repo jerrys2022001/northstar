@@ -4073,12 +4073,7 @@ body[data-page="home"] .news-feature-card {
 }
 
 body[data-page="home"] .news-layout {
-  align-items: stretch;
-}
-
-body[data-page="home"] .news-main,
-body[data-page="home"] .news-sidebar {
-  align-self: stretch;
+  align-items: start;
 }
 
 body[data-page="home"] .news-sidebar {
@@ -4086,12 +4081,12 @@ body[data-page="home"] .news-sidebar {
 }
 
 body[data-page="home"] .news-main {
-  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-rows: auto auto;
 }
 
 body[data-page="home"] .news-feed {
   min-height: 0;
-  align-content: space-between;
+  align-content: start;
 }
 
 body[data-page="home"] .news-feature-card h3 {
