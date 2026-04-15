@@ -3359,6 +3359,19 @@ body[data-page="directory"] .section-lead {
   letter-spacing: -0.04em;
 }
 
+.news-feature-card h3,
+.news-feature-card .news-summary,
+.news-feature-card .news-excerpt {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.news-feature-card h3 {
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
 .news-feature-card p,
 .news-list-item p,
 .news-ad-card p {
@@ -3368,16 +3381,17 @@ body[data-page="directory"] .section-lead {
 
 .news-summary {
   line-height: 1.56;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
 }
 
 .news-excerpt {
-  flex: 1;
-  padding: 12px 12px 12px 14px;
+  padding-left: 12px;
   border-left: 3px solid rgba(249, 115, 22, 0.28);
-  border-radius: 0 12px 12px 0;
-  background: rgba(255, 247, 237, 0.62);
   color: #4f4a43;
   line-height: 1.62;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
 }
 
 .news-inline-link {
