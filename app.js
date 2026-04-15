@@ -130,6 +130,7 @@
         "source": "TechCrunch",
         "summary": "Google is bringing Gemini's Personal Intelligence feature to India, letting paid users connect Google services so Gemini can answer with account-aware context.",
         "href": "https://techcrunch.com/2026/04/14/google-brings-its-gemini-personal-intelligence-feature-to-india/",
+        "imageUrl": "assets/news/gemini-personal-intelligence-local.jpg",
         "excerpt": "Market read: India gives Google a large proving ground for personalized assistant workflows grounded in first-party services."
       },
       {
@@ -139,6 +140,7 @@
         "source": "The Verge",
         "summary": "Google is rolling out Chrome Skills so users can save Gemini prompts and reuse them across pages for repeatable browsing, shopping, research, and productivity tasks.",
         "href": "https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch",
+        "imageUrl": "assets/news/chrome-gemini-skills-local.jpg",
         "excerpt": "Product angle: prompt reuse is moving from power-user habit into browser-native workflow infrastructure."
       },
       {
@@ -148,6 +150,7 @@
         "source": "OpenAI Blog",
         "summary": "OpenAI is expanding Trusted Access for Cyber and introducing GPT-5.4-Cyber, a cyber-permissive GPT-5.4 variant for verified defensive security teams.",
         "href": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
         "excerpt": "Signal: OpenAI is moving from blanket restriction toward verified-access deployment for high-capability defensive cyber models."
       },
       {
@@ -157,6 +160,7 @@
         "source": "Axios",
         "summary": "OpenAI's GPT-5.4-Cyber launch gives vetted security vendors, organizations, and researchers access to stronger defensive tooling while keeping the program gated.",
         "href": "https://www.axios.com/2026/04/14/openai-model-cyber-program-release",
+        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
         "excerpt": "Why it matters: access-control policy is becoming a product feature for frontier cybersecurity models."
       },
       {
@@ -2132,7 +2136,7 @@
     const timelineItems = [];
     const groupedMarkup = visibleGroups
       .map((group) => {
-        const groupExclusions = timelineItems;
+        const groupExclusions = isNewsPage ? timelineItems : [...featuredItems, ...timelineItems];
         const groupItems = distinctNewsItems(
           sortNewsItems(group.items.filter((item) => state.activeNewsCategory === "All" || item.category === state.activeNewsCategory)),
           isNewsPage ? group.items.length : 10,
