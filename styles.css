@@ -3222,6 +3222,22 @@ body[data-page="directory"] .section-lead {
   padding: 16px;
 }
 
+.news-more-footer {
+  position: absolute;
+  left: 16px;
+  right: 310px;
+  bottom: 12px;
+  z-index: 3;
+  display: flex;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+
+.news-more-footer .link-button {
+  pointer-events: auto;
+  box-shadow: 0 10px 24px rgba(17, 17, 17, 0.06);
+}
+
 .news-shell-header {
   align-items: flex-start;
 }
@@ -4187,6 +4203,10 @@ body[data-page="home"] .news-feature-card .news-excerpt {
 
   .news-sidebar {
     position: static;
+  }
+
+  .news-more-footer {
+    right: 16px;
   }
 
   .news-lead-grid {
