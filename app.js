@@ -130,7 +130,7 @@
         "source": "TechCrunch",
         "summary": "Google is bringing Gemini's Personal Intelligence feature to India, letting paid users connect Google services so Gemini can answer with account-aware context.",
         "href": "https://techcrunch.com/2026/04/14/google-brings-its-gemini-personal-intelligence-feature-to-india/",
-        "imageUrl": "assets/news/gemini-personal-intelligence-local.jpg",
+        "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
         "excerpt": "Market read: India gives Google a large proving ground for personalized assistant workflows grounded in first-party services."
       },
       {
@@ -140,7 +140,7 @@
         "source": "The Verge",
         "summary": "Google is rolling out Chrome Skills so users can save Gemini prompts and reuse them across pages for repeatable browsing, shopping, research, and productivity tasks.",
         "href": "https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch",
-        "imageUrl": "assets/news/chrome-gemini-skills-local.jpg",
+        "imageUrl": "assets/news/source-verge-chrome-skills.webp",
         "excerpt": "Product angle: prompt reuse is moving from power-user habit into browser-native workflow infrastructure."
       },
       {
@@ -160,7 +160,7 @@
         "source": "Axios",
         "summary": "OpenAI's GPT-5.4-Cyber launch gives vetted security vendors, organizations, and researchers access to stronger defensive tooling while keeping the program gated.",
         "href": "https://www.axios.com/2026/04/14/openai-model-cyber-program-release",
-        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+        "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
         "excerpt": "Why it matters: access-control policy is becoming a product feature for frontier cybersecurity models."
       },
       {
@@ -230,6 +230,7 @@
         "source": "Google AI Blog",
         "summary": "Google is bringing people together in Washington D.C. at our AI for the Economy Forum.",
         "href": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
+        "imageUrl": "assets/news/fallback-google-ai-economy.webp",
         "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
       },
       {
@@ -1697,6 +1698,16 @@
   const NEWS_PORTRAIT_IMAGE_URLS = new Set([
     "assets/news/gemini-personal-intelligence-local.jpg"
   ]);
+  const NEWS_WEEKLY_IMAGE_FALLBACKS = [
+    "assets/news/fallback-ai-network-abstract.jpg",
+    "assets/news/fallback-ai-datacenter-aerial.jpg",
+    "assets/news/fallback-ai-chip-wafer.jpg",
+    "assets/news/fallback-google-ai-economy.webp",
+    "assets/news/fallback-axios-openai-cyber.webp",
+    "assets/news/openai-cyber-defense-local.jpg",
+    "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+    "assets/news/source-verge-chrome-skills.webp"
+  ];
 
   function brightNewsImageUrl(item) {
     return NEWS_BRIGHT_IMAGE_FALLBACKS[item.category] || NEWS_BRIGHT_IMAGE_FALLBACKS.default;
@@ -1787,6 +1798,33 @@
     return NEWS_IMAGE_FALLBACKS.default;
   }
 
+  function uniqueNewsImageUrl(item, options, usedImages) {
+    const imageUrl = newsImageUrl(item, options);
+    if (imageUrl && !usedImages.has(imageUrl)) {
+      usedImages.add(imageUrl);
+      return imageUrl;
+    }
+
+    const fallbackUrl = NEWS_WEEKLY_IMAGE_FALLBACKS.find((url) => !usedImages.has(url));
+    if (fallbackUrl) {
+      usedImages.add(fallbackUrl);
+      return fallbackUrl;
+    }
+
+    return imageUrl || "";
+  }
+
+  function newsImageMarkupFromUrl(item, className, imageUrl) {
+    if (!imageUrl) {
+      return "";
+    }
+    return `
+      <span class="${className}">
+        <img src="${imageUrl}" alt="${escapeAttribute(item.title)}" loading="lazy" onerror="const media=this.parentElement; if(media){media.style.display='none';} const card=this.closest('.news-feature-card, .news-list-item, .news-article-row'); if(card){card.classList.remove('has-media');}">
+      </span>
+    `;
+  }
+
   function newsImageMarkup(item, className, options) {
     const imageUrl = newsImageUrl(item, options);
     if (!imageUrl) {
@@ -1796,11 +1834,7 @@
     if (settings.useBrightFallback) {
       return `<span class="${className} is-bright-news-art" data-news-art="${escapeAttribute(item.category || "default")}"></span>`;
     }
-    return `
-      <span class="${className}">
-        <img src="${imageUrl}" alt="${escapeAttribute(item.title)}" loading="lazy" onerror="const media=this.parentElement; if(media){media.style.display='none';} const card=this.closest('.news-feature-card, .news-list-item, .news-article-row'); if(card){card.classList.remove('has-media');}">
-      </span>
-    `;
+    return newsImageMarkupFromUrl(item, className, imageUrl);
   }
 
   function shortenWords(value, limit) {
@@ -2169,16 +2203,19 @@
       return;
     }
 
+    const weeklyNewsImages = new Set();
+
     ui.newsLeadGrid.innerHTML = featuredItems
       .map((item, index) => {
         const isHomePage = !isNewsPage;
-        const featureImageOptions = isHomePage ? { allowFallback: true, useBrightFallback: true } : { allowFallback: true };
+        const featureImageOptions = isHomePage ? { allowFallback: true, avoidPortraits: true } : { allowFallback: true };
+        const featureImageUrl = uniqueNewsImageUrl(item, featureImageOptions, weeklyNewsImages);
         const title = isHomePage ? shortenWords(item.title, 7) : item.title;
         const summary = isHomePage ? shortenWords(item.summary, 18) : item.summary;
         const excerpt = item.excerpt ? (isHomePage ? shortenWords(item.excerpt, 18) : item.excerpt) : "";
         return `
-        <article class="news-feature-card ${index === 0 ? "is-primary" : ""} ${newsImageUrl(item, featureImageOptions) ? "has-media" : ""}">
-          ${newsImageMarkup(item, "news-feature-media", featureImageOptions)}
+        <article class="news-feature-card ${index === 0 ? "is-primary" : ""} ${featureImageUrl ? "has-media" : ""}">
+          ${newsImageMarkupFromUrl(item, "news-feature-media", featureImageUrl)}
           <div class="news-card-topline">
             <span class="news-topic-badge">${item.category}</span>
             <span class="news-card-date">${item.dateLabel}</span>
@@ -2278,9 +2315,11 @@
     if (ui.newsLatestArticles) {
       const latestArticleItems = latestRecentNewsItems(items, 5);
       ui.newsLatestArticles.innerHTML = latestArticleItems
-        .map((item) => `
-          <a class="news-article-row ${newsImageUrl(item, { allowFallback: true, useBrightFallback: true }) ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
-            ${newsImageMarkup(item, "news-article-media", { allowFallback: true, useBrightFallback: true })}
+        .map((item) => {
+          const articleImageUrl = uniqueNewsImageUrl(item, { allowFallback: true, avoidPortraits: true }, weeklyNewsImages);
+          return `
+          <a class="news-article-row ${articleImageUrl ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
+            ${newsImageMarkupFromUrl(item, "news-article-media", articleImageUrl)}
             <span class="news-article-copy">
               <span class="news-card-topline">
                 <span class="news-topic-badge">${item.category}</span>
@@ -2291,7 +2330,8 @@
               <span class="news-article-meta">${item.source}</span>
             </span>
           </a>
-        `)
+        `;
+        })
         .join("");
     }
 
