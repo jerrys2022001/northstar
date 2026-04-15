@@ -20,6 +20,7 @@ CURRENT_FEED_PATH = NEWS_DATA_DIR / "current_feed.json"
 LATEST_CANDIDATES_PATH = NEWS_DATA_DIR / "latest_candidates.json"
 DAILY_INBOX_DIR = NEWS_DATA_DIR / "inbox"
 NEWS_LOG_DIR = ROOT / "output" / "news-logs"
+CATALOG_PATHS = [ROOT / "catalog.js", *sorted(ROOT.glob("catalog_extra_*.js"))]
 
 STOPWORDS = {
     "the",
@@ -51,6 +52,20 @@ TOOL_ALIASES = {
     "runway": ["runway"],
     "elevenlabs": ["elevenlabs"],
     "grok": ["grok", "x ai", "xai"],
+}
+
+CATEGORY_HEAT = {
+    "Product Updates": 7_000_000,
+    "Model Releases": 6_500_000,
+    "Agents": 6_000_000,
+    "Developer Tools": 5_500_000,
+    "Safety": 5_000_000,
+    "Policy": 4_200_000,
+    "Open Models": 4_000_000,
+    "Funding": 3_500_000,
+    "Creative AI": 3_200_000,
+    "Productivity": 3_000_000,
+    "Research Workflows": 2_500_000,
 }
 
 
@@ -101,6 +116,24 @@ def load_json(path: Path, default: Any) -> Any:
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def load_tool_visits() -> dict[str, int]:
+    visits: dict[str, int] = {}
+    for path in CATALOG_PATHS:
+        if not path.exists():
+            continue
+        current_id = ""
+        for line in path.read_text(encoding="utf-8").splitlines():
+            id_match = re.search(r'\bid:\s*"([^"]+)"', line)
+            if id_match:
+                current_id = id_match.group(1)
+                continue
+            visits_match = re.search(r"\bmonthlyVisits:\s*(\d+)", line)
+            if visits_match and current_id:
+                visits[current_id] = int(visits_match.group(1))
+                current_id = ""
+    return visits
 
 
 def locate_news_feed_block(app_js_text: str) -> tuple[int, int, str]:
@@ -244,6 +277,13 @@ def infer_tool_ids(item: dict[str, Any]) -> list[str]:
     return matches
 
 
+def news_heat_score(item: dict[str, Any], tool_visits: dict[str, int]) -> int:
+    tool_ids = item.get("toolIds") or infer_tool_ids(item)
+    traffic_score = max((tool_visits.get(tool_id, 0) for tool_id in tool_ids), default=0)
+    category_score = CATEGORY_HEAT.get(item.get("category", ""), 1_000_000)
+    return traffic_score + category_score
+
+
 def normalize_title_tokens(title: str) -> list[str]:
     return [
         token
@@ -307,7 +347,7 @@ def dedupe_and_cap_items(
     }
 
 
-def group_items_for_feed(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def group_items_for_feed(items: list[dict[str, Any]], tool_visits: dict[str, int]) -> list[dict[str, Any]]:
     grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
     labels: dict[str, str] = {}
     for item in items:
@@ -316,7 +356,11 @@ def group_items_for_feed(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
     groups: list[dict[str, Any]] = []
     for group_date in sorted(grouped.keys(), reverse=True):
-        ordered_items = sorted(grouped[group_date], key=lambda item: item["id"], reverse=True)
+        ordered_items = sorted(
+            grouped[group_date],
+            key=lambda item: (news_heat_score(item, tool_visits), item["id"]),
+            reverse=True,
+        )
         groups.append(
             {
                 "date": group_date,
@@ -510,6 +554,7 @@ def main() -> int:
     args = parse_args()
     run_date = args.date
 
+    tool_visits = load_tool_visits()
     archive_items = load_archive_items()
     candidate_items = load_candidate_items(run_date)
     kept_items, dedupe_summary = dedupe_and_cap_items(
@@ -517,7 +562,7 @@ def main() -> int:
         candidate_items=candidate_items,
         max_per_tool_per_day=args.max_per_tool_per_day,
     )
-    grouped_feed = group_items_for_feed(kept_items)
+    grouped_feed = group_items_for_feed(kept_items, tool_visits)
     rewrite_app_js_news_feed(grouped_feed)
     write_archive(kept_items, grouped_feed, run_date)
     static_validation = validate_static_news_assets(grouped_feed, run_date, args.min_daily_items)

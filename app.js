@@ -124,51 +124,6 @@
     "label": "April 15, 2026",
     "items": [
       {
-        "id": "synera-agentic-engineering-funding-apr15",
-        "category": "Funding",
-        "title": "Synera raises $40M to bring agentic AI into industrial engineering",
-        "source": "Business Wire",
-        "summary": "Synera raised a $40 million Series B to scale an agentic AI platform that orchestrates engineering workflows across existing design and simulation tools.",
-        "href": "https://finance.yahoo.com/sectors/technology/articles/synera-raises-40m-series-b-120000022.html",
-        "excerpt": "Funding read: agentic AI is moving into high-value engineering work where integrations and on-prem deployment matter."
-      },
-      {
-        "id": "ranger-ai-industrial-rfp-funding-apr15",
-        "category": "Funding",
-        "title": "Ranger AI surfaces as another industrial agent workflow bet",
-        "source": "AlleyWatch",
-        "summary": "Ranger AI, an AI agent platform for industrial RFP response and tendering workflows, reported a $6 million funding round in the April 14 startup funding report.",
-        "href": "https://alleywatch.com/2026/04/the-alleywatch-startup-daily-funding-report-4-14-2026/",
-        "excerpt": "Startup signal: investors are backing narrower agent platforms that target expensive operational paperwork."
-      },
-      {
-        "id": "openai-gpt-54-cyber-tac-apr15",
-        "category": "Safety",
-        "title": "OpenAI opens GPT-5.4-Cyber through a broader trusted-access program",
-        "source": "OpenAI Blog",
-        "summary": "OpenAI is expanding Trusted Access for Cyber and introducing GPT-5.4-Cyber, a cyber-permissive GPT-5.4 variant for verified defensive security teams.",
-        "href": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
-        "excerpt": "Signal: OpenAI is moving from blanket restriction toward verified-access deployment for high-capability defensive cyber models."
-      },
-      {
-        "id": "nvidia-ising-quantum-ai-apr15",
-        "category": "Open Models",
-        "title": "Nvidia launches open Ising AI models for quantum computing",
-        "source": "Nvidia",
-        "summary": "Nvidia introduced the Ising open model family to help researchers and enterprises improve quantum processor calibration and error correction.",
-        "href": "https://seekingalpha.com/pr/20472509-nvidia-launches-ising-the-world-s-first-open-ai-models-to-accelerate-the-path-to-useful",
-        "excerpt": "Infrastructure signal: AI is becoming a control layer for the next generation of quantum-computing hardware."
-      },
-      {
-        "id": "microsoft-copilot-openclaw-like-agents-apr15",
-        "category": "Agents",
-        "title": "Microsoft tests OpenClaw-like agents for Microsoft 365 Copilot",
-        "source": "The Verge",
-        "summary": "Microsoft is testing always-on Copilot agents for Microsoft 365 that could watch inboxes, calendars, and role-specific work streams while staying inside enterprise controls.",
-        "href": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
-        "excerpt": "Enterprise angle: Microsoft is trying to turn agent autonomy into a managed workplace feature, not a loose desktop experiment."
-      },
-      {
         "id": "gemini-personal-intelligence-india-apr15",
         "category": "Product Updates",
         "title": "Gemini Personal Intelligence expands to India",
@@ -187,13 +142,13 @@
         "excerpt": "Product angle: prompt reuse is moving from power-user habit into browser-native workflow infrastructure."
       },
       {
-        "id": "bluefish-ai-visibility-series-b-apr15",
-        "category": "Funding",
-        "title": "Bluefish raises $43M for AI visibility and agentic marketing",
-        "source": "citybiz",
-        "summary": "Bluefish raised $43 million in Series B funding for a platform that helps brands understand and influence how they appear inside AI-generated discovery surfaces.",
-        "href": "https://www.citybiz.co/article/832169/nea-backed-bluefish-raises-43-million-series-b-as-fortune-500-adopts-ai-marketing-platform/",
-        "excerpt": "Market signal: enterprises are starting to budget for how brands show up inside LLM answers, not just search pages."
+        "id": "openai-gpt-54-cyber-tac-apr15",
+        "category": "Safety",
+        "title": "OpenAI opens GPT-5.4-Cyber through a broader trusted-access program",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI is expanding Trusted Access for Cyber and introducing GPT-5.4-Cyber, a cyber-permissive GPT-5.4 variant for verified defensive security teams.",
+        "href": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+        "excerpt": "Signal: OpenAI is moving from blanket restriction toward verified-access deployment for high-capability defensive cyber models."
       },
       {
         "id": "axios-openai-cyber-access-apr15",
@@ -212,6 +167,51 @@
         "summary": "Anthropic's Mythos Preview has renewed debate over how public agencies should use frontier AI for critical-infrastructure defense amid CISA staffing and funding pressure.",
         "href": "https://www.axios.com/2026/04/14/anthropic-mythos-trump-administration-cisa-cuts",
         "excerpt": "Policy angle: powerful defensive models are only useful if governments can absorb them operationally."
+      },
+      {
+        "id": "microsoft-copilot-openclaw-like-agents-apr15",
+        "category": "Agents",
+        "title": "Microsoft tests OpenClaw-like agents for Microsoft 365 Copilot",
+        "source": "The Verge",
+        "summary": "Microsoft is testing always-on Copilot agents for Microsoft 365 that could watch inboxes, calendars, and role-specific work streams while staying inside enterprise controls.",
+        "href": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
+        "excerpt": "Enterprise angle: Microsoft is trying to turn agent autonomy into a managed workplace feature, not a loose desktop experiment."
+      },
+      {
+        "id": "nvidia-ising-quantum-ai-apr15",
+        "category": "Open Models",
+        "title": "Nvidia launches open Ising AI models for quantum computing",
+        "source": "Nvidia",
+        "summary": "Nvidia introduced the Ising open model family to help researchers and enterprises improve quantum processor calibration and error correction.",
+        "href": "https://seekingalpha.com/pr/20472509-nvidia-launches-ising-the-world-s-first-open-ai-models-to-accelerate-the-path-to-useful",
+        "excerpt": "Infrastructure signal: AI is becoming a control layer for the next generation of quantum-computing hardware."
+      },
+      {
+        "id": "synera-agentic-engineering-funding-apr15",
+        "category": "Funding",
+        "title": "Synera raises $40M to bring agentic AI into industrial engineering",
+        "source": "Business Wire",
+        "summary": "Synera raised a $40 million Series B to scale an agentic AI platform that orchestrates engineering workflows across existing design and simulation tools.",
+        "href": "https://finance.yahoo.com/sectors/technology/articles/synera-raises-40m-series-b-120000022.html",
+        "excerpt": "Funding read: agentic AI is moving into high-value engineering work where integrations and on-prem deployment matter."
+      },
+      {
+        "id": "ranger-ai-industrial-rfp-funding-apr15",
+        "category": "Funding",
+        "title": "Ranger AI surfaces as another industrial agent workflow bet",
+        "source": "AlleyWatch",
+        "summary": "Ranger AI, an AI agent platform for industrial RFP response and tendering workflows, reported a $6 million funding round in the April 14 startup funding report.",
+        "href": "https://alleywatch.com/2026/04/the-alleywatch-startup-daily-funding-report-4-14-2026/",
+        "excerpt": "Startup signal: investors are backing narrower agent platforms that target expensive operational paperwork."
+      },
+      {
+        "id": "bluefish-ai-visibility-series-b-apr15",
+        "category": "Funding",
+        "title": "Bluefish raises $43M for AI visibility and agentic marketing",
+        "source": "citybiz",
+        "summary": "Bluefish raised $43 million in Series B funding for a platform that helps brands understand and influence how they appear inside AI-generated discovery surfaces.",
+        "href": "https://www.citybiz.co/article/832169/nea-backed-bluefish-raises-43-million-series-b-as-fortune-500-adopts-ai-marketing-platform/",
+        "excerpt": "Market signal: enterprises are starting to budget for how brands show up inside LLM answers, not just search pages."
       }
     ]
   },
@@ -220,15 +220,6 @@
     "label": "April 14, 2026",
     "items": [
       {
-        "id": "human-machine-teaming-dives-underwater-84d4323c-apr14",
-        "category": "Research Workflows",
-        "title": "Human-machine teaming dives underwater",
-        "source": "MIT News AI",
-        "summary": "Researchers are developing hardware and algorithms to improve collaboration between divers and autonomous underwater vehicles engaged in maritime missions.",
-        "href": "https://news.mit.edu/2026/human-machine-teaming-dives-underwater-0414",
-        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
-      },
-      {
         "id": "bringing-people-together-at-ai-for-the-economy-f-373936d3-apr14",
         "category": "Product Updates",
         "title": "Bringing people together at AI for the Economy Forum",
@@ -236,6 +227,15 @@
         "summary": "Google is bringing people together in Washington D.C. at our AI for the Economy Forum.",
         "href": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
         "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "human-machine-teaming-dives-underwater-84d4323c-apr14",
+        "category": "Research Workflows",
+        "title": "Human-machine teaming dives underwater",
+        "source": "MIT News AI",
+        "summary": "Researchers are developing hardware and algorithms to improve collaboration between divers and autonomous underwater vehicles engaged in maritime missions.",
+        "href": "https://news.mit.edu/2026/human-machine-teaming-dives-underwater-0414",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -259,16 +259,6 @@
     "label": "April 12, 2026",
     "items": [
       {
-        "id": "perplexity-build-challenge-apr12",
-        "category": "Agents",
-        "title": "Perplexity keeps using Computer to reposition itself as a builder platform",
-        "source": "Superhuman AI",
-        "summary": "Perplexity is using a public startup challenge to frame Computer as more than a research assistant, pushing it toward an agent platform with broader builder appeal.",
-        "href": "https://www.superhuman.ai/p/perplexity-s-billion-dollar-challenge",
-        "imageUrl": "assets/news/perplexity-build-challenge-original.jpg",
-        "excerpt": "Heat read: Perplexity's traffic is lower than ChatGPT or Gemini, but product momentum remains unusually strong whenever it expands beyond search."
-      },
-      {
         "id": "gemini-flash-live-apr12",
         "category": "Model Releases",
         "title": "Gemini 3.1 Flash Live becomes Google's clearest push into always-on voice AI",
@@ -279,14 +269,14 @@
         "excerpt": "Heat read: Gemini still leads this site's traffic ranking, so product moves that improve latency and voice reliability are among the most representative April signals."
       },
       {
-        "id": "claude-managed-agents-apr12",
+        "id": "perplexity-build-challenge-apr12",
         "category": "Agents",
-        "title": "Claude Managed Agents gives Anthropic a more complete hosted agent stack",
-        "source": "Anthropic Engineering",
-        "summary": "Anthropic is turning Claude from a strong chat surface into more durable agent infrastructure, with hosted sessions designed for longer-running, recoverable production work.",
-        "href": "https://www.anthropic.com/engineering/managed-agents",
-        "imageUrl": "assets/news/claude-managed-agents-original.png",
-        "excerpt": "Heat read: Claude remains one of the highest-traffic top tools on the site, so managed orchestration is a more meaningful signal than another generic model benchmark."
+        "title": "Perplexity keeps using Computer to reposition itself as a builder platform",
+        "source": "Superhuman AI",
+        "summary": "Perplexity is using a public startup challenge to frame Computer as more than a research assistant, pushing it toward an agent platform with broader builder appeal.",
+        "href": "https://www.superhuman.ai/p/perplexity-s-billion-dollar-challenge",
+        "imageUrl": "assets/news/perplexity-build-challenge-original.jpg",
+        "excerpt": "Heat read: Perplexity's traffic is lower than ChatGPT or Gemini, but product momentum remains unusually strong whenever it expands beyond search."
       },
       {
         "id": "chatgpt-100-tier-apr12",
@@ -307,6 +297,16 @@
         "href": "https://blog.adobe.com/en/publish/2026/04/09/new-image-editing-features-adobe-firefly-get-you-from-almost-there-to-exactly-right",
         "imageUrl": "assets/news/adobe-firefly-precision-flow.jpg",
         "excerpt": "Heat read: Firefly remains one of the biggest design-side AI destinations, so practical editing upgrades matter more than another benchmark-style announcement."
+      },
+      {
+        "id": "claude-managed-agents-apr12",
+        "category": "Agents",
+        "title": "Claude Managed Agents gives Anthropic a more complete hosted agent stack",
+        "source": "Anthropic Engineering",
+        "summary": "Anthropic is turning Claude from a strong chat surface into more durable agent infrastructure, with hosted sessions designed for longer-running, recoverable production work.",
+        "href": "https://www.anthropic.com/engineering/managed-agents",
+        "imageUrl": "assets/news/claude-managed-agents-original.png",
+        "excerpt": "Heat read: Claude remains one of the highest-traffic top tools on the site, so managed orchestration is a more meaningful signal than another generic model benchmark."
       }
     ]
   },
@@ -357,13 +357,13 @@
     "label": "April 10, 2026",
     "items": [
       {
-        "id": "openai-child-safety-blueprint-apr10",
+        "id": "gemini-mental-health-safeguards-apr10",
         "category": "Safety",
-        "title": "OpenAI expands its trust narrative with the Child Safety Blueprint",
-        "source": "OpenAI Blog",
-        "summary": "OpenAI's latest safety framework pushes ChatGPT's public story beyond launches and pricing into reporting systems, enforcement coordination, and safer default behavior.",
-        "href": "https://openai.com/index/introducing-child-safety-blueprint/",
-        "excerpt": "Why it matters: frontier labs are increasingly competing on visible safety infrastructure as well as model capability."
+        "title": "Google adds stronger mental-health safeguards to Gemini after lawsuits",
+        "source": "The Neuron",
+        "summary": "Google is widening Gemini's safety posture with crisis hotlines and anti-self-harm design changes, showing how trust and liability are becoming product-level concerns.",
+        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#gemini-safeguards",
+        "excerpt": "Why it matters: the next competitive layer is not just capability, but whether products can operate safely at consumer scale."
       },
       {
         "id": "gemini-notebooks-persistent-context-apr10",
@@ -375,22 +375,13 @@
         "excerpt": "Why it matters: persistent context is one of the most practical product levers for keeping users inside one AI ecosystem."
       },
       {
-        "id": "gemini-mental-health-safeguards-apr10",
+        "id": "openai-child-safety-blueprint-apr10",
         "category": "Safety",
-        "title": "Google adds stronger mental-health safeguards to Gemini after lawsuits",
-        "source": "The Neuron",
-        "summary": "Google is widening Gemini's safety posture with crisis hotlines and anti-self-harm design changes, showing how trust and liability are becoming product-level concerns.",
-        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#gemini-safeguards",
-        "excerpt": "Why it matters: the next competitive layer is not just capability, but whether products can operate safely at consumer scale."
-      },
-      {
-        "id": "deepl-agent-rollout-apr10",
-        "category": "Translation AI",
-        "title": "DeepL is positioning AI Agent as a multilingual workflow layer for business teams",
-        "source": "DeepL",
-        "summary": "DeepL is framing AI Agent as more than translation, pushing toward a broader business assistant layer for international teams handling support, writing, and operations.",
-        "href": "https://www.deepl.com/en/products/ai-agent",
-        "excerpt": "Why it matters: DeepL remains one of the most commercially credible AI tools outside the big model labs."
+        "title": "OpenAI expands its trust narrative with the Child Safety Blueprint",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI's latest safety framework pushes ChatGPT's public story beyond launches and pricing into reporting systems, enforcement coordination, and safer default behavior.",
+        "href": "https://openai.com/index/introducing-child-safety-blueprint/",
+        "excerpt": "Why it matters: frontier labs are increasingly competing on visible safety infrastructure as well as model capability."
       },
       {
         "id": "adobe-student-spaces-apr10",
@@ -400,6 +391,15 @@
         "summary": "Adobe is extending its AI footprint beyond image generation by turning Acrobat into a study and synthesis tool for notes, flashcards, podcasts, and presentations.",
         "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#adobe-student-spaces",
         "excerpt": "Why it matters: Adobe is using existing workflow surfaces, not standalone hype, to deepen AI usage."
+      },
+      {
+        "id": "deepl-agent-rollout-apr10",
+        "category": "Translation AI",
+        "title": "DeepL is positioning AI Agent as a multilingual workflow layer for business teams",
+        "source": "DeepL",
+        "summary": "DeepL is framing AI Agent as more than translation, pushing toward a broader business assistant layer for international teams handling support, writing, and operations.",
+        "href": "https://www.deepl.com/en/products/ai-agent",
+        "excerpt": "Why it matters: DeepL remains one of the most commercially credible AI tools outside the big model labs."
       }
     ]
   },
@@ -407,15 +407,6 @@
     "date": "2026-04-09",
     "label": "April 9, 2026",
     "items": [
-      {
-        "id": "perplexity-computer-taxes-apr09",
-        "category": "Agents",
-        "title": "Perplexity Computer keeps stretching from research into end-to-end task execution",
-        "source": "Superhuman AI",
-        "summary": "Perplexity's push into tasks like tax prep shows the company wants Computer to be seen as an action-taking agent, not just a better search box.",
-        "href": "https://www.superhuman.ai/p/perplexity-computer-does-your-taxes",
-        "excerpt": "Why it matters: the market is rewarding products that can actually complete work, not only summarize it."
-      },
       {
         "id": "openai-illinois-liability-bill-apr09",
         "category": "Policy",
@@ -460,6 +451,15 @@
         "summary": "The Claude Code source leak made the orchestration layer behind one of the hottest coding agents unusually legible, giving the market a clearer look at how serious agent harnesses are being built.",
         "href": "https://www.theneurondaily.com/p/anthropic-accidentally-leaked-claude-code-s-entire-source-code#blueprint",
         "excerpt": "Why it matters: the AI coding race increasingly looks like a harness race, not just a model race."
+      },
+      {
+        "id": "perplexity-computer-taxes-apr09",
+        "category": "Agents",
+        "title": "Perplexity Computer keeps stretching from research into end-to-end task execution",
+        "source": "Superhuman AI",
+        "summary": "Perplexity's push into tasks like tax prep shows the company wants Computer to be seen as an action-taking agent, not just a better search box.",
+        "href": "https://www.superhuman.ai/p/perplexity-computer-does-your-taxes",
+        "excerpt": "Why it matters: the market is rewarding products that can actually complete work, not only summarize it."
       }
     ]
   },
@@ -468,22 +468,13 @@
     "label": "April 8, 2026",
     "items": [
       {
-        "id": "project-glasswing-apr08",
-        "category": "Safety",
-        "title": "Project Glasswing gives defenders early access to Anthropic's unreleased cyber model",
+        "id": "anti-distillation-frontier-labs-apr08",
+        "category": "Policy",
+        "title": "OpenAI, Anthropic, and Google align more openly against model-copying pressure",
         "source": "The Neuron",
-        "summary": "Anthropic is using Project Glasswing to put Mythos Preview in defenders' hands first, signaling a more security-first release strategy for high-risk Claude capabilities.",
-        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#project-glasswing",
-        "excerpt": "Why it matters: Claude's strongest upcoming capabilities are being framed as a deployment-governance problem, not just a product launch."
-      },
-      {
-        "id": "meta-muse-spark-apr08",
-        "category": "Model Releases",
-        "title": "Meta launches Muse Spark to upgrade Meta AI across apps and API preview",
-        "source": "Meta",
-        "summary": "Meta introduced Muse Spark as the first model from Meta Superintelligence Labs, using it to power faster multimodal Meta AI experiences and a private preview API for partners.",
-        "href": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
-        "excerpt": "Why it matters: Meta is tying a new flagship model directly to consumer distribution across WhatsApp, Instagram, Facebook, Messenger, and AI glasses."
+        "summary": "The leading labs are taking a harder public line on distillation and model copying, a sign that open-model pressure from players like DeepSeek is reshaping the rules of competition.",
+        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anti-distillation",
+        "excerpt": "Why it matters: open-model competition is now triggering strategy changes inside the biggest closed-model labs."
       },
       {
         "id": "google-ai-studio-gemma-leverage-apr08",
@@ -495,13 +486,13 @@
         "excerpt": "Why it matters: the most durable platforms usually win by offering multiple lanes, not one monolithic model."
       },
       {
-        "id": "github-copilot-vscode-agents-apr08",
-        "category": "Developer Tools",
-        "title": "GitHub Copilot expands agent control and browser debugging in VS Code",
-        "source": "GitHub Changelog",
-        "summary": "GitHub's March releases for Copilot in VS Code added Autopilot sessions, finer agent permissions, integrated browser debugging, and richer media support inside chat.",
-        "href": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases/",
-        "excerpt": "Why it matters: GitHub is pushing Copilot further into full-session autonomous development instead of keeping it as a narrow inline completion tool."
+        "id": "project-glasswing-apr08",
+        "category": "Safety",
+        "title": "Project Glasswing gives defenders early access to Anthropic's unreleased cyber model",
+        "source": "The Neuron",
+        "summary": "Anthropic is using Project Glasswing to put Mythos Preview in defenders' hands first, signaling a more security-first release strategy for high-risk Claude capabilities.",
+        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#project-glasswing",
+        "excerpt": "Why it matters: Claude's strongest upcoming capabilities are being framed as a deployment-governance problem, not just a product launch."
       },
       {
         "id": "deepl-agent-enterprise-apr08",
@@ -513,13 +504,22 @@
         "excerpt": "Why it matters: specialized AI products can still grow by expanding around one trusted core job."
       },
       {
-        "id": "anti-distillation-frontier-labs-apr08",
-        "category": "Policy",
-        "title": "OpenAI, Anthropic, and Google align more openly against model-copying pressure",
-        "source": "The Neuron",
-        "summary": "The leading labs are taking a harder public line on distillation and model copying, a sign that open-model pressure from players like DeepSeek is reshaping the rules of competition.",
-        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anti-distillation",
-        "excerpt": "Why it matters: open-model competition is now triggering strategy changes inside the biggest closed-model labs."
+        "id": "github-copilot-vscode-agents-apr08",
+        "category": "Developer Tools",
+        "title": "GitHub Copilot expands agent control and browser debugging in VS Code",
+        "source": "GitHub Changelog",
+        "summary": "GitHub's March releases for Copilot in VS Code added Autopilot sessions, finer agent permissions, integrated browser debugging, and richer media support inside chat.",
+        "href": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases/",
+        "excerpt": "Why it matters: GitHub is pushing Copilot further into full-session autonomous development instead of keeping it as a narrow inline completion tool."
+      },
+      {
+        "id": "meta-muse-spark-apr08",
+        "category": "Model Releases",
+        "title": "Meta launches Muse Spark to upgrade Meta AI across apps and API preview",
+        "source": "Meta",
+        "summary": "Meta introduced Muse Spark as the first model from Meta Superintelligence Labs, using it to power faster multimodal Meta AI experiences and a private preview API for partners.",
+        "href": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+        "excerpt": "Why it matters: Meta is tying a new flagship model directly to consumer distribution across WhatsApp, Instagram, Facebook, Messenger, and AI glasses."
       }
     ]
   },
@@ -528,13 +528,13 @@
     "label": "April 7, 2026",
     "items": [
       {
-        "id": "perplexity-arr-growth-apr07",
-        "category": "Business",
-        "title": "Perplexity's reported ARR momentum suggests research products can still break out",
+        "id": "anthropic-google-broadcom-compute-deal-apr07",
+        "category": "Infrastructure",
+        "title": "Anthropic's huge TPU deal shows Claude's growth is now gated by infrastructure scale",
         "source": "The Neuron",
-        "summary": "Reported revenue momentum is reinforcing Perplexity's shift from interesting search startup to one of the few serious consumer AI products with clear commercial pull.",
-        "href": "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#perplexity-arr",
-        "excerpt": "Why it matters: revenue traction matters because it shows users are paying for a research-native alternative to the biggest general assistants."
+        "summary": "Anthropic's expanded compute arrangement with Google and Broadcom makes clear that serving and training Claude at the frontier is now as much an infrastructure story as a model story.",
+        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anthropic-compute-deal",
+        "excerpt": "Why it matters: demand for top assistants is increasingly constrained by how much compute can actually be delivered."
       },
       {
         "id": "openai-mini-new-deal-apr07",
@@ -555,13 +555,13 @@
         "excerpt": "Why it matters: the market is increasingly evaluating AI leaders as giant infrastructure businesses, not just products."
       },
       {
-        "id": "anthropic-google-broadcom-compute-deal-apr07",
-        "category": "Infrastructure",
-        "title": "Anthropic's huge TPU deal shows Claude's growth is now gated by infrastructure scale",
+        "id": "perplexity-arr-growth-apr07",
+        "category": "Business",
+        "title": "Perplexity's reported ARR momentum suggests research products can still break out",
         "source": "The Neuron",
-        "summary": "Anthropic's expanded compute arrangement with Google and Broadcom makes clear that serving and training Claude at the frontier is now as much an infrastructure story as a model story.",
-        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anthropic-compute-deal",
-        "excerpt": "Why it matters: demand for top assistants is increasingly constrained by how much compute can actually be delivered."
+        "summary": "Reported revenue momentum is reinforcing Perplexity's shift from interesting search startup to one of the few serious consumer AI products with clear commercial pull.",
+        "href": "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#perplexity-arr",
+        "excerpt": "Why it matters: revenue traction matters because it shows users are paying for a research-native alternative to the biggest general assistants."
       }
     ]
   },
@@ -1842,16 +1842,16 @@
     }
 
     return distinctNewsItems(
-      items.filter((item) => latestDates.includes(item.date)),
+      sortNewsItems(items.filter((item) => latestDates.includes(item.date))),
       limit,
       []
     );
   }
 
-  function homeNewsGroups(limit = 15) {
+  function homeNewsGroups(limit = 10) {
     const selectedItems = [];
     for (const group of newsFeed) {
-      for (const item of group.items) {
+      for (const item of sortNewsItems(group.items)) {
         if (state.activeNewsCategory !== "All" && item.category !== state.activeNewsCategory) {
           continue;
         }
@@ -1883,7 +1883,8 @@
     );
   }
 
-  function newsToolIds(item) {
+  function newsToolIds(item, options) {
+    const settings = options || {};
     const haystack = `${item.title || ""} ${item.summary || ""} ${item.excerpt || ""} ${item.source || ""}`.toLowerCase();
     const matches = [];
     const pushIfMissing = (toolId) => {
@@ -1918,11 +1919,68 @@
       pushIfMissing("deepl");
     }
 
-    if (!matches.length) {
+    if (!matches.length && settings.allowFallback !== false) {
       pushIfMissing("chatgpt");
     }
 
     return pickTools(matches).slice(0, 2);
+  }
+
+  function newsHeatScore(item) {
+    const matchedTools = newsToolIds(item, { allowFallback: false });
+    const trafficScore = matchedTools.reduce((score, tool) => Math.max(score, tool.monthlyVisits || 0), 0);
+    const categoryScore = {
+      "Product Updates": 7000000,
+      "Model Releases": 6500000,
+      Agents: 6000000,
+      "Developer Tools": 5500000,
+      Safety: 5000000,
+      Policy: 4200000,
+      "Open Models": 4000000,
+      Funding: 3500000,
+      "Creative AI": 3200000,
+      Productivity: 3000000,
+      "Research Workflows": 2500000
+    }[item.category] || 1000000;
+    return trafficScore + categoryScore;
+  }
+
+  function sortNewsItems(items) {
+    return [...items].sort((left, right) => {
+      const heatDelta = newsHeatScore(right) - newsHeatScore(left);
+      if (heatDelta) {
+        return heatDelta;
+      }
+      return String(right.title || "").localeCompare(String(left.title || ""));
+    });
+  }
+
+  function fitHomeNewsTreeToSidebar() {
+    if (document.body?.dataset?.page === "news" || !ui.newsFeed) {
+      return;
+    }
+    const newsMain = ui.newsFeed.closest(".news-main");
+    const sidebar = document.querySelector(".news-sidebar");
+    if (!newsMain || !sidebar) {
+      return;
+    }
+
+    const maxHeight = sidebar.getBoundingClientRect().height;
+    let guard = 24;
+    while (newsMain.getBoundingClientRect().height > maxHeight + 8 && guard > 0) {
+      const lastGroup = [...ui.newsFeed.querySelectorAll(".news-day-group")].at(-1);
+      if (!lastGroup) {
+        break;
+      }
+      const lastItem = [...lastGroup.querySelectorAll(".news-tree-item")].at(-1);
+      if (lastItem) {
+        lastItem.remove();
+      }
+      if (!lastGroup.querySelector(".news-tree-item")) {
+        lastGroup.remove();
+      }
+      guard -= 1;
+    }
   }
 
   function newsGroupAnchorId(group) {
@@ -2076,8 +2134,8 @@
       .map((group) => {
         const groupExclusions = timelineItems;
         const groupItems = distinctNewsItems(
-          group.items.filter((item) => state.activeNewsCategory === "All" || item.category === state.activeNewsCategory),
-          isNewsPage ? group.items.length : 15,
+          sortNewsItems(group.items.filter((item) => state.activeNewsCategory === "All" || item.category === state.activeNewsCategory)),
+          isNewsPage ? group.items.length : 10,
           groupExclusions
         );
         if (!groupItems.length) {
@@ -2172,6 +2230,8 @@
         `)
         .join("");
     }
+
+    fitHomeNewsTreeToSidebar();
   }
 
   function renderSidebar() {
