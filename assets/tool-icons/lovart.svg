@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Lovart">
+  <defs>
+    <linearGradient id="lovart-g" x1="12" y1="12" x2="84" y2="84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="24" fill="url(#lovart-g)"/>
+  <path fill="#fff" d="M31 26h11v32h23v12H31V26Z"/>
+  <circle cx="63" cy="35" r="8" fill="#fff" opacity=".9"/>
+</svg>

@@ -17,6 +17,7 @@ DATA_FILES = [
     ROOT / "catalog_extra_6.js",
     ROOT / "catalog_extra_7.js",
     ROOT / "catalog_extra_8.js",
+    ROOT / "catalog_extra_9.js",
 ]
 OUTPUT_DIR = ROOT / "tools"
 
@@ -120,6 +121,7 @@ def render_page(tool_id: str, tool_name: str) -> str:
   <script src="../catalog_extra_6.js"></script>
   <script src="../catalog_extra_7.js"></script>
   <script src="../catalog_extra_8.js"></script>
+  <script src="../catalog_extra_9.js"></script>
   <script src="../app.js"></script>
   <script src="../detail.js"></script>
 </body>
