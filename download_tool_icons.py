@@ -17,7 +17,7 @@ import time
 from dataclasses import dataclass
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import quote, urljoin, urlparse
+from urllib.parse import quote, urljoin, urlparse, urlunparse
 from urllib.request import Request, urlopen
 
 
@@ -37,6 +37,8 @@ ENTRY_PATTERN = re.compile(
 
 RASTER_CONTENT_TYPES = {
     "image/png": "png",
+    "image/jpeg": "jpg",
+    "image/jpg": "jpg",
     "image/x-icon": "ico",
     "image/vnd.microsoft.icon": "ico",
     "image/ico": "ico",
@@ -307,6 +309,14 @@ DEFAULT_ICON_PATHS = [
     "/favicon.ico",
 ]
 
+REFRESHABLE_ICON_SOURCES = {
+    "generated-fallback",
+    "google-s2",
+    "local-alias",
+    "local-fallback",
+    "root-default",
+}
+
 
 @dataclass(frozen=True)
 class IconCandidate:
@@ -402,16 +412,37 @@ def parse_size_value(sizes_text: str) -> int:
 
 
 def request_url(url: str, timeout: int = 5) -> bytes:
+    url = normalize_url(url)
     request = Request(url, headers={"User-Agent": USER_AGENT})
     with urlopen(request, timeout=timeout) as response:
         return response.read()
 
 
 def request_with_headers(url: str, timeout: int = 5) -> tuple[bytes, str]:
+    url = normalize_url(url)
     request = Request(url, headers={"User-Agent": USER_AGENT})
     with urlopen(request, timeout=timeout) as response:
         content_type = response.headers.get_content_type()
         return response.read(), content_type
+
+
+def normalize_url(url: str) -> str:
+    parsed = urlparse(url)
+    if not parsed.scheme or not parsed.netloc:
+        return url.replace(" ", "%20")
+    normalized_path = quote(parsed.path or "/", safe="/%:@()+,;=-_.~")
+    normalized_query = quote(parsed.query, safe="=&%:@()+,;/-_.~")
+    normalized_fragment = quote(parsed.fragment, safe="")
+    return urlunparse(
+        (
+            parsed.scheme,
+            parsed.netloc,
+            normalized_path,
+            parsed.params,
+            normalized_query,
+            normalized_fragment,
+        )
+    )
 
 
 def fetch_html(tool_url: str) -> tuple[str, str] | None:
@@ -527,6 +558,8 @@ def sniff_extension(url: str, content_type: str, data: bytes) -> str | None:
         return "svg"
     if data.startswith(b"\x89PNG\r\n\x1a\n"):
         return "png"
+    if data[:3] == b"\xff\xd8\xff":
+        return "jpg"
     if data[:4] == b"\x00\x00\x01\x00":
         return "ico"
 
@@ -535,13 +568,15 @@ def sniff_extension(url: str, content_type: str, data: bytes) -> str | None:
         return "svg"
     if path.endswith(".png"):
         return "png"
+    if path.endswith(".jpg") or path.endswith(".jpeg"):
+        return "jpg"
     if path.endswith(".ico"):
         return "ico"
     return None
 
 
 def clear_previous_primary_assets(tool_id: str) -> None:
-    for extension in ("png", "ico"):
+    for extension in ("png", "jpg", "ico"):
         target = OUTPUT_DIR / f"{tool_id}.{extension}"
         if target.exists():
             target.unlink()
@@ -551,12 +586,13 @@ def download_icon(tool_id: str, tool_url: str) -> dict[str, str] | None:
     last_error = None
     start_time = time.monotonic()
     candidates = prioritized_candidates(tool_id, tool_url)
-    for candidate in candidates[:10]:
+
+    primary_candidates = [candidate for candidate in candidates if not candidate.source.startswith("google-s2")]
+    google_candidates = [candidate for candidate in candidates if candidate.source.startswith("google-s2")]
+
+    for candidate in primary_candidates:
         elapsed = time.monotonic() - start_time
-        if candidate.source.startswith("google-s2"):
-            if elapsed > 9:
-                break
-        elif elapsed > 7:
+        if elapsed > 8:
             break
         try:
             data, content_type = request_with_headers(candidate.url)
@@ -564,7 +600,30 @@ def download_icon(tool_id: str, tool_url: str) -> dict[str, str] | None:
             if not extension or not data:
                 continue
 
-            if extension in {"png", "ico"}:
+            if extension in {"png", "jpg", "ico"}:
+                clear_previous_primary_assets(tool_id)
+            target = OUTPUT_DIR / f"{tool_id}.{extension}"
+            target.write_bytes(data)
+            return {
+                "file": target.name,
+                "source": candidate.source,
+                "url": candidate.url,
+                "content_type": content_type,
+            }
+        except Exception as exc:  # noqa: BLE001
+            last_error = exc
+
+    for candidate in google_candidates[:2]:
+        elapsed = time.monotonic() - start_time
+        if elapsed > 14:
+            break
+        try:
+            data, content_type = request_with_headers(candidate.url)
+            extension = sniff_extension(candidate.url, content_type, data)
+            if not extension or not data:
+                continue
+
+            if extension in {"png", "jpg", "ico"}:
                 clear_previous_primary_assets(tool_id)
             target = OUTPUT_DIR / f"{tool_id}.{extension}"
             target.write_bytes(data)
@@ -578,6 +637,31 @@ def download_icon(tool_id: str, tool_url: str) -> dict[str, str] | None:
             last_error = exc
 
     print(f"Primary icon download failed for {tool_id}: {last_error}")
+    return None
+
+
+def download_google_icon(tool_id: str, tool_url: str) -> dict[str, str] | None:
+    last_error = None
+    for candidate in google_fallback_candidates(tool_url):
+        try:
+            data, content_type = request_with_headers(candidate.url)
+            extension = sniff_extension(candidate.url, content_type, data)
+            if not extension or not data:
+                continue
+            if extension in {"png", "ico"}:
+                clear_previous_primary_assets(tool_id)
+            target = OUTPUT_DIR / f"{tool_id}.{extension}"
+            target.write_bytes(data)
+            return {
+                "file": target.name,
+                "source": candidate.source,
+                "url": candidate.url,
+                "content_type": content_type,
+            }
+        except Exception as exc:  # noqa: BLE001
+            last_error = exc
+
+    print(f"Google fallback icon download failed for {tool_id}: {last_error}")
     return None
 
 
@@ -633,17 +717,31 @@ def main() -> None:
     existing_manifest = load_existing_manifest()
     tools = load_tools()
     missing_only = "--missing-only" in sys.argv[1:]
+    refresh_fallbacks = "--refresh-fallbacks" in sys.argv[1:]
+    google_fill_fallbacks = "--google-fill-fallbacks" in sys.argv[1:]
     if missing_only:
         tools = [
             tool
             for tool in tools
             if not existing_manifest.get(tool[0], {}).get("file")
         ]
+    elif refresh_fallbacks or google_fill_fallbacks:
+        tools = [
+            tool
+            for tool in tools
+            if existing_manifest.get(tool[0], {}).get("source") in REFRESHABLE_ICON_SOURCES
+        ]
     downloaded = 0
-    manifest_payload: dict[str, dict[str, str]] = dict(existing_manifest) if missing_only else {}
+    manifest_payload: dict[str, dict[str, str]] = (
+        dict(existing_manifest) if (missing_only or refresh_fallbacks or google_fill_fallbacks) else {}
+    )
 
     for tool_id, logo_letter, accent_text, tool_url in tools:
-        primary_asset = download_icon(tool_id, tool_url)
+        primary_asset = (
+            download_google_icon(tool_id, tool_url)
+            if google_fill_fallbacks
+            else download_icon(tool_id, tool_url)
+        )
         fallback_file = write_svg_fallback(tool_id, logo_letter, accent_text)
 
         entry: dict[str, str] = {
