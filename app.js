@@ -120,6 +120,63 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-04-16",
+    "label": "April 16, 2026",
+    "items": [
+      {
+        "id": "openai-life-sciences-policy-push-apr16",
+        "category": "Research Workflows",
+        "title": "OpenAI pushes for a bigger AI role in life sciences",
+        "source": "Axios",
+        "summary": "OpenAI is arguing that AI can accelerate biomedical research by connecting fragmented knowledge, designing tools, automating labs, and shortening experiment cycles.",
+        "href": "https://www.axios.com/2026/04/15/exclusive-openai-ai-life-science",
+        "excerpt": "Why it matters: OpenAI is tying frontier model progress to regulated, high-value scientific workflows where adoption depends as much on policy and trust as raw capability."
+      },
+      {
+        "id": "gemini-macos-native-desktop-app-apr16",
+        "category": "Product Updates",
+        "title": "Gemini gets a native Mac app with screen-aware desktop help",
+        "source": "Google Blog",
+        "summary": "Google launched a native Gemini app for macOS 15 and up, adding an Option-Space shortcut, window sharing, and quick access to image and video generation from the desktop.",
+        "href": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+        "excerpt": "Why it matters: Gemini is moving from a browser destination into a resident desktop assistant that can use local screen context without forcing users out of their workflow."
+      },
+      {
+        "id": "claude-service-outage-claude-code-apr16",
+        "category": "AI Reliability",
+        "title": "Claude outage hits Claude.ai, API, and Claude Code users",
+        "source": "TechRadar",
+        "summary": "Anthropic confirmed elevated errors affecting Claude.ai, the API, and Claude Code, with users reporting login failures and interrupted prompt handling during the April 15 incident.",
+        "href": "https://www.techradar.com/news/live/claude-anthropic-down-outage-april-15-2026",
+        "excerpt": "Why it matters: recurring downtime is now a product signal for AI tools that users rely on for daily coding and operational workflows."
+      }
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "label": "April 15, 2026",
+    "items": [
+      {
+        "id": "github-copilot-cloud-agent-custom-properties-apr15",
+        "category": "Developer Tools",
+        "title": "GitHub lets enterprises enable Copilot cloud agent by organization",
+        "source": "GitHub Changelog",
+        "summary": "GitHub added controls for selectively enabling Copilot cloud agent access for specific organizations, including new API endpoints and AI Controls page settings.",
+        "href": "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties/",
+        "excerpt": "Why it matters: enterprise AI coding agents are shifting from all-or-nothing rollout decisions toward staged adoption with policy controls."
+      },
+      {
+        "id": "gemini-3-1-flash-tts-apr15",
+        "category": "Model Releases",
+        "title": "Gemini 3.1 Flash TTS adds expressive speech controls",
+        "source": "Google Blog",
+        "summary": "Google introduced Gemini 3.1 Flash TTS with improved speech quality, audio tags for style and pacing control, 70-plus language support, and SynthID watermarking.",
+        "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+        "excerpt": "Why it matters: text-to-speech models are becoming programmable creative systems, not just narration utilities, with developer controls exposed through AI Studio and Vertex AI."
+      }
+    ]
+  },
+  {
     "date": "2026-04-14",
     "label": "April 14, 2026",
     "items": [
@@ -131,6 +188,15 @@
         "summary": "Researchers are developing hardware and algorithms to improve collaboration between divers and autonomous underwater vehicles engaged in maritime missions.",
         "href": "https://news.mit.edu/2026/human-machine-teaming-dives-underwater-0414",
         "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "github-claude-codex-model-selection-apr14",
+        "category": "Developer Tools",
+        "title": "GitHub adds model selection for Claude and Codex agents",
+        "source": "GitHub Changelog",
+        "summary": "GitHub now lets users choose models when starting Claude and Codex third-party coding agent tasks on github.com, including Claude Sonnet and Opus options plus GPT-5.2-Codex, GPT-5.3-Codex, and GPT-5.4.",
+        "href": "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com/",
+        "excerpt": "Why it matters: agent platforms are turning model choice into a first-class workflow control instead of hiding it behind a single assistant brand."
       },
       {
         "id": "bringing-people-together-at-ai-for-the-economy-f-373936d3-apr14",
