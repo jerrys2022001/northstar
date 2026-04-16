@@ -1,6 +1,102 @@
 {
-  "updatedAt": "2026-04-15T18:15:17",
+  "updatedAt": "2026-04-16T09:08:15",
   "groups": [
+    {
+      "date": "2026-04-16",
+      "label": "April 16, 2026",
+      "items": [
+        {
+          "id": "gemini-macos-native-desktop-app-apr16",
+          "category": "Product Updates",
+          "title": "Gemini gets a native Mac app with screen-aware desktop help",
+          "source": "Google Blog",
+          "summary": "Google launched a native Gemini app for macOS 15 and up, adding an Option-Space shortcut, window sharing, and quick access to image and video generation from the desktop.",
+          "href": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+          "excerpt": "Why it matters: Gemini is moving from a browser destination into a resident desktop assistant that can use local screen context without forcing users out of their workflow."
+        },
+        {
+          "id": "openai-agents-sdk-enterprise-sandbox-apr16",
+          "category": "Agents",
+          "title": "OpenAI updates Agents SDK with sandbox and harness support",
+          "source": "TechCrunch",
+          "summary": "OpenAI updated its Agents SDK with sandboxing and in-distribution harness features so enterprises can build safer long-horizon agents on frontier models.",
+          "href": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
+          "excerpt": "Why it matters: enterprise agent adoption is moving from demos toward controlled execution environments, approved tools, and deployable safety boundaries."
+        },
+        {
+          "id": "openai-life-sciences-policy-push-apr16",
+          "category": "Research Workflows",
+          "title": "OpenAI pushes for a bigger AI role in life sciences",
+          "source": "Axios",
+          "summary": "OpenAI is arguing that AI can accelerate biomedical research by connecting fragmented knowledge, designing tools, automating labs, and shortening experiment cycles.",
+          "href": "https://www.axios.com/2026/04/15/exclusive-openai-ai-life-science",
+          "excerpt": "Why it matters: OpenAI is tying frontier model progress to regulated, high-value scientific workflows where adoption depends as much on policy and trust as raw capability."
+        },
+        {
+          "id": "adobe-firefly-ai-assistant-creative-cloud-apr16",
+          "category": "Creative AI",
+          "title": "Adobe Firefly AI Assistant starts orchestrating Creative Cloud tasks",
+          "source": "TechCrunch",
+          "summary": "Adobe launched Firefly AI Assistant in public beta, giving users an agent that can work across Firefly, Photoshop, Premiere, Lightroom, Express, Illustrator, and related apps.",
+          "href": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/",
+          "excerpt": "Why it matters: creative AI is shifting from single-output generation toward assistants that can operate across full production workflows."
+        },
+        {
+          "id": "claude-service-outage-claude-code-apr16",
+          "category": "AI Reliability",
+          "title": "Claude outage hits Claude.ai, API, and Claude Code users",
+          "source": "TechRadar",
+          "summary": "Anthropic confirmed elevated errors affecting Claude.ai, the API, and Claude Code, with users reporting login failures and interrupted prompt handling during the April 15 incident.",
+          "href": "https://www.techradar.com/news/live/claude-anthropic-down-outage-april-15-2026",
+          "excerpt": "Why it matters: recurring downtime is now a product signal for AI tools that users rely on for daily coding and operational workflows."
+        },
+        {
+          "id": "gitar-agentic-code-security-seed-apr16",
+          "category": "Developer Tools",
+          "title": "Gitar emerges with $9M for agentic code security",
+          "source": "TechCrunch",
+          "summary": "Gitar emerged from stealth with $9 million for an agent-based platform aimed at helping teams secure code.",
+          "href": "https://techcrunch.com/2026/04/15/gitar-a-startup-that-uses-agents-to-secure-code-emerges-from-stealth-with-9-million/",
+          "excerpt": "Why it matters: AI coding tools are creating demand for automated review and remediation systems that can keep up with faster software generation."
+        },
+        {
+          "id": "emergent-vibe-coding-agents-apr16",
+          "category": "Developer Tools",
+          "title": "Emergent moves into vibe-coding AI agents",
+          "source": "TechCrunch",
+          "summary": "India-based Emergent is expanding from vibe coding into an OpenClaw-like AI agent space for building and operating software workflows.",
+          "href": "https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/",
+          "excerpt": "Why it matters: agentic coding competition is widening beyond the best-known US developer tools into regional products with local distribution advantages."
+        },
+        {
+          "id": "parasail-tokenmaxxing-ai-compute-apr16",
+          "category": "Funding",
+          "title": "Parasail raises $32M for tokenmaxxing AI developers",
+          "source": "TechCrunch",
+          "summary": "Parasail raised $32 million for infrastructure aimed at developers who need to spend and manage large token volumes for AI products.",
+          "href": "https://techcrunch.com/2026/04/15/parasail-raises-32m-to-feed-tokenmaxxing-ai-developers/",
+          "excerpt": "Why it matters: AI infrastructure demand is broadening from raw GPUs to billing, routing, and usage layers that make high-token applications practical."
+        },
+        {
+          "id": "gizmo-ai-learning-22m-apr16",
+          "category": "Funding",
+          "title": "AI learning app Gizmo raises $22M after reaching 13M users",
+          "source": "TechCrunch",
+          "summary": "Gizmo, an AI learning app focused on study workflows, raised $22 million after growing to 13 million users.",
+          "href": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
+          "excerpt": "Why it matters: education remains one of the clearest consumer AI wedges when products tie generation to memory, practice, and repeat use."
+        },
+        {
+          "id": "hightouch-ai-marketing-arr-apr16",
+          "category": "Productivity",
+          "title": "Hightouch hits $100M ARR on AI-powered marketing tools",
+          "source": "TechCrunch",
+          "summary": "Hightouch says its AI marketing product helped drive the company to $100 million in ARR by letting brands generate personalized campaigns from their own creative systems.",
+          "href": "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
+          "excerpt": "Why it matters: enterprise buyers are paying for AI systems that stay grounded in brand assets and customer data instead of generic image generation."
+        }
+      ]
+    },
     {
       "date": "2026-04-15",
       "label": "April 15, 2026",
@@ -16,14 +112,13 @@
           "excerpt": "Market read: India gives Google a large proving ground for personalized assistant workflows grounded in first-party services."
         },
         {
-          "id": "chrome-gemini-skills-apr15",
-          "category": "Productivity",
-          "title": "Chrome turns Gemini prompts into repeatable Skills",
-          "source": "The Verge",
-          "summary": "Google is rolling out Chrome Skills so users can save Gemini prompts and reuse them across pages for repeatable browsing, shopping, research, and productivity tasks.",
-          "href": "https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch",
-          "imageUrl": "assets/news/source-verge-chrome-skills.webp",
-          "excerpt": "Product angle: prompt reuse is moving from power-user habit into browser-native workflow infrastructure."
+          "id": "gemini-3-1-flash-tts-apr15",
+          "category": "Model Releases",
+          "title": "Gemini 3.1 Flash TTS adds expressive speech controls",
+          "source": "Google Blog",
+          "summary": "Google introduced Gemini 3.1 Flash TTS with improved speech quality, audio tags for style and pacing control, 70-plus language support, and SynthID watermarking.",
+          "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+          "excerpt": "Why it matters: text-to-speech models are becoming programmable creative systems, not just narration utilities, with developer controls exposed through AI Studio and Vertex AI."
         },
         {
           "id": "openai-gpt-54-cyber-tac-apr15",
@@ -62,6 +157,15 @@
           "summary": "Microsoft is testing always-on Copilot agents for Microsoft 365 that could watch inboxes, calendars, and role-specific work streams while staying inside enterprise controls.",
           "href": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
           "excerpt": "Enterprise angle: Microsoft is trying to turn agent autonomy into a managed workplace feature, not a loose desktop experiment."
+        },
+        {
+          "id": "github-copilot-cloud-agent-custom-properties-apr15",
+          "category": "Developer Tools",
+          "title": "GitHub lets enterprises enable Copilot cloud agent by organization",
+          "source": "GitHub Changelog",
+          "summary": "GitHub added controls for selectively enabling Copilot cloud agent access for specific organizations, including new API endpoints and AI Controls page settings.",
+          "href": "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties/",
+          "excerpt": "Why it matters: enterprise AI coding agents are shifting from all-or-nothing rollout decisions toward staged adoption with policy controls."
         },
         {
           "id": "nvidia-ising-quantum-ai-apr15",
@@ -114,6 +218,15 @@
           "href": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
           "imageUrl": "assets/news/fallback-google-ai-economy.webp",
           "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "github-claude-codex-model-selection-apr14",
+          "category": "Developer Tools",
+          "title": "GitHub adds model selection for Claude and Codex agents",
+          "source": "GitHub Changelog",
+          "summary": "GitHub now lets users choose models when starting Claude and Codex third-party coding agent tasks on github.com, including Claude Sonnet and Opus options plus GPT-5.2-Codex, GPT-5.3-Codex, and GPT-5.4.",
+          "href": "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com/",
+          "excerpt": "Why it matters: agent platforms are turning model choice into a first-class workflow control instead of hiding it behind a single assistant brand."
         },
         {
           "id": "human-machine-teaming-dives-underwater-84d4323c-apr14",
