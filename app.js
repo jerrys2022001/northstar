@@ -2587,6 +2587,7 @@
     const releaseMarkup = releaseItems
       .map((item) => `
         <a class="release-ticker-item" href="${item.href}" target="_blank" rel="noreferrer">
+          <img class="release-ticker-hot" src="assets/hot-badge.svg" alt="Hot" loading="lazy">
           ${item.iconMarkup}
           <span class="release-ticker-copy">
             <strong>${item.name}</strong>
