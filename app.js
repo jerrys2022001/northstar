@@ -25,10 +25,39 @@
     "n8n", "notebooklm"
   ];
   const newAndNotableIds = [
-    "deepseek", "lovable", "stitch", "windsurf",
-    "bolt", "v0", "genspark", "googleaistudio",
-    "ideogram", "recraft", "pika", "krea",
-    "luma", "continue", "granola", "lindy"
+    "deepseek", "lovable", "googleaistudio", "bolt", "genspark"
+  ];
+  const releaseAppShortcuts = [
+    {
+      name: "Cleanup Pro",
+      meta: "App Name",
+      href: "https://apps.apple.com/app/ai-cleanup-kit/id6757135968",
+      iconUrl: "assets/submit-lane/cleanup-pro.png"
+    },
+    {
+      name: "Find AI",
+      meta: "App Name",
+      href: "https://apps.apple.com/app/ai-find/id6757230039",
+      iconUrl: "assets/submit-lane/find-ai.png"
+    },
+    {
+      name: "Bluetooth Explorer",
+      meta: "App Name",
+      href: "https://apps.apple.com/app/bluetooth-explorer-ai-terminal/id6757826313",
+      iconUrl: "assets/submit-lane/bluetooth-explorer.png"
+    },
+    {
+      name: "AI Translator",
+      meta: "App Name",
+      href: "https://apps.apple.com/app/translate-ai-ai-translator/id6757105258",
+      iconUrl: "assets/submit-lane/ai-translator.png"
+    },
+    {
+      name: "DualShot Camera",
+      meta: "App Name",
+      href: "https://velocai.net",
+      iconUrl: "assets/submit-lane/watch-companion.png"
+    }
   ];
   const operatorStackFlows = [
     {
@@ -2395,8 +2424,30 @@
       return;
     }
 
-    const releaseTools = pickTools(newAndNotableIds).slice(0, 8);
-    if (!releaseTools.length) {
+    const releaseToolItems = pickTools(newAndNotableIds).map((tool) => ({
+      type: "tool",
+      name: tool.name,
+      meta: `${tool.vendor} - ${tool.categories.slice(0, 2).join(" / ")}`,
+      href: tool.url,
+      iconMarkup: iconShell(tool, "release-ticker-icon"),
+      badge: "New"
+    }));
+    const releaseAppItems = releaseAppShortcuts.map((app) => ({
+      type: "app",
+      name: app.name,
+      meta: app.meta,
+      href: app.href,
+      iconMarkup: `
+        <span class="tool-icon-wrap release-ticker-icon" data-tip="${escapeAttribute(app.name)}">
+          <span class="tool-icon-shell">
+            <img src="${app.iconUrl}" alt="${escapeAttribute(app.name)} icon" loading="lazy">
+          </span>
+        </span>
+      `,
+      badge: "New"
+    }));
+    const releaseItems = [...releaseToolItems, ...releaseAppItems];
+    if (!releaseItems.length) {
       ui.releaseTickerTrack.innerHTML = `
         <div class="release-ticker-empty">
           <span>No new product release notices yet.</span>
@@ -2405,15 +2456,15 @@
       return;
     }
 
-    const releaseMarkup = releaseTools
-      .map((tool) => `
-        <a class="release-ticker-item" href="${detailUrl(tool)}">
-          ${iconShell(tool, "release-ticker-icon")}
+    const releaseMarkup = releaseItems
+      .map((item) => `
+        <a class="release-ticker-item" href="${item.href}" target="_blank" rel="noreferrer">
+          ${item.iconMarkup}
           <span class="release-ticker-copy">
-            <strong>${tool.name}</strong>
-            <span>${tool.vendor} · ${tool.categories.slice(0, 2).join(" / ")}</span>
+            <strong>${item.name}</strong>
+            <span>${item.meta}</span>
           </span>
-          <span class="release-ticker-badge">New</span>
+          <span class="release-ticker-badge">${item.badge}</span>
         </a>
       `)
       .join("");
