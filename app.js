@@ -2294,7 +2294,7 @@
             <img class="submit-app-icon" src="assets/submit-lane/ai-translator.png" alt="AI Translator">
             <span class="submit-app-name">App Name: AI Translator</span>
           </a>
-          <a class="submit-app-link" href="https://velocai.net" target="_blank" rel="noreferrer sponsored" aria-label="DualShot Camera on VelocAI">
+          <a class="submit-app-link" href="https://apps.apple.com/app/dualshot-camera-dual-recorder/id6761664966" target="_blank" rel="noreferrer" aria-label="DualShot Camera on the App Store">
             <img class="submit-app-icon" src="assets/submit-lane/watch-companion.png" alt="DualShot Camera">
             <span class="submit-app-name">App Name: DualShot Camera</span>
           </a>
