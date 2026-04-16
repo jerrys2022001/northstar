@@ -13,6 +13,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 APP_JS_PATH = ROOT / "app.js"
+INDEX_HTML_PATH = ROOT / "index.html"
 NEWS_HTML_PATH = ROOT / "news.html"
 NEWS_DATA_DIR = ROOT / "data" / "news"
 ARCHIVE_PATH = NEWS_DATA_DIR / "archive.json"
@@ -444,6 +445,41 @@ def validate_news_image_policy(kept_items: list[dict[str, Any]], tool_visits: di
     return errors
 
 
+def validate_no_duplicate_news_items(kept_items: list[dict[str, Any]]) -> list[str]:
+    errors: list[str] = []
+    for left_index, left in enumerate(kept_items):
+        for right in kept_items[left_index + 1 :]:
+            if items_are_similar(left, right):
+                errors.append(
+                    "Duplicate news item detected: "
+                    f"{left['date']} {left['id']} <-> {right['date']} {right['id']}"
+                )
+    return errors
+
+
+def validate_weekly_image_uniqueness(kept_items: list[dict[str, Any]]) -> list[str]:
+    errors: list[str] = []
+    image_items = [
+        (
+            datetime.strptime(item["date"], "%Y-%m-%d").date(),
+            item,
+            item.get("imageUrl", "").strip(),
+        )
+        for item in kept_items
+        if item.get("imageUrl")
+    ]
+    for left_index, (left_date, left, left_image) in enumerate(image_items):
+        for right_date, right, right_image in image_items[left_index + 1 :]:
+            if left_image != right_image:
+                continue
+            if abs((left_date - right_date).days) < 7:
+                errors.append(
+                    "News image repeated within 7 days: "
+                    f"{left_image} used by {left['date']} {left['id']} and {right['date']} {right['id']}"
+                )
+    return errors
+
+
 def rewrite_app_js_news_feed(grouped_feed: list[dict[str, Any]]) -> None:
     app_js_text = APP_JS_PATH.read_text(encoding="utf-8")
     marker_index, array_end, _ = locate_news_feed_block(app_js_text)
@@ -465,13 +501,20 @@ def validate_static_news_assets(
     min_daily_items: int,
 ) -> dict[str, Any]:
     app_js_text = APP_JS_PATH.read_text(encoding="utf-8")
-    html_text = NEWS_HTML_PATH.read_text(encoding="utf-8")
+    index_html_text = INDEX_HTML_PATH.read_text(encoding="utf-8")
+    news_html_text = NEWS_HTML_PATH.read_text(encoding="utf-8")
     errors: list[str] = []
 
-    if "id=\"news-feed\"" not in html_text:
+    if "id=\"news-feed\"" not in news_html_text:
         errors.append("news.html is missing #news-feed")
-    if "id=\"news-lead-grid\"" not in html_text:
+    if "id=\"news-lead-grid\"" not in news_html_text:
         errors.append("news.html is missing #news-lead-grid")
+    if "id=\"news-lead-grid\"" not in index_html_text:
+        errors.append("index.html is missing #news-lead-grid for Daily AI News")
+    if "id=\"news-latest-articles\"" not in index_html_text:
+        errors.append("index.html is missing #news-latest-articles for Daily AI News")
+    if "id=\"news-latest-articles\"" not in news_html_text:
+        errors.append("news.html is missing #news-latest-articles")
     if "renderNewsHub()" not in app_js_text:
         errors.append("app.js is missing renderNewsHub()")
     if not grouped_feed:
@@ -480,6 +523,8 @@ def validate_static_news_assets(
     run_group_count = len(run_group["items"]) if run_group else 0
     if run_group_count < min_daily_items:
         errors.append(f"{run_date} has {run_group_count} news items; expected at least {min_daily_items}")
+    errors.extend(validate_no_duplicate_news_items(kept_items))
+    errors.extend(validate_weekly_image_uniqueness(kept_items))
     errors.extend(validate_news_image_policy(kept_items, tool_visits))
 
     image_errors: list[str] = []
