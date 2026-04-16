@@ -21,6 +21,17 @@ LATEST_CANDIDATES_PATH = NEWS_DATA_DIR / "latest_candidates.json"
 DAILY_INBOX_DIR = NEWS_DATA_DIR / "inbox"
 NEWS_LOG_DIR = ROOT / "output" / "news-logs"
 CATALOG_PATHS = [ROOT / "catalog.js", *sorted(ROOT.glob("catalog_extra_*.js"))]
+HOME_BRIEFING_IMAGE_PREFIX = "assets/news/home-briefing/"
+DISALLOWED_NEWS_IMAGE_HINTS = (
+    "people",
+    "person",
+    "portrait",
+    "headshot",
+    "screenshot",
+    "screen-shot",
+    "screen_capture",
+    "capture",
+)
 
 STOPWORDS = {
     "the",
@@ -387,6 +398,52 @@ def strip_item_for_app(item: dict[str, Any]) -> dict[str, Any]:
     return app_item
 
 
+def distinct_news_items(items: list[dict[str, Any]], limit: int, excluded_items: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
+    picks: list[dict[str, Any]] = []
+    blocked = excluded_items or []
+    for item in items:
+        if len(picks) >= limit:
+            break
+        if any(items_are_similar(item, existing) for existing in blocked) or any(items_are_similar(item, existing) for existing in picks):
+            continue
+        picks.append(item)
+    return picks
+
+
+def sorted_news_items(items: list[dict[str, Any]], tool_visits: dict[str, int]) -> list[dict[str, Any]]:
+    return sorted(items, key=lambda item: (news_heat_score(item, tool_visits), item["id"]), reverse=True)
+
+
+def latest_recent_news_items(items: list[dict[str, Any]], tool_visits: dict[str, int], limit: int) -> list[dict[str, Any]]:
+    latest_dates = sorted({item["date"] for item in items if item.get("date")}, reverse=True)[:2]
+    if not latest_dates:
+        return []
+    return distinct_news_items(sorted_news_items([item for item in items if item["date"] in latest_dates], tool_visits), limit)
+
+
+def validate_news_image_policy(kept_items: list[dict[str, Any]], tool_visits: dict[str, int]) -> list[str]:
+    errors: list[str] = []
+    feature_items = distinct_news_items(kept_items, 3)
+    latest_article_items = latest_recent_news_items(kept_items, tool_visits, 5)
+    required_items = {
+        "top news card": feature_items,
+        "LATEST ARTICLES row": latest_article_items,
+    }
+
+    for placement, items in required_items.items():
+        for item in items:
+            image_url = item.get("imageUrl", "").strip()
+            if not image_url:
+                errors.append(f"{placement} requires source or approved fallback image: {item['id']}")
+                continue
+            normalized_url = image_url.replace("\\", "/").lower()
+            if normalized_url.startswith(HOME_BRIEFING_IMAGE_PREFIX):
+                if any(hint in normalized_url for hint in DISALLOWED_NEWS_IMAGE_HINTS):
+                    errors.append(f"{placement} uses disallowed home-briefing fallback image: {item['id']} -> {image_url}")
+
+    return errors
+
+
 def rewrite_app_js_news_feed(grouped_feed: list[dict[str, Any]]) -> None:
     app_js_text = APP_JS_PATH.read_text(encoding="utf-8")
     marker_index, array_end, _ = locate_news_feed_block(app_js_text)
@@ -400,7 +457,13 @@ def format_date_label(date_value: str) -> str:
     return datetime.strptime(date_value, "%Y-%m-%d").strftime("%B %-d, %Y") if sys.platform != "win32" else datetime.strptime(date_value, "%Y-%m-%d").strftime("%B %#d, %Y")
 
 
-def validate_static_news_assets(grouped_feed: list[dict[str, Any]], run_date: str, min_daily_items: int) -> dict[str, Any]:
+def validate_static_news_assets(
+    grouped_feed: list[dict[str, Any]],
+    kept_items: list[dict[str, Any]],
+    tool_visits: dict[str, int],
+    run_date: str,
+    min_daily_items: int,
+) -> dict[str, Any]:
     app_js_text = APP_JS_PATH.read_text(encoding="utf-8")
     html_text = NEWS_HTML_PATH.read_text(encoding="utf-8")
     errors: list[str] = []
@@ -417,6 +480,7 @@ def validate_static_news_assets(grouped_feed: list[dict[str, Any]], run_date: st
     run_group_count = len(run_group["items"]) if run_group else 0
     if run_group_count < min_daily_items:
         errors.append(f"{run_date} has {run_group_count} news items; expected at least {min_daily_items}")
+    errors.extend(validate_news_image_policy(kept_items, tool_visits))
 
     image_errors: list[str] = []
     for group in grouped_feed:
@@ -565,7 +629,13 @@ def main() -> int:
     grouped_feed = group_items_for_feed(kept_items, tool_visits)
     rewrite_app_js_news_feed(grouped_feed)
     write_archive(kept_items, grouped_feed, run_date)
-    static_validation = validate_static_news_assets(grouped_feed, run_date, args.min_daily_items)
+    static_validation = validate_static_news_assets(
+        grouped_feed=grouped_feed,
+        kept_items=kept_items,
+        tool_visits=tool_visits,
+        run_date=run_date,
+        min_daily_items=args.min_daily_items,
+    )
     render_validation = "skipped"
     if not args.skip_render_validation:
         render_validation = run_render_validation(run_date=run_date, validation_port=args.validation_port)

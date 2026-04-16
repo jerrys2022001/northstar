@@ -159,6 +159,7 @@
         "source": "Google Blog",
         "summary": "Google launched a native Gemini app for macOS 15 and up, adding an Option-Space shortcut, window sharing, and quick access to image and video generation from the desktop.",
         "href": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/apple-00ea6604389055f8.jpg",
         "excerpt": "Why it matters: Gemini is moving from a browser destination into a resident desktop assistant that can use local screen context without forcing users out of their workflow."
       },
       {
@@ -168,6 +169,7 @@
         "source": "TechCrunch",
         "summary": "OpenAI updated its Agents SDK with sandboxing and in-distribution harness features so enterprises can build safer long-horizon agents on frontier models.",
         "href": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/apple-9435e4a8937eb558.webp",
         "excerpt": "Why it matters: enterprise agent adoption is moving from demos toward controlled execution environments, approved tools, and deployable safety boundaries."
       },
       {
@@ -177,6 +179,7 @@
         "source": "Axios",
         "summary": "OpenAI is arguing that AI can accelerate biomedical research by connecting fragmented knowledge, designing tools, automating labs, and shortening experiment cycles.",
         "href": "https://www.axios.com/2026/04/15/exclusive-openai-ai-life-science",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/ai-c1640cf30c54b600.png",
         "excerpt": "Why it matters: OpenAI is tying frontier model progress to regulated, high-value scientific workflows where adoption depends as much on policy and trust as raw capability."
       },
       {
@@ -186,6 +189,7 @@
         "source": "TechCrunch",
         "summary": "Adobe launched Firefly AI Assistant in public beta, giving users an agent that can work across Firefly, Photoshop, Premiere, Lightroom, Express, Illustrator, and related apps.",
         "href": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/apple-00ea6604389055f8.jpg",
         "excerpt": "Why it matters: creative AI is shifting from single-output generation toward assistants that can operate across full production workflows."
       },
       {
@@ -195,6 +199,7 @@
         "source": "TechRadar",
         "summary": "Anthropic confirmed elevated errors affecting Claude.ai, the API, and Claude Code, with users reporting login failures and interrupted prompt handling during the April 15 incident.",
         "href": "https://www.techradar.com/news/live/claude-anthropic-down-outage-april-15-2026",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/apple-9435e4a8937eb558.webp",
         "excerpt": "Why it matters: recurring downtime is now a product signal for AI tools that users rely on for daily coding and operational workflows."
       },
       {
@@ -204,6 +209,7 @@
         "source": "TechCrunch",
         "summary": "Gitar emerged from stealth with $9 million for an agent-based platform aimed at helping teams secure code.",
         "href": "https://techcrunch.com/2026/04/15/gitar-a-startup-that-uses-agents-to-secure-code-emerges-from-stealth-with-9-million/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/industry-solar-panels.webp",
         "excerpt": "Why it matters: AI coding tools are creating demand for automated review and remediation systems that can keep up with faster software generation."
       },
       {
@@ -213,6 +219,7 @@
         "source": "TechCrunch",
         "summary": "India-based Emergent is expanding from vibe coding into an OpenClaw-like AI agent space for building and operating software workflows.",
         "href": "https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/ai-c1640cf30c54b600.png",
         "excerpt": "Why it matters: agentic coding competition is widening beyond the best-known US developer tools into regional products with local distribution advantages."
       },
       {
@@ -222,6 +229,7 @@
         "source": "TechCrunch",
         "summary": "Parasail raised $32 million for infrastructure aimed at developers who need to spend and manage large token volumes for AI products.",
         "href": "https://techcrunch.com/2026/04/15/parasail-raises-32m-to-feed-tokenmaxxing-ai-developers/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/apple-cf91fa832d8b2b04.jpg",
         "excerpt": "Why it matters: AI infrastructure demand is broadening from raw GPUs to billing, routing, and usage layers that make high-token applications practical."
       },
       {
@@ -231,6 +239,7 @@
         "source": "TechCrunch",
         "summary": "Gizmo, an AI learning app focused on study workflows, raised $22 million after growing to 13 million users.",
         "href": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/apple-cf91fa832d8b2b04.jpg",
         "excerpt": "Why it matters: education remains one of the clearest consumer AI wedges when products tie generation to memory, practice, and repeat use."
       },
       {
@@ -240,6 +249,7 @@
         "source": "TechCrunch",
         "summary": "Hightouch says its AI marketing product helped drive the company to $100 million in ARR by letting brands generate personalized campaigns from their own creative systems.",
         "href": "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/industry-ai-compute-funding.webp",
         "excerpt": "Why it matters: enterprise buyers are paying for AI systems that stay grounded in brand assets and customer data instead of generic image generation."
       }
     ]
@@ -265,6 +275,7 @@
         "source": "Google Blog",
         "summary": "Google introduced Gemini 3.1 Flash TTS with improved speech quality, audio tags for style and pacing control, 70-plus language support, and SynthID watermarking.",
         "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/apple-9435e4a8937eb558.webp",
         "excerpt": "Why it matters: text-to-speech models are becoming programmable creative systems, not just narration utilities, with developer controls exposed through AI Studio and Vertex AI."
       },
       {
@@ -312,6 +323,7 @@
         "source": "GitHub Changelog",
         "summary": "GitHub added controls for selectively enabling Copilot cloud agent access for specific organizations, including new API endpoints and AI Controls page settings.",
         "href": "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/ai-c1640cf30c54b600.png",
         "excerpt": "Why it matters: enterprise AI coding agents are shifting from all-or-nothing rollout decisions toward staged adoption with policy controls."
       },
       {
@@ -373,6 +385,7 @@
         "source": "GitHub Changelog",
         "summary": "GitHub now lets users choose models when starting Claude and Codex third-party coding agent tasks on github.com, including Claude Sonnet and Opus options plus GPT-5.2-Codex, GPT-5.3-Codex, and GPT-5.4.",
         "href": "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/industry-solar-panels.webp",
         "excerpt": "Why it matters: agent platforms are turning model choice into a first-class workflow control instead of hiding it behind a single assistant brand."
       },
       {
@@ -1947,7 +1960,8 @@
       return imageUrl;
     }
 
-    const fallbackUrl = NEWS_WEEKLY_IMAGE_FALLBACKS.find((url) => !usedImages.has(url));
+    const settings = options || {};
+    const fallbackUrl = settings.allowFallback === false ? "" : NEWS_WEEKLY_IMAGE_FALLBACKS.find((url) => !usedImages.has(url));
     if (fallbackUrl) {
       usedImages.add(fallbackUrl);
       return fallbackUrl;
@@ -2350,7 +2364,7 @@
     ui.newsLeadGrid.innerHTML = featuredItems
       .map((item, index) => {
         const isHomePage = !isNewsPage;
-        const featureImageOptions = isHomePage ? { allowFallback: true, avoidPortraits: true } : { allowFallback: true };
+        const featureImageOptions = isHomePage ? { allowFallback: true, avoidPortraits: true } : { allowFallback: false, avoidPortraits: true };
         const featureImageUrl = uniqueNewsImageUrl(item, featureImageOptions, weeklyNewsImages);
         const title = isHomePage ? shortenWords(item.title, 7) : item.title;
         const summary = isHomePage ? shortenWords(item.summary, 18) : item.summary;
@@ -2458,7 +2472,8 @@
       const latestArticleItems = latestRecentNewsItems(items, 5);
       ui.newsLatestArticles.innerHTML = latestArticleItems
         .map((item) => {
-          const articleImageUrl = uniqueNewsImageUrl(item, { allowFallback: true, avoidPortraits: true }, weeklyNewsImages);
+          const articleImageOptions = isNewsPage ? { allowFallback: false, avoidPortraits: true } : { allowFallback: true, avoidPortraits: true };
+          const articleImageUrl = uniqueNewsImageUrl(item, articleImageOptions, weeklyNewsImages);
           return `
           <a class="news-article-row ${articleImageUrl ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
             ${newsImageMarkupFromUrl(item, "news-article-media", articleImageUrl)}
