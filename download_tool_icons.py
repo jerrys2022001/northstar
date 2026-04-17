@@ -10,6 +10,7 @@ Brand-owned icon sources are preferred over third-party favicon APIs:
 
 from __future__ import annotations
 
+import base64
 import json
 import re
 import subprocess
@@ -18,7 +19,7 @@ import time
 from dataclasses import dataclass
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import quote, urljoin, urlparse, urlunparse
+from urllib.parse import quote, unquote_to_bytes, urljoin, urlparse, urlunparse
 from urllib.request import Request, urlopen
 
 
@@ -295,6 +296,69 @@ BRAND_ICON_OVERRIDES: dict[str, list[str]] = {
     "veed": [
         "https://www.veed.io/favicon.ico",
     ],
+    "baserun": [
+        "https://docs.baserun.ai/mintlify-assets/_mintlify/favicons/baserun/tkRIuUbj2GbFsU6S/_generated/favicon/favicon-32x32.png",
+    ],
+    "brainfish": [
+        "https://help.brainfish.ai/api/favicon?teamName=Brainfish&url=https%3A%2F%2Fbrainfish-storage-prod.s3.us-east-2.amazonaws.com%2Fpublic%2Faf9782b1-c2c6-491c-9b42-8e2ea7223617%2F39aea64d-a5f4-4c0c-bdcb-43a5844d6267%2Fpng-small-logo.png&size=64",
+    ],
+    "brandbird": [
+        "https://manifest.im/icon/brandbird.app",
+    ],
+    "bytelearn": [
+        "https://manifest.im/icon/bytelearn.app",
+    ],
+    "drift": [
+        "https://images.contentstack.io/v3/assets/blt48e9deb40787970b/blt205e332b64af9839/669e764335a68ec4fa6c26e5/Drift_Icon_-_Active.png?auto=webp",
+    ],
+    "gptresearcher": [
+        "https://gptr.dev/favicon.ico",
+    ],
+    "hourone": [
+        "https://helpcenter.hourone.ai/favicon.ico",
+    ],
+    "inciteful": [
+        "https://inciteful.xyz/academic/favicon.ico",
+    ],
+    "journalistai": [
+        "https://manifest.im/icon/journo.ai",
+    ],
+    "khanmigo": [
+        "https://www.khanacademy.org/favicon.ico",
+    ],
+    "leptonai": [
+        "https://www.nvidia.com/favicon.ico",
+    ],
+    "lmstudio": [
+        "https://lmstudio.ai/favicon.ico",
+    ],
+    "longshot": [
+        "https://help.longshot.ai/favicon.ico",
+    ],
+    "nyota": [
+        "https://help.nyota.ai/favicon.ico",
+    ],
+    "octoai": [
+        "https://www.nvidia.com/favicon.ico",
+    ],
+    "peppertype": [
+        "https://www.peppercontent.io/favicon.ico",
+    ],
+    "questionaid": [
+        "https://question-aid.com/favicon.ico",
+    ],
+    "quicklinesai": [
+        "https://www.quicklineai.com/favicon.ico",
+    ],
+    "sizzleai": [
+        "https://www.szl.ai/favicon.ico",
+    ],
+    "unify": [
+        "https://docs.unify.ai/mintlify-assets/_mintlify/favicons/unify-d270b1a5/AbXTwkszDlXLqsKK/_generated/favicon/favicon-32x32.png",
+    ],
+    "upword": [
+        "https://manifest.im/icon/upword.pro",
+    ],
 }
 
 PRIMARY_ICON_FILE_ALIASES: dict[str, str] = {
@@ -320,6 +384,7 @@ REFRESHABLE_ICON_SOURCES = {
     "google-s2",
     "local-alias",
     "local-fallback",
+    "manifest-im",
     "root-default",
 }
 
@@ -438,6 +503,9 @@ def parse_size_value(sizes_text: str) -> int:
 
 
 def request_url(url: str, timeout: int = 5) -> bytes:
+    if url.startswith("data:"):
+        data, _ = decode_data_url(url)
+        return data
     url = normalize_url(url)
     request = Request(url, headers={"User-Agent": USER_AGENT})
     with urlopen(request, timeout=timeout) as response:
@@ -445,6 +513,8 @@ def request_url(url: str, timeout: int = 5) -> bytes:
 
 
 def request_with_headers(url: str, timeout: int = 5) -> tuple[bytes, str]:
+    if url.startswith("data:"):
+        return decode_data_url(url)
     url = normalize_url(url)
     request = Request(url, headers={"User-Agent": USER_AGENT})
     with urlopen(request, timeout=timeout) as response:
@@ -469,6 +539,20 @@ def normalize_url(url: str) -> str:
             normalized_fragment,
         )
     )
+
+
+def decode_data_url(url: str) -> tuple[bytes, str]:
+    header, _, payload = url.partition(",")
+    if not header.startswith("data:"):
+        return b"", "application/octet-stream"
+    media_type = "text/plain"
+    if ";" in header:
+        media_type = header[5:].split(";", 1)[0] or media_type
+    elif len(header) > 5:
+        media_type = header[5:]
+    if ";base64" in header:
+        return base64.b64decode(payload), media_type
+    return unquote_to_bytes(payload), media_type
 
 
 def fetch_html(tool_url: str) -> tuple[str, str] | None:
@@ -528,6 +612,30 @@ def root_icon_candidates(tool_url: str) -> list[IconCandidate]:
     ]
 
 
+def manifest_im_candidates(tool_url: str) -> list[IconCandidate]:
+    hostname = urlparse(tool_url).netloc.lower()
+    if not hostname:
+        return []
+
+    hostnames = [hostname]
+    if hostname.startswith("www."):
+        hostnames.append(hostname[4:])
+
+    deduped: list[str] = []
+    for item in hostnames:
+        if item and item not in deduped:
+            deduped.append(item)
+
+    return [
+        IconCandidate(
+            f"https://manifest.im/icon/{domain}",
+            "manifest-im",
+            (4, index, 0),
+        )
+        for index, domain in enumerate(deduped)
+    ]
+
+
 def google_fallback_candidates(tool_url: str) -> list[IconCandidate]:
     hostname = urlparse(tool_url).netloc
     return [
@@ -561,6 +669,7 @@ def prioritized_candidates(tool_id: str, tool_url: str) -> list[IconCandidate]:
         *override_icon_candidates(tool_id),
         *head_candidates,
         *sorted(manifest_candidates, key=lambda item: item.score),
+        *manifest_im_candidates(tool_url),
         *root_icon_candidates(tool_url),
         *google_fallback_candidates(tool_url),
     ]
@@ -848,11 +957,11 @@ def main() -> None:
 
     for tool_id, logo_letter, accent_text, tool_url in tools:
         fallback_file = write_svg_fallback(tool_id, logo_letter, accent_text)
-        primary_asset = (
-            existing_local_asset(tool_id)
-            if missing_only
-            else None
-        )
+        primary_asset = None
+        if missing_only or refresh_fallbacks or google_fill_fallbacks:
+            existing_asset = existing_local_asset(tool_id)
+            if existing_asset is not None and existing_asset.get("source") == "local":
+                primary_asset = existing_asset
         if primary_asset is None:
             primary_asset = (
                 download_google_icon(tool_id, tool_url)

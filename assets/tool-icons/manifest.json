@@ -80,12 +80,12 @@
     "url": "local://assets/tool-icons/adobegenstudio.png"
   },
   "adobepodcast": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "adobepodcast.svg",
-    "file": "adobepodcast.svg",
-    "source": "local-fallback",
+    "file": "adobepodcast.png",
+    "source": "local",
     "tool_url": "https://podcast.adobe.com/",
-    "url": "local://assets/tool-icons/adobepodcast.svg"
+    "url": "local://assets/tool-icons/adobepodcast.png"
   },
   "afforai": {
     "content_type": "image/png",
@@ -267,7 +267,7 @@
     "content_type": "image/svg+xml",
     "fallback": "algolia.svg",
     "file": "algolia.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.algolia.com/",
     "url": "local://assets/tool-icons/algolia.svg"
   },
@@ -304,12 +304,12 @@
     "url": "local://assets/tool-icons/ambience.png"
   },
   "amelia": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "amelia.svg",
-    "file": "amelia.svg",
-    "source": "local-fallback",
+    "file": "amelia.png",
+    "source": "local",
     "tool_url": "https://amelia.ai/",
-    "url": "local://assets/tool-icons/amelia.svg"
+    "url": "local://assets/tool-icons/amelia.png"
   },
   "anacondaaiassistant": {
     "content_type": "image/png",
@@ -320,12 +320,12 @@
     "url": "local://assets/tool-icons/anacondaaiassistant.png"
   },
   "anakinai": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/x-icon",
     "fallback": "anakinai.svg",
-    "file": "anakinai.svg",
-    "source": "local-fallback",
+    "file": "anakinai.ico",
+    "source": "local",
     "tool_url": "https://anakin.ai/",
-    "url": "local://assets/tool-icons/anakinai.svg"
+    "url": "local://assets/tool-icons/anakinai.ico"
   },
   "andi": {
     "content_type": "image/png",
@@ -595,7 +595,7 @@
     "content_type": "image/svg+xml",
     "fallback": "augmentcode.svg",
     "file": "augmentcode.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.augmentcode.com/",
     "url": "local://assets/tool-icons/augmentcode.svg"
   },
@@ -659,7 +659,7 @@
     "content_type": "image/svg+xml",
     "fallback": "bardeen.svg",
     "file": "bardeen.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.bardeen.ai/",
     "url": "local://assets/tool-icons/bardeen.svg"
   },
@@ -672,12 +672,12 @@
     "url": "local://assets/tool-icons/base44.png"
   },
   "baserun": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "baserun.svg",
-    "file": "baserun.svg",
-    "source": "local-fallback",
+    "file": "baserun.png",
+    "source": "local",
     "tool_url": "https://www.baserun.ai/",
-    "url": "local://assets/tool-icons/baserun.svg"
+    "url": "local://assets/tool-icons/baserun.png"
   },
   "baseten": {
     "content_type": "image/x-icon",
@@ -739,7 +739,7 @@
     "content_type": "image/svg+xml",
     "fallback": "berthaai.svg",
     "file": "berthaai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://bertha.ai/",
     "url": "local://assets/tool-icons/berthaai.svg"
   },
@@ -867,7 +867,7 @@
     "content_type": "image/svg+xml",
     "fallback": "botsonic.svg",
     "file": "botsonic.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://botsonic.com/",
     "url": "local://assets/tool-icons/botsonic.svg"
   },
@@ -880,12 +880,12 @@
     "url": "local://assets/tool-icons/boxai.png"
   },
   "brainfish": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "brainfish.svg",
-    "file": "brainfish.svg",
-    "source": "local-fallback",
+    "file": "brainfish.png",
+    "source": "local",
     "tool_url": "https://brainfish.ai/",
-    "url": "local://assets/tool-icons/brainfish.svg"
+    "url": "local://assets/tool-icons/brainfish.png"
   },
   "braintrust": {
     "content_type": "image/png",
@@ -896,12 +896,12 @@
     "url": "local://assets/tool-icons/braintrust.png"
   },
   "brandbird": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "brandbird.svg",
-    "file": "brandbird.svg",
-    "source": "local-fallback",
+    "file": "brandbird.png",
+    "source": "google-s2-domain-url",
     "tool_url": "https://www.brandbird.app/",
-    "url": "local://assets/tool-icons/brandbird.svg"
+    "url": "https://www.google.com/s2/favicons?sz=128&domain_url=https%3A%2F%2Fwww.brandbird.app%2F"
   },
   "brandcrowdai": {
     "content_type": "image/png",
@@ -1016,12 +1016,12 @@
     "url": "local://assets/tool-icons/butternut.png"
   },
   "bytelearn": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "bytelearn.svg",
-    "file": "bytelearn.svg",
-    "source": "local-fallback",
+    "file": "bytelearn.png",
+    "source": "local",
     "tool_url": "https://www.bytelearn.com/",
-    "url": "local://assets/tool-icons/bytelearn.svg"
+    "url": "local://assets/tool-icons/bytelearn.png"
   },
   "c3ai": {
     "content_type": "image/png",
@@ -1235,7 +1235,7 @@
     "content_type": "image/svg+xml",
     "fallback": "chopcast.svg",
     "file": "chopcast.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.chopcast.io/",
     "url": "local://assets/tool-icons/chopcast.svg"
   },
@@ -1579,7 +1579,7 @@
     "content_type": "image/svg+xml",
     "fallback": "constructor.svg",
     "file": "constructor.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://constructor.com/",
     "url": "local://assets/tool-icons/constructor.svg"
   },
@@ -1891,7 +1891,7 @@
     "content_type": "image/svg+xml",
     "fallback": "deepscribe.svg",
     "file": "deepscribe.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.deepscribe.ai/",
     "url": "local://assets/tool-icons/deepscribe.svg"
   },
@@ -2035,7 +2035,7 @@
     "content_type": "image/svg+xml",
     "fallback": "doctrinaai.svg",
     "file": "doctrinaai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://doctrina.ai/",
     "url": "local://assets/tool-icons/doctrinaai.svg"
   },
@@ -2043,7 +2043,7 @@
     "content_type": "image/svg+xml",
     "fallback": "docugami.svg",
     "file": "docugami.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.docugami.com/",
     "url": "local://assets/tool-icons/docugami.svg"
   },
@@ -2056,12 +2056,12 @@
     "url": "local://assets/tool-icons/dominodatalab.ico"
   },
   "dopple": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "dopple.svg",
-    "file": "dopple.svg",
-    "source": "local-fallback",
+    "file": "dopple.png",
+    "source": "local",
     "tool_url": "https://beta.dopple.ai/",
-    "url": "local://assets/tool-icons/dopple.svg"
+    "url": "local://assets/tool-icons/dopple.png"
   },
   "dora": {
     "content_type": "image/png",
@@ -2104,12 +2104,12 @@
     "url": "local://assets/tool-icons/dremioai.ico"
   },
   "drift": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "drift.svg",
-    "file": "drift.svg",
-    "source": "local-fallback",
+    "file": "drift.png",
+    "source": "local",
     "tool_url": "https://www.drift.com/",
-    "url": "local://assets/tool-icons/drift.svg"
+    "url": "local://assets/tool-icons/drift.png"
   },
   "dropboxdash": {
     "content_type": "image/png",
@@ -2699,7 +2699,7 @@
     "content_type": "image/svg+xml",
     "fallback": "getgenie.svg",
     "file": "getgenie.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://getgenie.ai/",
     "url": "local://assets/tool-icons/getgenie.svg"
   },
@@ -2848,12 +2848,12 @@
     "url": "local://assets/tool-icons/gorgias.png"
   },
   "gptresearcher": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "gptresearcher.svg",
-    "file": "gptresearcher.svg",
-    "source": "local-fallback",
+    "file": "gptresearcher.png",
+    "source": "local",
     "tool_url": "https://gptresearcher.io/",
-    "url": "local://assets/tool-icons/gptresearcher.svg"
+    "url": "local://assets/tool-icons/gptresearcher.png"
   },
   "gpttrainer": {
     "content_type": "image/png",
@@ -3163,7 +3163,7 @@
     "content_type": "image/svg+xml",
     "fallback": "hiration.svg",
     "file": "hiration.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.hiration.com/",
     "url": "local://assets/tool-icons/hiration.svg"
   },
@@ -3232,12 +3232,12 @@
     "url": "local://assets/tool-icons/hotpotai.png"
   },
   "hourone": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "hourone.svg",
-    "file": "hourone.svg",
-    "source": "local-fallback",
+    "file": "hourone.png",
+    "source": "local",
     "tool_url": "https://hourone.ai/",
-    "url": "local://assets/tool-icons/hourone.svg"
+    "url": "local://assets/tool-icons/hourone.png"
   },
   "hubspot": {
     "content_type": "image/png",
@@ -3275,7 +3275,7 @@
     "content_type": "image/svg+xml",
     "fallback": "humanloop.svg",
     "file": "humanloop.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://humanloop.com/",
     "url": "local://assets/tool-icons/humanloop.svg"
   },
@@ -3384,12 +3384,12 @@
     "url": "local://assets/tool-icons/immersivetranslate.png"
   },
   "inciteful": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/x-icon",
     "fallback": "inciteful.svg",
-    "file": "inciteful.svg",
-    "source": "local-fallback",
+    "file": "inciteful.ico",
+    "source": "local",
     "tool_url": "https://inciteful.xyz/",
-    "url": "local://assets/tool-icons/inciteful.svg"
+    "url": "local://assets/tool-icons/inciteful.ico"
   },
   "ingestai": {
     "content_type": "image/png",
@@ -3403,7 +3403,7 @@
     "content_type": "image/svg+xml",
     "fallback": "insightbase.svg",
     "file": "insightbase.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://insightbase.ai/",
     "url": "local://assets/tool-icons/insightbase.svg"
   },
@@ -3547,7 +3547,7 @@
     "content_type": "image/svg+xml",
     "fallback": "jenni.svg",
     "file": "jenni.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://jenni.ai/",
     "url": "local://assets/tool-icons/jenni.svg"
   },
@@ -3571,7 +3571,7 @@
     "content_type": "image/svg+xml",
     "fallback": "jobrightai.svg",
     "file": "jobrightai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://jobright.ai/",
     "url": "local://assets/tool-icons/jobrightai.svg"
   },
@@ -3600,12 +3600,12 @@
     "url": "local://assets/tool-icons/jotform.png"
   },
   "journalistai": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "journalistai.svg",
-    "file": "journalistai.svg",
-    "source": "local-fallback",
+    "file": "journalistai.png",
+    "source": "local",
     "tool_url": "https://journalistai.com/",
-    "url": "local://assets/tool-icons/journalistai.svg"
+    "url": "local://assets/tool-icons/journalistai.png"
   },
   "journeyio": {
     "content_type": "image/png",
@@ -3635,7 +3635,7 @@
     "content_type": "image/svg+xml",
     "fallback": "juniaai.svg",
     "file": "juniaai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.junia.ai/",
     "url": "local://assets/tool-icons/juniaai.svg"
   },
@@ -3688,12 +3688,12 @@
     "url": "local://assets/tool-icons/kapwing.jpg"
   },
   "khanmigo": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "khanmigo.svg",
-    "file": "khanmigo.svg",
-    "source": "local-fallback",
+    "file": "khanmigo.png",
+    "source": "local",
     "tool_url": "https://www.khanacademy.org/khan-labs",
-    "url": "local://assets/tool-icons/khanmigo.svg"
+    "url": "local://assets/tool-icons/khanmigo.png"
   },
   "kickresume": {
     "content_type": "image/png",
@@ -3723,7 +3723,7 @@
     "content_type": "image/svg+xml",
     "fallback": "kindroid.svg",
     "file": "kindroid.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://kindroid.ai/",
     "url": "local://assets/tool-icons/kindroid.svg"
   },
@@ -4080,12 +4080,12 @@
     "url": "local://assets/tool-icons/leonardo.png"
   },
   "leptonai": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "leptonai.svg",
-    "file": "leptonai.svg",
-    "source": "local-fallback",
+    "file": "leptonai.png",
+    "source": "local",
     "tool_url": "https://www.lepton.ai/",
-    "url": "local://assets/tool-icons/leptonai.svg"
+    "url": "local://assets/tool-icons/leptonai.png"
   },
   "letsenhance": {
     "content_type": "image/png",
@@ -4136,12 +4136,12 @@
     "url": "local://assets/tool-icons/lilyai.png"
   },
   "limitless": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/jpeg",
     "fallback": "limitless.svg",
-    "file": "limitless.svg",
-    "source": "local-fallback",
+    "file": "limitless.jpg",
+    "source": "local",
     "tool_url": "https://www.limitless.ai/",
-    "url": "local://assets/tool-icons/limitless.svg"
+    "url": "local://assets/tool-icons/limitless.jpg"
   },
   "lindy": {
     "content_type": "image/png",
@@ -4168,12 +4168,12 @@
     "url": "local://assets/tool-icons/liner.png"
   },
   "listnr": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "listnr.svg",
-    "file": "listnr.svg",
-    "source": "local-fallback",
+    "file": "listnr.png",
+    "source": "local",
     "tool_url": "https://listnr.ai/",
-    "url": "local://assets/tool-icons/listnr.svg"
+    "url": "local://assets/tool-icons/listnr.png"
   },
   "litellm": {
     "content_type": "image/png",
@@ -4216,12 +4216,12 @@
     "url": "local://assets/tool-icons/llamaindex.png"
   },
   "lmstudio": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "lmstudio.svg",
-    "file": "lmstudio.svg",
-    "source": "local-fallback",
+    "file": "lmstudio.png",
+    "source": "local",
     "tool_url": "https://lmstudio.ai/",
-    "url": "local://assets/tool-icons/lmstudio.svg"
+    "url": "local://assets/tool-icons/lmstudio.png"
   },
   "localai": {
     "content_type": "image/png",
@@ -4235,7 +4235,7 @@
     "content_type": "image/svg+xml",
     "fallback": "logoai.svg",
     "file": "logoai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.logoai.com/",
     "url": "local://assets/tool-icons/logoai.svg"
   },
@@ -4256,12 +4256,12 @@
     "url": "local://assets/tool-icons/logomasterai.ico"
   },
   "longshot": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/x-icon",
     "fallback": "longshot.svg",
-    "file": "longshot.svg",
-    "source": "local-fallback",
+    "file": "longshot.ico",
+    "source": "local",
     "tool_url": "https://www.longshot.ai/",
-    "url": "local://assets/tool-icons/longshot.svg"
+    "url": "local://assets/tool-icons/longshot.ico"
   },
   "looka": {
     "content_type": "image/png",
@@ -4304,12 +4304,12 @@
     "url": "local://assets/tool-icons/lovable.png"
   },
   "lovart": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/x-icon",
     "fallback": "lovart.svg",
-    "file": "lovart.svg",
-    "source": "local-fallback",
+    "file": "lovart.ico",
+    "source": "local",
     "tool_url": "https://www.lovart.ai/",
-    "url": "local://assets/tool-icons/lovart.svg"
+    "url": "local://assets/tool-icons/lovart.ico"
   },
   "lovo": {
     "content_type": "image/png",
@@ -4672,12 +4672,12 @@
     "url": "local://assets/tool-icons/metricool.png"
   },
   "microsoftcopilot": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/jpeg",
     "fallback": "microsoftcopilot.svg",
-    "file": "microsoftcopilot.svg",
-    "source": "local-fallback",
+    "file": "microsoftcopilot.jpg",
+    "source": "local",
     "tool_url": "https://copilot.microsoft.com/",
-    "url": "local://assets/tool-icons/microsoftcopilot.svg"
+    "url": "local://assets/tool-icons/microsoftcopilot.jpg"
   },
   "microsoftdesigner": {
     "content_type": "image/png",
@@ -4723,7 +4723,7 @@
     "content_type": "image/svg+xml",
     "fallback": "mindstudio.svg",
     "file": "mindstudio.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.mindstudio.ai/",
     "url": "local://assets/tool-icons/mindstudio.svg"
   },
@@ -4819,7 +4819,7 @@
     "content_type": "image/svg+xml",
     "fallback": "moises.svg",
     "file": "moises.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://moises.ai/",
     "url": "local://assets/tool-icons/moises.svg"
   },
@@ -4920,12 +4920,12 @@
     "url": "local://assets/tool-icons/musicstarai.png"
   },
   "mutableai": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "mutableai.svg",
-    "file": "mutableai.svg",
-    "source": "local-fallback",
+    "file": "mutableai.png",
+    "source": "local",
     "tool_url": "https://mutable.ai/",
-    "url": "local://assets/tool-icons/mutableai.svg"
+    "url": "local://assets/tool-icons/mutableai.png"
   },
   "mymap": {
     "content_type": "image/png",
@@ -5003,7 +5003,7 @@
     "content_type": "image/svg+xml",
     "fallback": "nerdai.svg",
     "file": "nerdai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.nerdai.app/",
     "url": "local://assets/tool-icons/nerdai.svg"
   },
@@ -5152,12 +5152,12 @@
     "url": "local://assets/tool-icons/nvidianim.ico"
   },
   "nyota": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/x-icon",
     "fallback": "nyota.svg",
-    "file": "nyota.svg",
-    "source": "local-fallback",
+    "file": "nyota.ico",
+    "source": "local",
     "tool_url": "https://www.nyota.ai/",
-    "url": "local://assets/tool-icons/nyota.svg"
+    "url": "local://assets/tool-icons/nyota.ico"
   },
   "observeai": {
     "content_type": "image/jpeg",
@@ -5184,12 +5184,12 @@
     "url": "local://assets/tool-icons/octaneai.png"
   },
   "octoai": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "octoai.svg",
-    "file": "octoai.svg",
-    "source": "local-fallback",
+    "file": "octoai.png",
+    "source": "local",
     "tool_url": "https://octo.ai/",
-    "url": "local://assets/tool-icons/octoai.svg"
+    "url": "local://assets/tool-icons/octoai.png"
   },
   "octolane": {
     "content_type": "image/png",
@@ -5536,12 +5536,12 @@
     "url": "local://assets/tool-icons/peopleai.png"
   },
   "peppertype": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "peppertype.svg",
-    "file": "peppertype.svg",
-    "source": "local-fallback",
+    "file": "peppertype.png",
+    "source": "local",
     "tool_url": "https://www.peppertype.ai/",
-    "url": "local://assets/tool-icons/peppertype.svg"
+    "url": "local://assets/tool-icons/peppertype.png"
   },
   "perigon": {
     "content_type": "image/png",
@@ -5571,7 +5571,7 @@
     "content_type": "image/svg+xml",
     "fallback": "petal.svg",
     "file": "petal.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.petal.org/",
     "url": "local://assets/tool-icons/petal.svg"
   },
@@ -5795,7 +5795,7 @@
     "content_type": "image/svg+xml",
     "fallback": "podcastle.svg",
     "file": "podcastle.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://podcastle.ai/",
     "url": "local://assets/tool-icons/podcastle.svg"
   },
@@ -5824,18 +5824,18 @@
     "url": "local://assets/tool-icons/polyai.png"
   },
   "polybuzz": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "polybuzz.svg",
-    "file": "polybuzz.svg",
-    "source": "local-fallback",
+    "file": "polybuzz.png",
+    "source": "local",
     "tool_url": "https://polybuzz.ai/",
-    "url": "local://assets/tool-icons/polybuzz.svg"
+    "url": "local://assets/tool-icons/polybuzz.png"
   },
   "popai": {
     "content_type": "image/svg+xml",
     "fallback": "popai.svg",
     "file": "popai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.popai.pro/",
     "url": "local://assets/tool-icons/popai.svg"
   },
@@ -5880,12 +5880,12 @@
     "url": "local://assets/tool-icons/pramp.ico"
   },
   "predibase": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "predibase.svg",
-    "file": "predibase.svg",
-    "source": "local-fallback",
+    "file": "predibase.png",
+    "source": "local",
     "tool_url": "https://predibase.com/",
-    "url": "local://assets/tool-icons/predibase.svg"
+    "url": "local://assets/tool-icons/predibase.png"
   },
   "predis": {
     "content_type": "image/png",
@@ -6032,12 +6032,12 @@
     "url": "local://assets/tool-icons/questionai.png"
   },
   "questionaid": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/x-icon",
     "fallback": "questionaid.svg",
-    "file": "questionaid.svg",
-    "source": "local-fallback",
+    "file": "questionaid.ico",
+    "source": "local",
     "tool_url": "https://questionaid.in/",
-    "url": "local://assets/tool-icons/questionaid.svg"
+    "url": "local://assets/tool-icons/questionaid.ico"
   },
   "questionwell": {
     "content_type": "image/png",
@@ -6048,12 +6048,12 @@
     "url": "local://assets/tool-icons/questionwell.png"
   },
   "quicklinesai": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "quicklinesai.svg",
-    "file": "quicklinesai.svg",
-    "source": "local-fallback",
+    "file": "quicklinesai.png",
+    "source": "local",
     "tool_url": "https://quicklines.ai/",
-    "url": "local://assets/tool-icons/quicklinesai.svg"
+    "url": "local://assets/tool-icons/quicklinesai.png"
   },
   "quillbot": {
     "content_type": "image/png",
@@ -6131,7 +6131,7 @@
     "content_type": "image/svg+xml",
     "fallback": "ragflow.svg",
     "file": "ragflow.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://ragflow.io/",
     "url": "local://assets/tool-icons/ragflow.svg"
   },
@@ -6219,7 +6219,7 @@
     "content_type": "image/svg+xml",
     "fallback": "regie.svg",
     "file": "regie.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.regie.ai/",
     "url": "local://assets/tool-icons/regie.svg"
   },
@@ -6227,7 +6227,7 @@
     "content_type": "image/svg+xml",
     "fallback": "regieai.svg",
     "file": "regieai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.regie.ai/",
     "url": "local://assets/tool-icons/regieai.svg"
   },
@@ -6288,12 +6288,12 @@
     "url": "local://assets/tool-icons/rendernet.png"
   },
   "rephraseai": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "rephraseai.svg",
-    "file": "rephraseai.svg",
-    "source": "local-fallback",
+    "file": "rephraseai.png",
+    "source": "local",
     "tool_url": "https://www.rephrase.ai/",
-    "url": "local://assets/tool-icons/rephraseai.svg"
+    "url": "local://assets/tool-icons/rephraseai.png"
   },
   "replicant": {
     "content_type": "image/png",
@@ -6395,7 +6395,7 @@
     "content_type": "image/svg+xml",
     "fallback": "retoolai.svg",
     "file": "retoolai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://retool.com/ai",
     "url": "local://assets/tool-icons/retoolai.svg"
   },
@@ -6523,7 +6523,7 @@
     "content_type": "image/svg+xml",
     "fallback": "salesroom.svg",
     "file": "salesroom.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://salesroom.com/",
     "url": "local://assets/tool-icons/salesroom.svg"
   },
@@ -6667,7 +6667,7 @@
     "content_type": "image/svg+xml",
     "fallback": "screenloop.svg",
     "file": "screenloop.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://screenloop.com/",
     "url": "local://assets/tool-icons/screenloop.svg"
   },
@@ -6824,12 +6824,12 @@
     "url": "local://assets/tool-icons/shortwave.png"
   },
   "sider": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/x-icon",
     "fallback": "sider.svg",
-    "file": "sider.svg",
-    "source": "local-fallback",
+    "file": "sider.ico",
+    "source": "local",
     "tool_url": "https://sider.ai/",
-    "url": "local://assets/tool-icons/sider.svg"
+    "url": "local://assets/tool-icons/sider.ico"
   },
   "sierra": {
     "content_type": "image/png",
@@ -6872,12 +6872,12 @@
     "url": "local://assets/tool-icons/sitekick.png"
   },
   "sizzleai": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/x-icon",
     "fallback": "sizzleai.svg",
-    "file": "sizzleai.svg",
-    "source": "local-fallback",
+    "file": "sizzleai.ico",
+    "source": "local",
     "tool_url": "https://sizzle.ai/",
-    "url": "local://assets/tool-icons/sizzleai.svg"
+    "url": "local://assets/tool-icons/sizzleai.ico"
   },
   "slackai": {
     "content_type": "image/png",
@@ -7339,7 +7339,7 @@
     "content_type": "image/svg+xml",
     "fallback": "supermemory.svg",
     "file": "supermemory.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://supermemory.ai/",
     "url": "local://assets/tool-icons/supermemory.svg"
   },
@@ -7384,12 +7384,12 @@
     "url": "local://assets/tool-icons/sweepai.png"
   },
   "sybill": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/webp",
     "fallback": "sybill.svg",
-    "file": "sybill.svg",
-    "source": "local-fallback",
+    "file": "sybill.webp",
+    "source": "local",
     "tool_url": "https://www.sybill.ai/",
-    "url": "local://assets/tool-icons/sybill.svg"
+    "url": "local://assets/tool-icons/sybill.webp"
   },
   "syllaby": {
     "content_type": "image/png",
@@ -7403,7 +7403,7 @@
     "content_type": "image/svg+xml",
     "fallback": "symbolab.svg",
     "file": "symbolab.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.symbolab.com/",
     "url": "local://assets/tool-icons/symbolab.svg"
   },
@@ -7667,7 +7667,7 @@
     "content_type": "image/svg+xml",
     "fallback": "traceableai.svg",
     "file": "traceableai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.traceable.ai/",
     "url": "local://assets/tool-icons/traceableai.svg"
   },
@@ -7763,7 +7763,7 @@
     "content_type": "image/svg+xml",
     "fallback": "tubebuddy.svg",
     "file": "tubebuddy.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.tubebuddy.com/",
     "url": "local://assets/tool-icons/tubebuddy.svg"
   },
@@ -7819,7 +7819,7 @@
     "content_type": "image/svg+xml",
     "fallback": "twoshortai.svg",
     "file": "twoshortai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://2short.ai/",
     "url": "local://assets/tool-icons/twoshortai.svg"
   },
@@ -7936,12 +7936,12 @@
     "url": "local://assets/tool-icons/unicornplatform.png"
   },
   "unify": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "unify.svg",
-    "file": "unify.svg",
-    "source": "local-fallback",
+    "file": "unify.png",
+    "source": "local",
     "tool_url": "https://www.unify.ai/",
-    "url": "local://assets/tool-icons/unify.svg"
+    "url": "local://assets/tool-icons/unify.png"
   },
   "uniphore": {
     "content_type": "image/webp",
@@ -7992,12 +7992,12 @@
     "url": "local://assets/tool-icons/upscalemedia.png"
   },
   "upword": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "upword.svg",
-    "file": "upword.svg",
-    "source": "local-fallback",
+    "file": "upword.png",
+    "source": "local",
     "tool_url": "https://www.upword.ai/",
-    "url": "local://assets/tool-icons/upword.svg"
+    "url": "local://assets/tool-icons/upword.png"
   },
   "v0": {
     "content_type": "image/png",
@@ -8043,7 +8043,7 @@
     "content_type": "image/svg+xml",
     "fallback": "vellum.svg",
     "file": "vellum.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.vellum.ai/",
     "url": "local://assets/tool-icons/vellum.svg"
   },
@@ -8067,7 +8067,7 @@
     "content_type": "image/svg+xml",
     "fallback": "vicai.svg",
     "file": "vicai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.vic.ai/",
     "url": "local://assets/tool-icons/vicai.svg"
   },
@@ -8243,7 +8243,7 @@
     "content_type": "image/svg+xml",
     "fallback": "voyageai.svg",
     "file": "voyageai.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.voyageai.com/",
     "url": "local://assets/tool-icons/voyageai.svg"
   },
@@ -8355,17 +8355,17 @@
     "content_type": "image/svg+xml",
     "fallback": "weshop.svg",
     "file": "weshop.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://www.weshop.ai/",
     "url": "local://assets/tool-icons/weshop.svg"
   },
   "whylabs": {
-    "content_type": "image/svg+xml",
+    "content_type": "image/png",
     "fallback": "whylabs.svg",
-    "file": "whylabs.svg",
-    "source": "local-fallback",
+    "file": "whylabs.png",
+    "source": "local",
     "tool_url": "https://whylabs.ai/",
-    "url": "local://assets/tool-icons/whylabs.svg"
+    "url": "local://assets/tool-icons/whylabs.png"
   },
   "windsurf": {
     "content_type": "image/png",
@@ -8507,7 +8507,7 @@
     "content_type": "image/svg+xml",
     "fallback": "writerzen.svg",
     "file": "writerzen.svg",
-    "source": "local-fallback",
+    "source": "local",
     "tool_url": "https://writerzen.net/",
     "url": "local://assets/tool-icons/writerzen.svg"
   },
