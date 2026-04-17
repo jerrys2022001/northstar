@@ -35,6 +35,7 @@ RASTER_CONTENT_TYPES = {
     "image/png": "png",
     "image/jpeg": "jpg",
     "image/jpg": "jpg",
+    "image/webp": "webp",
     "image/x-icon": "ico",
     "image/vnd.microsoft.icon": "ico",
     "image/ico": "ico",
@@ -566,11 +567,12 @@ def prioritized_candidates(tool_id: str, tool_url: str) -> list[IconCandidate]:
 
 
 def sniff_extension(url: str, content_type: str, data: bytes) -> str | None:
-    normalized = content_type.split(";", 1)[0].strip().lower()
-    if normalized in RASTER_CONTENT_TYPES:
-        return RASTER_CONTENT_TYPES[normalized]
-
-    if data.lstrip().startswith(b"<svg") or b"<svg" in data[:512]:
+    head = data[:512]
+    stripped = data.lstrip()
+    lower_head = head.lower()
+    if stripped.startswith(b"<!doctype html") or stripped.startswith(b"<html") or stripped.startswith(b"<script"):
+        return None
+    if stripped.startswith(b"<svg") or b"<svg" in lower_head:
         return "svg"
     if data.startswith(b"\x89PNG\r\n\x1a\n"):
         return "png"
@@ -578,12 +580,20 @@ def sniff_extension(url: str, content_type: str, data: bytes) -> str | None:
         return "jpg"
     if data[:4] == b"\x00\x00\x01\x00":
         return "ico"
+    if data[:4] == b"RIFF" and data[8:12] == b"WEBP":
+        return "webp"
+
+    normalized = content_type.split(";", 1)[0].strip().lower()
+    if normalized in RASTER_CONTENT_TYPES:
+        return RASTER_CONTENT_TYPES[normalized]
 
     path = urlparse(url).path.lower()
     if path.endswith(".svg"):
         return "svg"
     if path.endswith(".png"):
         return "png"
+    if path.endswith(".webp"):
+        return "webp"
     if path.endswith(".jpg") or path.endswith(".jpeg"):
         return "jpg"
     if path.endswith(".ico"):
@@ -592,7 +602,7 @@ def sniff_extension(url: str, content_type: str, data: bytes) -> str | None:
 
 
 def clear_previous_primary_assets(tool_id: str) -> None:
-    for extension in ("png", "jpg", "ico"):
+    for extension in ("png", "jpg", "ico", "webp"):
         target = OUTPUT_DIR / f"{tool_id}.{extension}"
         if target.exists():
             target.unlink()
@@ -709,8 +719,12 @@ def aliased_or_fallback_primary(tool_id: str, fallback_file: str) -> dict[str, s
         extension = Path(alias_file).suffix.lower()
         if extension == ".png":
             content_type = "image/png"
+        elif extension == ".jpg" or extension == ".jpeg":
+            content_type = "image/jpeg"
         elif extension == ".ico":
             content_type = "image/x-icon"
+        elif extension == ".webp":
+            content_type = "image/webp"
         else:
             content_type = "image/svg+xml"
         return {
@@ -728,10 +742,25 @@ def aliased_or_fallback_primary(tool_id: str, fallback_file: str) -> dict[str, s
     }
 
 
+def normalize_manifest_entries(
+    entries: dict[str, dict[str, str]],
+    tools_by_id: dict[str, tuple[str, str, str, str]],
+) -> None:
+    for tool_id, entry in entries.items():
+        tool = tools_by_id.get(tool_id)
+        if not tool:
+            continue
+        _, logo_letter, accent_text, tool_url = tool
+        entry.setdefault("tool_url", tool_url)
+        if not entry.get("fallback"):
+            entry["fallback"] = write_svg_fallback(tool_id, logo_letter, accent_text)
+
+
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     existing_manifest = load_existing_manifest()
     tools = load_tools()
+    tools_by_id = {tool_id: (tool_id, logo_letter, accent_text, tool_url) for tool_id, logo_letter, accent_text, tool_url in tools}
     missing_only = "--missing-only" in sys.argv[1:]
     refresh_fallbacks = "--refresh-fallbacks" in sys.argv[1:]
     google_fill_fallbacks = "--google-fill-fallbacks" in sys.argv[1:]
@@ -771,6 +800,7 @@ def main() -> None:
             entry.update(aliased_or_fallback_primary(tool_id, fallback_file))
         manifest_payload[tool_id] = entry
 
+    normalize_manifest_entries(manifest_payload, tools_by_id)
     write_manifest(manifest_payload)
     print(
         f"Downloaded {downloaded} brand-sourced primary icons and generated "
