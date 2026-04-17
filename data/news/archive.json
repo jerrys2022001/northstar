@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-17T10:33:40",
+  "updatedAt": "2026-04-17T10:47:20",
   "runDate": "2026-04-17",
   "items": [
     {
@@ -13,6 +13,7 @@
       "href": "https://techcrunch.com/2026/04/16/robloxs-ai-assistant-gets-new-agentic-tools-to-plan-build-and-test-games/",
       "excerpt": "Why it matters: creator platforms are moving beyond chat helpers toward AI systems that can orchestrate multi-step production work.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2199101548.jpg?w=1024",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -26,6 +27,7 @@
       "href": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
       "excerpt": "Why it matters: enterprise agent adoption is increasingly about controls, reliability, and repeatable execution rather than raw model output alone.",
       "imageUrl": "https://images.openai.com/blob/315f97f8-35c6-4f7b-97f5-ab6c44a8ad22/agents-sdk-diagram.png?trim=0%2C0%2C0%2C0&width=1920",
+      "fallbackImageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-openai-agents.jpg",
       "toolIds": [
         "chatgpt"
       ]
@@ -41,6 +43,7 @@
       "href": "https://openai.com/index/codex-for-almost-everything/",
       "excerpt": "Why it matters: the coding-assistant race is shifting from autocomplete toward agents that can take on larger chunks of planning, editing, and execution.",
       "imageUrl": "https://images.openai.com/blob/5b794267-acde-41f4-b8d5-2bfacbe0e224/hero-card.jpg?trim=0%2C0%2C0%2C0&width=1920",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]
@@ -56,6 +59,7 @@
       "href": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
       "excerpt": "Why it matters: consumer AI products are increasingly competing on personalization and creative control instead of one-size-fits-all generation.",
       "imageUrl": "assets/news/home-briefing/2026-04-17/apple-google-nano-banana.webp",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini"
       ]
@@ -71,6 +75,7 @@
       "href": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
       "excerpt": "Why it matters: getting Gemini onto the desktop moves it closer to an always-available assistant instead of a destination users visit in a tab.",
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_on_Mac_Hero.max-1300x1300.jpg",
+      "fallbackImageUrl": "assets/news/home-briefing/2026-04-16/apple-00ea6604389055f8.jpg",
       "toolIds": [
         "gemini"
       ]
@@ -86,6 +91,7 @@
       "href": "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties/",
       "excerpt": "Why it matters: enterprise AI rollouts increasingly hinge on fine-grained policy controls instead of broad on-or-off deployment decisions.",
       "imageUrl": "assets/news/home-briefing/2026-04-17/industry-insightfinder-agents.png",
+      "fallbackImageUrl": "",
       "toolIds": [
         "githubcopilot"
       ]
@@ -101,6 +107,7 @@
       "href": "https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available/",
       "excerpt": "Why it matters: model choice is becoming a first-class workflow decision inside coding platforms rather than a hidden backend setting.",
       "imageUrl": "assets/news/home-briefing/2026-04-17/semiconductor-anthropic-figma.jpg",
+      "fallbackImageUrl": "",
       "toolIds": [
         "githubcopilot",
         "claude"
@@ -117,6 +124,7 @@
       "href": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
       "excerpt": "Why it matters: the biggest spending in AI coding continues to come from enterprise deployments that promise governance and operational control.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2210627883.jpg?w=1024",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -130,6 +138,7 @@
       "href": "https://techcrunch.com/2026/04/16/canvas-ai-assistant-can-now-call-various-tools-to-make-designs-for-you/",
       "excerpt": "Why it matters: design platforms are turning AI from a prompt feature into a workflow layer that can coordinate multiple creative steps.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/Canva-AI-2.0.jpeg?w=1024",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -143,6 +152,7 @@
       "href": "https://www.aboutamazon.com/news/aws/aws-amazon-bio-discovery-ai-drug-research",
       "excerpt": "Why it matters: frontier AI vendors are pushing deeper into scientific workflows where trust, tooling, and domain integration matter as much as model quality.",
       "imageUrl": "https://m.media-amazon.com/images/G/01/AmazonScience/images/aws-bio-discovery-hero-light-bg-transparent_2x._CB792000512_.png",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -156,6 +166,7 @@
       "href": "https://techcrunch.com/2026/04/15/parasail-raises-32m-to-feed-tokenmaxxing-ai-developers/",
       "excerpt": "Why it matters: AI infrastructure demand is broadening from raw GPUs to billing, routing, and usage layers that make high-token applications practical.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-parasail-compute.jpg",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -169,6 +180,7 @@
       "href": "https://www.axios.com/2026/04/15/exclusive-openai-ai-life-science",
       "excerpt": "Why it matters: OpenAI is tying frontier model progress to regulated, high-value scientific workflows where adoption depends as much on policy and trust as raw capability.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/ai-c1640cf30c54b600.png",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]
@@ -184,6 +196,7 @@
       "href": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
       "excerpt": "Why it matters: enterprise agent adoption is moving from demos toward controlled execution environments, approved tools, and deployable safety boundaries.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-openai-agents.jpg",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]
@@ -199,6 +212,7 @@
       "href": "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
       "excerpt": "Why it matters: enterprise buyers are paying for AI systems that stay grounded in brand assets and customer data instead of generic image generation.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/industry-ai-compute-funding.webp",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -212,6 +226,7 @@
       "href": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
       "excerpt": "Why it matters: education remains one of the clearest consumer AI wedges when products tie generation to memory, practice, and repeat use.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/apple-cf91fa832d8b2b04.jpg",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -225,6 +240,7 @@
       "href": "https://techcrunch.com/2026/04/15/gitar-a-startup-that-uses-agents-to-secure-code-emerges-from-stealth-with-9-million/",
       "excerpt": "Why it matters: AI coding tools are creating demand for automated review and remediation systems that can keep up with faster software generation.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/industry-solar-panels.webp",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -238,6 +254,7 @@
       "href": "https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/",
       "excerpt": "Why it matters: agentic coding competition is widening beyond the best-known US developer tools into regional products with local distribution advantages.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/industry-emergent-agents.webp",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -251,6 +268,7 @@
       "href": "https://www.techradar.com/news/live/claude-anthropic-down-outage-april-15-2026",
       "excerpt": "Why it matters: recurring downtime is now a product signal for AI tools that users rely on for daily coding and operational workflows.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/apple-9435e4a8937eb558.webp",
+      "fallbackImageUrl": "",
       "toolIds": [
         "claude"
       ]
@@ -266,6 +284,7 @@
       "href": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/",
       "excerpt": "Why it matters: creative AI is shifting from single-output generation toward assistants that can operate across full production workflows.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/industry-adobe-workflows.webp",
+      "fallbackImageUrl": "",
       "toolIds": [
         "adobefirefly"
       ]
@@ -281,6 +300,7 @@
       "href": "https://finance.yahoo.com/sectors/technology/articles/synera-raises-40m-series-b-120000022.html",
       "excerpt": "Funding read: agentic AI is moving into high-value engineering work where integrations and on-prem deployment matter.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -294,6 +314,7 @@
       "href": "https://alleywatch.com/2026/04/the-alleywatch-startup-daily-funding-report-4-14-2026/",
       "excerpt": "Startup signal: investors are backing narrower agent platforms that target expensive operational paperwork.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -307,6 +328,7 @@
       "href": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
       "excerpt": "Signal: OpenAI is moving from blanket restriction toward verified-access deployment for high-capability defensive cyber models.",
       "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]
@@ -322,6 +344,7 @@
       "href": "https://seekingalpha.com/pr/20472509-nvidia-launches-ising-the-world-s-first-open-ai-models-to-accelerate-the-path-to-useful",
       "excerpt": "Infrastructure signal: AI is becoming a control layer for the next generation of quantum-computing hardware.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -335,6 +358,7 @@
       "href": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
       "excerpt": "Enterprise angle: Microsoft is trying to turn agent autonomy into a managed workplace feature, not a loose desktop experiment.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "githubcopilot"
       ]
@@ -350,6 +374,7 @@
       "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
       "excerpt": "Why it matters: text-to-speech models are becoming programmable creative systems, not just narration utilities, with developer controls exposed through AI Studio and Vertex AI.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/apple-gemini-tts.jpg",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini"
       ]
@@ -365,6 +390,7 @@
       "href": "https://www.citybiz.co/article/832169/nea-backed-bluefish-raises-43-million-series-b-as-fortune-500-adopts-ai-marketing-platform/",
       "excerpt": "Market signal: enterprises are starting to budget for how brands show up inside LLM answers, not just search pages.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -378,6 +404,7 @@
       "href": "https://www.axios.com/2026/04/14/openai-model-cyber-program-release",
       "excerpt": "Why it matters: access-control policy is becoming a product feature for frontier cybersecurity models.",
       "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]
@@ -393,6 +420,7 @@
       "href": "https://www.axios.com/2026/04/14/anthropic-mythos-trump-administration-cisa-cuts",
       "excerpt": "Policy angle: powerful defensive models are only useful if governments can absorb them operationally.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "claude"
       ]
@@ -408,6 +436,7 @@
       "href": "https://news.mit.edu/2026/human-machine-teaming-dives-underwater-0414",
       "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -421,6 +450,7 @@
       "href": "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com/",
       "excerpt": "Why it matters: agent platforms are turning model choice into a first-class workflow control instead of hiding it behind a single assistant brand.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-github-models.jpg",
+      "fallbackImageUrl": "",
       "toolIds": [
         "githubcopilot",
         "claude",
@@ -438,6 +468,7 @@
       "href": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
       "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window.",
       "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini"
       ]
@@ -453,6 +484,7 @@
       "href": "https://cursor.com/changelog",
       "excerpt": "Why it matters: coding tools are shifting from single-chat copilots toward parallel agent workspaces that feel closer to an operating console.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "cursor"
       ]
@@ -468,6 +500,7 @@
       "href": "https://www.superhuman.ai/p/perplexity-s-billion-dollar-challenge",
       "excerpt": "Heat read: Perplexity's traffic is lower than ChatGPT or Gemini, but product momentum remains unusually strong whenever it expands beyond search.",
       "imageUrl": "assets/news/perplexity-build-challenge-original.jpg",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini",
         "chatgpt",
@@ -485,6 +518,7 @@
       "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
       "excerpt": "Heat read: Gemini still leads this site's traffic ranking, so product moves that improve latency and voice reliability are among the most representative April signals.",
       "imageUrl": "assets/news/google-gemini-flash-live-source.webp",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini"
       ]
@@ -500,6 +534,7 @@
       "href": "https://www.anthropic.com/engineering/managed-agents",
       "excerpt": "Heat read: Claude remains one of the highest-traffic top tools on the site, so managed orchestration is a more meaningful signal than another generic model benchmark.",
       "imageUrl": "assets/news/claude-managed-agents-original.png",
+      "fallbackImageUrl": "",
       "toolIds": [
         "claude"
       ]
@@ -515,6 +550,7 @@
       "href": "https://www.theneurondaily.com/p/chatgpt-gets-a-100-tier#openai-adds-100-tier",
       "excerpt": "Heat read: with ChatGPT still one of the highest-traffic AI products online, pricing moves are effectively market signals about where real demand is concentrating.",
       "imageUrl": "assets/news/chatgpt-100-tier-source.png",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]
@@ -530,6 +566,7 @@
       "href": "https://blog.adobe.com/en/publish/2026/04/09/new-image-editing-features-adobe-firefly-get-you-from-almost-there-to-exactly-right",
       "excerpt": "Heat read: Firefly remains one of the biggest design-side AI destinations, so practical editing upgrades matter more than another benchmark-style announcement.",
       "imageUrl": "assets/news/adobe-firefly-precision-flow.jpg",
+      "fallbackImageUrl": "",
       "toolIds": [
         "adobefirefly"
       ]
@@ -545,6 +582,7 @@
       "href": "https://deepmind.google/discover/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
       "excerpt": "Tool angle: for Google AI Studio users, Gemma 4 is important because it broadens what the Google stack can offer outside a single closed-model lane.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini",
         "googleaistudio"
@@ -561,6 +599,7 @@
       "href": "https://www.artificialintelligence-news.com/news/deepseek-v3-0324-tops-non-reasoning-ai-models-open-source-first/",
       "excerpt": "Tool angle: DeepSeek remains one of the clearest open-model stories inside this site's top-traffic AI stack.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini",
         "claude",
@@ -579,6 +618,7 @@
       "href": "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#codex-3m-users",
       "excerpt": "Tool angle: ChatGPT and Codex are increasingly winning not just on model quality but on repeated, habitual use.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]
@@ -594,6 +634,7 @@
       "href": "https://www.superhuman.ai/p/anthropic-announces-new-claude-mythos-model",
       "excerpt": "Tool angle: this is less about a single launch and more about how Anthropic wants the market to interpret Claude's next frontier step.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "claude"
       ]
@@ -609,6 +650,7 @@
       "href": "https://openai.com/index/introducing-child-safety-blueprint/",
       "excerpt": "Why it matters: frontier labs are increasingly competing on visible safety infrastructure as well as model capability.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]
@@ -624,6 +666,7 @@
       "href": "https://www.theneurondaily.com/p/chatgpt-gets-a-100-tier#notebooklm-in-gemini",
       "excerpt": "Why it matters: persistent context is one of the most practical product levers for keeping users inside one AI ecosystem.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini"
       ]
@@ -639,6 +682,7 @@
       "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#gemini-safeguards",
       "excerpt": "Why it matters: the next competitive layer is not just capability, but whether products can operate safely at consumer scale.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini"
       ]
@@ -654,6 +698,7 @@
       "href": "https://www.deepl.com/en/products/ai-agent",
       "excerpt": "Why it matters: DeepL remains one of the most commercially credible AI tools outside the big model labs.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "deepl"
       ]
@@ -669,6 +714,7 @@
       "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#adobe-student-spaces",
       "excerpt": "Why it matters: Adobe is using existing workflow surfaces, not standalone hype, to deepen AI usage.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "adobefirefly"
       ]
@@ -684,6 +730,7 @@
       "href": "https://www.superhuman.ai/p/perplexity-computer-does-your-taxes",
       "excerpt": "Why it matters: the market is rewarding products that can actually complete work, not only summarize it.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "perplexity"
       ]
@@ -699,6 +746,7 @@
       "href": "https://news.bensbites.co/openai-backs-an-illinois-bill-that-would-limit-when-ai-labs-can-be-held-liable/",
       "excerpt": "Why it matters: regulation is no longer outside the product story; it directly shapes deployment risk.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]
@@ -714,6 +762,7 @@
       "href": "https://www.theneurondaily.com/p/anthropic-accidentally-leaked-claude-code-s-entire-source-code#openai-funding",
       "excerpt": "Why it matters: funding scale now shapes which labs can keep pushing expensive frontier products.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]
@@ -729,6 +778,7 @@
       "href": "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#grok-updates",
       "excerpt": "Why it matters: Grok's scale advantage comes from distribution through X, not just model branding.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "grok"
       ]
@@ -744,6 +794,7 @@
       "href": "https://docs.anthropic.com/en/release-notes/claude-apps",
       "excerpt": "Why it matters: Anthropic is turning Claude from a strong assistant into a more governable workplace product with adoption tracking and admin controls.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "claude"
       ]
@@ -759,6 +810,7 @@
       "href": "https://www.theneurondaily.com/p/anthropic-accidentally-leaked-claude-code-s-entire-source-code#blueprint",
       "excerpt": "Why it matters: the AI coding race increasingly looks like a harness race, not just a model race.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "claude"
       ]
@@ -774,6 +826,7 @@
       "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#project-glasswing",
       "excerpt": "Why it matters: Claude's strongest upcoming capabilities are being framed as a deployment-governance problem, not just a product launch.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "claude"
       ]
@@ -789,6 +842,7 @@
       "href": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
       "excerpt": "Why it matters: Meta is tying a new flagship model directly to consumer distribution across WhatsApp, Instagram, Facebook, Messenger, and AI glasses.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": []
     },
     {
@@ -802,6 +856,7 @@
       "href": "https://deepmind.google/discover/blog/gemma-4-byte-for-byte-the-most-capable-open-models/#google-ai-studio",
       "excerpt": "Why it matters: the most durable platforms usually win by offering multiple lanes, not one monolithic model.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini",
         "googleaistudio"
@@ -818,6 +873,7 @@
       "href": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases/",
       "excerpt": "Why it matters: GitHub is pushing Copilot further into full-session autonomous development instead of keeping it as a narrow inline completion tool.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "githubcopilot"
       ]
@@ -833,6 +889,7 @@
       "href": "https://www.deepl.com/en/products/ai-agent#enterprise",
       "excerpt": "Why it matters: specialized AI products can still grow by expanding around one trusted core job.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "deepl"
       ]
@@ -848,6 +905,7 @@
       "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anti-distillation",
       "excerpt": "Why it matters: open-model competition is now triggering strategy changes inside the biggest closed-model labs.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini",
         "claude",
@@ -866,6 +924,7 @@
       "href": "https://www.theneurondaily.com/p/did-zuck-reboot-the-race#perplexity-arr",
       "excerpt": "Why it matters: revenue traction matters because it shows users are paying for a research-native alternative to the biggest general assistants.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "perplexity"
       ]
@@ -881,6 +940,7 @@
       "href": "https://www.theneurondaily.com/p/what-does-openai-see-coming#mini-new-deal",
       "excerpt": "Why it matters: AI policy is becoming a direct extension of platform strategy.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]
@@ -896,6 +956,7 @@
       "href": "https://www.theneurondaily.com/p/what-does-openai-see-coming#ipo-pressure",
       "excerpt": "Why it matters: the market is increasingly evaluating AI leaders as giant infrastructure businesses, not just products.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "claude",
         "chatgpt"
@@ -912,6 +973,7 @@
       "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anthropic-compute-deal",
       "excerpt": "Why it matters: demand for top assistants is increasingly constrained by how much compute can actually be delivered.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "gemini",
         "claude"
@@ -928,6 +990,7 @@
       "href": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/",
       "excerpt": "Why it matters: design tools are becoming part of the agent loop, not just a handoff destination after code is written.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "figma"
       ]
@@ -943,6 +1006,7 @@
       "href": "https://help.openai.com/en/articles/6825453-chatgpt-browser",
       "excerpt": "Why it matters: persistent files make ChatGPT feel more like an ongoing workspace than a disposable chat window.",
       "imageUrl": "",
+      "fallbackImageUrl": "",
       "toolIds": [
         "chatgpt"
       ]

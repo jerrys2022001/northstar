@@ -251,6 +251,7 @@ def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
         "href": str(item.get("href") or "").strip(),
         "excerpt": str(item.get("excerpt") or "").strip(),
         "imageUrl": str(item.get("imageUrl") or "").strip(),
+        "fallbackImageUrl": str(item.get("fallbackImageUrl") or "").strip(),
         "toolIds": [str(tool_id).strip() for tool_id in item.get("toolIds", []) if str(tool_id).strip()],
     }
     if not normalized["date"]:
@@ -394,6 +395,8 @@ def strip_item_for_app(item: dict[str, Any]) -> dict[str, Any]:
     }
     if item.get("imageUrl"):
         app_item["imageUrl"] = item["imageUrl"]
+    if item.get("fallbackImageUrl"):
+        app_item["fallbackImageUrl"] = item["fallbackImageUrl"]
     if item.get("excerpt"):
         app_item["excerpt"] = item["excerpt"]
     return app_item
@@ -535,6 +538,11 @@ def validate_static_news_assets(
                 image_path = ROOT / image_url.replace("/", "\\")
                 if not image_path.exists():
                     image_errors.append(f"{item['id']}: missing image {image_url}")
+            fallback_image_url = item.get("fallbackImageUrl")
+            if fallback_image_url and not fallback_image_url.startswith(("http://", "https://")):
+                fallback_image_path = ROOT / fallback_image_url.replace("/", "\\")
+                if not fallback_image_path.exists():
+                    image_errors.append(f"{item['id']}: missing fallback image {fallback_image_url}")
 
     if image_errors:
         errors.extend(image_errors)

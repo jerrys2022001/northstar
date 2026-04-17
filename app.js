@@ -160,6 +160,7 @@
         "summary": "Google launched a native Gemini app for macOS, bringing faster desktop access to chat, multimodal creation, and workflow support outside the browser.",
         "href": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
         "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_on_Mac_Hero.max-1300x1300.jpg",
+        "fallbackImageUrl": "assets/news/home-briefing/2026-04-16/apple-00ea6604389055f8.jpg",
         "excerpt": "Why it matters: getting Gemini onto the desktop moves it closer to an always-available assistant instead of a destination users visit in a tab."
       },
       {
@@ -180,6 +181,7 @@
         "summary": "OpenAI detailed a new phase for its Agents SDK with stronger orchestration, evaluation, and safety patterns for production-grade agent deployments.",
         "href": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
         "imageUrl": "https://images.openai.com/blob/315f97f8-35c6-4f7b-97f5-ab6c44a8ad22/agents-sdk-diagram.png?trim=0%2C0%2C0%2C0&width=1920",
+        "fallbackImageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-openai-agents.jpg",
         "excerpt": "Why it matters: enterprise agent adoption is increasingly about controls, reliability, and repeatable execution rather than raw model output alone."
       },
       {
@@ -2046,27 +2048,39 @@
     return imageUrl || "";
   }
 
-  function newsImageMarkupFromUrl(item, className, imageUrl) {
-    if (!imageUrl) {
+  function fallbackNewsImageUrl(item, options, primaryUrl) {
+    if (item.fallbackImageUrl && item.fallbackImageUrl !== primaryUrl) {
+      return item.fallbackImageUrl;
+    }
+    const fallbackItem = item.imageUrl ? { ...item, imageUrl: "" } : item;
+    const fallbackUrl = newsImageUrl(fallbackItem, { ...(options || {}), allowFallback: true });
+    return fallbackUrl && fallbackUrl !== primaryUrl ? fallbackUrl : "";
+  }
+
+  function newsImageMarkupFromUrl(item, className, imageUrl, fallbackImageUrl) {
+    const primaryImageUrl = imageUrl || fallbackImageUrl || "";
+    if (!primaryImageUrl) {
       return "";
     }
+    const fallbackAttribute = imageUrl && fallbackImageUrl && imageUrl !== fallbackImageUrl ? ` data-fallback-src="${escapeAttribute(fallbackImageUrl)}"` : "";
     return `
       <span class="${className}">
-        <img src="${imageUrl}" alt="${escapeAttribute(item.title)}" loading="lazy" onerror="const media=this.parentElement; if(media){media.style.display='none';} const card=this.closest('.news-feature-card, .news-list-item, .news-article-row'); if(card){card.classList.remove('has-media');}">
+        <img src="${primaryImageUrl}" alt="${escapeAttribute(item.title)}" loading="lazy"${fallbackAttribute} onerror="const fallback=this.dataset.fallbackSrc; if(fallback){ this.dataset.fallbackSrc=''; this.src=fallback; return; } const media=this.parentElement; if(media){media.style.display='none';} const card=this.closest('.news-feature-card, .news-list-item, .news-article-row'); if(card){card.classList.remove('has-media');}">
       </span>
     `;
   }
 
   function newsImageMarkup(item, className, options) {
     const imageUrl = newsImageUrl(item, options);
-    if (!imageUrl) {
+    const fallbackImageUrl = fallbackNewsImageUrl(item, options, imageUrl);
+    if (!imageUrl && !fallbackImageUrl) {
       return "";
     }
     const settings = options || {};
     if (settings.useBrightFallback) {
       return `<span class="${className} is-bright-news-art" data-news-art="${escapeAttribute(item.category || "default")}"></span>`;
     }
-    return newsImageMarkupFromUrl(item, className, imageUrl);
+    return newsImageMarkupFromUrl(item, className, imageUrl, fallbackImageUrl);
   }
 
   function shortenWords(value, limit) {
@@ -2465,12 +2479,13 @@
         const isHomePage = !isNewsPage;
         const featureImageOptions = isHomePage ? { allowFallback: true, avoidPortraits: true } : { allowFallback: false, avoidPortraits: true };
         const featureImageUrl = uniqueNewsImageUrl(item, featureImageOptions, weeklyNewsImages);
+        const featureFallbackImageUrl = fallbackNewsImageUrl(item, featureImageOptions, featureImageUrl);
         const title = isHomePage ? shortenWords(item.title, 7) : item.title;
         const summary = isHomePage ? shortenWords(item.summary, 18) : item.summary;
         const excerpt = item.excerpt ? (isHomePage ? shortenWords(item.excerpt, 18) : item.excerpt) : "";
         return `
-        <article class="news-feature-card ${index === 0 ? "is-primary" : ""} ${featureImageUrl ? "has-media" : ""}">
-          ${newsImageMarkupFromUrl(item, "news-feature-media", featureImageUrl)}
+        <article class="news-feature-card ${index === 0 ? "is-primary" : ""} ${(featureImageUrl || featureFallbackImageUrl) ? "has-media" : ""}">
+          ${newsImageMarkupFromUrl(item, "news-feature-media", featureImageUrl, featureFallbackImageUrl)}
           <div class="news-card-topline">
             <span class="news-topic-badge">${item.category}</span>
             <span class="news-card-date">${item.dateLabel}</span>
@@ -2573,9 +2588,10 @@
         .map((item) => {
           const articleImageOptions = isNewsPage ? { allowFallback: false, avoidPortraits: true } : { allowFallback: true, avoidPortraits: true };
           const articleImageUrl = uniqueNewsImageUrl(item, articleImageOptions, weeklyNewsImages);
+          const articleFallbackImageUrl = fallbackNewsImageUrl(item, articleImageOptions, articleImageUrl);
           return `
-          <a class="news-article-row ${articleImageUrl ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
-            ${newsImageMarkupFromUrl(item, "news-article-media", articleImageUrl)}
+          <a class="news-article-row ${(articleImageUrl || articleFallbackImageUrl) ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
+            ${newsImageMarkupFromUrl(item, "news-article-media", articleImageUrl, articleFallbackImageUrl)}
             <span class="news-article-copy">
               <span class="news-card-topline">
                 <span class="news-topic-badge">${item.category}</span>
