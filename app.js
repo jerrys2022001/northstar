@@ -24,8 +24,32 @@
     "runway", "elevenlabs", "deepl", "githubcopilot",
     "n8n", "notebooklm"
   ];
-  const newAndNotableIds = [
-    "deepseek", "lovable", "googleaistudio", "bolt", "genspark"
+  const editorPickIdSet = new Set(editorPickIds);
+  const newAndNotableAnchorIds = [
+    "deepseek", "googleaistudio", "lovable", "manus", "bolt",
+    "genspark", "v0", "openrouter", "lmstudio", "difycloud"
+  ];
+  const newAndNotableAnchorIdSet = new Set(newAndNotableAnchorIds);
+  const newAndNotableSignalPhrases = [
+    "worth watching",
+    "worth testing",
+    "worth exploring",
+    "high-interest",
+    "highest-traction",
+    "highest-signal",
+    "breakout",
+    "fast-growing",
+    "fast traction",
+    "app-builder",
+    "prompt-to-app",
+    "agent-native",
+    "local-model",
+    "model variety",
+    "builder-facing",
+    "major builder",
+    "open-model",
+    "prototype",
+    "frontier-model value"
   ];
   const releaseAppShortcuts = [
     {
@@ -59,8 +83,36 @@
       iconUrl: "assets/submit-lane/watch-companion.png"
     }
   ];
+  const operatorStackGroups = [
+    {
+      id: "research",
+      label: "Research & Content",
+      description: "Source-backed writing, synthesis, localization, and decks for teams that publish often."
+    },
+    {
+      id: "creative",
+      label: "Creative & Media",
+      description: "Visual direction, narration, motion, and presenter-led assets for polished delivery."
+    },
+    {
+      id: "growth",
+      label: "Growth & GTM",
+      description: "Campaign packaging, outbound motion, and launch-ready workflows tied to pipeline outcomes."
+    },
+    {
+      id: "ops",
+      label: "Meetings & Ops",
+      description: "Capture decisions, assign owners, and automate the work that should happen after the call."
+    },
+    {
+      id: "product",
+      label: "Product & Build",
+      description: "Move from interface ideas and technical tradeoffs to working prototypes, code, and demos."
+    }
+  ];
   const operatorStackFlows = [
     {
+      group: "research",
       title: "Research -> Brief -> Deck",
       description: "A clean founder workflow for market scanning, synthesis, and presenting the story.",
       toolIds: ["perplexity", "notebooklm", "chatgpt", "gamma"],
@@ -72,6 +124,7 @@
       ]
     },
     {
+      group: "research",
       title: "Write -> Edit -> Translate",
       description: "Produce readable copy, tighten tone, and ship multilingual output without context loss.",
       toolIds: ["claude", "grammarly", "deepl", "notion"],
@@ -83,6 +136,7 @@
       ]
     },
     {
+      group: "creative",
       title: "Design -> Motion -> Avatar",
       description: "Turn visual direction into assets, motion, and spokesperson video for campaigns.",
       toolIds: ["figma", "canva", "runway", "heygen"],
@@ -94,6 +148,7 @@
       ]
     },
     {
+      group: "product",
       title: "Code -> Ship -> Automate",
       description: "Plan product work, generate code faster, and connect follow-up ops into automation.",
       toolIds: ["cursor", "githubcopilot", "replit", "n8n"],
@@ -105,6 +160,7 @@
       ]
     },
     {
+      group: "ops",
       title: "Meet -> Capture -> Follow Up",
       description: "Record calls, summarize decisions, and push next steps into the team workflow.",
       toolIds: ["tldv", "fireflies", "otter", "airtable"],
@@ -116,6 +172,7 @@
       ]
     },
     {
+      group: "research",
       title: "Script -> Voice -> Edit",
       description: "Draft scripts, create voiceover, and clean up final media for publishing.",
       toolIds: ["chatgpt", "elevenlabs", "descript", "capcut"],
@@ -124,6 +181,102 @@
         "Generate natural voiceover from the approved script.",
         "Edit dialogue, timing, and spoken delivery.",
         "Assemble and export the final social cut."
+      ]
+    },
+    {
+      group: "research",
+      title: "Search -> Verify -> Localize -> Publish",
+      description: "A practical cross-border content loop for fact-backed updates and multilingual rollout.",
+      toolIds: ["perplexity", "chatgpt", "deepl", "notion"],
+      stepNotes: [
+        "Pull live references and fresh market context fast.",
+        "Turn sources into a publishable draft with the core claims checked.",
+        "Localize the message for international readers without losing nuance.",
+        "Store and publish the final version from the team workspace."
+      ]
+    },
+    {
+      group: "research",
+      title: "Outline -> Draft -> Polish -> Deck",
+      description: "Move from raw notes to a sharp story and a presentation the team can actually use.",
+      toolIds: ["notebooklm", "claude", "grammarly", "gamma"],
+      stepNotes: [
+        "Extract the key sections, evidence, and supporting structure.",
+        "Write the narrative in a calm long-form voice.",
+        "Tighten wording for clarity, tone, and executive readability.",
+        "Convert the final story into slides for review."
+      ]
+    },
+    {
+      group: "ops",
+      title: "Notes -> Decisions -> Owners -> Automate",
+      description: "Turn meeting sprawl into decisions, accountability, and repeatable follow-through.",
+      toolIds: ["otter", "claude", "airtable", "n8n"],
+      stepNotes: [
+        "Capture the transcript and searchable meeting record.",
+        "Distill decisions, risks, and open questions.",
+        "Assign owners, due dates, and operating status.",
+        "Trigger reminders, handoffs, and downstream tasks."
+      ]
+    },
+    {
+      group: "growth",
+      title: "Brief -> Visuals -> Presenter -> Launch",
+      description: "Build a campaign package from messaging through on-camera delivery.",
+      toolIds: ["jasper", "canva", "heygen", "notion"],
+      stepNotes: [
+        "Shape the campaign angle, offer, and CTA.",
+        "Turn the brief into brand-safe visual assets.",
+        "Generate a presenter-led delivery cut.",
+        "Package the final assets for rollout."
+      ]
+    },
+    {
+      group: "product",
+      title: "Wireframe -> Prototype -> Build -> Measure",
+      description: "A lean product loop for moving from interface ideas to usable feedback fast.",
+      toolIds: ["figma", "replit", "cursor", "airtable"],
+      stepNotes: [
+        "Sketch the interaction flow and interface states.",
+        "Spin up a clickable or coded prototype quickly.",
+        "Push the working version toward production quality.",
+        "Log feedback, bugs, and experiment outcomes."
+      ]
+    },
+    {
+      group: "creative",
+      title: "Script -> Voice -> Avatar -> Clip",
+      description: "Create training or explainer content with narration, presenter video, and social-ready edits.",
+      toolIds: ["chatgpt", "elevenlabs", "synthesia", "capcut"],
+      stepNotes: [
+        "Draft the script and scene-by-scene beats.",
+        "Generate a controlled voice track from the approved copy.",
+        "Turn the script into presenter-led video.",
+        "Cut the final piece for distribution formats."
+      ]
+    },
+    {
+      group: "growth",
+      title: "Prospect -> Message -> Sequence -> Pipeline",
+      description: "A lightweight outbound chain for research, messaging, and pipeline movement.",
+      toolIds: ["perplexity", "copyai", "n8n", "airtable"],
+      stepNotes: [
+        "Research the account, trigger event, and buying context.",
+        "Draft tailored outreach that matches the ICP.",
+        "Automate the sequence and response routing.",
+        "Track replies, stages, and owner follow-up."
+      ]
+    },
+    {
+      group: "product",
+      title: "Research -> Decide -> Build -> Demo",
+      description: "Go from discovery to a reasoned technical direction and a shareable prototype.",
+      toolIds: ["perplexity", "deepseek", "cursor", "replit"],
+      stepNotes: [
+        "Gather the landscape, constraints, and source material.",
+        "Compare options and surface tradeoffs clearly.",
+        "Implement the chosen path in the main coding workflow.",
+        "Package a working demo for fast feedback."
       ]
     }
   ];
@@ -1841,6 +1994,99 @@
       .filter(Boolean);
   }
 
+  function toolHost(tool) {
+    if (!tool?.url) {
+      return "";
+    }
+    try {
+      return new URL(tool.url, window.location.href).hostname.replace(/^www\./, "");
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function newAndNotableText(tool) {
+    return `${tool.summary || ""} ${tool.recommendation || ""}`.toLowerCase();
+  }
+
+  function hasNewAndNotableSignal(tool) {
+    const text = newAndNotableText(tool);
+    return newAndNotableSignalPhrases.some((phrase) => text.includes(phrase));
+  }
+
+  function newAndNotableScore(tool) {
+    const anchorIndex = newAndNotableAnchorIds.indexOf(tool.id);
+    let score = 0;
+
+    if (anchorIndex !== -1) {
+      score += 800 - (anchorIndex * 25);
+    }
+
+    if (tool.monthlyVisits >= 15000000 && tool.monthlyVisits <= 150000000) {
+      score += 120;
+    } else if (tool.monthlyVisits > 150000000 && anchorIndex === -1) {
+      score -= 160;
+    }
+
+    if (hasNewAndNotableSignal(tool)) {
+      score += 160;
+    }
+
+    if (tool.categories.some((category) => ["Coding", "Automation", "Research", "Assistants", "Productivity"].includes(category))) {
+      score += 40;
+    }
+
+    if (tool.categories.some((category) => ["Design", "Video", "Audio"].includes(category))) {
+      score += 15;
+    }
+
+    if (newAndNotableText(tool).includes("worth ")) {
+      score += 20;
+    }
+
+    return score;
+  }
+
+  function newAndNotableTools(limit) {
+    const seenKeys = new Set();
+    const candidates = tools
+      .filter((tool) => {
+        if (editorPickIdSet.has(tool.id) || tool.monthlyVisits < catalog.minMonthlyVisits) {
+          return false;
+        }
+
+        if (newAndNotableAnchorIdSet.has(tool.id)) {
+          return true;
+        }
+
+        if (tool.monthlyVisits < 15000000 || tool.monthlyVisits > 150000000) {
+          return false;
+        }
+
+        return hasNewAndNotableSignal(tool);
+      })
+      .sort((left, right) => {
+        const scoreGap = newAndNotableScore(right) - newAndNotableScore(left);
+        if (scoreGap !== 0) {
+          return scoreGap;
+        }
+        if (right.monthlyVisits !== left.monthlyVisits) {
+          return right.monthlyVisits - left.monthlyVisits;
+        }
+        return left.name.localeCompare(right.name);
+      })
+      .filter((tool) => {
+        const key = toolHost(tool) || `${tool.vendor}-${tool.name}`.toLowerCase();
+        if (seenKeys.has(key)) {
+          return false;
+        }
+        seenKeys.add(key);
+        return true;
+      });
+
+    return typeof limit === "number" ? candidates.slice(0, limit) : candidates;
+  }
+
   function promptTrackMeta(trackId) {
     return promptTracks.find((track) => track.id === trackId) || promptTracks[0];
   }
@@ -2598,7 +2844,7 @@
     }
 
     if (ui.newsLatestTools) {
-      ui.newsLatestTools.innerHTML = newsToolListMarkup(pickTools(newAndNotableIds).slice(0, 5), () => "New");
+      ui.newsLatestTools.innerHTML = newsToolListMarkup(newAndNotableTools(5), () => "New");
     }
 
     if (ui.newsLatestArticles) {
@@ -2686,7 +2932,7 @@
       return;
     }
 
-    const releaseToolItems = pickTools(newAndNotableIds).map((tool) => ({
+    const releaseToolItems = newAndNotableTools(5).map((tool) => ({
       type: "tool",
       name: tool.name,
       meta: `${tool.vendor} - ${tool.categories.slice(0, 2).join(" / ")}`,
@@ -2819,7 +3065,7 @@
       <article class="stack-flow-card">
         <div class="stack-flow-head">
           <p class="kicker">Workflow Chain</p>
-          <h4>${flow.title}</h4>
+          <h5>${flow.title}</h5>
           <p>${flow.description}</p>
         </div>
         <div class="stack-flow-steps">
@@ -2835,6 +3081,30 @@
             .join("")}
         </div>
       </article>
+    `;
+  }
+
+  function operatorStackGroupSection(group) {
+    const flows = operatorStackFlows.filter((flow) => flow.group === group.id);
+    if (!flows.length) {
+      return "";
+    }
+
+    const countLabel = `${flows.length} ${flows.length === 1 ? "flow" : "flows"}`;
+    return `
+      <section class="stack-group" data-stack-group="${group.id}">
+        <div class="stack-group-head">
+          <div class="stack-group-copy">
+            <p class="kicker">Workflow Lane</p>
+            <h4>${group.label}</h4>
+            <p>${group.description}</p>
+          </div>
+          <span class="stack-group-count">${countLabel}</span>
+        </div>
+        <div class="stack-group-grid">
+          ${flows.map((flow) => operatorFlowCard(flow)).join("")}
+        </div>
+      </section>
     `;
   }
 
@@ -2916,10 +3186,10 @@
     }
 
     if (ui.stackList) {
-      ui.stackList.innerHTML = operatorStackFlows.map((flow) => operatorFlowCard(flow)).join("");
+      ui.stackList.innerHTML = operatorStackGroups.map((group) => operatorStackGroupSection(group)).join("");
     }
 
-    const newest = pickTools(newAndNotableIds);
+    const newest = newAndNotableTools();
 
     if (ui.newList) {
       ui.newList.innerHTML = featuredBoardMarkup(newest, {
