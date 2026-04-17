@@ -1119,6 +1119,7 @@ h6 {
 
 .section-card {
   position: relative;
+  z-index: 0;
   border-radius: 28px;
   padding: 12px;
 }
@@ -1643,6 +1644,8 @@ h6 {
 }
 
 .feature-panel {
+  position: relative;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -1660,6 +1663,11 @@ h6 {
   border-color: rgba(249, 115, 22, 0.22);
   box-shadow: 0 12px 28px rgba(17, 17, 17, 0.05);
   background: rgba(255, 255, 255, 0.96);
+}
+
+.section-card.is-tooltip-active,
+.feature-panel.is-tooltip-active {
+  z-index: 16;
 }
 
 .feature-panel .compact-header {
