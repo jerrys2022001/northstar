@@ -280,6 +280,69 @@
       ]
     }
   ];
+  const usecaseBoards = [
+    {
+      title: "Validate a market fast",
+      description: "Pull live signal, structure the findings, and turn them into a decision-ready story.",
+      tools: ["perplexity", "notebooklm", "chatgpt", "gamma"]
+    },
+    {
+      title: "Build a campaign kit",
+      description: "Go from positioning and visuals to presenter-led launch assets without scattered handoffs.",
+      tools: ["jasper", "canva", "heygen", "notion"]
+    },
+    {
+      title: "Prototype a feature quickly",
+      description: "Move from concept to runnable product preview with a tighter build-feedback loop.",
+      tools: ["lovable", "cursor", "githubcopilot", "replit"]
+    },
+    {
+      title: "Turn meetings into action",
+      description: "Capture the call, distill decisions, and keep owners plus next steps visible.",
+      tools: ["tldv", "fireflies", "otter", "airtable"]
+    },
+    {
+      title: "Create short-form video",
+      description: "Draft the script, generate narration, and polish clips for social distribution.",
+      tools: ["chatgpt", "elevenlabs", "descript", "capcut"]
+    },
+    {
+      title: "Run multilingual delivery",
+      description: "Translate key messaging and adapt spoken or presenter-led assets for global teams.",
+      tools: ["deepl", "claude", "elevenlabs", "synthesia"]
+    },
+    {
+      title: "Turn notes into a deck",
+      description: "Reshape raw source material into a clean narrative and a presentation the team can use.",
+      tools: ["notebooklm", "claude", "grammarly", "gamma"]
+    },
+    {
+      title: "Design launch visuals",
+      description: "Explore art direction, build assets, and add motion for a sharper release package.",
+      tools: ["midjourney", "figma", "canva", "runway"]
+    },
+    {
+      title: "Run outbound follow-up",
+      description: "Research accounts, tailor the message, and keep sequence plus pipeline movement organized.",
+      tools: ["perplexity", "copyai", "airtable", "n8n"]
+    },
+    {
+      title: "Write and localize copy",
+      description: "Draft launch content, tighten the tone, and ship multilingual versions with less rewrite churn.",
+      tools: ["chatgpt", "grammarly", "deepl", "notion"]
+    },
+    {
+      title: "Compare models for a build",
+      description: "Test reasoning paths, routing choices, and implementation tradeoffs before shipping.",
+      tools: ["openrouter", "deepseek", "cursor", "replit"]
+    },
+    {
+      title: "Build internal training",
+      description: "Turn internal knowledge into docs, meeting context, and training-ready delivery assets.",
+      tools: ["notion", "claude", "otter", "synthesia"]
+    }
+  ];
+  const homeUseCasePreviewCount = 6;
   const newsSourceLadder = [
     {
       tier: "Tier 1",
@@ -1568,16 +1631,16 @@
     }
   ];
 
-  const promptQuery = new URLSearchParams(window.location.search);
+  const pageQuery = new URLSearchParams(window.location.search);
   const promptTrackIds = new Set(promptTracks.map((track) => track.id));
 
   const state = {
-    query: "",
+    query: pageQuery.get("query") || "",
     activeCategory: "All",
     activePricing: "All",
     activeRanking: "Assistants",
     activeNewsCategory: "All",
-    activePromptTrack: promptTrackIds.has(promptQuery.get("track")) ? promptQuery.get("track") : "chatgpt",
+    activePromptTrack: promptTrackIds.has(pageQuery.get("track")) ? pageQuery.get("track") : "chatgpt",
     featuredVisibleCounts: {}
   };
 
@@ -1682,6 +1745,7 @@
   const rankingCategories = preferredRankingOrder.filter((category) => categoryCounts.has(category)).slice(0, 8);
 
   const ui = {
+    topbar: document.querySelector(".topbar"),
     sidebarNav: document.getElementById("sidebar-nav"),
     searchInput: document.getElementById("search-input"),
     searchButton: document.getElementById("search-button"),
@@ -1721,6 +1785,214 @@
     heroCategoryCopy: document.getElementById("hero-category-copy"),
     resetFilters: document.getElementById("reset-filters")
   };
+  const topbarSearchTrigger = [...document.querySelectorAll(".topbar .icon-button")]
+    .find((button) => /search/i.test(button.getAttribute("aria-label") || ""));
+  let topbarSearchLayer = null;
+  let topbarSearchInput = null;
+  let topbarSearchForm = null;
+
+  function isHomePage() {
+    return document.body?.dataset?.page === "home";
+  }
+
+  function isDirectoryPage() {
+    return document.body?.dataset?.page === "directory" || /(^|\/)directory\.html$/i.test(window.location.pathname || "");
+  }
+
+  function directoryPageHref() {
+    return document.body?.dataset?.directoryHref || `${assetPrefix}directory.html`;
+  }
+
+  function normalizeSearchValue(value) {
+    return String(value || "");
+  }
+
+  function trimmedSearchValue(value) {
+    return normalizeSearchValue(value).trim();
+  }
+
+  function setInputValue(input, value) {
+    if (input && input.value !== value) {
+      input.value = value;
+    }
+  }
+
+  function syncSearchInputs(value, sourceInput) {
+    const nextValue = normalizeSearchValue(value);
+    if (ui.searchInput && ui.searchInput !== sourceInput) {
+      setInputValue(ui.searchInput, nextValue);
+    }
+    if (topbarSearchInput && topbarSearchInput !== sourceInput) {
+      setInputValue(topbarSearchInput, nextValue);
+    }
+  }
+
+  function directorySearchHref(query) {
+    const nextQuery = trimmedSearchValue(query);
+    return `${directoryPageHref()}${nextQuery ? `?query=${encodeURIComponent(nextQuery)}` : ""}#directory`;
+  }
+
+  function syncDirectorySearchUrl(query) {
+    if (!isDirectoryPage() || !window.history || !window.history.replaceState) {
+      return;
+    }
+    window.history.replaceState({}, "", directorySearchHref(query));
+  }
+
+  function applySearchQuery(query, options) {
+    const settings = options || {};
+    const nextValue = normalizeSearchValue(query);
+    state.query = nextValue;
+    syncSearchInputs(nextValue, settings.sourceInput);
+    renderHotGrid();
+    renderDirectory();
+    if (settings.syncUrl) {
+      syncDirectorySearchUrl(nextValue);
+    }
+  }
+
+  function submitSearchQuery(query, options) {
+    const settings = options || {};
+    const nextValue = normalizeSearchValue(query);
+
+    if (isHomePage() || isDirectoryPage()) {
+      applySearchQuery(nextValue, {
+        sourceInput: settings.sourceInput,
+        syncUrl: isDirectoryPage()
+      });
+
+      const scrollTarget = settings.scrollTarget || (isHomePage() ? "hot-tools" : "directory");
+      document.getElementById(scrollTarget)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+
+    window.location.href = directorySearchHref(nextValue);
+  }
+
+  function ensureTopbarSearchLayer() {
+    if (!ui.topbar || !topbarSearchTrigger) {
+      return false;
+    }
+
+    if (topbarSearchLayer && topbarSearchInput && topbarSearchForm) {
+      return true;
+    }
+
+    const layer = document.createElement("div");
+    layer.className = "topbar-search-layer";
+    layer.id = "topbar-search-layer";
+    layer.innerHTML = `
+      <form class="topbar-search-form" role="search" aria-label="Site search">
+        <label class="topbar-search-field" for="topbar-search-input">
+          <span class="topbar-search-glyph" aria-hidden="true">&#8981;</span>
+          <input
+            id="topbar-search-input"
+            class="topbar-search-input"
+            type="search"
+            autocomplete="off"
+            placeholder="Search AI tools, workflows, vendors, or categories"
+          >
+        </label>
+        <button class="topbar-search-submit" type="submit">Search</button>
+      </form>
+    `;
+
+    ui.topbar.appendChild(layer);
+    topbarSearchLayer = layer;
+    topbarSearchInput = layer.querySelector(".topbar-search-input");
+    topbarSearchForm = layer.querySelector(".topbar-search-form");
+
+    setInputValue(topbarSearchInput, state.query);
+    topbarSearchTrigger.setAttribute("aria-controls", "topbar-search-layer");
+    topbarSearchTrigger.setAttribute("aria-expanded", "false");
+    topbarSearchTrigger.setAttribute("aria-haspopup", "dialog");
+    return true;
+  }
+
+  function openTopbarSearch(options) {
+    const settings = options || {};
+    if (!ensureTopbarSearchLayer()) {
+      return;
+    }
+
+    topbarSearchLayer.classList.add("is-open");
+    topbarSearchTrigger.setAttribute("aria-expanded", "true");
+    setInputValue(topbarSearchInput, state.query);
+
+    if (settings.focus !== false) {
+      topbarSearchInput.focus();
+      topbarSearchInput.select();
+    }
+  }
+
+  function closeTopbarSearch() {
+    if (!topbarSearchLayer) {
+      return;
+    }
+    topbarSearchLayer.classList.remove("is-open");
+    topbarSearchTrigger?.setAttribute("aria-expanded", "false");
+  }
+
+  function bindTopbarSearch() {
+    if (!topbarSearchTrigger || !ensureTopbarSearchLayer()) {
+      return;
+    }
+
+    topbarSearchTrigger.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      openTopbarSearch();
+    });
+
+    topbarSearchInput.addEventListener("input", (event) => {
+      if (!isHomePage() && !isDirectoryPage()) {
+        return;
+      }
+      applySearchQuery(event.target.value, {
+        sourceInput: event.target,
+        syncUrl: isDirectoryPage()
+      });
+    });
+
+    topbarSearchForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      submitSearchQuery(topbarSearchInput.value, {
+        sourceInput: topbarSearchInput
+      });
+    });
+
+    topbarSearchInput.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        closeTopbarSearch();
+        topbarSearchTrigger.focus();
+      }
+    });
+
+    document.addEventListener("pointerdown", (event) => {
+      if (!topbarSearchLayer?.classList.contains("is-open")) {
+        return;
+      }
+
+      if (topbarSearchLayer.contains(event.target) || topbarSearchTrigger.contains(event.target)) {
+        return;
+      }
+
+      closeTopbarSearch();
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape" || !topbarSearchLayer?.classList.contains("is-open")) {
+        return;
+      }
+      closeTopbarSearch();
+      topbarSearchTrigger.focus();
+    });
+
+    if (state.query && isDirectoryPage()) {
+      openTopbarSearch({ focus: false });
+    }
+  }
 
   function detailUrl(tool) {
     return `tools/${encodeURIComponent(tool.id)}.html`;
@@ -3307,28 +3579,8 @@
     if (!ui.usecaseWall) {
       return;
     }
-    const boards = [
-      {
-        title: "For founders",
-        description: "Research, decks, writing, and quick operator leverage.",
-        tools: ["chatgpt", "perplexity", "gamma", "notion"]
-      },
-      {
-        title: "For creators",
-        description: "Visuals, narration, presentation, and short-form production.",
-        tools: ["midjourney", "heygen", "elevenlabs", "gamma"]
-      },
-      {
-        title: "For builders",
-        description: "AI-native coding, prototyping, and model-routing for modern product teams.",
-        tools: ["cursor", "lovable", "openrouter", "replit"]
-      },
-      {
-        title: "For global teams",
-        description: "Translation, multilingual delivery, and cleaner cross-border communication.",
-        tools: ["deepl", "elevenlabs", "synthesia", "claude"]
-      }
-    ];
+    const isHomePage = document.body?.dataset?.page === "home";
+    const boards = isHomePage ? usecaseBoards.slice(0, homeUseCasePreviewCount) : usecaseBoards;
 
     ui.usecaseWall.innerHTML = boards
       .map((board) => {
@@ -3926,21 +4178,22 @@
 
   function handleSearchSubmit() {
     if (!ui.searchInput) {
+      submitSearchQuery(state.query, {
+        sourceInput: topbarSearchInput
+      });
       return;
     }
-    state.query = ui.searchInput.value;
-    renderHotGrid();
-    renderDirectory();
-    const hotTools = document.getElementById("hot-tools");
-    if (hotTools) {
-      hotTools.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+
+    submitSearchQuery(ui.searchInput.value, {
+      sourceInput: ui.searchInput
+    });
   }
 
   function bindStaticEvents() {
     bindSidebarWheelScroll();
     bindNewsSidebarWheelScroll();
     bindNavFlyouts();
+    bindTopbarSearch();
 
     document.addEventListener("mouseenter", (event) => {
       const summary = event.target.closest(".tool-summary[data-tip]");
@@ -3984,10 +4237,13 @@
     window.addEventListener("scroll", refreshTooltipDirections, { passive: true });
 
     if (ui.searchInput) {
+      setInputValue(ui.searchInput, state.query);
+
       ui.searchInput.addEventListener("input", function (event) {
-        state.query = event.target.value;
-        renderHotGrid();
-        renderDirectory();
+        applySearchQuery(event.target.value, {
+          sourceInput: event.target,
+          syncUrl: isDirectoryPage()
+        });
       });
 
       ui.searchInput.addEventListener("keydown", function (event) {
@@ -4008,12 +4264,8 @@
         state.activePricing = "All";
         state.activeRanking = "Assistants";
         state.activeNewsCategory = "All";
-        if (ui.searchInput) {
-          ui.searchInput.value = "";
-        }
-        if (window.history && window.history.replaceState && /(^|\/)directory\.html$/i.test(window.location.pathname || "")) {
-          window.history.replaceState({}, "", "directory.html#directory");
-        }
+        syncSearchInputs("", null);
+        syncDirectorySearchUrl("");
         renderAll();
         document.getElementById("directory")?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
