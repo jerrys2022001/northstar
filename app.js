@@ -3519,11 +3519,7 @@
     let direction = "up";
     if (!fitsAbove && fitsBelow) {
       direction = "down";
-    } else if (!fitsBelow && fitsAbove) {
-      direction = "up";
     } else if (!fitsAbove && !fitsBelow) {
-      direction = spaceBelow > spaceAbove ? "down" : "up";
-    } else {
       direction = spaceBelow > spaceAbove ? "down" : "up";
     }
 
@@ -3558,6 +3554,18 @@
     summary.style.setProperty("--tip-max-width", `${Math.round(maxWidth)}px`);
     summary.style.setProperty("--tip-offset-x", `${Math.round(offsetX)}px`);
     summary.style.setProperty("--tip-arrow-left", `${Math.round(arrowLeft)}px`);
+  }
+
+  function tooltipLayerBoundary(summary) {
+    return summary?.closest(".feature-panel, .section-card") || null;
+  }
+
+  function setTooltipLayerBoundary(summary, active) {
+    const boundary = tooltipLayerBoundary(summary);
+    if (!boundary) {
+      return;
+    }
+    boundary.classList.toggle("is-tooltip-active", active);
   }
 
   function refreshTooltipDirections() {
@@ -3674,7 +3682,16 @@
       if (!summary) {
         return;
       }
+      setTooltipLayerBoundary(summary, true);
       applyTooltipDirection(summary);
+    }, true);
+
+    document.addEventListener("mouseleave", (event) => {
+      const summary = event.target.closest(".tool-summary[data-tip]");
+      if (!summary) {
+        return;
+      }
+      setTooltipLayerBoundary(summary, false);
     }, true);
 
     document.addEventListener("focusin", (event) => {
@@ -3682,7 +3699,20 @@
       if (!summary) {
         return;
       }
+      setTooltipLayerBoundary(summary, true);
       applyTooltipDirection(summary);
+    });
+
+    document.addEventListener("focusout", (event) => {
+      const summary = event.target.closest(".tool-summary[data-tip]");
+      if (!summary) {
+        return;
+      }
+      window.setTimeout(() => {
+        if (!summary.contains(document.activeElement)) {
+          setTooltipLayerBoundary(summary, false);
+        }
+      }, 0);
     });
 
     window.addEventListener("resize", refreshTooltipDirections);
