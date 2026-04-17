@@ -277,7 +277,7 @@ window.AI_CATALOG.tools.push(
     vendor: "Codeium",
     logoLetter: "C",
     accent: "linear-gradient(145deg, #111827, #14b8a6)",
-    url: "https://codeium.com/",
+    url: "https://windsurf.com/",
     summary: "A popular AI coding assistant brand spanning autocomplete, chat, and agent-like developer workflows.",
     categories: ["Coding"],
     audience: ["Developers", "Startups", "Teams comparing copilots"],

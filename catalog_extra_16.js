@@ -101,7 +101,7 @@
     ["yomuai", "Yomu AI", "https://www.yomu.ai/", "Polish essays and long-form writing with more academic structure.", "Paid", 3600000],
     ["sharlyai", "Sharly AI", "https://sharly.ai/", "Ask questions over PDFs and notes inside a lightweight reading workflow.", "Freemium", 5800000],
     ["juniaai", "Junia AI", "https://www.junia.ai/", "Generate SEO-first articles with topic structure and optimization cues.", "Paid", 5200000],
-    ["contentatscale", "Content at Scale", "https://contentatscale.ai/", "Publish high-volume SEO content with AI-assisted editorial flows.", "Paid", 6800000],
+    ["contentatscale", "Content at Scale", "https://brandwell.ai/", "Publish high-volume SEO content with AI-assisted editorial flows.", "Paid", 6800000],
     ["wordhero", "WordHero", "https://wordhero.co/", "Generate ad copy, social posts, and everyday marketing drafts.", "Paid", 4900000],
     ["mixo", "Mixo", "https://www.mixo.io/", "Launch idea pages and startup sites with AI-generated sections.", "Freemium", 6100000],
     ["zipwp", "ZipWP", "https://zipwp.com/", "Create WordPress websites from prompts and reusable components.", "Freemium", 3300000],

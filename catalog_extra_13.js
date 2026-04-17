@@ -130,7 +130,7 @@
 
   addTools([
     ["salesforceeinstein", "Salesforce Einstein", "https://www.salesforce.com/artificial-intelligence/", "Bring forecasting, drafting, and automation into the Salesforce operating layer.", "Paid", 28000000],
-    ["agentforce", "Agentforce", "https://www.salesforce.com/products/einstein/agentforce/", "Launch enterprise agents across service, sales, and internal workflows.", "Paid", 21000000],
+    ["agentforce", "Agentforce", "https://www.salesforce.com/agentforce/", "Launch enterprise agents across service, sales, and internal workflows.", "Paid", 21000000],
     ["slackai", "Slack AI", "https://slack.com/ai", "Summarize threads and search company knowledge where teams already communicate.", "Paid", 31000000],
     ["dropboxdash", "Dropbox Dash", "https://www.dropbox.com/dash", "Search across files, tabs, and apps with an AI-first retrieval experience.", "Paid", 14000000],
     ["boxai", "Box AI", "https://www.box.com/ai", "Ask questions over content and automate enterprise document workflows.", "Paid", 11000000],
@@ -144,10 +144,10 @@
     ["languagetool", "LanguageTool", "https://languagetool.org/", "Improve grammar, clarity, and multilingual writing across the web.", "Freemium", 41000000],
     ["popai", "PopAi", "https://www.popai.pro/", "Create slides, summaries, and document answers inside one workspace.", "Freemium", 8500000],
     ["docugami", "Docugami", "https://www.docugami.com/", "Extract structured data and workflows from dense business documents.", "Paid", 4200000],
-    ["readwiseghostreader", "Readwise Ghostreader", "https://readwise.io/ghostreader", "Summarize, rewrite, and answer from text inside reading-heavy tools.", "Paid", 7200000],
+    ["readwiseghostreader", "Readwise Ghostreader", "https://readwise.io/reader", "Summarize, rewrite, and answer from text inside reading-heavy tools.", "Paid", 7200000],
     ["craftdocsai", "Craft AI", "https://www.craft.do/ai", "Draft notes and polished documents inside the Craft writing environment.", "Paid", 6300000],
     ["liner", "LINER", "https://getliner.com/", "Search, summarize, and highlight the web with an AI-first browser helper.", "Freemium", 26000000],
-    ["plusai", "Plus AI", "https://www.plusdocs.com/", "Generate decks directly in Google Slides and PowerPoint from prompts.", "Paid", 5700000],
+    ["plusai", "Plus AI", "https://plusai.com/", "Generate decks directly in Google Slides and PowerPoint from prompts.", "Paid", 5700000],
     ["slidesai", "SlidesAI", "https://www.slidesai.io/", "Turn rough text into presentation outlines and finished slides quickly.", "Freemium", 9800000]
   ], productLane, operators, "A strong add because team productivity suites with embedded AI are now a core evaluation category.");
 
@@ -194,6 +194,6 @@
     ["studyx", "StudyX", "https://studyx.ai/", "Handle assignments, tutoring, and research support from one AI study app.", "Freemium", 18400000],
     ["studyable", "Studyable", "https://studyable.app/", "Generate flashcards, notes, and test prep from your source material.", "Freemium", 5200000],
     ["gauth", "Gauth", "https://www.gauthmath.com/", "Work through math and homework problems with detailed reasoning help.", "Freemium", 38000000],
-    ["khanmigo", "Khanmigo", "https://www.khanacademy.org/khan-labs", "Use guided tutoring and teacher support inside Khan Academy's AI layer.", "Paid", 13000000]
+    ["khanmigo", "Khanmigo", "https://khanmigo.ai/", "Use guided tutoring and teacher support inside Khan Academy's AI layer.", "Paid", 13000000]
   ], studyLane, students, "A strong add because AI tutors and research copilots are one of the clearest high-traffic consumer categories.");
 })();
