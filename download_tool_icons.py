@@ -229,6 +229,9 @@ BRAND_ICON_OVERRIDES: dict[str, list[str]] = {
     "monica": [
         "https://monica.im/favicon.ico",
     ],
+    "nomi": [
+        "https://manifest.im/icon/nomi.ai",
+    ],
     "youcom": [
         "https://you.com/favicon.ico",
     ],
