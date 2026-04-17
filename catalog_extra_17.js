@@ -69,7 +69,6 @@
 
   addTools([
     ["dagshub", "DagsHub", "https://dagshub.com/", "Collaborate on data, experiments, and model workflows like a Git-native ML hub.", "Freemium", 4200000],
-    ["predibase", "Predibase", "https://predibase.com/", "Fine-tune and serve custom models with stronger enterprise controls.", "Usage-based", 5200000],
     ["octoai", "OctoAI", "https://octo.ai/", "Deploy and scale AI inference with managed performance tooling.", "Usage-based", 6100000],
     ["haystack", "Haystack", "https://haystack.deepset.ai/", "Build search, RAG, and agent systems with a mature open-source stack.", "Free / Paid", 8300000],
     ["guardrailsai", "Guardrails AI", "https://www.guardrailsai.com/", "Validate, structure, and secure LLM outputs with less custom glue code.", "Freemium", 3900000],
