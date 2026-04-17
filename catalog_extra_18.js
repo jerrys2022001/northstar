@@ -224,7 +224,6 @@
     ["casperai", "Casper AI", "https://www.casperai.com/", "Summarize docs, browser tabs, and reading queues into faster comprehension.", "Freemium", 3600000],
     ["turncage", "TurnCage", "https://turncage.com/", "Generate a small-business website by answering guided setup questions.", "Freemium", 4400000],
     ["humataai", "Humata AI", "https://www.humata.ai/", "Ask questions over private documents and get faster file-grounded answers.", "Freemium", 9800000],
-    ["upword", "Upword", "https://www.upword.ai/", "Summarize and retain long reading material with AI-assisted notes.", "Freemium", 3000000],
     ["papergen", "PaperGen", "https://papergen.ai/", "Create research-style drafts and literature summaries from source inputs.", "Freemium", 2900000],
     ["doctrinaai", "Doctrina AI", "https://doctrina.ai/", "Generate notes, quizzes, and revision support for students and teachers.", "Freemium", 3400000],
     ["knowtai", "Knowt AI", "https://knowt.com/", "Build AI-generated flashcards and study guides from class material.", "Freemium", 10600000]
