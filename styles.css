@@ -3635,6 +3635,27 @@ body[data-page="directory"] .section-lead {
 .news-sidebar {
   position: sticky;
   top: 88px;
+  min-height: 0;
+  max-height: calc(100vh - 104px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(22, 61, 122, 0.38) rgba(17, 17, 17, 0.08);
+  padding-right: 4px;
+}
+
+.news-sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-sidebar::-webkit-scrollbar-track {
+  background: rgba(17, 17, 17, 0.06);
+  border-radius: 999px;
+}
+
+.news-sidebar::-webkit-scrollbar-thumb {
+  background: rgba(22, 61, 122, 0.36);
+  border-radius: 999px;
 }
 
 .news-side-card {
@@ -4288,6 +4309,9 @@ body[data-page="home"] .news-feature-card .news-excerpt {
 
   .news-sidebar {
     position: static;
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
   }
 
   .news-more-footer {

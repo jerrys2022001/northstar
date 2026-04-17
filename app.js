@@ -2308,12 +2308,7 @@
     newsMain.style.maxHeight = "";
     newsMain.style.overflow = "";
 
-    const sidebarBox = sidebar.getBoundingClientRect();
-    const sidebarChildren = [...sidebar.children];
-    const sidebarContentBottom = sidebarChildren.length
-      ? Math.max(...sidebarChildren.map((child) => child.getBoundingClientRect().bottom))
-      : sidebarBox.bottom;
-    const maxHeight = Math.max(0, sidebarContentBottom - sidebarBox.top);
+    const maxHeight = sidebar.getBoundingClientRect().height;
     let guard = 36;
     while (newsMain.getBoundingClientRect().height > maxHeight + 120 && guard > 0) {
       const lastGroup = [...ui.newsFeed.querySelectorAll(".news-day-group")].at(-1);
@@ -2332,6 +2327,34 @@
 
     newsMain.style.maxHeight = `${Math.ceil(maxHeight)}px`;
     newsMain.style.overflow = "hidden";
+  }
+
+  function bindNewsSidebarWheelScroll() {
+    const newsSidebar = document.querySelector(".news-sidebar");
+    if (!newsSidebar) {
+      return;
+    }
+
+    newsSidebar.addEventListener(
+      "wheel",
+      (event) => {
+        const maxScroll = newsSidebar.scrollHeight - newsSidebar.clientHeight;
+        if (maxScroll <= 0) {
+          return;
+        }
+
+        const nextScrollTop = newsSidebar.scrollTop + event.deltaY;
+        const canScrollDown = event.deltaY > 0 && newsSidebar.scrollTop < maxScroll;
+        const canScrollUp = event.deltaY < 0 && newsSidebar.scrollTop > 0;
+        if (!canScrollDown && !canScrollUp) {
+          return;
+        }
+
+        newsSidebar.scrollTop = Math.max(0, Math.min(maxScroll, nextScrollTop));
+        event.preventDefault();
+      },
+      { passive: false }
+    );
   }
 
   function newsGroupAnchorId(group) {
@@ -3623,6 +3646,7 @@
 
   function bindStaticEvents() {
     bindSidebarWheelScroll();
+    bindNewsSidebarWheelScroll();
     bindNavFlyouts();
 
     document.addEventListener("mouseenter", (event) => {
