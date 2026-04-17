@@ -8,20 +8,7 @@ import subprocess
 
 
 ROOT = Path(__file__).resolve().parent
-DATA_FILES = [
-    ROOT / "catalog.js",
-    ROOT / "catalog_extra_1.js",
-    ROOT / "catalog_extra_2.js",
-    ROOT / "catalog_extra_3.js",
-    ROOT / "catalog_extra_4.js",
-    ROOT / "catalog_extra_5.js",
-    ROOT / "catalog_extra_6.js",
-    ROOT / "catalog_extra_7.js",
-    ROOT / "catalog_extra_8.js",
-    ROOT / "catalog_extra_9.js",
-    ROOT / "catalog_extra_10.js",
-    ROOT / "catalog_extra_11.js",
-]
+DATA_FILES = [ROOT / "catalog.js", *sorted(ROOT.glob("catalog_extra_*.js"))]
 OUTPUT_DIR = ROOT / "tools"
 
 
@@ -56,6 +43,9 @@ process.stdout.write(JSON.stringify(catalog.tools.map((tool) => [tool.id, tool.n
 def render_page(tool_id: str, tool_name: str) -> str:
     title = f"{tool_name} | Northstar AI"
     description = f"Static decision page for {tool_name} in the Northstar AI Directory."
+    catalog_scripts = "\n".join(
+        f'  <script src="../{path.name}"></script>' for path in DATA_FILES
+    )
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -136,18 +126,7 @@ def render_page(tool_id: str, tool_name: str) -> str:
     <p>Decision-ready tool profiles for Western users choosing among mainstream AI products.</p>
   </footer>
 
-  <script src="../catalog.js"></script>
-  <script src="../catalog_extra_1.js"></script>
-  <script src="../catalog_extra_2.js"></script>
-  <script src="../catalog_extra_3.js"></script>
-  <script src="../catalog_extra_4.js"></script>
-  <script src="../catalog_extra_5.js"></script>
-  <script src="../catalog_extra_6.js"></script>
-  <script src="../catalog_extra_7.js"></script>
-  <script src="../catalog_extra_8.js"></script>
-  <script src="../catalog_extra_9.js"></script>
-  <script src="../catalog_extra_10.js"></script>
-  <script src="../catalog_extra_11.js"></script>
+{catalog_scripts}
   <script src="../app.js"></script>
   <script src="../detail.js"></script>
 </body>
