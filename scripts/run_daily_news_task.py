@@ -666,6 +666,10 @@ def main() -> int:
     tool_visits = load_tool_visits()
     archive_items = load_archive_items()
     candidate_items = load_candidate_items(run_date)
+    # A rerun for the same local day should rebuild that day's cluster from the
+    # latest candidate set instead of accumulating stale stories from earlier runs.
+    if any(item["date"] == run_date for item in candidate_items):
+        archive_items = [item for item in archive_items if item["date"] != run_date]
     kept_items, dedupe_summary = dedupe_and_cap_items(
         archive_items=archive_items,
         candidate_items=candidate_items,
