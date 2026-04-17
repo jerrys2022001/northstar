@@ -43,6 +43,15 @@ RASTER_CONTENT_TYPES = {
     "text/svg+xml": "svg",
 }
 
+LOCAL_CONTENT_TYPES = {
+    ".png": "image/png",
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+    ".webp": "image/webp",
+    ".ico": "image/x-icon",
+    ".svg": "image/svg+xml",
+}
+
 BRAND_ICON_OVERRIDES: dict[str, list[str]] = {
     "adobefirefly": [
         "https://www.adobe.com/favicon.ico",
@@ -608,6 +617,60 @@ def clear_previous_primary_assets(tool_id: str) -> None:
             target.unlink()
 
 
+def is_generated_fallback_svg(path: Path) -> bool:
+    try:
+        text = path.read_text(encoding="utf-8", errors="ignore")
+    except OSError:
+        return False
+    return (
+        'linearGradient id="g"' in text
+        and 'text-anchor="middle"' in text
+        and 'dominant-baseline="middle"' in text
+        and 'font-family="Arial, sans-serif"' in text
+        and 'fill="white"' in text
+        and '<rect width="128" height="128" rx="34" fill="url(#g)"/>' in text
+    )
+
+
+def existing_local_asset(tool_id: str) -> dict[str, str] | None:
+    candidates: list[Path] = []
+    for extension in ("png", "webp", "jpg", "jpeg", "ico", "svg"):
+        target = OUTPUT_DIR / f"{tool_id}.{extension}"
+        if target.exists() and target.is_file():
+            candidates.append(target)
+
+    fallback_target = OUTPUT_DIR / f"{tool_id}-fallback.svg"
+    if fallback_target.exists() and fallback_target.is_file():
+        candidates.append(fallback_target)
+
+    if not candidates:
+        return None
+
+    format_rank = {
+        ".png": 0,
+        ".webp": 1,
+        ".jpg": 2,
+        ".jpeg": 2,
+        ".ico": 3,
+        ".svg": 4,
+    }
+
+    def rank(path: Path) -> tuple[int, int, str]:
+        suffix = path.suffix.lower()
+        placeholder = 1 if suffix == ".svg" and is_generated_fallback_svg(path) else 0
+        return (placeholder, format_rank.get(suffix, 99), path.name)
+
+    chosen = min(candidates, key=rank)
+    suffix = chosen.suffix.lower()
+    placeholder = suffix == ".svg" and is_generated_fallback_svg(chosen)
+    return {
+        "file": chosen.name,
+        "source": "generated-fallback" if placeholder else "local",
+        "url": f"local://assets/tool-icons/{chosen.name}",
+        "content_type": LOCAL_CONTENT_TYPES.get(suffix, "application/octet-stream"),
+    }
+
+
 def download_icon(tool_id: str, tool_url: str) -> dict[str, str] | None:
     last_error = None
     start_time = time.monotonic()
@@ -705,6 +768,8 @@ def write_svg_fallback(tool_id: str, logo_letter: str, accent_text: str) -> str:
 </svg>
 """
     target = OUTPUT_DIR / f"{tool_id}.svg"
+    if target.exists() and target.is_file() and not is_generated_fallback_svg(target):
+        target = OUTPUT_DIR / f"{tool_id}-fallback.svg"
     target.write_text(svg, encoding="utf-8")
     return target.name
 
@@ -782,12 +847,18 @@ def main() -> None:
     )
 
     for tool_id, logo_letter, accent_text, tool_url in tools:
-        primary_asset = (
-            download_google_icon(tool_id, tool_url)
-            if google_fill_fallbacks
-            else download_icon(tool_id, tool_url)
-        )
         fallback_file = write_svg_fallback(tool_id, logo_letter, accent_text)
+        primary_asset = (
+            existing_local_asset(tool_id)
+            if missing_only
+            else None
+        )
+        if primary_asset is None:
+            primary_asset = (
+                download_google_icon(tool_id, tool_url)
+                if google_fill_fallbacks
+                else download_icon(tool_id, tool_url)
+            )
 
         entry: dict[str, str] = {
             "fallback": fallback_file,
@@ -799,9 +870,9 @@ def main() -> None:
         else:
             entry.update(aliased_or_fallback_primary(tool_id, fallback_file))
         manifest_payload[tool_id] = entry
+        normalize_manifest_entries(manifest_payload, tools_by_id)
+        write_manifest(manifest_payload)
 
-    normalize_manifest_entries(manifest_payload, tools_by_id)
-    write_manifest(manifest_payload)
     print(
         f"Downloaded {downloaded} brand-sourced primary icons and generated "
         f"{len(tools)} SVG fallbacks in {OUTPUT_DIR}"
