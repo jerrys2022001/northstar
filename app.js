@@ -1682,6 +1682,30 @@
       .join("");
   }
 
+  function renderFeaturedNavFlyout() {
+    document.querySelectorAll('.nav-trigger[href="featured.html"] + .nav-flyout').forEach((flyout) => {
+      [...flyout.querySelectorAll(".nav-flyout-link")].forEach((link) => {
+        const label = link.querySelector(".nav-flyout-label");
+        const labelText = (label?.textContent || link.getAttribute("aria-label") || "").trim();
+
+        if (labelText === "Featured Overview") {
+          link.remove();
+          return;
+        }
+
+        if (labelText) {
+          link.setAttribute("aria-label", labelText);
+        }
+
+        if (label) {
+          label.remove();
+        }
+      });
+
+      flyout.classList.add("is-icon-only");
+    });
+  }
+
   function promptKeywordAccent(text, trackId) {
     if (!text) {
       return "";
@@ -3757,6 +3781,7 @@
   }
 
   function renderAll() {
+    renderFeaturedNavFlyout();
     renderPromptNavFlyout();
     renderReleaseTicker();
     renderSidebar();
