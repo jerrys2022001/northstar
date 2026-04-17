@@ -1696,13 +1696,8 @@
         if (labelText) {
           link.setAttribute("aria-label", labelText);
         }
-
-        if (label) {
-          label.remove();
-        }
       });
-
-      flyout.classList.add("is-icon-only");
+      flyout.classList.remove("is-icon-only");
     });
   }
 
