@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 import sys
 import time
 from dataclasses import dataclass
@@ -28,11 +29,6 @@ MANIFEST_FILE = OUTPUT_DIR / "manifest.json"
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
-)
-
-ENTRY_PATTERN = re.compile(
-    r'id:\s*"(?P<id>[^"]+)".*?logoLetter:\s*"(?P<logo>[^"]+)".*?accent:\s*"(?P<accent>[^"]+)".*?url:\s*"(?P<url>https://[^"]+)"',
-    re.DOTALL,
 )
 
 RASTER_CONTENT_TYPES = {
@@ -354,11 +350,31 @@ class HeadAssetParser(HTMLParser):
 
 
 def load_tools() -> list[tuple[str, str, str, str]]:
-    raw = "\n".join(path.read_text(encoding="utf-8") for path in DATA_FILES)
-    return [
-        (match.group("id"), match.group("logo"), match.group("accent"), match.group("url"))
-        for match in ENTRY_PATTERN.finditer(raw)
-    ]
+    script = f"""
+const fs = require("fs");
+const vm = require("vm");
+const context = {{
+  window: {{}},
+  console
+}};
+context.window.window = context.window;
+vm.createContext(context);
+const files = {json.dumps([str(path) for path in DATA_FILES])};
+for (const file of files) {{
+  const source = fs.readFileSync(file, "utf8");
+  vm.runInContext(source, context, {{ filename: file }});
+}}
+const catalog = context.window.AI_CATALOG || {{ tools: [] }};
+process.stdout.write(JSON.stringify(catalog.tools.map((tool) => [tool.id, tool.logoLetter, tool.accent, tool.url])));
+"""
+    result = subprocess.run(
+        ["node", "-e", script],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    return json.loads(result.stdout)
 
 
 def load_existing_manifest() -> dict[str, dict[str, str]]:

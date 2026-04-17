@@ -2,8 +2,9 @@
 
 from __future__ import annotations
 
-import re
+import json
 from pathlib import Path
+import subprocess
 
 
 ROOT = Path(__file__).resolve().parent
@@ -19,15 +20,37 @@ DATA_FILES = [
     ROOT / "catalog_extra_8.js",
     ROOT / "catalog_extra_9.js",
     ROOT / "catalog_extra_10.js",
+    ROOT / "catalog_extra_11.js",
 ]
 OUTPUT_DIR = ROOT / "tools"
 
-TOOL_PATTERN = re.compile(r'\{\s*id:\s*"([^"]+)",\s*name:\s*"([^"]+)"', re.MULTILINE)
-
 
 def load_tools() -> list[tuple[str, str]]:
-    raw = "\n".join(path.read_text(encoding="utf-8") for path in DATA_FILES)
-    return TOOL_PATTERN.findall(raw)
+    script = f"""
+const fs = require("fs");
+const vm = require("vm");
+const context = {{
+  window: {{}},
+  console
+}};
+context.window.window = context.window;
+vm.createContext(context);
+const files = {json.dumps([str(path) for path in DATA_FILES])};
+for (const file of files) {{
+  const source = fs.readFileSync(file, "utf8");
+  vm.runInContext(source, context, {{ filename: file }});
+}}
+const catalog = context.window.AI_CATALOG || {{ tools: [] }};
+process.stdout.write(JSON.stringify(catalog.tools.map((tool) => [tool.id, tool.name])));
+"""
+    result = subprocess.run(
+        ["node", "-e", script],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    return json.loads(result.stdout)
 
 
 def render_page(tool_id: str, tool_name: str) -> str:
@@ -124,6 +147,7 @@ def render_page(tool_id: str, tool_name: str) -> str:
   <script src="../catalog_extra_8.js"></script>
   <script src="../catalog_extra_9.js"></script>
   <script src="../catalog_extra_10.js"></script>
+  <script src="../catalog_extra_11.js"></script>
   <script src="../app.js"></script>
   <script src="../detail.js"></script>
 </body>
