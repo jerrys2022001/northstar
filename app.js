@@ -1949,7 +1949,9 @@
     activeRanking: "Assistants",
     activeNewsCategory: "All",
     activePromptTrack: promptTrackIds.has(pageQuery.get("track")) ? pageQuery.get("track") : "chatgpt",
-    featuredVisibleCounts: {}
+    featuredVisibleCounts: {},
+    directoryVisibleCounts: {},
+    directorySignature: ""
   };
 
   const promptGuideCards = [
@@ -1979,68 +1981,147 @@
     }
   ];
   const assetPrefix = document.body?.dataset?.assetPrefix || "";
-
-  function loadIconManifest() {
-    try {
-      const request = new XMLHttpRequest();
-      request.open("GET", `${assetPrefix}assets/tool-icons/manifest.json`, false);
-      request.send();
-      if (request.status >= 200 && request.status < 300) {
-        return JSON.parse(request.responseText);
-      }
-    } catch (error) {
-      return {};
-    }
-    return {};
-  }
-
-  const iconManifest = loadIconManifest();
-
-  function manifestEntry(tool) {
-    return iconManifest[tool.id] || null;
-  }
+  const DIRECTORY_SHORTLIST_COUNT = 12;
+  const DIRECTORY_SECTION_PREVIEW_COUNT = 8;
+  const DIRECTORY_FOCUSED_SECTION_PREVIEW_COUNT = 18;
+  const DIRECTORY_SECTION_LOAD_STEP = 12;
+  const ICON_PLACEHOLDER_SRC = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'></svg>";
+  let toolIconObserver = null;
 
   function localIconPath(filename) {
     return `${assetPrefix}assets/tool-icons/${filename}`;
   }
 
-  function primaryIconPath(tool) {
-    const entry = manifestEntry(tool);
-    if (entry && entry.file && entry.content_type !== "text/html") {
-      return localIconPath(entry.file);
-    }
-    return localIconPath(`${tool.id}.png`);
+  function buildToolSearchBlob(tool) {
+    return [
+      tool.id,
+      tool.name,
+      tool.vendor,
+      tool.summary,
+      tool.recommendation,
+      tool.pricing,
+      tool.trafficLabel,
+      tool.url,
+      ...tool.categories,
+      ...tool.audience,
+      ...(tool.searchTerms || []),
+      ...Object.values(tool.sources || {})
+    ]
+      .join(" ")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ");
   }
 
-  function escapeJsString(value) {
-    return String(value).replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+  function iconSourceList(tool) {
+    const sources = [
+      localIconPath(`${tool.id}.svg`),
+      localIconPath(`${tool.id}.png`),
+      localIconPath(`${tool.id}.ico`),
+      localIconPath(`${tool.id}.jpg`),
+      localIconPath(`${tool.id}.webp`),
+      fallbackIcon(tool)
+    ];
+    return sources.filter((source, index) => source && !sources.slice(0, index).includes(source));
+  }
+
+  function primaryIconPath(tool) {
+    return iconSourceList(tool)[0];
   }
 
   function iconFallbackSources(tool) {
-    const entry = manifestEntry(tool);
-    const sources = [];
-    if (entry && entry.fallback) {
-      sources.push(localIconPath(entry.fallback));
+    if (Array.isArray(tool.iconFallbacks) && tool.iconFallbacks.length) {
+      return tool.iconFallbacks;
     }
-    sources.push(localIconPath(`${tool.id}.ico`));
-    sources.push(localIconPath(`${tool.id}.svg`));
-    sources.push(fallbackIcon(tool));
-    return sources.filter((source, index) => source && !sources.slice(0, index).includes(source) && source !== primaryIconPath(tool));
+    return iconSourceList(tool).slice(1);
   }
 
-  function iconOnErrorHandler(tool) {
-    return iconFallbackSources(tool).reduceRight(
-      (script, source) => `this.onerror=function(){${script}};this.src='${escapeJsString(source)}';`,
-      "this.onerror=null;"
+  function nextIconFallbackSource(image) {
+    const sources = (image.dataset.iconFallbacks || "")
+      .split("|")
+      .filter(Boolean);
+    const nextSource = sources.shift() || "";
+    image.dataset.iconFallbacks = sources.join("|");
+    return nextSource;
+  }
+
+  function hydrateLazyIcon(image) {
+    if (!image || !image.dataset.iconSrc || image.dataset.iconHydrated === "true") {
+      return;
+    }
+    image.dataset.iconHydrated = "true";
+    image.src = image.dataset.iconSrc;
+    image.removeAttribute("data-icon-src");
+  }
+
+  function ensureToolIconObserver() {
+    if (toolIconObserver || !("IntersectionObserver" in window)) {
+      return toolIconObserver;
+    }
+
+    toolIconObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) {
+            return;
+          }
+          hydrateLazyIcon(entry.target);
+          toolIconObserver?.unobserve(entry.target);
+        });
+      },
+      { rootMargin: "240px 0px" }
     );
+
+    return toolIconObserver;
+  }
+
+  function observeToolIcons(scope) {
+    const root = scope || document;
+    if (!root || !root.querySelectorAll) {
+      return;
+    }
+
+    const images = root.querySelectorAll("img[data-icon-src]");
+    if (!images.length) {
+      return;
+    }
+
+    const observer = ensureToolIconObserver();
+    images.forEach((image) => {
+      if (observer) {
+        observer.observe(image);
+      } else {
+        hydrateLazyIcon(image);
+      }
+    });
+  }
+
+  function handleToolIconError(event) {
+    const image = event.target;
+    if (!(image instanceof HTMLImageElement) || !image.hasAttribute("data-icon-fallbacks")) {
+      return;
+    }
+
+    const nextSource = nextIconFallbackSource(image);
+    if (!nextSource) {
+      return;
+    }
+
+    image.dataset.iconHydrated = "true";
+    image.src = nextSource;
   }
 
   const tools = [...catalog.tools]
-    .map((tool) => ({
-      ...tool,
-      iconUrl: primaryIconPath(tool)
-    }))
+    .map((tool) => {
+      const iconSources = iconSourceList(tool);
+      return {
+        ...tool,
+        iconUrl: iconSources[0],
+        iconFallbacks: iconSources.slice(1),
+        searchBlob: buildToolSearchBlob(tool)
+      };
+    })
     .sort((left, right) => right.monthlyVisits - left.monthlyVisits);
+  const toolById = new Map(tools.map((tool) => [tool.id, tool]));
 
   const categories = ["All", ...new Set(tools.flatMap((tool) => tool.categories))];
   const pricingOptions = ["All", ...new Set(tools.map((tool) => tool.pricing))];
@@ -2154,6 +2235,7 @@
     syncSearchInputs(nextValue, settings.sourceInput);
     renderHotGrid();
     renderDirectory();
+    observeToolIcons(document);
     if (settings.syncUrl) {
       syncDirectorySearchUrl(nextValue);
     }
@@ -2323,15 +2405,24 @@
     return `data:image/svg+xml;utf8,${svg.replace(/\n+/g, "").replace(/#/g, "%23").replace(/"/g, "'")}`;
   }
 
-  function iconImage(tool) {
-    return `<img src="${tool.iconUrl}" alt="${tool.name} icon" loading="lazy" onerror="${iconOnErrorHandler(tool)}">`;
+  function iconImage(tool, options) {
+    const settings = options || {};
+    const eager = settings.eager === true;
+    const fallbackSources = iconFallbackSources(tool);
+    const altText = settings.alt !== undefined ? settings.alt : `${tool.name} icon`;
+    const size = settings.size || 40;
+    const primarySrc = tool.iconUrl || primaryIconPath(tool);
+    const initialSrc = eager ? primarySrc : ICON_PLACEHOLDER_SRC;
+    const deferredSrc = eager ? "" : ` data-icon-src="${escapeAttribute(primarySrc)}"`;
+
+    return `<img src="${initialSrc}"${deferredSrc} data-icon-fallbacks="${escapeAttribute(fallbackSources.join("|"))}" alt="${escapeAttribute(altText)}" loading="${eager ? "eager" : "lazy"}" decoding="async" fetchpriority="${eager ? "high" : "low"}" width="${size}" height="${size}">`;
   }
 
   function promptTrackTool(track) {
     if (!track || !track.toolId) {
       return null;
     }
-    return tools.find((tool) => tool.id === track.toolId) || null;
+    return toolById.get(track.toolId) || null;
   }
 
   function promptTrackGlyph(track) {
@@ -2371,7 +2462,7 @@
     if (tool) {
       return `
         <span class="${classes}" aria-hidden="true">
-          <img src="${tool.iconUrl}" alt="" loading="lazy" onerror="${iconOnErrorHandler(tool)}">
+          ${iconImage(tool, { alt: "", eager: true, size: 20 })}
         </span>
       `;
     }
@@ -2523,13 +2614,13 @@
     return sidebarIconMap[category] || sidebarIconMap.All;
   }
 
-  function iconShell(tool, className) {
+  function iconShell(tool, className, options) {
     const tooltip = escapeAttribute(tooltipText(tool));
     const extraClass = className ? ` ${className}` : "";
     return `
       <span class="tool-icon-wrap${extraClass}" data-tip="${tooltip}">
         <span class="tool-icon-shell">
-          ${iconImage(tool)}
+          ${iconImage(tool, options)}
         </span>
       </span>
     `;
@@ -2543,34 +2634,16 @@
       .filter(Boolean);
 
     return tools.filter((tool) => {
-      const haystack = [
-        tool.id,
-        tool.name,
-        tool.vendor,
-        tool.summary,
-        tool.recommendation,
-        tool.pricing,
-        tool.trafficLabel,
-        tool.url,
-        ...tool.categories,
-        ...tool.audience,
-        ...(tool.searchTerms || []),
-        ...Object.values(tool.sources || {})
-      ]
-        .join(" ")
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, " ");
-
       const categoryMatches = state.activeCategory === "All" || tool.categories.includes(state.activeCategory);
       const pricingMatches = state.activePricing === "All" || tool.pricing === state.activePricing;
-      const queryMatches = !queryTokens.length || queryTokens.every((token) => haystack.includes(token));
+      const queryMatches = !queryTokens.length || queryTokens.every((token) => tool.searchBlob.includes(token));
       return categoryMatches && pricingMatches && queryMatches;
     });
   }
 
   function pickTools(ids) {
     return ids
-      .map((id) => tools.find((tool) => tool.id === id))
+      .map((id) => toolById.get(id))
       .filter(Boolean);
   }
 
@@ -2689,6 +2762,35 @@
     state.featuredVisibleCounts[key] = getFeaturedVisibleCount(key) + 20;
   }
 
+  function directoryRenderSignature() {
+    return [trimmedSearchValue(state.query).toLowerCase(), state.activeCategory, state.activePricing].join("|");
+  }
+
+  function currentDirectoryPreviewCount() {
+    return state.activeCategory === "All" ? DIRECTORY_SECTION_PREVIEW_COUNT : DIRECTORY_FOCUSED_SECTION_PREVIEW_COUNT;
+  }
+
+  function ensureDirectoryVisibleCounts() {
+    const signature = directoryRenderSignature();
+    if (state.directorySignature === signature) {
+      return;
+    }
+
+    state.directorySignature = signature;
+    state.directoryVisibleCounts = {};
+  }
+
+  function directoryVisibleCount(category, total) {
+    const baseCount = currentDirectoryPreviewCount();
+    const count = state.directoryVisibleCounts[category] || baseCount;
+    return Math.min(total, count);
+  }
+
+  function increaseDirectoryVisibleCount(category) {
+    const currentCount = state.directoryVisibleCounts[category] || currentDirectoryPreviewCount();
+    state.directoryVisibleCounts[category] = currentCount + DIRECTORY_SECTION_LOAD_STEP;
+  }
+
   function toolCard(tool, options) {
     const settings = options || {};
     const classes = ["unified-tool-card", settings.className].filter(Boolean).join(" ");
@@ -2703,7 +2805,7 @@
         ${rankBadge}
         ${metaBadge}
         <span class="tool-card-head">
-          ${iconShell(tool)}
+          ${iconShell(tool, settings.iconClassName, settings.iconOptions)}
           <span class="tool-text">
             <span class="tool-title-line">
               <h3>${tool.name}</h3>
@@ -3602,15 +3704,17 @@
     }
 
     ui.hotGrid.innerHTML = items
-      .map((tool) =>
+      .map((tool, index) =>
         toolCard(tool, {
           className: "tool-tile",
           meta: tool.pricing === "Free" ? "Free" : formatVisits(tool.monthlyVisits),
           summary: tool.summary,
-          summaryLength: 104
+          summaryLength: 104,
+          iconOptions: index < 4 ? { eager: true } : null
         })
       )
       .join("");
+    observeToolIcons(ui.hotGrid);
   }
 
   function miniTool(tool, note) {
@@ -3893,7 +3997,7 @@
     ui.usecaseWall.innerHTML = boards
       .map((board) => {
         const boardTools = board.tools
-          .map((id) => tools.find((tool) => tool.id === id))
+          .map((id) => toolById.get(id))
           .filter(Boolean);
         return `
           <article class="usecase-card">
@@ -4133,12 +4237,31 @@
     if (!ui.directoryGrid || !ui.resultsCount) {
       return;
     }
+
+    ensureDirectoryVisibleCounts();
     const items = filteredTools();
+    const itemsByCategory = new Map();
+
+    items.forEach((tool) => {
+      tool.categories.forEach((category) => {
+        if (category === "All") {
+          return;
+        }
+
+        const categoryItems = itemsByCategory.get(category);
+        if (categoryItems) {
+          categoryItems.push(tool);
+        } else {
+          itemsByCategory.set(category, [tool]);
+        }
+      });
+    });
+
     const visibleCategories = categories
       .filter((category) => category !== "All")
       .map((category) => ({
         category,
-        items: items.filter((tool) => tool.categories.includes(category))
+        items: itemsByCategory.get(category) || []
       }))
       .filter((entry) => entry.items.length);
 
@@ -4206,45 +4329,65 @@
 
     if (ui.directorySections) {
       ui.directorySections.innerHTML = visibleCategories
-        .map(({ category, items: categoryItems }) => `
-          <section class="directory-category-section" id="directory-section-${slugify(category)}" data-directory-category="${category}">
-            <div class="section-header compact-header">
-              <div class="section-header-copy">
-                <p class="kicker">${category}</p>
-                <h3>${category} picks</h3>
-                <p class="section-lead">${categoryItems.length} tools currently match this lane.</p>
+        .map(({ category, items: categoryItems }) => {
+          const visibleCount = directoryVisibleCount(category, categoryItems.length);
+          const remainingCount = Math.max(0, categoryItems.length - visibleCount);
+          const statusText = remainingCount
+            ? `Showing ${visibleCount} of ${categoryItems.length} tools in this lane.`
+            : `Showing all ${categoryItems.length} tools in this lane.`;
+
+          return `
+            <section class="directory-category-section" id="directory-section-${slugify(category)}" data-directory-category="${category}">
+              <div class="section-header compact-header">
+                <div class="section-header-copy">
+                  <p class="kicker">${category}</p>
+                  <h3>${category} picks</h3>
+                  <p class="section-lead">${categoryItems.length} tools currently match this lane.</p>
+                </div>
               </div>
-            </div>
-            <div class="directory-category-grid">
-              ${categoryItems
-                .map((tool) =>
-                  toolCard(tool, {
-                    className: "directory-item",
-                    id: slugify(`${category}-${tool.name}`),
-                    meta: tool.pricing,
-                    summary: tool.summary,
-                    summaryLength: 96
-                  })
-                )
-                .join("")}
-            </div>
-          </section>
-        `)
+              <div class="directory-category-grid">
+                ${categoryItems
+                  .slice(0, visibleCount)
+                  .map((tool) =>
+                    toolCard(tool, {
+                      className: "directory-item",
+                      id: slugify(`${category}-${tool.name}`),
+                      meta: tool.pricing,
+                      summary: tool.summary,
+                      summaryLength: 96
+                    })
+                  )
+                  .join("")}
+              </div>
+              <div class="directory-section-footer">
+                <span class="directory-section-status">${statusText}</span>
+                ${remainingCount
+                  ? `<button class="link-button directory-load-more" type="button" data-directory-more="${escapeAttribute(category)}">Load ${Math.min(DIRECTORY_SECTION_LOAD_STEP, remainingCount)} more</button>`
+                  : ""}
+              </div>
+            </section>
+          `;
+        })
         .join("");
     }
 
     ui.directoryGrid.innerHTML = items
-      .slice(0, 12)
-      .map((tool) =>
+      .slice(0, DIRECTORY_SHORTLIST_COUNT)
+      .map((tool, index) =>
         toolCard(tool, {
           className: "directory-item",
           id: slugify(tool.name),
           meta: tool.pricing,
           summary: tool.recommendation,
-          summaryLength: 102
+          summaryLength: 102,
+          iconOptions: index < 6 ? { eager: true } : null
         })
       )
       .join("");
+
+    observeToolIcons(ui.directoryOverviewGrid);
+    observeToolIcons(ui.directoryGrid);
+    observeToolIcons(ui.directorySections);
   }
 
   function bindSidebarWheelScroll() {
@@ -4502,6 +4645,7 @@
     bindNewsSidebarWheelScroll();
     bindNavFlyouts();
     bindTopbarSearch();
+    document.addEventListener("error", handleToolIconError, true);
 
     document.addEventListener("mouseenter", (event) => {
       const summary = event.target.closest(".tool-summary[data-tip]");
@@ -4572,6 +4716,8 @@
         state.activePricing = "All";
         state.activeRanking = "Assistants";
         state.activeNewsCategory = "All";
+        state.directoryVisibleCounts = {};
+        state.directorySignature = "";
         syncSearchInputs("", null);
         syncDirectorySearchUrl("");
         renderAll();
@@ -4594,6 +4740,16 @@
         window.setTimeout(() => {
           renderNewsDateBrowser();
         }, 0);
+      }
+
+      const directoryMoreButton = event.target.closest("[data-directory-more]");
+      if (directoryMoreButton) {
+        increaseDirectoryVisibleCount(directoryMoreButton.dataset.directoryMore);
+        renderDirectory();
+        window.setTimeout(() => {
+          scrollToDirectoryCategory(directoryMoreButton.dataset.directoryMore);
+        }, 0);
+        return;
       }
 
       const button = event.target.closest("[data-featured-more]");
@@ -4655,6 +4811,7 @@
     renderPromptLibrary();
     renderDirectoryFilters();
     renderDirectory();
+    observeToolIcons(document);
     refreshTooltipDirections();
   }
 
