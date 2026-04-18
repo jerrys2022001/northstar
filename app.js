@@ -2475,10 +2475,8 @@
     const altText = settings.alt !== undefined ? settings.alt : `${tool.name} icon`;
     const size = settings.size || 40;
     const primarySrc = tool.iconUrl || primaryIconPath(tool);
-    const initialSrc = eager ? primarySrc : ICON_PLACEHOLDER_SRC;
-    const deferredSrc = eager ? "" : ` data-icon-src="${escapeAttribute(primarySrc)}"`;
 
-    return `<img src="${initialSrc}"${deferredSrc} data-icon-fallbacks="${escapeAttribute(fallbackSources.join("|"))}" alt="${escapeAttribute(altText)}" loading="${eager ? "eager" : "lazy"}" decoding="async" fetchpriority="${eager ? "high" : "low"}" width="${size}" height="${size}">`;
+    return `<img src="${primarySrc}" data-icon-fallbacks="${escapeAttribute(fallbackSources.join("|"))}" alt="${escapeAttribute(altText)}" loading="${eager ? "eager" : "lazy"}" decoding="async" fetchpriority="${eager ? "high" : "low"}" width="${size}" height="${size}">`;
   }
 
   function promptTrackTool(track) {
