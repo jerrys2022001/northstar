@@ -1984,7 +1984,8 @@
   const DIRECTORY_SHORTLIST_COUNT = 12;
   const DIRECTORY_SECTION_PREVIEW_COUNT = 8;
   const DIRECTORY_FOCUSED_SECTION_PREVIEW_COUNT = 18;
-  const DIRECTORY_SECTION_LOAD_STEP = 12;
+  const DIRECTORY_SECTION_LOAD_STEP = 200;
+  const DIRECTORY_AUTOLOAD_ROOT_MARGIN = "960px 0px";
   const ICON_PLACEHOLDER_SRC = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'></svg>";
   let toolIconObserver = null;
   let directoryAutoloadObserver = null;
@@ -2143,7 +2144,7 @@
         });
         renderDirectory();
       },
-      { rootMargin: "320px 0px" }
+      { rootMargin: DIRECTORY_AUTOLOAD_ROOT_MARGIN }
     );
 
     return directoryAutoloadObserver;
@@ -4424,7 +4425,7 @@
                 <span class="directory-section-status">${statusText}</span>
                 ${remainingCount
                   ? `
-                    <span class="directory-section-autoload">Loading the next ${Math.min(DIRECTORY_SECTION_LOAD_STEP, remainingCount)} as you reach the end.</span>
+                    <span class="directory-section-autoload">Loading the next ${Math.min(DIRECTORY_SECTION_LOAD_STEP, remainingCount)} tools as you get near the end.</span>
                     <span class="directory-autoload-sentinel" data-directory-autoload="${escapeAttribute(category)}" aria-hidden="true"></span>
                   `
                   : ""}
