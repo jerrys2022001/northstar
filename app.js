@@ -1354,6 +1354,18 @@
       body: "Act as an operations lead. Convert the notes below into a plan with goals, workstreams, owner suggestions, deadlines, dependencies, and the next five actions. Flag any missing information before finalizing."
     },
     {
+      track: "chatgpt",
+      title: "Customer interview synthesis",
+      summary: "Turn raw interviews into product and messaging actions.",
+      body: "Act as a product researcher. Analyze these interview notes and return recurring pains, purchase triggers, objections, exact phrases worth reusing, and the top product or messaging implications. End with what we should validate next."
+    },
+    {
+      track: "chatgpt",
+      title: "Launch FAQ builder",
+      summary: "Draft a support-ready FAQ before launch questions hit.",
+      body: "You are a launch manager. Based on the product notes below, create a customer-facing FAQ with likely questions, concise answers, risks to clarify, and the information still missing. Separate must-answer questions from nice-to-have ones."
+    },
+    {
       track: "claude",
       title: "Memo rewrite",
       summary: "Rewrite messy drafts into calm, executive-grade writing.",
@@ -1372,6 +1384,18 @@
       body: "Edit this policy draft for clarity, consistency, and executive readability. Keep the original intent, remove ambiguity, unify terminology, and end with a short list of sections that still need a human review."
     },
     {
+      track: "claude",
+      title: "Board update drafter",
+      summary: "Turn dense operating context into a calm leadership update.",
+      body: "Write a board-style update from the material below. Organize it into progress, performance signals, risks, decisions needed, and next quarter focus. Keep the tone measured, specific, and free of hype."
+    },
+    {
+      track: "claude",
+      title: "Narrative gap review",
+      summary: "Find where a long draft still feels weak or unresolved.",
+      body: "Review this draft and identify the sections where the logic jumps, evidence is thin, transitions are abrupt, or the conclusion overreaches. Explain why each section is weak and suggest the minimum rewrite needed to fix it."
+    },
+    {
       track: "gemini",
       title: "Research synthesis board",
       summary: "Turn mixed notes and links into a structured brief.",
@@ -1388,6 +1412,18 @@
       title: "Planning notebook starter",
       summary: "Convert scattered context into a workable plan.",
       body: "You are a strategy associate. Turn the material below into a project notebook with goals, assumptions, workstreams, dependencies, questions to resolve, and a recommended order of execution."
+    },
+    {
+      track: "gemini",
+      title: "Screenshot teardown",
+      summary: "Use visual input to spot UX and trust issues faster.",
+      body: "Review these screenshots as a product analyst. Evaluate information hierarchy, CTA clarity, visual trust signals, friction points, and consistency across screens. Return the biggest issues first, then the fastest improvements to test."
+    },
+    {
+      track: "gemini",
+      title: "Meeting pack synthesizer",
+      summary: "Blend notes, docs, and visuals into one shared brief.",
+      body: "Use the agenda, notes, screenshots, and linked material to create a meeting pack with context, key decisions, unresolved issues, recommendations, and the exact pre-reads each stakeholder needs."
     },
     {
       track: "deepseek",
@@ -1414,6 +1450,18 @@
       body: "Compare these options using delivery time, implementation complexity, performance, maintainability, operational risk, and future flexibility. Show where each option wins, where it loses, and end with the best recommendation for this exact context."
     },
     {
+      track: "deepseek",
+      title: "Incident review scaffold",
+      summary: "Structure a postmortem before the team starts debating fixes.",
+      body: "Act as a senior incident reviewer. From the timeline, logs, and symptoms, reconstruct the likely failure chain, identify contributing factors, distinguish root cause from amplifiers, and list the remediation steps in priority order."
+    },
+    {
+      track: "deepseek",
+      title: "Algorithm choice evaluator",
+      summary: "Pick the right technical approach with explicit reasoning.",
+      body: "Compare these algorithm or model options across correctness, performance under load, implementation effort, failure modes, observability, and future maintainability. State assumptions, highlight edge cases, and recommend the safest option for production."
+    },
+    {
       track: "midjourney",
       title: "Campaign art direction",
       summary: "Build more intentional visual prompts for launch work.",
@@ -1430,6 +1478,18 @@
       title: "Editorial portrait system",
       summary: "Create a cleaner visual language for campaigns and case studies.",
       body: "Editorial portrait of a modern technology founder, soft natural light, refined composition, neutral wardrobe, glass-and-aluminum environment, premium magazine styling, subtle depth, restrained luxury, realistic texture."
+    },
+    {
+      track: "midjourney",
+      title: "Feature illustration system",
+      summary: "Create a reusable visual language for product marketing.",
+      body: "Design a coherent set of product feature illustrations for an AI platform, editorial 3D style, luminous interface fragments, controlled color accents, clean negative space, premium SaaS campaign quality, consistent composition system."
+    },
+    {
+      track: "midjourney",
+      title: "Event keynote backdrop",
+      summary: "Generate stronger stage visuals without generic futurism.",
+      body: "Wide-format keynote backdrop for an AI conference, cinematic gradient atmosphere, architectural light beams, subtle data motifs, premium minimalism, high-contrast focal area for a speaker silhouette, polished event identity."
     },
     {
       track: "perplexity",
@@ -1450,8 +1510,20 @@
       body: "Fact-check these claims about the company, product, and market. Separate confirmed facts from weak claims, link to the supporting sources, and note where the evidence is thin or outdated."
     },
     {
+      track: "perplexity",
+      title: "Vendor due diligence brief",
+      summary: "Check a company fast before a partnership or buy decision.",
+      body: "Research this vendor and return a due diligence brief covering product scope, pricing signals, traction, recent news, customer proof, red flags, and open questions. Cite every major claim and separate verified facts from inference."
+    },
+    {
+      track: "perplexity",
+      title: "Regulation scan",
+      summary: "Map the current rule landscape before acting.",
+      body: "Scan the latest rules, standards, and official guidance related to this topic. Summarize what is confirmed, what is changing, who is affected, and the practical actions a company should take now. Use primary or official sources wherever possible."
+    },
+    {
       track: "githubcopilot",
-      title: "Landing page messaging",
+      title: "Feature implementation plan",
       summary: "Turn a request into an implementation-ready build plan.",
       body: "Act as a staff engineer. Convert this feature request into a practical implementation plan with assumptions, affected modules, API changes, UI changes, migration needs, test plan, and rollout risks."
     },
@@ -1466,6 +1538,18 @@
       title: "Refactor risk review",
       summary: "Evaluate what can break before touching live modules.",
       body: "Act as a senior engineer reviewing a refactor proposal. List the modules most at risk, the behaviors that could regress, the tests that should exist first, and a phased rollout plan with rollback checkpoints."
+    },
+    {
+      track: "githubcopilot",
+      title: "Pull request review brief",
+      summary: "Focus a review on real regression risk before merging.",
+      body: "Act as a senior reviewer. Given this diff and context, identify the highest-risk changes, likely regressions, missing tests, rollout concerns, and the specific checks we should complete before merge."
+    },
+    {
+      track: "githubcopilot",
+      title: "Legacy module migration plan",
+      summary: "Break a risky cleanup into a safer shipping sequence.",
+      body: "Create a migration plan for this legacy module. Include target architecture, intermediate states, compatibility constraints, test coverage needed at each phase, rollout gates, and rollback triggers."
     },
     {
       track: "runway",
@@ -1486,6 +1570,18 @@
       body: "Extend this shot by 4 seconds while preserving subject identity, color palette, and camera continuity. Add subtle environmental motion and keep the pacing smooth enough for a premium product ad."
     },
     {
+      track: "runway",
+      title: "Product demo opener",
+      summary: "Build a sharper first five seconds for launch video.",
+      body: "Generate a 5-second opener for an AI product demo: fast but elegant pacing, interface macro details, soft lens movement, minimal typography room, cinematic polish, and a confident launch energy."
+    },
+    {
+      track: "runway",
+      title: "B-roll continuity brief",
+      summary: "Keep generated supporting shots visually coherent.",
+      body: "Create three complementary B-roll shots that match the main scene's subject, lighting, lens feel, and color palette. Keep motion subtle, transitions editable, and the mood premium rather than flashy."
+    },
+    {
       track: "jasper",
       title: "Landing page messaging",
       summary: "Turn features into cleaner homepage copy.",
@@ -1502,6 +1598,18 @@
       title: "Campaign angle generator",
       summary: "Generate stronger hooks before ad and launch work begins.",
       body: "Act as a product marketing lead. Based on the product, audience, and current market context, generate five campaign angles. For each one include the core tension, headline direction, proof point, objection to overcome, and the CTA that best fits the angle."
+    },
+    {
+      track: "jasper",
+      title: "Feature-to-benefit ladder",
+      summary: "Translate product detail into clearer buyer value.",
+      body: "Using the product notes below, convert each major feature into user benefit, business outcome, proof, objection handling, and the best CTA angle. Keep the language specific enough for homepage and sales copy."
+    },
+    {
+      track: "jasper",
+      title: "Retention campaign plan",
+      summary: "Draft lifecycle copy with stronger message sequencing.",
+      body: "Act as a lifecycle marketer. Build a three-message retention campaign for this segment with trigger, subject line direction, core value message, proof, objection handling, and the action we want in each step."
     },
     {
       track: "canva",
@@ -1522,6 +1630,18 @@
       body: "Using this brand summary, generate a creative brief for a launch graphic set including colors, typography mood, image direction, icon style, and the mandatory content blocks for each asset."
     },
     {
+      track: "canva",
+      title: "One-pager design brief",
+      summary: "Turn rough notes into a cleaner single-page asset.",
+      body: "Create a one-pager brief from this material with headline hierarchy, section order, key stats callouts, visual style, icon or illustration cues, and spacing guidance so the final asset feels polished and modern."
+    },
+    {
+      track: "canva",
+      title: "Webinar promo kit",
+      summary: "Generate a cohesive asset system for launch week.",
+      body: "Build a creative brief for a webinar promo kit including landing hero, social cards, email header, and reminder banner. Define copy hierarchy, design mood, brand accents, and what must stay consistent across every asset."
+    },
+    {
       track: "notion",
       title: "Project hub setup",
       summary: "Convert notes into a practical team workspace.",
@@ -1538,6 +1658,18 @@
       title: "Wiki page builder",
       summary: "Create clearer internal documentation from rough input.",
       body: "Draft an internal wiki page from the source material below. Include purpose, process steps, roles, tools used, common mistakes, and a short FAQ for new team members."
+    },
+    {
+      track: "notion",
+      title: "Decision log template",
+      summary: "Keep important calls documented as work moves fast.",
+      body: "Turn these project notes into a decision log template populated with the decisions made, rationale, owner, date, downstream impact, and the questions that still need resolution."
+    },
+    {
+      track: "notion",
+      title: "OKR workspace builder",
+      summary: "Set up a cleaner operating rhythm for a team or quarter.",
+      body: "Create a Notion workspace structure for quarterly OKRs with company goals, team goals, owners, check-in cadence, progress fields, risks, and a weekly review page."
     },
     {
       track: "grammarly",
@@ -1558,6 +1690,18 @@
       body: "Edit the passage below for clarity and readability. Shorten long sentences, remove repetition, simplify awkward phrasing, and preserve any key terminology that must stay exact."
     },
     {
+      track: "grammarly",
+      title: "Slack message cleanup",
+      summary: "Make fast messages clearer without sounding stiff.",
+      body: "Rewrite this Slack message to be concise, friendly, and unambiguous. Keep the tone warm, remove clutter, and make the requested action or decision obvious in the first two lines."
+    },
+    {
+      track: "grammarly",
+      title: "High-stakes response editor",
+      summary: "Polish delicate replies when tone matters most.",
+      body: "Edit this response for a sensitive professional situation. Preserve empathy, reduce defensiveness, improve clarity, and ensure the final version sounds calm, credible, and respectful."
+    },
+    {
       track: "elevenlabs",
       title: "Voiceover direction",
       summary: "Define delivery before generating narration.",
@@ -1574,6 +1718,18 @@
       title: "Dialogue style pass",
       summary: "Shape the voice to fit a specific scene.",
       body: "Perform this short dialogue with a conversational, grounded tone. Keep the rhythm realistic, the pauses subtle, and the emotional delivery supportive rather than theatrical."
+    },
+    {
+      track: "elevenlabs",
+      title: "Podcast intro voice brief",
+      summary: "Set tone and pacing before generating spoken intros.",
+      body: "Perform this intro as a smart, conversational podcast host. Keep the delivery relaxed but crisp, emphasize the guest or topic naturally, and avoid sounding like an ad read."
+    },
+    {
+      track: "elevenlabs",
+      title: "Supportive coaching tone",
+      summary: "Generate audio that sounds guiding, not robotic.",
+      body: "Read this script as a supportive coach. Use steady pacing, light warmth, reassuring emphasis, and natural pauses that make the listener feel guided step by step."
     },
     {
       track: "synthesia",
@@ -1594,6 +1750,18 @@
       body: "Rewrite this presenter script so it is easy to translate and reuse globally. Use plain language, short sentences, and clear visual instructions for each scene."
     },
     {
+      track: "synthesia",
+      title: "Customer onboarding module",
+      summary: "Create a cleaner first-run training flow.",
+      body: "Write a 2-minute onboarding module for new customers with welcome context, first key action, common mistake to avoid, on-screen UI notes, and a closing step that guides them to successful activation."
+    },
+    {
+      track: "synthesia",
+      title: "Internal policy update video",
+      summary: "Explain changes clearly without sounding bureaucratic.",
+      body: "Turn this policy change into a short internal presenter video script with what changed, why it matters, who is affected, examples, and the action employees must take next."
+    },
+    {
       track: "pictory",
       title: "Blog-to-video converter",
       summary: "Turn written content into a short video outline.",
@@ -1612,6 +1780,18 @@
       body: "Repurpose the content below into a short-form video summary. Identify the main takeaway, supporting moments, ideal caption text, and the visual rhythm that will keep viewers watching."
     },
     {
+      track: "pictory",
+      title: "Webinar highlight reel",
+      summary: "Pull the most useful moments from a longer talk.",
+      body: "Turn this webinar transcript into a highlight reel plan with strongest hooks, section beats, caption lines, visual cutaway ideas, and the CTA for the final frame."
+    },
+    {
+      track: "pictory",
+      title: "Customer story clip",
+      summary: "Shape a case study into a tighter social edit.",
+      body: "Convert this customer story into a short video structure with opening pain, turning point, measurable outcome, supporting quote, caption suggestions, and simple scene direction for each beat."
+    },
+    {
       track: "copyai",
       title: "Outbound sequence starter",
       summary: "Build a cleaner sales sequence from raw product context.",
@@ -1628,6 +1808,18 @@
       title: "Pipeline message map",
       summary: "Align GTM copy to buyer stage and intent.",
       body: "Create message variants for awareness, evaluation, and decision stages. For each stage include the buyer problem, value angle, proof to use, and the exact next action we want."
+    },
+    {
+      track: "copyai",
+      title: "Follow-up email ladder",
+      summary: "Keep momentum after a first touch or demo.",
+      body: "Create a three-step follow-up sequence after an initial outreach or demo. For each message include timing, objective, opener, proof point, objection handling, and a low-friction CTA."
+    },
+    {
+      track: "copyai",
+      title: "Objection handling sheet",
+      summary: "Turn deal friction into reusable sales language.",
+      body: "Build an objection handling sheet from the notes below. For each objection include what the buyer really means, the response angle, proof to use, and the exact language a rep can adapt."
     }
   ];
 
