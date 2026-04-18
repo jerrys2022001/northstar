@@ -1987,6 +1987,7 @@
   const DIRECTORY_SECTION_LOAD_STEP = 12;
   const ICON_PLACEHOLDER_SRC = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'></svg>";
   let toolIconObserver = null;
+  let directoryAutoloadObserver = null;
 
   function localIconPath(filename) {
     return `${assetPrefix}assets/tool-icons/${filename}`;
@@ -2014,11 +2015,11 @@
 
   function iconSourceList(tool) {
     const sources = [
-      localIconPath(`${tool.id}.svg`),
       localIconPath(`${tool.id}.png`),
-      localIconPath(`${tool.id}.ico`),
-      localIconPath(`${tool.id}.jpg`),
       localIconPath(`${tool.id}.webp`),
+      localIconPath(`${tool.id}.jpg`),
+      localIconPath(`${tool.id}.ico`),
+      localIconPath(`${tool.id}.svg`),
       fallbackIcon(tool)
     ];
     return sources.filter((source, index) => source && !sources.slice(0, index).includes(source));
@@ -2108,6 +2109,68 @@
 
     image.dataset.iconHydrated = "true";
     image.src = nextSource;
+  }
+
+  function ensureDirectoryAutoloadObserver() {
+    if (directoryAutoloadObserver || !("IntersectionObserver" in window)) {
+      return directoryAutoloadObserver;
+    }
+
+    directoryAutoloadObserver = new IntersectionObserver(
+      (entries) => {
+        const categoriesToLoad = new Set();
+
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) {
+            return;
+          }
+
+          const category = entry.target?.dataset?.directoryAutoload;
+          if (!category) {
+            return;
+          }
+
+          directoryAutoloadObserver?.unobserve(entry.target);
+          categoriesToLoad.add(category);
+        });
+
+        if (!categoriesToLoad.size) {
+          return;
+        }
+
+        categoriesToLoad.forEach((category) => {
+          increaseDirectoryVisibleCount(category);
+        });
+        renderDirectory();
+      },
+      { rootMargin: "320px 0px" }
+    );
+
+    return directoryAutoloadObserver;
+  }
+
+  function observeDirectoryAutoload() {
+    if (!ui.directorySections) {
+      return;
+    }
+
+    const sentinels = [...ui.directorySections.querySelectorAll("[data-directory-autoload]")];
+    if (!sentinels.length) {
+      directoryAutoloadObserver?.disconnect();
+      return;
+    }
+
+    const observer = ensureDirectoryAutoloadObserver();
+    if (observer) {
+      observer.disconnect();
+      sentinels.forEach((sentinel) => observer.observe(sentinel));
+      return;
+    }
+
+    sentinels.forEach((sentinel) => {
+      state.directoryVisibleCounts[sentinel.dataset.directoryAutoload] = Number.MAX_SAFE_INTEGER;
+    });
+    renderDirectory();
   }
 
   const tools = [...catalog.tools]
@@ -4333,7 +4396,7 @@
           const visibleCount = directoryVisibleCount(category, categoryItems.length);
           const remainingCount = Math.max(0, categoryItems.length - visibleCount);
           const statusText = remainingCount
-            ? `Showing ${visibleCount} of ${categoryItems.length} tools in this lane.`
+            ? `Showing ${visibleCount} of ${categoryItems.length} tools in this lane. More load automatically as you scroll.`
             : `Showing all ${categoryItems.length} tools in this lane.`;
 
           return `
@@ -4362,7 +4425,10 @@
               <div class="directory-section-footer">
                 <span class="directory-section-status">${statusText}</span>
                 ${remainingCount
-                  ? `<button class="link-button directory-load-more" type="button" data-directory-more="${escapeAttribute(category)}">Load ${Math.min(DIRECTORY_SECTION_LOAD_STEP, remainingCount)} more</button>`
+                  ? `
+                    <span class="directory-section-autoload">Loading the next ${Math.min(DIRECTORY_SECTION_LOAD_STEP, remainingCount)} as you reach the end.</span>
+                    <span class="directory-autoload-sentinel" data-directory-autoload="${escapeAttribute(category)}" aria-hidden="true"></span>
+                  `
                   : ""}
               </div>
             </section>
@@ -4388,6 +4454,7 @@
     observeToolIcons(ui.directoryOverviewGrid);
     observeToolIcons(ui.directoryGrid);
     observeToolIcons(ui.directorySections);
+    observeDirectoryAutoload();
   }
 
   function bindSidebarWheelScroll() {
@@ -4740,16 +4807,6 @@
         window.setTimeout(() => {
           renderNewsDateBrowser();
         }, 0);
-      }
-
-      const directoryMoreButton = event.target.closest("[data-directory-more]");
-      if (directoryMoreButton) {
-        increaseDirectoryVisibleCount(directoryMoreButton.dataset.directoryMore);
-        renderDirectory();
-        window.setTimeout(() => {
-          scrollToDirectoryCategory(directoryMoreButton.dataset.directoryMore);
-        }, 0);
-        return;
       }
 
       const button = event.target.closest("[data-featured-more]");
