@@ -365,6 +365,132 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-04-18",
+    "label": "April 18, 2026",
+    "items": [
+      {
+        "id": "google-gemini-3-1-flash-tts-apr18",
+        "category": "Model Releases",
+        "title": "Google launches Gemini 3.1 Flash TTS for more expressive AI speech",
+        "source": "Google Blog",
+        "summary": "Google rolled out Gemini 3.1 Flash TTS across its products, positioning the model as a next-generation speech option with more expressive and controllable voice output.",
+        "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1-flash-tts_metacard_dark_1920x1080.width-1300.png",
+        "excerpt": "Why it matters: voice quality is increasingly a product differentiator as AI assistants expand into audio-native workflows."
+      },
+      {
+        "id": "anthropic-claude-opus-4-7-apr18",
+        "category": "Model Releases",
+        "title": "Anthropic ships Claude Opus 4.7 with stronger software engineering performance",
+        "source": "Anthropic",
+        "summary": "Anthropic released Claude Opus 4.7 as its latest frontier model, highlighting measurable gains on harder software engineering tasks and advanced coding workloads.",
+        "href": "https://www.anthropic.com/news/claude-opus-4-7",
+        "imageUrl": "https://cdn.sanity.io/images/4zrzovbb/website/96ea2509a90e527642c822303e56296a07bcfce4-1920x1080.png",
+        "excerpt": "Why it matters: top model vendors are still using coding benchmarks and difficult engineering work as the clearest proof point for frontier progress."
+      },
+      {
+        "id": "anthropic-claude-design-labs-apr18",
+        "category": "Creative AI",
+        "title": "Anthropic opens Claude Design for polished slides, prototypes, and one-pagers",
+        "source": "Anthropic",
+        "summary": "Anthropic introduced Claude Design in Labs as a new way to collaborate with Claude on visual deliverables including prototypes, slide decks, one-pagers, and other polished assets.",
+        "href": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+        "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=cactus",
+        "excerpt": "Why it matters: frontier assistants are moving beyond chat into structured creative output that aims to replace more of the blank-page workflow."
+      },
+      {
+        "id": "github-copilot-cli-auto-model-selection-apr18",
+        "category": "Developer Tools",
+        "title": "GitHub Copilot CLI adds automatic model selection for faster command-line workflows",
+        "source": "GitHub Changelog",
+        "summary": "GitHub made Copilot auto model selection generally available in Copilot CLI so the command line can route requests to the most efficient model by default.",
+        "href": "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/CopilotCLIAutoModelSelection_NewRelease_Unfurl_TextOnly-3.jpg",
+        "excerpt": "Why it matters: model routing is becoming a built-in part of developer tooling instead of a manual setting teams have to tune on every task."
+      },
+      {
+        "id": "google-ai-travel-smarter-apr18",
+        "category": "Product Updates",
+        "title": "Google packages summer travel planning and deal finding into AI-powered Search flows",
+        "source": "Google Blog",
+        "summary": "Google highlighted new AI-powered travel planning features that help users compare deals, plan trips, and explore destinations inside Search and related products.",
+        "href": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/summer_travel_tips_2026_ss.width-1300.png",
+        "excerpt": "Why it matters: consumer AI wins are increasingly about getting useful workflow upgrades into familiar products people already open every day."
+      },
+      {
+        "id": "google-ai-mode-chrome-apr18",
+        "category": "Product Updates",
+        "title": "Google brings AI Mode into Chrome for side-by-side web exploration",
+        "source": "Google Blog",
+        "summary": "Google added a new AI Mode experience in Chrome so users can explore the web and AI responses together in a more integrated browsing flow.",
+        "href": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_in_Chrome_-_Social_feed.width-1300.png",
+        "excerpt": "Why it matters: browser-native AI is becoming a distribution advantage as search, browsing, and assistant behavior continue to merge."
+      },
+      {
+        "id": "salesforce-agent-fabric-controls-apr18",
+        "category": "Agents",
+        "title": "Salesforce adds new Agent Fabric controls for multi-vendor AI governance",
+        "source": "Salesforce",
+        "summary": "Salesforce expanded Agent Fabric with new determinism and governance controls designed to help enterprises monitor trusted tools across multi-vendor agent deployments.",
+        "href": "https://www.salesforce.com/news/stories/agent-fabric-control-plane-announcement/",
+        "imageUrl": "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/04/Agent-Fabric-Universal-Control-Plane-Image-1.png?w=1024",
+        "excerpt": "Why it matters: large companies want agent interoperability, but only if they can keep execution paths observable, governed, and policy-compliant."
+      },
+      {
+        "id": "github-cli-agent-skills-apr18",
+        "category": "Agents",
+        "title": "GitHub CLI adds agent skills commands for managing coding-agent setups",
+        "source": "GitHub Changelog",
+        "summary": "GitHub launched new gh skill commands in GitHub CLI to help developers discover, install, and manage reusable skills for coding agents.",
+        "href": "https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/579036805-3f7f7fc2-dbfe-45d2-8041-40fe09703047.jpg",
+        "excerpt": "Why it matters: teams are starting to treat agent skills like portable infrastructure that can be shared, updated, and audited across environments."
+      },
+      {
+        "id": "salesforce-headless-360-apr18",
+        "category": "Developer Tools",
+        "title": "Salesforce turns its stack into Headless 360 APIs, MCP tools, and CLI actions for agents",
+        "source": "Salesforce",
+        "summary": "Salesforce introduced Headless 360 so more of its platform can be accessed through APIs, MCP tools, and CLI commands that agents can invoke directly.",
+        "href": "https://www.salesforce.com/uk/news/stories/salesforce-headless-360-announcement/",
+        "imageUrl": "https://www.salesforce.com/uk/news/wp-content/uploads/sites/5/2026/04/Agentforce-Developer-Experience-TDX-Release.png",
+        "excerpt": "Why it matters: enterprise platforms are racing to become agent-ready backends instead of forcing every workflow through a browser UI."
+      },
+      {
+        "id": "openai-cyber-defense-ecosystem-apr18",
+        "category": "Safety",
+        "title": "OpenAI expands its cyber defense ecosystem with grants, partners, and trusted access",
+        "source": "OpenAI",
+        "summary": "OpenAI outlined a broader cyber defense push spanning grants, security partners, and a trusted-access structure meant to widen defensive use while preserving safeguards.",
+        "href": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/50UlqbAamecQ6xsNAt3Qu0/8f6f87823b796b6860606a4a42efe4af/Scaling_our_trusted_access_program_for_cyber_defense_1x1.png?fm=webp&q=90&w=3840",
+        "excerpt": "Why it matters: frontier model providers are turning security access and ecosystem design into a product surface of their own."
+      },
+      {
+        "id": "openai-gpt-rosalind-preview-apr18",
+        "category": "Research Workflows",
+        "title": "OpenAI previews GPT-Rosalind for life sciences research and drug discovery",
+        "source": "OpenAI",
+        "summary": "OpenAI introduced GPT-Rosalind as a purpose-built reasoning model for biology, drug discovery, and translational medicine with broader scientific tool support.",
+        "href": "https://openai.com/index/introducing-gpt-rosalind/",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4DBbOG8vMlfABf51pZ0hUB/512dbdd1d4051944bbaf62b0c7310d31/Life_science_plugin_demo_static_image_1x1.png?fm=webp&q=90&w=3840",
+        "excerpt": "Why it matters: model vendors are increasingly building domain-specific systems for regulated, tool-heavy research workflows instead of shipping one general model for everything."
+      },
+      {
+        "id": "mit-openprotein-biologists-apr18",
+        "category": "Research Workflows",
+        "title": "MIT-backed OpenProtein opens AI protein-design tools to more working biologists",
+        "source": "MIT News",
+        "summary": "MIT News highlighted OpenProtein.AI, a no-code platform that gives biologists broader access to AI-assisted protein engineering and research workflows.",
+        "href": "https://news.mit.edu/2026/bringing-ai-driven-protein-design-tools-everywhere-0417",
+        "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-OpenProteinAI-01-press.jpg",
+        "excerpt": "Why it matters: AI biology products are moving from expert-only labs toward broader scientific teams that need simpler interfaces and faster iteration."
+      }
+    ]
+  },
+  {
     "date": "2026-04-17",
     "label": "April 17, 2026",
     "items": [
@@ -572,16 +698,6 @@
     "date": "2026-04-15",
     "label": "April 15, 2026",
     "items": [
-      {
-        "id": "gemini-3-1-flash-tts-apr15",
-        "category": "Model Releases",
-        "title": "Gemini 3.1 Flash TTS adds expressive speech controls",
-        "source": "Google Blog",
-        "summary": "Google introduced Gemini 3.1 Flash TTS with improved speech quality, audio tags for style and pacing control, 70-plus language support, and SynthID watermarking.",
-        "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
-        "imageUrl": "assets/news/home-briefing/2026-04-16/apple-gemini-tts.jpg",
-        "excerpt": "Why it matters: text-to-speech models are becoming programmable creative systems, not just narration utilities, with developer controls exposed through AI Studio and Vertex AI."
-      },
       {
         "id": "openai-gpt-54-cyber-tac-apr15",
         "category": "Safety",
