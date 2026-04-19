@@ -1982,13 +1982,16 @@
   ];
   const assetPrefix = document.body?.dataset?.assetPrefix || "";
   const DIRECTORY_SHORTLIST_COUNT = 12;
+  const DIRECTORY_MOBILE_SHORTLIST_COUNT = 6;
   const DIRECTORY_SECTION_PREVIEW_COUNT = 8;
+  const DIRECTORY_MOBILE_SECTION_PREVIEW_COUNT = 4;
   const DIRECTORY_FOCUSED_SECTION_PREVIEW_COUNT = 18;
+  const DIRECTORY_MOBILE_FOCUSED_SECTION_PREVIEW_COUNT = 8;
   const DIRECTORY_SECTION_LOAD_STEP = 200;
   const DIRECTORY_AUTOLOAD_ROOT_MARGIN = "960px 0px";
-  const ICON_PLACEHOLDER_SRC = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'></svg>";
-  let toolIconObserver = null;
+  const DIRECTORY_MOBILE_AUTOLOAD_ROOT_MARGIN = "1280px 0px";
   let directoryAutoloadObserver = null;
+  let directoryAutoloadObserverMargin = "";
 
   function localIconPath(filename) {
     return `${assetPrefix}assets/tool-icons/${filename}`;
@@ -2046,57 +2049,6 @@
     return nextSource;
   }
 
-  function hydrateLazyIcon(image) {
-    if (!image || !image.dataset.iconSrc || image.dataset.iconHydrated === "true") {
-      return;
-    }
-    image.dataset.iconHydrated = "true";
-    image.src = image.dataset.iconSrc;
-    image.removeAttribute("data-icon-src");
-  }
-
-  function ensureToolIconObserver() {
-    if (toolIconObserver || !("IntersectionObserver" in window)) {
-      return toolIconObserver;
-    }
-
-    toolIconObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) {
-            return;
-          }
-          hydrateLazyIcon(entry.target);
-          toolIconObserver?.unobserve(entry.target);
-        });
-      },
-      { rootMargin: "240px 0px" }
-    );
-
-    return toolIconObserver;
-  }
-
-  function observeToolIcons(scope) {
-    const root = scope || document;
-    if (!root || !root.querySelectorAll) {
-      return;
-    }
-
-    const images = root.querySelectorAll("img[data-icon-src]");
-    if (!images.length) {
-      return;
-    }
-
-    const observer = ensureToolIconObserver();
-    images.forEach((image) => {
-      if (observer) {
-        observer.observe(image);
-      } else {
-        hydrateLazyIcon(image);
-      }
-    });
-  }
-
   function handleToolIconError(event) {
     const image = event.target;
     if (!(image instanceof HTMLImageElement) || !image.hasAttribute("data-icon-fallbacks")) {
@@ -2112,11 +2064,26 @@
     image.src = nextSource;
   }
 
+  function isCompactDirectoryViewport() {
+    return window.matchMedia ? window.matchMedia("(max-width: 820px)").matches : (window.innerWidth || 0) <= 820;
+  }
+
+  function currentDirectoryAutoloadRootMargin() {
+    return isCompactDirectoryViewport() ? DIRECTORY_MOBILE_AUTOLOAD_ROOT_MARGIN : DIRECTORY_AUTOLOAD_ROOT_MARGIN;
+  }
+
   function ensureDirectoryAutoloadObserver() {
-    if (directoryAutoloadObserver || !("IntersectionObserver" in window)) {
+    const rootMargin = currentDirectoryAutoloadRootMargin();
+    if (directoryAutoloadObserver && directoryAutoloadObserverMargin === rootMargin) {
       return directoryAutoloadObserver;
     }
 
+    if (!("IntersectionObserver" in window)) {
+      return null;
+    }
+
+    directoryAutoloadObserver?.disconnect();
+    directoryAutoloadObserverMargin = rootMargin;
     directoryAutoloadObserver = new IntersectionObserver(
       (entries) => {
         const categoriesToLoad = new Set();
@@ -2144,7 +2111,7 @@
         });
         renderDirectory();
       },
-      { rootMargin: DIRECTORY_AUTOLOAD_ROOT_MARGIN }
+      { rootMargin }
     );
 
     return directoryAutoloadObserver;
@@ -2299,7 +2266,6 @@
     syncSearchInputs(nextValue, settings.sourceInput);
     renderHotGrid();
     renderDirectory();
-    observeToolIcons(document);
     if (settings.syncUrl) {
       syncDirectorySearchUrl(nextValue);
     }
@@ -2825,11 +2791,24 @@
   }
 
   function directoryRenderSignature() {
-    return [trimmedSearchValue(state.query).toLowerCase(), state.activeCategory, state.activePricing].join("|");
+    return [
+      trimmedSearchValue(state.query).toLowerCase(),
+      state.activeCategory,
+      state.activePricing,
+      isCompactDirectoryViewport() ? "mobile" : "desktop"
+    ].join("|");
+  }
+
+  function currentDirectoryShortlistCount() {
+    return isCompactDirectoryViewport() ? DIRECTORY_MOBILE_SHORTLIST_COUNT : DIRECTORY_SHORTLIST_COUNT;
   }
 
   function currentDirectoryPreviewCount() {
-    return state.activeCategory === "All" ? DIRECTORY_SECTION_PREVIEW_COUNT : DIRECTORY_FOCUSED_SECTION_PREVIEW_COUNT;
+    if (state.activeCategory === "All") {
+      return isCompactDirectoryViewport() ? DIRECTORY_MOBILE_SECTION_PREVIEW_COUNT : DIRECTORY_SECTION_PREVIEW_COUNT;
+    }
+
+    return isCompactDirectoryViewport() ? DIRECTORY_MOBILE_FOCUSED_SECTION_PREVIEW_COUNT : DIRECTORY_FOCUSED_SECTION_PREVIEW_COUNT;
   }
 
   function ensureDirectoryVisibleCounts() {
@@ -3776,7 +3755,6 @@
         })
       )
       .join("");
-    observeToolIcons(ui.hotGrid);
   }
 
   function miniTool(tool, note) {
@@ -4301,6 +4279,7 @@
     }
 
     ensureDirectoryVisibleCounts();
+    const isCompact = isCompactDirectoryViewport();
     const items = filteredTools();
     const itemsByCategory = new Map();
 
@@ -4360,7 +4339,7 @@
             ${visibleCategories
               .map(({ category, items: categoryItems }) => {
                 const topNames = categoryItems
-                  .slice(0, 4)
+                  .slice(0, isCompact ? 3 : 4)
                   .map((tool) => tool.name)
                   .join(" · ");
                 const lead = categoryItems[0];
@@ -4395,8 +4374,12 @@
           const visibleCount = directoryVisibleCount(category, categoryItems.length);
           const remainingCount = Math.max(0, categoryItems.length - visibleCount);
           const statusText = remainingCount
-            ? `Showing ${visibleCount} of ${categoryItems.length} tools in this lane. More load automatically as you scroll.`
-            : `Showing all ${categoryItems.length} tools in this lane.`;
+            ? (isCompact
+                ? `${visibleCount}/${categoryItems.length} shown. More tools load automatically.`
+                : `Showing ${visibleCount} of ${categoryItems.length} tools in this lane. More load automatically as you scroll.`)
+            : (isCompact
+                ? `All ${categoryItems.length} tools are shown.`
+                : `Showing all ${categoryItems.length} tools in this lane.`);
 
           return `
             <section class="directory-category-section" id="directory-section-${slugify(category)}" data-directory-category="${category}">
@@ -4416,7 +4399,7 @@
                       id: slugify(`${category}-${tool.name}`),
                       meta: tool.pricing,
                       summary: tool.summary,
-                      summaryLength: 96
+                      summaryLength: isCompact ? 72 : 96
                     })
                   )
                   .join("")}
@@ -4425,7 +4408,7 @@
                 <span class="directory-section-status">${statusText}</span>
                 ${remainingCount
                   ? `
-                    <span class="directory-section-autoload">Loading the next ${Math.min(DIRECTORY_SECTION_LOAD_STEP, remainingCount)} tools as you get near the end.</span>
+                    <span class="directory-section-autoload">${isCompact ? `Next ${Math.min(DIRECTORY_SECTION_LOAD_STEP, remainingCount)} load near the end.` : `Loading the next ${Math.min(DIRECTORY_SECTION_LOAD_STEP, remainingCount)} tools as you get near the end.`}</span>
                     <span class="directory-autoload-sentinel" data-directory-autoload="${escapeAttribute(category)}" aria-hidden="true"></span>
                   `
                   : ""}
@@ -4437,22 +4420,19 @@
     }
 
     ui.directoryGrid.innerHTML = items
-      .slice(0, DIRECTORY_SHORTLIST_COUNT)
+      .slice(0, currentDirectoryShortlistCount())
       .map((tool, index) =>
         toolCard(tool, {
           className: "directory-item",
           id: slugify(tool.name),
           meta: tool.pricing,
           summary: tool.recommendation,
-          summaryLength: 102,
+          summaryLength: isCompact ? 80 : 102,
           iconOptions: index < 6 ? { eager: true } : null
         })
       )
       .join("");
 
-    observeToolIcons(ui.directoryOverviewGrid);
-    observeToolIcons(ui.directoryGrid);
-    observeToolIcons(ui.directorySections);
     observeDirectoryAutoload();
   }
 
@@ -4867,7 +4847,6 @@
     renderPromptLibrary();
     renderDirectoryFilters();
     renderDirectory();
-    observeToolIcons(document);
     refreshTooltipDirections();
   }
 

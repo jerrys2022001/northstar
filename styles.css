@@ -2566,6 +2566,8 @@ body[data-page="home"] .link-button:focus-visible {
   text-align: left;
   cursor: pointer;
   transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+  content-visibility: auto;
+  contain-intrinsic-size: 84px;
 }
 
 .directory-overview-row:hover,
@@ -2738,6 +2740,9 @@ body[data-page="home"] .link-button:focus-visible {
   box-shadow: none;
   min-height: 226px;
   height: 100%;
+  content-visibility: auto;
+  contain: layout paint style;
+  contain-intrinsic-size: 226px;
 }
 
 .directory-head {
@@ -4931,6 +4936,31 @@ body[data-page="home"] .news-feature-card .news-excerpt {
 
   .directory-overview-row-main {
     grid-row: auto;
+  }
+
+  .directory-shortlist-note,
+  .directory-section-autoload {
+    text-align: left;
+  }
+
+  .directory-item {
+    min-height: 176px;
+    contain-intrinsic-size: 176px;
+  }
+
+  .directory-item .tool-icon-wrap,
+  .directory-item .tool-icon-shell {
+    width: 52px;
+    height: 52px;
+  }
+
+  .directory-item .tool-icon-shell img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .directory-section-footer {
+    align-items: flex-start;
   }
 
   .topbar,
