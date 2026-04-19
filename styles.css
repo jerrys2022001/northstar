@@ -4943,9 +4943,33 @@ body[data-page="home"] .news-feature-card .news-excerpt {
     text-align: left;
   }
 
+  .directory-overview-row,
   .directory-item {
-    min-height: 176px;
-    contain-intrinsic-size: 176px;
+    content-visibility: visible;
+    contain-intrinsic-size: auto;
+  }
+
+  .directory-item {
+    min-height: 164px;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    contain: none;
+    padding-right: 58px;
+  }
+
+  .directory-item .tool-card-head {
+    align-items: center;
+  }
+
+  .directory-item .tool-badge {
+    padding: 3px 8px;
+    font-size: 0.7rem;
+  }
+
+  .directory-item .tool-summary {
+    line-height: 1.5;
   }
 
   .directory-item .tool-icon-wrap,
