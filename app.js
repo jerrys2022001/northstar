@@ -365,6 +365,162 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-04-19",
+    "label": "April 19, 2026",
+    "items": [
+      {
+        "id": "aws-openai-strategic-partnership-apr19",
+        "category": "Product Updates",
+        "title": "AWS and OpenAI announce multi-year strategic partnership",
+        "source": "About Amazon",
+        "summary": "AWS and OpenAI announced a multi-year partnership that will put advanced OpenAI workloads on AWS infrastructure as the companies deepen their cloud relationship.",
+        "href": "https://www.aboutamazon.com/news/aws/aws-open-ai-workloads-compute-infrastructure",
+        "imageUrl": "https://assets.aboutamazon.com/dims4/default/1704cd2/2147483647/strip/true/crop/1999x1000+0+42/resize/1200x600!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fa3%2Fce%2F7e1631f748beb430293b8a60d80c%2Foai-aws-hero.png",
+        "excerpt": "Why it matters: infrastructure alliances are becoming a strategic lever for model labs trying to secure compute and distribution at scale."
+      },
+      {
+        "id": "anthropic-google-broadcom-compute-apr19",
+        "category": "Product Updates",
+        "title": "Anthropic expands partnership with Google and Broadcom for next-generation compute",
+        "source": "Anthropic",
+        "summary": "Anthropic said it is expanding work with Google and Broadcom to secure multiple gigawatts of next-generation compute for future model development and deployment.",
+        "href": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+        "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Growth&backgroundColor=fig",
+        "excerpt": "Why it matters: compute access remains one of the clearest strategic bottlenecks in the frontier model race."
+      },
+      {
+        "id": "anthropic-claude-partner-network-100m-apr19",
+        "category": "Product Updates",
+        "title": "Anthropic invests $100 million into the Claude Partner Network",
+        "source": "Anthropic",
+        "summary": "Anthropic launched the Claude Partner Network with a $100 million commitment to help partner organizations support enterprise adoption of Claude.",
+        "href": "https://www.anthropic.com/news/claude-partner-network",
+        "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeBuild&backgroundColor=fig",
+        "excerpt": "Why it matters: frontier model vendors are scaling through service ecosystems and implementation partners, not just direct product sales."
+      },
+      {
+        "id": "github-copilot-cloud-agent-research-plan-apr19",
+        "category": "Agents",
+        "title": "GitHub broadens Copilot cloud agent from PR tasks to research and planning work",
+        "source": "GitHub Changelog",
+        "summary": "GitHub expanded Copilot cloud agent beyond pull-request workflows so it can take on more research, planning, and coding work before changes ever reach review.",
+        "href": "https://github.blog/changelog/2026-03-31-research-plan-and-code-with-copilot-cloud-agent/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/03/570597591-85e373f2-2dad-4ea8-89a0-91d80e3d7bff.png",
+        "excerpt": "Why it matters: coding assistants are shifting from inline helpers to longer-horizon agents that can own more of the software loop."
+      },
+      {
+        "id": "google-prepay-gemini-api-spend-control-apr19",
+        "category": "Developer Tools",
+        "title": "Prepay for the Gemini API to get more control over your spend",
+        "source": "Google Blog",
+        "summary": "Google introduced prepaid Gemini API credits so developers can manage budgets more tightly and get clearer control over AI infrastructure spend before usage accrues.",
+        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/prepay-gemini-api/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/API_Hero_409.width-200.format-webp.webp",
+        "excerpt": "Why it matters: as model costs become a line-item decision, pricing controls and billing flexibility are becoming product features in their own right."
+      },
+      {
+        "id": "google-colab-learn-mode-coding-tutor-apr19",
+        "category": "Developer Tools",
+        "title": "Introducing Learn Mode: your personal coding tutor in Google Colab",
+        "source": "Google Blog",
+        "summary": "Google launched Learn Mode in Colab to guide users through code and notebook workflows with more tutor-like step-by-step support instead of only returning direct answers.",
+        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/colab-updates/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ColabLearning_hero.width-200.format-webp.webp",
+        "excerpt": "Why it matters: AI coding products are increasingly differentiating on teaching and guidance, not just raw task completion."
+      },
+      {
+        "id": "google-chrome-skills-one-click-prompts-apr19",
+        "category": "Developer Tools",
+        "title": "Turn your best AI prompts into one-click tools in Chrome",
+        "source": "Google Blog",
+        "summary": "Google added a new Chrome workflow that turns saved prompts into reusable one-click tools so users can trigger repeatable AI actions without rebuilding prompts each time.",
+        "href": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chrome_Skills_Asset_5_Library_V2_.width-100.format-webp.webp",
+        "excerpt": "Why it matters: browser-native AI is shifting from one-off prompting toward lightweight workflow automation that users can keep close to where work already happens."
+      },
+      {
+        "id": "github-copilot-sdk-preview-builders-apr19",
+        "category": "Developer Tools",
+        "title": "Copilot SDK enters public preview for app and workflow builders",
+        "source": "GitHub Changelog",
+        "summary": "GitHub opened the Copilot SDK in public preview so teams can embed Copilot's agentic capabilities more directly into their own apps, workflows, and platform services.",
+        "href": "https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/SDK_Header_02.jpg",
+        "excerpt": "Why it matters: agent platforms are moving from standalone products into infrastructure that other software teams can wire into their own surfaces."
+      },
+      {
+        "id": "github-copilot-org-custom-instructions-ga-apr19",
+        "category": "Developer Tools",
+        "title": "GitHub makes organization-wide Copilot custom instructions generally available",
+        "source": "GitHub Changelog",
+        "summary": "GitHub made organization custom instructions generally available for Copilot Business and Enterprise so admins can steer default assistant behavior across teams.",
+        "href": "https://github.blog/changelog/2026-04-02-copilot-organization-custom-instructions-are-generally-available/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/572677531-cfdf4f07-d114-4890-a5b6-f29375dea4fe.jpeg",
+        "excerpt": "Why it matters: enterprise AI rollouts increasingly depend on shared defaults and governance controls, not just individual user prompts."
+      },
+      {
+        "id": "github-copilot-cloud-agent-usage-metrics-apr19",
+        "category": "Developer Tools",
+        "title": "GitHub adds cloud-agent activity into Copilot usage metrics",
+        "source": "GitHub Changelog",
+        "summary": "GitHub updated Copilot usage metrics so cloud-agent active user counts roll into reporting, giving teams a clearer read on how agent workflows are actually being adopted.",
+        "href": "https://github.blog/changelog/2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/576797226-760096e8-6f39-4293-94f6-b896738c1fcc.jpeg",
+        "excerpt": "Why it matters: once agent deployments grow, measurement and accountability become as important as model capability."
+      },
+      {
+        "id": "mit-shass-future-education-ai-apr19",
+        "category": "Policy",
+        "title": "Q&A: MIT SHASS and the future of education in the age of AI",
+        "source": "MIT News",
+        "summary": "MIT's School of Humanities, Arts, and Social Sciences argued that human understanding and broad education matter even more as AI reshapes how students learn and work.",
+        "href": "https://news.mit.edu/2026/qa-mit-shass-and-future-of-education-age-ai-0414",
+        "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-shass-agustin-rayo.jpg",
+        "excerpt": "Why it matters: the education debate around AI is moving from novelty tools to the long-term shape of how people think, learn, and reason."
+      },
+      {
+        "id": "anthropic-institute-launch-apr19",
+        "category": "Policy",
+        "title": "Introducing The Anthropic Institute",
+        "source": "Anthropic",
+        "summary": "Anthropic launched The Anthropic Institute as a new effort focused on preparing for the broader societal challenges created by more powerful AI systems.",
+        "href": "https://www.anthropic.com/news/the-anthropic-institute",
+        "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Book&backgroundColor=oat",
+        "excerpt": "Why it matters: labs are increasingly building public-policy and governance arms alongside product and research teams."
+      },
+      {
+        "id": "google-gemini-3d-models-charts-apr19",
+        "category": "Creative AI",
+        "title": "Generate 3D models and interactive charts with the Gemini app",
+        "source": "Google Blog",
+        "summary": "Google expanded the Gemini app so users can create 3D models and interactive charts directly from prompts, pushing the product further into visual and data-rich creation tasks.",
+        "href": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/1_Visualize_how_fractals_work.width-100.format-webp.webp",
+        "excerpt": "Why it matters: consumer AI assistants are steadily broadening from text chat into richer visual outputs that can slot into real workflows faster."
+      },
+      {
+        "id": "mit-compressm-leaner-faster-models-apr19",
+        "category": "Research Workflows",
+        "title": "New technique makes AI models leaner and faster while they are still learning",
+        "source": "MIT News",
+        "summary": "MIT researchers introduced CompreSSM, a method that trims model complexity during training so AI systems can keep learning while becoming leaner and more efficient.",
+        "href": "https://news.mit.edu/2026/new-technique-makes-ai-models-leaner-faster-while-still-learning-0409",
+        "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-csail-compressm.jpg",
+        "excerpt": "Why it matters: efficiency work is becoming a core frontier in AI because it cuts compute cost without waiting for the next giant model release."
+      },
+      {
+        "id": "aws-modmed-ai-powered-practice-apr19",
+        "category": "Research Workflows",
+        "title": "ModMed selects AWS as the cloud provider for the AI-powered practice",
+        "source": "About Amazon",
+        "summary": "Amazon said ModMed is standardizing on AWS to support an AI-powered practice stack built for specialty medicine workflows and clinical software operations.",
+        "href": "https://press.aboutamazon.com/aws/2026/4/modmed-selects-aws-as-the-cloud-provider-for-the-ai-powered-practice",
+        "imageUrl": "https://assets.aboutamazon.com/dims4/default/e2df0bd/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fb3%2F79%2Fb0e61293471b9d35c5ff02e46f37%2Famazon-logo-hero-images-2024.jpg",
+        "excerpt": "Why it matters: healthcare AI adoption is increasingly tied to domain-specific software stacks rather than general-purpose model demos."
+      }
+    ]
+  },
+  {
     "date": "2026-04-18",
     "label": "April 18, 2026",
     "items": [
@@ -2065,7 +2221,12 @@
   }
 
   function isCompactDirectoryViewport() {
-    return window.matchMedia ? window.matchMedia("(max-width: 820px)").matches : (window.innerWidth || 0) <= 820;
+    const viewportWidth = window.innerWidth || 0;
+    const isNarrowViewport = window.matchMedia ? window.matchMedia("(max-width: 820px)").matches : viewportWidth <= 820;
+    const isTouchCompactViewport = window.matchMedia
+      ? window.matchMedia("(max-width: 1120px) and (hover: none) and (pointer: coarse)").matches
+      : viewportWidth <= 1120;
+    return isNarrowViewport || isTouchCompactViewport;
   }
 
   function currentDirectoryAutoloadRootMargin() {
