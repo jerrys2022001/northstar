@@ -2174,7 +2174,11 @@
   }
 
   function iconSourceList(tool) {
+    const preferredSource = tool.iconFile
+      ? localIconPath(String(tool.iconFile).replace(/^assets\/tool-icons\//, ""))
+      : "";
     const sources = [
+      preferredSource,
       localIconPath(`${tool.id}.png`),
       localIconPath(`${tool.id}.webp`),
       localIconPath(`${tool.id}.jpg`),
