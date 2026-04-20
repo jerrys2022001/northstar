@@ -365,6 +365,112 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-04-20",
+    "label": "April 20, 2026",
+    "items": [
+      {
+        "id": "openai-cloudflare-agent-cloud-apr20",
+        "category": "Agents",
+        "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+        "source": "OpenAI",
+        "summary": "OpenAI said Cloudflare is bringing frontier OpenAI models into Agent Cloud so enterprises can deploy GPT-5.4 and Codex-powered agents inside production-ready edge and sandbox workflows.",
+        "href": "https://openai.com/index/cloudflare-openai-agent-cloud/",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6g5hzhOoHM68zGjNYQ5H1D/344bc6c2f06a8b0793e9becffd4c8bc9/Cloudflare_OpenAI_art_card_1x1.png?fm=webp&q=90&w=3840",
+        "excerpt": "Why it matters: enterprise agent adoption is shifting from demos into hosted infrastructure where deployment, governance, and latency matter as much as model access."
+      },
+      {
+        "id": "google-gemini-api-tooling-update-apr20",
+        "category": "Agents",
+        "title": "Gemini API gets a tooling update with richer agent workflow controls",
+        "source": "Google Blog",
+        "summary": "Google added context circulation, mixed tool calling, and Google Maps grounding for Gemini so developers can build more capable agent workflows without stitching together as much orchestration logic by hand.",
+        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tooling-updates/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini_api_qh8fnpL.png",
+        "excerpt": "Why it matters: agent builders increasingly compete on workflow plumbing and tool orchestration, not only on raw model quality."
+      },
+      {
+        "id": "github-remote-cli-sessions-apr20",
+        "category": "Agents",
+        "title": "Remote control CLI sessions on web and mobile enter public preview",
+        "source": "GitHub Changelog",
+        "summary": "GitHub introduced remote control for Copilot CLI sessions so developers can monitor, steer, and continue an active coding-agent session from github.com or the GitHub mobile apps.",
+        "href": "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/CLIOnTheGo_NewRelease_Header_v07.png?resize=2064%2C1096",
+        "excerpt": "Why it matters: coding agents are becoming persistent, cross-device workflows rather than tools that only live inside one local terminal window."
+      },
+      {
+        "id": "github-copilot-merge-conflicts-apr20",
+        "category": "Agents",
+        "title": "GitHub lets Copilot cloud agent fix merge conflicts in three clicks",
+        "source": "GitHub Changelog",
+        "summary": "GitHub added a new Fix with Copilot flow on github.com so Copilot cloud agent can resolve merge conflicts, validate the branch, and push the updated result from its own cloud workspace.",
+        "href": "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/575938695-8e566049-d128-4a4c-86e2-a122346dcfaa.jpeg?resize=2064%2C1096",
+        "excerpt": "Why it matters: software teams increasingly want coding agents to own annoying workflow repair work, not just code generation."
+      },
+      {
+        "id": "openai-trusted-access-cyber-apr20",
+        "category": "Safety",
+        "title": "Trusted access for the next era of cyber defense",
+        "source": "OpenAI",
+        "summary": "OpenAI detailed how it is scaling Trusted Access for Cyber, including expanded defender verification and a more cyber-permissive GPT-5.4-Cyber path for higher-trust use cases.",
+        "href": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/50UlqbAamecQ6xsNAt3Qu0/8f6f87823b796b6860606a4a42efe4af/Scaling_our_trusted_access_program_for_cyber_defense_1x1.png?fm=webp&q=90&w=3840",
+        "excerpt": "Why it matters: advanced cyber models are being rolled out through increasingly granular access tiers instead of one-size-fits-all availability."
+      },
+      {
+        "id": "openai-cyber-ecosystem-apr20",
+        "category": "Safety",
+        "title": "OpenAI expands its cyber defense ecosystem with more defenders and grants",
+        "source": "OpenAI",
+        "summary": "OpenAI expanded its Trusted Access for Cyber efforts with new enterprise security participants, broader grant support, and more pathways for defenders working on critical digital infrastructure.",
+        "href": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1TzwLMgMx0r6t1GQsFAiHH/ff5d38b5bc11d22a2442bb0f151ee83f/accelerating-cyber-defense-ecosystem-1x1.png?fm=webp&q=90&w=3840",
+        "excerpt": "Why it matters: frontier AI deployment is increasingly tied to who can safely use more capable models and how fast those safeguards can scale with demand."
+      },
+      {
+        "id": "mit-overconfident-llms-apr20",
+        "category": "Safety",
+        "title": "A better method for identifying overconfident large language models",
+        "source": "MIT News",
+        "summary": "MIT researchers introduced a method for spotting when language models are overconfident, aiming to give developers a better way to judge uncertainty before those systems are trusted in higher-stakes settings.",
+        "href": "https://news.mit.edu/2026/better-method-identifying-overconfident-large-language-models-0319",
+        "imageUrl": "https://news.mit.edu/sites/default/files/download/202603/MIT-LLMUncertainty-01-press.jpg",
+        "excerpt": "Why it matters: model adoption increasingly depends on better uncertainty signals, not just better benchmark scores."
+      },
+      {
+        "id": "anthropic-project-glasswing-apr20",
+        "category": "Safety",
+        "title": "Anthropic launches Project Glasswing to secure critical software with frontier AI",
+        "source": "Anthropic",
+        "summary": "Anthropic launched Project Glasswing to give critical software defenders early access to Claude Mythos Preview and broader support for vulnerability discovery and remediation work.",
+        "href": "https://www.anthropic.com/project/glasswing",
+        "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/99ba671b072be2357accfbe53a46fe230ec55974-896x109.svg",
+        "excerpt": "Why it matters: frontier labs are using gated deployments and industry coalitions to push advanced cybersecurity capability toward defense before offense catches up."
+      },
+      {
+        "id": "openai-child-safety-blueprint-apr20",
+        "category": "Policy",
+        "title": "OpenAI introduces the Child Safety Blueprint",
+        "source": "OpenAI",
+        "summary": "OpenAI published a new child-safety framework focused on AI-enabled exploitation risks, combining policy proposals, reporting improvements, and safety-by-design measures.",
+        "href": "https://openai.com/index/introducing-child-safety-blueprint/",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5zGHUj1XpRugjiLTazgjCE/711bf4de1f14a1b2708ab1279a4a1b0e/Frame__9_.png?fm=webp&q=90&w=3840",
+        "excerpt": "Why it matters: AI providers are pairing model launches with more explicit policy and enforcement frameworks for high-risk misuse domains."
+      },
+      {
+        "id": "mit-warehouse-robot-traffic-apr20",
+        "category": "Research Workflows",
+        "title": "AI system learns to keep warehouse robot traffic running smoothly",
+        "source": "MIT News",
+        "summary": "MIT researchers built a learning system that helps warehouse robots avoid traffic jams and keep more autonomous machines moving efficiently through busy fulfillment environments.",
+        "href": "https://news.mit.edu/2026/ai-system-keeps-warehouse-robot-traffic-running-smoothly-0326",
+        "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-AI-Robot-Traffic-01-press_0.jpg",
+        "excerpt": "Why it matters: practical AI gains often come from making robotics systems more reliable inside real operational bottlenecks rather than from headline model launches alone."
+      }
+    ]
+  },
+  {
     "date": "2026-04-19",
     "label": "April 19, 2026",
     "items": [
@@ -615,16 +721,6 @@
         "excerpt": "Why it matters: enterprise platforms are racing to become agent-ready backends instead of forcing every workflow through a browser UI."
       },
       {
-        "id": "openai-cyber-defense-ecosystem-apr18",
-        "category": "Safety",
-        "title": "OpenAI expands its cyber defense ecosystem with grants, partners, and trusted access",
-        "source": "OpenAI",
-        "summary": "OpenAI outlined a broader cyber defense push spanning grants, security partners, and a trusted-access structure meant to widen defensive use while preserving safeguards.",
-        "href": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
-        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/50UlqbAamecQ6xsNAt3Qu0/8f6f87823b796b6860606a4a42efe4af/Scaling_our_trusted_access_program_for_cyber_defense_1x1.png?fm=webp&q=90&w=3840",
-        "excerpt": "Why it matters: frontier model providers are turning security access and ecosystem design into a product surface of their own."
-      },
-      {
         "id": "openai-gpt-rosalind-preview-apr18",
         "category": "Research Workflows",
         "title": "OpenAI previews GPT-Rosalind for life sciences research and drug discovery",
@@ -854,16 +950,6 @@
     "date": "2026-04-15",
     "label": "April 15, 2026",
     "items": [
-      {
-        "id": "openai-gpt-54-cyber-tac-apr15",
-        "category": "Safety",
-        "title": "OpenAI opens GPT-5.4-Cyber through a broader trusted-access program",
-        "source": "OpenAI Blog",
-        "summary": "OpenAI is expanding Trusted Access for Cyber and introducing GPT-5.4-Cyber, a cyber-permissive GPT-5.4 variant for verified defensive security teams.",
-        "href": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
-        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
-        "excerpt": "Signal: OpenAI is moving from blanket restriction toward verified-access deployment for high-capability defensive cyber models."
-      },
       {
         "id": "axios-openai-cyber-access-apr15",
         "category": "Safety",
@@ -1099,15 +1185,6 @@
         "summary": "Google's new notebooks layer makes Gemini feel more useful for recurring research and presentation work by turning one-off chats into reusable, project-based context.",
         "href": "https://www.theneurondaily.com/p/chatgpt-gets-a-100-tier#notebooklm-in-gemini",
         "excerpt": "Why it matters: persistent context is one of the most practical product levers for keeping users inside one AI ecosystem."
-      },
-      {
-        "id": "openai-child-safety-blueprint-apr10",
-        "category": "Safety",
-        "title": "OpenAI expands its trust narrative with the Child Safety Blueprint",
-        "source": "OpenAI Blog",
-        "summary": "OpenAI's latest safety framework pushes ChatGPT's public story beyond launches and pricing into reporting systems, enforcement coordination, and safer default behavior.",
-        "href": "https://openai.com/index/introducing-child-safety-blueprint/",
-        "excerpt": "Why it matters: frontier labs are increasingly competing on visible safety infrastructure as well as model capability."
       },
       {
         "id": "adobe-student-spaces-apr10",
