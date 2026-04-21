@@ -1,6 +1,112 @@
 {
-  "updatedAt": "2026-04-20T09:46:10",
+  "updatedAt": "2026-04-21T09:31:28",
   "groups": [
+    {
+      "date": "2026-04-21",
+      "label": "April 21, 2026",
+      "items": [
+        {
+          "id": "google-gemini-cli-subagents-apr21",
+          "category": "Developer Tools",
+          "title": "Subagents have arrived in Gemini CLI",
+          "source": "Google Developers Blog",
+          "summary": "Google added subagent support to Gemini CLI so developers can delegate narrower tasks inside the command-line workflow instead of relying on one long monolithic session.",
+          "href": "https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/",
+          "imageUrl": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_subagents_hero_image.original.png",
+          "excerpt": "Why it matters: coding agents are moving toward multi-agent orchestration inside the developer tools teams already use."
+        },
+        {
+          "id": "github-copilot-plans-individuals-apr21",
+          "category": "Product Updates",
+          "title": "Changes to GitHub Copilot plans for individuals",
+          "source": "GitHub Changelog",
+          "summary": "GitHub detailed plan changes for individual Copilot users, updating how model access, premium capabilities, and usage are packaged across paid tiers.",
+          "href": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
+          "imageUrl": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-deprecations.jpg",
+          "excerpt": "Why it matters: pricing and packaging shifts often reveal where real demand and cost pressure are landing in AI coding."
+        },
+        {
+          "id": "google-adk-skills-guide-apr21",
+          "category": "Agents",
+          "title": "Developer's guide to building ADK agents with skills",
+          "source": "Google Developers Blog",
+          "summary": "Google published a practical guide for wiring reusable skills into ADK agents, showing how teams can structure, compose, and extend agent behaviors more systematically.",
+          "href": "https://developers.googleblog.com/en/developers-guide-to-building-adk-agents-with-skills/",
+          "imageUrl": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleI_O_2025_Google_AI_Studio_-_4.original.png",
+          "excerpt": "Why it matters: agent builders increasingly differentiate on reusable skills and orchestration patterns, not just on model choice."
+        },
+        {
+          "id": "github-copilot-visual-studio-march-apr21",
+          "category": "Developer Tools",
+          "title": "Copilot in Visual Studio: March update",
+          "source": "GitHub Changelog",
+          "summary": "GitHub rolled new Copilot improvements into Visual Studio, adding model and chat workflow updates that keep more coding assistance inside the IDE.",
+          "href": "https://github.blog/changelog/2026-04-02-github-copilot-in-visual-studio-march-update/",
+          "imageUrl": "https://github.blog/wp-content/themes/github-2021-child/assets/img/featured-v3-new-releases.svg",
+          "excerpt": "Why it matters: IDE-native Copilot updates show how the coding-agent race is expanding beyond the browser and terminal into incumbent desktop workflows."
+        },
+        {
+          "id": "anthropic-firefox-security-apr21",
+          "category": "Safety",
+          "title": "Partnering with Mozilla to improve Firefox's security",
+          "source": "Anthropic",
+          "summary": "Anthropic said it is working with Mozilla to strengthen Firefox security workflows with Claude-backed assistance for threat analysis and defensive review.",
+          "href": "https://www.anthropic.com/news/mozilla-firefox-security",
+          "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Desktop&backgroundColor=coral",
+          "excerpt": "Why it matters: frontier model vendors are pushing deeper into real security operations where trust and guardrails matter as much as raw capability."
+        },
+        {
+          "id": "mit-autonomous-systems-ethics-apr21",
+          "category": "Policy",
+          "title": "Evaluating the ethics of autonomous systems",
+          "source": "MIT News",
+          "summary": "MIT researchers outlined a framework for evaluating autonomous systems through an ethics lens, focusing on how AI systems are assessed before higher-stakes deployment.",
+          "href": "https://news.mit.edu/2026/evaluating-autonomous-systems-ethics-0402",
+          "imageUrl": "assets/news/home-briefing/2026-04-21/semiconductor-0fd8099e8d5afd55.jpg",
+          "excerpt": "Why it matters: governance pressure is rising alongside capability, so evaluation frameworks are becoming part of the product stack."
+        },
+        {
+          "id": "openai-hyatt-enterprise-adoption-apr21",
+          "category": "Productivity",
+          "title": "OpenAI helps Hyatt advance AI among colleagues",
+          "source": "OpenAI",
+          "summary": "OpenAI said Hyatt is extending ChatGPT Enterprise across more employee workflows to speed up research, writing, and operational knowledge sharing.",
+          "href": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+          "imageUrl": "assets/news/home-briefing/2026-04-21/industry-9647c8d154c78f6b.webp",
+          "excerpt": "Why it matters: enterprise AI adoption is increasingly measured by organization-wide usage, not just isolated pilot teams."
+        },
+        {
+          "id": "aws-infor-manufacturing-agents-apr21",
+          "category": "Productivity",
+          "title": "Infor and AWS bring agentic AI to manufacturing at enterprise scale",
+          "source": "About Amazon",
+          "summary": "Infor and AWS said they are bringing agentic AI into manufacturing software flows so teams can connect enterprise data, automation, and operations decisions more directly.",
+          "href": "https://press.aboutamazon.com/aws/2026/4/infor-and-aws-bring-agentic-ai-to-manufacturing-at-enterprise-scale",
+          "imageUrl": "assets/news/home-briefing/2026-04-21/ai-95d05136322902a2.jpg",
+          "excerpt": "Why it matters: enterprise AI is shifting from standalone copilots toward agents embedded in line-of-business systems."
+        },
+        {
+          "id": "mit-data-center-performance-apr21",
+          "category": "Research Workflows",
+          "title": "Helping data centers deliver higher performance with less hardware",
+          "source": "MIT News",
+          "summary": "MIT researchers described a method for improving data-center performance with less hardware, aiming to cut system overhead while keeping AI infrastructure efficient at scale.",
+          "href": "https://news.mit.edu/2026/helping-data-centers-deliver-higher-performance-less-hardware-0407",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-DataCenter-Variable-01-press.jpg",
+          "excerpt": "Why it matters: AI infrastructure gains increasingly come from efficiency work that squeezes more throughput from existing compute."
+        },
+        {
+          "id": "aws-shi-indiaai-mission-apr21",
+          "category": "Infrastructure",
+          "title": "AWS collaborates with SHI India to enable AI infrastructure for IndiaAI Mission",
+          "source": "About Amazon",
+          "summary": "AWS and SHI India said they will support IndiaAI Mission infrastructure with cloud and AI stack capacity aimed at expanding national access to model training and deployment resources.",
+          "href": "https://press.aboutamazon.com/aws/2026/4/aws-collaborates-with-shi-india-to-enable-ai-infrastructure-for-indiaai-mission",
+          "imageUrl": "assets/news/home-briefing/2026-04-21/ai-29a5991b5dde7cfd.png",
+          "excerpt": "Why it matters: compute availability remains a bottleneck, so infrastructure deals are becoming strategic AI news in their own right."
+        }
+      ]
+    },
     {
       "date": "2026-04-20",
       "label": "April 20, 2026",
