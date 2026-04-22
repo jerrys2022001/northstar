@@ -4946,6 +4946,18 @@ body[data-page="home"] .news-feature-card .news-excerpt {
     grid-template-columns: 1fr;
   }
 
+  .directory-overview-scroll {
+    gap: 10px;
+    max-height: 296px;
+    padding-right: 0;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .directory-overview-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
   .directory-overview-header {
     flex-direction: column;
     align-items: flex-start;
@@ -4961,6 +4973,44 @@ body[data-page="home"] .news-feature-card .news-excerpt {
 
   .directory-overview-row-main {
     grid-row: auto;
+    gap: 5px;
+    width: 100%;
+  }
+
+  .directory-overview-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    min-height: auto;
+    padding: 14px;
+  }
+
+  .directory-overview-row-title {
+    font-size: 1.04rem;
+    line-height: 1.2;
+  }
+
+  .directory-overview-row-copy {
+    font-size: 0.86rem;
+    line-height: 1.45;
+  }
+
+  .directory-overview-row-count {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.98rem;
+    line-height: 1.2;
+  }
+
+  .directory-overview-row-meta {
+    display: block;
+    width: 100%;
+    font-size: 0.82rem;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .directory-shortlist-note,
