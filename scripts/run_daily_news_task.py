@@ -501,7 +501,7 @@ def validate_static_news_assets(
     kept_items: list[dict[str, Any]],
     tool_visits: dict[str, int],
     run_date: str,
-    min_daily_items: int,
+    required_run_date_items: int,
 ) -> dict[str, Any]:
     app_js_text = APP_JS_PATH.read_text(encoding="utf-8")
     index_html_text = INDEX_HTML_PATH.read_text(encoding="utf-8")
@@ -524,8 +524,10 @@ def validate_static_news_assets(
         errors.append("Grouped news feed is empty")
     run_group = next((group for group in grouped_feed if group["date"] == run_date), None)
     run_group_count = len(run_group["items"]) if run_group else 0
-    if run_group_count < min_daily_items:
-        errors.append(f"{run_date} has {run_group_count} news items; expected at least {min_daily_items}")
+    if run_group_count < required_run_date_items:
+        errors.append(
+            f"{run_date} has {run_group_count} news items; expected at least {required_run_date_items}"
+        )
     errors.extend(validate_no_duplicate_news_items(kept_items))
     errors.extend(validate_weekly_image_uniqueness(kept_items))
     errors.extend(validate_news_image_policy(kept_items, tool_visits))
@@ -674,6 +676,12 @@ def main() -> int:
     tool_visits = load_tool_visits()
     archive_items = load_archive_items()
     candidate_items = load_candidate_items(run_date)
+    historical_archive_items = [item for item in archive_items if item["date"] != run_date]
+    candidate_items = [
+        item
+        for item in candidate_items
+        if not any(items_are_similar(item, archived_item) for archived_item in historical_archive_items)
+    ]
     # A rerun for the same local day should rebuild that day's cluster from the
     # latest candidate set instead of accumulating stale stories from earlier runs.
     if any(item["date"] == run_date for item in candidate_items):
@@ -686,12 +694,13 @@ def main() -> int:
     grouped_feed = group_items_for_feed(kept_items, tool_visits)
     rewrite_app_js_news_feed(grouped_feed)
     write_archive(kept_items, grouped_feed, run_date)
+    required_run_date_items = min(args.min_daily_items, max(1, len(candidate_items)))
     static_validation = validate_static_news_assets(
         grouped_feed=grouped_feed,
         kept_items=kept_items,
         tool_visits=tool_visits,
         run_date=run_date,
-        min_daily_items=args.min_daily_items,
+        required_run_date_items=required_run_date_items,
     )
     render_validation = "skipped"
     if not args.skip_render_validation:

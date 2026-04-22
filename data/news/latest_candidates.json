@@ -1,156 +1,60 @@
 {
-  "source": "Northstar official + authoritative daily scan",
-  "sourceUrl": "https://openai.com/news/",
-  "updatedAt": "2026-04-21T09:25:00+08:00",
+  "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
+  "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
+  "updatedAt": "2026-04-22T02:43:18+00:00",
+  "digestDate": "2026-04-22",
+  "timeZone": "Asia/Shanghai",
+  "requestedWindowHours": 24,
+  "effectiveWindowHours": 96,
+  "windowStart": "2026-04-18T10:42:04+08:00",
+  "windowEnd": "2026-04-22T10:42:04+08:00",
   "items": [
     {
-      "id": "github-copilot-plans-individuals-apr21",
-      "date": "2026-04-21",
-      "dateLabel": "April 21, 2026",
-      "category": "Product Updates",
-      "title": "Changes to GitHub Copilot plans for individuals",
-      "source": "GitHub Changelog",
-      "summary": "GitHub detailed plan changes for individual Copilot users, updating how model access, premium capabilities, and usage are packaged across paid tiers.",
-      "href": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
-      "excerpt": "Why it matters: pricing and packaging shifts often reveal where real demand and cost pressure are landing in AI coding.",
-      "imageUrl": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-deprecations.jpg",
-      "toolIds": [
-        "githubcopilot"
-      ]
-    },
-    {
-      "id": "google-gemini-cli-subagents-apr21",
-      "date": "2026-04-21",
-      "dateLabel": "April 21, 2026",
-      "category": "Developer Tools",
-      "title": "Subagents have arrived in Gemini CLI",
-      "source": "Google Developers Blog",
-      "summary": "Google added subagent support to Gemini CLI so developers can delegate narrower tasks inside the command-line workflow instead of relying on one long monolithic session.",
-      "href": "https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/",
-      "excerpt": "Why it matters: coding agents are moving toward multi-agent orchestration inside the developer tools teams already use.",
-      "imageUrl": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_subagents_hero_image.original.png",
+      "id": "3-new-ways-ads-advisor-is-making-google-ads-safe-97921ff3-apr22",
+      "date": "2026-04-22",
+      "dateLabel": "April 22, 2026",
+      "category": "Agents",
+      "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+      "source": "Google AI Blog",
+      "summary": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+      "href": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+      "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.max-600x600.format-webp.webp",
+      "publishedAt": "2026-04-21T14:30:00+00:00",
       "toolIds": [
         "gemini"
       ]
     },
     {
-      "id": "google-adk-skills-guide-apr21",
-      "date": "2026-04-21",
-      "dateLabel": "April 21, 2026",
-      "category": "Agents",
-      "title": "Developer's guide to building ADK agents with skills",
-      "source": "Google Developers Blog",
-      "summary": "Google published a practical guide for wiring reusable skills into ADK agents, showing how teams can structure, compose, and extend agent behaviors more systematically.",
-      "href": "https://developers.googleblog.com/en/developers-guide-to-building-adk-agents-with-skills/",
-      "excerpt": "Why it matters: agent builders increasingly differentiate on reusable skills and orchestration patterns, not just on model choice.",
-      "imageUrl": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleI_O_2025_Google_AI_Studio_-_4.original.png",
-      "toolIds": [
-        "agentdevelopmentkit"
-      ]
-    },
-    {
-      "id": "anthropic-firefox-security-apr21",
-      "date": "2026-04-21",
-      "dateLabel": "April 21, 2026",
-      "category": "Safety",
-      "title": "Partnering with Mozilla to improve Firefox's security",
-      "source": "Anthropic",
-      "summary": "Anthropic said it is working with Mozilla to strengthen Firefox security workflows with Claude-backed assistance for threat analysis and defensive review.",
-      "href": "https://www.anthropic.com/news/mozilla-firefox-security",
-      "excerpt": "Why it matters: frontier model vendors are pushing deeper into real security operations where trust and guardrails matter as much as raw capability.",
-      "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Desktop&backgroundColor=coral",
-      "toolIds": [
-        "firefoxsecurityai"
-      ]
-    },
-    {
-      "id": "mit-data-center-performance-apr21",
-      "date": "2026-04-21",
-      "dateLabel": "April 21, 2026",
-      "category": "Research Workflows",
-      "title": "Helping data centers deliver higher performance with less hardware",
-      "source": "MIT News",
-      "summary": "MIT researchers described a method for improving data-center performance with less hardware, aiming to cut system overhead while keeping AI infrastructure efficient at scale.",
-      "href": "https://news.mit.edu/2026/helping-data-centers-deliver-higher-performance-less-hardware-0407",
-      "excerpt": "Why it matters: AI infrastructure gains increasingly come from efficiency work that squeezes more throughput from existing compute.",
-      "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-DataCenter-Variable-01-press.jpg",
-      "toolIds": [
-        "datacenterstorageai"
-      ]
-    },
-    {
-      "id": "github-copilot-visual-studio-march-apr21",
-      "date": "2026-04-21",
-      "dateLabel": "April 21, 2026",
+      "id": "scaling-codex-to-enterprises-worldwide-d9639e2f-apr22",
+      "date": "2026-04-22",
+      "dateLabel": "April 22, 2026",
       "category": "Developer Tools",
-      "title": "Copilot in Visual Studio: March update",
-      "source": "GitHub Changelog",
-      "summary": "GitHub rolled new Copilot improvements into Visual Studio, adding model and chat workflow updates that keep more coding assistance inside the IDE.",
-      "href": "https://github.blog/changelog/2026-04-02-github-copilot-in-visual-studio-march-update/",
-      "excerpt": "Why it matters: IDE-native Copilot updates show how the coding-agent race is expanding beyond the browser and terminal into incumbent desktop workflows.",
-      "imageUrl": "https://github.blog/wp-content/themes/github-2021-child/assets/img/featured-v3-new-releases.svg",
+      "title": "Scaling Codex to enterprises worldwide",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+      "href": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6vVWsdD8Je8NBRf5rzcKgO/627fd8bf52395077f3ed200aaeb615b9/Frame.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-04-21T00:00:00+00:00",
       "toolIds": [
-        "copilotvisualstudio"
+        "chatgpt"
       ]
     },
     {
-      "id": "openai-hyatt-enterprise-adoption-apr21",
-      "date": "2026-04-21",
-      "dateLabel": "April 21, 2026",
-      "category": "Productivity",
+      "id": "openai-helps-hyatt-advance-ai-among-colleagues-5e9e3b87-apr22",
+      "date": "2026-04-22",
+      "dateLabel": "April 22, 2026",
+      "category": "Developer Tools",
       "title": "OpenAI helps Hyatt advance AI among colleagues",
-      "source": "OpenAI",
-      "summary": "OpenAI said Hyatt is extending ChatGPT Enterprise across more employee workflows to speed up research, writing, and operational knowledge sharing.",
+      "source": "OpenAI Blog",
+      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
       "href": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
-      "excerpt": "Why it matters: enterprise AI adoption is increasingly measured by organization-wide usage, not just isolated pilot teams.",
-      "imageUrl": "assets/news/home-briefing/2026-04-21/industry-9647c8d154c78f6b.webp",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1MeERIeoNc82SnZJ2iRVos/58f1b56cd3df77da092ed3ef877e5bf7/Frame__2_.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-04-20T00:00:00+00:00",
       "toolIds": [
-        "hyattgptenterprise"
-      ]
-    },
-    {
-      "id": "aws-infor-manufacturing-agents-apr21",
-      "date": "2026-04-21",
-      "dateLabel": "April 21, 2026",
-      "category": "Productivity",
-      "title": "Infor and AWS bring agentic AI to manufacturing at enterprise scale",
-      "source": "About Amazon",
-      "summary": "Infor and AWS said they are bringing agentic AI into manufacturing software flows so teams can connect enterprise data, automation, and operations decisions more directly.",
-      "href": "https://press.aboutamazon.com/aws/2026/4/infor-and-aws-bring-agentic-ai-to-manufacturing-at-enterprise-scale",
-      "excerpt": "Why it matters: enterprise AI is shifting from standalone copilots toward agents embedded in line-of-business systems.",
-      "imageUrl": "assets/news/home-briefing/2026-04-21/ai-95d05136322902a2.jpg",
-      "toolIds": [
-        "awsmanufacturingagents"
-      ]
-    },
-    {
-      "id": "aws-shi-indiaai-mission-apr21",
-      "date": "2026-04-21",
-      "dateLabel": "April 21, 2026",
-      "category": "Infrastructure",
-      "title": "AWS collaborates with SHI India to enable AI infrastructure for IndiaAI Mission",
-      "source": "About Amazon",
-      "summary": "AWS and SHI India said they will support IndiaAI Mission infrastructure with cloud and AI stack capacity aimed at expanding national access to model training and deployment resources.",
-      "href": "https://press.aboutamazon.com/aws/2026/4/aws-collaborates-with-shi-india-to-enable-ai-infrastructure-for-indiaai-mission",
-      "excerpt": "Why it matters: compute availability remains a bottleneck, so infrastructure deals are becoming strategic AI news in their own right.",
-      "imageUrl": "assets/news/home-briefing/2026-04-21/ai-29a5991b5dde7cfd.png",
-      "toolIds": [
-        "indiaaimissionaws"
-      ]
-    },
-    {
-      "id": "mit-autonomous-systems-ethics-apr21",
-      "date": "2026-04-21",
-      "dateLabel": "April 21, 2026",
-      "category": "Policy",
-      "title": "Evaluating the ethics of autonomous systems",
-      "source": "MIT News",
-      "summary": "MIT researchers outlined a framework for evaluating autonomous systems through an ethics lens, focusing on how AI systems are assessed before higher-stakes deployment.",
-      "href": "https://news.mit.edu/2026/evaluating-autonomous-systems-ethics-0402",
-      "excerpt": "Why it matters: governance pressure is rising alongside capability, so evaluation frameworks are becoming part of the product stack.",
-      "imageUrl": "assets/news/home-briefing/2026-04-21/semiconductor-0fd8099e8d5afd55.jpg",
-      "toolIds": [
-        "autonomousethicsframework"
+        "chatgpt"
       ]
     }
   ]

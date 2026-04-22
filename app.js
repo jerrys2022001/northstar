@@ -365,6 +365,32 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-04-22",
+    "label": "April 22, 2026",
+    "items": [
+      {
+        "id": "3-new-ways-ads-advisor-is-making-google-ads-safe-97921ff3-apr22",
+        "category": "Agents",
+        "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+        "source": "Google AI Blog",
+        "summary": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+        "href": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "scaling-codex-to-enterprises-worldwide-d9639e2f-apr22",
+        "category": "Developer Tools",
+        "title": "Scaling Codex to enterprises worldwide",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+        "href": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6vVWsdD8Je8NBRf5rzcKgO/627fd8bf52395077f3ed200aaeb615b9/Frame.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-04-21",
     "label": "April 21, 2026",
     "items": [

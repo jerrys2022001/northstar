@@ -10,14 +10,37 @@ import sys
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, time, timedelta, timezone, tzinfo
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "data" / "news" / "latest_candidates.json"
 RAW_RADAR_URL = "https://raw.githubusercontent.com/LearnPrompt/ai-news-radar/master/data/latest-24h.json"
+FIXED_TIME_ZONES: dict[str, tzinfo] = {
+    "UTC": timezone.utc,
+    "Asia/Shanghai": timezone(timedelta(hours=8), name="Asia/Shanghai"),
+}
+FALLBACK_IMAGE_POOL = [
+    "assets/news/ai-news-goldman-agents.png",
+    "assets/news/bright-product-updates.svg",
+    "assets/news/bright-productivity.svg",
+    "assets/news/bright-safety.svg",
+    "assets/news/fallback-ai-chip-wafer.jpg",
+    "assets/news/fallback-ai-datacenter-aerial.jpg",
+    "assets/news/fallback-ai-network-abstract.jpg",
+    "assets/news/fallback-axios-openai-cyber.webp",
+    "assets/news/fallback-google-ai-economy.webp",
+    "assets/news/mit-compressm.png",
+    "assets/news/openai-cyber-defense-local.jpg",
+    "assets/news/perplexity-billion-build-source.jpg",
+    "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+    "assets/news/superhuman-claude-mythos.png",
+    "assets/news/superhuman-personal-agents.png",
+]
+MEDIA_NAMESPACE = "{http://search.yahoo.com/mrss/}"
 
 BUILT_IN_FEEDS = [
     ("OpenAI Blog", "https://openai.com/news/rss.xml"),
@@ -103,9 +126,36 @@ def parse_args() -> argparse.Namespace:
             "Northstar NEWS candidate items."
         )
     )
-    parser.add_argument("--date", default=datetime.now(timezone.utc).date().isoformat())
+    parser.add_argument(
+        "--date",
+        help="Digest date in YYYY-MM-DD format. Defaults to the current date in --time-zone.",
+    )
+    parser.add_argument(
+        "--time-zone",
+        default="UTC",
+        help="IANA time zone used for digest-day assignment and rolling-window calculations.",
+    )
+    parser.add_argument(
+        "--as-of",
+        help=(
+            "Optional ISO timestamp for the end of the rolling window. "
+            "If omitted, uses now in --time-zone and caps historical reruns at local midnight."
+        ),
+    )
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--window-hours", type=int, default=24)
+    parser.add_argument(
+        "--min-items",
+        type=int,
+        default=10,
+        help="Minimum number of candidates to target before widening the rolling window.",
+    )
+    parser.add_argument(
+        "--max-window-hours",
+        type=int,
+        default=96,
+        help="Maximum rolling window size used to backfill sparse digest days.",
+    )
     parser.add_argument("--limit", type=int, default=12)
     parser.add_argument("--rss-opml", type=Path, help="Optional OPML file with extra RSS feeds.")
     parser.add_argument("--radar-url", default=RAW_RADAR_URL)
@@ -114,19 +164,48 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def resolve_digest_zone(zone_name: str) -> tzinfo:
+    try:
+        return ZoneInfo(zone_name)
+    except Exception as exc:  # pragma: no cover - depends on host tzdata
+        fallback_zone = FIXED_TIME_ZONES.get(zone_name)
+        if fallback_zone is not None:
+            return fallback_zone
+        raise ValueError(f"Unsupported time zone: {zone_name}") from exc
+
+
+def resolve_digest_date(raw_date: str | None, digest_zone: tzinfo) -> date:
+    if raw_date:
+        return datetime.strptime(raw_date, "%Y-%m-%d").date()
+    return datetime.now(digest_zone).date()
+
+
+def resolve_window_end(raw_as_of: str | None, digest_date: date, digest_zone: tzinfo) -> datetime:
+    if raw_as_of:
+        normalized = raw_as_of.replace("Z", "+00:00")
+        parsed = datetime.fromisoformat(normalized)
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=digest_zone)
+        return parsed.astimezone(digest_zone)
+
+    now_local = datetime.now(digest_zone)
+    digest_end = datetime.combine(digest_date + timedelta(days=1), time.min, tzinfo=digest_zone)
+    return min(now_local, digest_end)
+
+
 def fetch_text(url: str, timeout: int = 6) -> str:
     request = urllib.request.Request(url, headers={"User-Agent": "northstar-ai-news/1.0"})
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return response.read().decode("utf-8", errors="replace")
 
 
-def read_radar_snapshot(url: str, timeout: int) -> list[dict[str, Any]]:
+def read_radar_snapshot(url: str, timeout: int, digest_date: str) -> list[dict[str, Any]]:
     try:
         payload = json.loads(fetch_text(url, timeout=timeout))
     except (OSError, urllib.error.URLError, json.JSONDecodeError):
         return []
     raw_items = extract_items(payload)
-    return [normalize_external_item(item, "ai-news-radar") for item in raw_items]
+    return [normalize_external_item(item, "ai-news-radar", digest_date) for item in raw_items]
 
 
 def extract_items(payload: Any) -> list[dict[str, Any]]:
@@ -144,7 +223,7 @@ def extract_items(payload: Any) -> list[dict[str, Any]]:
     return []
 
 
-def normalize_external_item(raw: dict[str, Any], fallback_source: str) -> dict[str, Any]:
+def normalize_external_item(raw: dict[str, Any], fallback_source: str, digest_date: str) -> dict[str, Any]:
     title = first_text(raw, "title_en", "title", "titleZh", "title_zh", "name")
     summary = first_text(raw, "summary", "description", "desc", "abstract", "content", "title_zh", "title")
     href = first_text(raw, "url", "link", "href", "sourceUrl", "source_url")
@@ -157,6 +236,7 @@ def normalize_external_item(raw: dict[str, Any], fallback_source: str) -> dict[s
         href=href,
         source=source,
         published=published,
+        digest_date=digest_date,
         category=classify_category(text),
     )
 
@@ -186,7 +266,7 @@ def load_opml_feeds(path: Path | None) -> list[tuple[str, str]]:
     return feeds
 
 
-def read_feed_items(feed_name: str, feed_url: str, timeout: int) -> list[dict[str, Any]]:
+def read_feed_items(feed_name: str, feed_url: str, timeout: int, digest_date: str) -> list[dict[str, Any]]:
     try:
         root = ET.fromstring(fetch_text(feed_url, timeout=timeout))
     except (OSError, urllib.error.URLError, ET.ParseError):
@@ -194,8 +274,8 @@ def read_feed_items(feed_name: str, feed_url: str, timeout: int) -> list[dict[st
     channel_items = root.findall(".//item")
     atom_items = root.findall("{http://www.w3.org/2005/Atom}entry")
     if channel_items:
-        return [normalize_rss_item(item, feed_name) for item in channel_items]
-    return [normalize_atom_item(item, feed_name) for item in atom_items]
+        return [normalize_rss_item(item, feed_name, digest_date) for item in channel_items]
+    return [normalize_atom_item(item, feed_name, digest_date) for item in atom_items]
 
 
 def child_text(node: ET.Element, name: str) -> str:
@@ -203,24 +283,105 @@ def child_text(node: ET.Element, name: str) -> str:
     return html.unescape(strip_tags(found.text or "")).strip() if found is not None else ""
 
 
-def normalize_rss_item(item: ET.Element, feed_name: str) -> dict[str, Any]:
+def child_raw_text(node: ET.Element, name: str) -> str:
+    found = node.find(name)
+    return found.text or "" if found is not None and found.text else ""
+
+
+def extract_first_image_from_markup(value: str) -> str:
+    match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', html.unescape(value or ""), flags=re.IGNORECASE)
+    return html.unescape(match.group(1)).strip() if match else ""
+
+
+def extract_feed_image(node: ET.Element, description_raw: str = "") -> str:
+    for tag_name in (f"{MEDIA_NAMESPACE}content", f"{MEDIA_NAMESPACE}thumbnail", "enclosure"):
+        for image_node in node.findall(tag_name):
+            candidate_url = html.unescape((image_node.attrib.get("url") or "").strip())
+            media_type = (image_node.attrib.get("type") or "").lower()
+            if candidate_url and (not media_type or media_type.startswith("image/")):
+                return candidate_url
+    return extract_first_image_from_markup(description_raw)
+
+
+def extract_meta_image(html_text: str) -> str:
+    patterns = [
+        r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+        r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:image["\']',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, html_text, flags=re.IGNORECASE)
+        if match:
+            return html.unescape(match.group(1)).strip()
+    return ""
+
+
+def fetch_page_image_url(url: str, timeout: int) -> str:
+    try:
+        return extract_meta_image(fetch_text(url, timeout=timeout))
+    except OSError:
+        return ""
+
+
+def fallback_image_for_item(item: dict[str, Any], used_images: set[str]) -> str:
+    if not FALLBACK_IMAGE_POOL:
+        return ""
+    start_index = int(hashlib.sha1(item["id"].encode("utf-8")).hexdigest(), 16) % len(FALLBACK_IMAGE_POOL)
+    for offset in range(len(FALLBACK_IMAGE_POOL)):
+        candidate_image = FALLBACK_IMAGE_POOL[(start_index + offset) % len(FALLBACK_IMAGE_POOL)]
+        if candidate_image not in used_images:
+            return candidate_image
+    return FALLBACK_IMAGE_POOL[start_index]
+
+
+def enrich_candidate_images(items: list[dict[str, Any]], timeout: int) -> list[dict[str, Any]]:
+    used_images = {str(item.get("imageUrl") or "").strip() for item in items if str(item.get("imageUrl") or "").strip()}
+    for item in items:
+        current_image = str(item.get("imageUrl") or "").strip()
+        if current_image:
+            used_images.add(current_image)
+            continue
+
+        page_image = fetch_page_image_url(item.get("href", ""), timeout=timeout)
+        if page_image and page_image not in used_images:
+            item["imageUrl"] = page_image
+            used_images.add(page_image)
+            continue
+
+        fallback_image = fallback_image_for_item(item, used_images)
+        if fallback_image:
+            item["imageUrl"] = fallback_image
+            used_images.add(fallback_image)
+
+    return items
+
+
+def normalize_rss_item(item: ET.Element, feed_name: str, digest_date: str) -> dict[str, Any]:
     title = child_text(item, "title")
     href = child_text(item, "link")
-    summary = child_text(item, "description") or title
+    description_raw = child_raw_text(item, "description")
+    summary = html.unescape(strip_tags(description_raw)).strip() or title
     published = parse_datetime(child_text(item, "pubDate") or child_text(item, "date"))
     text = " ".join([title, summary, feed_name])
-    return build_candidate(title, summary, href, feed_name, published, classify_category(text))
+    candidate = build_candidate(title, summary, href, feed_name, published, digest_date, classify_category(text))
+    candidate["imageUrl"] = extract_feed_image(item, description_raw)
+    return candidate
 
 
-def normalize_atom_item(item: ET.Element, feed_name: str) -> dict[str, Any]:
+def normalize_atom_item(item: ET.Element, feed_name: str, digest_date: str) -> dict[str, Any]:
     ns = "{http://www.w3.org/2005/Atom}"
     title = child_text(item, f"{ns}title")
-    summary = child_text(item, f"{ns}summary") or child_text(item, f"{ns}content") or title
+    summary_raw = child_raw_text(item, f"{ns}summary")
+    content_raw = child_raw_text(item, f"{ns}content")
+    summary = html.unescape(strip_tags(summary_raw or content_raw)).strip() or title
     link = item.find(f"{ns}link")
     href = link.attrib.get("href", "") if link is not None else ""
     published = parse_datetime(child_text(item, f"{ns}published") or child_text(item, f"{ns}updated"))
     text = " ".join([title, summary, feed_name])
-    return build_candidate(title, summary, href, feed_name, published, classify_category(text))
+    candidate = build_candidate(title, summary, href, feed_name, published, digest_date, classify_category(text))
+    candidate["imageUrl"] = extract_feed_image(item, summary_raw or content_raw)
+    return candidate
 
 
 def build_candidate(
@@ -229,15 +390,15 @@ def build_candidate(
     href: str,
     source: str,
     published: datetime | None,
+    digest_date: str,
     category: str,
 ) -> dict[str, Any]:
     published = published or datetime.now(timezone.utc)
-    date_value = published.date().isoformat()
     summary = shorten(summary if summary and summary != title else f"{source} reported: {title}", 260)
     candidate = {
-        "id": news_id(title, href, date_value),
-        "date": date_value,
-        "dateLabel": date_label(date_value),
+        "id": news_id(title, href, digest_date),
+        "date": digest_date,
+        "dateLabel": date_label(digest_date),
         "category": category,
         "title": shorten(title, 120),
         "source": source,
@@ -245,6 +406,7 @@ def build_candidate(
         "href": href,
         "excerpt": f"Radar signal: {source} surfaced this item in the latest AI news window.",
         "imageUrl": "",
+        "publishedAt": published.astimezone(timezone.utc).isoformat(timespec="seconds"),
         "toolIds": infer_tool_ids(" ".join([title, summary, source])),
     }
     return candidate
@@ -299,6 +461,50 @@ def parse_datetime(value: str) -> datetime | None:
         return None
 
 
+def parse_candidate_published_at(item: dict[str, Any]) -> datetime | None:
+    published_at = str(item.get("publishedAt") or "").strip()
+    if published_at:
+        return parse_datetime(published_at)
+    date_value = str(item.get("date") or "").strip()
+    if not date_value:
+        return None
+    try:
+        return datetime.strptime(date_value, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
+def sort_items_by_published_at(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return sorted(items, key=lambda item: parse_candidate_published_at(item) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+
+
+def select_candidates_for_window(
+    items: list[dict[str, Any]],
+    window_end_utc: datetime,
+    requested_window_hours: int,
+    min_items: int,
+    max_window_hours: int,
+    limit: int,
+) -> tuple[list[dict[str, Any]], int]:
+    target_min_items = min(min_items, limit) if limit > 0 else min_items
+    effective_window_hours = requested_window_hours
+    selected: list[dict[str, Any]] = []
+
+    while effective_window_hours <= max_window_hours:
+        window_start_utc = window_end_utc - timedelta(hours=effective_window_hours)
+        selected = [
+            item
+            for item in items
+            if (published_at := parse_candidate_published_at(item))
+            if window_start_utc <= published_at < window_end_utc
+        ]
+        if len(selected) >= target_min_items or effective_window_hours == max_window_hours:
+            return selected[:limit], effective_window_hours
+        effective_window_hours = min(effective_window_hours + 24, max_window_hours)
+
+    return selected[:limit], effective_window_hours
+
+
 def dedupe(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     seen: set[str] = set()
     deduped: list[dict[str, Any]] = []
@@ -335,28 +541,44 @@ def date_label(date_value: str) -> str:
 
 def main() -> int:
     args = parse_args()
-    run_date = datetime.strptime(args.date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    cutoff = run_date + timedelta(days=1) - timedelta(hours=args.window_hours)
-    upper_bound = run_date + timedelta(days=1)
+    digest_zone = resolve_digest_zone(args.time_zone)
+    digest_date = resolve_digest_date(args.date, digest_zone)
+    window_end = resolve_window_end(args.as_of, digest_date, digest_zone)
+    digest_date_value = digest_date.isoformat()
 
     items: list[dict[str, Any]] = []
     if not args.skip_radar_snapshot:
-        items.extend(read_radar_snapshot(args.radar_url, timeout=args.timeout))
+        items.extend(read_radar_snapshot(args.radar_url, timeout=args.timeout, digest_date=digest_date_value))
 
     for feed_name, feed_url in BUILT_IN_FEEDS + load_opml_feeds(args.rss_opml):
-        items.extend(read_feed_items(feed_name, feed_url, timeout=args.timeout))
+        items.extend(read_feed_items(feed_name, feed_url, timeout=args.timeout, digest_date=digest_date_value))
 
-    candidates = [
+    publishable_items = sort_items_by_published_at([
         item
         for item in dedupe(items)
         if item.get("title") and item.get("href") and is_ai_focused(item) and is_publishable_english(item)
-        if cutoff.date() <= datetime.strptime(item["date"], "%Y-%m-%d").replace(tzinfo=timezone.utc).date() < upper_bound.date()
-    ][: args.limit]
+    ])
+    candidates, effective_window_hours = select_candidates_for_window(
+        publishable_items,
+        window_end_utc=window_end.astimezone(timezone.utc),
+        requested_window_hours=args.window_hours,
+        min_items=args.min_items,
+        max_window_hours=max(args.window_hours, args.max_window_hours),
+        limit=args.limit,
+    )
+    candidates = enrich_candidate_images(candidates, timeout=args.timeout)
+    window_start = window_end - timedelta(hours=effective_window_hours)
 
     payload = {
         "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
         "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
         "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "digestDate": digest_date_value,
+        "timeZone": args.time_zone,
+        "requestedWindowHours": args.window_hours,
+        "effectiveWindowHours": effective_window_hours,
+        "windowStart": window_start.isoformat(timespec="seconds"),
+        "windowEnd": window_end.isoformat(timespec="seconds"),
         "items": candidates,
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)

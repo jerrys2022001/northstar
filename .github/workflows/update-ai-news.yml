@@ -11,31 +11,35 @@ permissions:
 jobs:
   update-ai-news:
     runs-on: ubuntu-latest
+    env:
+      NEWS_BRANCH: ${{ github.event.repository.default_branch }}
+      NEWS_TIME_ZONE: Asia/Shanghai
     steps:
-      - name: Check out news branch
+      - name: Check out site branch
         uses: actions/checkout@v4
         with:
-          ref: codex/news-updates
+          ref: ${{ github.event.repository.default_branch }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Fetch AI radar candidates
-        run: python scripts/fetch_ai_news_radar.py --date "$(date -u +%F)" --limit 12
-
-      - name: Merge candidates into Northstar NEWS
-        run: python scripts/run_daily_news_task.py --date "$(date -u +%F)" --skip-render-validation
+      - name: Fetch and merge today's digest
+        shell: bash
+        run: |
+          TODAY="$(TZ="$NEWS_TIME_ZONE" date +%F)"
+          python scripts/fetch_ai_news_radar.py --date "$TODAY" --time-zone "$NEWS_TIME_ZONE" --limit 12
+          python scripts/run_daily_news_task.py --date "$TODAY" --skip-render-validation
 
       - name: Commit updated news
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app.js data/news/*.json
+          git add app.js data/news output/news-logs
           if git diff --cached --quiet; then
             echo "No AI news changes to commit."
           else
             git commit -m "Update AI news feed"
-            git push origin HEAD:codex/news-updates
+            git push origin HEAD:"$NEWS_BRANCH"
           fi
