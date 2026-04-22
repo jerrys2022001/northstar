@@ -29,8 +29,28 @@ jobs:
         shell: bash
         run: |
           TODAY="$(TZ="$NEWS_TIME_ZONE" date +%F)"
-          python scripts/fetch_ai_news_radar.py --date "$TODAY" --time-zone "$NEWS_TIME_ZONE" --limit 12
-          python scripts/run_daily_news_task.py --date "$TODAY" --skip-render-validation
+          MAX_ATTEMPTS=3
+          ATTEMPT=1
+
+          while [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; do
+            echo "NEWS update attempt $ATTEMPT/$MAX_ATTEMPTS for $TODAY"
+
+            if python scripts/fetch_ai_news_radar.py --date "$TODAY" --time-zone "$NEWS_TIME_ZONE" --limit 12 \
+              && python scripts/run_daily_news_task.py --date "$TODAY" --skip-render-validation; then
+              echo "NEWS update succeeded on attempt $ATTEMPT"
+              break
+            fi
+
+            if [ "$ATTEMPT" -eq "$MAX_ATTEMPTS" ]; then
+              echo "NEWS update failed after $MAX_ATTEMPTS attempts"
+              exit 1
+            fi
+
+            SLEEP_SECONDS=$((ATTEMPT * 60))
+            echo "Retrying NEWS update in ${SLEEP_SECONDS}s..."
+            sleep "$SLEEP_SECONDS"
+            ATTEMPT=$((ATTEMPT + 1))
+          done
 
       - name: Commit updated news
         run: |
