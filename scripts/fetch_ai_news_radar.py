@@ -147,16 +147,16 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--min-items",
         type=int,
-        default=10,
+        default=20,
         help="Minimum number of candidates to target before widening the rolling window.",
     )
     parser.add_argument(
         "--max-window-hours",
         type=int,
-        default=96,
+        default=336,
         help="Maximum rolling window size used to backfill sparse digest days.",
     )
-    parser.add_argument("--limit", type=int, default=12)
+    parser.add_argument("--limit", type=int, default=36)
     parser.add_argument("--rss-opml", type=Path, help="Optional OPML file with extra RSS feeds.")
     parser.add_argument("--radar-url", default=RAW_RADAR_URL)
     parser.add_argument("--timeout", type=int, default=6, help="Network timeout per source, in seconds.")

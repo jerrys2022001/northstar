@@ -1,7 +1,165 @@
 {
-  "updatedAt": "2026-04-22T10:45:32",
-  "runDate": "2026-04-22",
+  "updatedAt": "2026-04-23T09:39:58",
+  "runDate": "2026-04-23",
   "items": [
+    {
+      "id": "workspace-agents-1b162ea8-apr23",
+      "date": "2026-04-23",
+      "dateLabel": "April 23, 2026",
+      "category": "Agents",
+      "title": "Workspace agents",
+      "source": "OpenAI Blog",
+      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "href": "https://openai.com/academy/workspace-agents",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/fallback-ai-datacenter-aerial.jpg",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "using-projects-in-chatgpt-67274246-apr23",
+      "date": "2026-04-23",
+      "dateLabel": "April 23, 2026",
+      "category": "Model Releases",
+      "title": "Using projects in ChatGPT",
+      "source": "OpenAI Blog",
+      "summary": "Learn how to use projects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
+      "href": "https://openai.com/academy/projects",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/mit-compressm.png",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "the-next-evolution-of-the-agents-sdk-f5300dfb-apr23",
+      "date": "2026-04-23",
+      "dateLabel": "April 23, 2026",
+      "category": "Developer Tools",
+      "title": "The next evolution of the Agents SDK",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
+      "href": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/bright-safety.svg",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "speeding-up-agentic-workflows-with-websockets-in-5278705d-apr23",
+      "date": "2026-04-23",
+      "dateLabel": "April 23, 2026",
+      "category": "Developer Tools",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "source": "OpenAI Blog",
+      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+      "href": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "our-response-to-the-axios-developer-tool-comprom-42d64f92-apr23",
+      "date": "2026-04-23",
+      "dateLabel": "April 23, 2026",
+      "category": "Developer Tools",
+      "title": "Our response to the Axios developer tool compromise",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
+      "href": "https://openai.com/index/axios-developer-tool-compromise",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "making-chatgpt-better-for-clinicians-b9cfd90c-apr23",
+      "date": "2026-04-23",
+      "dateLabel": "April 23, 2026",
+      "category": "Model Releases",
+      "title": "Making ChatGPT better for clinicians",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+      "href": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/superhuman-personal-agents.png",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "jacob-andreas-and-brett-mcguire-named-edgerton-a-ed506815-apr23",
+      "date": "2026-04-23",
+      "dateLabel": "April 23, 2026",
+      "category": "Research Workflows",
+      "title": "Jacob Andreas and Brett McGuire named Edgerton Award winners",
+      "source": "MIT News AI",
+      "summary": "The associate professors of EECS and chemistry, respectively, are honored for exceptional contributions to teaching, research, and service at MIT.",
+      "href": "https://news.mit.edu/2026/jacob-andreas-brett-mcguire-edgerton-award-winners-0417",
+      "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202604/mit-Edgerton-Award-Brett-McGuire-Jacob-Andreas.jpg?itok=m8C4mGM-",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "introducing-openai-privacy-filter-e2bf2733-apr23",
+      "date": "2026-04-23",
+      "dateLabel": "April 23, 2026",
+      "category": "Developer Tools",
+      "title": "Introducing OpenAI Privacy Filter",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
+      "href": "https://openai.com/index/introducing-openai-privacy-filter",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/ai-news-goldman-agents.png",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "introducing-chatgpt-images-2-0-84d8ed5d-apr23",
+      "date": "2026-04-23",
+      "dateLabel": "April 23, 2026",
+      "category": "Model Releases",
+      "title": "Introducing ChatGPT Images 2.0",
+      "source": "OpenAI Blog",
+      "summary": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
+      "href": "https://openai.com/index/introducing-chatgpt-images-2-0",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "codex-for-almost-everything-bed35cf1-apr23",
+      "date": "2026-04-23",
+      "dateLabel": "April 23, 2026",
+      "category": "Developer Tools",
+      "title": "Codex for (almost) everything",
+      "source": "OpenAI Blog",
+      "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+      "href": "https://openai.com/index/codex-for-almost-everything",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/superhuman-claude-mythos.png",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
     {
       "id": "scaling-codex-to-enterprises-worldwide-d9639e2f-apr22",
       "date": "2026-04-22",

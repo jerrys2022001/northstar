@@ -360,6 +360,14 @@ def dedupe_and_cap_items(
     }
 
 
+def count_run_date_candidate_items(
+    kept_items: list[dict[str, Any]],
+    run_date: str,
+    candidate_item_ids: set[str],
+) -> int:
+    return sum(1 for item in kept_items if item["date"] == run_date and item["id"] in candidate_item_ids)
+
+
 def group_items_for_feed(items: list[dict[str, Any]], tool_visits: dict[str, int]) -> list[dict[str, Any]]:
     grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
     labels: dict[str, str] = {}
@@ -686,15 +694,31 @@ def main() -> int:
     # latest candidate set instead of accumulating stale stories from earlier runs.
     if any(item["date"] == run_date for item in candidate_items):
         archive_items = [item for item in archive_items if item["date"] != run_date]
-    kept_items, dedupe_summary = dedupe_and_cap_items(
-        archive_items=archive_items,
-        candidate_items=candidate_items,
-        max_per_tool_per_day=args.max_per_tool_per_day,
-    )
+    candidate_item_ids = {item["id"] for item in candidate_items}
+    required_run_date_items = min(args.min_daily_items, len(candidate_item_ids))
+    effective_max_per_tool_per_day = args.max_per_tool_per_day
+    max_cap_limit = max(args.max_per_tool_per_day, len(candidate_item_ids))
+
+    while True:
+        kept_items, dedupe_summary = dedupe_and_cap_items(
+            archive_items=archive_items,
+            candidate_items=candidate_items,
+            max_per_tool_per_day=effective_max_per_tool_per_day,
+        )
+        run_date_candidate_count = count_run_date_candidate_items(kept_items, run_date, candidate_item_ids)
+        if run_date_candidate_count >= required_run_date_items or effective_max_per_tool_per_day >= max_cap_limit:
+            break
+        effective_max_per_tool_per_day += 1
+
     grouped_feed = group_items_for_feed(kept_items, tool_visits)
     rewrite_app_js_news_feed(grouped_feed)
     write_archive(kept_items, grouped_feed, run_date)
-    required_run_date_items = min(args.min_daily_items, max(1, len(candidate_items)))
+    mergeable_candidate_ids = {
+        item["id"]
+        for item in kept_items
+        if item["date"] == run_date and item["id"] in candidate_item_ids
+    }
+    required_run_date_items = min(args.min_daily_items, len(mergeable_candidate_ids))
     static_validation = validate_static_news_assets(
         grouped_feed=grouped_feed,
         kept_items=kept_items,

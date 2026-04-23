@@ -25,29 +25,27 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch and merge today's digest
+      - name: Catch up and merge missing NEWS digests
         shell: bash
         run: |
-          TODAY="$(TZ="$NEWS_TIME_ZONE" date +%F)"
           MAX_ATTEMPTS=3
           ATTEMPT=1
 
           while [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; do
-            echo "NEWS update attempt $ATTEMPT/$MAX_ATTEMPTS for $TODAY"
+            echo "NEWS catch-up attempt $ATTEMPT/$MAX_ATTEMPTS"
 
-            if python scripts/fetch_ai_news_radar.py --date "$TODAY" --time-zone "$NEWS_TIME_ZONE" --limit 12 \
-              && python scripts/run_daily_news_task.py --date "$TODAY" --skip-render-validation; then
-              echo "NEWS update succeeded on attempt $ATTEMPT"
+            if python scripts/run_news_backfill.py --time-zone "$NEWS_TIME_ZONE" --limit 36 --skip-render-validation; then
+              echo "NEWS catch-up succeeded on attempt $ATTEMPT"
               break
             fi
 
             if [ "$ATTEMPT" -eq "$MAX_ATTEMPTS" ]; then
-              echo "NEWS update failed after $MAX_ATTEMPTS attempts"
+              echo "NEWS catch-up failed after $MAX_ATTEMPTS attempts"
               exit 1
             fi
 
             SLEEP_SECONDS=$((ATTEMPT * 60))
-            echo "Retrying NEWS update in ${SLEEP_SECONDS}s..."
+            echo "Retrying NEWS catch-up in ${SLEEP_SECONDS}s..."
             sleep "$SLEEP_SECONDS"
             ATTEMPT=$((ATTEMPT + 1))
           done
