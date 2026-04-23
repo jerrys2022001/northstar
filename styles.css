@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700;800&display=swap");
 
 :root {
   color-scheme: light;
@@ -154,10 +154,10 @@ h6 {
   font-family: var(--font-brand);
   font-size: 1.3rem;
   line-height: 1;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.015em;
   text-transform: uppercase;
   white-space: nowrap;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--blue);
 }
 
