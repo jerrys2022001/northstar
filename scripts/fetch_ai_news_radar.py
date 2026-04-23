@@ -15,6 +15,8 @@ from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
+from news_catalog import build_catalog_feed_queue, build_tool_alias_map, load_catalog_tools, normalize_alias
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "data" / "news" / "latest_candidates.json"
@@ -56,6 +58,16 @@ BUILT_IN_FEEDS = [
     ("Hugging Face Blog", "https://huggingface.co/blog/feed.xml"),
     ("Perplexity Blog", "https://www.perplexity.ai/hub/blog/rss.xml"),
     ("MIT News AI", "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml"),
+]
+CATALOG_TOOL_WATCH_FEEDS = [
+    ("catalog-watch", "TechCrunch AI", "https://techcrunch.com/tag/artificial-intelligence/feed/", True),
+    ("catalog-watch", "TechCrunch", "https://techcrunch.com/feed/", True),
+    ("catalog-watch", "VentureBeat AI", "https://venturebeat.com/category/ai/feed/", True),
+    ("catalog-watch", "VentureBeat", "https://venturebeat.com/feed/", True),
+    ("catalog-watch", "The Verge AI", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", True),
+    ("catalog-watch", "The Verge", "https://www.theverge.com/rss/index.xml", True),
+    ("catalog-watch", "Ars Technica", "https://feeds.arstechnica.com/arstechnica/index", True),
+    ("catalog-watch", "Mashable", "https://mashable.com/feeds/rss/all", True),
 ]
 
 AI_KEYWORDS = {
@@ -101,7 +113,7 @@ CATEGORY_RULES = [
     ("Funding", {"funding", "ipo", "raises", "valuation"}),
 ]
 
-TOOL_ALIASES = {
+BASE_TOOL_ALIASES = {
     "adobefirefly": {"adobe", "firefly"},
     "chatgpt": {"chatgpt", "codex", "gpt", "openai"},
     "claude": {"anthropic", "claude"},
@@ -117,6 +129,7 @@ TOOL_ALIASES = {
     "perplexity": {"perplexity"},
     "runway": {"runway"},
 }
+TOOL_ALIASES = {tool_id: set(aliases) for tool_id, aliases in BASE_TOOL_ALIASES.items()}
 
 
 def parse_args() -> argparse.Namespace:
@@ -157,6 +170,23 @@ def parse_args() -> argparse.Namespace:
         help="Maximum rolling window size used to backfill sparse digest days.",
     )
     parser.add_argument("--limit", type=int, default=36)
+    parser.add_argument(
+        "--max-catalog-expansion-feeds",
+        type=int,
+        default=4,
+        help="Maximum number of official feeds from site-listed AI tools to add when the base AI news sources are sparse.",
+    )
+    parser.add_argument(
+        "--catalog-feed-batch-size",
+        type=int,
+        default=4,
+        help="Number of site-tool feeds to add per expansion step while topping up sparse digest days.",
+    )
+    parser.add_argument(
+        "--force-catalog-feed-expansion",
+        action="store_true",
+        help="Always activate the configured site-tool feed budget, even if the base AI sources already cleared the candidate-count target.",
+    )
     parser.add_argument("--rss-opml", type=Path, help="Optional OPML file with extra RSS feeds.")
     parser.add_argument("--radar-url", default=RAW_RADAR_URL)
     parser.add_argument("--timeout", type=int, default=6, help="Network timeout per source, in seconds.")
@@ -413,10 +443,14 @@ def build_candidate(
 
 
 def is_ai_focused(item: dict[str, Any]) -> bool:
+    return has_explicit_ai_signal(item) or bool(item.get("toolIds"))
+
+
+def has_explicit_ai_signal(item: dict[str, Any]) -> bool:
     haystack = " ".join(
         str(item.get(key, "")) for key in ("title", "summary", "source", "category")
     ).lower()
-    return any(keyword in haystack for keyword in AI_KEYWORDS) or bool(item.get("toolIds"))
+    return any(keyword in haystack for keyword in AI_KEYWORDS)
 
 
 def is_publishable_english(item: dict[str, Any]) -> bool:
@@ -440,8 +474,12 @@ def classify_category(text: str) -> str:
 
 
 def infer_tool_ids(text: str) -> list[str]:
-    haystack = text.lower()
-    return [tool_id for tool_id, aliases in TOOL_ALIASES.items() if any(alias in haystack for alias in aliases)]
+    haystack = f" {normalize_alias(text)} "
+    return [
+        tool_id
+        for tool_id, aliases in TOOL_ALIASES.items()
+        if any(normalized_alias and f" {normalized_alias} " in haystack for normalized_alias in (normalize_alias(alias) for alias in aliases))
+    ]
 
 
 def parse_datetime(value: str) -> datetime | None:
@@ -517,6 +555,16 @@ def dedupe(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return deduped
 
 
+def build_publishable_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return sort_items_by_published_at(
+        [
+            item
+            for item in dedupe(items)
+            if item.get("title") and item.get("href") and is_ai_focused(item) and is_publishable_english(item)
+        ]
+    )
+
+
 def strip_tags(value: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", value)).strip()
 
@@ -540,24 +588,55 @@ def date_label(date_value: str) -> str:
 
 
 def main() -> int:
+    global TOOL_ALIASES
     args = parse_args()
+    catalog_tools = load_catalog_tools()
+    TOOL_ALIASES = build_tool_alias_map(BASE_TOOL_ALIASES, catalog_tools)
     digest_zone = resolve_digest_zone(args.time_zone)
     digest_date = resolve_digest_date(args.date, digest_zone)
     window_end = resolve_window_end(args.as_of, digest_date, digest_zone)
     digest_date_value = digest_date.isoformat()
+    target_min_items = min(args.min_items, args.limit) if args.limit > 0 else args.min_items
+    opml_feeds = load_opml_feeds(args.rss_opml)
+    catalog_feed_queue = [
+        {
+            "toolId": tool_id,
+            "feedName": feed_name,
+            "feedUrl": feed_url,
+            "requireToolMatch": False,
+        }
+        for tool_id, feed_name, feed_url in build_catalog_feed_queue(
+            catalog_tools,
+            existing_feed_urls={url for _, url in BUILT_IN_FEEDS + opml_feeds},
+        )
+    ]
+    seen_catalog_feed_urls = {entry["feedUrl"].lower() for entry in catalog_feed_queue}
+    for tool_id, feed_name, feed_url, require_tool_match in CATALOG_TOOL_WATCH_FEEDS:
+        normalized_url = feed_url.lower()
+        if normalized_url in seen_catalog_feed_urls:
+            continue
+        seen_catalog_feed_urls.add(normalized_url)
+        catalog_feed_queue.append(
+            {
+                "toolId": tool_id,
+                "feedName": feed_name,
+                "feedUrl": feed_url,
+                "requireToolMatch": require_tool_match,
+            }
+        )
+    available_catalog_feed_count = len(catalog_feed_queue)
+    configured_catalog_feed_limit = max(0, args.max_catalog_expansion_feeds)
+    catalog_feed_queue = catalog_feed_queue[:configured_catalog_feed_limit]
+    catalog_batch_size = max(1, args.catalog_feed_batch_size)
 
     items: list[dict[str, Any]] = []
     if not args.skip_radar_snapshot:
         items.extend(read_radar_snapshot(args.radar_url, timeout=args.timeout, digest_date=digest_date_value))
 
-    for feed_name, feed_url in BUILT_IN_FEEDS + load_opml_feeds(args.rss_opml):
+    for feed_name, feed_url in BUILT_IN_FEEDS + opml_feeds:
         items.extend(read_feed_items(feed_name, feed_url, timeout=args.timeout, digest_date=digest_date_value))
 
-    publishable_items = sort_items_by_published_at([
-        item
-        for item in dedupe(items)
-        if item.get("title") and item.get("href") and is_ai_focused(item) and is_publishable_english(item)
-    ])
+    publishable_items = build_publishable_items(items)
     candidates, effective_window_hours = select_candidates_for_window(
         publishable_items,
         window_end_utc=window_end.astimezone(timezone.utc),
@@ -566,6 +645,38 @@ def main() -> int:
         max_window_hours=max(args.window_hours, args.max_window_hours),
         limit=args.limit,
     )
+    catalog_feeds_used: list[dict[str, str]] = []
+    feed_cursor = 0
+    while feed_cursor < len(catalog_feed_queue) and (args.force_catalog_feed_expansion or len(candidates) < target_min_items):
+        next_cursor = min(feed_cursor + catalog_batch_size, len(catalog_feed_queue))
+        for feed_entry in catalog_feed_queue[feed_cursor:next_cursor]:
+            tool_id = str(feed_entry["toolId"])
+            feed_name = str(feed_entry["feedName"])
+            feed_url = str(feed_entry["feedUrl"])
+            feed_items = read_feed_items(feed_name, feed_url, timeout=args.timeout, digest_date=digest_date_value)
+            if feed_entry.get("requireToolMatch"):
+                feed_items = [item for item in feed_items if item.get("toolIds") and has_explicit_ai_signal(item)]
+            items.extend(feed_items)
+            catalog_feeds_used.append(
+                {
+                    "toolId": tool_id,
+                    "feedName": feed_name,
+                    "feedUrl": feed_url,
+                    "requireToolMatch": bool(feed_entry.get("requireToolMatch")),
+                }
+            )
+        feed_cursor = next_cursor
+
+        publishable_items = build_publishable_items(items)
+        candidates, effective_window_hours = select_candidates_for_window(
+            publishable_items,
+            window_end_utc=window_end.astimezone(timezone.utc),
+            requested_window_hours=args.window_hours,
+            min_items=args.min_items,
+            max_window_hours=max(args.window_hours, args.max_window_hours),
+            limit=args.limit,
+        )
+
     candidates = enrich_candidate_images(candidates, timeout=args.timeout)
     window_start = window_end - timedelta(hours=effective_window_hours)
 
@@ -579,11 +690,27 @@ def main() -> int:
         "effectiveWindowHours": effective_window_hours,
         "windowStart": window_start.isoformat(timespec="seconds"),
         "windowEnd": window_end.isoformat(timespec="seconds"),
+        "catalogExpansionFeedsAvailable": available_catalog_feed_count,
+        "catalogExpansionFeedsConfigured": configured_catalog_feed_limit,
+        "catalogExpansionFeedsUsed": catalog_feeds_used,
         "items": candidates,
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(json.dumps({"items": len(candidates), "output": str(args.output)}, ensure_ascii=False, indent=2))
+    print(
+        json.dumps(
+            {
+                "items": len(candidates),
+                "output": str(args.output),
+                "effectiveWindowHours": effective_window_hours,
+                "catalogExpansionFeedsAvailable": available_catalog_feed_count,
+                "catalogExpansionFeedsConfigured": configured_catalog_feed_limit,
+                "catalogExpansionFeedsUsed": len(catalog_feeds_used),
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
     return 0
 
 

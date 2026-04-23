@@ -10,6 +10,8 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
+from news_catalog import build_tool_alias_map, load_catalog_tools, normalize_alias
+
 
 ROOT = Path(__file__).resolve().parents[1]
 APP_JS_PATH = ROOT / "app.js"
@@ -47,7 +49,7 @@ STOPWORDS = {
     "about",
 }
 
-TOOL_ALIASES = {
+BASE_TOOL_ALIASES = {
     "gemini": ["gemini", "gemma", "google ai studio", "google"],
     "googleaistudio": ["google ai studio", "gemma"],
     "claude": ["claude", "anthropic"],
@@ -65,6 +67,7 @@ TOOL_ALIASES = {
     "elevenlabs": ["elevenlabs"],
     "grok": ["grok", "x ai", "xai"],
 }
+TOOL_ALIASES = {tool_id: set(aliases) for tool_id, aliases in BASE_TOOL_ALIASES.items()}
 
 CATEGORY_HEAT = {
     "Product Updates": 7_000_000,
@@ -104,6 +107,12 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=10,
         help="Minimum number of stories required for the run date.",
+    )
+    parser.add_argument(
+        "--max-auto-per-tool-per-day",
+        type=int,
+        default=3,
+        help="Maximum same-tool cap the merge step may auto-relax to when the run date would otherwise miss the daily target.",
     )
     parser.add_argument(
         "--skip-render-validation",
@@ -280,14 +289,17 @@ def slugify(value: str) -> str:
 
 
 def infer_tool_ids(item: dict[str, Any]) -> list[str]:
-    haystack = " ".join(
+    haystack = normalize_alias(
+        " ".join(
         part for part in [item.get("title"), item.get("summary"), item.get("excerpt"), item.get("source")] if part
-    ).lower()
-    matches: list[str] = []
-    for tool_id, aliases in TOOL_ALIASES.items():
-        if any(alias in haystack for alias in aliases):
-            matches.append(tool_id)
-    return matches
+        )
+    )
+    haystack = f" {haystack} "
+    return [
+        tool_id
+        for tool_id, aliases in TOOL_ALIASES.items()
+        if any(normalized_alias and f" {normalized_alias} " in haystack for normalized_alias in (normalize_alias(alias) for alias in aliases))
+    ]
 
 
 def news_heat_score(item: dict[str, Any], tool_visits: dict[str, int]) -> int:
@@ -678,7 +690,9 @@ def run_render_validation(run_date: str, validation_port: int) -> str:
 
 
 def main() -> int:
+    global TOOL_ALIASES
     args = parse_args()
+    TOOL_ALIASES = build_tool_alias_map(BASE_TOOL_ALIASES, load_catalog_tools())
     run_date = args.date
 
     tool_visits = load_tool_visits()
@@ -697,7 +711,7 @@ def main() -> int:
     candidate_item_ids = {item["id"] for item in candidate_items}
     required_run_date_items = min(args.min_daily_items, len(candidate_item_ids))
     effective_max_per_tool_per_day = args.max_per_tool_per_day
-    max_cap_limit = max(args.max_per_tool_per_day, len(candidate_item_ids))
+    max_cap_limit = min(max(args.max_per_tool_per_day, args.max_auto_per_tool_per_day), len(candidate_item_ids))
 
     while True:
         kept_items, dedupe_summary = dedupe_and_cap_items(
@@ -747,6 +761,9 @@ def main() -> int:
         "currentFeedDays": len(grouped_feed),
         "currentFeedItems": sum(len(group["items"]) for group in grouped_feed),
         "candidateItems": len(candidate_items),
+        "runDateItems": static_validation.get("runDateItems", 0),
+        "requiredRunDateItems": required_run_date_items,
+        "effectiveMaxPerToolPerDay": effective_max_per_tool_per_day,
         "duplicatesSkipped": len(dedupe_summary["duplicatesSkipped"]),
         "toolCapSkipped": len(dedupe_summary["toolCapSkipped"]),
         "renderValidation": render_validation,

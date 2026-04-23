@@ -49,8 +49,44 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-backfill-days",
         type=int,
-        default=7,
+        default=3,
         help="Maximum number of local dates to process in one run when catching up automatically.",
+    )
+    parser.add_argument(
+        "--min-daily-items",
+        type=int,
+        default=10,
+        help="Target minimum number of visible stories for each processed digest date.",
+    )
+    parser.add_argument(
+        "--max-per-tool-per-day",
+        type=int,
+        default=2,
+        help="Base same-tool daily cap passed into the merge step.",
+    )
+    parser.add_argument(
+        "--max-auto-per-tool-per-day",
+        type=int,
+        default=3,
+        help="Maximum same-tool daily cap the merge step may auto-relax to.",
+    )
+    parser.add_argument(
+        "--initial-catalog-expansion-feeds",
+        type=int,
+        default=4,
+        help="Initial number of site-tool official feeds to activate when fetching sparse NEWS days.",
+    )
+    parser.add_argument(
+        "--catalog-expansion-step",
+        type=int,
+        default=4,
+        help="Number of additional site-tool official feeds to enable after each short run.",
+    )
+    parser.add_argument(
+        "--max-catalog-expansion-feeds",
+        type=int,
+        default=24,
+        help="Maximum number of site-tool official feeds the fetch step may activate while topping up a sparse day.",
     )
     parser.add_argument(
         "--skip-render-validation",
@@ -120,36 +156,84 @@ def planned_dates(
     return [first_date + timedelta(days=offset) for offset in range(total_days)]
 
 
-def run_command(command: list[str]) -> None:
-    completed = subprocess.run(command, cwd=ROOT, text=True)
+def run_json_command(command: list[str]) -> dict[str, object]:
+    completed = subprocess.run(command, cwd=ROOT, capture_output=True, text=True)
     if completed.returncode != 0:
-        raise RuntimeError(f"Command failed ({completed.returncode}): {' '.join(command)}")
+        stderr = (completed.stderr or completed.stdout).strip()
+        raise RuntimeError(f"Command failed ({completed.returncode}): {' '.join(command)}\n{stderr}")
+    stdout = (completed.stdout or "").strip()
+    if not stdout:
+        return {}
+    return json.loads(stdout)
 
 
-def process_digest_date(run_date: date, args: argparse.Namespace) -> None:
+def process_digest_date(run_date: date, args: argparse.Namespace) -> dict[str, object]:
     date_value = run_date.isoformat()
+    expansion_budget = min(
+        max(0, args.initial_catalog_expansion_feeds),
+        max(0, args.max_catalog_expansion_feeds),
+    )
+    expansion_step = max(1, args.catalog_expansion_step)
+    attempts = 0
 
-    fetch_command = [
-        sys.executable,
-        str(FETCH_SCRIPT_PATH),
-        "--date",
-        date_value,
-        "--time-zone",
-        args.time_zone,
-        "--limit",
-        str(args.limit),
-    ]
-    merge_command = [
-        sys.executable,
-        str(MERGE_SCRIPT_PATH),
-        "--date",
-        date_value,
-    ]
-    if args.skip_render_validation:
-        merge_command.append("--skip-render-validation")
+    while True:
+        attempts += 1
+        fetch_command = [
+            sys.executable,
+            str(FETCH_SCRIPT_PATH),
+            "--date",
+            date_value,
+            "--time-zone",
+            args.time_zone,
+            "--limit",
+            str(args.limit),
+            "--max-catalog-expansion-feeds",
+            str(expansion_budget),
+        ]
+        if attempts > 1:
+            fetch_command.append("--force-catalog-feed-expansion")
+        merge_command = [
+            sys.executable,
+            str(MERGE_SCRIPT_PATH),
+            "--date",
+            date_value,
+            "--min-daily-items",
+            str(args.min_daily_items),
+            "--max-per-tool-per-day",
+            str(args.max_per_tool_per_day),
+            "--max-auto-per-tool-per-day",
+            str(args.max_auto_per_tool_per_day),
+        ]
+        if args.skip_render_validation:
+            merge_command.append("--skip-render-validation")
 
-    run_command(fetch_command)
-    run_command(merge_command)
+        fetch_summary = run_json_command(fetch_command)
+        merge_summary = run_json_command(merge_command)
+        run_date_items = int(merge_summary.get("runDateItems") or 0)
+        available_expansion_feeds = int(fetch_summary.get("catalogExpansionFeedsAvailable") or 0)
+        current_feed_budget = int(fetch_summary.get("catalogExpansionFeedsConfigured") or expansion_budget)
+
+        if run_date_items >= args.min_daily_items:
+            return {
+                "date": date_value,
+                "attempts": attempts,
+                "catalogExpansionFeedsConfigured": current_feed_budget,
+                "catalogExpansionFeedsAvailable": available_expansion_feeds,
+                "fetch": fetch_summary,
+                "merge": merge_summary,
+            }
+
+        if available_expansion_feeds == 0 or current_feed_budget >= min(args.max_catalog_expansion_feeds, available_expansion_feeds):
+            return {
+                "date": date_value,
+                "attempts": attempts,
+                "catalogExpansionFeedsConfigured": current_feed_budget,
+                "catalogExpansionFeedsAvailable": available_expansion_feeds,
+                "fetch": fetch_summary,
+                "merge": merge_summary,
+            }
+
+        expansion_budget = min(current_feed_budget + expansion_step, args.max_catalog_expansion_feeds)
 
 
 def main() -> int:
@@ -169,20 +253,20 @@ def main() -> int:
     if not dates_to_process:
         raise RuntimeError("No NEWS digest dates were selected for processing.")
 
+    results = [process_digest_date(run_date, args) for run_date in dates_to_process]
+
     print(
         json.dumps(
             {
                 "latestFeedDate": latest_feed_date.isoformat() if latest_feed_date else None,
                 "processDates": [run_date.isoformat() for run_date in dates_to_process],
                 "timeZone": args.time_zone,
+                "results": results,
             },
             ensure_ascii=False,
             indent=2,
         )
     )
-
-    for run_date in dates_to_process:
-        process_digest_date(run_date, args)
 
     return 0
 
