@@ -166,7 +166,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-window-hours",
         type=int,
-        default=336,
+        default=720,
         help="Maximum rolling window size used to backfill sparse digest days.",
     )
     parser.add_argument("--limit", type=int, default=36)

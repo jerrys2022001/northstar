@@ -5,6 +5,7 @@ import json
 import subprocess
 import sys
 from datetime import date, datetime, timedelta, timezone, tzinfo
+from json import JSONDecodeError
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -45,6 +46,36 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=36,
         help="Maximum number of fetched candidate items per digest date.",
+    )
+    parser.add_argument(
+        "--fetch-min-items",
+        type=int,
+        default=20,
+        help="Initial minimum number of candidates to target before widening the rolling window.",
+    )
+    parser.add_argument(
+        "--fetch-min-items-step",
+        type=int,
+        default=10,
+        help="How many extra target candidates to request after each short run.",
+    )
+    parser.add_argument(
+        "--max-fetch-min-items",
+        type=int,
+        default=60,
+        help="Maximum candidate target used when repeatedly widening sparse digest days.",
+    )
+    parser.add_argument(
+        "--fetch-limit-step",
+        type=int,
+        default=12,
+        help="How many extra fetched candidates to allow after each short run.",
+    )
+    parser.add_argument(
+        "--max-fetch-limit",
+        type=int,
+        default=72,
+        help="Maximum fetch limit used when repeatedly widening sparse digest days.",
     )
     parser.add_argument(
         "--max-backfill-days",
@@ -164,7 +195,46 @@ def run_json_command(command: list[str]) -> dict[str, object]:
     stdout = (completed.stdout or "").strip()
     if not stdout:
         return {}
-    return json.loads(stdout)
+    try:
+        return json.loads(stdout)
+    except JSONDecodeError:
+        object_start = stdout.find("{")
+        object_end = stdout.rfind("}")
+        if object_start == -1 or object_end == -1 or object_end < object_start:
+            raise
+        return json.loads(stdout[object_start : object_end + 1])
+
+
+def next_search_budgets(
+    *,
+    fetch_limit: int,
+    fetch_min_items: int,
+    current_feed_budget: int,
+    available_expansion_feeds: int,
+    args: argparse.Namespace,
+) -> tuple[int, int, int]:
+    max_feed_budget = min(max(0, args.max_catalog_expansion_feeds), max(0, available_expansion_feeds))
+    next_feed_budget = current_feed_budget
+    if current_feed_budget < max_feed_budget:
+        next_feed_budget = min(current_feed_budget + max(1, args.catalog_expansion_step), max_feed_budget)
+
+    max_fetch_limit = max(args.limit, args.max_fetch_limit)
+    next_fetch_limit = fetch_limit
+    if fetch_limit < max_fetch_limit:
+        next_fetch_limit = min(fetch_limit + max(1, args.fetch_limit_step), max_fetch_limit)
+
+    max_fetch_min_items = min(
+        next_fetch_limit,
+        max(args.fetch_min_items, args.max_fetch_min_items, args.min_daily_items),
+    )
+    next_fetch_min_items = fetch_min_items
+    if fetch_min_items < max_fetch_min_items:
+        next_fetch_min_items = min(
+            fetch_min_items + max(1, args.fetch_min_items_step),
+            max_fetch_min_items,
+        )
+
+    return next_fetch_limit, next_fetch_min_items, next_feed_budget
 
 
 def process_digest_date(run_date: date, args: argparse.Namespace) -> dict[str, object]:
@@ -174,6 +244,8 @@ def process_digest_date(run_date: date, args: argparse.Namespace) -> dict[str, o
         max(0, args.max_catalog_expansion_feeds),
     )
     expansion_step = max(1, args.catalog_expansion_step)
+    fetch_limit = max(args.limit, args.fetch_min_items)
+    fetch_min_items = min(max(args.fetch_min_items, args.min_daily_items), fetch_limit)
     attempts = 0
 
     while True:
@@ -186,7 +258,9 @@ def process_digest_date(run_date: date, args: argparse.Namespace) -> dict[str, o
             "--time-zone",
             args.time_zone,
             "--limit",
-            str(args.limit),
+            str(fetch_limit),
+            "--min-items",
+            str(fetch_min_items),
             "--max-catalog-expansion-feeds",
             str(expansion_budget),
         ]
@@ -219,21 +293,38 @@ def process_digest_date(run_date: date, args: argparse.Namespace) -> dict[str, o
                 "attempts": attempts,
                 "catalogExpansionFeedsConfigured": current_feed_budget,
                 "catalogExpansionFeedsAvailable": available_expansion_feeds,
+                "fetchMinItems": fetch_min_items,
+                "fetchLimit": fetch_limit,
                 "fetch": fetch_summary,
                 "merge": merge_summary,
             }
 
-        if available_expansion_feeds == 0 or current_feed_budget >= min(args.max_catalog_expansion_feeds, available_expansion_feeds):
+        next_fetch_limit, next_fetch_min_items, next_feed_budget = next_search_budgets(
+            fetch_limit=fetch_limit,
+            fetch_min_items=fetch_min_items,
+            current_feed_budget=current_feed_budget,
+            available_expansion_feeds=available_expansion_feeds,
+            args=args,
+        )
+        if (
+            next_fetch_limit == fetch_limit
+            and next_fetch_min_items == fetch_min_items
+            and next_feed_budget == current_feed_budget
+        ):
             return {
                 "date": date_value,
                 "attempts": attempts,
                 "catalogExpansionFeedsConfigured": current_feed_budget,
                 "catalogExpansionFeedsAvailable": available_expansion_feeds,
+                "fetchMinItems": fetch_min_items,
+                "fetchLimit": fetch_limit,
                 "fetch": fetch_summary,
                 "merge": merge_summary,
             }
 
-        expansion_budget = min(current_feed_budget + expansion_step, args.max_catalog_expansion_feeds)
+        expansion_budget = next_feed_budget
+        fetch_limit = next_fetch_limit
+        fetch_min_items = next_fetch_min_items
 
 
 def main() -> int:

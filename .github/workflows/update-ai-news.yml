@@ -3,10 +3,16 @@ name: Update AI News
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "17 0 * * *"
+    - cron: "17 1 * * *"
+    - cron: "17 2 * * *"
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-ai-news
+  cancel-in-progress: false
 
 jobs:
   update-ai-news:

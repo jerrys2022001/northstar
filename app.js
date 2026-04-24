@@ -365,6 +365,112 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-04-24",
+    "label": "April 24, 2026",
+    "items": [
+      {
+        "id": "google-and-aws-split-the-ai-agent-stack-between-239549f6-apr24",
+        "category": "Developer Tools",
+        "title": "Google and AWS split the AI agent stack between control and execution",
+        "source": "VentureBeat",
+        "summary": "The era of enterprises stitching together prompt chains and shadow agents is nearing its end as more options for orchestrating complex multi-agent systems emerge. As organizations move AI agents into production, the question remains: \"how will we manage them?...",
+        "href": "https://venturebeat.com/orchestration/google-and-aws-split-the-ai-agent-stack-between-control-and-execution",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1Vp25PZDnQQMBBb7WLhth0/f565b23d4dfbc56def7a55fae6405769/crimedy7_illustration_of_a_schism_but_related_to_artificial_i_2d035a47-60c4-4cab-9029-d5ee39e3dbdc_0.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gpt-5-5-system-card-cfbb97f4-apr24",
+        "category": "Model Releases",
+        "title": "GPT-5.5 System Card",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI Blog reported: GPT-5.5 System Card",
+        "href": "https://openai.com/index/gpt-5-5-system-card",
+        "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-says-its-new-gpt-5-5-model-is-more-effici-d8444b6c-apr24",
+        "category": "Developer Tools",
+        "title": "OpenAI says its new GPT-5.5 model is more efficient and better at coding",
+        "source": "The Verge AI",
+        "summary": "OpenAI just announced its new GPT-5.5 model, which the company calls its \"smartest and most intuitive to use model yet, and the next step toward a new way of getting work done on a computer.\" OpenAI just released GPT-5.4 last month, but says that the new GPT-...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/917612/openai-gpt-5-5-chatgpt",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-s-gpt-5-5-is-here-and-it-s-no-potato-narr-a7cdb554-apr24",
+        "category": "Developer Tools",
+        "title": "OpenAI's GPT-5.5 is here, and it's no potato: narrowly beats Anthropic's Claude Mythos Preview on Terminal-Bench 2.0",
+        "source": "VentureBeat",
+        "summary": "After months of rumors and reports that OpenAI was developing a new, more powerful AI large language model for use in ChatGPT and through its application programming interface (API), allegedly codenamed \"Spud\" internally, the company has today unveiled its la...",
+        "href": "https://venturebeat.com/technology/openais-gpt-5-5-is-here-and-its-no-potato-narrowly-beats-anthropics-claude-mythos-preview-on-terminal-bench-2-0",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5rfSjmFTFGf8gVMCrgV4AB/32069c156a3d02d81b11c85fb64aa7c0/ChatGPT_Image_Apr_23__2026__01_47_16_PM.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-is-connecting-directly-to-your-personal-a-9ab87d01-apr24",
+        "category": "Product Updates",
+        "title": "Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax",
+        "source": "The Verge AI",
+        "summary": "Claude users can access more apps with Anthropic's AI now thanks to new connectors for everything from hiking to grocery shopping. Anthropic already supported connecting numerous work-related apps to Claude, like Microsoft apps, but this expansion focuses on...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/anthropic-claude-personal-apps.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-github-uses-ebpf-to-improve-deployment-safet-461eacea-apr24",
+        "category": "Developer Tools",
+        "title": "How GitHub uses eBPF to improve deployment safety",
+        "source": "GitHub Blog",
+        "summary": "Learn how Github uses eBPF to detect and prevent circular dependencies in its deployment tooling. The post How GitHub uses eBPF to improve deployment safety appeared first on The GitHub Blog .",
+        "href": "https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/4ba0cd42388a255e04c78e5143548f22e577d68e0f15f68e6a3c76c18b927981-1920x1080-1.png?fit=1920%2C1080",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "building-an-emoji-list-generator-with-the-github-4c4aa325-apr24",
+        "category": "Developer Tools",
+        "title": "Building an emoji list generator with the GitHub Copilot CLI",
+        "source": "GitHub Blog",
+        "summary": "See how we created an emoji list generator during the Rubber Duck Thursday stream. The post Building an emoji list generator with the GitHub Copilot CLI appeared first on The GitHub Blog .",
+        "href": "https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/image-19.png?fit=2064%2C1076",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "build-a-personal-organization-command-center-wit-c84f8d8a-apr24",
+        "category": "Developer Tools",
+        "title": "Build a personal organization command center with GitHub Copilot CLI",
+        "source": "GitHub Blog",
+        "summary": "Learn about the productivity tool one GitHub engineer built, and how AI supported the development process. The post Build a personal organization command center with GitHub Copilot CLI appeared first on The GitHub Blog .",
+        "href": "https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/command-cecnter.png?fit=1920%2C1080",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-philosophy-of-work-45b651f2-apr24",
+        "category": "Research Workflows",
+        "title": "A philosophy of work",
+        "source": "MIT News AI",
+        "summary": "As the NC Ethics of Technology Postdoctoral Fellow, Michal Masny is advancing dialogue, teaching, and research into the social and ethical dimensions of new computing technologies.",
+        "href": "https://news.mit.edu/2026/philosophy-work-michal-masny-0409",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202603/mit-philosophy-Michal-Masny.jpg?itok=W40Yn7Ni",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "jacob-andreas-and-brett-mcguire-named-edgerton-a-ed506815-apr24",
+        "category": "Research Workflows",
+        "title": "Jacob Andreas and Brett McGuire named Edgerton Award winners",
+        "source": "MIT News AI",
+        "summary": "The associate professors of EECS and chemistry, respectively, are honored for exceptional contributions to teaching, research, and service at MIT.",
+        "href": "https://news.mit.edu/2026/jacob-andreas-brett-mcguire-edgerton-award-winners-0417",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202604/mit-Edgerton-Award-Brett-McGuire-Jacob-Andreas.jpg?itok=m8C4mGM-",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-04-23",
     "label": "April 23, 2026",
     "items": [
@@ -389,16 +495,6 @@
         "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
       },
       {
-        "id": "google-and-aws-split-the-ai-agent-stack-between-239549f6-apr23",
-        "category": "Developer Tools",
-        "title": "Google and AWS split the AI agent stack between control and execution",
-        "source": "VentureBeat",
-        "summary": "The era of enterprises stitching together prompt chains and shadow agents is nearing its end as more options for orchestrating complex multi-agent systems emerge. As organizations move AI agents into production, the question remains: \"how will we manage them?...",
-        "href": "https://venturebeat.com/orchestration/google-and-aws-split-the-ai-agent-stack-between-control-and-execution",
-        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1Vp25PZDnQQMBBb7WLhth0/f565b23d4dfbc56def7a55fae6405769/crimedy7_illustration_of_a_schism_but_related_to_artificial_i_2d035a47-60c4-4cab-9029-d5ee39e3dbdc_0.png?w=300&q=30",
-        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
-      },
-      {
         "id": "openai-now-lets-teams-make-custom-bots-that-can-dc7155f8-apr23",
         "category": "Agents",
         "title": "OpenAI now lets teams make custom bots that can do work on their own",
@@ -416,16 +512,6 @@
         "summary": "OpenAI introduced a new paradigm and product today that is likely to have huge implications for enterprises seeking to adopt and control fleets of AI agent workers. Called \" Workspace Agents ,\" OpenAI's new offering essentially allows users on its ChatGPT Bus...",
         "href": "https://venturebeat.com/orchestration/openai-unveils-workspace-agents-a-successor-to-custom-gpts-for-enterprises-that-can-plug-directly-into-slack-salesforce-and-more",
         "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xdu5CqjmyRwz1NBaDX14Z/b43e969be10254ca838bf1ad60a187a6/ChatGPT_Image_Apr_22__2026__07_40_47_PM.png?w=300&q=30",
-        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "openai-launches-privacy-filter-an-open-source-on-b94b0bc2-apr23",
-        "category": "Developer Tools",
-        "title": "OpenAI launches Privacy Filter, an open source, on-device data sanitization model that removes personal information fro...",
-        "source": "VentureBeat",
-        "summary": "In a significant shift toward local-first privacy infrastructure, OpenAI has released Privacy Filter , a specialized open-source model designed to detect and redact personally identifiable information (PII) before it ever reaches a cloud-based server. Launche...",
-        "href": "https://venturebeat.com/data/openai-launches-privacy-filter-an-open-source-on-device-data-sanitization-model-that-removes-personal-information-from-enterprise-datasets",
-        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/6XCBm5srH1Bxz7O3CpDLSp/a22758d387829873af7990a15e208306/ChatGPT_Image_Apr_22__2026__01_50_30_PM.png?w=300&q=30",
         "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
       },
       {
