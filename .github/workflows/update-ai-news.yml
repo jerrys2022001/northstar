@@ -3,9 +3,7 @@ name: Update AI News
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 0 * * *"
-    - cron: "17 1 * * *"
-    - cron: "17 2 * * *"
+    - cron: "13,33,53 0-4 * * *"
 
 permissions:
   contents: write

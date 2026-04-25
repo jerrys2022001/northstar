@@ -68,6 +68,11 @@ CATALOG_TOOL_WATCH_FEEDS = [
     ("catalog-watch", "The Verge", "https://www.theverge.com/rss/index.xml", True),
     ("catalog-watch", "Ars Technica", "https://feeds.arstechnica.com/arstechnica/index", True),
     ("catalog-watch", "Mashable", "https://mashable.com/feeds/rss/all", True),
+    ("catalog-watch", "ZDNet AI", "https://www.zdnet.com/topic/artificial-intelligence/rss.xml", True),
+    ("catalog-watch", "The Decoder", "https://the-decoder.com/feed/", True),
+    ("catalog-watch", "SiliconANGLE AI", "https://siliconangle.com/category/ai/feed/", True),
+    ("catalog-watch", "InfoQ AI", "https://feed.infoq.com/ai-ml-data-eng", True),
+    ("catalog-watch", "AWS Machine Learning", "https://aws.amazon.com/blogs/machine-learning/feed/", True),
 ]
 
 AI_KEYWORDS = {

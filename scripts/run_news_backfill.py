@@ -62,7 +62,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-fetch-min-items",
         type=int,
-        default=60,
+        default=80,
         help="Maximum candidate target used when repeatedly widening sparse digest days.",
     )
     parser.add_argument(
@@ -74,7 +74,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-fetch-limit",
         type=int,
-        default=72,
+        default=96,
         help="Maximum fetch limit used when repeatedly widening sparse digest days.",
     )
     parser.add_argument(
@@ -116,7 +116,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-catalog-expansion-feeds",
         type=int,
-        default=24,
+        default=48,
         help="Maximum number of site-tool official feeds the fetch step may activate while topping up a sparse day.",
     )
     parser.add_argument(
@@ -158,6 +158,24 @@ def load_latest_feed_date() -> date | None:
         if isinstance(group, dict) and group.get("date")
     ]
     return max(parsed_dates, default=None)
+
+
+def load_feed_item_count(date_value: date) -> int:
+    if not CURRENT_FEED_PATH.exists():
+        return 0
+
+    payload = json.loads(CURRENT_FEED_PATH.read_text(encoding="utf-8"))
+    groups = payload.get("groups")
+    if not isinstance(groups, list):
+        return 0
+
+    target_date = date_value.isoformat()
+    for group in groups:
+        if not isinstance(group, dict) or group.get("date") != target_date:
+            continue
+        items = group.get("items")
+        return len(items) if isinstance(items, list) else 0
+    return 0
 
 
 def planned_dates(
@@ -290,6 +308,7 @@ def process_digest_date(run_date: date, args: argparse.Namespace) -> dict[str, o
         if run_date_items >= args.min_daily_items:
             return {
                 "date": date_value,
+                "targetMet": True,
                 "attempts": attempts,
                 "catalogExpansionFeedsConfigured": current_feed_budget,
                 "catalogExpansionFeedsAvailable": available_expansion_feeds,
@@ -313,6 +332,7 @@ def process_digest_date(run_date: date, args: argparse.Namespace) -> dict[str, o
         ):
             return {
                 "date": date_value,
+                "targetMet": False,
                 "attempts": attempts,
                 "catalogExpansionFeedsConfigured": current_feed_budget,
                 "catalogExpansionFeedsAvailable": available_expansion_feeds,
@@ -334,6 +354,25 @@ def main() -> int:
     end_date = resolve_date(args.end_date, today_local)
     latest_feed_date = load_latest_feed_date()
     start_date = resolve_date(args.start_date, end_date) if args.start_date else None
+    end_date_item_count = load_feed_item_count(end_date)
+
+    if start_date is None and latest_feed_date and latest_feed_date >= end_date and end_date_item_count >= args.min_daily_items:
+        print(
+            json.dumps(
+                {
+                    "latestFeedDate": latest_feed_date.isoformat(),
+                    "processDates": [],
+                    "timeZone": args.time_zone,
+                    "status": "already-current",
+                    "runDateItems": end_date_item_count,
+                    "requiredRunDateItems": args.min_daily_items,
+                    "results": [],
+                },
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+        return 0
 
     dates_to_process = planned_dates(
         latest_feed_date=latest_feed_date,
@@ -345,6 +384,7 @@ def main() -> int:
         raise RuntimeError("No NEWS digest dates were selected for processing.")
 
     results = [process_digest_date(run_date, args) for run_date in dates_to_process]
+    target_met = all(bool(result.get("targetMet")) for result in results)
 
     print(
         json.dumps(
@@ -352,6 +392,7 @@ def main() -> int:
                 "latestFeedDate": latest_feed_date.isoformat() if latest_feed_date else None,
                 "processDates": [run_date.isoformat() for run_date in dates_to_process],
                 "timeZone": args.time_zone,
+                "targetMet": target_met,
                 "results": results,
             },
             ensure_ascii=False,
@@ -359,7 +400,7 @@ def main() -> int:
         )
     )
 
-    return 0
+    return 0 if target_met else 1
 
 
 if __name__ == "__main__":
