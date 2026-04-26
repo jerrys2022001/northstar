@@ -3,7 +3,7 @@ name: Update AI News
 on:
   workflow_dispatch:
   schedule:
-    - cron: "13,33,53 0-4 * * *"
+    - cron: "7,27,47 23,0-6 * * *"
 
 permissions:
   contents: write
@@ -23,6 +23,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.repository.default_branch }}
+
+      - name: Sync latest site branch
+        shell: bash
+        run: |
+          git fetch origin "$NEWS_BRANCH"
+          git checkout -B "$NEWS_BRANCH" "origin/$NEWS_BRANCH"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -55,13 +61,15 @@ jobs:
           done
 
       - name: Commit updated news
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app.js data/news output/news-logs
-          if git diff --cached --quiet; then
+          git add -- app.js data/news output/news-logs
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No AI news changes to commit."
           else
             git commit -m "Update AI news feed"
+            git pull --rebase --autostash origin "$NEWS_BRANCH"
             git push origin HEAD:"$NEWS_BRANCH"
           fi
