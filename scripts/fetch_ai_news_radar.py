@@ -73,6 +73,12 @@ CATALOG_TOOL_WATCH_FEEDS = [
     ("catalog-watch", "SiliconANGLE AI", "https://siliconangle.com/category/ai/feed/", True),
     ("catalog-watch", "InfoQ AI", "https://feed.infoq.com/ai-ml-data-eng", True),
     ("catalog-watch", "AWS Machine Learning", "https://aws.amazon.com/blogs/machine-learning/feed/", True),
+    ("catalog-watch", "The Register AI", "https://www.theregister.com/software/ai_ml/headlines.atom", True),
+    ("catalog-watch", "MarkTechPost", "https://www.marktechpost.com/feed/", True),
+    ("catalog-watch", "TechRepublic AI", "https://www.techrepublic.com/rssfeeds/topic/artificial-intelligence/", True),
+    ("catalog-watch", "Sourcegraph Blog", "https://sourcegraph.com/blog/rss.xml", True),
+    ("catalog-watch", "NVIDIA Technical Blog AI", "https://developer.nvidia.com/blog/category/generative-ai/feed/", True),
+    ("catalog-watch", "JetBrains AI", "https://blog.jetbrains.com/ai/feed/", True),
 ]
 
 AI_KEYWORDS = {

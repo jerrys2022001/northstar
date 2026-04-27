@@ -56,6 +56,7 @@ GENERIC_ALIAS_TOKENS = {
 RISKY_SINGLE_WORD_ALIASES = {
     "base",
     "browse",
+    "continue",
     "dust",
     "hex",
     "lex",
@@ -79,6 +80,7 @@ DISALLOWED_VENDOR_ONLY_ALIASES = {
     "meta",
     "microsoft",
     "openai",
+    "vercel",
     "xai",
 }
 

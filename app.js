@@ -365,6 +365,142 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-04-27",
+    "label": "April 27, 2026",
+    "items": [
+      {
+        "id": "google-cloud-next-proves-what-we-suspected-every-d23a2b19-apr27",
+        "category": "Developer Tools",
+        "title": "Google Cloud Next proves what we suspected: Everything is AI now",
+        "source": "The Register AI",
+        "summary": "Join us for this week's Kettle as we dive into GCN and the latest not-so-alarming revelations about Mythos KETTLE If you needed further evidence that AI comes first in pretty much everything nowadays, look no further than this year's Google Cloud Next show, w...",
+        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/google_cloud_next_proves_what/",
+        "imageUrl": "https://regmedia.co.uk/2019/11/20/cloudnext.jpg",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-coding-tutorial-on-datashader-on-rendering-mas-54312e72-apr27",
+        "category": "Developer Tools",
+        "title": "A Coding Tutorial on Datashader on Rendering Massive Datasets with High-Performance Python Visual Analytics",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we explore Datashader, a powerful, high-performance visualization library for rendering massive datasets that quickly overwhelm traditional plotting tools. We work through its full rendering pipeline in Google Colab, starting from dense poin...",
+        "href": "https://www.marktechpost.com/2026/04/25/a-coding-tutorial-on-datashader-on-rendering-massive-datasets-with-high-performance-python-visual-analytics/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-74-1024x731.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "an-openai-linked-news-outlet-appears-to-be-entir-f96e586f-apr27",
+        "category": "Product Updates",
+        "title": "An OpenAI-linked news outlet appears to be entirely AI-generated",
+        "source": "Mashable",
+        "summary": "A new report reveals that a news publication is entirely AI-generated and is funded by an OpenAI super PAC",
+        "href": "https://mashable.com/article/ai-generated-news-site-with-ties-to-openai",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/07ybnEadd6yFYEtJF4HIetm/hero-image.fill.size_1200x675.v1777217331.png",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "our-principles-e1e83761-apr27",
+        "category": "Developer Tools",
+        "title": "Our principles",
+        "source": "OpenAI Blog",
+        "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+        "href": "https://openai.com/index/our-principles",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/sOXwMmuOREhljTDZ4gVid/e277a6d0e6364e53591ac8b9c42de068/our-principles-16_9-text.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "deepseek-s-new-models-are-so-efficient-they-ll-r-47e5c1d3-apr27",
+        "category": "Model Releases",
+        "title": "DeepSeek's new models are so efficient they'll run on a toaster ... by which we mean Huawei's NPUs",
+        "source": "The Register AI",
+        "summary": "Now available in preview, DeepSeek V4 cuts inference costs to a fraction of R1 Chinese AI darling DeepSeek is back with a new open weights large language model that promises performance to rival the best proprietary American LLMs. Perhaps more importantly, it...",
+        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/deepseek_v4/",
+        "imageUrl": "https://regmedia.co.uk/2025/01/27/shutterstock_deepseek_logo.jpg",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "build-with-deepseek-v4-using-nvidia-blackwell-an-d711d444-apr27",
+        "category": "Model Releases",
+        "title": "Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints",
+        "source": "NVIDIA Technical Blog AI",
+        "summary": "DeepSeek just launched its fourth generation of flagship models with DeepSeek-V4-Pro and DeepSeek-V4-Flash, both targeted at enabling highly efficient...",
+        "href": "https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/",
+        "imageUrl": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/ai-model-representation-2-768x432.png",
+        "excerpt": "Radar signal: NVIDIA Technical Blog AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-s-super-scary-bug-hunting-model-mythos-ca33a352-apr27",
+        "category": "Model Releases",
+        "title": "Anthropic's super-scary bug hunting model Mythos is shaping up to be a nothingburger",
+        "source": "The Register AI",
+        "summary": "Hackpocalypse deferred Anthropic's Mythos model is purportedly so good at finding vulnerabilities that the Claude-maker is afraid to make it available to the general public for fear that criminals will take advantage. But early analysis shows that Mythos may...",
+        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/anthropic_mythos_hype_nothingburger/",
+        "imageUrl": "https://regmedia.co.uk/2026/04/22/nothingburger.jpg",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-created-a-test-marketplace-for-agent-o-2032f932-apr27",
+        "category": "Agents",
+        "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+        "source": "TechCrunch",
+        "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
+        "href": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-88622588.jpg?resize=1200,870",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "top-7-benchmarks-that-actually-matter-for-agenti-936e2163-apr27",
+        "category": "Developer Tools",
+        "title": "Top 7 Benchmarks That Actually Matter for Agentic Reasoning in Large Language Models",
+        "source": "MarkTechPost",
+        "summary": "As AI agents move from research demos to production deployments, one question has become impossible to ignore: how do you actually know if an agent is good? Perplexity scores and MMLU leaderboard numbers tell you very little about whether a model can navigate...",
+        "href": "https://www.marktechpost.com/2026/04/26/top-7-benchmarks-that-actually-matter-for-agentic-reasoning-in-large-language-models/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-1-19.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-coding-implementation-on-kvcached-for-elastic-601a6e5e-apr27",
+        "category": "Developer Tools",
+        "title": "A Coding Implementation on kvcached for Elastic KV Cache Memory, Bursty LLM Serving, and Multi-Model GPU Sharing",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we explore kvcached, a dynamic KV-cache implementation on top of vLLM, to understand how dynamic KV-cache allocation transforms GPU memory usage for large language models. We begin by setting up the environment and deploying lightweight Qwen...",
+        "href": "https://www.marktechpost.com/2026/04/25/a-coding-implementation-on-kvcached-for-elastic-kv-cache-memory-bursty-llm-serving-and-multi-model-gpu-sharing/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-1-18-1024x731.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-s-github-grounds-copilot-account-sign-aa931d7e-apr27",
+        "category": "Developer Tools",
+        "title": "Microsoft's GitHub grounds Copilot account sign-ups amid capacity crunch",
+        "source": "The Register AI",
+        "summary": "Remember what we promised when you subscribed for a year? Well, we've got a new deal that's better for us. Microsoft's GitHub has stopped accepting new Copilot individual subscriptions while the code hosting biz figures out how it can meet its service commitm...",
+        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/microsofts_github_grounds_copilot_account/",
+        "imageUrl": "https://regmedia.co.uk/2025/09/05/githubcopilot.jpg",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "github-acknowledges-recent-outages-cites-scaling-ca13eb58-apr27",
+        "category": "Developer Tools",
+        "title": "GitHub Acknowledges Recent Outages, Cites Scaling Challenges and Architectural Weaknesses",
+        "source": "InfoQ AI",
+        "summary": "GitHub has publicly addressed a series of recent availability and performance issues that disrupted services across its platform, attributing the incidents to rapid growth, architectural coupling, and limitations in handling system load. By Craig Risi",
+        "href": "https://www.infoq.com/news/2026/04/github-outages-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/04/github-outages-scaling/en/headerimage/generatedHeaderImage-1776504516196.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-it-actually-takes-to-run-code-intelligence-92f4fdaa-apr27",
+        "category": "Developer Tools",
+        "title": "What it actually takes to run code intelligence in-house",
+        "source": "Sourcegraph Blog",
+        "summary": "We audited what it would take to build a Sourcegraph equivalent internally, mapped the platform to 90 engineering requirements across 10 categories, and modeled 3-year costs for different environment sizes.",
+        "href": "http://localhost:5174/blog/what-it-actually-takes-to-run-code-intelligence-in-house",
+        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+        "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-04-26",
     "label": "April 26, 2026",
     "items": [
@@ -409,16 +545,6 @@
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
-        "id": "gpt-5-5-tops-benchmarks-but-still-hallucinates-f-4cabd843-apr26",
-        "category": "Developer Tools",
-        "title": "GPT-5.5 tops benchmarks but still hallucinates frequently and costs 20 percent more over the API",
-        "source": "The Decoder",
-        "summary": "GPT-5.5 pushes OpenAI back to the top of the AI benchmarks. The price went up, but it still looks like the best bang for your buck among proprietary models. The article GPT-5.5 tops benchmarks but still hallucinates frequently and costs 20 percent more over t...",
-        "href": "https://the-decoder.com/gpt-5-5-tops-benchmarks-but-still-hallucinates-frequently-and-costs-20-percent-more-over-the-api/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/openai_benchmark_results.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
         "id": "claude-can-now-connect-with-spotify-uber-and-a-l-c7cf805a-apr26",
         "category": "Product Updates",
         "title": "Claude can now connect with Spotify, Uber, and a lot more apps",
@@ -427,16 +553,6 @@
         "href": "https://mashable.com/article/anthropic-claude-connected-apps-spotify-uber-viator",
         "imageUrl": "https://helios-i.mashable.com/imagery/articles/01isVDzOf2lc7gajKn5rSub/hero-image.fill.size_1200x675.v1777045060.png",
         "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "anthropic-created-a-test-marketplace-for-agent-o-2032f932-apr26",
-        "category": "Agents",
-        "title": "Anthropic created a test marketplace for agent-on-agent commerce",
-        "source": "TechCrunch",
-        "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
-        "href": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-88622588.jpg?resize=1200,870",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
       },
       {
         "id": "anthropic-says-stronger-ai-models-cut-better-dea-0778fd0e-apr26",
@@ -477,16 +593,6 @@
         "href": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-pages/",
         "imageUrl": "https://github.blog/wp-content/uploads/2026/04/GIT851_THUMB_GFB_A-1.png?fit=1280%2C720",
         "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "github-acknowledges-recent-outages-cites-scaling-ca13eb58-apr26",
-        "category": "Developer Tools",
-        "title": "GitHub Acknowledges Recent Outages, Cites Scaling Challenges and Architectural Weaknesses",
-        "source": "InfoQ AI",
-        "summary": "GitHub has publicly addressed a series of recent availability and performance issues that disrupted services across its platform, attributing the incidents to rapid growth, architectural coupling, and limitations in handling system load. By Craig Risi",
-        "href": "https://www.infoq.com/news/2026/04/github-outages-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-        "imageUrl": "https://res.infoq.com/news/2026/04/github-outages-scaling/en/headerimage/generatedHeaderImage-1776504516196.jpg",
-        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -515,16 +621,6 @@
         "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
       },
       {
-        "id": "360-degree-cameras-have-a-new-superpower-2de99e7e-apr25",
-        "category": "Developer Tools",
-        "title": "360-degree cameras have a new superpower",
-        "source": "The Verge",
-        "summary": "Imagine Google Street View, except you can walk around like it's a video game. Now imagine you don't need to wait for Google to come film because it's completely DIY. Insta360, the leading maker of 360-degree cameras, is now partnered with a 12-person UK star...",
-        "href": "https://www.theverge.com/tech/914730/splatica-gaussian-splats-insta360-antigravity",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/vlcsnap-2026-04-24-00h24m20s573.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
-        "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window."
-      },
-      {
         "id": "i-tried-chatgpt-images-2-0-a-fun-huge-leap-and-s-b7acfb7d-apr25",
         "category": "Model Releases",
         "title": "I tried ChatGPT Images 2.0: A fun, huge leap - and surprisingly useful for real work",
@@ -543,16 +639,6 @@
         "href": "https://www.zdnet.com/article/i-put-openai-gpt-5-5-through-a-10-round-test/",
         "imageUrl": "https://www.zdnet.com/a/img/resize/684ea15a26c6dd922df89a06dccb17544af22cbd/2026/04/24/e4dab768-0664-4150-a92f-be4744140f31/i-put-gpt-5-5-through-a-10-round-test-it-scored-93100-losing-points-only-for-exuberance.jpg?auto=webp&fit=crop&height=675&width=1200",
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "deepseek-v4-arrives-with-near-state-of-the-art-i-b6b2775a-apr25",
-        "category": "Developer Tools",
-        "title": "DeepSeek-V4 arrives with near state-of-the-art intelligence at 1/6th the cost of Opus 4.7, GPT-5.5",
-        "source": "VentureBeat",
-        "summary": "The whale has resurfaced. DeepSeek, the Chinese AI startup offshoot of High-Flyer Capital Management quantitative analysis firm, became a near-overnight sensation globally in January 2025 with the release of its open source R1 model that matched proprietary U...",
-        "href": "https://venturebeat.com/technology/deepseek-v4-arrives-with-near-state-of-the-art-intelligence-at-1-6th-the-cost-of-opus-4-7-gpt-5-5",
-        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3LOb3OSbLvwu6ilw5uPnuF/426e117f7fab34245424ad0f8585c5da/ChatGPT_Image_Apr_24__2026__11_12_11_AM.png?w=300&q=30",
-        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
       },
       {
         "id": "deepseek-ai-deepep-82807d84-apr25",
@@ -611,16 +697,6 @@
         "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
       },
       {
-        "id": "gpt-5-5-system-card-cfbb97f4-apr24",
-        "category": "Model Releases",
-        "title": "GPT-5.5 System Card",
-        "source": "OpenAI Blog",
-        "summary": "OpenAI Blog reported: GPT-5.5 System Card",
-        "href": "https://openai.com/index/gpt-5-5-system-card",
-        "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
-        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
-      },
-      {
         "id": "openai-says-its-new-gpt-5-5-model-is-more-effici-d8444b6c-apr24",
         "category": "Developer Tools",
         "title": "OpenAI says its new GPT-5.5 model is more efficient and better at coding",
@@ -668,16 +744,6 @@
         "summary": "See how we created an emoji list generator during the Rubber Duck Thursday stream. The post Building an emoji list generator with the GitHub Copilot CLI appeared first on The GitHub Blog .",
         "href": "https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/",
         "imageUrl": "https://github.blog/wp-content/uploads/2026/04/image-19.png?fit=2064%2C1076",
-        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "build-a-personal-organization-command-center-wit-c84f8d8a-apr24",
-        "category": "Developer Tools",
-        "title": "Build a personal organization command center with GitHub Copilot CLI",
-        "source": "GitHub Blog",
-        "summary": "Learn about the productivity tool one GitHub engineer built, and how AI supported the development process. The post Build a personal organization command center with GitHub Copilot CLI appeared first on The GitHub Blog .",
-        "href": "https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/",
-        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/command-cecnter.png?fit=1920%2C1080",
         "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
       },
       {

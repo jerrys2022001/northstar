@@ -282,7 +282,7 @@ def process_digest_date(run_date: date, args: argparse.Namespace) -> dict[str, o
             "--max-catalog-expansion-feeds",
             str(expansion_budget),
         ]
-        if attempts > 1:
+        if attempts > 1 or expansion_budget >= args.max_catalog_expansion_feeds:
             fetch_command.append("--force-catalog-feed-expansion")
         merge_command = [
             sys.executable,
