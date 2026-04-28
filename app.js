@@ -79,7 +79,7 @@
     {
       name: "DualShot Camera",
       meta: "App Name",
-      href: "https://velocai.net",
+      href: "https://apps.apple.com/app/dualshot-camera-dual-recorder/id6761664966",
       iconUrl: "assets/submit-lane/watch-companion.png"
     }
   ];
