@@ -5828,6 +5828,25 @@
     }
   }
 
+  function activateTooltipSummary(summary) {
+    if (!summary) {
+      return;
+    }
+
+    setTooltipLayerBoundary(summary, true);
+    applyTooltipDirection(summary);
+    showFloatingTooltip(summary);
+  }
+
+  function deactivateTooltipSummary(summary) {
+    if (!summary) {
+      return;
+    }
+
+    setTooltipLayerBoundary(summary, false);
+    hideFloatingTooltip(summary);
+  }
+
   function refreshTooltipDirections() {
     document.querySelectorAll(".tool-summary[data-tip]").forEach((summary) => {
       applyTooltipDirection(summary);
@@ -5939,14 +5958,28 @@
     bindTopbarSearch();
     document.addEventListener("error", handleToolIconError, true);
 
+    document.addEventListener("pointerover", (event) => {
+      const summary = event.target.closest(".tool-summary[data-tip]");
+      if (!summary || summary.contains(event.relatedTarget)) {
+        return;
+      }
+      activateTooltipSummary(summary);
+    });
+
+    document.addEventListener("pointerout", (event) => {
+      const summary = event.target.closest(".tool-summary[data-tip]");
+      if (!summary || summary.contains(event.relatedTarget)) {
+        return;
+      }
+      deactivateTooltipSummary(summary);
+    });
+
     document.addEventListener("mouseenter", (event) => {
       const summary = event.target.closest(".tool-summary[data-tip]");
       if (!summary) {
         return;
       }
-      setTooltipLayerBoundary(summary, true);
-      applyTooltipDirection(summary);
-      showFloatingTooltip(summary);
+      activateTooltipSummary(summary);
     }, true);
 
     document.addEventListener("mouseleave", (event) => {
@@ -5954,8 +5987,7 @@
       if (!summary) {
         return;
       }
-      setTooltipLayerBoundary(summary, false);
-      hideFloatingTooltip(summary);
+      deactivateTooltipSummary(summary);
     }, true);
 
     document.addEventListener("focusin", (event) => {
@@ -5963,9 +5995,7 @@
       if (!summary) {
         return;
       }
-      setTooltipLayerBoundary(summary, true);
-      applyTooltipDirection(summary);
-      showFloatingTooltip(summary);
+      activateTooltipSummary(summary);
     });
 
     document.addEventListener("focusout", (event) => {
@@ -5975,8 +6005,7 @@
       }
       window.setTimeout(() => {
         if (!summary.contains(document.activeElement)) {
-          setTooltipLayerBoundary(summary, false);
-          hideFloatingTooltip(summary);
+          deactivateTooltipSummary(summary);
         }
       }, 0);
     });

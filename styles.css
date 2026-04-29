@@ -1506,15 +1506,21 @@ body[data-page="home"] .link-button:focus-visible {
   display: none;
 }
 
+body[data-page="directory"] .tool-summary[data-tip]::after,
+body[data-page="directory"] .tool-summary[data-tip]::before {
+  display: none;
+}
+
 .tool-floating-tip {
   position: fixed;
   left: 0;
   top: 0;
   z-index: 10000;
+  isolation: isolate;
   max-width: min(360px, calc(100vw - 24px));
   padding: 10px 12px;
   border-radius: 12px;
-  background: rgba(16, 22, 34, 0.94);
+  background: #202633;
   color: #fff;
   font-size: 0.78rem;
   line-height: 1.55;
@@ -1549,14 +1555,14 @@ body[data-page="home"] .link-button:focus-visible {
   transform: translateX(-50%);
   border-width: 6px 6px 0 6px;
   border-style: solid;
-  border-color: rgba(16, 22, 34, 0.94) transparent transparent transparent;
+  border-color: #202633 transparent transparent transparent;
 }
 
 .tool-floating-tip[data-direction="down"] .tool-floating-tip-arrow {
   top: -6px;
   bottom: auto;
   border-width: 0 6px 6px 6px;
-  border-color: transparent transparent rgba(16, 22, 34, 0.94) transparent;
+  border-color: transparent transparent #202633 transparent;
 }
 
 .tool-summary-measure {
