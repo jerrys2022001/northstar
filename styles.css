@@ -1501,6 +1501,64 @@ body[data-page="home"] .link-button:focus-visible {
   transform: translate(-50%, 0);
 }
 
+.tool-summary[data-tip].is-floating-tooltip-active::after,
+.tool-summary[data-tip].is-floating-tooltip-active::before {
+  display: none;
+}
+
+.tool-floating-tip {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10000;
+  max-width: min(360px, calc(100vw - 24px));
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(16, 22, 34, 0.94);
+  color: #fff;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  white-space: normal;
+  overflow-wrap: break-word;
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(6px);
+  transition: opacity 140ms ease, transform 140ms ease;
+}
+
+.tool-floating-tip.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.tool-floating-tip[data-direction="down"] {
+  transform: translateY(-6px);
+}
+
+.tool-floating-tip[data-direction="down"].is-visible {
+  transform: translateY(0);
+}
+
+.tool-floating-tip-arrow {
+  position: absolute;
+  left: var(--floating-tip-arrow-left, 18px);
+  bottom: -6px;
+  transform: translateX(-50%);
+  border-width: 6px 6px 0 6px;
+  border-style: solid;
+  border-color: rgba(16, 22, 34, 0.94) transparent transparent transparent;
+}
+
+.tool-floating-tip[data-direction="down"] .tool-floating-tip-arrow {
+  top: -6px;
+  bottom: auto;
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent rgba(16, 22, 34, 0.94) transparent;
+}
+
 .tool-summary-measure {
   position: fixed;
   left: -9999px;

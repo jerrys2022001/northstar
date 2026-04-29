@@ -5597,6 +5597,12 @@
   const TOOLTIP_ARROW_EDGE_PADDING = 14;
   const TOOLTIP_BOUNDARY_PADDING = 10;
   let tooltipMeasure = null;
+  let floatingTooltip = null;
+  let activeFloatingTooltipSummary = null;
+
+  function clampValue(value, min, max) {
+    return Math.min(Math.max(value, min), max);
+  }
 
   function ensureTooltipMeasure() {
     if (tooltipMeasure && document.body.contains(tooltipMeasure)) {
@@ -5725,6 +5731,103 @@
     });
   }
 
+  function ensureFloatingTooltip() {
+    if (floatingTooltip && document.body.contains(floatingTooltip)) {
+      return floatingTooltip;
+    }
+
+    floatingTooltip = document.createElement("div");
+    floatingTooltip.className = "tool-floating-tip";
+    floatingTooltip.setAttribute("role", "tooltip");
+    floatingTooltip.innerHTML = '<span class="tool-floating-tip-text"></span><span class="tool-floating-tip-arrow" aria-hidden="true"></span>';
+    document.body.appendChild(floatingTooltip);
+    return floatingTooltip;
+  }
+
+  function positionFloatingTooltip(summary) {
+    if (!summary || !summary.dataset.tip) {
+      return;
+    }
+
+    const tooltip = ensureFloatingTooltip();
+    const text = tooltip.querySelector(".tool-floating-tip-text");
+    const viewportWidth = window.innerWidth || document.documentElement.clientWidth || 0;
+    const viewportHeight = window.innerHeight || document.documentElement.clientHeight || 0;
+    const maxWidth = Math.max(180, Math.min(360, viewportWidth - TOOLTIP_VIEWPORT_MARGIN * 2));
+
+    if (text) {
+      text.textContent = summary.dataset.tip;
+    }
+
+    tooltip.style.maxWidth = `${maxWidth}px`;
+    tooltip.style.width = "";
+    tooltip.style.left = "0px";
+    tooltip.style.top = "0px";
+    tooltip.style.visibility = "hidden";
+    tooltip.classList.add("is-visible");
+
+    const anchorRect = summary.getBoundingClientRect();
+    const tooltipRect = tooltip.getBoundingClientRect();
+    const tooltipWidth = Math.ceil(tooltipRect.width);
+    const tooltipHeight = Math.ceil(tooltipRect.height);
+    const spaceAbove = anchorRect.top - TOOLTIP_BUBBLE_GAP - TOOLTIP_VIEWPORT_MARGIN;
+    const spaceBelow = viewportHeight - anchorRect.bottom - TOOLTIP_BUBBLE_GAP - TOOLTIP_VIEWPORT_MARGIN;
+    const direction = spaceAbove >= tooltipHeight || spaceAbove >= spaceBelow ? "up" : "down";
+    const left = clampValue(
+      anchorRect.left,
+      TOOLTIP_VIEWPORT_MARGIN,
+      Math.max(TOOLTIP_VIEWPORT_MARGIN, viewportWidth - TOOLTIP_VIEWPORT_MARGIN - tooltipWidth)
+    );
+    const top = direction === "up"
+      ? Math.max(TOOLTIP_VIEWPORT_MARGIN, anchorRect.top - tooltipHeight - TOOLTIP_BUBBLE_GAP)
+      : Math.min(
+          viewportHeight - TOOLTIP_VIEWPORT_MARGIN - tooltipHeight,
+          anchorRect.bottom + TOOLTIP_BUBBLE_GAP
+        );
+    const arrowLeft = clampValue(
+      anchorRect.left + anchorRect.width / 2 - left,
+      TOOLTIP_ARROW_EDGE_PADDING,
+      Math.max(TOOLTIP_ARROW_EDGE_PADDING, tooltipWidth - TOOLTIP_ARROW_EDGE_PADDING)
+    );
+
+    tooltip.dataset.direction = direction;
+    tooltip.style.left = `${Math.round(left)}px`;
+    tooltip.style.top = `${Math.round(top)}px`;
+    tooltip.style.setProperty("--floating-tip-arrow-left", `${Math.round(arrowLeft)}px`);
+    tooltip.style.visibility = "";
+  }
+
+  function showFloatingTooltip(summary) {
+    if (!summary || !summary.dataset.tip) {
+      return;
+    }
+
+    activeFloatingTooltipSummary = summary;
+    summary.classList.add("is-floating-tooltip-active");
+    positionFloatingTooltip(summary);
+  }
+
+  function hideFloatingTooltip(summary) {
+    if (summary) {
+      summary.classList.remove("is-floating-tooltip-active");
+    }
+
+    if (activeFloatingTooltipSummary === summary) {
+      activeFloatingTooltipSummary = null;
+    }
+
+    if (floatingTooltip) {
+      floatingTooltip.classList.remove("is-visible");
+      floatingTooltip.style.visibility = "";
+    }
+  }
+
+  function refreshFloatingTooltip() {
+    if (activeFloatingTooltipSummary) {
+      positionFloatingTooltip(activeFloatingTooltipSummary);
+    }
+  }
+
   function refreshTooltipDirections() {
     document.querySelectorAll(".tool-summary[data-tip]").forEach((summary) => {
       applyTooltipDirection(summary);
@@ -5843,6 +5946,7 @@
       }
       setTooltipLayerBoundary(summary, true);
       applyTooltipDirection(summary);
+      showFloatingTooltip(summary);
     }, true);
 
     document.addEventListener("mouseleave", (event) => {
@@ -5851,6 +5955,7 @@
         return;
       }
       setTooltipLayerBoundary(summary, false);
+      hideFloatingTooltip(summary);
     }, true);
 
     document.addEventListener("focusin", (event) => {
@@ -5860,6 +5965,7 @@
       }
       setTooltipLayerBoundary(summary, true);
       applyTooltipDirection(summary);
+      showFloatingTooltip(summary);
     });
 
     document.addEventListener("focusout", (event) => {
@@ -5870,9 +5976,13 @@
       window.setTimeout(() => {
         if (!summary.contains(document.activeElement)) {
           setTooltipLayerBoundary(summary, false);
+          hideFloatingTooltip(summary);
         }
       }, 0);
     });
+
+    window.addEventListener("scroll", refreshFloatingTooltip, { passive: true });
+    window.addEventListener("resize", refreshFloatingTooltip);
 
     window.addEventListener("resize", refreshTooltipDirections);
     window.addEventListener("scroll", refreshTooltipDirections, { passive: true });
