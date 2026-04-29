@@ -53,11 +53,10 @@ This writes standalone pages like `tools/chatgpt.html` and `tools/claude.html`.
 Northstar imports AI/tech signals from the public LearnPrompt `ai-news-radar` data format, falls back to curated RSS sources, then merges the result into the existing NEWS page archive.
 
 ```powershell
-python scripts\fetch_ai_news_radar.py --date 2026-04-14
-python scripts\run_daily_news_task.py --date 2026-04-14 --skip-render-validation
+python scripts\run_news_backfill.py --time-zone Asia/Shanghai --start-date 2026-04-14 --end-date 2026-04-14 --limit 96 --fetch-min-items 80 --max-fetch-min-items 80 --max-fetch-limit 96 --initial-catalog-expansion-feeds 48 --max-catalog-expansion-feeds 48 --skip-render-validation
 ```
 
-The GitHub Actions workflow at `.github/workflows/update-ai-news.yml` runs the same pipeline daily against the `codex/news-updates` branch. GitHub only runs scheduled workflows from the default branch, so merge that workflow into `main` when the daily automation should become active.
+The GitHub Actions workflow at `.github/workflows/update-ai-news.yml` runs the same backfill pipeline from the repository default branch. Its schedule fires at 16:30 and 19:30 Asia/Shanghai so the daily source feeds have time to settle, and the second run acts as a same-day retry if the first window is sparse or a source is temporarily unavailable.
 
 ## Cache local tool icons
 

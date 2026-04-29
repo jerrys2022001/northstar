@@ -3,7 +3,9 @@ name: Update AI News
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,27,47 23,0-6 * * *"
+    # 16:30 and 19:30 Asia/Shanghai. Run after the daily source feeds have
+    # had time to settle, with one later retry window for transient misses.
+    - cron: "30 8,11 * * *"
 
 permissions:
   contents: write

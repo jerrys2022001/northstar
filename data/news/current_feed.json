@@ -1,39 +1,175 @@
 {
-  "updatedAt": "2026-04-28T08:55:51",
+  "updatedAt": "2026-04-29T16:58:23",
   "groups": [
+    {
+      "date": "2026-04-29",
+      "label": "April 29, 2026",
+      "items": [
+        {
+          "id": "google-cloud-introduces-agents-cli-to-streamline-1eeff792-apr29",
+          "category": "Agents",
+          "title": "Google Cloud Introduces Agents CLI to Streamline AI Agent Development Lifecycle",
+          "source": "InfoQ AI",
+          "summary": "Google Cloud has introduced Agents CLI within its Agent Platform, aiming to streamline the development lifecycle of AI agents from local prototyping to production deployment. The release targets a common challenge in agent development, where tooling and infra...",
+          "href": "https://www.infoq.com/news/2026/04/agents-cli-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "imageUrl": "https://res.infoq.com/news/2026/04/agents-cli-google-cloud/en/headerimage/generatedHeaderImage-1777398240597.jpg",
+          "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "google-signs-ai-deal-with-the-pentagon-ignoring-069bc604-apr29",
+          "category": "Developer Tools",
+          "title": "Google signs AI deal with the Pentagon, ignoring protest from over 600 employees",
+          "source": "The Decoder",
+          "summary": "Despite an open letter from hundreds of employees, Google has signed a contract giving the U.S. Department of Defense access to its AI models for classified work. Legal experts say the contract's safety clauses aren't legally binding. The article Google signs...",
+          "href": "https://the-decoder.com/google-signs-ai-deal-with-the-pentagon-ignoring-protest-from-over-600-employees/",
+          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_anthropic_google_pentagon-scaled.jpg",
+          "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "at-his-openai-trial-musk-relitigates-an-old-frie-2c170000-apr29",
+          "category": "Product Updates",
+          "title": "At his OpenAI trial, Musk relitigates an old friendship",
+          "source": "TechCrunch",
+          "summary": "It's a story Musk has told before -- in interviews and to author Walter Isaacson for his bestselling biography of Musk -- but Tuesday was the first time he said it under oath.",
+          "href": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2016/07/a3c4057e7d804c79b4bfb3278f4afced.jpg?resize=1200,675",
+          "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "how-to-build-traceable-and-evaluated-llm-workflo-3a36db5f-apr29",
+          "category": "Agents",
+          "title": "How to Build Traceable and Evaluated LLM Workflows Using Promptflow, Prompty, and OpenAI",
+          "source": "MarkTechPost",
+          "summary": "In this tutorial, we build a complete, production-style LLM workflow using Promptflow within a Colab environment. We begin by setting up a reliable keyring backend to avoid OS dependency issues and securely configure our OpenAI connection. From there, we esta...",
+          "href": "https://www.marktechpost.com/2026/04/28/how-to-build-traceable-and-evaluated-llm-workflows-using-promptflow-prompty-and-openai/",
+          "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-84-1024x731.png",
+          "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "from-developer-desks-to-the-whole-organization-r-9ba53ef0-apr29",
+          "category": "Developer Tools",
+          "title": "From developer desks to the whole organization: Running Claude Cowork in Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "summary": "Today, we're excited to announce Claude Cowork in Amazon Bedrock. You can now run Cowork and Claude Code Desktop through Amazon Bedrock, directly or using an LLM gateway. In this post, we walk through how Claude Cowork integrates with Amazon Bedrock and show...",
+          "href": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/21/ml-20855-1120x630.png",
+          "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "anthropic-s-magic-code-sniffer-more-swiss-cheese-5167d891-apr29",
+          "category": "Developer Tools",
+          "title": "Anthropic's magic code-sniffer: More Swiss cheese than cheddar, for now",
+          "source": "The Register AI",
+          "summary": "AI vuln-hunter finds what humans taught it to find. Funny that Opinion In retrospect, calling it Mythos made it a hostage to fortune. Anthropic may have hoped that the name implied its AI code security model had mythical god-like powers, but there's an altern...",
+          "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/anthropics_magic_codesniffer_more_swiss/",
+          "imageUrl": "https://regmedia.co.uk/2016/08/09/swisscheese.jpg",
+          "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "securing-the-git-push-pipeline-responding-to-a-c-b83b06fe-apr29",
+          "category": "Developer Tools",
+          "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
+          "source": "GitHub Blog",
+          "summary": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation. The post Securing the git push pipeline: Responding to a critical remote code execution vulnerability appeared first on The GitHub Blog .",
+          "href": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
+          "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-security-logo-blocks-github.png",
+          "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "github-will-start-charging-copilot-users-based-o-1e374899-apr29",
+          "category": "Developer Tools",
+          "title": "GitHub will start charging Copilot users based on their actual AI usage",
+          "source": "Ars Technica",
+          "summary": "GitHub says it can no longer absorb \"escalating inference cost\" from it heaviest AI users.",
+          "href": "https://arstechnica.com/ai/2026/04/github-will-start-charging-copilot-users-based-on-their-actual-ai-usage/",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/copilot-1152x648.png",
+          "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "lovable-launches-its-vibe-coding-app-on-ios-and-7224e67e-apr29",
+          "category": "Developer Tools",
+          "title": "Lovable launches its vibe-coding app on iOS and Android",
+          "source": "TechCrunch",
+          "summary": "The app allows developers to vibe code web apps and websites on the go.",
+          "href": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2018/02/tc-backlight-e1689786273147.png?w=1200",
+          "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "a-coding-implementation-on-document-parsing-benc-8619d0a5-apr29",
+          "category": "Developer Tools",
+          "title": "A Coding Implementation on Document Parsing Benchmarking with LlamaIndex ParseBench Using Python, Hugging Face, and Eva...",
+          "source": "MarkTechPost",
+          "summary": "In this tutorial, we explore how to use the ParseBench dataset to evaluate document parsing systems in a structured, practical way. We begin by loading the dataset directly from Hugging Face, inspecting its multiple dimensions, such as text, tables, charts, a...",
+          "href": "https://www.marktechpost.com/2026/04/29/a-coding-implementation-on-document-parsing-benchmarking-with-llamaindex-parsebench-using-python-hugging-face-and-evaluation-metrics/",
+          "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-86.png",
+          "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "meta-fair-releases-neuralset-a-python-package-fo-de196fe1-apr29",
+          "category": "Research Workflows",
+          "title": "Meta FAIR Releases NeuralSet: A Python Package for Neuro-AI That Supports fMRI, M/EEG, Spikes, and HuggingFace Embeddin...",
+          "source": "MarkTechPost",
+          "summary": "Introducing NeuralSet: Meta's Simple, Fast, and Scalable Python Package That Bridges Neuroscience and AI The post Meta FAIR Releases NeuralSet: A Python Package for Neuro-AI That Supports fMRI, M/EEG, Spikes, and HuggingFace Embeddings appeared first on MarkT...",
+          "href": "https://www.marktechpost.com/2026/04/29/meta-fair-releases-neuralset-a-python-package-for-neuro-ai-that-supports-fmri-m-eeg-spikes-and-huggingface-embeddings/",
+          "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/Screenshot-2026-04-29-at-12.54.07-AM-1.png",
+          "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "enabling-privacy-preserving-ai-training-on-every-9ea28709-apr29",
+          "category": "Model Releases",
+          "title": "Enabling privacy-preserving AI training on everyday devices",
+          "source": "MIT News AI",
+          "summary": "A new method could bring more accurate and efficient AI models to high-stakes applications like health care and finance, even in under-resourced settings.",
+          "href": "https://news.mit.edu/2026/enabling-privacy-preserving-ai-training-everyday-devices-0429",
+          "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202604/MIT-Federated-Constrained-01-press.jpg?itok=ILr4mnWw",
+          "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+        }
+      ]
+    },
     {
       "date": "2026-04-28",
       "label": "April 28, 2026",
       "items": [
         {
-          "id": "microsoft-and-openai-gut-their-exclusive-deal-fr-958678bf-apr28",
-          "category": "Developer Tools",
-          "title": "Microsoft and OpenAI gut their exclusive deal, freeing OpenAI to sell on AWS and Google Cloud",
-          "source": "VentureBeat",
-          "summary": "Microsoft and OpenAI on Monday announced a sweeping overhaul of the partnership that has defined the commercial AI era, dismantling key pillars of exclusivity and revenue-sharing that bound the two companies together for years and replacing them with a looser...",
-          "href": "https://venturebeat.com/technology/microsoft-and-openai-gut-their-exclusive-deal-freeing-openai-to-sell-on-aws-and-google-cloud",
-          "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/jWKnXQb73xGvnR0cJtCMe/ca8184c4104cbce09237472623645351/nuneybits_Vector_art_of_burning_contract_85754b2d-d02d-451f-9cd4-db57975ec2dc.webp?w=300&q=30",
-          "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+          "id": "samsung-wallet-just-got-a-travel-feature-that-i-c479a9a1-apr28",
+          "category": "Product Updates",
+          "title": "Samsung Wallet just got a travel feature that I hope Google Wallet copies ASAP",
+          "source": "ZDNet AI",
+          "summary": "This is a pretty big perk for Galaxy users since there's nothing like it built into Android.",
+          "href": "https://www.zdnet.com/article/samsung-wallet-new-trips-travel-feature/",
+          "imageUrl": "assets/news/ai-news-goldman-agents.png",
+          "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
         },
         {
-          "id": "google-is-testing-ai-chatbot-search-for-youtube-bc5ccb65-apr28",
-          "category": "Developer Tools",
-          "title": "Google is testing AI chatbot search for YouTube",
-          "source": "The Verge AI",
-          "summary": "Google is trying out an AI Mode-like search experience for YouTube. The company is now testing \"a new way to search on YouTube that feels more like a conversation,\" with results pulling in things like longform videos, YouTube Shorts, and text about what you'r...",
-          "href": "https://www.theverge.com/streaming/919441/google-ask-youtube-ai-chatbot-search",
-          "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK092_04.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-          "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
-        },
-        {
-          "id": "openai-ends-its-exclusive-partnership-with-micro-3acd4578-apr28",
+          "id": "eu-tells-google-to-open-up-ai-on-android-google-f50b6684-apr28",
           "category": "Model Releases",
-          "title": "OpenAI ends its exclusive partnership with Microsoft",
+          "title": "EU tells Google to open up AI on Android; Google says that's \"unwarranted intervention\"",
           "source": "Ars Technica",
-          "summary": "Amended agreement clears the way for OpenAI models to run on Amazon Bedrock.",
-          "href": "https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-2153474326-1024x648.jpg",
+          "summary": "Gemini gets preferential treatment on Android, but maybe not for long (in Europe).",
+          "href": "https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-1152x648.jpg",
           "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "openai-ends-microsoft-legal-peril-over-its-50b-a-949fd0ad-apr28",
+          "category": "Product Updates",
+          "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+          "source": "TechCrunch",
+          "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement.",
+          "href": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2214107176.jpg?resize=1200,800",
+          "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "microsoft-and-openai-s-open-relationship-is-now-98b20a23-apr28",
+          "category": "Product Updates",
+          "title": "Microsoft and OpenAI's open relationship is now official",
+          "source": "The Register AI",
+          "summary": "No. More. Exclusivity. Redmond keeps the ring until 2032, but OpenAI is free to see other clouds Once tied tightly together, Microsoft and OpenAI have amended their agreement, making the Windows giant's license non-exclusive. In exchange, Microsoft will no lo...",
+          "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/microsofts_and_openai_change_relationship/",
+          "imageUrl": "https://regmedia.co.uk/2016/09/01/split-path.jpg",
+          "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
         },
         {
           "id": "adobe-creative-cloud-pro-is-now-50-off-how-to-ge-c41e104b-apr28",
@@ -56,24 +192,24 @@
           "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
         },
         {
-          "id": "from-developer-desks-to-the-whole-organization-r-9ba53ef0-apr28",
-          "category": "Developer Tools",
-          "title": "From developer desks to the whole organization: Running Claude Cowork in Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "summary": "Today, we're excited to announce Claude Cowork in Amazon Bedrock. You can now run Cowork and Claude Code Desktop through Amazon Bedrock, directly or using an LLM gateway. In this post, we walk through how Claude Cowork integrates with Amazon Bedrock and show...",
-          "href": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/21/ml-20855-1120x630.png",
-          "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window."
+          "id": "claude-desktop-changes-app-access-settings-for-b-5346cad1-apr28",
+          "category": "Product Updates",
+          "title": "Claude Desktop changes app access settings for browsers you don't even have installed yet",
+          "source": "The Register AI",
+          "summary": "Installation and pre-approval without consent looks dubious under EU law One app should not modify another app without asking for and receiving your explicit consent. Yet Anthropic's Claude Desktop for macOS installs files that affect other vendors' applicati...",
+          "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/anthropic_claude_desktop_spyware_allegation/",
+          "imageUrl": "https://regmedia.co.uk/2024/05/01/shutterstock_generic_claude.jpg",
+          "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
         },
         {
-          "id": "anthropic-s-magic-code-sniffer-more-swiss-cheese-5167d891-apr28",
+          "id": "anthropic-launches-claude-managed-agents-to-spee-001ca1b8-apr28",
           "category": "Developer Tools",
-          "title": "Anthropic's magic code-sniffer: More Swiss cheese than cheddar, for now",
-          "source": "The Register AI",
-          "summary": "AI vuln-hunter finds what humans taught it to find. Funny that Opinion In retrospect, calling it Mythos made it a hostage to fortune. Anthropic may have hoped that the name implied its AI code security model had mythical god-like powers, but there's an altern...",
-          "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/anthropics_magic_codesniffer_more_swiss/",
-          "imageUrl": "https://regmedia.co.uk/2016/08/09/swisscheese.jpg",
-          "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+          "title": "Anthropic launches Claude Managed Agents to speed up AI agent development",
+          "source": "SiliconANGLE AI",
+          "summary": "Anthropic PBC today launched Claude Managed Agents, a cloud service that customers can use to build artificial intelligence agents. The company says the offering shortens the development workflow from months to weeks. Deploying a production-grade agent requir...",
+          "href": "https://siliconangle.com/2026/04/08/anthropic-launches-claude-managed-agents-speed-ai-agent-development/",
+          "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/04/Anthropic-1.png",
+          "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
         },
         {
           "id": "samsungs-ultra-sleek-galaxy-book5-pro-360-just-g-2cd3b30c-apr28",
@@ -86,14 +222,14 @@
           "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
         },
         {
-          "id": "github-copilot-shifts-to-usage-based-pricing-jun-c02593c4-apr28",
+          "id": "github-copilot-is-moving-to-usage-based-billing-cf9076c7-apr28",
           "category": "Developer Tools",
-          "title": "GitHub Copilot shifts to usage-based pricing June 1 - why that's no surprise",
-          "source": "ZDNet AI",
-          "summary": "Under the new approach, if you run out of credits, you can't use the service. GitHub plans to preview the new billing in early May.",
-          "href": "https://www.zdnet.com/article/github-copilot-shifts-to-usage-based-pricing/",
-          "imageUrl": "https://www.zdnet.com/a/img/resize/2b1eb5886e230d407b681a7a4b26e1a15204f22e/2026/04/27/a45ba512-8809-4fac-8568-34d3fea1eeff/redcost-gettyimages-1542445208.jpg?auto=webp&fit=crop&height=675&width=1200",
-          "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+          "title": "GitHub Copilot is moving to usage-based billing",
+          "source": "GitHub Blog",
+          "summary": "Starting June 1, your Copilot usage will consume GitHub AI Credits. The post GitHub Copilot is moving to usage-based billing appeared first on The GitHub Blog .",
+          "href": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+          "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-logo.png",
+          "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
         },
         {
           "id": "this-bestselling-gaming-device-is-not-a-nintendo-2e78e196-apr28",
