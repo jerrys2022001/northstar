@@ -2736,6 +2736,7 @@ body[data-page="home"] .link-button:focus-visible {
 }
 
 .directory-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -2749,6 +2750,11 @@ body[data-page="home"] .link-button:focus-visible {
   content-visibility: auto;
   contain: layout paint style;
   contain-intrinsic-size: 226px;
+}
+
+.directory-item.is-tooltip-active {
+  z-index: 18;
+  contain: layout style;
 }
 
 .directory-head {

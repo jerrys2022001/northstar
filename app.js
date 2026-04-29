@@ -5706,16 +5706,23 @@
     summary.style.setProperty("--tip-arrow-left", `${Math.round(arrowLeft)}px`);
   }
 
-  function tooltipLayerBoundary(summary) {
-    return summary?.closest(".feature-panel, .section-card") || null;
+  function tooltipLayerBoundaries(summary) {
+    if (!summary) {
+      return [];
+    }
+
+    const boundaries = [
+      summary.closest(".mini-item, .tool-tile, .rank-item, .directory-item, .lane-item, .usecase-tool, .deep-ranking-item, .stack-card, .stack-tool-chip"),
+      summary.closest(".feature-panel, .section-card")
+    ].filter(Boolean);
+
+    return [...new Set(boundaries)];
   }
 
   function setTooltipLayerBoundary(summary, active) {
-    const boundary = tooltipLayerBoundary(summary);
-    if (!boundary) {
-      return;
-    }
-    boundary.classList.toggle("is-tooltip-active", active);
+    tooltipLayerBoundaries(summary).forEach((boundary) => {
+      boundary.classList.toggle("is-tooltip-active", active);
+    });
   }
 
   function refreshTooltipDirections() {
