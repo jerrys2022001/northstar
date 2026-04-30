@@ -3,9 +3,9 @@ name: Update AI News
 on:
   workflow_dispatch:
   schedule:
-    # 16:30 and 19:30 Asia/Shanghai. Run after the daily source feeds have
-    # had time to settle, with one later retry window for transient misses.
-    - cron: "30 8,11 * * *"
+    # 08:45 Asia/Shanghai (00:45 UTC). The job retries in-place if the
+    # early source window is sparse or a feed is temporarily unavailable.
+    - cron: "45 0 * * *"
 
 permissions:
   contents: write
