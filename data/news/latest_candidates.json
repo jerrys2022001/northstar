@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-04-30T01:29:37+00:00",
-  "digestDate": "2026-04-30",
+  "updatedAt": "2026-05-01T02:20:47+00:00",
+  "digestDate": "2026-05-01",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
-  "effectiveWindowHours": 504,
-  "windowStart": "2026-04-09T09:26:07+08:00",
-  "windowEnd": "2026-04-30T09:26:07+08:00",
+  "effectiveWindowHours": 360,
+  "windowStart": "2026-04-16T10:17:44+08:00",
+  "windowEnd": "2026-05-01T10:17:44+08:00",
   "catalogExpansionFeedsAvailable": 34,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -218,49 +218,218 @@
   ],
   "items": [
     {
-      "id": "sources-anthropic-could-raise-a-new-50b-round-at-50738bf0-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Funding",
-      "title": "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
-      "source": "TechCrunch",
-      "summary": "The maker of Claude has received multiple pre-emptive offers at valuations in the $850 billion to $900 billion range, according to sources familiar with the matter.",
-      "href": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256664479.jpg?resize=1200,800",
-      "publishedAt": "2026-04-30T00:07:15+00:00",
+      "id": "everything-you-need-to-know-about-elon-musks-ope-efbbf270-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Product Updates",
+      "title": "Everything you need to know about Elon Musks OpenAI testimony",
+      "source": "Mashable",
+      "summary": "TL;DR: Musk doesn't understand what \"TL;DR\" stands for.",
+      "href": "https://mashable.com/article/musk-openai-trial-testimony",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/articles/00ST6klDlzPw71TKLNwhGTm/hero-image.fill.size_1200x675.v1777591577.jpg",
+      "publishedAt": "2026-05-01T02:05:24+00:00",
       "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "i-tested-chatgpt-and-perplexity-ai-as-my-carplay-04387f1b-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "I tested ChatGPT and Perplexity AI as my CarPlay voice assistants - this model was better",
+      "source": "ZDNet AI",
+      "summary": "When you're driving, both ChatGPT and Perplexity can answer questions and provide help that's well beyond Siri's modest abilities. Here's which one is better.",
+      "href": "https://www.zdnet.com/article/chatgpt-perplexity-ai-carplay-voice-assistant/",
+      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/bright-productivity.svg",
+      "publishedAt": "2026-05-01T02:00:50+00:00",
+      "toolIds": [
+        "chatgpt",
+        "perplexity"
+      ]
+    },
+    {
+      "id": "elon-musk-s-7-biggest-stumbles-on-the-stand-at-o-0c7e18b7-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Product Updates",
+      "title": "Elon Musk's 7 biggest stumbles on the stand at OpenAI trial",
+      "source": "Ars Technica",
+      "summary": "Elon Musk spent three days testifying as the first witness in his trial against OpenAI.",
+      "href": "https://arstechnica.com/tech-policy/2026/04/elon-musks-7-biggest-stumbles-on-the-stand-at-openai-trial/",
+      "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2273014098-1024x648.jpg",
+      "publishedAt": "2026-04-30T21:11:51+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "firefox-maker-torches-google-for-building-prompt-d795798d-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Product Updates",
+      "title": "Firefox maker torches Google for building Prompt API into browser",
+      "source": "The Register AI",
+      "summary": "Mozilla fears wiring an AI API into Chrome will make the web less open Updated Mozilla has reiterated its opposition to Google's decision to build AI plumbing into its Chrome browser, though rather belatedly now that the technology, known as the Prompt API, i...",
+      "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/mozilla_pushes_back_against_googles/",
+      "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://regmedia.co.uk/2022/09/30/chrome_with_chains.jpg",
+      "publishedAt": "2026-04-30T20:49:00+00:00",
+      "toolIds": [
+        "gemini",
+        "googleaistudio",
+        "notebooklm"
+      ]
+    },
+    {
+      "id": "after-dissing-anthropic-for-limiting-mythos-open-a79d8831-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Model Releases",
+      "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
+      "source": "TechCrunch",
+      "summary": "OpenAI will begin rolling out its cybersecurity testing tool, GPT-5.5 Cyber only \"to critical cyber defenders\" at first.",
+      "href": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783",
+      "publishedAt": "2026-04-30T19:27:41+00:00",
+      "toolIds": [
+        "chatgpt",
         "claude"
       ]
     },
     {
-      "id": "microsoft-says-it-has-over-20m-paid-copilot-user-953abed2-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "all-the-evidence-unveiled-so-far-in-musk-v-altma-814f8d51-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
-      "title": "Microsoft says it has over 20M paid Copilot users, and they really are using it",
+      "title": "All the evidence unveiled so far in Musk v. Altman",
+      "source": "The Verge AI",
+      "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from be...",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
+      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268474_musk_vs_altman_CVirginia6.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-04-30T19:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "openai-announces-new-advanced-security-for-chatg-d18b5816-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico",
       "source": "TechCrunch",
-      "summary": "Despite the lingering perception that no one really uses Copilot, Microsoft said on Wednesday that the number of users and engagement is growing.",
-      "href": "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/",
+      "summary": "OpenAI is launching additional opt-in protections for ChatGPT accounts. The new security initiative includes a new partnership with security key provider Yubico.",
+      "href": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
       "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2017/07/gettyimages-496394442.jpg?resize=1200,747",
-      "publishedAt": "2026-04-29T23:02:23+00:00",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/OopenAI-how-to-1.jpg?resize=1200,600",
+      "publishedAt": "2026-04-30T18:20:03+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "elon-musk-testifies-that-xai-trained-grok-on-ope-ea6fedd6-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Model Releases",
+      "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+      "source": "TechCrunch",
+      "summary": "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models.",
+      "href": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/musk-court-2273245544.jpg?resize=1200,801",
+      "publishedAt": "2026-04-30T18:03:57+00:00",
+      "toolIds": [
+        "chatgpt",
+        "grok"
+      ]
+    },
+    {
+      "id": "microsoft-ceo-satya-nadella-says-ai-success-is-m-725f1abc-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Microsoft CEO Satya Nadella says AI success is \"more about getting intense users and intense usage\" than seat counts",
+      "source": "The Decoder",
+      "summary": "Microsoft is posting record profits and strong cloud growth, but just like Google, the company is saying little about how its generative AI business is actually performing. The article Microsoft CEO Satya Nadella says AI success is \"more about getting intense...",
+      "href": "https://the-decoder.com/microsoft-ceo-satya-nadella-says-ai-success-is-more-about-getting-intense-users-and-intense-usage-than-seat-counts/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/microsoft_neural_network.png",
+      "publishedAt": "2026-04-30T17:49:04+00:00",
+      "toolIds": [
+        "gemini",
+        "googleaistudio",
+        "notebooklm"
+      ]
+    },
+    {
+      "id": "anthropic-s-new-claude-security-tool-scans-your-b7a47af7-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Anthropic's new Claude Security tool scans your codebase for flaws - and helps you decide what to fix first",
+      "source": "ZDNet AI",
+      "summary": "It uses Opus 4.7 to scan, validate, and generate patches, helping fix dangerous flaws before they can be exploited.",
+      "href": "https://www.zdnet.com/article/anthropic-claude-security-ai-tool-scans-codebase-for-flaws/",
+      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/b812c2ac285d2b5c8ffb0a577aa3a7e757aab1cb/2026/04/30/21eaa3bd-0347-4dbb-b857-b0757d960c7d/claude-security-2.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2026-04-30T17:00:00+00:00",
+      "toolIds": [
+        "claude",
+        "opusclip"
+      ]
+    },
+    {
+      "id": "github-copilot-cli-for-beginners-interactive-v-n-1ab6a120-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "GitHub Copilot CLI for Beginners: Interactive v. non-interactive mode",
+      "source": "GitHub Blog",
+      "summary": "Learn the difference between CLI interactive v. non-interactive modes. The post GitHub Copilot CLI for Beginners: Interactive v. non-interactive mode appeared first on The GitHub Blog .",
+      "href": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/",
+      "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://github.blog/wp-content/uploads/2026/04/Episode-2.png",
+      "publishedAt": "2026-04-30T16:09:02+00:00",
       "toolIds": [
         "githubcopilot"
       ]
     },
     {
-      "id": "google-cloud-surpasses-20b-but-says-growth-was-c-f4817a46-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Product Updates",
-      "title": "Google Cloud surpasses $20B, but says growth was capacity-constrained",
-      "source": "TechCrunch",
-      "summary": "Google Cloud topped $20B in quarterly revenue for the first time, fueled by surging demand for AI. But capacity constraints mean it could have grown even faster.",
-      "href": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
-      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2266466589.jpg?w=1024",
-      "publishedAt": "2026-04-29T22:20:48+00:00",
+      "id": "writer-launches-ai-agents-that-can-act-without-p-386e9dd5-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Writer launches AI agents that can act without prompts, taking on Amazon, Microsoft and Salesforce",
+      "source": "VentureBeat",
+      "summary": "Writer , the enterprise AI agent platform backed by Salesforce Ventures , Adobe Ventures , and Insight Partners , today launched event-based triggers for its Writer Agent platform, enabling AI agents to autonomously detect business signals across Gmail, Gong,...",
+      "href": "https://venturebeat.com/technology/writer-launches-ai-agents-that-can-act-without-prompts-taking-on-amazon-microsoft-and-salesforce",
+      "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/2A4wsP5BX8u0ZylzUEOncb/d97852834fdd610f61a1f5d79609d4ea/nuneybits_Vector_art_of_robot_secretary_typing_on_glowing_typew_bdb6fb50-e1f2-4f80-a241-560e6d906a91.webp?w=300&q=30",
+      "publishedAt": "2026-04-30T16:00:00+00:00",
+      "toolIds": [
+        "adobefirefly",
+        "adobeexpress"
+      ]
+    },
+    {
+      "id": "gemini-is-rolling-out-to-cars-with-google-built-849c8973-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Gemini is rolling out to cars with Google built-in",
+      "source": "The Verge AI",
+      "summary": "Google is preparing to update vehicles that have Google built-in with its Gemini AI assistant. This will be an upgrade from the current Google Assistant according to Google's announcement, and promises to provide an improved experience for natural conversatio...",
+      "href": "https://www.theverge.com/tech/921117/google-gemini-ai-assistant-cars-upgrade",
+      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Google-Gemini-car-AI-assistant-upgrade.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-04-30T16:00:00+00:00",
       "toolIds": [
         "gemini",
         "googleaistudio",
@@ -268,17 +437,49 @@
       ]
     },
     {
-      "id": "google-gains-25m-subscriptions-in-q1-driven-by-y-ea12b04b-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Product Updates",
-      "title": "Google gains 25M subscriptions in Q1, driven by YouTube and Google One",
-      "source": "TechCrunch",
-      "summary": "Google added 25M paid subscriptions in Q1, reaching 350M total, as YouTube and Google One grow.",
-      "href": "https://techcrunch.com/2026/04/29/google-gains-25m-subscriptions-in-q1-driven-by-youtube-and-google-one/",
-      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2020/06/GettyImages-1149449083.jpg?resize=1200,800",
-      "publishedAt": "2026-04-29T20:59:00+00:00",
+      "id": "i-asked-chatgpt-images-2-0-to-redesign-my-app-ui-fadddff2-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Model Releases",
+      "title": "I asked ChatGPT Images 2.0 to redesign my app UIs - and wow",
+      "source": "ZDNet AI",
+      "summary": "ChatGPT analyzed two of my apps, flagged issues, and generated new mockups. It's a game-changer.",
+      "href": "https://www.zdnet.com/article/i-asked-chatgpt-to-redesign-my-apps-wow-results/",
+      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/3af43c2d953e2cfcdd34b6da7c7a51c4f6ed2f05/2026/04/30/491017ca-f10e-41f4-8b3e-b82cc95ab5e8/chatgpt-images-2-0.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2026-04-30T14:18:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "openai-talks-about-not-talking-about-goblins-0aa0df25-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI talks about not talking about goblins",
+      "source": "The Verge AI",
+      "summary": "OpenAI is opening up about its goblin problem. After a report from Wired revealed instructions to OpenAI's coding model to \"never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures,\" the AI startup published an expla...",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/921181/openai-codex-goblins",
+      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/perplexity-billion-build-source.jpg",
+      "publishedAt": "2026-04-30T13:42:29+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "google-ceo-says-pichai-says-people-love-ai-overv-dc5046c2-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Google CEO says Pichai says people \"love\" AI Overviews and keep coming back to search more",
+      "source": "The Decoder",
+      "summary": "Alphabet is investing up to $190 billion in AI and cloud infrastructure through 2026, and the company says spending will rise \"significantly\" again in 2027. The article Google CEO says Pichai says people \"love\" AI Overviews and keep coming back to search more...",
+      "href": "https://the-decoder.com/google-ceo-says-pichai-says-people-love-ai-overviews-and-keep-coming-back-to-search-more/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/google_gemini_shilouette.png",
+      "publishedAt": "2026-04-30T13:38:54+00:00",
       "toolIds": [
         "gemini",
         "googleaistudio",
@@ -286,9 +487,208 @@
       ]
     },
     {
-      "id": "openai-codex-system-prompt-includes-explicit-dir-3e9f0fbd-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "samsung-galaxy-vs-google-pixel-my-take-after-tes-fcac359f-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Product Updates",
+      "title": "Samsung Galaxy vs. Google Pixel: My take after testing dozens of phones from both brands",
+      "source": "ZDNet AI",
+      "summary": "Samsung and Google make some of the best Android phones, but they're very different. Here's when to choose a Galaxy or a Pixel.",
+      "href": "https://www.zdnet.com/article/samsung-galaxy-vs-google-pixel-phones/",
+      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/a6b9c5fcbc5bfee0201b643efcb1a9006311f28d/2026/04/30/cd31c78f-fbc9-4e9e-a463-f7b9de7c2052/samsung-vs-pixel.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2026-04-30T13:06:00+00:00",
+      "toolIds": [
+        "gemini",
+        "googleaistudio",
+        "notebooklm"
+      ]
+    },
+    {
+      "id": "openai-says-it-hit-its-10-gigawatt-compute-goal-ad6b302b-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI says it hit its 10 gigawatt compute goal years ahead of schedule",
+      "source": "The Decoder",
+      "summary": "OpenAI says it has reached its goal of 10 gigawatts of AI compute capacity in the United States several years ahead of schedule. The article OpenAI says it hit its 10 gigawatt compute goal years ahead of schedule appeared first on The Decoder .",
+      "href": "https://the-decoder.com/openai-says-it-hit-its-10-gigawatt-compute-goal-years-ahead-of-schedule/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_gpt54-2.png",
+      "publishedAt": "2026-04-30T12:45:11+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "anthropic-s-new-benchmark-claims-claude-can-matc-f92532f0-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Anthropic's new benchmark claims Claude can match human experts in bioinformatics",
+      "source": "The Decoder",
+      "summary": "With BioMysteryBench, Anthropic wants to show that Claude can solve real bioinformatics problems at an expert level. The results are promising, but come with important caveats. The article Anthropic's new benchmark claims Claude can match human experts in bio...",
+      "href": "https://the-decoder.com/anthropics-new-benchmark-claims-claude-can-match-human-experts-in-bioinformatics/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/Anthropic-Bioinformatic-Bench.png",
+      "publishedAt": "2026-04-30T12:31:31+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "tencent-s-440-mb-ai-model-translates-33-language-5fa2033f-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Tencent's 440 MB AI model translates 33 languages offline on your phone",
+      "source": "The Decoder",
+      "summary": "Tencent has released a compact AI translation model as an open-weight model that it claims outperforms Google Translate and runs completely offline on smartphones. The article Tencent's 440 MB AI model translates 33 languages offline on your phone appeared fi...",
+      "href": "https://the-decoder.com/tencents-440-mb-ai-model-translates-33-languages-offline-on-your-phone/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/07/Tencent-Logo-Wall-GPT-4o.jpg",
+      "publishedAt": "2026-04-30T12:24:34+00:00",
+      "toolIds": [
+        "gemini",
+        "googleaistudio",
+        "notebooklm"
+      ]
+    },
+    {
+      "id": "white-house-worried-about-compute-limits-as-it-b-013c93da-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "White House worried about compute limits as it blocks wider access to Anthropic's Mythos",
+      "source": "The Decoder",
+      "summary": "The White House has rejected Anthropic's plan to expand access to its AI model Mythos to roughly 70 additional companies, the Wall Street Journal reports. The article White House worried about compute limits as it blocks wider access to Anthropic's Mythos app...",
+      "href": "https://the-decoder.com/white-house-worried-about-compute-limits-as-it-blocks-wider-access-to-anthropics-mythos/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/anthropic_pentagon-2.png",
+      "publishedAt": "2026-04-30T12:14:46+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "anthropic-reviewing-investor-offers-that-would-v-692f13f7-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Anthropic reviewing investor offers that would value the company at over $900 billion",
+      "source": "The Decoder",
+      "summary": "Anthropic is reviewing investor offers for a new funding round that would value the AI company at over $900 billion, Bloomberg reports. The article Anthropic reviewing investor offers that would value the company at over $900 billion appeared first on The Dec...",
+      "href": "https://the-decoder.com/anthropic-reviewing-investor-offers-that-would-value-the-company-at-over-900-billion/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/10/claude_anthropic_tpu_google.png",
+      "publishedAt": "2026-04-30T12:07:24+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "the-hidden-cost-of-google-s-ai-defaults-and-the-0bc0a5c3-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Product Updates",
+      "title": "The hidden cost of Google's AI defaults and the illusion of choice",
+      "source": "Ars Technica",
+      "summary": "Google says it respects user privacy in AI, but the reality is not so black and white.",
+      "href": "https://arstechnica.com/ai/2026/04/googles-privacy-maze-how-gemini-traps-you-and-your-data/",
+      "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-3-1152x648.jpg",
+      "publishedAt": "2026-04-30T11:00:31+00:00",
+      "toolIds": [
+        "gemini",
+        "googleaistudio",
+        "notebooklm"
+      ]
+    },
+    {
+      "id": "netomi-raises-110-million-as-accenture-and-adobe-5b1bffb8-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service",
+      "source": "VentureBeat",
+      "summary": "Netomi , the San Francisco-based startup building AI systems for enterprise customer service, said Thursday that it has raised $110 million in new funding in a round led by Accenture Ventures , with participation from Adobe Ventures , WndrCo , Silver Lake Wat...",
+      "href": "https://venturebeat.com/technology/netomi-raises-110-million-as-accenture-and-adobe-bet-on-ai-for-customer-service",
+      "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/17Z7TzwDGYPOr36mKN8hXV/14fcfd667d19fd9d96b2de2371783baa/nuneybits_Vector_art_of_a_customer_service_headset_dissolving_i_1435a88a-3615-4579-bf8d-fa3f812f8e62.webp?w=300&q=30",
+      "publishedAt": "2026-04-30T11:00:00+00:00",
+      "toolIds": [
+        "adobefirefly",
+        "adobeexpress"
+      ]
+    },
+    {
+      "id": "the-case-against-an-imminent-software-developer-625fe760-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "The case against an imminent software developer apocalypse",
+      "source": "ZDNet AI",
+      "summary": "Since the advent of ChatGPT, the software developer population has grown between 18% and 50%, depending on the measure.",
+      "href": "https://www.zdnet.com/article/rumors-of-the-software-developers-ai-induced-demise-are-greatly-exaggerated/",
+      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/1cb25f5fcfd73db45c8fb48bc3b357326a2933af/2026/04/23/4bb5c391-6d04-4d05-be36-c4a56ce225c5/rumors-of-the-software-developers-ai-induced-demise-are-greatly-exaggerated.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2026-04-30T09:00:45+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "cursor-introduces-a-typescript-sdk-for-building-ab02e967-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Cursor Introduces a TypeScript SDK for Building Programmatic Coding Agents With Sandboxed Cloud VMs, Subagents, Hooks,...",
+      "source": "MarkTechPost",
+      "summary": "Cursor Launches TypeScript SDK to Let Developers Build and Deploy Programmatic Coding Agents The post Cursor Introduces a TypeScript SDK for Building Programmatic Coding Agents With Sandboxed Cloud VMs, Subagents, Hooks, and Token-Based Pricing appeared first...",
+      "href": "https://www.marktechpost.com/2026/04/29/cursor-introduces-a-typescript-sdk-for-building-programmatic-coding-agents-with-sandboxed-cloud-vms-subagents-hooks-and-token-based-pricing/",
+      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-90.png",
+      "publishedAt": "2026-04-30T04:40:37+00:00",
+      "toolIds": [
+        "cursor"
+      ]
+    },
+    {
+      "id": "introducing-advanced-account-security-92f8ee26-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Policy",
+      "title": "Introducing Advanced Account Security",
+      "source": "OpenAI Blog",
+      "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "href": "https://openai.com/index/advanced-account-security",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/33E6MiPrFaTJmxUV9YlSZ3/853564fb6503980552068250c1e1de24/OG-Advanced-Account-Security.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-04-30T00:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "where-the-goblins-came-from-6ce07af3-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Model Releases",
+      "title": "Where the goblins came from",
+      "source": "OpenAI Blog",
+      "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+      "href": "https://openai.com/index/where-the-goblins-came-from",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/superhuman-personal-agents.png",
+      "publishedAt": "2026-04-29T20:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "openai-codex-system-prompt-includes-explicit-dir-3e9f0fbd-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "OpenAI Codex system prompt includes explicit directive to \"never talk about goblins\"",
       "source": "Ars Technica",
@@ -302,64 +702,9 @@
       ]
     },
     {
-      "id": "forget-samsung-galaxy-s26-ultra-i-found-alternat-c86c17f8-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Forget Samsung Galaxy S26 Ultra: I found alternatives that are nearly as good for less money",
-      "source": "ZDNet AI",
-      "summary": "After reviewing the latest Google, Samsung, and Motorola phones, I have a newfound appreciation for last year's models.",
-      "href": "https://www.zdnet.com/article/best-phones-you-can-buy-in-2026-are-from-2025/",
-      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.zdnet.com/a/img/resize/ab8e874248d48093cc06c8a551df10574e2a3617/2026/03/17/166a7a05-e157-4c8d-807f-f699a854fea1/img-20260317-203116.jpg?auto=webp&fit=crop&height=675&width=1200",
-      "publishedAt": "2026-04-29T18:59:00+00:00",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
-    },
-    {
-      "id": "google-gemini-now-generates-full-documents-sprea-efe79b50-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "Google Gemini now generates full documents, spreadsheets, and presentations directly inside the chat",
-      "source": "The Decoder",
-      "summary": "Google Gemini now creates documents directly in the chat, from PDFs and Word files to Excel spreadsheets. The article Google Gemini now generates full documents, spreadsheets, and presentations directly inside the chat appeared first on The Decoder .",
-      "href": "https://the-decoder.com/google-gemini-now-generates-full-documents-spreadsheets-and-presentations-directly-inside-the-chat/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/google_gemini_shilouette.png",
-      "publishedAt": "2026-04-29T17:18:57+00:00",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm",
-        "presentationsai"
-      ]
-    },
-    {
-      "id": "more-gemini-features-are-coming-to-google-tv-654253e0-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "More Gemini features are coming to Google TV",
-      "source": "TechCrunch",
-      "summary": "Google TV just got more Gemini features, including the ability to transform photos and videos with tools Nano Banana and Veo.",
-      "href": "https://techcrunch.com/2026/04/29/more-gemini-features-are-coming-to-google-tv/",
-      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/09/GoogleTV-2024.png?resize=1200,591",
-      "publishedAt": "2026-04-29T16:40:49+00:00",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
-    },
-    {
-      "id": "step-by-step-guide-to-build-a-complete-pii-detec-84201ae4-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "step-by-step-guide-to-build-a-complete-pii-detec-84201ae4-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "Step by Step Guide to Build a Complete PII Detection and Redaction Pipeline with OpenAI Privacy Filter",
       "source": "MarkTechPost",
@@ -373,25 +718,27 @@
       ]
     },
     {
-      "id": "openai-researchers-explain-why-math-is-the-road-cb37a856-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "OpenAI researchers explain why math is the road to AGI",
-      "source": "The Decoder",
-      "summary": "AI models have jumped from grade-school arithmetic to olympiad-level and research mathematics in only two years. In the OpenAI Podcast, OpenAI researchers Sebastian Bubeck and Ernest Ryu explain why math has become the key test on the road to artificial gener...",
-      "href": "https://the-decoder.com/openai-researchers-explain-why-math-is-the-road-to-agi/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/12/ai_in_science_math.jpeg",
-      "publishedAt": "2026-04-29T15:24:12+00:00",
+      "id": "general-motors-adds-google-gemini-to-4-million-v-76ad515a-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Model Releases",
+      "title": "General Motors adds Google Gemini to 4 million vehicles. Is your car on the list?",
+      "source": "Mashable",
+      "summary": "Google Gemini is rolling out to millions of GM vehicles, with lots of natural-language features that can spice up your drive.",
+      "href": "https://mashable.com/article/general-motors-google-gemini-car-integration",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/articles/02IkHf4ach3BrxDDe5iku07/hero-image.fill.size_1200x675.v1777476264.jpg",
+      "publishedAt": "2026-04-29T16:04:53+00:00",
       "toolIds": [
-        "chatgpt"
+        "gemini",
+        "googleaistudio",
+        "notebooklm"
       ]
     },
     {
-      "id": "building-the-compute-infrastructure-for-the-inte-0889e6f0-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "building-the-compute-infrastructure-for-the-inte-0889e6f0-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Product Updates",
       "title": "Building the compute infrastructure for the Intelligence Age",
       "source": "OpenAI Blog",
@@ -405,32 +752,16 @@
       ]
     },
     {
-      "id": "tumbler-ridge-families-are-suing-openai-de636eca-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Tumbler Ridge families are suing OpenAI",
-      "source": "The Verge AI",
-      "summary": "Seven families of victims injured or killed in the Tumbler Ridge school shooting in Canada have filed lawsuits against OpenAI and CEO Sam Altman, accusing the company and its leadership of negligence after they failed to alert police to the suspected shooter'...",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit",
-      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-2260765297.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200",
-      "publishedAt": "2026-04-29T14:47:57+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "this-30-subscription-will-bring-ai-into-your-bus-17590724-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "this-30-subscription-will-bring-ai-into-your-bus-17590724-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Model Releases",
       "title": "This $30 Subscription Will Bring AI Into Your Business",
       "source": "TechRepublic AI",
       "summary": "Tap into the power of OpenAI, Meta, Midjourney, and additional powerful AI models with 1min.AI. The post This $30 Subscription Will Bring AI Into Your Business appeared first on TechRepublic .",
       "href": "https://www.techrepublic.com/article/1minai-pro-plan-lifetime-subscription/",
       "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
+      "imageUrl": "assets/news/fallback-ai-datacenter-aerial.jpg",
       "publishedAt": "2026-04-29T14:00:36+00:00",
       "toolIds": [
         "chatgpt",
@@ -438,9 +769,9 @@
       ]
     },
     {
-      "id": "building-the-future-of-ides-inside-the-first-jet-1718922d-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "building-the-future-of-ides-inside-the-first-jet-1718922d-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "Building the Future of IDEs: Inside the First JetBrains Codex Hackathon",
       "source": "JetBrains AI",
@@ -454,94 +785,9 @@
       ]
     },
     {
-      "id": "white-house-moves-to-restore-anthropic-access-af-09d5e84c-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "White House moves to restore Anthropic access after Pentagon standoff",
-      "source": "The Decoder",
-      "summary": "The White House is drafting guidance that would let federal agencies work with Anthropic again, including access to the company's new model Mythos. The article White House moves to restore Anthropic access after Pentagon standoff appeared first on The Decoder...",
-      "href": "https://the-decoder.com/white-house-moves-to-restore-anthropic-access-after-pentagon-standoff/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/anthropic_pentagon-2.png",
-      "publishedAt": "2026-04-29T13:23:39+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "openai-lands-on-aws-one-day-after-microsoft-deal-98f84435-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "OpenAI lands on AWS one day after Microsoft deal restructuring",
-      "source": "The Decoder",
-      "summary": "Microsoft and OpenAI dissolve their exclusivity deal. One day later, AWS rolls out three new OpenAI offerings on its Bedrock platform, including a jointly built agent service. The article OpenAI lands on AWS one day after Microsoft deal restructuring appeared...",
-      "href": "https://the-decoder.com/openai-lands-on-aws-one-day-after-microsoft-deal-restructuring/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/12/openai-aws.png",
-      "publishedAt": "2026-04-29T13:06:01+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "musk-and-altman-face-off-in-court-over-openai-s-8045d7cb-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "Musk and Altman face off in court over OpenAI's for-profit pivot",
-      "source": "The Decoder",
-      "summary": "The closely watched trial between Elon Musk and OpenAI CEO Sam Altman kicked off in federal court in Oakland. Both sides laid out wildly different versions of the AI lab's early days. The article Musk and Altman face off in court over OpenAI's for-profit pivo...",
-      "href": "https://the-decoder.com/musk-and-altman-face-off-in-court-over-openais-for-profit-pivot/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/Musk-vs-Altman.png",
-      "publishedAt": "2026-04-29T12:59:56+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "google-rolls-out-gemini-memory-in-europe-and-wan-048c7db7-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "Google rolls out Gemini memory in Europe and wants you to bring your ChatGPT data along",
-      "source": "The Decoder",
-      "summary": "Gemini can now remember your preferences and import your chat history from other AI apps. The article Google rolls out Gemini memory in Europe and wants you to bring your ChatGPT data along appeared first on The Decoder .",
-      "href": "https://the-decoder.com/google-rolls-out-gemini-memory-in-europe-and-wants-you-to-bring-your-chatgpt-data-along/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/google_gemini_optical_trick.png",
-      "publishedAt": "2026-04-29T11:50:10+00:00",
-      "toolIds": [
-        "chatgpt",
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
-    },
-    {
-      "id": "with-nemotron-3-nano-omni-nvidia-reveals-what-re-1e32d52c-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "With Nemotron 3 Nano Omni, Nvidia reveals what really goes into a modern multimodal model",
-      "source": "The Decoder",
-      "summary": "Nvidia releases Nemotron 3 Nano Omni, an open multimodal model for text, image, video and audio. Not only the performance is exciting, but also a look at the training data: it comes from Qwen, GPT-OSS, Kimi and DeepSeek OCR, among others. The article With Nem...",
-      "href": "https://the-decoder.com/with-nemotron-3-nano-omni-nvidia-reveals-what-really-goes-into-a-modern-multimodal-model/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/12/Nvidia-nemotron-3-release.jpg",
-      "publishedAt": "2026-04-29T09:28:29+00:00",
-      "toolIds": [
-        "chatgpt",
-        "deepseek",
-        "qwen"
-      ]
-    },
-    {
-      "id": "meta-fair-releases-neuralset-a-python-package-fo-de196fe1-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "meta-fair-releases-neuralset-a-python-package-fo-de196fe1-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Research Workflows",
       "title": "Meta FAIR Releases NeuralSet: A Python Package for Neuro-AI That Supports fMRI, M/EEG, Spikes, and HuggingFace Embeddin...",
       "source": "MarkTechPost",
@@ -555,26 +801,9 @@
       ]
     },
     {
-      "id": "a-coding-implementation-on-document-parsing-benc-8619d0a5-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "A Coding Implementation on Document Parsing Benchmarking with LlamaIndex ParseBench Using Python, Hugging Face, and Eva...",
-      "source": "MarkTechPost",
-      "summary": "In this tutorial, we explore how to use the ParseBench dataset to evaluate document parsing systems in a structured, practical way. We begin by loading the dataset directly from Hugging Face, inspecting its multiple dimensions, such as text, tables, charts, a...",
-      "href": "https://www.marktechpost.com/2026/04/29/a-coding-implementation-on-document-parsing-benchmarking-with-llamaindex-parsebench-using-python-hugging-face-and-evaluation-metrics/",
-      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-86.png",
-      "publishedAt": "2026-04-29T07:08:42+00:00",
-      "toolIds": [
-        "huggingface",
-        "llamaindex"
-      ]
-    },
-    {
-      "id": "cybersecurity-in-the-intelligence-age-6d737041-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "cybersecurity-in-the-intelligence-age-6d737041-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Policy",
       "title": "Cybersecurity in the Intelligence Age",
       "source": "OpenAI Blog",
@@ -588,9 +817,9 @@
       ]
     },
     {
-      "id": "enabling-privacy-preserving-ai-training-on-every-9ea28709-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "enabling-privacy-preserving-ai-training-on-every-9ea28709-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Model Releases",
       "title": "Enabling privacy-preserving AI training on everyday devices",
       "source": "MIT News AI",
@@ -602,25 +831,9 @@
       "toolIds": []
     },
     {
-      "id": "how-to-build-traceable-and-evaluated-llm-workflo-3a36db5f-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Agents",
-      "title": "How to Build Traceable and Evaluated LLM Workflows Using Promptflow, Prompty, and OpenAI",
-      "source": "MarkTechPost",
-      "summary": "In this tutorial, we build a complete, production-style LLM workflow using Promptflow within a Colab environment. We begin by setting up a reliable keyring backend to avoid OS dependency issues and securely configure our OpenAI connection. From there, we esta...",
-      "href": "https://www.marktechpost.com/2026/04/28/how-to-build-traceable-and-evaluated-llm-workflows-using-promptflow-prompty-and-openai/",
-      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-84-1024x731.png",
-      "publishedAt": "2026-04-29T02:47:22+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "github-for-beginners-getting-started-with-markdo-a9f7c3ca-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "github-for-beginners-getting-started-with-markdo-a9f7c3ca-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "GitHub for Beginners: Getting started with Markdown",
       "source": "GitHub Blog",
@@ -634,9 +847,9 @@
       ]
     },
     {
-      "id": "google-cloud-introduces-agents-cli-to-streamline-1eeff792-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "google-cloud-introduces-agents-cli-to-streamline-1eeff792-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Agents",
       "title": "Google Cloud Introduces Agents CLI to Streamline AI Agent Development Lifecycle",
       "source": "InfoQ AI",
@@ -652,41 +865,9 @@
       ]
     },
     {
-      "id": "an-openai-phone-with-agents-instead-of-apps-join-ac7fe319-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Agents",
-      "title": "An OpenAI phone with agents instead of apps joins the hardware rumor mill",
-      "source": "Mashable",
-      "summary": "An OpenAI phone with agents instead of apps joins hardware rumor mill",
-      "href": "https://mashable.com/article/openai-agentic-phone-has-hit-rumor-mill",
-      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
-      "imageUrl": "https://helios-i.mashable.com/imagery/articles/06d21kRNk5k6aTUQ7ATp6hQ/hero-image.fill.size_1200x675.v1777390560.jpg",
-      "publishedAt": "2026-04-28T16:04:59+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "github-will-start-charging-copilot-users-based-o-1e374899-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "GitHub will start charging Copilot users based on their actual AI usage",
-      "source": "Ars Technica",
-      "summary": "GitHub says it can no longer absorb \"escalating inference cost\" from it heaviest AI users.",
-      "href": "https://arstechnica.com/ai/2026/04/github-will-start-charging-copilot-users-based-on-their-actual-ai-usage/",
-      "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
-      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/copilot-1152x648.png",
-      "publishedAt": "2026-04-28T15:41:32+00:00",
-      "toolIds": [
-        "githubcopilot"
-      ]
-    },
-    {
-      "id": "securing-the-git-push-pipeline-responding-to-a-c-b83b06fe-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "securing-the-git-push-pipeline-responding-to-a-c-b83b06fe-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
       "source": "GitHub Blog",
@@ -700,25 +881,9 @@
       ]
     },
     {
-      "id": "our-commitment-to-community-safety-e6284b86-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Our commitment to community safety",
-      "source": "OpenAI Blog",
-      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
-      "href": "https://openai.com/index/our-commitment-to-community-safety",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4LxnvjduXTJ8PvsFyOinqE/cd764864719bfa914c88e34d6e9f1002/Frame-1.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-04-28T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "openai-models-codex-and-managed-agents-come-to-a-368128e6-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "openai-models-codex-and-managed-agents-come-to-a-368128e6-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "OpenAI models, Codex, and Managed Agents come to AWS",
       "source": "OpenAI Blog",
@@ -732,9 +897,25 @@
       ]
     },
     {
-      "id": "github-copilot-is-moving-to-usage-based-billing-cf9076c7-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "our-commitment-to-community-safety-e6284b86-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Model Releases",
+      "title": "Our commitment to community safety",
+      "source": "OpenAI Blog",
+      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "href": "https://openai.com/index/our-commitment-to-community-safety",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4LxnvjduXTJ8PvsFyOinqE/cd764864719bfa914c88e34d6e9f1002/Frame-1.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-04-28T00:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "github-copilot-is-moving-to-usage-based-billing-cf9076c7-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "GitHub Copilot is moving to usage-based billing",
       "source": "GitHub Blog",
@@ -748,9 +929,9 @@
       ]
     },
     {
-      "id": "microsoft-and-openai-s-open-relationship-is-now-98b20a23-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "microsoft-and-openai-s-open-relationship-is-now-98b20a23-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Product Updates",
       "title": "Microsoft and OpenAI's open relationship is now official",
       "source": "The Register AI",
@@ -764,9 +945,9 @@
       ]
     },
     {
-      "id": "openai-available-at-fedramp-moderate-bc680bc1-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "openai-available-at-fedramp-moderate-bc680bc1-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Model Releases",
       "title": "OpenAI available at FedRAMP Moderate",
       "source": "OpenAI Blog",
@@ -780,25 +961,43 @@
       ]
     },
     {
-      "id": "anthropic-s-magic-code-sniffer-more-swiss-cheese-5167d891-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "join-the-new-ai-agents-vibe-coding-course-from-g-8a4b231f-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "source": "Google AI Blog",
+      "summary": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
+      "href": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp",
+      "publishedAt": "2026-04-27T13:00:00+00:00",
+      "toolIds": [
+        "gemini",
+        "googleaistudio",
+        "notebooklm"
+      ]
+    },
+    {
+      "id": "anthropic-s-magic-code-sniffer-more-swiss-cheese-5167d891-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "Anthropic's magic code-sniffer: More Swiss cheese than cheddar, for now",
       "source": "The Register AI",
       "summary": "AI vuln-hunter finds what humans taught it to find. Funny that Opinion In retrospect, calling it Mythos made it a hostage to fortune. Anthropic may have hoped that the name implied its AI code security model had mythical god-like powers, but there's an altern...",
       "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/anthropics_magic_codesniffer_more_swiss/",
       "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://regmedia.co.uk/2016/08/09/swisscheese.jpg",
+      "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
       "publishedAt": "2026-04-27T08:30:15+00:00",
       "toolIds": [
         "claude"
       ]
     },
     {
-      "id": "the-next-phase-of-the-microsoft-openai-partnersh-ce52abc8-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "the-next-phase-of-the-microsoft-openai-partnersh-ce52abc8-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Product Updates",
       "title": "The next phase of the Microsoft OpenAI partnership",
       "source": "OpenAI Blog",
@@ -812,9 +1011,9 @@
       ]
     },
     {
-      "id": "google-cloud-next-proves-what-we-suspected-every-d23a2b19-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "google-cloud-next-proves-what-we-suspected-every-d23a2b19-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "Google Cloud Next proves what we suspected: Everything is AI now",
       "source": "The Register AI",
@@ -830,9 +1029,9 @@
       ]
     },
     {
-      "id": "our-principles-e1e83761-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "our-principles-e1e83761-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "Our principles",
       "source": "OpenAI Blog",
@@ -846,9 +1045,9 @@
       ]
     },
     {
-      "id": "build-with-deepseek-v4-using-nvidia-blackwell-an-d711d444-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "build-with-deepseek-v4-using-nvidia-blackwell-an-d711d444-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Model Releases",
       "title": "Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints",
       "source": "NVIDIA Technical Blog AI",
@@ -862,9 +1061,9 @@
       ]
     },
     {
-      "id": "deepseek-s-new-models-are-so-efficient-they-ll-r-47e5c1d3-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "deepseek-s-new-models-are-so-efficient-they-ll-r-47e5c1d3-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Model Releases",
       "title": "DeepSeek's new models are so efficient they'll run on a toaster ... by which we mean Huawei's NPUs",
       "source": "The Register AI",
@@ -878,32 +1077,50 @@
       ]
     },
     {
-      "id": "deepseek-drops-cheaper-v4-ai-as-huawei-jumps-in-1be32509-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "deepseek-drops-cheaper-v4-ai-as-huawei-jumps-in-1be32509-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Model Releases",
       "title": "DeepSeek Drops Cheaper V4 AI as Huawei Jumps In",
       "source": "TechRepublic AI",
       "summary": "DeepSeek launches V4 AI model with Huawei chip support, offering lower costs and intensifying global AI competition. The post DeepSeek Drops Cheaper V4 AI as Huawei Jumps In appeared first on TechRepublic .",
       "href": "https://www.techrepublic.com/article/news-apac-deepseek-v4-ai-model-huawei-ascend-chips-support/",
       "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+      "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
       "publishedAt": "2026-04-24T21:08:44+00:00",
       "toolIds": [
         "deepseek"
       ]
     },
     {
-      "id": "it-s-a-myth-that-you-need-mythos-to-find-bugs-op-5c6e96d6-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "8-gemini-tips-for-organizing-your-space-and-life-ebab479a-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Model Releases",
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "source": "Google AI Blog",
+      "summary": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "href": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp",
+      "publishedAt": "2026-04-24T19:00:00+00:00",
+      "toolIds": [
+        "gemini",
+        "googleaistudio",
+        "notebooklm"
+      ]
+    },
+    {
+      "id": "it-s-a-myth-that-you-need-mythos-to-find-bugs-op-5c6e96d6-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Model Releases",
       "title": "It's a myth that you need Mythos to find bugs: Open source models can do it just as well",
       "source": "The Register AI",
       "summary": "OpenAI's first security hire, Ari Herbert-Voss, thinks more automated bug finding will improve security without costing jobs Black Hat Asia Open source models can find bugs as effectively as Anthropic's Mythos, according to Ari Herbert-Voss, CEO of AI-powered...",
       "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/ai_bugfinding_futures/",
       "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://regmedia.co.uk/2017/02/02/excalibur.jpg",
+      "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
       "publishedAt": "2026-04-24T11:41:54+00:00",
       "toolIds": [
         "chatgpt",
@@ -911,9 +1128,9 @@
       ]
     },
     {
-      "id": "gpt-5-5-system-card-cfbb97f4-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "gpt-5-5-system-card-cfbb97f4-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Model Releases",
       "title": "GPT-5.5 System Card",
       "source": "OpenAI Blog",
@@ -927,14 +1144,14 @@
       ]
     },
     {
-      "id": "automations-b2acc3c2-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "what-is-codex-8a79aaeb-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
-      "title": "Automations",
+      "title": "What is Codex?",
       "source": "OpenAI Blog",
-      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-      "href": "https://openai.com/academy/codex-automations",
+      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "href": "https://openai.com/academy/what-is-codex",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7v5h6Z00V6Tt9XQW2AVW62/4ec32f6ad895b9fb038c46ab27b10067/Academy-SEO.png?w=1600&h=900&fit=fill",
       "publishedAt": "2026-04-23T10:00:00+00:00",
@@ -943,14 +1160,30 @@
       ]
     },
     {
-      "id": "how-to-get-started-with-codex-eff960ba-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "how-to-get-started-with-codex-eff960ba-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "How to get started with Codex",
       "source": "OpenAI Blog",
       "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
       "href": "https://openai.com/academy/codex-how-to-start",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/bright-product-updates.svg",
+      "publishedAt": "2026-04-23T10:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "codex-settings-99a0fa5d-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Codex settings",
+      "source": "OpenAI Blog",
+      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "href": "https://openai.com/academy/codex-settings",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
       "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
       "publishedAt": "2026-04-23T10:00:00+00:00",
@@ -959,30 +1192,46 @@
       ]
     },
     {
-      "id": "codex-settings-99a0fa5d-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "working-with-codex-7fbf7b2c-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
-      "title": "Codex settings",
+      "title": "Working with Codex",
       "source": "OpenAI Blog",
-      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
-      "href": "https://openai.com/academy/codex-settings",
+      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "href": "https://openai.com/academy/working-with-codex",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/mit-compressm.png",
+      "imageUrl": "assets/news/fallback-google-ai-economy.webp",
       "publishedAt": "2026-04-23T10:00:00+00:00",
       "toolIds": [
         "chatgpt"
       ]
     },
     {
-      "id": "working-with-codex-7fbf7b2c-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "plugins-and-skills-bb94101d-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
-      "title": "Working with Codex",
+      "title": "Plugins and skills",
       "source": "OpenAI Blog",
-      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "href": "https://openai.com/academy/working-with-codex",
+      "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "href": "https://openai.com/academy/codex-plugins-and-skills",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+      "publishedAt": "2026-04-23T10:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "top-10-uses-for-codex-at-work-3533fea5-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Top 10 uses for Codex at work",
+      "source": "OpenAI Blog",
+      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "href": "https://openai.com/academy/top-10-use-cases-codex-for-work",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
       "imageUrl": "assets/news/superhuman-claude-mythos.png",
       "publishedAt": "2026-04-23T10:00:00+00:00",
@@ -991,139 +1240,57 @@
       ]
     },
     {
-      "id": "plugins-and-skills-bb94101d-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "automations-b2acc3c2-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
-      "title": "Plugins and skills",
+      "title": "Automations",
       "source": "OpenAI Blog",
-      "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-      "href": "https://openai.com/academy/codex-plugins-and-skills",
+      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "href": "https://openai.com/academy/codex-automations",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+      "imageUrl": "assets/news/mit-compressm.png",
       "publishedAt": "2026-04-23T10:00:00+00:00",
       "toolIds": [
         "chatgpt"
       ]
     },
     {
-      "id": "top-10-uses-for-codex-at-work-3533fea5-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "Top 10 uses for Codex at work",
-      "source": "OpenAI Blog",
-      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-      "href": "https://openai.com/academy/top-10-use-cases-codex-for-work",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/superhuman-personal-agents.png",
-      "publishedAt": "2026-04-23T10:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "what-is-codex-8a79aaeb-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "What is Codex?",
-      "source": "OpenAI Blog",
-      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
-      "href": "https://openai.com/academy/what-is-codex",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/ai-news-goldman-agents.png",
-      "publishedAt": "2026-04-23T10:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "stale-gov-uk-pages-are-feeding-ai-overviews-old-d8dfb6e1-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Creative AI",
-      "title": "Stale gov.uk pages are feeding AI overviews old data and Brits are believing it",
-      "source": "The Register AI",
-      "summary": "Whitehall content teams play whack-a-mole with zombie pages as Google hoovers up the lot AI overviews from the likes of Google are serving up false summaries of UK government information by drawing on stale GOV.UK pages, according to content designers at the...",
-      "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/stale_govuk_pages_are_feeding/",
-      "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://regmedia.co.uk/2018/03/21/wrong_sign_shutterstock.jpg",
-      "publishedAt": "2026-04-23T08:45:06+00:00",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
-    },
-    {
-      "id": "gpt-5-5-bio-bug-bounty-c366c2c3-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "gpt-5-5-bio-bug-bounty-c366c2c3-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Model Releases",
       "title": "GPT-5.5 Bio Bug Bounty",
       "source": "OpenAI Blog",
       "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
       "href": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3dibW4TSEOQpjByxBjnpr2/8cefbfd6ae3b56e540fbd8e54fabbc64/Frame__16_.png?w=1600&h=900&fit=fill",
+      "imageUrl": "assets/news/ai-news-goldman-agents.png",
       "publishedAt": "2026-04-23T00:00:00+00:00",
       "toolIds": [
         "chatgpt"
       ]
     },
     {
-      "id": "making-chatgpt-better-for-clinicians-b9cfd90c-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "making-chatgpt-better-for-clinicians-b9cfd90c-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Model Releases",
       "title": "Making ChatGPT better for clinicians",
       "source": "OpenAI Blog",
       "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
       "href": "https://openai.com/index/making-chatgpt-better-for-clinicians",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-ai-datacenter-aerial.jpg",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3K1xu2uaPseQ2Zk6CbuLgc/268ce2e65a514126104c1b6550db955b/SEO.png?w=1600&h=900&fit=fill",
       "publishedAt": "2026-04-22T15:00:00+00:00",
       "toolIds": [
         "chatgpt"
       ]
     },
     {
-      "id": "speeding-up-agentic-workflows-with-websockets-in-5278705d-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-      "source": "OpenAI Blog",
-      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "href": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4OePmYEOLzZNcxVLLd9pMH/cc16f505aa589ef72ef3c1c265705727/SEO.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-04-22T10:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "introducing-workspace-agents-in-chatgpt-c30ec7b0-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "Introducing workspace agents in ChatGPT",
-      "source": "OpenAI Blog",
-      "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-      "href": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5VOBXAok5WCGbcXubvIGSn/c6ec67af102f0537ff2a526fca45ff47/OAI_Blog_SEO_16x9.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-04-22T10:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "workspace-agents-1b162ea8-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "workspace-agents-1b162ea8-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Agents",
       "title": "Workspace agents",
       "source": "OpenAI Blog",
@@ -1137,9 +1304,41 @@
       ]
     },
     {
-      "id": "introducing-openai-privacy-filter-e2bf2733-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "introducing-workspace-agents-in-chatgpt-c30ec7b0-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Introducing workspace agents in ChatGPT",
+      "source": "OpenAI Blog",
+      "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+      "href": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5VOBXAok5WCGbcXubvIGSn/c6ec67af102f0537ff2a526fca45ff47/OAI_Blog_SEO_16x9.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-04-22T10:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "speeding-up-agentic-workflows-with-websockets-in-5278705d-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Developer Tools",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "source": "OpenAI Blog",
+      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+      "href": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/bright-safety.svg",
+      "publishedAt": "2026-04-22T10:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "introducing-openai-privacy-filter-e2bf2733-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "Introducing OpenAI Privacy Filter",
       "source": "OpenAI Blog",
@@ -1153,25 +1352,27 @@
       ]
     },
     {
-      "id": "from-developer-desks-to-the-whole-organization-r-9ba53ef0-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "From developer desks to the whole organization: Running Claude Cowork in Amazon Bedrock",
-      "source": "AWS Machine Learning",
-      "summary": "Today, we're excited to announce Claude Cowork in Amazon Bedrock. You can now run Cowork and Claude Code Desktop through Amazon Bedrock, directly or using an LLM gateway. In this post, we walk through how Claude Cowork integrates with Amazon Bedrock and show...",
-      "href": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/",
-      "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window.",
-      "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/21/ml-20855-1120x630.png",
-      "publishedAt": "2026-04-21T19:13:49+00:00",
+      "id": "3-new-ways-ads-advisor-is-making-google-ads-safe-97921ff3-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Agents",
+      "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+      "source": "Google AI Blog",
+      "summary": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+      "href": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+      "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.max-600x600.format-webp.webp",
+      "publishedAt": "2026-04-21T14:30:00+00:00",
       "toolIds": [
-        "claude"
+        "gemini",
+        "googleaistudio",
+        "notebooklm"
       ]
     },
     {
-      "id": "introducing-chatgpt-images-2-0-84d8ed5d-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "introducing-chatgpt-images-2-0-84d8ed5d-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Model Releases",
       "title": "Introducing ChatGPT Images 2.0",
       "source": "OpenAI Blog",
@@ -1185,9 +1386,9 @@
       ]
     },
     {
-      "id": "scaling-codex-to-enterprises-worldwide-d9639e2f-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "scaling-codex-to-enterprises-worldwide-d9639e2f-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "Scaling Codex to enterprises worldwide",
       "source": "OpenAI Blog",
@@ -1201,25 +1402,25 @@
       ]
     },
     {
-      "id": "what-it-actually-takes-to-run-code-intelligence-92f4fdaa-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "what-it-actually-takes-to-run-code-intelligence-92f4fdaa-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "What it actually takes to run code intelligence in-house",
       "source": "Sourcegraph Blog",
       "summary": "We audited what it would take to build a Sourcegraph equivalent internally, mapped the platform to 90 engineering requirements across 10 categories, and modeled 3-year costs for different environment sizes.",
       "href": "http://localhost:5174/blog/what-it-actually-takes-to-run-code-intelligence-in-house",
       "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+      "imageUrl": "assets/news/fallback-ai-datacenter-aerial.jpg",
       "publishedAt": "2026-04-21T00:00:00+00:00",
       "toolIds": [
         "sourcegraph"
       ]
     },
     {
-      "id": "changes-to-github-copilot-individual-plans-cb86405c-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "changes-to-github-copilot-individual-plans-cb86405c-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "Changes to GitHub Copilot Individual plans",
       "source": "GitHub Blog",
@@ -1233,9 +1434,9 @@
       ]
     },
     {
-      "id": "openai-helps-hyatt-advance-ai-among-colleagues-5e9e3b87-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "openai-helps-hyatt-advance-ai-among-colleagues-5e9e3b87-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "OpenAI helps Hyatt advance AI among colleagues",
       "source": "OpenAI Blog",
@@ -1249,9 +1450,9 @@
       ]
     },
     {
-      "id": "building-an-emoji-list-generator-with-the-github-4c4aa325-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "building-an-emoji-list-generator-with-the-github-4c4aa325-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "Building an emoji list generator with the GitHub Copilot CLI",
       "source": "GitHub Blog",
@@ -1265,9 +1466,27 @@
       ]
     },
     {
-      "id": "jacob-andreas-and-brett-mcguire-named-edgerton-a-ed506815-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "7-ways-to-travel-smarter-this-summer-with-help-f-0d7a887e-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Product Updates",
+      "title": "7 ways to travel smarter this summer, with help from Google",
+      "source": "Google AI Blog",
+      "summary": "The latest tools from Google can help you plan trips, find a great deal and explore your next destination.",
+      "href": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
+      "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summer_Travel_Tips_2026_hero.max-600x600.format-webp.webp",
+      "publishedAt": "2026-04-17T14:00:00+00:00",
+      "toolIds": [
+        "gemini",
+        "googleaistudio",
+        "notebooklm"
+      ]
+    },
+    {
+      "id": "jacob-andreas-and-brett-mcguire-named-edgerton-a-ed506815-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Research Workflows",
       "title": "Jacob Andreas and Brett McGuire named Edgerton Award winners",
       "source": "MIT News AI",
@@ -1279,9 +1498,27 @@
       "toolIds": []
     },
     {
-      "id": "how-github-uses-ebpf-to-improve-deployment-safet-461eacea-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "new-ways-to-create-personalized-images-in-the-ge-6e7bff1b-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
+      "category": "Model Releases",
+      "title": "New ways to create personalized images in the Gemini app",
+      "source": "Google AI Blog",
+      "summary": "Nano Banana 2 now uses your personal context and Google Photos to create images that reflect your unique life.",
+      "href": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
+      "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_post_header.max-600x600.format-webp.webp",
+      "publishedAt": "2026-04-16T16:00:00+00:00",
+      "toolIds": [
+        "gemini",
+        "googleaistudio",
+        "notebooklm"
+      ]
+    },
+    {
+      "id": "how-github-uses-ebpf-to-improve-deployment-safet-461eacea-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "How GitHub uses eBPF to improve deployment safety",
       "source": "GitHub Blog",
@@ -1295,9 +1532,9 @@
       ]
     },
     {
-      "id": "codex-for-almost-everything-bed35cf1-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
+      "id": "codex-for-almost-everything-bed35cf1-may01",
+      "date": "2026-05-01",
+      "dateLabel": "May 1, 2026",
       "category": "Developer Tools",
       "title": "Codex for (almost) everything",
       "source": "OpenAI Blog",
@@ -1306,469 +1543,6 @@
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3kzRaZHk3LsNCB1rF3btFd/f210774dba646ae91ead20a46d89d364/Codex_Blog_SEO.png?w=1600&h=900&fit=fill",
       "publishedAt": "2026-04-16T10:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "introducing-gpt-rosalind-for-life-sciences-resea-086b474a-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Agents",
-      "title": "Introducing GPT-Rosalind for life sciences research",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
-      "href": "https://openai.com/index/introducing-gpt-rosalind",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/47Nrk4vhqfDQphKzpWC3Ha/42dcbf0138bdf0e4fe78196319bccb79/OAI_GPT-Rosaling_SEO_16x9_Alt.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-04-16T01:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "build-a-personal-organization-command-center-wit-c84f8d8a-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "Build a personal organization command center with GitHub Copilot CLI",
-      "source": "GitHub Blog",
-      "summary": "Learn about the productivity tool one GitHub engineer built, and how AI supported the development process. The post Build a personal organization command center with GitHub Copilot CLI appeared first on The GitHub Blog .",
-      "href": "https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/",
-      "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://github.blog/wp-content/uploads/2026/04/command-cecnter.png?fit=1920%2C1080",
-      "publishedAt": "2026-04-15T17:00:00+00:00",
-      "toolIds": [
-        "githubcopilot"
-      ]
-    },
-    {
-      "id": "the-next-evolution-of-the-agents-sdk-f5300dfb-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "The next evolution of the Agents SDK",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
-      "href": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/41RxFM3sjs7BInenm8rsOt/f65ac2f0bce5b701dc61051ca7e58453/Agents_SDK__SEO_Card.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-04-15T10:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "human-machine-teaming-dives-underwater-84d4323c-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Research Workflows",
-      "title": "Human-machine teaming dives underwater",
-      "source": "MIT News AI",
-      "summary": "Researchers are developing hardware and algorithms to improve collaboration between divers and autonomous underwater vehicles engaged in maritime missions.",
-      "href": "https://news.mit.edu/2026/human-machine-teaming-dives-underwater-0414",
-      "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202603/mit-lincoln-Gulf-Surveyor-Stringout.jpg?itok=D9eW6Bde",
-      "publishedAt": "2026-04-14T13:00:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "trusted-access-for-the-next-era-of-cyber-defense-88ece0f5-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Trusted access for the next era of cyber defense",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
-      "href": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-product-updates.svg",
-      "publishedAt": "2026-04-14T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "anthropic-and-openai-target-big-businesses-with-b7fea45d-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "Anthropic and OpenAI target big businesses with enterprise-grade controls and lower pricing",
-      "source": "SiliconANGLE AI",
-      "summary": "Artificial intelligence leaders Anthropic PBC and OpenAI Group PBC are stepping up their efforts to compete for the enterprise, making their most advanced agentic tools more accessible to the largest organizations. In its update today, Anthropic revealed new...",
-      "href": "https://siliconangle.com/2026/04/09/anthropic-openai-target-big-businesses-enterprise-grade-controls-lower-pricing/",
-      "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/04/Screenshot-from-2026-04-10-07-35-14.png",
-      "publishedAt": "2026-04-10T00:37:04+00:00",
-      "toolIds": [
-        "chatgpt",
-        "claude"
-      ]
-    },
-    {
-      "id": "responsible-and-safe-use-of-ai-e7ee8369-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Responsible and safe use of AI",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
-      "href": "https://openai.com/academy/responsible-and-safe-use",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-google-ai-economy.webp",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "healthcare-c792fea6-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Healthcare",
-      "source": "OpenAI Blog",
-      "summary": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
-      "href": "https://openai.com/academy/healthcare",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-productivity.svg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "using-skills-39c29e13-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Agents",
-      "title": "Using skills",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
-      "href": "https://openai.com/academy/skills",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/perplexity-billion-build-source.jpg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "our-response-to-the-axios-developer-tool-comprom-42d64f92-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "Our response to the Axios developer tool compromise",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
-      "href": "https://openai.com/index/axios-developer-tool-compromise",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4sIxBg7tNaEsi71tK56voo/70f02a1ff127b9eaa8fc0089fecc1754/axios-dev-tool-compromise-16x9.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "using-projects-in-chatgpt-67274246-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Using projects in ChatGPT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to use projects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
-      "href": "https://openai.com/academy/projects",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-safety.svg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "personalizing-chatgpt-bab5fd78-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Personalizing ChatGPT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.",
-      "href": "https://openai.com/academy/personalization",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/perplexity-billion-build-source.jpg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "using-custom-gpts-64e3c6b3-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Agents",
-      "title": "Using custom GPTs",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
-      "href": "https://openai.com/academy/custom-gpts",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "working-with-files-in-chatgpt-4c2fa33e-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Working with files in ChatGPT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to upload and work with files in ChatGPT to analyze data, summarize documents, and generate content from PDFs, spreadsheets, and more.",
-      "href": "https://openai.com/academy/working-with-files",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/mit-compressm.png",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "prompting-fundamentals-a018ae95-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Prompting fundamentals",
-      "source": "OpenAI Blog",
-      "summary": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.",
-      "href": "https://openai.com/academy/prompting",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-safety.svg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "getting-started-with-chatgpt-2c539797-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Getting started with ChatGPT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "href": "https://openai.com/academy/getting-started",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-product-updates.svg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "chatgpt-for-customer-success-teams-15f4dca3-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "ChatGPT for customer success teams",
-      "source": "OpenAI Blog",
-      "summary": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
-      "href": "https://openai.com/academy/customer-success",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "chatgpt-for-marketing-teams-51ce8504-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "ChatGPT for marketing teams",
-      "source": "OpenAI Blog",
-      "summary": "Learn how marketing teams use ChatGPT to plan campaigns, generate content, analyze performance, and move from ideas to execution faster.",
-      "href": "https://openai.com/academy/marketing",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "chatgpt-for-research-4914e2b8-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "ChatGPT for research",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
-      "href": "https://openai.com/academy/research",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-product-updates.svg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "chatgpt-for-finance-teams-a73b1741-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "ChatGPT for finance teams",
-      "source": "OpenAI Blog",
-      "summary": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
-      "href": "https://openai.com/academy/finance",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/superhuman-claude-mythos.png",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "ai-fundamentals-909c28a2-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "AI fundamentals",
-      "source": "OpenAI Blog",
-      "summary": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
-      "href": "https://openai.com/academy/what-is-ai",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-safety.svg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "chatgpt-for-sales-teams-183d0cc9-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "ChatGPT for sales teams",
-      "source": "OpenAI Blog",
-      "summary": "Learn how sales teams use ChatGPT to research accounts, personalize outreach, manage deals, and improve pipeline and conversion.",
-      "href": "https://openai.com/academy/sales",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-product-updates.svg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "applications-of-ai-at-openai-bc7e7f5c-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "Applications of AI at OpenAI",
-      "source": "OpenAI Blog",
-      "summary": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
-      "href": "https://openai.com/academy/applications-of-ai",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-google-ai-economy.webp",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "chatgpt-for-operations-teams-f670b814-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Agents",
-      "title": "ChatGPT for operations teams",
-      "source": "OpenAI Blog",
-      "summary": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
-      "href": "https://openai.com/academy/operations",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-productivity.svg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "writing-with-chatgpt-4dbb1c1e-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Writing with ChatGPT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
-      "href": "https://openai.com/academy/writing",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-safety.svg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "research-with-chatgpt-e626cbb7-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Research with ChatGPT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
-      "href": "https://openai.com/academy/search-and-deep-research",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-productivity.svg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "brainstorming-with-chatgpt-534a7359-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Developer Tools",
-      "title": "Brainstorming with ChatGPT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.",
-      "href": "https://openai.com/academy/brainstorming",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/ai-news-goldman-agents.png",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "analyzing-data-with-chatgpt-e781bd1c-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Analyzing data with ChatGPT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
-      "href": "https://openai.com/academy/data-analysis",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-product-updates.svg",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "creating-images-with-chatgpt-6bccb64e-apr30",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "category": "Model Releases",
-      "title": "Creating images with ChatGPT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.",
-      "href": "https://openai.com/academy/image-generation",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-google-ai-economy.webp",
-      "publishedAt": "2026-04-10T00:00:00+00:00",
       "toolIds": [
         "chatgpt"
       ]

@@ -56,7 +56,7 @@ Northstar imports AI/tech signals from the public LearnPrompt `ai-news-radar` da
 python scripts\run_news_backfill.py --time-zone Asia/Shanghai --start-date 2026-04-14 --end-date 2026-04-14 --limit 96 --fetch-min-items 80 --max-fetch-min-items 80 --max-fetch-limit 96 --initial-catalog-expansion-feeds 48 --max-catalog-expansion-feeds 48 --skip-render-validation
 ```
 
-The GitHub Actions workflow at `.github/workflows/update-ai-news.yml` runs the same backfill pipeline from the repository default branch. Its schedule starts at 08:45 Asia/Shanghai every day, and the job retries in-place every 30 minutes if the early source window is sparse or a source is temporarily unavailable.
+The GitHub Actions workflow at `.github/workflows/update-ai-news.yml` runs the same backfill pipeline from the repository default branch. It starts at 08:45 Asia/Shanghai, then runs fallback checks at 11:15, 16:45, and 21:30. Each run locks to the current Shanghai digest date, catches up recent missing days, and retries in-place every 30 minutes if the source window is sparse or a feed is temporarily unavailable. Manual runs can optionally target a specific `digest_date`.
 
 ## Cache local tool icons
 

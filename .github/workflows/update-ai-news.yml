@@ -2,10 +2,25 @@ name: Update AI News
 
 on:
   workflow_dispatch:
+    inputs:
+      digest_date:
+        description: "Optional digest date to refresh (YYYY-MM-DD). Defaults to today in Asia/Shanghai."
+        required: false
+        type: string
+      max_backfill_days:
+        description: "Maximum recent digest days to catch up when digest_date is not set."
+        required: false
+        default: "3"
+        type: string
   schedule:
-    # 08:45 Asia/Shanghai (00:45 UTC). The job retries in-place if the
-    # early source window is sparse or a feed is temporarily unavailable.
+    # 08:45 Asia/Shanghai (00:45 UTC). Primary daily refresh.
     - cron: "45 0 * * *"
+    # Fallback refreshes. GitHub scheduled workflows can be delayed or skipped,
+    # and early source windows are sometimes sparse; reruns are cheap because the
+    # backfill script exits when today's feed already has enough stories.
+    - cron: "15 3 * * *"
+    - cron: "45 8 * * *"
+    - cron: "30 13 * * *"
 
 permissions:
   contents: write
@@ -21,6 +36,7 @@ jobs:
     env:
       NEWS_BRANCH: ${{ github.event.repository.default_branch }}
       NEWS_TIME_ZONE: Asia/Shanghai
+      NEWS_MAX_BACKFILL_DAYS: ${{ github.event.inputs.max_backfill_days || '3' }}
     steps:
       - name: Check out site branch
         uses: actions/checkout@v4
@@ -38,18 +54,38 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Resolve digest date
+        id: digest-date
+        shell: bash
+        run: |
+          if [ -n "${{ github.event.inputs.digest_date }}" ]; then
+            echo "date=${{ github.event.inputs.digest_date }}" >> "$GITHUB_OUTPUT"
+            echo "mode=manual-date" >> "$GITHUB_OUTPUT"
+          else
+            echo "date=$(TZ="$NEWS_TIME_ZONE" date +%F)" >> "$GITHUB_OUTPUT"
+            echo "mode=catch-up" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Catch up and merge missing NEWS digests
         shell: bash
         run: |
           MAX_ATTEMPTS=10
           ATTEMPT=1
           SLEEP_SECONDS=1800
+          DATE_ARGS=(--end-date "${{ steps.digest-date.outputs.date }}")
+
+          if [ "${{ steps.digest-date.outputs.mode }}" = "manual-date" ]; then
+            DATE_ARGS+=(--start-date "${{ steps.digest-date.outputs.date }}")
+          else
+            DATE_ARGS+=(--max-backfill-days "$NEWS_MAX_BACKFILL_DAYS")
+          fi
 
           while [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; do
             echo "NEWS catch-up attempt $ATTEMPT/$MAX_ATTEMPTS"
 
             if python scripts/run_news_backfill.py \
               --time-zone "$NEWS_TIME_ZONE" \
+              "${DATE_ARGS[@]}" \
               --limit 96 \
               --fetch-min-items 80 \
               --max-fetch-min-items 80 \
@@ -76,8 +112,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- app.js data/news output/news-logs
-          if [ -z "$(git status --porcelain)" ]; then
+          git add -- app.js data/news
+          git add -f -- output/news-logs/*.md
+          if git diff --cached --quiet; then
             echo "No AI news changes to commit."
           else
             git commit -m "Update AI news feed"
