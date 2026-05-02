@@ -365,6 +365,112 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-02",
+    "label": "May 2, 2026",
+    "items": [
+      {
+        "id": "google-maps-vs-waze-i-compared-the-two-best-navi-44fb435a-may02",
+        "category": "Model Releases",
+        "title": "Google Maps vs. Waze: I compared the two best navigation apps, and this one wins",
+        "source": "ZDNet AI",
+        "summary": "Waze is great for fast reroutes and real-time alerts, while Google Maps delivers deep Gemini integration and more features. Here's my pick after extensive testing.",
+        "href": "https://www.zdnet.com/article/google-maps-vs-waze/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/fa83bd6b70c8da796cd2c51136dabe1d753c1e8f/2026/05/01/3692a61f-b839-4ca6-8a13-8bab7349f2cc/google-maps-vs-waze-i-compared-the-two-best-navigation-apps-and-this-ones-better.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "200-000-mcp-servers-expose-a-command-execution-f-56306432-may02",
+        "category": "Developer Tools",
+        "title": "200,000 MCP servers expose a command execution flaw that Anthropic calls a feature",
+        "source": "VentureBeat",
+        "summary": "Anthropic created the Model Context Protocol as the open standard for AI agent-to-tool communication. OpenAI adopted it in March 2025 . Google DeepMind followed. Anthropic donated MCP to the Linux Foundation in December 2025. Downloads crossed 150 million. Th...",
+        "href": "https://venturebeat.com/security/mcp-stdio-flaw-200000-ai-agent-servers-exposed-ox-security-audit",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5zcdzz8S6R9xMQCRiaArOG/1290a9dbaee30dd37a47fefa5b656922/ANTHROPIC.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "all-the-evidence-revealed-so-far-in-musk-v-altma-814f8d51-may02",
+        "category": "Developer Tools",
+        "title": "All the evidence revealed so far in Musk v. Altman",
+        "source": "The Verge AI",
+        "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from be...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268474_musk_vs_altman_CVirginia6.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-used-photoshop-s-new-ai-tool-to-rotate-objects-30ffd38d-may02",
+        "category": "Product Updates",
+        "title": "I used Photoshop's new AI tool to rotate objects in 3D, and it's pure magic",
+        "source": "ZDNet AI",
+        "summary": "Adobe's AI-enabled Rotate Object tool can do some really cool things, but human skill is still crucial for success.",
+        "href": "https://www.zdnet.com/article/adobe-photoshop-new-3d-object-rotation-tool-hands-on/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/9cd519860c99dc6078a473c0f80670a9d1432707/2026/05/01/747e6e3a-47fb-478e-8913-d7fce64c8549/i-used-photoshops-new-ai-tool-to-rotate-objects-in-3d-and-its-pure-magic.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "minnesota-passes-ban-on-fake-ai-nudes-app-makers-e0cc2e29-may02",
+        "category": "Developer Tools",
+        "title": "Minnesota passes ban on fake AI nudes; app makers risk $500K fines",
+        "source": "Ars Technica",
+        "summary": "More evidence of Grok CSAM seen as Minnesota passes nudifying app ban.",
+        "href": "https://arstechnica.com/tech-policy/2026/05/minnesota-set-to-be-first-state-to-ban-nudification-apps/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-1211553945-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "pentagon-inks-deals-with-nvidia-microsoft-and-aw-33c1ee68-may02",
+        "category": "Model Releases",
+        "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+        "source": "TechCrunch",
+        "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
+        "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2021/07/GettyImages-1292192586.jpg?resize=1200,900",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "andy-serkis-on-animal-farm-george-orwell-and-ai-915f393e-may02",
+        "category": "Product Updates",
+        "title": "Andy Serkis on Animal Farm, George Orwell, and AI in Hollywood",
+        "source": "Mashable",
+        "summary": "\"Animal Farm\" director Andy Serkis breaks down his George Orwell adaptation, including why he added a new character: piglet Lucky.",
+        "href": "https://mashable.com/video/andy-serkis-interview-animal-farm",
+        "imageUrl": "https://helios-i.mashable.com/imagery/videos/04rjSM4XVfbwtO36oKglzDO/hero-image.fill.size_1200x675.v1777639935.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "qwen-ai-releases-qwen-scope-an-open-source-spars-efb00c05-may02",
+        "category": "Developer Tools",
+        "title": "Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Pract...",
+        "source": "MarkTechPost",
+        "summary": "Qwen Team Introduces Qwen-Scope: An Open-Source Sparse Autoencoder Suite That Turns LLM Internals into Practical Development Tools The post Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Pract...",
+        "href": "https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-1.00.12-AM-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "severe-linux-copy-fail-security-flaw-uncovered-u-549d7080-may02",
+        "category": "Product Updates",
+        "title": "Severe Linux Copy Fail security flaw uncovered using AI scanning help",
+        "source": "The Verge",
+        "summary": "Nearly every Linux distribution released since 2017 is currently vulnerable to a security bug called \"Copy Fail\" that allows any user to give themselves administrator privileges. The exploit, publicly disclosed as CVE-2026-31431 on Wednesday, uses a Python sc...",
+        "href": "https://www.theverge.com/tech/922243/linux-cve-2026-3141-copy-fail-exploit",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK414_AI_CVIRGINIA_I__0008_6.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "improving-understanding-with-language-a0752d67-may02",
+        "category": "Product Updates",
+        "title": "Improving understanding with language",
+        "source": "MIT News AI",
+        "summary": "MIT senior Olivia Honeycutt investigates how the ways we communicate can shape our views of the world.",
+        "href": "https://news.mit.edu/2026/improving-understanding-language-olivia-honeycutt-0501",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202603/mit-shass-Olivia-Honeycutt.jpg?itok=kUUeKYli",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-01",
     "label": "May 1, 2026",
     "items": [

@@ -54,6 +54,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Configure Git author
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Resolve digest date
         id: digest-date
         shell: bash
@@ -72,10 +78,10 @@ jobs:
           MAX_ATTEMPTS=10
           ATTEMPT=1
           SLEEP_SECONDS=1800
-          DATE_ARGS=(--end-date "${{ steps.digest-date.outputs.date }}")
+          DATE_ARGS=(--date "${{ steps.digest-date.outputs.date }}")
 
           if [ "${{ steps.digest-date.outputs.mode }}" = "manual-date" ]; then
-            DATE_ARGS+=(--start-date "${{ steps.digest-date.outputs.date }}")
+            DATE_ARGS+=(--single-date)
           else
             DATE_ARGS+=(--max-backfill-days "$NEWS_MAX_BACKFILL_DAYS")
           fi
@@ -83,7 +89,8 @@ jobs:
           while [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; do
             echo "NEWS catch-up attempt $ATTEMPT/$MAX_ATTEMPTS"
 
-            if python scripts/run_news_backfill.py \
+            if python scripts/run_news_update_and_publish.py \
+              --repo-root "$PWD" \
               --time-zone "$NEWS_TIME_ZONE" \
               "${DATE_ARGS[@]}" \
               --limit 96 \
@@ -92,7 +99,11 @@ jobs:
               --max-fetch-limit 96 \
               --initial-catalog-expansion-feeds 48 \
               --max-catalog-expansion-feeds 48 \
-              --skip-render-validation; then
+              --skip-render-validation \
+              --git-commit \
+              --git-push \
+              --git-remote origin \
+              --git-branch "$NEWS_BRANCH"; then
               echo "NEWS catch-up succeeded on attempt $ATTEMPT"
               break
             fi
@@ -106,18 +117,3 @@ jobs:
             sleep "$SLEEP_SECONDS"
             ATTEMPT=$((ATTEMPT + 1))
           done
-
-      - name: Commit updated news
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- app.js data/news
-          git add -f -- output/news-logs/*.md
-          if git diff --cached --quiet; then
-            echo "No AI news changes to commit."
-          else
-            git commit -m "Update AI news feed"
-            git pull --rebase --autostash origin "$NEWS_BRANCH"
-            git push origin HEAD:"$NEWS_BRANCH"
-          fi
