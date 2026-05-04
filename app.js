@@ -365,6 +365,132 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-04",
+    "label": "May 4, 2026",
+    "items": [
+      {
+        "id": "i-tracked-3-000-steps-on-my-apple-watch-google-p-dd7c7043-may04",
+        "category": "Product Updates",
+        "title": "I tracked 3,000 steps on my Apple Watch, Google Pixel, and Oura Ring - this one was most accurate",
+        "source": "ZDNet AI",
+        "summary": "Just how reliable is that smartwatch or smart ring? I tested three of the most popular health trackers to find out.",
+        "href": "https://www.zdnet.com/article/step-tracking-apple-google-oura-health-trackers-accuracy/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/302b1f41ca65528d9fd4967dc0a2683ee3d1b0b7/2026/04/09/b6591326-e608-455d-a2e1-5a5871a360bf/img-4302-1.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "join-the-new-ai-agents-vibe-coding-course-from-g-8a4b231f-may04",
+        "category": "Developer Tools",
+        "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+        "source": "Google AI Blog",
+        "summary": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
+        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-explains-why-chatgpt-suddenly-loved-gobli-b4d43e28-may04",
+        "category": "Model Releases",
+        "title": "OpenAI explains why ChatGPT suddenly loved goblins",
+        "source": "Mashable",
+        "summary": "OpenAI published a blog post explaining why a recent ChatGPT model was so obsessed with working goblins into answers.",
+        "href": "https://mashable.com/article/openai-chatgpt-goblins-explanation",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/01oWJH29CHKaPqbNZHaVQZU/hero-image.fill.size_1200x675.v1777649479.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gpt-5-5-matches-heavily-hyped-mythos-preview-in-1a9031ae-may04",
+        "category": "Model Releases",
+        "title": "GPT-5.5 matches heavily hyped Mythos Preview in new cybersecurity tests",
+        "source": "Ars Technica",
+        "summary": "New results suggest Mythos' cyber threat isn't \"a breakthrough specific to one model.\"",
+        "href": "https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2234175849-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "xai-launches-grok-4-3-at-an-aggressively-low-pri-8e93db74-may04",
+        "category": "Developer Tools",
+        "title": "xAI launches Grok 4.3 at an aggressively low price and a new, fast, powerful voice cloning suite",
+        "source": "VentureBeat",
+        "summary": "While Elon Musk faces off against his former colleague and OpenAI co-founder Sam Altman in court , Musk's rival firm xAI, founded to take on OpenAI, isn't slowing down on launching competitive new products and services. Last night, xAI shipped a new, propriet...",
+        "href": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/6c9N7ubweMcf8hAUjcDZIH/fb25ad47038633db57b73f2f45bc3225/FkIIbTjMYUsldxbqMHtky_g5BcjizZ.jpg?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "xiaomi-s-open-weight-mimo-v2-5-pro-takes-aim-at-5447e3af-may04",
+        "category": "Developer Tools",
+        "title": "Xiaomi's open-weight MiMo-V2.5-Pro takes aim at Claude Opus with hours-long autonomous coding",
+        "source": "The Decoder",
+        "summary": "Xiaomi's new MiMo-V2.5-Pro nearly matches Anthropic's Claude Opus 4.6 on coding benchmarks while burning 40 to 60 percent fewer tokens, according to the company. The release pushes Xiaomi deeper into the race among Chinese open-weight providers like Deepseek,...",
+        "href": "https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/Xiaomi-MiMo-Explore-and-Love-e1774194951718.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "hmbown-deepseek-tui-d9569cde-may04",
+        "category": "Developer Tools",
+        "title": "Hmbown / DeepSeek-TUI",
+        "source": "github",
+        "summary": "github reported: Hmbown / DeepSeek-TUI",
+        "href": "https://github.com/Hmbown/DeepSeek-TUI",
+        "imageUrl": "https://opengraph.githubassets.com/78d2908a983eab5d410e9652e6acb381c46b85260fc76c80b7aa63972f8a15d1/Hmbown/DeepSeek-TUI",
+        "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "china-is-falling-behind-in-the-ai-race-according-6dfaffb6-may04",
+        "category": "Developer Tools",
+        "title": "China is falling behind in the AI race, according to a US government benchmark",
+        "source": "The Decoder",
+        "summary": "A US government agency says China is now eight months behind in the AI race, but independent data doesn't back that up. And while US labs keep chasing smarter models, the price edge from Deepseek and other Chinese players may end up being the stronger argumen...",
+        "href": "https://the-decoder.com/china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/china_vs_usa_race.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-caught-sneaking-co-authored-by-copilot-46011e62-may04",
+        "category": "Developer Tools",
+        "title": "Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with AI off",
+        "source": "The Decoder",
+        "summary": "Microsoft quietly slipped a \"Co-Authored-by Copilot\" line into Git commits in Visual Studio Code - even for developers who had turned off the AI features entirely. The article Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with...",
+        "href": "https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/microsoft_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-use-transformers-js-in-a-chrome-extension-4a3a5411-may04",
+        "category": "Product Updates",
+        "title": "How to Use Transformers.js in a Chrome Extension",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: How to Use Transformers.js in a Chrome Extension",
+        "href": "https://huggingface.co/blog/transformersjs-chrome-extension",
+        "imageUrl": "https://huggingface.co/blog/assets/transformersjs-chrome-extension/thumbnail.jpg",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-coding-implementation-to-explore-and-analyze-t-31562e7b-may04",
+        "category": "Developer Tools",
+        "title": "A Coding Implementation to Explore and Analyze the TaskTrove Dataset with Streaming Parsing Visualization and Verifier...",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we take a deep dive into the TaskTrove dataset on Hugging Face and build a complete, practical workflow to efficiently explore it. Instead of downloading the full multi-gigabyte dataset, we stream it directly and work with individual samples...",
+        "href": "https://www.marktechpost.com/2026/05/03/a-coding-implementation-to-explore-and-analyze-the-tasktrove-dataset-with-streaming-parsing-visualization-and-verifier-detection/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog-8.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-and-the-future-of-cybersecurity-why-openness-cd40c18e-may04",
+        "category": "Policy",
+        "title": "AI and the Future of Cybersecurity: Why Openness Matters",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: AI and the Future of Cybersecurity: Why Openness Matters",
+        "href": "https://huggingface.co/blog/cybersecurity-openness",
+        "imageUrl": "https://huggingface.co/blog/assets/cybersecurity-openness/detective_huggy_thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-03",
     "label": "May 3, 2026",
     "items": [
