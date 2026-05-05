@@ -365,6 +365,112 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-05",
+    "label": "May 5, 2026",
+    "items": [
+      {
+        "id": "i-tested-google-maps-vs-apple-maps-to-find-the-b-855f86ec-may05",
+        "category": "Product Updates",
+        "title": "I tested Google Maps vs. Apple Maps to find the best navigation app - and this one wins",
+        "source": "ZDNet AI",
+        "summary": "Apple Maps has improved over the years, but how does it compare to Google Maps today? Here's which one is best.",
+        "href": "https://www.zdnet.com/article/google-maps-vs-apple-maps/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/93e41c7359fe13154cb4a714bcfccadc413c179a/2026/05/04/bc124274-1f48-4d8a-bfab-859396726dc0/google-maps-vs-apple-maps.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "reduce-friction-and-latency-for-long-running-job-3f523916-may05",
+        "category": "Model Releases",
+        "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+        "source": "Google AI Blog",
+        "summary": "Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.",
+        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WebhooksGeminiAPI-hero.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-workspace-adds-5-ai-upgrades-that-could-c-746a3559-may05",
+        "category": "Agents",
+        "title": "Google Workspace Adds 5 AI Upgrades That Could Change Daily Work",
+        "source": "TechRepublic AI",
+        "summary": "Google Workspace adds 5 AI upgrades at Cloud Next 2026, improving Sheets, Meet, automation, and Microsoft 365 migration tools. The post Google Workspace Adds 5 AI Upgrades That Could Change Daily Work appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/google-workspace-adds-5-ai-upgrades-daily-work/",
+        "imageUrl": "assets/news/bright-productivity.svg",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "your-chatgpt-account-just-got-more-secure-but-yo-0c35682b-may05",
+        "category": "Model Releases",
+        "title": "Your ChatGPT account just got more secure, but you have to opt in - here's how",
+        "source": "ZDNet AI",
+        "summary": "OpenAI adds a feature called Advanced Account Security with four opt-in settings designed to safeguard your account and personal data.",
+        "href": "https://www.zdnet.com/article/chatgpt-advanced-account-security/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/486877159e389d477836754cabc98a5dfa19f90b/2026/05/04/568633ee-ad98-48fa-9230-2bf126246305/gettyimages-2205105208.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "influential-study-touting-chatgpt-in-education-r-bc5c3600-may05",
+        "category": "Model Releases",
+        "title": "Influential study touting ChatGPT in education retracted over red flags",
+        "source": "Ars Technica",
+        "summary": "The retracted study on ChatGPT in education was already cited hundreds of times.",
+        "href": "https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2235760397-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-and-openai-now-agree-on-one-thing-sell-9cb71f23-may05",
+        "category": "Developer Tools",
+        "title": "Anthropic and OpenAI now agree on one thing: selling AI requires a lot more than just the AI",
+        "source": "The Decoder",
+        "summary": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs are launching a new AI services company to help mid-market businesses adopt Claude. The article Anthropic and OpenAI now agree on one thing: selling AI requires a lot more than just the AI appeared...",
+        "href": "https://the-decoder.com/anthropic-and-openai-now-agree-on-one-thing-selling-ai-requires-a-lot-more-than-just-the-ai/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/anthropic_logos-6.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "register-now-for-openclaw-after-hours-github-20b3f4ac-may05",
+        "category": "Developer Tools",
+        "title": "Register now for OpenClaw: After Hours @ GitHub",
+        "source": "GitHub Blog",
+        "summary": "OpenClaw builders will gather at GitHub HQ during Microsoft Build 2026 for demos and conversations. Join in person, or watch the livestream on Twitch. The post Register now for OpenClaw: After Hours @ GitHub appeared first on The GitHub Blog .",
+        "href": "https://github.blog/open-source/register-now-for-openclaw-after-hours-github/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/05/openclaw-big.png?fit=2400%2C1260",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-fixes-vs-code-after-app-gives-copilot-05bbdbfa-may05",
+        "category": "Developer Tools",
+        "title": "Microsoft fixes VS Code after app gives Copilot credit for human's work",
+        "source": "The Register AI",
+        "summary": "Devs not thrilled that Git extension added the bot as co-author by default Imagine working your butt off on a project, only to have VS Code put an attribution into your commit that says Copilot helped you, even if it did not. Microsoft has reversed a change t...",
+        "href": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/microsoft_reverses_ai_credit_grab/",
+        "imageUrl": "https://regmedia.co.uk/2022/10/25/shutterstock_1494515318.jpg",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "lessons-on-ux-security-and-scale-when-building-a-84576f16-may05",
+        "category": "Agents",
+        "title": "Lessons on UX, security, and scale when building an enterprise-grade Slack agent",
+        "source": "Sourcegraph Blog",
+        "summary": "We built a Deep Search Slack agent for large companies. Here is what we learned about user experience, enterprise security, and Redis-backed rate limiting.",
+        "href": "http://localhost:5174/blog/deep-search-slack-agent-lessons",
+        "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+        "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "top-search-and-fetch-apis-for-building-ai-agents-9b856218-may05",
+        "category": "Agents",
+        "title": "Top Search and Fetch APIs for Building AI Agents in 2026: Tools, Tradeoffs, and Free Tiers",
+        "source": "MarkTechPost",
+        "summary": "Discover the top search and fetch APIs for AI agents in 2026. Compare tools like TinyFish, Tavily, and Firecrawl based on latency, token efficiency, and free tiers to optimize your agent's web retrieval. The post Top Search and Fetch APIs for Building AI Agen...",
+        "href": "https://www.marktechpost.com/2026/05/04/top-search-and-fetch-apis-for-building-ai-agents-in-2026-tools-tradeoffs-and-free-tiers/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/search_fetch_api_table_2026-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-04",
     "label": "May 4, 2026",
     "items": [
