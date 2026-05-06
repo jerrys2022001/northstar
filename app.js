@@ -365,6 +365,122 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-06",
+    "label": "May 6, 2026",
+    "items": [
+      {
+        "id": "this-weird-pixel-feature-is-one-of-my-favorite-t-a9563460-may06",
+        "category": "Product Updates",
+        "title": "This weird Pixel feature is one of my favorite tools - too bad Google may remove it soon",
+        "source": "ZDNet AI",
+        "summary": "Leaks hint that the next Pixel lineup will lose the thermometer for \"Pixel Glow\" LEDs",
+        "href": "https://www.zdnet.com/article/google-removing-pixel-thermometer/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/1ae411430238884f636ac19a7fc74ad642a71012/2025/08/27/87461d54-1171-4e4a-b900-fc8419eca9f3/dsc07492.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "us-government-now-has-pre-release-access-to-ai-m-8d3ac470-may06",
+        "category": "Developer Tools",
+        "title": "US government now has pre-release access to AI models from five major labs for national security testing",
+        "source": "The Decoder",
+        "summary": "The US Department of Commerce is expanding its AI safety testing: Following Anthropic and OpenAI, Google Deepmind, Microsoft, and xAI have now signed agreements with the Center for AI Standards and Innovation. The companies provide models with reduced safety...",
+        "href": "https://the-decoder.com/us-government-now-has-pre-release-access-to-ai-models-from-five-major-labs-for-national-security-testing/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/us_flag_wireframe.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-president-forced-to-read-his-personal-dia-42aa4ad0-may06",
+        "category": "Developer Tools",
+        "title": "OpenAI president forced to read his personal diary entries to jury",
+        "source": "Ars Technica",
+        "summary": "Elon Musk argued the journals show the moment when OpenAI abandoned its mission.",
+        "href": "https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/greg-brockman-is-you-taking-notes-on-criminal-conspiracy-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "amazon-brings-agentic-fine-tuning-to-sagemaker-w-d4006273-may06",
+        "category": "Developer Tools",
+        "title": "Amazon brings agentic fine-tuning to SageMaker with support for Llama, Qwen, Deepseek, and Nova",
+        "source": "The Decoder",
+        "summary": "Amazon SageMaker AI now includes an AI agent designed to help developers customize language models. The article Amazon brings agentic fine-tuning to SageMaker with support for Llama, Qwen, Deepseek, and Nova appeared first on The Decoder .",
+        "href": "https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2024/12/aws_agents_midjourney.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-co-founder-maps-out-how-recursive-ai-i-6de4b9da-may06",
+        "category": "Developer Tools",
+        "title": "Anthropic co-founder maps out how recursive AI improvement could outpace the humans meant to supervise it",
+        "source": "The Decoder",
+        "summary": "Jack Clark argues in a long essay that the building blocks for AI systems training their own successors are largely in place. He puts the odds at 60 percent by the end of 2028. The article Anthropic co-founder maps out how recursive AI improvement could outpa...",
+        "href": "https://the-decoder.com/anthropic-co-founder-maps-out-how-recursive-ai-improvement-could-outpace-the-humans-meant-to-supervise-it/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/anthropic_logo_cybersecurity.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "pennsylvania-sues-character-ai-after-a-chatbot-a-bb06116c-may06",
+        "category": "Product Updates",
+        "title": "Pennsylvania sues Character.AI after a chatbot allegedly posed as a doctor",
+        "source": "TechCrunch",
+        "summary": "According to Pennsylvania's filing, a Character.AI chatbot presented itself as a licensed psychiatrist during a state investigation, and also fabricated a serial number for its state medical license.",
+        "href": "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/shapiro-2272836952.jpg?resize=1200,908",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "character-ai-sued-over-chatbot-that-claims-to-be-200e07db-may06",
+        "category": "Product Updates",
+        "title": "Character.AI sued over chatbot that claims to be a real doctor with a license",
+        "source": "Ars Technica",
+        "summary": "State says chatbot claimed to practice medicine, gave invalid license number.",
+        "href": "https://arstechnica.com/tech-policy/2026/05/character-ai-sued-over-chatbot-that-claims-to-be-a-real-doctor-with-a-license/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/robot-hand-stethoscope-1152x648-1778013526.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "welcome-to-maintainer-month-celebrating-the-peop-8081fe0e-may06",
+        "category": "Developer Tools",
+        "title": "Welcome to Maintainer Month: Celebrating the people behind the code",
+        "source": "GitHub Blog",
+        "summary": "What maintainers are telling us, what we've shipped, and how to celebrate the people behind open source. The post Welcome to Maintainer Month: Celebrating the people behind the code appeared first on The GitHub Blog .",
+        "href": "https://github.blog/open-source/maintainers/welcome-to-maintainer-month-celebrating-the-people-behind-the-code/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/05/21b7ba26d938291b85ccf5b0cec4e0b47425dd2ebf9ee392e72a507d15030fdd-2400x1260-1.png?fit=2400%2C1260",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "arindam200-awesome-ai-apps-1584467f-may06",
+        "category": "Developer Tools",
+        "title": "Arindam200 / awesome-ai-apps",
+        "source": "github",
+        "summary": "github reported: Arindam200 / awesome-ai-apps",
+        "href": "https://github.com/Arindam200/awesome-ai-apps",
+        "imageUrl": "https://repository-images.githubusercontent.com/933701586/6f7ea6f6-8604-4320-8271-0732a272536f",
+        "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "elevenlabs-lists-blackrock-jamie-foxx-and-eva-lo-69d9fa3b-may06",
+        "category": "Product Updates",
+        "title": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors",
+        "source": "TechCrunch",
+        "summary": "ElevenLabs reveals new investors, hits $500M ARR, and expands enterprise footprint as voice AI becomes a critical interface.",
+        "href": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/Mati-Staniszewski_SXSW.jpg?resize=1200,799",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "this-critical-linux-vulnerability-is-putting-mil-48a754c0-may06",
+        "category": "Product Updates",
+        "title": "This critical Linux vulnerability is putting millions of systems at risk - how to protect yours",
+        "source": "ZDNet AI",
+        "summary": "Don't ignore the Copy Fail Linux vulnerability. It's serious, but protecting yourself from it is easy.",
+        "href": "https://www.zdnet.com/article/critical-copy-fail-vulnerability-affecting-linux-systems-how-to-mitigate/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/db4efead752b2ca5cf594b29b902e921e3b7d51b/2026/05/05/0374eea1-7746-434d-9fdf-9d106774ff64/this-critical-linux-vulnerability-is-putting-millions-of-systems-at-risk-how-to-protect-yours.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-05",
     "label": "May 5, 2026",
     "items": [
@@ -389,16 +505,6 @@
         "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
       },
       {
-        "id": "google-workspace-adds-5-ai-upgrades-that-could-c-746a3559-may05",
-        "category": "Agents",
-        "title": "Google Workspace Adds 5 AI Upgrades That Could Change Daily Work",
-        "source": "TechRepublic AI",
-        "summary": "Google Workspace adds 5 AI upgrades at Cloud Next 2026, improving Sheets, Meet, automation, and Microsoft 365 migration tools. The post Google Workspace Adds 5 AI Upgrades That Could Change Daily Work appeared first on TechRepublic .",
-        "href": "https://www.techrepublic.com/article/google-workspace-adds-5-ai-upgrades-daily-work/",
-        "imageUrl": "assets/news/bright-productivity.svg",
-        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
-      },
-      {
         "id": "your-chatgpt-account-just-got-more-secure-but-yo-0c35682b-may05",
         "category": "Model Releases",
         "title": "Your ChatGPT account just got more secure, but you have to opt in - here's how",
@@ -417,16 +523,6 @@
         "href": "https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/",
         "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2235760397-1152x648.jpg",
         "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "anthropic-and-openai-now-agree-on-one-thing-sell-9cb71f23-may05",
-        "category": "Developer Tools",
-        "title": "Anthropic and OpenAI now agree on one thing: selling AI requires a lot more than just the AI",
-        "source": "The Decoder",
-        "summary": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs are launching a new AI services company to help mid-market businesses adopt Claude. The article Anthropic and OpenAI now agree on one thing: selling AI requires a lot more than just the AI appeared...",
-        "href": "https://the-decoder.com/anthropic-and-openai-now-agree-on-one-thing-selling-ai-requires-a-lot-more-than-just-the-ai/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/anthropic_logos-6.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
         "id": "register-now-for-openclaw-after-hours-github-20b3f4ac-may05",
@@ -505,16 +601,6 @@
         "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
       },
       {
-        "id": "gpt-5-5-matches-heavily-hyped-mythos-preview-in-1a9031ae-may04",
-        "category": "Model Releases",
-        "title": "GPT-5.5 matches heavily hyped Mythos Preview in new cybersecurity tests",
-        "source": "Ars Technica",
-        "summary": "New results suggest Mythos' cyber threat isn't \"a breakthrough specific to one model.\"",
-        "href": "https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good/",
-        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2234175849-1152x648.jpg",
-        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
-      },
-      {
         "id": "xai-launches-grok-4-3-at-an-aggressively-low-pri-8e93db74-may04",
         "category": "Developer Tools",
         "title": "xAI launches Grok 4.3 at an aggressively low price and a new, fast, powerful voice cloning suite",
@@ -545,16 +631,6 @@
         "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
       },
       {
-        "id": "china-is-falling-behind-in-the-ai-race-according-6dfaffb6-may04",
-        "category": "Developer Tools",
-        "title": "China is falling behind in the AI race, according to a US government benchmark",
-        "source": "The Decoder",
-        "summary": "A US government agency says China is now eight months behind in the AI race, but independent data doesn't back that up. And while US labs keep chasing smarter models, the price edge from Deepseek and other Chinese players may end up being the stronger argumen...",
-        "href": "https://the-decoder.com/china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/china_vs_usa_race.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
         "id": "microsoft-caught-sneaking-co-authored-by-copilot-46011e62-may04",
         "category": "Developer Tools",
         "title": "Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with AI off",
@@ -573,16 +649,6 @@
         "href": "https://huggingface.co/blog/transformersjs-chrome-extension",
         "imageUrl": "https://huggingface.co/blog/assets/transformersjs-chrome-extension/thumbnail.jpg",
         "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "a-coding-implementation-to-explore-and-analyze-t-31562e7b-may04",
-        "category": "Developer Tools",
-        "title": "A Coding Implementation to Explore and Analyze the TaskTrove Dataset with Streaming Parsing Visualization and Verifier...",
-        "source": "MarkTechPost",
-        "summary": "In this tutorial, we take a deep dive into the TaskTrove dataset on Hugging Face and build a complete, practical workflow to efficiently explore it. Instead of downloading the full multi-gigabyte dataset, we stream it directly and work with individual samples...",
-        "href": "https://www.marktechpost.com/2026/05/03/a-coding-implementation-to-explore-and-analyze-the-tasktrove-dataset-with-streaming-parsing-visualization-and-verifier-detection/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog-8.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
         "id": "ai-and-the-future-of-cybersecurity-why-openness-cd40c18e-may04",
@@ -621,16 +687,6 @@
         "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
       },
       {
-        "id": "big-tech-s-ai-spending-balloons-to-725-billion-t-322cb4d4-may03",
-        "category": "Developer Tools",
-        "title": "Big tech's AI spending balloons to $725 billion this year",
-        "source": "The Decoder",
-        "summary": "Big tech keeps pouring more money into AI data centers, chips, and infrastructure. According to the Financial Times, Google, Amazon, Microsoft, and Meta have a combined budget of around $725 billion for next year. The article Big tech's AI spending balloons t...",
-        "href": "https://the-decoder.com/big-techs-ai-spending-balloons-to-725-billion-this-year/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/big_tech_cloud.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
         "id": "even-the-latest-ai-models-make-three-systematic-376d1bc9-may03",
         "category": "Developer Tools",
         "title": "Even the latest AI models make three systematic reasoning errors, ARC-AGI-3 analysis shows",
@@ -648,16 +704,6 @@
         "summary": "Elon Musk called himself a \"fool\" in court, warned of a \"Terminator\" future, and admitted that xAI taps OpenAI's models for its own AI training. Week one of Musk's trial against Sam Altman delivered plenty of drama; and the best may still be ahead. The articl...",
         "href": "https://the-decoder.com/elon-musk-calls-himself-a-fool-for-giving-openai-38-million-that-became-an-800-billion-company/",
         "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/sam_altman_vs_elon_musk.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "chatgpt-now-tracks-users-for-ads-by-default-as-o-c0685bcf-may03",
-        "category": "Developer Tools",
-        "title": "ChatGPT now tracks users for ads by default as OpenAI looks for new revenue",
-        "source": "The Decoder",
-        "summary": "OpenAI has turned on marketing cookies by default for free ChatGPT users in countries where ads are running. Tracking is automatically active for free accounts but not for paying subscribers. You can disable it in your account settings. The article ChatGPT no...",
-        "href": "https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/openai_chatgpt.png",
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
@@ -689,16 +735,6 @@
         "href": "https://the-decoder.com/eight-tech-giants-sign-pentagon-deals-to-build-an-ai-first-fighting-force-across-classified-networks/",
         "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/pentagon_AI_strategy.png",
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "ai-evals-are-becoming-the-new-compute-bottleneck-1280d723-may03",
-        "category": "Product Updates",
-        "title": "AI evals are becoming the new compute bottleneck",
-        "source": "Hugging Face Blog",
-        "summary": "Hugging Face Blog reported: AI evals are becoming the new compute bottleneck",
-        "href": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
-        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6413251362e6057cbb6259bd/ukJJW86oJu36zOJwqZJBG.png",
-        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
       },
       {
         "id": "introducing-nvidia-nemotron-3-nano-omni-long-con-5b7c46b2-may03",

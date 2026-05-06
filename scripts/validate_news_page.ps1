@@ -189,7 +189,7 @@ try {
 
   if ($nodeExitCode -ne 0) {
     $rawText = ($rawValidation | Out-String)
-    if ($rawText -match "spawn EPERM" -or $rawText -match "Executable doesn't exist") {
+    if ($rawText -match "spawn EPERM" -or $rawText -match "spawn UNKNOWN" -or $rawText -match "Executable doesn't exist") {
       $response = Invoke-WebRequest -UseBasicParsing -Uri $url -TimeoutSec 5
       $content = $response.Content
       $hasNewsFeed = $content -like '*id="news-feed"*'
