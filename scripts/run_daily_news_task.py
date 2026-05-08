@@ -47,10 +47,17 @@ STOPWORDS = {
     "into",
     "your",
     "about",
+    "after",
+    "amid",
+    "behind",
+    "their",
+    "when",
+    "partners",
+    "takes",
 }
 
 BASE_TOOL_ALIASES = {
-    "gemini": ["gemini", "gemma", "google ai studio", "google"],
+    "gemini": ["gemini", "gemma", "google ai studio"],
     "googleaistudio": ["google ai studio", "gemma"],
     "claude": ["claude", "anthropic"],
     "chatgpt": ["chatgpt", "openai", "codex"],
@@ -291,7 +298,7 @@ def slugify(value: str) -> str:
 def infer_tool_ids(item: dict[str, Any]) -> list[str]:
     haystack = normalize_alias(
         " ".join(
-        part for part in [item.get("title"), item.get("summary"), item.get("excerpt"), item.get("source")] if part
+        part for part in [item.get("title"), item.get("summary"), item.get("excerpt")] if part
         )
     )
     haystack = f" {haystack} "
@@ -310,8 +317,13 @@ def news_heat_score(item: dict[str, Any], tool_visits: dict[str, int]) -> int:
 
 
 def normalize_title_tokens(title: str) -> list[str]:
+    token_aliases = {
+        "deepmind": "deepmind",
+        "models": "model",
+        "testing": "test",
+    }
     return [
-        token
+        token_aliases.get(token, token)
         for token in re.sub(r"[^a-z0-9\s]", " ", title.lower()).split()
         if token and len(token) > 2 and token not in STOPWORDS
     ]
@@ -321,6 +333,8 @@ def items_are_similar(left: dict[str, Any], right: dict[str, Any]) -> bool:
     if left.get("id") and right.get("id") and left["id"] == right["id"]:
         return True
     if left.get("href") and right.get("href") and left["href"] == right["href"]:
+        return True
+    if left.get("imageUrl") and right.get("imageUrl") and left["imageUrl"] == right["imageUrl"]:
         return True
 
     left_tokens = normalize_title_tokens(left.get("title", ""))
@@ -709,9 +723,13 @@ def main() -> int:
     if any(item["date"] == run_date for item in candidate_items):
         archive_items = [item for item in archive_items if item["date"] != run_date]
     candidate_item_ids = {item["id"] for item in candidate_items}
-    required_run_date_items = min(args.min_daily_items, len(candidate_item_ids))
+    available_run_date_candidate_items = sum(1 for item in candidate_items if item["date"] == run_date)
+    required_run_date_items = min(args.min_daily_items, available_run_date_candidate_items)
     effective_max_per_tool_per_day = args.max_per_tool_per_day
-    max_cap_limit = min(max(args.max_per_tool_per_day, args.max_auto_per_tool_per_day), len(candidate_item_ids))
+    max_cap_limit = min(
+        max(args.max_per_tool_per_day, args.max_auto_per_tool_per_day),
+        max(available_run_date_candidate_items, 1),
+    )
 
     while True:
         kept_items, dedupe_summary = dedupe_and_cap_items(
@@ -732,7 +750,11 @@ def main() -> int:
         for item in kept_items
         if item["date"] == run_date and item["id"] in candidate_item_ids
     }
-    required_run_date_items = min(args.min_daily_items, len(mergeable_candidate_ids))
+    if len(mergeable_candidate_ids) < required_run_date_items:
+        raise RuntimeError(
+            f"{run_date} has {len(mergeable_candidate_ids)} mergeable news items; "
+            f"expected at least {required_run_date_items}"
+        )
     static_validation = validate_static_news_assets(
         grouped_feed=grouped_feed,
         kept_items=kept_items,

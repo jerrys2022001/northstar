@@ -46,9 +46,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--fetch-min-items", type=int, default=80)
     parser.add_argument("--max-fetch-min-items", type=int, default=80)
     parser.add_argument("--max-fetch-limit", type=int, default=96)
+    parser.add_argument("--max-window-hours", type=int, default=72)
     parser.add_argument("--initial-catalog-expansion-feeds", type=int, default=48)
     parser.add_argument("--max-catalog-expansion-feeds", type=int, default=48)
     parser.add_argument("--min-daily-items", type=int, default=10)
+    parser.add_argument("--max-auto-per-tool-per-day", type=int, default=10)
     parser.add_argument("--skip-render-validation", action="store_true")
     parser.add_argument("--git-commit", action="store_true")
     parser.add_argument("--git-push", action="store_true")
@@ -200,12 +202,16 @@ def build_backfill_command(args: argparse.Namespace, repo_root: Path, target_dat
         str(args.max_fetch_min_items),
         "--max-fetch-limit",
         str(args.max_fetch_limit),
+        "--max-window-hours",
+        str(args.max_window_hours),
         "--initial-catalog-expansion-feeds",
         str(args.initial_catalog_expansion_feeds),
         "--max-catalog-expansion-feeds",
         str(args.max_catalog_expansion_feeds),
         "--min-daily-items",
         str(args.min_daily_items),
+        "--max-auto-per-tool-per-day",
+        str(args.max_auto_per_tool_per_day),
     ]
     if args.single_date:
         command.extend(["--start-date", target_date.isoformat()])

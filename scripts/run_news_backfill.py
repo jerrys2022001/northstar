@@ -78,6 +78,12 @@ def parse_args() -> argparse.Namespace:
         help="Maximum fetch limit used when repeatedly widening sparse digest days.",
     )
     parser.add_argument(
+        "--max-window-hours",
+        type=int,
+        default=72,
+        help="Maximum rolling candidate window passed to the fetch step.",
+    )
+    parser.add_argument(
         "--max-backfill-days",
         type=int,
         default=3,
@@ -98,7 +104,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-auto-per-tool-per-day",
         type=int,
-        default=3,
+        default=10,
         help="Maximum same-tool daily cap the merge step may auto-relax to.",
     )
     parser.add_argument(
@@ -281,6 +287,8 @@ def process_digest_date(run_date: date, args: argparse.Namespace) -> dict[str, o
             str(fetch_min_items),
             "--max-catalog-expansion-feeds",
             str(expansion_budget),
+            "--max-window-hours",
+            str(args.max_window_hours),
         ]
         if attempts > 1 or expansion_budget >= args.max_catalog_expansion_feeds:
             fetch_command.append("--force-catalog-feed-expansion")

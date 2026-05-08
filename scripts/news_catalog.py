@@ -209,7 +209,7 @@ def alias_variants_from_tool(tool: dict[str, Any]) -> set[str]:
     tool_name_alias = normalize_alias(tool_name)
     vendor_alias = normalize_alias(vendor_name)
     raw_values = [tool_name]
-    if vendor_name and (vendor_alias not in DISALLOWED_VENDOR_ONLY_ALIASES or vendor_alias in tool_name_alias):
+    if vendor_name and vendor_alias not in DISALLOWED_VENDOR_ONLY_ALIASES:
         raw_values.append(vendor_name)
 
     tool_url = str(tool.get("url") or "").strip()
@@ -219,7 +219,9 @@ def alias_variants_from_tool(tool: dict[str, Any]) -> set[str]:
             host = host[4:]
         host_parts = [part for part in host.split(".") if part]
         if len(host_parts) >= 2:
-            raw_values.append(host_parts[-2])
+            domain_alias = normalize_alias(host_parts[-2])
+            if domain_alias not in DISALLOWED_VENDOR_ONLY_ALIASES:
+                raw_values.append(domain_alias)
 
     for raw_value in raw_values:
         alias = normalize_alias(raw_value)
@@ -234,7 +236,7 @@ def alias_variants_from_tool(tool: dict[str, Any]) -> set[str]:
                 alias,
             )
         )
-        if alias_is_useful(trimmed):
+        if alias_is_useful(trimmed) and trimmed not in DISALLOWED_VENDOR_ONLY_ALIASES:
             variants.add(trimmed)
 
     return variants

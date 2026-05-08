@@ -141,6 +141,13 @@ BASE_TOOL_ALIASES = {
     "runway": {"runway"},
 }
 TOOL_ALIASES = {tool_id: set(aliases) for tool_id, aliases in BASE_TOOL_ALIASES.items()}
+TRUSTED_AI_SOURCE_HINTS = {
+    "anthropic",
+    "deepmind",
+    "hugging face",
+    "machine learning",
+    "openai",
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -177,8 +184,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-window-hours",
         type=int,
-        default=720,
-        help="Maximum rolling window size used to backfill sparse digest days.",
+        default=72,
+        help="Maximum rolling window size used to preserve NEWS timeliness.",
     )
     parser.add_argument("--limit", type=int, default=36)
     parser.add_argument(
@@ -448,20 +455,26 @@ def build_candidate(
         "excerpt": f"Radar signal: {source} surfaced this item in the latest AI news window.",
         "imageUrl": "",
         "publishedAt": published.astimezone(timezone.utc).isoformat(timespec="seconds"),
-        "toolIds": infer_tool_ids(" ".join([title, summary, source])),
+        "toolIds": infer_tool_ids(" ".join([title, summary])),
     }
     return candidate
 
 
 def is_ai_focused(item: dict[str, Any]) -> bool:
-    return has_explicit_ai_signal(item) or bool(item.get("toolIds"))
+    return has_explicit_ai_signal(item) or has_trusted_ai_source(item)
+
+
+def has_trusted_ai_source(item: dict[str, Any]) -> bool:
+    source = normalize_alias(str(item.get("source") or ""))
+    return any(hint in source for hint in TRUSTED_AI_SOURCE_HINTS)
 
 
 def has_explicit_ai_signal(item: dict[str, Any]) -> bool:
-    haystack = " ".join(
-        str(item.get(key, "")) for key in ("title", "summary", "source", "category")
-    ).lower()
-    return any(keyword in haystack for keyword in AI_KEYWORDS)
+    text = " ".join(
+        str(item.get(key, "")) for key in ("title", "summary", "category")
+    )
+    haystack = f" {normalize_alias(text)} "
+    return any(f" {normalize_alias(keyword)} " in haystack for keyword in AI_KEYWORDS)
 
 
 def is_publishable_english(item: dict[str, Any]) -> bool:
