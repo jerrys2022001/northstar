@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-05-08T02:45:29+00:00",
-  "digestDate": "2026-05-08",
+  "updatedAt": "2026-05-09T00:47:25+00:00",
+  "digestDate": "2026-05-09",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-05-05T10:43:34+08:00",
-  "windowEnd": "2026-05-08T10:43:34+08:00",
+  "windowStart": "2026-05-06T08:45:26+08:00",
+  "windowEnd": "2026-05-09T08:45:26+08:00",
   "catalogExpansionFeedsAvailable": 34,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -218,25 +218,187 @@
   ],
   "items": [
     {
-      "id": "anthropic-introduces-dreaming-a-system-that-lets-76c688dd-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
+      "id": "5-000-vibe-coded-apps-just-proved-shadow-ai-is-t-02f8015f-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
       "category": "Developer Tools",
-      "title": "Anthropic introduces \"dreaming,\" a system that lets AI agents learn from their own mistakes",
+      "title": "5,000 vibe-coded apps just proved shadow AI is the new S3 bucket crisis",
       "source": "VentureBeat",
-      "summary": "Anthropic on Tuesday unveiled a suite of updates to its Claude Managed Agents platform at its second annual Code with Claude developer conference in San Francisco, introducing a new capability called \" dreaming \" that lets AI agents learn from their own past...",
-      "href": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes",
+      "summary": "Most enterprise security programs were built to protect servers, endpoints, and cloud accounts. None of them was built to find a customer intake form that a product manager vibe coded on Lovable over a weekend, connected to a live Supabase database, and deplo...",
+      "href": "https://venturebeat.com/security/vibe-coded-apps-shadow-ai-s3-bucket-crisis-ciso-audit-framework",
       "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5I4zuQbx738JfOAQbToZdD/b5c7c367d367e55b484dc1480e399cba/Nuneybits_Vector_art_of_burnt-orange_moonlit_sleeper_dissolving_71200d84-78a7-48eb-890e-fb59ef136db1.webp?w=300&q=30",
-      "publishedAt": "2026-05-08T00:09:35+00:00",
+      "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3H8BkMlVjetAGClhRKtmFK/533b657c9dd2b63819c0db0d2f8c6559/5_000_vibe-coded_apps_just_proved_shadow_AI_is_the_new_S3_bucket_crisis.png?w=300&q=30",
+      "publishedAt": "2026-05-08T20:57:01+00:00",
+      "toolIds": [
+        "lovable"
+      ]
+    },
+    {
+      "id": "doge-used-chatgpt-in-a-way-that-was-both-dumb-an-392976c6-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Model Releases",
+      "title": "DOGE used ChatGPT in a way that was both dumb and illegal, judge rules",
+      "source": "The Verge",
+      "summary": "The Department of Government Efficiency's cancellation of over $100 million in grants was unconstitutional, according to a ruling on Thursday. In the 143-page decision, US District Judge Colleen McMahon cites DOGE's process for eliminating grants, which invol...",
+      "href": "https://www.theverge.com/policy/927071/doge-chatgpt-grants-canceled",
+      "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STKS486_DOGE_DEPARTMENT_2_E.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-05-08T18:02:44+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "ai-money-keeps-flowing-as-deepseek-plans-record-ea765023-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Developer Tools",
+      "title": "AI money keeps flowing as Deepseek plans record raise and Core Automation quadruples valuation in weeks",
+      "source": "The Decoder",
+      "summary": "Deepseek is planning a funding round of up to $7.35 billion, the largest ever for a Chinese AI company. Deepseek V4.1 is set to launch in June. Meanwhile, Core Automation, founded by ex-OpenAI researcher Jerry Tworek just six weeks ago, is already targeting a...",
+      "href": "https://the-decoder.com/ai-money-keeps-flowing-as-deepseek-plans-record-raise-and-core-automation-quadruples-valuation-in-weeks/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/ai_startups_money_2.png",
+      "publishedAt": "2026-05-08T17:50:53+00:00",
+      "toolIds": [
+        "chatgpt",
+        "deepseek"
+      ]
+    },
+    {
+      "id": "softbank-reportedly-slashes-openai-backed-loan-f-c107e1fa-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Developer Tools",
+      "title": "SoftBank reportedly slashes OpenAI-backed loan from $10 billion to $6 billion as lenders balk at private AI valuations",
+      "source": "The Decoder",
+      "summary": "SoftBank has reduced a loan secured by OpenAI shares from 10 to around 6 billion dollars. Lenders are apparently reluctant to reliably assess the value of an unlisted company like OpenAI. The article SoftBank reportedly slashes OpenAI-backed loan from $10 bil...",
+      "href": "https://the-decoder.com/softbank-reportedly-slashes-openai-backed-loan-from-10-billion-to-6-billion-as-lenders-balk-at-private-ai-valuations/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_logo_wall.png",
+      "publishedAt": "2026-05-08T16:26:58+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "your-google-i-o-cheat-sheet-what-to-expect-2ae4149b-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Model Releases",
+      "title": "Your Google I/O cheat sheet: What to expect",
+      "source": "Mashable",
+      "summary": "Google I/O 2026 is expected to focus on Gemini AI, smart glasses, Android updates, and new software announcements.",
+      "href": "https://mashable.com/video/google-io-2026-cheat-sheet",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/videos/01xVPpLtHrN7J9b4xZzP0o8/hero-image.fill.size_1200x675.v1778254006.jpg",
+      "publishedAt": "2026-05-08T15:28:05+00:00",
+      "toolIds": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "how-github-is-securing-agentic-workflows-in-mode-1c3734d8-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Developer Tools",
+      "title": "How GitHub Is Securing Agentic Workflows in Modern CI CD Systems",
+      "source": "InfoQ AI",
+      "summary": "GitHub detailed a defense-in-depth security architecture for agentic workflows in CI/CD pipelines, focusing on isolation, constrained execution, and auditability. The design aims to safely integrate autonomous AI agents while mitigating risks like prompt inje...",
+      "href": "https://www.infoq.com/news/2026/05/github-agentic-workflows/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://res.infoq.com/news/2026/05/github-agentic-workflows/en/headerimage/generatedHeaderImage-1777009566990.jpg",
+      "publishedAt": "2026-05-08T14:38:00+00:00",
+      "toolIds": [
+        "githubcopilot"
+      ]
+    },
+    {
+      "id": "groks-voice-mode-comes-to-apple-carplay-49fcff42-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Product Updates",
+      "title": "Groks voice mode comes to Apple CarPlay",
+      "source": "Mashable",
+      "summary": "SpaceXAI's smart assistant Grok is now available in CarPlay.",
+      "href": "https://mashable.com/article/grok-voice-mode",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/articles/02CUXDv9T6JMbibSge6stEm/hero-image.fill.size_1200x675.v1778246057.png",
+      "publishedAt": "2026-05-08T13:22:30+00:00",
+      "toolIds": [
+        "grok"
+      ]
+    },
+    {
+      "id": "ai-safety-tests-have-a-new-problem-models-are-no-ac468667-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Developer Tools",
+      "title": "AI safety tests have a new problem: Models are now faking their own reasoning traces",
+      "source": "The Decoder",
+      "summary": "Anthropic's Natural Language Autoencoders make Claude Opus 4.6's internal activations readable as plain text. Pre-deployment audits show that models often recognize test situations and deliberately deceive evaluators - without revealing any of this in their v...",
+      "href": "https://the-decoder.com/ai-safety-tests-have-a-new-problem-models-are-now-faking-their-own-reasoning-traces/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/Anthropic-Natural-language-autoencoders.png",
+      "publishedAt": "2026-05-08T13:21:02+00:00",
+      "toolIds": [
+        "claude",
+        "opusclip"
+      ]
+    },
+    {
+      "id": "openai-opens-gpt-5-5-cyber-to-vetted-security-re-99585bc3-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI opens GPT-5.5-Cyber to vetted security researchers",
+      "source": "The Decoder",
+      "summary": "OpenAI is releasing GPT-5.5-Cyber, a model variant that rejects far fewer security requests and even actively executes exploits against test servers. Access is limited to verified defenders of critical infrastructure, including partners like Cisco, CrowdStrik...",
+      "href": "https://the-decoder.com/openai-opens-gpt-5-5-cyber-to-vetted-security-researchers/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/gpt-55_title.png",
+      "publishedAt": "2026-05-08T11:07:28+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "mozilla-s-agentic-ai-pipeline-turns-claude-mytho-ed73a98c-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Developer Tools",
+      "title": "Mozilla's agentic AI pipeline turns Claude Mythos Preview loose and finds 271 unknown Firefox vulnerabilities",
+      "source": "The Decoder",
+      "summary": "Anthropic's Claude Mythos Preview uncovered 271 previously unknown security vulnerabilities in Firefox 150, including bugs up to 20 years old. Mozilla describes an agentic pipeline where the AI builds and runs its own test cases to filter out false positives....",
+      "href": "https://the-decoder.com/mozillas-agentic-ai-pipeline-turns-claude-mythos-preview-loose-and-finds-271-unknown-firefox-vulnerabilities/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/04/firefox_mozilla_logo_walls-2.png",
+      "publishedAt": "2026-05-08T09:23:28+00:00",
       "toolIds": [
         "claude"
       ]
     },
     {
-      "id": "improving-token-efficiency-in-github-agentic-wor-2b3dd723-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
+      "id": "openai-releases-three-realtime-audio-models-gpt-e8e4e4bc-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI Releases Three Realtime Audio Models: GPT-Realtime-2, GPT-Realtime-Translate, and GPT-Realtime-Whisper in the Re...",
+      "source": "MarkTechPost",
+      "summary": "Three purpose-built audio models expand what developers can build with live voice: reasoning agents, speech translation across 70+ languages, and streaming transcription. The post OpenAI Releases Three Realtime Audio Models: GPT-Realtime-2, GPT-Realtime-Trans...",
+      "href": "https://www.marktechpost.com/2026/05/08/openai-releases-three-realtime-audio-models-gpt-realtime-2-gpt-realtime-translate-and-gpt-realtime-whisper-in-the-realtime-api/",
+      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11.png",
+      "publishedAt": "2026-05-08T07:05:36+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "improving-token-efficiency-in-github-agentic-wor-2b3dd723-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
       "category": "Developer Tools",
       "title": "Improving token efficiency in GitHub Agentic Workflows",
       "source": "GitHub Blog",
@@ -250,9 +412,9 @@
       ]
     },
     {
-      "id": "lightseek-foundation-releases-tokenspeed-an-open-17a99b0f-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
+      "id": "lightseek-foundation-releases-tokenspeed-an-open-17a99b0f-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
       "category": "Developer Tools",
       "title": "LightSeek Foundation Releases TokenSpeed, an Open-Source LLM Inference Engine Targeting TensorRT-LLM-Level Performance...",
       "source": "MarkTechPost",
@@ -268,9 +430,25 @@
       ]
     },
     {
-      "id": "openai-introduces-websocket-based-execution-mode-2b34b1be-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
+      "id": "chatgpt-users-can-now-choose-a-trusted-contact-88d4a86a-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Model Releases",
+      "title": "ChatGPT users can now choose a trusted contact\"",
+      "source": "Mashable",
+      "summary": "OpenAI to notify user's trusted contact in the event of a possible serious safety concern.",
+      "href": "https://mashable.com/article/chatgpt-trusted-contact",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/articles/05UTq9JHzJIEwbEbxCcVKDH/hero-image.fill.size_1200x675.v1778112668.jpg",
+      "publishedAt": "2026-05-07T18:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "openai-introduces-websocket-based-execution-mode-2b34b1be-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
       "category": "Developer Tools",
       "title": "OpenAI Introduces Websocket-Based Execution Mode to Reduce Latency in Agentic Workflows",
       "source": "InfoQ AI",
@@ -284,9 +462,9 @@
       ]
     },
     {
-      "id": "ai-translation-company-deepl-cuts-around-250-job-29c4474a-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
+      "id": "ai-translation-company-deepl-cuts-around-250-job-29c4474a-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
       "category": "Developer Tools",
       "title": "AI translation company DeepL cuts around 250 jobs to rebuild as an \"AI-native\" organization",
       "source": "The Decoder",
@@ -300,26 +478,9 @@
       ]
     },
     {
-      "id": "openclaw-and-claude-can-put-your-ai-generated-po-608851b1-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Developer Tools",
-      "title": "OpenClaw and Claude can put your AI-generated podcasts in Spotify",
-      "source": "The Verge AI",
-      "summary": "Save to Spotify is a new command-line tool designed specifically for AI agents like OpenClaw, Claude Code, or OpenAI Codex. If you're the kind of person who collects research on a topic, then feeds it through their AI of choice to create audio summaries and p...",
-      "href": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts",
-      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/VRG_Illo_STK130_K_Radtke_Spotify_Podcast_1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-      "publishedAt": "2026-05-07T14:15:40+00:00",
-      "toolIds": [
-        "chatgpt",
-        "claude"
-      ]
-    },
-    {
-      "id": "presentation-engineering-at-ai-speed-lessons-fro-c0836eae-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
+      "id": "presentation-engineering-at-ai-speed-lessons-fro-c0836eae-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
       "category": "Developer Tools",
       "title": "Presentation: Engineering at AI Speed: Lessons from the First Agentically Accelerated Software Project",
       "source": "InfoQ AI",
@@ -333,41 +494,57 @@
       ]
     },
     {
-      "id": "ai-models-follow-their-values-better-when-they-f-c7dfe601-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Developer Tools",
-      "title": "AI models follow their values better when they first learn why those values matter",
-      "source": "The Decoder",
-      "summary": "A study from the Anthropic Fellows Program shows that training a language model on texts explaining its intended values before teaching it specific behaviors leads to significantly better adherence to those values, even in situations never encountered during...",
-      "href": "https://the-decoder.com/ai-models-follow-their-values-better-when-they-first-learn-why-those-values-matter/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/Claude-Disempowerment.png",
-      "publishedAt": "2026-05-07T12:45:25+00:00",
+      "id": "scaling-trusted-access-for-cyber-with-gpt-5-5-an-288ea344-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Model Releases",
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "href": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/bright-productivity.svg",
+      "publishedAt": "2026-05-07T13:00:00+00:00",
       "toolIds": [
-        "claude"
+        "chatgpt"
       ]
     },
     {
-      "id": "claude-s-new-dreaming-feature-is-designed-to-let-3a188e28-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Developer Tools",
-      "title": "Claude's new \"Dreaming\" feature is designed to let AI agents learn from their mistakes",
-      "source": "The Decoder",
-      "summary": "Anthropic is adding \"Dreaming\" to Claude Managed Agents, an asynchronous process that reviews past agent sessions, cleans up duplicate or outdated memory entries, and distills new insights. Along with Outcomes and Multiagent Orchestration, now both in public...",
-      "href": "https://the-decoder.com/claudes-new-dreaming-feature-is-designed-to-let-ai-agents-learn-from-their-mistakes/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/anthropic_dreaming-2.png",
-      "publishedAt": "2026-05-07T10:59:37+00:00",
+      "id": "parloa-builds-service-agents-customers-want-to-t-e41b9b9c-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Agents",
+      "title": "Parloa builds service agents customers want to talk to",
+      "source": "OpenAI Blog",
+      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "href": "https://openai.com/index/parloa",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/mit-compressm.png",
+      "publishedAt": "2026-05-07T11:00:00+00:00",
       "toolIds": [
-        "claude"
+        "chatgpt"
       ]
     },
     {
-      "id": "openai-introduces-mrc-multipath-reliable-connect-5845879c-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
+      "id": "advancing-voice-intelligence-with-new-models-in-4ba89a63-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Model Releases",
+      "title": "Advancing voice intelligence with new models in the API",
+      "source": "OpenAI Blog",
+      "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+      "href": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
+      "publishedAt": "2026-05-07T10:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "openai-introduces-mrc-multipath-reliable-connect-5845879c-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
       "category": "Product Updates",
       "title": "OpenAI Introduces MRC (Multipath Reliable Connection): A New Open Networking Protocol for Large-Scale AI Supercomputer...",
       "source": "MarkTechPost",
@@ -381,128 +558,81 @@
       ]
     },
     {
-      "id": "anthropic-skill-scanners-passed-every-check-the-45a1002a-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Developer Tools",
-      "title": "Anthropic Skill scanners passed every check. The malicious code rode in on a test file.",
-      "source": "VentureBeat",
-      "summary": "Picture this scenario: An Anthropic Skill scanner runs a full analysis of a Skill pulled from ClawHub or skills.sh. Its markdown instructions are clean, and no prompt injection is detected. No shell commands are hiding in the SKILL.md. Green across the board....",
-      "href": "https://venturebeat.com/security/anthropic-skill-scanners-passed-every-check-malicious-code-test-file",
-      "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3eiQaAvEWnRMH513Vmb1P8/2b8e1c66223d7d287d133e979511696c/HERO.png?w=300&q=30",
-      "publishedAt": "2026-05-07T07:00:00+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "introducing-trusted-contact-in-chatgpt-fe948365-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Model Releases",
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "source": "OpenAI Blog",
-      "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
-      "href": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/717fkfVfad6sZoA19CqwrX/173d606c4088c58b077b6771ddaf8972/SEO-Trusted-Contact-1920x1080.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-05-07T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "testing-ads-in-chatgpt-de2ca3d7-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
+      "id": "testing-ads-in-chatgpt-de2ca3d7-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
       "category": "Model Releases",
       "title": "Testing ads in ChatGPT",
       "source": "OpenAI Blog",
       "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
       "href": "https://openai.com/index/testing-ads-in-chatgpt",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/21TdmlEzFwgoo7ZER7SNCV/001b3d542fd4d025a2dcd1a5ab9417fe/OAI_AdsTest_Blog_OpenGraph_1200x630.png?w=1600&h=900&fit=fill",
+      "imageUrl": "assets/news/fallback-ai-datacenter-aerial.jpg",
       "publishedAt": "2026-05-07T00:00:00+00:00",
       "toolIds": [
         "chatgpt"
       ]
     },
     {
-      "id": "simplex-rethinks-software-development-with-codex-eed85cf6-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
+      "id": "introducing-trusted-contact-in-chatgpt-fe948365-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Model Releases",
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "source": "OpenAI Blog",
+      "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+      "href": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+      "publishedAt": "2026-05-07T00:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "simplex-rethinks-software-development-with-codex-eed85cf6-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
       "category": "Developer Tools",
       "title": "Simplex rethinks software development with Codex",
       "source": "OpenAI Blog",
       "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
       "href": "https://openai.com/index/simplex",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5fjNSHH89mLPBtQIWMnYeE/2324d64841e789e5b94269aa31170817/oai_simplex_SEO.png?w=1600&h=900&fit=fill",
+      "imageUrl": "assets/news/ai-news-goldman-agents.png",
       "publishedAt": "2026-05-07T00:00:00+00:00",
       "toolIds": [
         "chatgpt"
       ]
     },
     {
-      "id": "anthropic-raises-claude-code-usage-limits-credit-457fbc8b-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Developer Tools",
-      "title": "Anthropic raises Claude Code usage limits, credits new deal with SpaceX",
-      "source": "Ars Technica",
-      "summary": "Deal follows others with Microsoft, Amazon, and more.",
-      "href": "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/",
-      "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
-      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/Dario-Amodei-Code-with-Claude-SF-2026-1152x648.jpg",
-      "publishedAt": "2026-05-06T22:09:14+00:00",
+      "id": "vllm-v0-to-v1-correctness-before-corrections-in-08c10eed-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
+      "category": "Model Releases",
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "source": "Hugging Face Blog",
+      "summary": "Hugging Face Blog reported: vLLM V0 to V1: Correctness Before Corrections in RL",
+      "href": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ServiceNow-AI/correctness-before-corrections.png",
+      "publishedAt": "2026-05-06T19:06:55+00:00",
       "toolIds": [
-        "claude"
+        "huggingface",
+        "v0"
       ]
     },
     {
-      "id": "openai-built-a-networking-protocol-with-amd-broa-0070a4fb-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Developer Tools",
-      "title": "OpenAI built a networking protocol with AMD, Broadcom, Intel, Microsoft, and NVIDIA to fix AI supercomputer bottlenecks",
-      "source": "The Decoder",
-      "summary": "OpenAI has teamed up with AMD, Broadcom, Intel, Microsoft, and NVIDIA to develop MRC, an open source network protocol that sends data across hundreds of paths simultaneously between GPUs. Instead of three or four switch layers, MRC needs only two to connect o...",
-      "href": "https://the-decoder.com/openai-built-a-networking-protocol-with-amd-broadcom-intel-microsoft-and-nvidia-to-fix-ai-supercomputer-bottlenecks/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/openai_wall_statistics_benchmarks.png",
-      "publishedAt": "2026-05-06T19:13:21+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "anthropic-taps-spacex-s-colossus-1-data-center-f-2b222192-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Developer Tools",
-      "title": "Anthropic taps SpaceX's Colossus-1 data center for 220,000 GPUs to power Claude",
-      "source": "The Decoder",
-      "summary": "Anthropic is taking over the full computing capacity of SpaceX's Colossus 1 data center, more than 300 megawatts and over 220,000 NVIDIA GPUs, expected to come online within a month. The company is also doubling rate limits for Claude Code and significantly r...",
-      "href": "https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/space_rocket_anthropic_head.png",
-      "publishedAt": "2026-05-06T18:42:24+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "ai-chatbot-cheat-sheet-comparing-chatgpt-gemini-e1759554-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
+      "id": "ai-chatbot-cheat-sheet-comparing-chatgpt-gemini-e1759554-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
       "category": "Developer Tools",
       "title": "AI Chatbot Cheat Sheet: Comparing ChatGPT, Gemini, Copilot, and More",
       "source": "TechRepublic AI",
       "summary": "Compare ChatGPT, Gemini, Copilot, Claude, Perplexity, Grok, DeepSeek, and Meta AI by strengths, use cases, integrations, and limits. The post AI Chatbot Cheat Sheet: Comparing ChatGPT, Gemini, Copilot, and More appeared first on TechRepublic .",
       "href": "https://www.techrepublic.com/article/news-ai-chatbot-cheat-sheet-overview/",
       "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-productivity.svg",
+      "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
       "publishedAt": "2026-05-06T16:54:24+00:00",
       "toolIds": [
         "chatgpt",
@@ -515,97 +645,17 @@
       ]
     },
     {
-      "id": "anthropic-s-claude-managed-agents-can-now-dream-094d0c7c-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Developer Tools",
-      "title": "Anthropic's Claude Managed Agents can now \"dream,\" sort of",
-      "source": "Ars Technica",
-      "summary": "Also, 5-hour usage limits will double for Pro and Max users of Claude Code.",
-      "href": "https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of/",
-      "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
-      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/Claude-Managed-Agents-Blog-Followup-Dreaming-1152x648-1778041638.png",
-      "publishedAt": "2026-05-06T16:15:27+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "google-ai-releases-multi-token-prediction-mtp-dr-1892f0a3-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Developer Tools",
-      "title": "Google AI Releases Multi-Token Prediction (MTP) Drafters for Gemma 4: Delivering Up to 3x Faster Inference Without Qual...",
-      "source": "MarkTechPost",
-      "summary": "Google Introduces MTP Drafters for Gemma 4 Family Using Speculative Decoding to Achieve Up to 3x Speedup The post Google AI Releases Multi-Token Prediction (MTP) Drafters for Gemma 4: Delivering Up to 3x Faster Inference Without Quality Loss appeared first on...",
-      "href": "https://www.marktechpost.com/2026/05/06/google-ai-releases-multi-token-prediction-mtp-drafters-for-gemma-4-delivering-up-to-3x-faster-inference-without-quality-loss/",
-      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/HHkSld4W0AIM_q5.jpeg",
-      "publishedAt": "2026-05-06T08:23:04+00:00",
-      "toolIds": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "when-claude-hallucinates-in-court-the-latham-wat-47952566-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Developer Tools",
-      "title": "When Claude Hallucinates in Court: The Latham & Watkins Incident and What It Means for Attorney Liability",
-      "source": "MarkTechPost",
-      "summary": "There is a particular kind of irony that the legal profession rarely gets to witness in such pristine form. In May 2025, Latham & Watkins a firm that routinely bills over $2,000 an hour for its partners and counts Anthropic among its clients filed a court dec...",
-      "href": "https://www.marktechpost.com/2026/05/06/when-claude-hallucinates-in-court-the-latham-watkins-incident-and-what-it-means-for-attorney-liability/",
-      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog-1-5.png",
-      "publishedAt": "2026-05-06T07:23:12+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "uber-uses-openai-to-help-people-earn-smarter-and-8665a96e-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Developer Tools",
-      "title": "Uber uses OpenAI to help people earn smarter and book faster",
-      "source": "OpenAI Blog",
-      "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
-      "href": "https://openai.com/index/uber",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/44fSkviPWfIhzSgGXp9dhg/ac7d107ec3203cd2c90db1e5b6b9fff9/oai_Uber_SEO.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-05-06T00:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "unlocking-large-scale-ai-training-networks-with-a654fb66-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
-      "category": "Product Updates",
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
-      "href": "https://openai.com/index/mrc-supercomputer-networking",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/NSCNpuBUrt6RGqH5vxTT5/424808cad42085d2f79adcb86566ae04/SEO.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-05-05T10:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "gpt-5-5-instant-system-card-76cbe027-may08",
-      "date": "2026-05-08",
-      "dateLabel": "May 8, 2026",
+      "id": "how-chatgpt-learns-about-the-world-while-protect-9195cc0c-may09",
+      "date": "2026-05-09",
+      "dateLabel": "May 9, 2026",
       "category": "Model Releases",
-      "title": "GPT-5.5 Instant System Card",
+      "title": "How ChatGPT learns about the world while protecting privacy",
       "source": "OpenAI Blog",
-      "summary": "OpenAI Blog reported: GPT-5.5 Instant System Card",
-      "href": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "summary": "Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.",
+      "href": "https://openai.com/index/how-chatgpt-protects-privacy",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/Aj1UBJC1Kpt5IYhqrwOn4/0b039f2804579e9bbe42a67f8316a5c0/System_Card_16x9.jpg?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-05-05T10:00:00+00:00",
+      "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+      "publishedAt": "2026-05-06T08:00:00+00:00",
       "toolIds": [
         "chatgpt"
       ]
