@@ -365,6 +365,112 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-10",
+    "label": "May 10, 2026",
+    "items": [
+      {
+        "id": "scaling-trusted-access-for-cyber-with-gpt-5-5-an-288ea344-may10",
+        "category": "Model Releases",
+        "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+        "href": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+        "imageUrl": "assets/news/bright-safety.svg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chatgpt-users-can-now-choose-a-trusted-contact-88d4a86a-may10",
+        "category": "Model Releases",
+        "title": "ChatGPT users can now choose a trusted contact\"",
+        "source": "Mashable",
+        "summary": "OpenAI to notify user's trusted contact in the event of a possible serious safety concern.",
+        "href": "https://mashable.com/article/chatgpt-trusted-contact",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/05UTq9JHzJIEwbEbxCcVKDH/hero-image.fill.size_1200x675.v1778112668.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "parloa-builds-service-agents-customers-want-to-t-e41b9b9c-may10",
+        "category": "Agents",
+        "title": "Parloa builds service agents customers want to talk to",
+        "source": "OpenAI Blog",
+        "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+        "href": "https://openai.com/index/parloa",
+        "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-releases-three-realtime-audio-models-gpt-e8e4e4bc-may10",
+        "category": "Developer Tools",
+        "title": "OpenAI Releases Three Realtime Audio Models: GPT-Realtime-2, GPT-Realtime-Translate, and GPT-Realtime-Whisper in the Re...",
+        "source": "MarkTechPost",
+        "summary": "Three purpose-built audio models expand what developers can build with live voice: reasoning agents, speech translation across 70+ languages, and streaming transcription. The post OpenAI Releases Three Realtime Audio Models: GPT-Realtime-2, GPT-Realtime-Trans...",
+        "href": "https://www.marktechpost.com/2026/05/08/openai-releases-three-realtime-audio-models-gpt-realtime-2-gpt-realtime-translate-and-gpt-realtime-whisper-in-the-realtime-api/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "lightseek-foundation-releases-tokenspeed-an-open-17a99b0f-may10",
+        "category": "Developer Tools",
+        "title": "LightSeek Foundation Releases TokenSpeed, an Open-Source LLM Inference Engine Targeting TensorRT-LLM-Level Performance...",
+        "source": "MarkTechPost",
+        "summary": "Inference efficiency has quietly become one of the most consequential bottlenecks in AI deployment. As agentic coding systems such as Claude Code, Codex, and Cursor scale from developer tools to infrastructure powering software development at large, the under...",
+        "href": "https://www.marktechpost.com/2026/05/07/lightseek-foundation-releases-tokenspeed-an-open-source-llm-inference-engine-targeting-tensorrt-llm-level-performance-for-agentic-workloads/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-3.03.21-PM-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "fields-medalist-says-chatgpt-5-5-pro-delivered-p-90ffe53c-may10",
+        "category": "Developer Tools",
+        "title": "Fields Medalist says ChatGPT 5.5 Pro delivered \"PhD-level\" math research in under two hours with zero human help",
+        "source": "The Decoder",
+        "summary": "Fields Medalist Timothy Gowers had ChatGPT 5.5 Pro tackle open problems in number theory. The model improved an exponential bound to a polynomial one in under an hour. An MIT researcher involved calls the key idea \"completely original.\" Gowers' takeaway: the...",
+        "href": "https://the-decoder.com/fields-medalist-says-chatgpt-5-5-pro-delivered-phd-level-math-research-in-under-two-hours-with-zero-human-help/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/ai_and_math.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "broadcom-reportedly-won-t-build-openai-s-custom-b0f1e7d0-may10",
+        "category": "Developer Tools",
+        "title": "Broadcom reportedly won't build OpenAI's custom chip unless Microsoft buys 40 percent of them",
+        "source": "The Decoder",
+        "summary": "OpenAI's custom AI chip project with Broadcom has hit a funding wall. Broadcom won't finance production unless Microsoft commits to buying 40 percent of the chips, and Microsoft hasn't agreed yet. OpenAI manager Sachin Katti called the dependency \"financially...",
+        "href": "https://the-decoder.com/broadcom-reportedly-wont-build-openais-custom-chip-unless-microsoft-buys-40-percent-of-them/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/openai_chatgpt.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "oracle-devrel-oracle-ai-developer-hub-923f8b8a-may10",
+        "category": "Developer Tools",
+        "title": "oracle-devrel / oracle-ai-developer-hub",
+        "source": "github",
+        "summary": "github reported: oracle-devrel / oracle-ai-developer-hub",
+        "href": "https://github.com/oracle-devrel/oracle-ai-developer-hub",
+        "imageUrl": "https://opengraph.githubassets.com/dd96faa785dde21dc2c1d55c8c02f1a8b14184d728c9964213f369436917efea/oracle-devrel/oracle-ai-developer-hub",
+        "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chromedevtools-chrome-devtools-mcp-a67bb8d2-may10",
+        "category": "Developer Tools",
+        "title": "ChromeDevTools / chrome-devtools-mcp",
+        "source": "github",
+        "summary": "github reported: ChromeDevTools / chrome-devtools-mcp",
+        "href": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "imageUrl": "https://opengraph.githubassets.com/7a98a3889fd5c4d668f95b46dcd42959c513cbe734a0fdfcf90be75d28b5f78f/ChromeDevTools/chrome-devtools-mcp",
+        "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "emo-pretraining-mixture-of-experts-for-emergent-a40b2ba2-may10",
+        "category": "Product Updates",
+        "title": "EMO: Pretraining mixture of experts for emergent modularity",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: EMO: Pretraining mixture of experts for emergent modularity",
+        "href": "https://huggingface.co/blog/allenai/emo",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-09",
     "label": "May 9, 2026",
     "items": [
