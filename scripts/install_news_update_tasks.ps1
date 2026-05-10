@@ -32,7 +32,7 @@ function Remove-TaskIfExists([string]$TaskName) {
 }
 
 function New-NewsAction {
-  $Args = "$PythonArgs `"$ScriptPath`" --repo-root `"$RepoRoot`" --time-zone $TimeZone --max-backfill-days 3 --limit 96 --fetch-min-items 80 --max-fetch-min-items 80 --max-fetch-limit 96 --max-window-hours 72 --initial-catalog-expansion-feeds 48 --max-catalog-expansion-feeds 48 --skip-render-validation --git-commit --git-push --git-remote $GitRemote --git-branch $GitBranch"
+  $Args = "$PythonArgs `"$ScriptPath`" --repo-root `"$RepoRoot`" --time-zone $TimeZone --max-backfill-days 3 --limit 96 --fetch-min-items 80 --max-fetch-min-items 80 --max-fetch-limit 96 --max-window-hours 72 --initial-catalog-expansion-feeds 48 --max-catalog-expansion-feeds 48 --max-auto-per-tool-per-day 3 --skip-render-validation --git-commit --git-push --git-remote $GitRemote --git-branch $GitBranch"
   return New-ScheduledTaskAction -Execute $PythonCommand -Argument $Args -WorkingDirectory $RepoRoot
 }
 

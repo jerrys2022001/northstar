@@ -53,7 +53,7 @@ This writes standalone pages like `tools/chatgpt.html` and `tools/claude.html`.
 Northstar imports AI/tech signals from the public LearnPrompt `ai-news-radar` data format, falls back to curated RSS sources, then merges the result into the existing NEWS page archive.
 
 ```powershell
-py -3 scripts\run_news_update_and_publish.py --time-zone Asia/Shanghai --date 2026-05-02 --single-date --limit 96 --fetch-min-items 80 --max-fetch-min-items 80 --max-fetch-limit 96 --max-window-hours 72 --initial-catalog-expansion-feeds 48 --max-catalog-expansion-feeds 48 --skip-render-validation
+py -3 scripts\run_news_update_and_publish.py --time-zone Asia/Shanghai --date 2026-05-02 --single-date --limit 96 --fetch-min-items 80 --max-fetch-min-items 80 --max-fetch-limit 96 --max-window-hours 72 --initial-catalog-expansion-feeds 48 --max-catalog-expansion-feeds 48 --max-auto-per-tool-per-day 3 --skip-render-validation
 ```
 
 Use `--git-commit --git-push` when running from an automation context that should publish results:
@@ -62,7 +62,7 @@ Use `--git-commit --git-push` when running from an automation context that shoul
 py -3 scripts\run_news_update_and_publish.py --time-zone Asia/Shanghai --skip-render-validation --git-commit --git-push
 ```
 
-The GitHub Actions workflow at `.github/workflows/update-ai-news.yml` runs this publishing entrypoint from the repository default branch. It starts at 08:45 Asia/Shanghai, then runs fallback checks at 11:15, 16:45, and 21:30. Each run locks to the current Shanghai digest date, catches up recent missing days, keeps the candidate time window capped at 72 hours, expands source coverage when the window is sparse, retries in-place every 30 minutes if feeds are temporarily unavailable, and commits/pushes only NEWS assets. Manual runs can optionally target a specific `digest_date`.
+The GitHub Actions workflow at `.github/workflows/update-ai-news.yml` runs this publishing entrypoint from the repository default branch. It starts at 08:45 Asia/Shanghai, then runs fallback checks at 11:15, 16:45, and 21:30. Each run locks to the current Shanghai digest date, catches up recent missing days, keeps the candidate time window capped at 72 hours, expands source coverage when the window is sparse, keeps each AI tool to at most 3 stories per digest day, rejects duplicate stories during static validation, retries in-place every 30 minutes if feeds are temporarily unavailable, and commits/pushes only NEWS assets. Manual runs can optionally target a specific `digest_date`.
 
 For a VelocAI-style local safety net on a Windows machine, install the Task Scheduler jobs:
 

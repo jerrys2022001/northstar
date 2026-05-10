@@ -104,7 +104,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-auto-per-tool-per-day",
         type=int,
-        default=10,
+        default=3,
         help="Maximum same-tool daily cap the merge step may auto-relax to.",
     )
     parser.add_argument(

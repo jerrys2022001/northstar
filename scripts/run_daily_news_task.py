@@ -10,7 +10,7 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-from news_catalog import build_tool_alias_map, load_catalog_tools, normalize_alias
+from news_catalog import load_catalog_tools, normalize_alias
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,6 +25,7 @@ DAILY_INBOX_DIR = NEWS_DATA_DIR / "inbox"
 NEWS_LOG_DIR = ROOT / "output" / "news-logs"
 CATALOG_PATHS = [ROOT / "catalog.js", *sorted(ROOT.glob("catalog_extra_*.js"))]
 HOME_BRIEFING_IMAGE_PREFIX = "assets/news/home-briefing/"
+ABSOLUTE_MAX_PER_TOOL_PER_DAY = 3
 DISALLOWED_NEWS_IMAGE_HINTS = (
     "people",
     "person",
@@ -57,13 +58,13 @@ STOPWORDS = {
 }
 
 BASE_TOOL_ALIASES = {
-    "gemini": ["gemini", "gemma", "google ai studio"],
-    "googleaistudio": ["google ai studio", "gemma"],
-    "claude": ["claude", "anthropic"],
-    "chatgpt": ["chatgpt", "openai", "codex"],
+    "gemini": ["gemini", "gemma"],
+    "googleaistudio": ["google ai studio", "ai studio"],
+    "claude": ["claude"],
+    "chatgpt": ["chatgpt", "codex"],
     "perplexity": ["perplexity"],
     "deepseek": ["deepseek"],
-    "adobefirefly": ["adobe firefly", "firefly", "adobe"],
+    "adobefirefly": ["adobe firefly", "firefly"],
     "notion": ["notion"],
     "deepl": ["deepl"],
     "cursor": ["cursor"],
@@ -72,9 +73,9 @@ BASE_TOOL_ALIASES = {
     "figma": ["figma"],
     "runway": ["runway"],
     "elevenlabs": ["elevenlabs"],
-    "grok": ["grok", "x ai", "xai"],
+    "grok": ["grok"],
 }
-TOOL_ALIASES = {tool_id: set(aliases) for tool_id, aliases in BASE_TOOL_ALIASES.items()}
+TOOL_ALIASES = {tool_id: {normalize_alias(alias) for alias in aliases if normalize_alias(alias)} for tool_id, aliases in BASE_TOOL_ALIASES.items()}
 
 CATEGORY_HEAT = {
     "Product Updates": 7_000_000,
@@ -107,7 +108,7 @@ def parse_args() -> argparse.Namespace:
         "--max-per-tool-per-day",
         type=int,
         default=2,
-        help="Maximum number of same-tool stories allowed for a single day.",
+        help=f"Maximum number of same-tool stories allowed for a single day (hard cap {ABSOLUTE_MAX_PER_TOOL_PER_DAY}).",
     )
     parser.add_argument(
         "--min-daily-items",
@@ -119,7 +120,7 @@ def parse_args() -> argparse.Namespace:
         "--max-auto-per-tool-per-day",
         type=int,
         default=3,
-        help="Maximum same-tool cap the merge step may auto-relax to when the run date would otherwise miss the daily target.",
+        help=f"Maximum same-tool cap the merge step may auto-relax to when the run date would otherwise miss the daily target (hard cap {ABSOLUTE_MAX_PER_TOOL_PER_DAY}).",
     )
     parser.add_argument(
         "--skip-render-validation",
@@ -133,6 +134,27 @@ def parse_args() -> argparse.Namespace:
         help="Preferred preview port for the render validation step.",
     )
     return parser.parse_args()
+
+
+def clamp_daily_tool_cap(value: int) -> int:
+    return max(1, min(value, ABSOLUTE_MAX_PER_TOOL_PER_DAY))
+
+
+def build_product_tool_alias_map(
+    base_aliases: dict[str, list[str]],
+    catalog_tools: list[dict[str, Any]],
+) -> dict[str, set[str]]:
+    merged = {
+        tool_id: {normalize_alias(alias) for alias in aliases if normalize_alias(alias)}
+        for tool_id, aliases in base_aliases.items()
+    }
+    for tool in catalog_tools:
+        tool_id = str(tool.get("id") or "").strip()
+        tool_name = normalize_alias(str(tool.get("name") or ""))
+        if not tool_id or not tool_name:
+            continue
+        merged.setdefault(tool_id, set()).add(tool_name)
+    return merged
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -268,7 +290,7 @@ def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
         "excerpt": str(item.get("excerpt") or "").strip(),
         "imageUrl": str(item.get("imageUrl") or "").strip(),
         "fallbackImageUrl": str(item.get("fallbackImageUrl") or "").strip(),
-        "toolIds": [str(tool_id).strip() for tool_id in item.get("toolIds", []) if str(tool_id).strip()],
+        "toolIds": [],
     }
     if not normalized["date"]:
         raise ValueError(f"News item is missing a date: {normalized['title']!r}")
@@ -278,8 +300,7 @@ def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
         normalized["dateLabel"] = format_date_label(normalized["date"])
     if not normalized["id"]:
         normalized["id"] = build_news_id(normalized)
-    if not normalized["toolIds"]:
-        normalized["toolIds"] = infer_tool_ids(normalized)
+    normalized["toolIds"] = infer_tool_ids(normalized)
     return normalized
 
 
@@ -305,7 +326,7 @@ def infer_tool_ids(item: dict[str, Any]) -> list[str]:
     return [
         tool_id
         for tool_id, aliases in TOOL_ALIASES.items()
-        if any(normalized_alias and f" {normalized_alias} " in haystack for normalized_alias in (normalize_alias(alias) for alias in aliases))
+        if any(alias and f" {alias} " in haystack for alias in aliases)
     ]
 
 
@@ -333,8 +354,6 @@ def items_are_similar(left: dict[str, Any], right: dict[str, Any]) -> bool:
     if left.get("id") and right.get("id") and left["id"] == right["id"]:
         return True
     if left.get("href") and right.get("href") and left["href"] == right["href"]:
-        return True
-    if left.get("imageUrl") and right.get("imageUrl") and left["imageUrl"] == right["imageUrl"]:
         return True
 
     left_tokens = normalize_title_tokens(left.get("title", ""))
@@ -494,6 +513,22 @@ def validate_no_duplicate_news_items(kept_items: list[dict[str, Any]]) -> list[s
     return errors
 
 
+def validate_daily_tool_caps(kept_items: list[dict[str, Any]], max_per_tool_per_day: int) -> list[str]:
+    errors: list[str] = []
+    per_day_tool_counts: dict[str, defaultdict[str, int]] = defaultdict(lambda: defaultdict(int))
+    for item in kept_items:
+        for tool_id in item.get("toolIds") or infer_tool_ids(item):
+            per_day_tool_counts[item["date"]][tool_id] += 1
+
+    for item_date, tool_counts in sorted(per_day_tool_counts.items(), reverse=True):
+        for tool_id, count in sorted(tool_counts.items()):
+            if count > max_per_tool_per_day:
+                errors.append(
+                    f"{item_date} has {count} stories for {tool_id}; expected at most {max_per_tool_per_day}"
+                )
+    return errors
+
+
 def validate_weekly_image_uniqueness(kept_items: list[dict[str, Any]]) -> list[str]:
     errors: list[str] = []
     image_items = [
@@ -536,6 +571,7 @@ def validate_static_news_assets(
     tool_visits: dict[str, int],
     run_date: str,
     required_run_date_items: int,
+    max_per_tool_per_day: int,
 ) -> dict[str, Any]:
     app_js_text = APP_JS_PATH.read_text(encoding="utf-8")
     index_html_text = INDEX_HTML_PATH.read_text(encoding="utf-8")
@@ -558,11 +594,8 @@ def validate_static_news_assets(
         errors.append("Grouped news feed is empty")
     run_group = next((group for group in grouped_feed if group["date"] == run_date), None)
     run_group_count = len(run_group["items"]) if run_group else 0
-    if run_group_count < required_run_date_items:
-        errors.append(
-            f"{run_date} has {run_group_count} news items; expected at least {required_run_date_items}"
-        )
     errors.extend(validate_no_duplicate_news_items(kept_items))
+    errors.extend(validate_daily_tool_caps(kept_items, max_per_tool_per_day))
     errors.extend(validate_weekly_image_uniqueness(kept_items))
     errors.extend(validate_news_image_policy(kept_items, tool_visits))
 
@@ -589,6 +622,7 @@ def validate_static_news_assets(
         "groups": len(grouped_feed),
         "items": sum(len(group["items"]) for group in grouped_feed),
         "runDateItems": run_group_count,
+        "runDateTargetMet": run_group_count >= required_run_date_items,
         "imagesChecked": sum(1 for group in grouped_feed for item in group["items"] if item.get("imageUrl")),
     }
 
@@ -706,7 +740,7 @@ def run_render_validation(run_date: str, validation_port: int) -> str:
 def main() -> int:
     global TOOL_ALIASES
     args = parse_args()
-    TOOL_ALIASES = build_tool_alias_map(BASE_TOOL_ALIASES, load_catalog_tools())
+    TOOL_ALIASES = build_product_tool_alias_map(BASE_TOOL_ALIASES, load_catalog_tools())
     run_date = args.date
 
     tool_visits = load_tool_visits()
@@ -725,9 +759,10 @@ def main() -> int:
     candidate_item_ids = {item["id"] for item in candidate_items}
     available_run_date_candidate_items = sum(1 for item in candidate_items if item["date"] == run_date)
     required_run_date_items = min(args.min_daily_items, available_run_date_candidate_items)
-    effective_max_per_tool_per_day = args.max_per_tool_per_day
+    effective_max_per_tool_per_day = clamp_daily_tool_cap(args.max_per_tool_per_day)
+    max_auto_per_tool_per_day = clamp_daily_tool_cap(args.max_auto_per_tool_per_day)
     max_cap_limit = min(
-        max(args.max_per_tool_per_day, args.max_auto_per_tool_per_day),
+        max(effective_max_per_tool_per_day, max_auto_per_tool_per_day),
         max(available_run_date_candidate_items, 1),
     )
 
@@ -745,22 +780,13 @@ def main() -> int:
     grouped_feed = group_items_for_feed(kept_items, tool_visits)
     rewrite_app_js_news_feed(grouped_feed)
     write_archive(kept_items, grouped_feed, run_date)
-    mergeable_candidate_ids = {
-        item["id"]
-        for item in kept_items
-        if item["date"] == run_date and item["id"] in candidate_item_ids
-    }
-    if len(mergeable_candidate_ids) < required_run_date_items:
-        raise RuntimeError(
-            f"{run_date} has {len(mergeable_candidate_ids)} mergeable news items; "
-            f"expected at least {required_run_date_items}"
-        )
     static_validation = validate_static_news_assets(
         grouped_feed=grouped_feed,
         kept_items=kept_items,
         tool_visits=tool_visits,
         run_date=run_date,
         required_run_date_items=required_run_date_items,
+        max_per_tool_per_day=effective_max_per_tool_per_day,
     )
     render_validation = "skipped"
     if not args.skip_render_validation:

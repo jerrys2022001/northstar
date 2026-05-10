@@ -1,54 +1,36 @@
 {
-  "updatedAt": "2026-05-10T09:26:53",
+  "updatedAt": "2026-05-10T21:16:46",
   "runDate": "2026-05-10",
   "items": [
     {
-      "id": "scaling-trusted-access-for-cyber-with-gpt-5-5-an-288ea344-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Model Releases",
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-      "href": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-safety.svg",
-      "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "parloa-builds-service-agents-customers-want-to-t-e41b9b9c-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Agents",
-      "title": "Parloa builds service agents customers want to talk to",
-      "source": "OpenAI Blog",
-      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-      "href": "https://openai.com/index/parloa",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
-      "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "oracle-devrel-oracle-ai-developer-hub-923f8b8a-may10",
+      "id": "running-codex-safely-at-openai-91ec1ce9-may10",
       "date": "2026-05-10",
       "dateLabel": "May 10, 2026",
       "category": "Developer Tools",
-      "title": "oracle-devrel / oracle-ai-developer-hub",
-      "source": "github",
-      "summary": "github reported: oracle-devrel / oracle-ai-developer-hub",
-      "href": "https://github.com/oracle-devrel/oracle-ai-developer-hub",
-      "excerpt": "Radar signal: github surfaced this item in the latest AI news window.",
-      "imageUrl": "https://opengraph.githubassets.com/dd96faa785dde21dc2c1d55c8c02f1a8b14184d728c9964213f369436917efea/oracle-devrel/oracle-ai-developer-hub",
+      "title": "Running Codex safely at OpenAI",
+      "source": "OpenAI Blog",
+      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
+      "href": "https://openai.com/index/running-codex-safely",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/bright-productivity.svg",
       "fallbackImageUrl": "",
       "toolIds": [
-        "githubcopilot"
+        "chatgpt"
       ]
+    },
+    {
+      "id": "researchers-may-have-found-a-way-to-stop-ai-mode-18133ca5-may10",
+      "date": "2026-05-10",
+      "dateLabel": "May 10, 2026",
+      "category": "Developer Tools",
+      "title": "Researchers may have found a way to stop AI models from intentionally playing dumb during safety evaluations",
+      "source": "The Decoder",
+      "summary": "A study by researchers from the MATS program, Redwood Research, the University of Oxford, and Anthropic examines a safety problem that grows more pressing as AI systems become more capable: \"sandbagging,\" where a model deliberately hides its true abilities an...",
+      "href": "https://the-decoder.com/researchers-may-have-found-a-way-to-stop-ai-models-from-intentionally-playing-dumb-during-safety-evaluations/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/sandbagging_ai.png",
+      "fallbackImageUrl": "",
+      "toolIds": []
     },
     {
       "id": "openai-releases-three-realtime-audio-models-gpt-e8e4e4bc-may10",
@@ -62,26 +44,55 @@
       "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11.png",
       "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "metr-says-it-can-barely-measure-claude-mythos-pa-56072e9f-may10",
+      "date": "2026-05-10",
+      "dateLabel": "May 10, 2026",
+      "category": "Developer Tools",
+      "title": "METR says it can barely measure Claude Mythos, Palo Alto Networks warns of autonomous AI attackers",
+      "source": "The Decoder",
+      "summary": "METR can barely measure Claude Mythos Preview with its current test suite. Only five out of 228 tasks cover the relevant capability range. Meanwhile, Palo Alto Networks reports that frontier models autonomously chain vulnerabilities, shrinking the time from i...",
+      "href": "https://the-decoder.com/metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-ai-attackers/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/cybersecurity_llm_kraken.png",
+      "fallbackImageUrl": "",
       "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "last-day-to-get-lifetime-chatgpt-gemini-and-more-2c5fb275-may10",
+      "date": "2026-05-10",
+      "dateLabel": "May 10, 2026",
+      "category": "Model Releases",
+      "title": "Last day to get lifetime ChatGPT, Gemini, and more for $75",
+      "source": "Mashable",
+      "summary": "1min.AI is a lifetime AI tool that combines top AI models into one platform for a single $75 platform (MSRP $540).",
+      "href": "https://mashable.com/article/may-10-1minai-advanced-business-plan-lifetime-subscription",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/articles/00AXNtfFSPxzWBQiM9Tw0TW/hero-image.fill.size_1200x675.v1778236701.jpg",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "gemini",
         "chatgpt"
       ]
     },
     {
-      "id": "lightseek-foundation-releases-tokenspeed-an-open-17a99b0f-may10",
+      "id": "gpt-5-5-costs-49-to-92-percent-more-than-its-pre-b782a5ff-may10",
       "date": "2026-05-10",
       "dateLabel": "May 10, 2026",
       "category": "Developer Tools",
-      "title": "LightSeek Foundation Releases TokenSpeed, an Open-Source LLM Inference Engine Targeting TensorRT-LLM-Level Performance...",
-      "source": "MarkTechPost",
-      "summary": "Inference efficiency has quietly become one of the most consequential bottlenecks in AI deployment. As agentic coding systems such as Claude Code, Codex, and Cursor scale from developer tools to infrastructure powering software development at large, the under...",
-      "href": "https://www.marktechpost.com/2026/05/07/lightseek-foundation-releases-tokenspeed-an-open-source-llm-inference-engine-targeting-tensorrt-llm-level-performance-for-agentic-workloads/",
-      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-3.03.21-PM-1.png",
+      "title": "GPT-5.5 costs 49 to 92 percent more than its predecessor, depending on the input length",
+      "source": "The Decoder",
+      "summary": "OpenAI doubled GPT-5.5's list price compared to GPT-5.4, claiming shorter responses would offset the increase. An OpenRouter analysis of real usage data tells a different story: actual costs rose 49 to 92 percent depending on input length. Anthropic hiked Opu...",
+      "href": "https://the-decoder.com/gpt-5-5-costs-49-to-92-percent-more-than-its-predecessor-depending-on-the-input-length/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/openai_logo_orange.png",
       "fallbackImageUrl": "",
       "toolIds": [
-        "chatgpt",
-        "claude",
-        "cursor"
+        "openrouter"
       ]
     },
     {
@@ -101,54 +112,6 @@
       ]
     },
     {
-      "id": "emo-pretraining-mixture-of-experts-for-emergent-a40b2ba2-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Product Updates",
-      "title": "EMO: Pretraining mixture of experts for emergent modularity",
-      "source": "Hugging Face Blog",
-      "summary": "Hugging Face Blog reported: EMO: Pretraining mixture of experts for emergent modularity",
-      "href": "https://huggingface.co/blog/allenai/emo",
-      "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
-      "fallbackImageUrl": "",
-      "toolIds": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "chromedevtools-chrome-devtools-mcp-a67bb8d2-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "ChromeDevTools / chrome-devtools-mcp",
-      "source": "github",
-      "summary": "github reported: ChromeDevTools / chrome-devtools-mcp",
-      "href": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "excerpt": "Radar signal: github surfaced this item in the latest AI news window.",
-      "imageUrl": "https://opengraph.githubassets.com/7a98a3889fd5c4d668f95b46dcd42959c513cbe734a0fdfcf90be75d28b5f78f/ChromeDevTools/chrome-devtools-mcp",
-      "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcopilot"
-      ]
-    },
-    {
-      "id": "chatgpt-users-can-now-choose-a-trusted-contact-88d4a86a-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Model Releases",
-      "title": "ChatGPT users can now choose a trusted contact\"",
-      "source": "Mashable",
-      "summary": "OpenAI to notify user's trusted contact in the event of a possible serious safety concern.",
-      "href": "https://mashable.com/article/chatgpt-trusted-contact",
-      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
-      "imageUrl": "https://helios-i.mashable.com/imagery/articles/05UTq9JHzJIEwbEbxCcVKDH/hero-image.fill.size_1200x675.v1778112668.jpg",
-      "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
       "id": "broadcom-reportedly-won-t-build-openai-s-custom-b0f1e7d0-may10",
       "date": "2026-05-10",
       "dateLabel": "May 10, 2026",
@@ -160,8 +123,36 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/openai_chatgpt.png",
       "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "anthropic-and-openai-sit-down-with-religious-lea-ca546c11-may10",
+      "date": "2026-05-10",
+      "dateLabel": "May 10, 2026",
+      "category": "Developer Tools",
+      "title": "Anthropic and OpenAI sit down with religious leaders to seek ethical advice",
+      "source": "The Decoder",
+      "summary": "Anthropic and OpenAI are turning to religious leaders for help with AI ethics. At the first \"Faith-AI Covenant\" roundtable in New York, representatives from both companies met with faith leaders from various religions. Critics like AI researcher Rumman Chowdh...",
+      "href": "https://the-decoder.com/anthropic-and-openai-sit-down-with-religious-leaders-to-seek-ethical-advice/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/openai_anthropic_religion.png",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "ai-agents-that-hack-computers-and-replicate-them-cb4a3e24-may10",
+      "date": "2026-05-10",
+      "dateLabel": "May 10, 2026",
+      "category": "Developer Tools",
+      "title": "AI agents that hack computers and replicate themselves, and they're getting better fast",
+      "source": "The Decoder",
+      "summary": "Palisade Research shows that AI agents can hack remote computers, copy themselves onto them, and form replication chains. In one year, the success rate jumped from 6 to 81 percent. The researchers expect remaining barriers to fall as models get better at hack...",
+      "href": "https://the-decoder.com/ai-agents-that-hack-computers-and-replicate-themselves-and-theyre-getting-better-fast/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/hacking_agents_self_replicating-2.png",
+      "fallbackImageUrl": "",
       "toolIds": [
-        "chatgpt"
+        "replicate"
       ]
     },
     {
@@ -209,9 +200,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_logo_wall.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "mozilla-s-agentic-ai-pipeline-turns-claude-mytho-ed73a98c-may09",
@@ -241,9 +230,7 @@
       "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://res.infoq.com/news/2026/05/github-agentic-workflows/en/headerimage/generatedHeaderImage-1777009566990.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcopilot"
-      ]
+      "toolIds": []
     },
     {
       "id": "groks-voice-mode-comes-to-apple-carplay-49fcff42-may09",
@@ -291,7 +278,7 @@
       "fallbackImageUrl": "",
       "toolIds": [
         "claude",
-        "opusclip"
+        "make"
       ]
     },
     {
@@ -307,7 +294,6 @@
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/ai_startups_money_2.png",
       "fallbackImageUrl": "",
       "toolIds": [
-        "chatgpt",
         "deepseek"
       ]
     },
@@ -356,8 +342,8 @@
       "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/VRG_Illo_STK130_K_Radtke_Spotify_Podcast_1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "fallbackImageUrl": "",
       "toolIds": [
-        "chatgpt",
-        "claude"
+        "claude",
+        "chatgpt"
       ]
     },
     {
@@ -372,9 +358,7 @@
       "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://res.infoq.com/news/2026/05/openai-websocket-responses-api/en/headerimage/generatedHeaderImage-1777845282531.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "openai-introduces-mrc-multipath-reliable-connect-5845879c-may08",
@@ -388,9 +372,7 @@
       "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/mja.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "improving-token-efficiency-in-github-agentic-wor-2b3dd723-may08",
@@ -404,9 +386,7 @@
       "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-commit-logo.png?fit=1920%2C1080",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcopilot"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-ai-releases-multi-token-prediction-mtp-dr-1892f0a3-may08",
@@ -468,11 +448,7 @@
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.zdnet.com/a/img/resize/1c81b9ed334ed027072bf6c5e657cc6ae97c32a7/2026/05/06/ba6cc4e9-69ec-4b7c-8b97-4238dad1fb84/google-gemini.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "pennsylvania-is-suing-character-ai-for-allegedly-66950320-may07",
@@ -502,9 +478,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/openai_wall_statistics_benchmarks.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "is-xai-a-neocloud-now-30a5aafe-may07",
@@ -518,9 +492,7 @@
       "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2256968212.jpg?w=1024",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "grok"
-      ]
+      "toolIds": []
     },
     {
       "id": "how-elon-musk-left-openai-according-to-greg-broc-1d1bfdc0-may07",
@@ -534,9 +506,7 @@
       "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273248471.jpg?resize=1200,800",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-shuts-down-project-mariner-79e266a1-may07",
@@ -550,11 +520,7 @@
       "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/project-mariner-logo.png?quality=90&strip=all&crop=0%2C12.533882885894%2C100%2C74.932234228213&w=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "github-justlovemaki-06cf257a-may07",
@@ -568,9 +534,7 @@
       "excerpt": "Radar signal: Page Fallback surfaced this item in the latest AI news window.",
       "imageUrl": "https://avatars.githubusercontent.com/u/22851716?v=4?s=400",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcopilot"
-      ]
+      "toolIds": []
     },
     {
       "id": "deepseek-nears-45-billion-valuation-as-china-s-s-e80050c9-may07",
@@ -662,9 +626,7 @@
       "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://github.blog/wp-content/uploads/2026/05/21b7ba26d938291b85ccf5b0cec4e0b47425dd2ebf9ee392e72a507d15030fdd-2400x1260-1.png?fit=2400%2C1260",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcopilot"
-      ]
+      "toolIds": []
     },
     {
       "id": "us-government-now-has-pre-release-access-to-ai-m-8d3ac470-may06",
@@ -678,14 +640,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/us_flag_wireframe.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt",
-        "claude",
-        "gemini",
-        "googleaistudio",
-        "grok",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "this-weird-pixel-feature-is-one-of-my-favorite-t-a9563460-may06",
@@ -699,12 +654,7 @@
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.zdnet.com/a/img/resize/1ae411430238884f636ac19a7fc74ad642a71012/2025/08/27/87461d54-1171-4e4a-b900-fc8419eca9f3/dsc07492.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "removebg",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "this-critical-linux-vulnerability-is-putting-mil-48a754c0-may06",
@@ -718,9 +668,7 @@
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.zdnet.com/a/img/resize/db4efead752b2ca5cf594b29b902e921e3b7d51b/2026/05/05/0374eea1-7746-434d-9fdf-9d106774ff64/this-critical-linux-vulnerability-is-putting-millions-of-systems-at-risk-how-to-protect-yours.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "copyai"
-      ]
+      "toolIds": []
     },
     {
       "id": "pennsylvania-sues-character-ai-after-a-chatbot-a-bb06116c-may06",
@@ -750,9 +698,7 @@
       "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
       "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/greg-brockman-is-you-taking-notes-on-criminal-conspiracy-1152x648.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "elevenlabs-lists-blackrock-jamie-foxx-and-eva-lo-69d9fa3b-may06",
@@ -798,9 +744,7 @@
       "excerpt": "Radar signal: github surfaced this item in the latest AI news window.",
       "imageUrl": "https://repository-images.githubusercontent.com/933701586/6f7ea6f6-8604-4320-8271-0732a272536f",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcopilot"
-      ]
+      "toolIds": []
     },
     {
       "id": "anthropic-co-founder-maps-out-how-recursive-ai-i-6de4b9da-may06",
@@ -814,9 +758,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/anthropic_logo_cybersecurity.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "claude"
-      ]
+      "toolIds": []
     },
     {
       "id": "amazon-brings-agentic-fine-tuning-to-sagemaker-w-d4006273-may06",
@@ -831,8 +773,7 @@
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2024/12/aws_agents_midjourney.png",
       "fallbackImageUrl": "",
       "toolIds": [
-        "deepseek",
-        "qwen"
+        "deepseek"
       ]
     },
     {
@@ -880,9 +821,7 @@
       "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://github.blog/wp-content/uploads/2026/05/openclaw-big.png?fit=2400%2C1260",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcopilot"
-      ]
+      "toolIds": []
     },
     {
       "id": "reduce-friction-and-latency-for-long-running-job-3f523916-may05",
@@ -897,9 +836,7 @@
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WebhooksGeminiAPI-hero.max-600x600.format-webp.webp",
       "fallbackImageUrl": "",
       "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
+        "gemini"
       ]
     },
     {
@@ -930,9 +867,7 @@
       "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window.",
       "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "sourcegraph"
-      ]
+      "toolIds": []
     },
     {
       "id": "influential-study-touting-chatgpt-in-education-r-bc5c3600-may05",
@@ -962,11 +897,7 @@
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.zdnet.com/a/img/resize/93e41c7359fe13154cb4a714bcfccadc413c179a/2026/05/04/bc124274-1f48-4d8a-bfab-859396726dc0/google-maps-vs-apple-maps.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "xiaomi-s-open-weight-mimo-v2-5-pro-takes-aim-at-5447e3af-may04",
@@ -982,8 +913,7 @@
       "fallbackImageUrl": "",
       "toolIds": [
         "claude",
-        "deepseek",
-        "opusclip"
+        "deepseek"
       ]
     },
     {
@@ -999,7 +929,6 @@
       "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/6c9N7ubweMcf8hAUjcDZIH/fb25ad47038633db57b73f2f45bc3225/FkIIbTjMYUsldxbqMHtky_g5BcjizZ.jpg?w=300&q=30",
       "fallbackImageUrl": "",
       "toolIds": [
-        "chatgpt",
         "grok"
       ]
     },
@@ -1047,11 +976,7 @@
       "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "i-tracked-3-000-steps-on-my-apple-watch-google-p-dd7c7043-may04",
@@ -1065,11 +990,7 @@
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.zdnet.com/a/img/resize/302b1f41ca65528d9fd4967dc0a2683ee3d1b0b7/2026/04/09/b6591326-e608-455d-a2e1-5a5871a360bf/img-4302-1.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "how-to-use-transformers-js-in-a-chrome-extension-4a3a5411-may04",
@@ -1100,8 +1021,7 @@
       "imageUrl": "https://opengraph.githubassets.com/78d2908a983eab5d410e9652e6acb381c46b85260fc76c80b7aa63972f8a15d1/Hmbown/DeepSeek-TUI",
       "fallbackImageUrl": "",
       "toolIds": [
-        "deepseek",
-        "githubcopilot"
+        "deepseek"
       ]
     },
     {
@@ -1165,9 +1085,7 @@
       "imageUrl": "https://www.zdnet.com/a/img/resize/c5d4b401cfacd84e1c23bf205177352255729e2e/2026/04/29/9c2174d6-4b16-481a-b563-cdc03e58c0ef/pdfscanhero2.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
       "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
+        "make"
       ]
     },
     {
@@ -1183,9 +1101,7 @@
       "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Google-Gemini-car-AI-assistant-upgrade.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "fallbackImageUrl": "",
       "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
+        "gemini"
       ]
     },
     {
@@ -1201,9 +1117,7 @@
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/arc-agi-benchmark.png",
       "fallbackImageUrl": "",
       "toolIds": [
-        "chatgpt",
-        "claude",
-        "opusclip"
+        "make"
       ]
     },
     {
@@ -1218,10 +1132,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/sam_altman_vs_elon_musk.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt",
-        "grok"
-      ]
+      "toolIds": []
     },
     {
       "id": "eight-tech-giants-sign-pentagon-deals-to-build-a-46f23a9c-may03",
@@ -1235,9 +1146,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/pentagon_AI_strategy.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "claude"
-      ]
+      "toolIds": []
     },
     {
       "id": "deepseek-v4-a-million-token-context-that-agents-b2ff62f9-may03",
@@ -1268,9 +1177,7 @@
       "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window.",
       "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK414_AI_CVIRGINIA_I__0008_6.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "copyai"
-      ]
+      "toolIds": []
     },
     {
       "id": "qwen-ai-releases-qwen-scope-an-open-source-spars-efb00c05-may02",
@@ -1284,9 +1191,7 @@
       "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-1.00.12-AM-1.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "qwen"
-      ]
+      "toolIds": []
     },
     {
       "id": "pentagon-inks-deals-with-nvidia-microsoft-and-aw-33c1ee68-may02",
@@ -1300,9 +1205,7 @@
       "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2021/07/GettyImages-1292192586.jpg?resize=1200,900",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "claude"
-      ]
+      "toolIds": []
     },
     {
       "id": "minnesota-passes-ban-on-fake-ai-nudes-app-makers-e0cc2e29-may02",
@@ -1346,10 +1249,7 @@
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.zdnet.com/a/img/resize/9cd519860c99dc6078a473c0f80670a9d1432707/2026/05/01/747e6e3a-47fb-478e-8913-d7fce64c8549/i-used-photoshops-new-ai-tool-to-rotate-objects-in-3d-and-its-pure-magic.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "adobefirefly",
-        "adobeexpress"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-maps-vs-waze-i-compared-the-two-best-navi-44fb435a-may02",
@@ -1364,9 +1264,7 @@
       "imageUrl": "https://www.zdnet.com/a/img/resize/fa83bd6b70c8da796cd2c51136dabe1d753c1e8f/2026/05/01/3692a61f-b839-4ca6-8a13-8bab7349f2cc/google-maps-vs-waze-i-compared-the-two-best-navigation-apps-and-this-ones-better.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
       "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
+        "gemini"
       ]
     },
     {
@@ -1381,9 +1279,7 @@
       "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
       "imageUrl": "https://helios-i.mashable.com/imagery/videos/04rjSM4XVfbwtO36oKglzDO/hero-image.fill.size_1200x675.v1777639935.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "characterai"
-      ]
+      "toolIds": []
     },
     {
       "id": "all-the-evidence-revealed-so-far-in-musk-v-altma-814f8d51-may02",
@@ -1397,9 +1293,7 @@
       "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268474_musk_vs_altman_CVirginia6.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "200-000-mcp-servers-expose-a-command-execution-f-56306432-may02",
@@ -1413,13 +1307,7 @@
       "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5zcdzz8S6R9xMQCRiaArOG/1290a9dbaee30dd37a47fefa5b656922/ANTHROPIC.png?w=300&q=30",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt",
-        "claude",
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "writer-launches-ai-agents-that-can-act-without-p-386e9dd5-may01",
@@ -1433,10 +1321,7 @@
       "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/2A4wsP5BX8u0ZylzUEOncb/d97852834fdd610f61a1f5d79609d4ea/nuneybits_Vector_art_of_robot_secretary_typing_on_glowing_typew_bdb6fb50-e1f2-4f80-a241-560e6d906a91.webp?w=300&q=30",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "adobefirefly",
-        "adobeexpress"
-      ]
+      "toolIds": []
     },
     {
       "id": "netomi-raises-110-million-as-accenture-and-adobe-5b1bffb8-may01",
@@ -1450,10 +1335,7 @@
       "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/17Z7TzwDGYPOr36mKN8hXV/14fcfd667d19fd9d96b2de2371783baa/nuneybits_Vector_art_of_a_customer_service_headset_dissolving_i_1435a88a-3615-4579-bf8d-fa3f812f8e62.webp?w=300&q=30",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "adobefirefly",
-        "adobeexpress"
-      ]
+      "toolIds": []
     },
     {
       "id": "microsoft-ceo-satya-nadella-says-ai-success-is-m-725f1abc-may01",
@@ -1467,11 +1349,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/microsoft_neural_network.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "i-tested-chatgpt-and-perplexity-ai-as-my-carplay-04387f1b-may01",
@@ -1519,9 +1397,7 @@
       "imageUrl": "https://regmedia.co.uk/2022/09/30/chrome_with_chains.jpg",
       "fallbackImageUrl": "",
       "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
+        "make"
       ]
     },
     {
@@ -1536,9 +1412,7 @@
       "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
       "imageUrl": "https://helios-i.mashable.com/imagery/articles/00ST6klDlzPw71TKLNwhGTm/hero-image.fill.size_1200x675.v1777591577.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "cursor-introduces-a-typescript-sdk-for-building-ab02e967-may01",
@@ -1569,8 +1443,7 @@
       "imageUrl": "https://www.zdnet.com/a/img/resize/b812c2ac285d2b5c8ffb0a577aa3a7e757aab1cb/2026/04/30/21eaa3bd-0347-4dbb-b857-b0757d960c7d/claude-security-2.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
       "toolIds": [
-        "claude",
-        "opusclip"
+        "claude"
       ]
     },
     {
@@ -1601,9 +1474,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/anthropic_pentagon-2.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "claude"
-      ]
+      "toolIds": []
     },
     {
       "id": "step-by-step-guide-to-build-a-complete-pii-detec-84201ae4-apr30",
@@ -1617,9 +1488,7 @@
       "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-1-22.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "sources-anthropic-could-raise-a-new-50b-round-at-50738bf0-apr30",
@@ -1649,9 +1518,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/12/ai_in_science_math.jpeg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "microsoft-says-it-has-over-20m-paid-copilot-user-953abed2-apr30",
@@ -1681,11 +1548,7 @@
       "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2020/06/GettyImages-1149449083.jpg?resize=1200,800",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-cloud-surpasses-20b-but-says-growth-was-c-f4817a46-apr30",
@@ -1699,11 +1562,7 @@
       "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2266466589.jpg?w=1024",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "build-a-personal-organization-command-center-wit-c84f8d8a-apr30",
@@ -1733,9 +1592,7 @@
       "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-security-logo-blocks-github.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcopilot"
-      ]
+      "toolIds": []
     },
     {
       "id": "meta-fair-releases-neuralset-a-python-package-fo-de196fe1-apr29",
@@ -1749,9 +1606,7 @@
       "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/Screenshot-2026-04-29-at-12.54.07-AM-1.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "huggingface"
-      ]
+      "toolIds": []
     },
     {
       "id": "lovable-launches-its-vibe-coding-app-on-ios-and-7224e67e-apr29",
@@ -1781,9 +1636,7 @@
       "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-84-1024x731.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-signs-ai-deal-with-the-pentagon-ignoring-069bc604-apr29",
@@ -1797,11 +1650,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_anthropic_google_pentagon-scaled.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-cloud-introduces-agents-cli-to-streamline-1eeff792-apr29",
@@ -1815,11 +1664,7 @@
       "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://res.infoq.com/news/2026/04/agents-cli-google-cloud/en/headerimage/generatedHeaderImage-1777398240597.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "github-will-start-charging-copilot-users-based-o-1e374899-apr29",
@@ -1879,9 +1724,7 @@
       "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2016/07/a3c4057e7d804c79b4bfb3278f4afced.jpg?resize=1200,675",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "anthropic-s-magic-code-sniffer-more-swiss-cheese-5167d891-apr29",
@@ -1895,9 +1738,7 @@
       "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://regmedia.co.uk/2016/08/09/swisscheese.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "claude"
-      ]
+      "toolIds": []
     },
     {
       "id": "a-coding-implementation-on-document-parsing-benc-8619d0a5-apr29",
@@ -1942,9 +1783,7 @@
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.zdnet.com/a/img/resize/fe9cccd470a86a596789e779d1ccca6761785445/2026/04/23/e345b90a-d463-4445-b138-4e28fcfa6222/img-1758.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "playground"
-      ]
+      "toolIds": []
     },
     {
       "id": "sixteen-new-start-nano-companies-are-developing-a1d9179a-apr28",
@@ -1988,11 +1827,7 @@
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
       "imageUrl": "assets/news/ai-news-goldman-agents.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "preview-tool-helps-makers-visualize-3d-printed-o-f9ec2638-apr28",
@@ -2006,7 +1841,9 @@
       "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202603/MIT-VisiPrint-Preview-A1.jpg?itok=2ckh0mm0",
       "fallbackImageUrl": "",
-      "toolIds": []
+      "toolIds": [
+        "make"
+      ]
     },
     {
       "id": "openai-ends-microsoft-legal-peril-over-its-50b-a-949fd0ad-apr28",
@@ -2020,9 +1857,7 @@
       "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2214107176.jpg?resize=1200,800",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "microsoft-and-openai-s-open-relationship-is-now-98b20a23-apr28",
@@ -2036,9 +1871,7 @@
       "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://regmedia.co.uk/2016/09/01/split-path.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "github-copilot-is-moving-to-usage-based-billing-cf9076c7-apr28",
@@ -2069,9 +1902,7 @@
       "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-1152x648.jpg",
       "fallbackImageUrl": "",
       "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
+        "gemini"
       ]
     },
     {
@@ -2134,10 +1965,7 @@
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.zdnet.com/a/img/resize/e0500b7a86a0eec0a0cb2d4f02fe954d1c07ce9c/2025/07/17/aceba0b1-a1b7-4da0-9e83-0bfeeec02b72/adobe-firefly.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "adobefirefly",
-        "adobeexpress"
-      ]
+      "toolIds": []
     },
     {
       "id": "what-it-actually-takes-to-run-code-intelligence-92f4fdaa-apr27",
@@ -2151,9 +1979,7 @@
       "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window.",
       "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "sourcegraph"
-      ]
+      "toolIds": []
     },
     {
       "id": "top-7-benchmarks-that-actually-matter-for-agenti-936e2163-apr27",
@@ -2183,9 +2009,7 @@
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/sOXwMmuOREhljTDZ4gVid/e277a6d0e6364e53591ac8b9c42de068/our-principles-16_9-text.png?w=1600&h=900&fit=fill",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "microsoft-s-github-grounds-copilot-account-sign-aa931d7e-apr27",
@@ -2215,11 +2039,7 @@
       "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://regmedia.co.uk/2019/11/20/cloudnext.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "github-acknowledges-recent-outages-cites-scaling-ca13eb58-apr27",
@@ -2233,9 +2053,7 @@
       "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://res.infoq.com/news/2026/04/github-outages-scaling/en/headerimage/generatedHeaderImage-1776504516196.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcopilot"
-      ]
+      "toolIds": []
     },
     {
       "id": "deepseek-s-new-models-are-so-efficient-they-ll-r-47e5c1d3-apr27",
@@ -2282,7 +2100,8 @@
       "imageUrl": "https://regmedia.co.uk/2026/04/22/nothingburger.jpg",
       "fallbackImageUrl": "",
       "toolIds": [
-        "claude"
+        "claude",
+        "make"
       ]
     },
     {
@@ -2297,9 +2116,7 @@
       "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-88622588.jpg?resize=1200,870",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "claude"
-      ]
+      "toolIds": []
     },
     {
       "id": "an-openai-linked-news-outlet-appears-to-be-entir-f96e586f-apr27",
@@ -2313,9 +2130,7 @@
       "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
       "imageUrl": "https://helios-i.mashable.com/imagery/articles/07ybnEadd6yFYEtJF4HIetm/hero-image.fill.size_1200x675.v1777217331.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "a-coding-tutorial-on-datashader-on-rendering-mas-54312e72-apr27",
@@ -2329,11 +2144,7 @@
       "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-74-1024x731.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "a-coding-implementation-on-kvcached-for-elastic-601a6e5e-apr27",
@@ -2347,9 +2158,7 @@
       "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-1-18-1024x731.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "qwen"
-      ]
+      "toolIds": []
     },
     {
       "id": "us-programmer-job-growth-nearly-halved-since-cha-a0c91f63-apr26",
@@ -2379,9 +2188,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/3.6_27b_banner.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "qwen"
-      ]
+      "toolIds": []
     },
     {
       "id": "openai-unveils-gpt-5-5-claims-a-new-class-of-int-a797a7b6-apr26",
@@ -2395,9 +2202,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/gpt-55_title.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "hack-the-ai-agent-build-agentic-ai-security-skil-ed860607-apr26",
@@ -2411,9 +2216,7 @@
       "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-security-invertocat-blocks-copilot.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcopilot"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-adk-for-java-1-0-introduces-new-app-and-p-c0534990-apr26",
@@ -2427,11 +2230,7 @@
       "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://res.infoq.com/news/2026/04/google-adk-1-0-new-architecture/en/headerimage/google-adk-java-1-0-1776676782594.jpeg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "everything-announced-at-google-cloud-next-in-und-36e81898-apr26",
@@ -2445,11 +2244,7 @@
       "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
       "imageUrl": "https://helios-i.mashable.com/imagery/videos/00GLSNYueCNbr1FqJm3ao6W/hero-image.fill.size_1200x675.v1776953973.webp",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "claude-can-now-connect-with-spotify-uber-and-a-l-c7cf805a-apr26",
@@ -2479,9 +2274,7 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/anthropic_Deal_cash.jpeg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "claude"
-      ]
+      "toolIds": []
     },
     {
       "id": "x-custom-timelines-what-users-are-saying-about-t-22a514da-apr25",
@@ -2527,9 +2320,7 @@
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.zdnet.com/a/img/resize/684ea15a26c6dd922df89a06dccb17544af22cbd/2026/04/24/e4dab768-0664-4150-a92f-be4744140f31/i-put-gpt-5-5-through-a-10-round-test-it-scored-93100-losing-points-only-for-exuberance.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "how-i-used-claude-ai-to-plan-an-entire-hiking-tr-b737cac7-apr25",
@@ -2559,12 +2350,7 @@
       "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "claude",
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "deleteme-review-a-mostly-hands-off-service-for-c-c471aafd-apr25",
@@ -2578,9 +2364,7 @@
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://www.zdnet.com/a/img/resize/889f65a98213b4dbd32f79c505e83b9d08318c6c/2026/03/18/bdfd0709-c65f-4fed-ae3b-ba7693009f3f/dsc09852.jpg?auto=webp&fit=crop&height=675&width=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "removebg"
-      ]
+      "toolIds": []
     },
     {
       "id": "deepseek-ai-deepep-82807d84-apr25",
@@ -2595,8 +2379,7 @@
       "imageUrl": "https://opengraph.githubassets.com/2bd3fd0fd8fd4d6df02e8ff1827d755e911b750a537cabf639abb04227306ed4/deepseek-ai/DeepEP",
       "fallbackImageUrl": "",
       "toolIds": [
-        "deepseek",
-        "githubcopilot"
+        "deepseek"
       ]
     },
     {
@@ -2612,9 +2395,7 @@
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp",
       "fallbackImageUrl": "",
       "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
+        "gemini"
       ]
     },
     {
@@ -2629,9 +2410,7 @@
       "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "openai-s-gpt-5-5-is-here-and-it-s-no-potato-narr-a7cdb554-apr24",
@@ -2646,8 +2425,8 @@
       "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5rfSjmFTFGf8gVMCrgV4AB/32069c156a3d02d81b11c85fb64aa7c0/ChatGPT_Image_Apr_23__2026__01_47_16_PM.png?w=300&q=30",
       "fallbackImageUrl": "",
       "toolIds": [
-        "chatgpt",
-        "claude"
+        "claude",
+        "chatgpt"
       ]
     },
     {
@@ -2676,9 +2455,7 @@
       "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://github.blog/wp-content/uploads/2026/01/4ba0cd42388a255e04c78e5143548f22e577d68e0f15f68e6a3c76c18b927981-1920x1080-1.png?fit=1920%2C1080",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcopilot"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-and-aws-split-the-ai-agent-stack-between-239549f6-apr24",
@@ -2692,11 +2469,7 @@
       "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1Vp25PZDnQQMBBb7WLhth0/f565b23d4dfbc56def7a55fae6405769/crimedy7_illustration_of_a_schism_but_related_to_artificial_i_2d035a47-60c4-4cab-9029-d5ee39e3dbdc_0.png?w=300&q=30",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
-      ]
+      "toolIds": []
     },
     {
       "id": "claude-is-connecting-directly-to-your-personal-a-9ab87d01-apr24",
@@ -2759,8 +2532,7 @@
       "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB355_SPACEX_C.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
       "fallbackImageUrl": "",
       "toolIds": [
-        "cursor",
-        "grok"
+        "cursor"
       ]
     },
     {
@@ -2792,7 +2564,8 @@
       "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_B.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200",
       "fallbackImageUrl": "",
       "toolIds": [
-        "chatgpt"
+        "chatgpt",
+        "make"
       ]
     },
     {
@@ -2807,9 +2580,7 @@
       "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
       "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2235759925-1152x648.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "claude"
-      ]
+      "toolIds": []
     },
     {
       "id": "how-spacex-preempted-a-2b-fundraise-with-a-60b-b-cd30cad5-apr23",
@@ -2840,9 +2611,7 @@
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/google-gemini-jagmeet-singh-techcrunch.jpg?resize=1200,800",
       "fallbackImageUrl": "",
       "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
+        "make"
       ]
     },
     {
@@ -2858,9 +2627,7 @@
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/google-chrome-GettyImages-2151457378.jpg?w=1024",
       "fallbackImageUrl": "",
       "toolIds": [
-        "gemini",
-        "googleaistudio",
-        "notebooklm"
+        "gemini"
       ]
     },
     {
@@ -2907,9 +2674,7 @@
       "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.max-600x600.format-webp.webp",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini"
-      ]
+      "toolIds": []
     },
     {
       "id": "openai-hyatt-enterprise-adoption-apr21",
@@ -2924,7 +2689,7 @@
       "imageUrl": "assets/news/home-briefing/2026-04-21/industry-9647c8d154c78f6b.webp",
       "fallbackImageUrl": "",
       "toolIds": [
-        "hyattgptenterprise"
+        "chatgpt"
       ]
     },
     {
@@ -2939,9 +2704,7 @@
       "excerpt": "Why it matters: AI infrastructure gains increasingly come from efficiency work that squeezes more throughput from existing compute.",
       "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-DataCenter-Variable-01-press.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "datacenterstorageai"
-      ]
+      "toolIds": []
     },
     {
       "id": "mit-autonomous-systems-ethics-apr21",
@@ -2955,9 +2718,7 @@
       "excerpt": "Why it matters: governance pressure is rising alongside capability, so evaluation frameworks are becoming part of the product stack.",
       "imageUrl": "assets/news/home-briefing/2026-04-21/semiconductor-0fd8099e8d5afd55.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "autonomousethicsframework"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-gemini-cli-subagents-apr21",
@@ -2987,9 +2748,7 @@
       "excerpt": "Why it matters: agent builders increasingly differentiate on reusable skills and orchestration patterns, not just on model choice.",
       "imageUrl": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleI_O_2025_Google_AI_Studio_-_4.original.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "agentdevelopmentkit"
-      ]
+      "toolIds": []
     },
     {
       "id": "github-copilot-visual-studio-march-apr21",
@@ -3004,7 +2763,7 @@
       "imageUrl": "https://github.blog/wp-content/themes/github-2021-child/assets/img/featured-v3-new-releases.svg",
       "fallbackImageUrl": "",
       "toolIds": [
-        "copilotvisualstudio"
+        "githubcopilot"
       ]
     },
     {
@@ -3035,9 +2794,7 @@
       "excerpt": "Why it matters: compute availability remains a bottleneck, so infrastructure deals are becoming strategic AI news in their own right.",
       "imageUrl": "assets/news/home-briefing/2026-04-21/ai-29a5991b5dde7cfd.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "indiaaimissionaws"
-      ]
+      "toolIds": []
     },
     {
       "id": "aws-infor-manufacturing-agents-apr21",
@@ -3051,9 +2808,7 @@
       "excerpt": "Why it matters: enterprise AI is shifting from standalone copilots toward agents embedded in line-of-business systems.",
       "imageUrl": "assets/news/home-briefing/2026-04-21/ai-95d05136322902a2.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "awsmanufacturingagents"
-      ]
+      "toolIds": []
     },
     {
       "id": "anthropic-firefox-security-apr21",
@@ -3068,7 +2823,7 @@
       "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Desktop&backgroundColor=coral",
       "fallbackImageUrl": "",
       "toolIds": [
-        "firefoxsecurityai"
+        "claude"
       ]
     },
     {
@@ -3083,9 +2838,7 @@
       "excerpt": "Why it matters: advanced cyber models are being rolled out through increasingly granular access tiers instead of one-size-fits-all availability.",
       "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/50UlqbAamecQ6xsNAt3Qu0/8f6f87823b796b6860606a4a42efe4af/Scaling_our_trusted_access_program_for_cyber_defense_1x1.png?fm=webp&q=90&w=3840",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gpt54cyber"
-      ]
+      "toolIds": []
     },
     {
       "id": "openai-cyber-ecosystem-apr20",
@@ -3099,9 +2852,7 @@
       "excerpt": "Why it matters: frontier AI deployment is increasingly tied to who can safely use more capable models and how fast those safeguards can scale with demand.",
       "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1TzwLMgMx0r6t1GQsFAiHH/ff5d38b5bc11d22a2442bb0f151ee83f/accelerating-cyber-defense-ecosystem-1x1.png?fm=webp&q=90&w=3840",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "openaicyberecosystem"
-      ]
+      "toolIds": []
     },
     {
       "id": "openai-cloudflare-agent-cloud-apr20",
@@ -3116,7 +2867,7 @@
       "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6g5hzhOoHM68zGjNYQ5H1D/344bc6c2f06a8b0793e9becffd4c8bc9/Cloudflare_OpenAI_art_card_1x1.png?fm=webp&q=90&w=3840",
       "fallbackImageUrl": "",
       "toolIds": [
-        "cloudflareagentcloud"
+        "chatgpt"
       ]
     },
     {
@@ -3131,9 +2882,7 @@
       "excerpt": "Why it matters: AI providers are pairing model launches with more explicit policy and enforcement frameworks for high-risk misuse domains.",
       "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5zGHUj1XpRugjiLTazgjCE/711bf4de1f14a1b2708ab1279a4a1b0e/Frame__9_.png?fm=webp&q=90&w=3840",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "childsafetyblueprint"
-      ]
+      "toolIds": []
     },
     {
       "id": "mit-warehouse-robot-traffic-apr20",
@@ -3147,9 +2896,7 @@
       "excerpt": "Why it matters: practical AI gains often come from making robotics systems more reliable inside real operational bottlenecks rather than from headline model launches alone.",
       "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-AI-Robot-Traffic-01-press_0.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "robottrafficai"
-      ]
+      "toolIds": []
     },
     {
       "id": "mit-overconfident-llms-apr20",
@@ -3163,9 +2910,7 @@
       "excerpt": "Why it matters: model adoption increasingly depends on better uncertainty signals, not just better benchmark scores.",
       "imageUrl": "https://news.mit.edu/sites/default/files/download/202603/MIT-LLMUncertainty-01-press.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "llmuncertainty"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-gemini-api-tooling-update-apr20",
@@ -3180,7 +2925,7 @@
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini_api_qh8fnpL.png",
       "fallbackImageUrl": "",
       "toolIds": [
-        "geminiapitooling"
+        "gemini"
       ]
     },
     {
@@ -3196,7 +2941,8 @@
       "imageUrl": "https://github.blog/wp-content/uploads/2026/04/CLIOnTheGo_NewRelease_Header_v07.png?resize=2064%2C1096",
       "fallbackImageUrl": "",
       "toolIds": [
-        "copilotremotecli"
+        "githubcopilot",
+        "continue"
       ]
     },
     {
@@ -3212,7 +2958,7 @@
       "imageUrl": "https://github.blog/wp-content/uploads/2026/04/575938695-8e566049-d128-4a4c-86e2-a122346dcfaa.jpeg?resize=2064%2C1096",
       "fallbackImageUrl": "",
       "toolIds": [
-        "copilotmergeconflicts"
+        "githubcopilot"
       ]
     },
     {
@@ -3228,7 +2974,7 @@
       "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/99ba671b072be2357accfbe53a46fe230ec55974-896x109.svg",
       "fallbackImageUrl": "",
       "toolIds": [
-        "projectglasswing"
+        "claude"
       ]
     },
     {
@@ -3243,9 +2989,7 @@
       "excerpt": "Why it matters: the education debate around AI is moving from novelty tools to the long-term shape of how people think, learn, and reason.",
       "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-shass-agustin-rayo.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "aieducation"
-      ]
+      "toolIds": []
     },
     {
       "id": "mit-compressm-leaner-faster-models-apr19",
@@ -3259,9 +3003,7 @@
       "excerpt": "Why it matters: efficiency work is becoming a core frontier in AI because it cuts compute cost without waiting for the next giant model release.",
       "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-csail-compressm.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "compressm"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-prepay-gemini-api-spend-control-apr19",
@@ -3276,7 +3018,7 @@
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/API_Hero_409.width-200.format-webp.webp",
       "fallbackImageUrl": "",
       "toolIds": [
-        "geminiapicredits"
+        "gemini"
       ]
     },
     {
@@ -3292,7 +3034,7 @@
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/1_Visualize_how_fractals_work.width-100.format-webp.webp",
       "fallbackImageUrl": "",
       "toolIds": [
-        "geminivisuals"
+        "gemini"
       ]
     },
     {
@@ -3307,9 +3049,7 @@
       "excerpt": "Why it matters: AI coding products are increasingly differentiating on teaching and guidance, not just raw task completion.",
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ColabLearning_hero.width-200.format-webp.webp",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "colablearnmode"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-chrome-skills-one-click-prompts-apr19",
@@ -3323,9 +3063,7 @@
       "excerpt": "Why it matters: browser-native AI is shifting from one-off prompting toward lightweight workflow automation that users can keep close to where work already happens.",
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chrome_Skills_Asset_5_Library_V2_.width-100.format-webp.webp",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chromeskills"
-      ]
+      "toolIds": []
     },
     {
       "id": "github-copilot-sdk-preview-builders-apr19",
@@ -3340,7 +3078,7 @@
       "imageUrl": "https://github.blog/wp-content/uploads/2026/04/SDK_Header_02.jpg",
       "fallbackImageUrl": "",
       "toolIds": [
-        "copilotsdk"
+        "githubcopilot"
       ]
     },
     {
@@ -3356,7 +3094,7 @@
       "imageUrl": "https://github.blog/wp-content/uploads/2026/04/572677531-cfdf4f07-d114-4890-a5b6-f29375dea4fe.jpeg",
       "fallbackImageUrl": "",
       "toolIds": [
-        "copilotadmincontrols"
+        "githubcopilot"
       ]
     },
     {
@@ -3372,23 +3110,7 @@
       "imageUrl": "https://github.blog/wp-content/uploads/2026/04/576797226-760096e8-6f39-4293-94f6-b896738c1fcc.jpeg",
       "fallbackImageUrl": "",
       "toolIds": [
-        "copilotmetrics"
-      ]
-    },
-    {
-      "id": "github-copilot-cloud-agent-research-plan-apr19",
-      "date": "2026-04-19",
-      "dateLabel": "April 19, 2026",
-      "category": "Agents",
-      "title": "GitHub broadens Copilot cloud agent from PR tasks to research and planning work",
-      "source": "GitHub Changelog",
-      "summary": "GitHub expanded Copilot cloud agent beyond pull-request workflows so it can take on more research, planning, and coding work before changes ever reach review.",
-      "href": "https://github.blog/changelog/2026-03-31-research-plan-and-code-with-copilot-cloud-agent/",
-      "excerpt": "Why it matters: coding assistants are shifting from inline helpers to longer-horizon agents that can own more of the software loop.",
-      "imageUrl": "https://github.blog/wp-content/uploads/2026/03/570597591-85e373f2-2dad-4ea8-89a0-91d80e3d7bff.png",
-      "fallbackImageUrl": "",
-      "toolIds": [
-        "copilotcloudagent"
+        "githubcopilot"
       ]
     },
     {
@@ -3403,9 +3125,7 @@
       "excerpt": "Why it matters: infrastructure alliances are becoming a strategic lever for model labs trying to secure compute and distribution at scale.",
       "imageUrl": "https://assets.aboutamazon.com/dims4/default/1704cd2/2147483647/strip/true/crop/1999x1000+0+42/resize/1200x600!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fa3%2Fce%2F7e1631f748beb430293b8a60d80c%2Foai-aws-hero.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "awsopenaipartnership"
-      ]
+      "toolIds": []
     },
     {
       "id": "aws-modmed-ai-powered-practice-apr19",
@@ -3419,9 +3139,7 @@
       "excerpt": "Why it matters: healthcare AI adoption is increasingly tied to domain-specific software stacks rather than general-purpose model demos.",
       "imageUrl": "https://assets.aboutamazon.com/dims4/default/e2df0bd/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fb3%2F79%2Fb0e61293471b9d35c5ff02e46f37%2Famazon-logo-hero-images-2024.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "modmedpracticeai"
-      ]
+      "toolIds": []
     },
     {
       "id": "anthropic-institute-launch-apr19",
@@ -3435,9 +3153,7 @@
       "excerpt": "Why it matters: labs are increasingly building public-policy and governance arms alongside product and research teams.",
       "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Book&backgroundColor=oat",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "anthropicinstitute"
-      ]
+      "toolIds": []
     },
     {
       "id": "anthropic-google-broadcom-compute-apr19",
@@ -3451,9 +3167,7 @@
       "excerpt": "Why it matters: compute access remains one of the clearest strategic bottlenecks in the frontier model race.",
       "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Growth&backgroundColor=fig",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "anthropiccompute"
-      ]
+      "toolIds": []
     },
     {
       "id": "anthropic-claude-partner-network-100m-apr19",
@@ -3468,7 +3182,7 @@
       "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeBuild&backgroundColor=fig",
       "fallbackImageUrl": "",
       "toolIds": [
-        "claudepartnernetwork"
+        "claude"
       ]
     },
     {
@@ -3483,9 +3197,7 @@
       "excerpt": "Why it matters: enterprise platforms are racing to become agent-ready backends instead of forcing every workflow through a browser UI.",
       "imageUrl": "https://www.salesforce.com/uk/news/wp-content/uploads/sites/5/2026/04/Agentforce-Developer-Experience-TDX-Release.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "agentforce"
-      ]
+      "toolIds": []
     },
     {
       "id": "salesforce-agent-fabric-controls-apr18",
@@ -3499,9 +3211,7 @@
       "excerpt": "Why it matters: large companies want agent interoperability, but only if they can keep execution paths observable, governed, and policy-compliant.",
       "imageUrl": "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/04/Agent-Fabric-Universal-Control-Plane-Image-1.png?w=1024",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "agentforce"
-      ]
+      "toolIds": []
     },
     {
       "id": "openai-gpt-rosalind-preview-apr18",
@@ -3515,9 +3225,7 @@
       "excerpt": "Why it matters: model vendors are increasingly building domain-specific systems for regulated, tool-heavy research workflows instead of shipping one general model for everything.",
       "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4DBbOG8vMlfABf51pZ0hUB/512dbdd1d4051944bbaf62b0c7310d31/Life_science_plugin_demo_static_image_1x1.png?fm=webp&q=90&w=3840",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "openailifesciences"
-      ]
+      "toolIds": []
     },
     {
       "id": "mit-openprotein-biologists-apr18",
@@ -3531,9 +3239,7 @@
       "excerpt": "Why it matters: AI biology products are moving from expert-only labs toward broader scientific teams that need simpler interfaces and faster iteration.",
       "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-OpenProteinAI-01-press.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "openproteinai"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-gemini-3-1-flash-tts-apr18",
@@ -3563,9 +3269,7 @@
       "excerpt": "Why it matters: consumer AI wins are increasingly about getting useful workflow upgrades into familiar products people already open every day.",
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/summer_travel_tips_2026_ss.width-1300.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "aisearch"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-ai-mode-chrome-apr18",
@@ -3580,7 +3284,7 @@
       "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_in_Chrome_-_Social_feed.width-1300.png",
       "fallbackImageUrl": "",
       "toolIds": [
-        "aisearch"
+        "continue"
       ]
     },
     {
@@ -3611,9 +3315,7 @@
       "excerpt": "Why it matters: teams are starting to treat agent skills like portable infrastructure that can be shared, updated, and audited across environments.",
       "imageUrl": "https://github.blog/wp-content/uploads/2026/04/579036805-3f7f7fc2-dbfe-45d2-8041-40fe09703047.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "githubcli"
-      ]
+      "toolIds": []
     },
     {
       "id": "anthropic-claude-opus-4-7-apr18",
@@ -3673,9 +3375,7 @@
       "excerpt": "Why it matters: enterprise agent adoption is increasingly about controls, reliability, and repeatable execution rather than raw model output alone.",
       "imageUrl": "https://images.openai.com/blob/315f97f8-35c6-4f7b-97f5-ab6c44a8ad22/agents-sdk-diagram.png?trim=0%2C0%2C0%2C0&width=1920",
       "fallbackImageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-openai-agents.jpg",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "openai-codex-for-almost-everything-apr17",
@@ -3754,8 +3454,8 @@
       "imageUrl": "assets/news/home-briefing/2026-04-17/semiconductor-anthropic-figma.jpg",
       "fallbackImageUrl": "",
       "toolIds": [
-        "githubcopilot",
-        "claude"
+        "claude",
+        "githubcopilot"
       ]
     },
     {
@@ -3770,9 +3470,7 @@
       "excerpt": "Why it matters: the biggest spending in AI coding continues to come from enterprise deployments that promise governance and operational control.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2210627883.jpg?w=1024",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "continue"
-      ]
+      "toolIds": []
     },
     {
       "id": "canva-ai-assistant-tool-calling-apr17",
@@ -3787,8 +3485,7 @@
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/Canva-AI-2.0.jpeg?w=1024",
       "fallbackImageUrl": "",
       "toolIds": [
-        "canva",
-        "removebg"
+        "canva"
       ]
     },
     {
@@ -3833,9 +3530,7 @@
       "excerpt": "Why it matters: OpenAI is tying frontier model progress to regulated, high-value scientific workflows where adoption depends as much on policy and trust as raw capability.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/ai-c1640cf30c54b600.png",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "openai-agents-sdk-enterprise-sandbox-apr16",
@@ -3849,9 +3544,7 @@
       "excerpt": "Why it matters: enterprise agent adoption is moving from demos toward controlled execution environments, approved tools, and deployable safety boundaries.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-openai-agents.jpg",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "hightouch-ai-marketing-arr-apr16",
@@ -3865,9 +3558,7 @@
       "excerpt": "Why it matters: enterprise buyers are paying for AI systems that stay grounded in brand assets and customer data instead of generic image generation.",
       "imageUrl": "assets/news/home-briefing/2026-04-16/industry-ai-compute-funding.webp",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "tome"
-      ]
+      "toolIds": []
     },
     {
       "id": "gizmo-ai-learning-22m-apr16",
@@ -3955,10 +3646,7 @@
       "excerpt": "Funding read: agentic AI is moving into high-value engineering work where integrations and on-prem deployment matter.",
       "imageUrl": "",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "dust",
-        "readai"
-      ]
+      "toolIds": []
     },
     {
       "id": "ranger-ai-industrial-rfp-funding-apr15",
@@ -3972,9 +3660,7 @@
       "excerpt": "Startup signal: investors are backing narrower agent platforms that target expensive operational paperwork.",
       "imageUrl": "",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "dust"
-      ]
+      "toolIds": []
     },
     {
       "id": "nvidia-ising-quantum-ai-apr15",
@@ -4032,9 +3718,7 @@
       "excerpt": "Why it matters: access-control policy is becoming a product feature for frontier cybersecurity models.",
       "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "anthropic-mythos-cisa-response-apr15",
@@ -4048,9 +3732,7 @@
       "excerpt": "Policy angle: powerful defensive models are only useful if governments can absorb them operationally.",
       "imageUrl": "",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "claude"
-      ]
+      "toolIds": []
     },
     {
       "id": "human-machine-teaming-dives-underwater-84d4323c-apr14",
@@ -4079,7 +3761,6 @@
       "imageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-github-models.jpg",
       "fallbackImageUrl": "",
       "toolIds": [
-        "githubcopilot",
         "claude",
         "chatgpt"
       ]
@@ -4096,9 +3777,7 @@
       "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window.",
       "imageUrl": "assets/news/fallback-google-ai-economy.webp",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "gemini"
-      ]
+      "toolIds": []
     },
     {
       "id": "cursor-3-1-tiled-agents-apr13",
@@ -4358,9 +4037,7 @@
       "excerpt": "Why it matters: regulation is no longer outside the product story; it directly shapes deployment risk.",
       "imageUrl": "",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "toolIds": []
     },
     {
       "id": "openai-122b-round-apr09",
@@ -4454,9 +4131,7 @@
       "excerpt": "Why it matters: Meta is tying a new flagship model directly to consumer distribution across WhatsApp, Instagram, Facebook, Messenger, and AI glasses.",
       "imageUrl": "",
       "fallbackImageUrl": "",
-      "toolIds": [
-        "modal"
-      ]
+      "toolIds": []
     },
     {
       "id": "google-ai-studio-gemma-leverage-apr08",
@@ -4520,9 +4195,6 @@
       "imageUrl": "",
       "fallbackImageUrl": "",
       "toolIds": [
-        "gemini",
-        "claude",
-        "chatgpt",
         "deepseek"
       ]
     },
@@ -4588,7 +4260,6 @@
       "imageUrl": "",
       "fallbackImageUrl": "",
       "toolIds": [
-        "gemini",
         "claude"
       ]
     },
@@ -4621,7 +4292,8 @@
       "imageUrl": "",
       "fallbackImageUrl": "",
       "toolIds": [
-        "chatgpt"
+        "chatgpt",
+        "make"
       ]
     }
   ]

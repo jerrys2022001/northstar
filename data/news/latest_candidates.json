@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-05-10T01:26:48+00:00",
+  "updatedAt": "2026-05-10T13:16:45+00:00",
   "digestDate": "2026-05-10",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-05-07T09:24:49+08:00",
-  "windowEnd": "2026-05-10T09:24:49+08:00",
+  "windowStart": "2026-05-07T21:13:59+08:00",
+  "windowEnd": "2026-05-10T21:13:59+08:00",
   "catalogExpansionFeedsAvailable": 34,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -218,6 +218,107 @@
   ],
   "items": [
     {
+      "id": "ai-agents-that-hack-computers-and-replicate-them-cb4a3e24-may10",
+      "date": "2026-05-10",
+      "dateLabel": "May 10, 2026",
+      "category": "Developer Tools",
+      "title": "AI agents that hack computers and replicate themselves, and they're getting better fast",
+      "source": "The Decoder",
+      "summary": "Palisade Research shows that AI agents can hack remote computers, copy themselves onto them, and form replication chains. In one year, the success rate jumped from 6 to 81 percent. The researchers expect remaining barriers to fall as models get better at hack...",
+      "href": "https://the-decoder.com/ai-agents-that-hack-computers-and-replicate-themselves-and-theyre-getting-better-fast/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/hacking_agents_self_replicating-2.png",
+      "publishedAt": "2026-05-10T11:45:41+00:00",
+      "toolIds": [
+        "replicate",
+        "copyai"
+      ]
+    },
+    {
+      "id": "anthropic-and-openai-sit-down-with-religious-lea-ca546c11-may10",
+      "date": "2026-05-10",
+      "dateLabel": "May 10, 2026",
+      "category": "Developer Tools",
+      "title": "Anthropic and OpenAI sit down with religious leaders to seek ethical advice",
+      "source": "The Decoder",
+      "summary": "Anthropic and OpenAI are turning to religious leaders for help with AI ethics. At the first \"Faith-AI Covenant\" roundtable in New York, representatives from both companies met with faith leaders from various religions. Critics like AI researcher Rumman Chowdh...",
+      "href": "https://the-decoder.com/anthropic-and-openai-sit-down-with-religious-leaders-to-seek-ethical-advice/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/openai_anthropic_religion.png",
+      "publishedAt": "2026-05-10T10:41:00+00:00",
+      "toolIds": [
+        "chatgpt",
+        "claude"
+      ]
+    },
+    {
+      "id": "metr-says-it-can-barely-measure-claude-mythos-pa-56072e9f-may10",
+      "date": "2026-05-10",
+      "dateLabel": "May 10, 2026",
+      "category": "Developer Tools",
+      "title": "METR says it can barely measure Claude Mythos, Palo Alto Networks warns of autonomous AI attackers",
+      "source": "The Decoder",
+      "summary": "METR can barely measure Claude Mythos Preview with its current test suite. Only five out of 228 tasks cover the relevant capability range. Meanwhile, Palo Alto Networks reports that frontier models autonomously chain vulnerabilities, shrinking the time from i...",
+      "href": "https://the-decoder.com/metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-ai-attackers/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/cybersecurity_llm_kraken.png",
+      "publishedAt": "2026-05-10T09:25:22+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "last-day-to-get-lifetime-chatgpt-gemini-and-more-2c5fb275-may10",
+      "date": "2026-05-10",
+      "dateLabel": "May 10, 2026",
+      "category": "Model Releases",
+      "title": "Last day to get lifetime ChatGPT, Gemini, and more for $75",
+      "source": "Mashable",
+      "summary": "1min.AI is a lifetime AI tool that combines top AI models into one platform for a single $75 platform (MSRP $540).",
+      "href": "https://mashable.com/article/may-10-1minai-advanced-business-plan-lifetime-subscription",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/articles/00AXNtfFSPxzWBQiM9Tw0TW/hero-image.fill.size_1200x675.v1778236701.jpg",
+      "publishedAt": "2026-05-10T09:00:00+00:00",
+      "toolIds": [
+        "chatgpt",
+        "gemini"
+      ]
+    },
+    {
+      "id": "gpt-5-5-costs-49-to-92-percent-more-than-its-pre-b782a5ff-may10",
+      "date": "2026-05-10",
+      "dateLabel": "May 10, 2026",
+      "category": "Developer Tools",
+      "title": "GPT-5.5 costs 49 to 92 percent more than its predecessor, depending on the input length",
+      "source": "The Decoder",
+      "summary": "OpenAI doubled GPT-5.5's list price compared to GPT-5.4, claiming shorter responses would offset the increase. An OpenRouter analysis of real usage data tells a different story: actual costs rose 49 to 92 percent depending on input length. Anthropic hiked Opu...",
+      "href": "https://the-decoder.com/gpt-5-5-costs-49-to-92-percent-more-than-its-predecessor-depending-on-the-input-length/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/openai_logo_orange.png",
+      "publishedAt": "2026-05-10T08:05:58+00:00",
+      "toolIds": [
+        "chatgpt",
+        "claude",
+        "openrouter"
+      ]
+    },
+    {
+      "id": "researchers-may-have-found-a-way-to-stop-ai-mode-18133ca5-may10",
+      "date": "2026-05-10",
+      "dateLabel": "May 10, 2026",
+      "category": "Developer Tools",
+      "title": "Researchers may have found a way to stop AI models from intentionally playing dumb during safety evaluations",
+      "source": "The Decoder",
+      "summary": "A study by researchers from the MATS program, Redwood Research, the University of Oxford, and Anthropic examines a safety problem that grows more pressing as AI systems become more capable: \"sandbagging,\" where a model deliberately hides its true abilities an...",
+      "href": "https://the-decoder.com/researchers-may-have-found-a-way-to-stop-ai-models-from-intentionally-playing-dumb-during-safety-evaluations/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/sandbagging_ai.png",
+      "publishedAt": "2026-05-10T07:38:34+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
       "id": "fields-medalist-says-chatgpt-5-5-pro-delivered-p-90ffe53c-may10",
       "date": "2026-05-10",
       "dateLabel": "May 10, 2026",
@@ -231,38 +332,6 @@
       "publishedAt": "2026-05-09T14:32:14+00:00",
       "toolIds": [
         "chatgpt"
-      ]
-    },
-    {
-      "id": "chromedevtools-chrome-devtools-mcp-a67bb8d2-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "ChromeDevTools / chrome-devtools-mcp",
-      "source": "github",
-      "summary": "github reported: ChromeDevTools / chrome-devtools-mcp",
-      "href": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "excerpt": "Radar signal: github surfaced this item in the latest AI news window.",
-      "imageUrl": "https://opengraph.githubassets.com/7a98a3889fd5c4d668f95b46dcd42959c513cbe734a0fdfcf90be75d28b5f78f/ChromeDevTools/chrome-devtools-mcp",
-      "publishedAt": "2026-05-09T11:51:28+00:00",
-      "toolIds": [
-        "githubcopilot"
-      ]
-    },
-    {
-      "id": "oracle-devrel-oracle-ai-developer-hub-923f8b8a-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "oracle-devrel / oracle-ai-developer-hub",
-      "source": "github",
-      "summary": "github reported: oracle-devrel / oracle-ai-developer-hub",
-      "href": "https://github.com/oracle-devrel/oracle-ai-developer-hub",
-      "excerpt": "Radar signal: github surfaced this item in the latest AI news window.",
-      "imageUrl": "https://opengraph.githubassets.com/dd96faa785dde21dc2c1d55c8c02f1a8b14184d728c9964213f369436917efea/oracle-devrel/oracle-ai-developer-hub",
-      "publishedAt": "2026-05-09T11:51:28+00:00",
-      "toolIds": [
-        "githubcopilot"
       ]
     },
     {
@@ -298,71 +367,6 @@
       ]
     },
     {
-      "id": "doge-used-chatgpt-in-a-way-that-was-both-dumb-an-392976c6-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Model Releases",
-      "title": "DOGE used ChatGPT in a way that was both dumb and illegal, judge rules",
-      "source": "The Verge",
-      "summary": "The Department of Government Efficiency's cancellation of over $100 million in grants was unconstitutional, according to a ruling on Thursday. In the 143-page decision, US District Judge Colleen McMahon cites DOGE's process for eliminating grants, which invol...",
-      "href": "https://www.theverge.com/policy/927071/doge-chatgpt-grants-canceled",
-      "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window.",
-      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STKS486_DOGE_DEPARTMENT_2_E.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-      "publishedAt": "2026-05-08T18:02:44+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "ai-money-keeps-flowing-as-deepseek-plans-record-ea765023-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "AI money keeps flowing as Deepseek plans record raise and Core Automation quadruples valuation in weeks",
-      "source": "The Decoder",
-      "summary": "Deepseek is planning a funding round of up to $7.35 billion, the largest ever for a Chinese AI company. Deepseek V4.1 is set to launch in June. Meanwhile, Core Automation, founded by ex-OpenAI researcher Jerry Tworek just six weeks ago, is already targeting a...",
-      "href": "https://the-decoder.com/ai-money-keeps-flowing-as-deepseek-plans-record-raise-and-core-automation-quadruples-valuation-in-weeks/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/ai_startups_money_2.png",
-      "publishedAt": "2026-05-08T17:50:53+00:00",
-      "toolIds": [
-        "chatgpt",
-        "deepseek"
-      ]
-    },
-    {
-      "id": "softbank-reportedly-slashes-openai-backed-loan-f-c107e1fa-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "SoftBank reportedly slashes OpenAI-backed loan from $10 billion to $6 billion as lenders balk at private AI valuations",
-      "source": "The Decoder",
-      "summary": "SoftBank has reduced a loan secured by OpenAI shares from 10 to around 6 billion dollars. Lenders are apparently reluctant to reliably assess the value of an unlisted company like OpenAI. The article SoftBank reportedly slashes OpenAI-backed loan from $10 bil...",
-      "href": "https://the-decoder.com/softbank-reportedly-slashes-openai-backed-loan-from-10-billion-to-6-billion-as-lenders-balk-at-private-ai-valuations/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_logo_wall.png",
-      "publishedAt": "2026-05-08T16:26:58+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "emo-pretraining-mixture-of-experts-for-emergent-a40b2ba2-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Product Updates",
-      "title": "EMO: Pretraining mixture of experts for emergent modularity",
-      "source": "Hugging Face Blog",
-      "summary": "Hugging Face Blog reported: EMO: Pretraining mixture of experts for emergent modularity",
-      "href": "https://huggingface.co/blog/allenai/emo",
-      "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
-      "publishedAt": "2026-05-08T16:03:50+00:00",
-      "toolIds": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "your-google-i-o-cheat-sheet-what-to-expect-2ae4149b-may10",
       "date": "2026-05-10",
       "dateLabel": "May 10, 2026",
@@ -376,22 +380,6 @@
       "publishedAt": "2026-05-08T15:28:05+00:00",
       "toolIds": [
         "gemini"
-      ]
-    },
-    {
-      "id": "how-github-is-securing-agentic-workflows-in-mode-1c3734d8-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "How GitHub Is Securing Agentic Workflows in Modern CI CD Systems",
-      "source": "InfoQ AI",
-      "summary": "GitHub detailed a defense-in-depth security architecture for agentic workflows in CI/CD pipelines, focusing on isolation, constrained execution, and auditability. The design aims to safely integrate autonomous AI agents while mitigating risks like prompt inje...",
-      "href": "https://www.infoq.com/news/2026/05/github-agentic-workflows/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://res.infoq.com/news/2026/05/github-agentic-workflows/en/headerimage/generatedHeaderImage-1777009566990.jpg",
-      "publishedAt": "2026-05-08T14:38:00+00:00",
-      "toolIds": [
-        "githubcopilot"
       ]
     },
     {
@@ -411,23 +399,6 @@
       ]
     },
     {
-      "id": "ai-safety-tests-have-a-new-problem-models-are-no-ac468667-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "AI safety tests have a new problem: Models are now faking their own reasoning traces",
-      "source": "The Decoder",
-      "summary": "Anthropic's Natural Language Autoencoders make Claude Opus 4.6's internal activations readable as plain text. Pre-deployment audits show that models often recognize test situations and deliberately deceive evaluators - without revealing any of this in their v...",
-      "href": "https://the-decoder.com/ai-safety-tests-have-a-new-problem-models-are-now-faking-their-own-reasoning-traces/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/Anthropic-Natural-language-autoencoders.png",
-      "publishedAt": "2026-05-08T13:21:02+00:00",
-      "toolIds": [
-        "claude",
-        "opusclip"
-      ]
-    },
-    {
       "id": "running-codex-safely-at-openai-91ec1ce9-may10",
       "date": "2026-05-10",
       "dateLabel": "May 10, 2026",
@@ -441,38 +412,6 @@
       "publishedAt": "2026-05-08T12:30:00+00:00",
       "toolIds": [
         "chatgpt"
-      ]
-    },
-    {
-      "id": "openai-opens-gpt-5-5-cyber-to-vetted-security-re-99585bc3-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "OpenAI opens GPT-5.5-Cyber to vetted security researchers",
-      "source": "The Decoder",
-      "summary": "OpenAI is releasing GPT-5.5-Cyber, a model variant that rejects far fewer security requests and even actively executes exploits against test servers. Access is limited to verified defenders of critical infrastructure, including partners like Cisco, CrowdStrik...",
-      "href": "https://the-decoder.com/openai-opens-gpt-5-5-cyber-to-vetted-security-researchers/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/gpt-55_title.png",
-      "publishedAt": "2026-05-08T11:07:28+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "mozilla-s-agentic-ai-pipeline-turns-claude-mytho-ed73a98c-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "Mozilla's agentic AI pipeline turns Claude Mythos Preview loose and finds 271 unknown Firefox vulnerabilities",
-      "source": "The Decoder",
-      "summary": "Anthropic's Claude Mythos Preview uncovered 271 previously unknown security vulnerabilities in Firefox 150, including bugs up to 20 years old. Mozilla describes an agentic pipeline where the AI builds and runs its own test cases to filter out false positives....",
-      "href": "https://the-decoder.com/mozillas-agentic-ai-pipeline-turns-claude-mythos-preview-loose-and-finds-271-unknown-firefox-vulnerabilities/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/04/firefox_mozilla_logo_walls-2.png",
-      "publishedAt": "2026-05-08T09:23:28+00:00",
-      "toolIds": [
-        "claude"
       ]
     },
     {
@@ -503,27 +442,7 @@
       "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-commit-logo.png?fit=1920%2C1080",
       "publishedAt": "2026-05-07T23:00:00+00:00",
-      "toolIds": [
-        "githubcopilot"
-      ]
-    },
-    {
-      "id": "lightseek-foundation-releases-tokenspeed-an-open-17a99b0f-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "LightSeek Foundation Releases TokenSpeed, an Open-Source LLM Inference Engine Targeting TensorRT-LLM-Level Performance...",
-      "source": "MarkTechPost",
-      "summary": "Inference efficiency has quietly become one of the most consequential bottlenecks in AI deployment. As agentic coding systems such as Claude Code, Codex, and Cursor scale from developer tools to infrastructure powering software development at large, the under...",
-      "href": "https://www.marktechpost.com/2026/05/07/lightseek-foundation-releases-tokenspeed-an-open-source-llm-inference-engine-targeting-tensorrt-llm-level-performance-for-agentic-workloads/",
-      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-3.03.21-PM-1.png",
-      "publishedAt": "2026-05-07T22:03:47+00:00",
-      "toolIds": [
-        "chatgpt",
-        "claude",
-        "cursor"
-      ]
+      "toolIds": []
     },
     {
       "id": "chatgpt-users-can-now-choose-a-trusted-contact-88d4a86a-may10",
@@ -571,54 +490,6 @@
       "publishedAt": "2026-05-07T14:07:00+00:00",
       "toolIds": [
         "claude"
-      ]
-    },
-    {
-      "id": "scaling-trusted-access-for-cyber-with-gpt-5-5-an-288ea344-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Model Releases",
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-      "href": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-safety.svg",
-      "publishedAt": "2026-05-07T13:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "parloa-builds-service-agents-customers-want-to-t-e41b9b9c-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Agents",
-      "title": "Parloa builds service agents customers want to talk to",
-      "source": "OpenAI Blog",
-      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-      "href": "https://openai.com/index/parloa",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
-      "publishedAt": "2026-05-07T11:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "advancing-voice-intelligence-with-new-models-in-4ba89a63-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Model Releases",
-      "title": "Advancing voice intelligence with new models in the API",
-      "source": "OpenAI Blog",
-      "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
-      "href": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
-      "publishedAt": "2026-05-07T10:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
       ]
     }
   ]

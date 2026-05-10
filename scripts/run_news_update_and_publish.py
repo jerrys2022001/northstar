@@ -50,7 +50,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--initial-catalog-expansion-feeds", type=int, default=48)
     parser.add_argument("--max-catalog-expansion-feeds", type=int, default=48)
     parser.add_argument("--min-daily-items", type=int, default=10)
-    parser.add_argument("--max-auto-per-tool-per-day", type=int, default=10)
+    parser.add_argument("--max-auto-per-tool-per-day", type=int, default=3)
     parser.add_argument("--skip-render-validation", action="store_true")
     parser.add_argument("--git-commit", action="store_true")
     parser.add_argument("--git-push", action="store_true")

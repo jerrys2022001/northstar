@@ -100,6 +100,7 @@ jobs:
               --max-window-hours 72 \
               --initial-catalog-expansion-feeds 48 \
               --max-catalog-expansion-feeds 48 \
+              --max-auto-per-tool-per-day 3 \
               --skip-render-validation \
               --git-commit \
               --git-push \

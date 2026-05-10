@@ -369,54 +369,24 @@
     "label": "May 10, 2026",
     "items": [
       {
-        "id": "scaling-trusted-access-for-cyber-with-gpt-5-5-an-288ea344-may10",
+        "id": "last-day-to-get-lifetime-chatgpt-gemini-and-more-2c5fb275-may10",
         "category": "Model Releases",
-        "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-        "source": "OpenAI Blog",
-        "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-        "href": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-        "imageUrl": "assets/news/bright-safety.svg",
-        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "chatgpt-users-can-now-choose-a-trusted-contact-88d4a86a-may10",
-        "category": "Model Releases",
-        "title": "ChatGPT users can now choose a trusted contact\"",
+        "title": "Last day to get lifetime ChatGPT, Gemini, and more for $75",
         "source": "Mashable",
-        "summary": "OpenAI to notify user's trusted contact in the event of a possible serious safety concern.",
-        "href": "https://mashable.com/article/chatgpt-trusted-contact",
-        "imageUrl": "https://helios-i.mashable.com/imagery/articles/05UTq9JHzJIEwbEbxCcVKDH/hero-image.fill.size_1200x675.v1778112668.jpg",
+        "summary": "1min.AI is a lifetime AI tool that combines top AI models into one platform for a single $75 platform (MSRP $540).",
+        "href": "https://mashable.com/article/may-10-1minai-advanced-business-plan-lifetime-subscription",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00AXNtfFSPxzWBQiM9Tw0TW/hero-image.fill.size_1200x675.v1778236701.jpg",
         "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
       },
       {
-        "id": "parloa-builds-service-agents-customers-want-to-t-e41b9b9c-may10",
-        "category": "Agents",
-        "title": "Parloa builds service agents customers want to talk to",
+        "id": "running-codex-safely-at-openai-91ec1ce9-may10",
+        "category": "Developer Tools",
+        "title": "Running Codex safely at OpenAI",
         "source": "OpenAI Blog",
-        "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-        "href": "https://openai.com/index/parloa",
-        "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
+        "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
+        "href": "https://openai.com/index/running-codex-safely",
+        "imageUrl": "assets/news/bright-productivity.svg",
         "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "openai-releases-three-realtime-audio-models-gpt-e8e4e4bc-may10",
-        "category": "Developer Tools",
-        "title": "OpenAI Releases Three Realtime Audio Models: GPT-Realtime-2, GPT-Realtime-Translate, and GPT-Realtime-Whisper in the Re...",
-        "source": "MarkTechPost",
-        "summary": "Three purpose-built audio models expand what developers can build with live voice: reasoning agents, speech translation across 70+ languages, and streaming transcription. The post OpenAI Releases Three Realtime Audio Models: GPT-Realtime-2, GPT-Realtime-Trans...",
-        "href": "https://www.marktechpost.com/2026/05/08/openai-releases-three-realtime-audio-models-gpt-realtime-2-gpt-realtime-translate-and-gpt-realtime-whisper-in-the-realtime-api/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "lightseek-foundation-releases-tokenspeed-an-open-17a99b0f-may10",
-        "category": "Developer Tools",
-        "title": "LightSeek Foundation Releases TokenSpeed, an Open-Source LLM Inference Engine Targeting TensorRT-LLM-Level Performance...",
-        "source": "MarkTechPost",
-        "summary": "Inference efficiency has quietly become one of the most consequential bottlenecks in AI deployment. As agentic coding systems such as Claude Code, Codex, and Cursor scale from developer tools to infrastructure powering software development at large, the under...",
-        "href": "https://www.marktechpost.com/2026/05/07/lightseek-foundation-releases-tokenspeed-an-open-source-llm-inference-engine-targeting-tensorrt-llm-level-performance-for-agentic-workloads/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-3.03.21-PM-1.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
         "id": "fields-medalist-says-chatgpt-5-5-pro-delivered-p-90ffe53c-may10",
@@ -429,6 +399,46 @@
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
+        "id": "metr-says-it-can-barely-measure-claude-mythos-pa-56072e9f-may10",
+        "category": "Developer Tools",
+        "title": "METR says it can barely measure Claude Mythos, Palo Alto Networks warns of autonomous AI attackers",
+        "source": "The Decoder",
+        "summary": "METR can barely measure Claude Mythos Preview with its current test suite. Only five out of 228 tasks cover the relevant capability range. Meanwhile, Palo Alto Networks reports that frontier models autonomously chain vulnerabilities, shrinking the time from i...",
+        "href": "https://the-decoder.com/metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-ai-attackers/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/cybersecurity_llm_kraken.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gpt-5-5-costs-49-to-92-percent-more-than-its-pre-b782a5ff-may10",
+        "category": "Developer Tools",
+        "title": "GPT-5.5 costs 49 to 92 percent more than its predecessor, depending on the input length",
+        "source": "The Decoder",
+        "summary": "OpenAI doubled GPT-5.5's list price compared to GPT-5.4, claiming shorter responses would offset the increase. An OpenRouter analysis of real usage data tells a different story: actual costs rose 49 to 92 percent depending on input length. Anthropic hiked Opu...",
+        "href": "https://the-decoder.com/gpt-5-5-costs-49-to-92-percent-more-than-its-predecessor-depending-on-the-input-length/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/openai_logo_orange.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "researchers-may-have-found-a-way-to-stop-ai-mode-18133ca5-may10",
+        "category": "Developer Tools",
+        "title": "Researchers may have found a way to stop AI models from intentionally playing dumb during safety evaluations",
+        "source": "The Decoder",
+        "summary": "A study by researchers from the MATS program, Redwood Research, the University of Oxford, and Anthropic examines a safety problem that grows more pressing as AI systems become more capable: \"sandbagging,\" where a model deliberately hides its true abilities an...",
+        "href": "https://the-decoder.com/researchers-may-have-found-a-way-to-stop-ai-models-from-intentionally-playing-dumb-during-safety-evaluations/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/sandbagging_ai.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-releases-three-realtime-audio-models-gpt-e8e4e4bc-may10",
+        "category": "Developer Tools",
+        "title": "OpenAI Releases Three Realtime Audio Models: GPT-Realtime-2, GPT-Realtime-Translate, and GPT-Realtime-Whisper in the Re...",
+        "source": "MarkTechPost",
+        "summary": "Three purpose-built audio models expand what developers can build with live voice: reasoning agents, speech translation across 70+ languages, and streaming transcription. The post OpenAI Releases Three Realtime Audio Models: GPT-Realtime-2, GPT-Realtime-Trans...",
+        "href": "https://www.marktechpost.com/2026/05/08/openai-releases-three-realtime-audio-models-gpt-realtime-2-gpt-realtime-translate-and-gpt-realtime-whisper-in-the-realtime-api/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
         "id": "broadcom-reportedly-won-t-build-openai-s-custom-b0f1e7d0-may10",
         "category": "Developer Tools",
         "title": "Broadcom reportedly won't build OpenAI's custom chip unless Microsoft buys 40 percent of them",
@@ -439,34 +449,24 @@
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
-        "id": "oracle-devrel-oracle-ai-developer-hub-923f8b8a-may10",
+        "id": "anthropic-and-openai-sit-down-with-religious-lea-ca546c11-may10",
         "category": "Developer Tools",
-        "title": "oracle-devrel / oracle-ai-developer-hub",
-        "source": "github",
-        "summary": "github reported: oracle-devrel / oracle-ai-developer-hub",
-        "href": "https://github.com/oracle-devrel/oracle-ai-developer-hub",
-        "imageUrl": "https://opengraph.githubassets.com/dd96faa785dde21dc2c1d55c8c02f1a8b14184d728c9964213f369436917efea/oracle-devrel/oracle-ai-developer-hub",
-        "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+        "title": "Anthropic and OpenAI sit down with religious leaders to seek ethical advice",
+        "source": "The Decoder",
+        "summary": "Anthropic and OpenAI are turning to religious leaders for help with AI ethics. At the first \"Faith-AI Covenant\" roundtable in New York, representatives from both companies met with faith leaders from various religions. Critics like AI researcher Rumman Chowdh...",
+        "href": "https://the-decoder.com/anthropic-and-openai-sit-down-with-religious-leaders-to-seek-ethical-advice/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/openai_anthropic_religion.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
-        "id": "chromedevtools-chrome-devtools-mcp-a67bb8d2-may10",
+        "id": "ai-agents-that-hack-computers-and-replicate-them-cb4a3e24-may10",
         "category": "Developer Tools",
-        "title": "ChromeDevTools / chrome-devtools-mcp",
-        "source": "github",
-        "summary": "github reported: ChromeDevTools / chrome-devtools-mcp",
-        "href": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-        "imageUrl": "https://opengraph.githubassets.com/7a98a3889fd5c4d668f95b46dcd42959c513cbe734a0fdfcf90be75d28b5f78f/ChromeDevTools/chrome-devtools-mcp",
-        "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "emo-pretraining-mixture-of-experts-for-emergent-a40b2ba2-may10",
-        "category": "Product Updates",
-        "title": "EMO: Pretraining mixture of experts for emergent modularity",
-        "source": "Hugging Face Blog",
-        "summary": "Hugging Face Blog reported: EMO: Pretraining mixture of experts for emergent modularity",
-        "href": "https://huggingface.co/blog/allenai/emo",
-        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
-        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+        "title": "AI agents that hack computers and replicate themselves, and they're getting better fast",
+        "source": "The Decoder",
+        "summary": "Palisade Research shows that AI agents can hack remote computers, copy themselves onto them, and form replication chains. In one year, the success rate jumped from 6 to 81 percent. The researchers expect remaining barriers to fall as models get better at hack...",
+        "href": "https://the-decoder.com/ai-agents-that-hack-computers-and-replicate-themselves-and-theyre-getting-better-fast/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/hacking_agents_self_replicating-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -493,16 +493,6 @@
         "href": "https://www.theverge.com/policy/927071/doge-chatgpt-grants-canceled",
         "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STKS486_DOGE_DEPARTMENT_2_E.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
         "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "softbank-reportedly-slashes-openai-backed-loan-f-c107e1fa-may09",
-        "category": "Developer Tools",
-        "title": "SoftBank reportedly slashes OpenAI-backed loan from $10 billion to $6 billion as lenders balk at private AI valuations",
-        "source": "The Decoder",
-        "summary": "SoftBank has reduced a loan secured by OpenAI shares from 10 to around 6 billion dollars. Lenders are apparently reluctant to reliably assess the value of an unlisted company like OpenAI. The article SoftBank reportedly slashes OpenAI-backed loan from $10 bil...",
-        "href": "https://the-decoder.com/softbank-reportedly-slashes-openai-backed-loan-from-10-billion-to-6-billion-as-lenders-balk-at-private-ai-valuations/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_logo_wall.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
         "id": "ai-money-keeps-flowing-as-deepseek-plans-record-ea765023-may09",
@@ -545,16 +535,6 @@
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
-        "id": "how-github-is-securing-agentic-workflows-in-mode-1c3734d8-may09",
-        "category": "Developer Tools",
-        "title": "How GitHub Is Securing Agentic Workflows in Modern CI CD Systems",
-        "source": "InfoQ AI",
-        "summary": "GitHub detailed a defense-in-depth security architecture for agentic workflows in CI/CD pipelines, focusing on isolation, constrained execution, and auditability. The design aims to safely integrate autonomous AI agents while mitigating risks like prompt inje...",
-        "href": "https://www.infoq.com/news/2026/05/github-agentic-workflows/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-        "imageUrl": "https://res.infoq.com/news/2026/05/github-agentic-workflows/en/headerimage/generatedHeaderImage-1777009566990.jpg",
-        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
-      },
-      {
         "id": "5-000-vibe-coded-apps-just-proved-shadow-ai-is-t-02f8015f-may09",
         "category": "Developer Tools",
         "title": "5,000 vibe-coded apps just proved shadow AI is the new S3 bucket crisis",
@@ -573,6 +553,26 @@
         "href": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
         "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ServiceNow-AI/correctness-before-corrections.png",
         "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "softbank-reportedly-slashes-openai-backed-loan-f-c107e1fa-may09",
+        "category": "Developer Tools",
+        "title": "SoftBank reportedly slashes OpenAI-backed loan from $10 billion to $6 billion as lenders balk at private AI valuations",
+        "source": "The Decoder",
+        "summary": "SoftBank has reduced a loan secured by OpenAI shares from 10 to around 6 billion dollars. Lenders are apparently reluctant to reliably assess the value of an unlisted company like OpenAI. The article SoftBank reportedly slashes OpenAI-backed loan from $10 bil...",
+        "href": "https://the-decoder.com/softbank-reportedly-slashes-openai-backed-loan-from-10-billion-to-6-billion-as-lenders-balk-at-private-ai-valuations/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_logo_wall.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-github-is-securing-agentic-workflows-in-mode-1c3734d8-may09",
+        "category": "Developer Tools",
+        "title": "How GitHub Is Securing Agentic Workflows in Modern CI CD Systems",
+        "source": "InfoQ AI",
+        "summary": "GitHub detailed a defense-in-depth security architecture for agentic workflows in CI/CD pipelines, focusing on isolation, constrained execution, and auditability. The design aims to safely integrate autonomous AI agents while mitigating risks like prompt inje...",
+        "href": "https://www.infoq.com/news/2026/05/github-agentic-workflows/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/05/github-agentic-workflows/en/headerimage/generatedHeaderImage-1777009566990.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -591,16 +591,6 @@
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
-        "id": "openai-introduces-mrc-multipath-reliable-connect-5845879c-may08",
-        "category": "Product Updates",
-        "title": "OpenAI Introduces MRC (Multipath Reliable Connection): A New Open Networking Protocol for Large-Scale AI Supercomputer...",
-        "source": "MarkTechPost",
-        "summary": "MRC (Multipath Reliable Connection) is a new open networking protocol developed by OpenAI in partnership with AMD, Broadcom, Intel, Microsoft, and NVIDIA that improves GPU networking performance and resilience in large-scale AI training clusters by spreading...",
-        "href": "https://www.marktechpost.com/2026/05/07/openai-introduces-mrc-multipath-reliable-connection-a-new-open-networking-protocol-for-large-scale-ai-supercomputer-training-clusters/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/mja.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
-      },
-      {
         "id": "openclaw-and-claude-can-put-your-ai-generated-po-608851b1-may08",
         "category": "Developer Tools",
         "title": "OpenClaw and Claude can put your AI-generated podcasts in Spotify",
@@ -609,16 +599,6 @@
         "href": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts",
         "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/VRG_Illo_STK130_K_Radtke_Spotify_Podcast_1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
         "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "openai-introduces-websocket-based-execution-mode-2b34b1be-may08",
-        "category": "Developer Tools",
-        "title": "OpenAI Introduces Websocket-Based Execution Mode to Reduce Latency in Agentic Workflows",
-        "source": "InfoQ AI",
-        "summary": "OpenAI introduces a WebSocket-based execution mode for its Responses API to improve agentic workflow performance in coding agents and real-time AI systems. The update reduces latency by up to 40 percent by replacing HTTP request-response cycles with persisten...",
-        "href": "https://www.infoq.com/news/2026/05/openai-websocket-responses-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-        "imageUrl": "https://res.infoq.com/news/2026/05/openai-websocket-responses-api/en/headerimage/generatedHeaderImage-1777845282531.jpg",
-        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
       },
       {
         "id": "presentation-engineering-at-ai-speed-lessons-fro-c0836eae-may08",
@@ -651,6 +631,26 @@
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
+        "id": "openai-introduces-mrc-multipath-reliable-connect-5845879c-may08",
+        "category": "Product Updates",
+        "title": "OpenAI Introduces MRC (Multipath Reliable Connection): A New Open Networking Protocol for Large-Scale AI Supercomputer...",
+        "source": "MarkTechPost",
+        "summary": "MRC (Multipath Reliable Connection) is a new open networking protocol developed by OpenAI in partnership with AMD, Broadcom, Intel, Microsoft, and NVIDIA that improves GPU networking performance and resilience in large-scale AI training clusters by spreading...",
+        "href": "https://www.marktechpost.com/2026/05/07/openai-introduces-mrc-multipath-reliable-connection-a-new-open-networking-protocol-for-large-scale-ai-supercomputer-training-clusters/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/mja.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-introduces-websocket-based-execution-mode-2b34b1be-may08",
+        "category": "Developer Tools",
+        "title": "OpenAI Introduces Websocket-Based Execution Mode to Reduce Latency in Agentic Workflows",
+        "source": "InfoQ AI",
+        "summary": "OpenAI introduces a WebSocket-based execution mode for its Responses API to improve agentic workflow performance in coding agents and real-time AI systems. The update reduces latency by up to 40 percent by replacing HTTP request-response cycles with persisten...",
+        "href": "https://www.infoq.com/news/2026/05/openai-websocket-responses-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/05/openai-websocket-responses-api/en/headerimage/generatedHeaderImage-1777845282531.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
         "id": "improving-token-efficiency-in-github-agentic-wor-2b3dd723-may08",
         "category": "Developer Tools",
         "title": "Improving token efficiency in GitHub Agentic Workflows",
@@ -667,46 +667,6 @@
     "label": "May 7, 2026",
     "items": [
       {
-        "id": "why-chrome-may-have-quietly-downloaded-a-4gb-fil-3093e5be-may07",
-        "category": "Model Releases",
-        "title": "Why Chrome may have quietly downloaded a 4GB file to your PC - and how to get rid of it",
-        "source": "ZDNet AI",
-        "summary": "The file, which appears to be related to Google's on-device AI model, is harmless enough. Here's why some users may still be concerned.",
-        "href": "https://www.zdnet.com/article/google-may-have-downloaded-a-4gb-chrome-file-to-your-pc-heres-why/",
-        "imageUrl": "https://www.zdnet.com/a/img/resize/1c81b9ed334ed027072bf6c5e657cc6ae97c32a7/2026/05/06/ba6cc4e9-69ec-4b7c-8b97-4238dad1fb84/google-gemini.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "google-shuts-down-project-mariner-79e266a1-may07",
-        "category": "Creative AI",
-        "title": "Google shuts down Project Mariner",
-        "source": "The Verge AI",
-        "summary": "Google has pulled the plug on Project Mariner, an experimental feature designed to perform tasks for you across the web, as reported earlier by Wired's Maxwell Zeff. The Project Mariner landing page now contains a message that says: \"Thank you for using Proje...",
-        "href": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/project-mariner-logo.png?quality=90&strip=all&crop=0%2C12.533882885894%2C100%2C74.932234228213&w=1200",
-        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "how-elon-musk-left-openai-according-to-greg-broc-1d1bfdc0-may07",
-        "category": "Product Updates",
-        "title": "How Elon Musk left OpenAI, according to Greg Brockman",
-        "source": "TechCrunch",
-        "summary": "Cutthroat negotiations between startup founders are rarely shared so publicly, especially when a company becomes as world-changing as OpenAI.",
-        "href": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273248471.jpg?resize=1200,800",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "openai-built-a-networking-protocol-with-amd-broa-0070a4fb-may07",
-        "category": "Developer Tools",
-        "title": "OpenAI built a networking protocol with AMD, Broadcom, Intel, Microsoft, and NVIDIA to fix AI supercomputer bottlenecks",
-        "source": "The Decoder",
-        "summary": "OpenAI has teamed up with AMD, Broadcom, Intel, Microsoft, and NVIDIA to develop MRC, an open source network protocol that sends data across hundreds of paths simultaneously between GPUs. Instead of three or four switch layers, MRC needs only two to connect o...",
-        "href": "https://the-decoder.com/openai-built-a-networking-protocol-with-amd-broadcom-intel-microsoft-and-nvidia-to-fix-ai-supercomputer-bottlenecks/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/openai_wall_statistics_benchmarks.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
         "id": "deepseek-nears-45-billion-valuation-as-china-s-s-e80050c9-may07",
         "category": "Developer Tools",
         "title": "Deepseek nears $45 billion valuation as China's state chip fund leads round",
@@ -715,16 +675,6 @@
         "href": "https://the-decoder.com/deepseek-nears-45-billion-valuation-as-chinas-state-chip-fund-leads-round/",
         "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/deepseek_chart_background.png",
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "is-xai-a-neocloud-now-30a5aafe-may07",
-        "category": "Model Releases",
-        "title": "Is xAI a neocloud now?",
-        "source": "TechCrunch",
-        "summary": "xAI's real business may be more about building data centers than training AI models.",
-        "href": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2256968212.jpg?w=1024",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
       },
       {
         "id": "anthropic-taps-spacex-s-colossus-1-data-center-f-2b222192-may07",
@@ -757,16 +707,6 @@
         "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
       },
       {
-        "id": "github-justlovemaki-06cf257a-may07",
-        "category": "Developer Tools",
-        "title": "GITHUB: justlovemaki",
-        "source": "Page Fallback",
-        "summary": "Page Fallback reported: GITHUB: justlovemaki",
-        "href": "https://github.com/justlovemaki",
-        "imageUrl": "https://avatars.githubusercontent.com/u/22851716?v=4?s=400",
-        "excerpt": "Radar signal: Page Fallback surfaced this item in the latest AI news window."
-      },
-      {
         "id": "a-20-minute-pitch-wins-indian-startup-pronto-bac-ecad5e18-may07",
         "category": "Product Updates",
         "title": "A 20-minute pitch wins Indian startup Pronto backing from Lachy Groom",
@@ -774,6 +714,16 @@
         "summary": "The investment comes as Pronto scales to 26,000 daily bookings and the market heads toward a potential $18 billion size.",
         "href": "https://techcrunch.com/2026/05/06/a-20-minute-pitch-wins-indian-startup-pronto-backing-from-lachy-groom/",
         "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/anjali-sardana-pronto.jpg?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-elon-musk-left-openai-according-to-greg-broc-1d1bfdc0-may07",
+        "category": "Product Updates",
+        "title": "How Elon Musk left OpenAI, according to Greg Brockman",
+        "source": "TechCrunch",
+        "summary": "Cutthroat negotiations between startup founders are rarely shared so publicly, especially when a company becomes as world-changing as OpenAI.",
+        "href": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273248471.jpg?resize=1200,800",
         "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
       },
       {
@@ -785,6 +735,56 @@
         "href": "https://github.com/justlovemaki/AIClient-2-API",
         "imageUrl": "https://opengraph.githubassets.com/fd55b55585d5c34d0caf072aaa57e254cd05f36c4d5cb69e099e5ffe107ed291/justlovemaki/AIClient2API",
         "excerpt": "Radar signal: Page Fallback surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-chrome-may-have-quietly-downloaded-a-4gb-fil-3093e5be-may07",
+        "category": "Model Releases",
+        "title": "Why Chrome may have quietly downloaded a 4GB file to your PC - and how to get rid of it",
+        "source": "ZDNet AI",
+        "summary": "The file, which appears to be related to Google's on-device AI model, is harmless enough. Here's why some users may still be concerned.",
+        "href": "https://www.zdnet.com/article/google-may-have-downloaded-a-4gb-chrome-file-to-your-pc-heres-why/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/1c81b9ed334ed027072bf6c5e657cc6ae97c32a7/2026/05/06/ba6cc4e9-69ec-4b7c-8b97-4238dad1fb84/google-gemini.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "is-xai-a-neocloud-now-30a5aafe-may07",
+        "category": "Model Releases",
+        "title": "Is xAI a neocloud now?",
+        "source": "TechCrunch",
+        "summary": "xAI's real business may be more about building data centers than training AI models.",
+        "href": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2256968212.jpg?w=1024",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-built-a-networking-protocol-with-amd-broa-0070a4fb-may07",
+        "category": "Developer Tools",
+        "title": "OpenAI built a networking protocol with AMD, Broadcom, Intel, Microsoft, and NVIDIA to fix AI supercomputer bottlenecks",
+        "source": "The Decoder",
+        "summary": "OpenAI has teamed up with AMD, Broadcom, Intel, Microsoft, and NVIDIA to develop MRC, an open source network protocol that sends data across hundreds of paths simultaneously between GPUs. Instead of three or four switch layers, MRC needs only two to connect o...",
+        "href": "https://the-decoder.com/openai-built-a-networking-protocol-with-amd-broadcom-intel-microsoft-and-nvidia-to-fix-ai-supercomputer-bottlenecks/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/openai_wall_statistics_benchmarks.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "github-justlovemaki-06cf257a-may07",
+        "category": "Developer Tools",
+        "title": "GITHUB: justlovemaki",
+        "source": "Page Fallback",
+        "summary": "Page Fallback reported: GITHUB: justlovemaki",
+        "href": "https://github.com/justlovemaki",
+        "imageUrl": "https://avatars.githubusercontent.com/u/22851716?v=4?s=400",
+        "excerpt": "Radar signal: Page Fallback surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-shuts-down-project-mariner-79e266a1-may07",
+        "category": "Creative AI",
+        "title": "Google shuts down Project Mariner",
+        "source": "The Verge AI",
+        "summary": "Google has pulled the plug on Project Mariner, an experimental feature designed to perform tasks for you across the web, as reported earlier by Wired's Maxwell Zeff. The Project Mariner landing page now contains a message that says: \"Thank you for using Proje...",
+        "href": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/project-mariner-logo.png?quality=90&strip=all&crop=0%2C12.533882885894%2C100%2C74.932234228213&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -793,36 +793,6 @@
     "label": "May 6, 2026",
     "items": [
       {
-        "id": "this-weird-pixel-feature-is-one-of-my-favorite-t-a9563460-may06",
-        "category": "Product Updates",
-        "title": "This weird Pixel feature is one of my favorite tools - too bad Google may remove it soon",
-        "source": "ZDNet AI",
-        "summary": "Leaks hint that the next Pixel lineup will lose the thermometer for \"Pixel Glow\" LEDs",
-        "href": "https://www.zdnet.com/article/google-removing-pixel-thermometer/",
-        "imageUrl": "https://www.zdnet.com/a/img/resize/1ae411430238884f636ac19a7fc74ad642a71012/2025/08/27/87461d54-1171-4e4a-b900-fc8419eca9f3/dsc07492.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "us-government-now-has-pre-release-access-to-ai-m-8d3ac470-may06",
-        "category": "Developer Tools",
-        "title": "US government now has pre-release access to AI models from five major labs for national security testing",
-        "source": "The Decoder",
-        "summary": "The US Department of Commerce is expanding its AI safety testing: Following Anthropic and OpenAI, Google Deepmind, Microsoft, and xAI have now signed agreements with the Center for AI Standards and Innovation. The companies provide models with reduced safety...",
-        "href": "https://the-decoder.com/us-government-now-has-pre-release-access-to-ai-models-from-five-major-labs-for-national-security-testing/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/us_flag_wireframe.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "openai-president-forced-to-read-his-personal-dia-42aa4ad0-may06",
-        "category": "Developer Tools",
-        "title": "OpenAI president forced to read his personal diary entries to jury",
-        "source": "Ars Technica",
-        "summary": "Elon Musk argued the journals show the moment when OpenAI abandoned its mission.",
-        "href": "https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/",
-        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/greg-brockman-is-you-taking-notes-on-criminal-conspiracy-1152x648.jpg",
-        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
-      },
-      {
         "id": "amazon-brings-agentic-fine-tuning-to-sagemaker-w-d4006273-may06",
         "category": "Developer Tools",
         "title": "Amazon brings agentic fine-tuning to SageMaker with support for Llama, Qwen, Deepseek, and Nova",
@@ -830,16 +800,6 @@
         "summary": "Amazon SageMaker AI now includes an AI agent designed to help developers customize language models. The article Amazon brings agentic fine-tuning to SageMaker with support for Llama, Qwen, Deepseek, and Nova appeared first on The Decoder .",
         "href": "https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/",
         "imageUrl": "https://the-decoder.com/wp-content/uploads/2024/12/aws_agents_midjourney.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "anthropic-co-founder-maps-out-how-recursive-ai-i-6de4b9da-may06",
-        "category": "Developer Tools",
-        "title": "Anthropic co-founder maps out how recursive AI improvement could outpace the humans meant to supervise it",
-        "source": "The Decoder",
-        "summary": "Jack Clark argues in a long essay that the building blocks for AI systems training their own successors are largely in place. He puts the odds at 60 percent by the end of 2028. The article Anthropic co-founder maps out how recursive AI improvement could outpa...",
-        "href": "https://the-decoder.com/anthropic-co-founder-maps-out-how-recursive-ai-improvement-could-outpace-the-humans-meant-to-supervise-it/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/anthropic_logo_cybersecurity.png",
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
@@ -863,6 +823,36 @@
         "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
       },
       {
+        "id": "elevenlabs-lists-blackrock-jamie-foxx-and-eva-lo-69d9fa3b-may06",
+        "category": "Product Updates",
+        "title": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors",
+        "source": "TechCrunch",
+        "summary": "ElevenLabs reveals new investors, hits $500M ARR, and expands enterprise footprint as voice AI becomes a critical interface.",
+        "href": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/Mati-Staniszewski_SXSW.jpg?resize=1200,799",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "this-weird-pixel-feature-is-one-of-my-favorite-t-a9563460-may06",
+        "category": "Product Updates",
+        "title": "This weird Pixel feature is one of my favorite tools - too bad Google may remove it soon",
+        "source": "ZDNet AI",
+        "summary": "Leaks hint that the next Pixel lineup will lose the thermometer for \"Pixel Glow\" LEDs",
+        "href": "https://www.zdnet.com/article/google-removing-pixel-thermometer/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/1ae411430238884f636ac19a7fc74ad642a71012/2025/08/27/87461d54-1171-4e4a-b900-fc8419eca9f3/dsc07492.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "this-critical-linux-vulnerability-is-putting-mil-48a754c0-may06",
+        "category": "Product Updates",
+        "title": "This critical Linux vulnerability is putting millions of systems at risk - how to protect yours",
+        "source": "ZDNet AI",
+        "summary": "Don't ignore the Copy Fail Linux vulnerability. It's serious, but protecting yourself from it is easy.",
+        "href": "https://www.zdnet.com/article/critical-copy-fail-vulnerability-affecting-linux-systems-how-to-mitigate/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/db4efead752b2ca5cf594b29b902e921e3b7d51b/2026/05/05/0374eea1-7746-434d-9fdf-9d106774ff64/this-critical-linux-vulnerability-is-putting-millions-of-systems-at-risk-how-to-protect-yours.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
         "id": "welcome-to-maintainer-month-celebrating-the-peop-8081fe0e-may06",
         "category": "Developer Tools",
         "title": "Welcome to Maintainer Month: Celebrating the people behind the code",
@@ -871,6 +861,26 @@
         "href": "https://github.blog/open-source/maintainers/welcome-to-maintainer-month-celebrating-the-people-behind-the-code/",
         "imageUrl": "https://github.blog/wp-content/uploads/2026/05/21b7ba26d938291b85ccf5b0cec4e0b47425dd2ebf9ee392e72a507d15030fdd-2400x1260-1.png?fit=2400%2C1260",
         "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "us-government-now-has-pre-release-access-to-ai-m-8d3ac470-may06",
+        "category": "Developer Tools",
+        "title": "US government now has pre-release access to AI models from five major labs for national security testing",
+        "source": "The Decoder",
+        "summary": "The US Department of Commerce is expanding its AI safety testing: Following Anthropic and OpenAI, Google Deepmind, Microsoft, and xAI have now signed agreements with the Center for AI Standards and Innovation. The companies provide models with reduced safety...",
+        "href": "https://the-decoder.com/us-government-now-has-pre-release-access-to-ai-models-from-five-major-labs-for-national-security-testing/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/us_flag_wireframe.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-president-forced-to-read-his-personal-dia-42aa4ad0-may06",
+        "category": "Developer Tools",
+        "title": "OpenAI president forced to read his personal diary entries to jury",
+        "source": "Ars Technica",
+        "summary": "Elon Musk argued the journals show the moment when OpenAI abandoned its mission.",
+        "href": "https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/greg-brockman-is-you-taking-notes-on-criminal-conspiracy-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
       },
       {
         "id": "arindam200-awesome-ai-apps-1584467f-may06",
@@ -883,24 +893,14 @@
         "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
       },
       {
-        "id": "elevenlabs-lists-blackrock-jamie-foxx-and-eva-lo-69d9fa3b-may06",
-        "category": "Product Updates",
-        "title": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors",
-        "source": "TechCrunch",
-        "summary": "ElevenLabs reveals new investors, hits $500M ARR, and expands enterprise footprint as voice AI becomes a critical interface.",
-        "href": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/Mati-Staniszewski_SXSW.jpg?resize=1200,799",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "this-critical-linux-vulnerability-is-putting-mil-48a754c0-may06",
-        "category": "Product Updates",
-        "title": "This critical Linux vulnerability is putting millions of systems at risk - how to protect yours",
-        "source": "ZDNet AI",
-        "summary": "Don't ignore the Copy Fail Linux vulnerability. It's serious, but protecting yourself from it is easy.",
-        "href": "https://www.zdnet.com/article/critical-copy-fail-vulnerability-affecting-linux-systems-how-to-mitigate/",
-        "imageUrl": "https://www.zdnet.com/a/img/resize/db4efead752b2ca5cf594b29b902e921e3b7d51b/2026/05/05/0374eea1-7746-434d-9fdf-9d106774ff64/this-critical-linux-vulnerability-is-putting-millions-of-systems-at-risk-how-to-protect-yours.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+        "id": "anthropic-co-founder-maps-out-how-recursive-ai-i-6de4b9da-may06",
+        "category": "Developer Tools",
+        "title": "Anthropic co-founder maps out how recursive AI improvement could outpace the humans meant to supervise it",
+        "source": "The Decoder",
+        "summary": "Jack Clark argues in a long essay that the building blocks for AI systems training their own successors are largely in place. He puts the odds at 60 percent by the end of 2028. The article Anthropic co-founder maps out how recursive AI improvement could outpa...",
+        "href": "https://the-decoder.com/anthropic-co-founder-maps-out-how-recursive-ai-improvement-could-outpace-the-humans-meant-to-supervise-it/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/anthropic_logo_cybersecurity.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -908,16 +908,6 @@
     "date": "2026-05-05",
     "label": "May 5, 2026",
     "items": [
-      {
-        "id": "i-tested-google-maps-vs-apple-maps-to-find-the-b-855f86ec-may05",
-        "category": "Product Updates",
-        "title": "I tested Google Maps vs. Apple Maps to find the best navigation app - and this one wins",
-        "source": "ZDNet AI",
-        "summary": "Apple Maps has improved over the years, but how does it compare to Google Maps today? Here's which one is best.",
-        "href": "https://www.zdnet.com/article/google-maps-vs-apple-maps/",
-        "imageUrl": "https://www.zdnet.com/a/img/resize/93e41c7359fe13154cb4a714bcfccadc413c179a/2026/05/04/bc124274-1f48-4d8a-bfab-859396726dc0/google-maps-vs-apple-maps.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
       {
         "id": "reduce-friction-and-latency-for-long-running-job-3f523916-may05",
         "category": "Model Releases",
@@ -949,16 +939,6 @@
         "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
       },
       {
-        "id": "register-now-for-openclaw-after-hours-github-20b3f4ac-may05",
-        "category": "Developer Tools",
-        "title": "Register now for OpenClaw: After Hours @ GitHub",
-        "source": "GitHub Blog",
-        "summary": "OpenClaw builders will gather at GitHub HQ during Microsoft Build 2026 for demos and conversations. Join in person, or watch the livestream on Twitch. The post Register now for OpenClaw: After Hours @ GitHub appeared first on The GitHub Blog .",
-        "href": "https://github.blog/open-source/register-now-for-openclaw-after-hours-github/",
-        "imageUrl": "https://github.blog/wp-content/uploads/2026/05/openclaw-big.png?fit=2400%2C1260",
-        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
-      },
-      {
         "id": "microsoft-fixes-vs-code-after-app-gives-copilot-05bbdbfa-may05",
         "category": "Developer Tools",
         "title": "Microsoft fixes VS Code after app gives Copilot credit for human's work",
@@ -967,6 +947,26 @@
         "href": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/microsoft_reverses_ai_credit_grab/",
         "imageUrl": "https://regmedia.co.uk/2022/10/25/shutterstock_1494515318.jpg",
         "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-tested-google-maps-vs-apple-maps-to-find-the-b-855f86ec-may05",
+        "category": "Product Updates",
+        "title": "I tested Google Maps vs. Apple Maps to find the best navigation app - and this one wins",
+        "source": "ZDNet AI",
+        "summary": "Apple Maps has improved over the years, but how does it compare to Google Maps today? Here's which one is best.",
+        "href": "https://www.zdnet.com/article/google-maps-vs-apple-maps/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/93e41c7359fe13154cb4a714bcfccadc413c179a/2026/05/04/bc124274-1f48-4d8a-bfab-859396726dc0/google-maps-vs-apple-maps.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "top-search-and-fetch-apis-for-building-ai-agents-9b856218-may05",
+        "category": "Agents",
+        "title": "Top Search and Fetch APIs for Building AI Agents in 2026: Tools, Tradeoffs, and Free Tiers",
+        "source": "MarkTechPost",
+        "summary": "Discover the top search and fetch APIs for AI agents in 2026. Compare tools like TinyFish, Tavily, and Firecrawl based on latency, token efficiency, and free tiers to optimize your agent's web retrieval. The post Top Search and Fetch APIs for Building AI Agen...",
+        "href": "https://www.marktechpost.com/2026/05/04/top-search-and-fetch-apis-for-building-ai-agents-in-2026-tools-tradeoffs-and-free-tiers/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/search_fetch_api_table_2026-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
         "id": "lessons-on-ux-security-and-scale-when-building-a-84576f16-may05",
@@ -979,14 +979,14 @@
         "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window."
       },
       {
-        "id": "top-search-and-fetch-apis-for-building-ai-agents-9b856218-may05",
-        "category": "Agents",
-        "title": "Top Search and Fetch APIs for Building AI Agents in 2026: Tools, Tradeoffs, and Free Tiers",
-        "source": "MarkTechPost",
-        "summary": "Discover the top search and fetch APIs for AI agents in 2026. Compare tools like TinyFish, Tavily, and Firecrawl based on latency, token efficiency, and free tiers to optimize your agent's web retrieval. The post Top Search and Fetch APIs for Building AI Agen...",
-        "href": "https://www.marktechpost.com/2026/05/04/top-search-and-fetch-apis-for-building-ai-agents-in-2026-tools-tradeoffs-and-free-tiers/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/search_fetch_api_table_2026-1.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+        "id": "register-now-for-openclaw-after-hours-github-20b3f4ac-may05",
+        "category": "Developer Tools",
+        "title": "Register now for OpenClaw: After Hours @ GitHub",
+        "source": "GitHub Blog",
+        "summary": "OpenClaw builders will gather at GitHub HQ during Microsoft Build 2026 for demos and conversations. Join in person, or watch the livestream on Twitch. The post Register now for OpenClaw: After Hours @ GitHub appeared first on The GitHub Blog .",
+        "href": "https://github.blog/open-source/register-now-for-openclaw-after-hours-github/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/05/openclaw-big.png?fit=2400%2C1260",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -994,26 +994,6 @@
     "date": "2026-05-04",
     "label": "May 4, 2026",
     "items": [
-      {
-        "id": "i-tracked-3-000-steps-on-my-apple-watch-google-p-dd7c7043-may04",
-        "category": "Product Updates",
-        "title": "I tracked 3,000 steps on my Apple Watch, Google Pixel, and Oura Ring - this one was most accurate",
-        "source": "ZDNet AI",
-        "summary": "Just how reliable is that smartwatch or smart ring? I tested three of the most popular health trackers to find out.",
-        "href": "https://www.zdnet.com/article/step-tracking-apple-google-oura-health-trackers-accuracy/",
-        "imageUrl": "https://www.zdnet.com/a/img/resize/302b1f41ca65528d9fd4967dc0a2683ee3d1b0b7/2026/04/09/b6591326-e608-455d-a2e1-5a5871a360bf/img-4302-1.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "join-the-new-ai-agents-vibe-coding-course-from-g-8a4b231f-may04",
-        "category": "Developer Tools",
-        "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-        "source": "Google AI Blog",
-        "summary": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
-        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp",
-        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
-      },
       {
         "id": "openai-explains-why-chatgpt-suddenly-loved-gobli-b4d43e28-may04",
         "category": "Model Releases",
@@ -1023,16 +1003,6 @@
         "href": "https://mashable.com/article/openai-chatgpt-goblins-explanation",
         "imageUrl": "https://helios-i.mashable.com/imagery/articles/01oWJH29CHKaPqbNZHaVQZU/hero-image.fill.size_1200x675.v1777649479.jpg",
         "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "xai-launches-grok-4-3-at-an-aggressively-low-pri-8e93db74-may04",
-        "category": "Developer Tools",
-        "title": "xAI launches Grok 4.3 at an aggressively low price and a new, fast, powerful voice cloning suite",
-        "source": "VentureBeat",
-        "summary": "While Elon Musk faces off against his former colleague and OpenAI co-founder Sam Altman in court , Musk's rival firm xAI, founded to take on OpenAI, isn't slowing down on launching competitive new products and services. Last night, xAI shipped a new, propriet...",
-        "href": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite",
-        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/6c9N7ubweMcf8hAUjcDZIH/fb25ad47038633db57b73f2f45bc3225/FkIIbTjMYUsldxbqMHtky_g5BcjizZ.jpg?w=300&q=30",
-        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
       },
       {
         "id": "xiaomi-s-open-weight-mimo-v2-5-pro-takes-aim-at-5447e3af-may04",
@@ -1053,6 +1023,16 @@
         "href": "https://github.com/Hmbown/DeepSeek-TUI",
         "imageUrl": "https://opengraph.githubassets.com/78d2908a983eab5d410e9652e6acb381c46b85260fc76c80b7aa63972f8a15d1/Hmbown/DeepSeek-TUI",
         "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "xai-launches-grok-4-3-at-an-aggressively-low-pri-8e93db74-may04",
+        "category": "Developer Tools",
+        "title": "xAI launches Grok 4.3 at an aggressively low price and a new, fast, powerful voice cloning suite",
+        "source": "VentureBeat",
+        "summary": "While Elon Musk faces off against his former colleague and OpenAI co-founder Sam Altman in court , Musk's rival firm xAI, founded to take on OpenAI, isn't slowing down on launching competitive new products and services. Last night, xAI shipped a new, propriet...",
+        "href": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/6c9N7ubweMcf8hAUjcDZIH/fb25ad47038633db57b73f2f45bc3225/FkIIbTjMYUsldxbqMHtky_g5BcjizZ.jpg?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
       },
       {
         "id": "microsoft-caught-sneaking-co-authored-by-copilot-46011e62-may04",
@@ -1083,6 +1063,26 @@
         "href": "https://huggingface.co/blog/cybersecurity-openness",
         "imageUrl": "https://huggingface.co/blog/assets/cybersecurity-openness/detective_huggy_thumbnail.png",
         "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-tracked-3-000-steps-on-my-apple-watch-google-p-dd7c7043-may04",
+        "category": "Product Updates",
+        "title": "I tracked 3,000 steps on my Apple Watch, Google Pixel, and Oura Ring - this one was most accurate",
+        "source": "ZDNet AI",
+        "summary": "Just how reliable is that smartwatch or smart ring? I tested three of the most popular health trackers to find out.",
+        "href": "https://www.zdnet.com/article/step-tracking-apple-google-oura-health-trackers-accuracy/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/302b1f41ca65528d9fd4967dc0a2683ee3d1b0b7/2026/04/09/b6591326-e608-455d-a2e1-5a5871a360bf/img-4302-1.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "join-the-new-ai-agents-vibe-coding-course-from-g-8a4b231f-may04",
+        "category": "Developer Tools",
+        "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+        "source": "Google AI Blog",
+        "summary": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
+        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -1090,16 +1090,6 @@
     "date": "2026-05-03",
     "label": "May 3, 2026",
     "items": [
-      {
-        "id": "how-i-scan-documents-with-my-android-phone-and-t-5e7b0d6f-may03",
-        "category": "Product Updates",
-        "title": "How I scan documents with my Android phone and turn them into PDFs for free - it's easy",
-        "source": "ZDNet AI",
-        "summary": "Need to make a PDF from your Android phone? You can use Google's free tool to scan and create documents in seconds. Here's how.",
-        "href": "https://www.zdnet.com/article/how-to-scan-documents-and-turn-into-pdfs-on-android/",
-        "imageUrl": "https://www.zdnet.com/a/img/resize/c5d4b401cfacd84e1c23bf205177352255729e2e/2026/04/29/9c2174d6-4b16-481a-b563-cdc03e58c0ef/pdfscanhero2.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
       {
         "id": "gemini-is-rolling-out-to-cars-with-google-built-849c8973-may03",
         "category": "Developer Tools",
@@ -1109,26 +1099,6 @@
         "href": "https://www.theverge.com/tech/921117/google-gemini-ai-assistant-cars-upgrade",
         "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Google-Gemini-car-AI-assistant-upgrade.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
         "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "even-the-latest-ai-models-make-three-systematic-376d1bc9-may03",
-        "category": "Developer Tools",
-        "title": "Even the latest AI models make three systematic reasoning errors, ARC-AGI-3 analysis shows",
-        "source": "The Decoder",
-        "summary": "The ARC Prize Foundation analyzed 160 game runs of OpenAI's GPT-5.5 and Anthropic's Opus 4.7 on the ARC-AGI-3 benchmark. Three systematic error patterns explain why both models stay below 1 percent on tasks that humans can solve without much trouble. The arti...",
-        "href": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/arc-agi-benchmark.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "elon-musk-calls-himself-a-fool-for-giving-openai-9f48ac2f-may03",
-        "category": "Developer Tools",
-        "title": "Elon Musk calls himself a fool for giving OpenAI $38 million that became an $800 billion company",
-        "source": "The Decoder",
-        "summary": "Elon Musk called himself a \"fool\" in court, warned of a \"Terminator\" future, and admitted that xAI taps OpenAI's models for its own AI training. Week one of Musk's trial against Sam Altman delivered plenty of drama; and the best may still be ahead. The articl...",
-        "href": "https://the-decoder.com/elon-musk-calls-himself-a-fool-for-giving-openai-38-million-that-became-an-800-billion-company/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/sam_altman_vs_elon_musk.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
         "id": "deepseek-v4-a-million-token-context-that-agents-b2ff62f9-may03",
@@ -1151,16 +1121,6 @@
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
-        "id": "eight-tech-giants-sign-pentagon-deals-to-build-a-46f23a9c-may03",
-        "category": "Developer Tools",
-        "title": "Eight tech giants sign Pentagon deals to build an \"AI-first fighting force\" across classified networks",
-        "source": "The Decoder",
-        "summary": "Eight tech companies are supplying AI for classified US military networks, part of the Pentagon's push to build an \"AI-first fighting force.\" Anthropic is notably absent from the list after the company rejected a usage clause and got flagged as a security ris...",
-        "href": "https://the-decoder.com/eight-tech-giants-sign-pentagon-deals-to-build-an-ai-first-fighting-force-across-classified-networks/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/pentagon_AI_strategy.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
         "id": "introducing-nvidia-nemotron-3-nano-omni-long-con-5b7c46b2-may03",
         "category": "Developer Tools",
         "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
@@ -1169,6 +1129,46 @@
         "href": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
         "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence.png",
         "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-i-scan-documents-with-my-android-phone-and-t-5e7b0d6f-may03",
+        "category": "Product Updates",
+        "title": "How I scan documents with my Android phone and turn them into PDFs for free - it's easy",
+        "source": "ZDNet AI",
+        "summary": "Need to make a PDF from your Android phone? You can use Google's free tool to scan and create documents in seconds. Here's how.",
+        "href": "https://www.zdnet.com/article/how-to-scan-documents-and-turn-into-pdfs-on-android/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/c5d4b401cfacd84e1c23bf205177352255729e2e/2026/04/29/9c2174d6-4b16-481a-b563-cdc03e58c0ef/pdfscanhero2.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "even-the-latest-ai-models-make-three-systematic-376d1bc9-may03",
+        "category": "Developer Tools",
+        "title": "Even the latest AI models make three systematic reasoning errors, ARC-AGI-3 analysis shows",
+        "source": "The Decoder",
+        "summary": "The ARC Prize Foundation analyzed 160 game runs of OpenAI's GPT-5.5 and Anthropic's Opus 4.7 on the ARC-AGI-3 benchmark. Three systematic error patterns explain why both models stay below 1 percent on tasks that humans can solve without much trouble. The arti...",
+        "href": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/arc-agi-benchmark.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "elon-musk-calls-himself-a-fool-for-giving-openai-9f48ac2f-may03",
+        "category": "Developer Tools",
+        "title": "Elon Musk calls himself a fool for giving OpenAI $38 million that became an $800 billion company",
+        "source": "The Decoder",
+        "summary": "Elon Musk called himself a \"fool\" in court, warned of a \"Terminator\" future, and admitted that xAI taps OpenAI's models for its own AI training. Week one of Musk's trial against Sam Altman delivered plenty of drama; and the best may still be ahead. The articl...",
+        "href": "https://the-decoder.com/elon-musk-calls-himself-a-fool-for-giving-openai-38-million-that-became-an-800-billion-company/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/sam_altman_vs_elon_musk.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "eight-tech-giants-sign-pentagon-deals-to-build-a-46f23a9c-may03",
+        "category": "Developer Tools",
+        "title": "Eight tech giants sign Pentagon deals to build an \"AI-first fighting force\" across classified networks",
+        "source": "The Decoder",
+        "summary": "Eight tech companies are supplying AI for classified US military networks, part of the Pentagon's push to build an \"AI-first fighting force.\" Anthropic is notably absent from the list after the company rejected a usage clause and got flagged as a security ris...",
+        "href": "https://the-decoder.com/eight-tech-giants-sign-pentagon-deals-to-build-an-ai-first-fighting-force-across-classified-networks/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/pentagon_AI_strategy.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -1187,36 +1187,6 @@
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
       },
       {
-        "id": "200-000-mcp-servers-expose-a-command-execution-f-56306432-may02",
-        "category": "Developer Tools",
-        "title": "200,000 MCP servers expose a command execution flaw that Anthropic calls a feature",
-        "source": "VentureBeat",
-        "summary": "Anthropic created the Model Context Protocol as the open standard for AI agent-to-tool communication. OpenAI adopted it in March 2025 . Google DeepMind followed. Anthropic donated MCP to the Linux Foundation in December 2025. Downloads crossed 150 million. Th...",
-        "href": "https://venturebeat.com/security/mcp-stdio-flaw-200000-ai-agent-servers-exposed-ox-security-audit",
-        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5zcdzz8S6R9xMQCRiaArOG/1290a9dbaee30dd37a47fefa5b656922/ANTHROPIC.png?w=300&q=30",
-        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "all-the-evidence-revealed-so-far-in-musk-v-altma-814f8d51-may02",
-        "category": "Developer Tools",
-        "title": "All the evidence revealed so far in Musk v. Altman",
-        "source": "The Verge AI",
-        "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from be...",
-        "href": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268474_musk_vs_altman_CVirginia6.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "i-used-photoshop-s-new-ai-tool-to-rotate-objects-30ffd38d-may02",
-        "category": "Product Updates",
-        "title": "I used Photoshop's new AI tool to rotate objects in 3D, and it's pure magic",
-        "source": "ZDNet AI",
-        "summary": "Adobe's AI-enabled Rotate Object tool can do some really cool things, but human skill is still crucial for success.",
-        "href": "https://www.zdnet.com/article/adobe-photoshop-new-3d-object-rotation-tool-hands-on/",
-        "imageUrl": "https://www.zdnet.com/a/img/resize/9cd519860c99dc6078a473c0f80670a9d1432707/2026/05/01/747e6e3a-47fb-478e-8913-d7fce64c8549/i-used-photoshops-new-ai-tool-to-rotate-objects-in-3d-and-its-pure-magic.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
-      {
         "id": "minnesota-passes-ban-on-fake-ai-nudes-app-makers-e0cc2e29-may02",
         "category": "Developer Tools",
         "title": "Minnesota passes ban on fake AI nudes; app makers risk $500K fines",
@@ -1225,36 +1195,6 @@
         "href": "https://arstechnica.com/tech-policy/2026/05/minnesota-set-to-be-first-state-to-ban-nudification-apps/",
         "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-1211553945-1152x648.jpg",
         "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "pentagon-inks-deals-with-nvidia-microsoft-and-aw-33c1ee68-may02",
-        "category": "Model Releases",
-        "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
-        "source": "TechCrunch",
-        "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
-        "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2021/07/GettyImages-1292192586.jpg?resize=1200,900",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "andy-serkis-on-animal-farm-george-orwell-and-ai-915f393e-may02",
-        "category": "Product Updates",
-        "title": "Andy Serkis on Animal Farm, George Orwell, and AI in Hollywood",
-        "source": "Mashable",
-        "summary": "\"Animal Farm\" director Andy Serkis breaks down his George Orwell adaptation, including why he added a new character: piglet Lucky.",
-        "href": "https://mashable.com/video/andy-serkis-interview-animal-farm",
-        "imageUrl": "https://helios-i.mashable.com/imagery/videos/04rjSM4XVfbwtO36oKglzDO/hero-image.fill.size_1200x675.v1777639935.jpg",
-        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "qwen-ai-releases-qwen-scope-an-open-source-spars-efb00c05-may02",
-        "category": "Developer Tools",
-        "title": "Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Pract...",
-        "source": "MarkTechPost",
-        "summary": "Qwen Team Introduces Qwen-Scope: An Open-Source Sparse Autoencoder Suite That Turns LLM Internals into Practical Development Tools The post Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Pract...",
-        "href": "https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-1.00.12-AM-1.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
         "id": "severe-linux-copy-fail-security-flaw-uncovered-u-549d7080-may02",
@@ -1275,6 +1215,66 @@
         "href": "https://news.mit.edu/2026/improving-understanding-language-olivia-honeycutt-0501",
         "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202603/mit-shass-Olivia-Honeycutt.jpg?itok=kUUeKYli",
         "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-used-photoshop-s-new-ai-tool-to-rotate-objects-30ffd38d-may02",
+        "category": "Product Updates",
+        "title": "I used Photoshop's new AI tool to rotate objects in 3D, and it's pure magic",
+        "source": "ZDNet AI",
+        "summary": "Adobe's AI-enabled Rotate Object tool can do some really cool things, but human skill is still crucial for success.",
+        "href": "https://www.zdnet.com/article/adobe-photoshop-new-3d-object-rotation-tool-hands-on/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/9cd519860c99dc6078a473c0f80670a9d1432707/2026/05/01/747e6e3a-47fb-478e-8913-d7fce64c8549/i-used-photoshops-new-ai-tool-to-rotate-objects-in-3d-and-its-pure-magic.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "andy-serkis-on-animal-farm-george-orwell-and-ai-915f393e-may02",
+        "category": "Product Updates",
+        "title": "Andy Serkis on Animal Farm, George Orwell, and AI in Hollywood",
+        "source": "Mashable",
+        "summary": "\"Animal Farm\" director Andy Serkis breaks down his George Orwell adaptation, including why he added a new character: piglet Lucky.",
+        "href": "https://mashable.com/video/andy-serkis-interview-animal-farm",
+        "imageUrl": "https://helios-i.mashable.com/imagery/videos/04rjSM4XVfbwtO36oKglzDO/hero-image.fill.size_1200x675.v1777639935.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "pentagon-inks-deals-with-nvidia-microsoft-and-aw-33c1ee68-may02",
+        "category": "Model Releases",
+        "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+        "source": "TechCrunch",
+        "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
+        "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2021/07/GettyImages-1292192586.jpg?resize=1200,900",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "qwen-ai-releases-qwen-scope-an-open-source-spars-efb00c05-may02",
+        "category": "Developer Tools",
+        "title": "Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Pract...",
+        "source": "MarkTechPost",
+        "summary": "Qwen Team Introduces Qwen-Scope: An Open-Source Sparse Autoencoder Suite That Turns LLM Internals into Practical Development Tools The post Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Pract...",
+        "href": "https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-1.00.12-AM-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "all-the-evidence-revealed-so-far-in-musk-v-altma-814f8d51-may02",
+        "category": "Developer Tools",
+        "title": "All the evidence revealed so far in Musk v. Altman",
+        "source": "The Verge AI",
+        "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from be...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268474_musk_vs_altman_CVirginia6.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "200-000-mcp-servers-expose-a-command-execution-f-56306432-may02",
+        "category": "Developer Tools",
+        "title": "200,000 MCP servers expose a command execution flaw that Anthropic calls a feature",
+        "source": "VentureBeat",
+        "summary": "Anthropic created the Model Context Protocol as the open standard for AI agent-to-tool communication. OpenAI adopted it in March 2025 . Google DeepMind followed. Anthropic donated MCP to the Linux Foundation in December 2025. Downloads crossed 150 million. Th...",
+        "href": "https://venturebeat.com/security/mcp-stdio-flaw-200000-ai-agent-servers-exposed-ox-security-audit",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5zcdzz8S6R9xMQCRiaArOG/1290a9dbaee30dd37a47fefa5b656922/ANTHROPIC.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -1282,36 +1282,6 @@
     "date": "2026-05-01",
     "label": "May 1, 2026",
     "items": [
-      {
-        "id": "firefox-maker-torches-google-for-building-prompt-d795798d-may01",
-        "category": "Product Updates",
-        "title": "Firefox maker torches Google for building Prompt API into browser",
-        "source": "The Register AI",
-        "summary": "Mozilla fears wiring an AI API into Chrome will make the web less open Updated Mozilla has reiterated its opposition to Google's decision to build AI plumbing into its Chrome browser, though rather belatedly now that the technology, known as the Prompt API, i...",
-        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/mozilla_pushes_back_against_googles/",
-        "imageUrl": "https://regmedia.co.uk/2022/09/30/chrome_with_chains.jpg",
-        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "microsoft-ceo-satya-nadella-says-ai-success-is-m-725f1abc-may01",
-        "category": "Developer Tools",
-        "title": "Microsoft CEO Satya Nadella says AI success is \"more about getting intense users and intense usage\" than seat counts",
-        "source": "The Decoder",
-        "summary": "Microsoft is posting record profits and strong cloud growth, but just like Google, the company is saying little about how its generative AI business is actually performing. The article Microsoft CEO Satya Nadella says AI success is \"more about getting intense...",
-        "href": "https://the-decoder.com/microsoft-ceo-satya-nadella-says-ai-success-is-more-about-getting-intense-users-and-intense-usage-than-seat-counts/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/microsoft_neural_network.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "everything-you-need-to-know-about-elon-musks-ope-efbbf270-may01",
-        "category": "Product Updates",
-        "title": "Everything you need to know about Elon Musks OpenAI testimony",
-        "source": "Mashable",
-        "summary": "TL;DR: Musk doesn't understand what \"TL;DR\" stands for.",
-        "href": "https://mashable.com/article/musk-openai-trial-testimony",
-        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00ST6klDlzPw71TKLNwhGTm/hero-image.fill.size_1200x675.v1777591577.jpg",
-        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
-      },
       {
         "id": "i-tested-chatgpt-and-perplexity-ai-as-my-carplay-04387f1b-may01",
         "category": "Developer Tools",
@@ -1321,26 +1291,6 @@
         "href": "https://www.zdnet.com/article/chatgpt-perplexity-ai-carplay-voice-assistant/",
         "imageUrl": "assets/news/bright-productivity.svg",
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "writer-launches-ai-agents-that-can-act-without-p-386e9dd5-may01",
-        "category": "Developer Tools",
-        "title": "Writer launches AI agents that can act without prompts, taking on Amazon, Microsoft and Salesforce",
-        "source": "VentureBeat",
-        "summary": "Writer , the enterprise AI agent platform backed by Salesforce Ventures , Adobe Ventures , and Insight Partners , today launched event-based triggers for its Writer Agent platform, enabling AI agents to autonomously detect business signals across Gmail, Gong,...",
-        "href": "https://venturebeat.com/technology/writer-launches-ai-agents-that-can-act-without-prompts-taking-on-amazon-microsoft-and-salesforce",
-        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/2A4wsP5BX8u0ZylzUEOncb/d97852834fdd610f61a1f5d79609d4ea/nuneybits_Vector_art_of_robot_secretary_typing_on_glowing_typew_bdb6fb50-e1f2-4f80-a241-560e6d906a91.webp?w=300&q=30",
-        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "netomi-raises-110-million-as-accenture-and-adobe-5b1bffb8-may01",
-        "category": "Developer Tools",
-        "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service",
-        "source": "VentureBeat",
-        "summary": "Netomi , the San Francisco-based startup building AI systems for enterprise customer service, said Thursday that it has raised $110 million in new funding in a round led by Accenture Ventures , with participation from Adobe Ventures , WndrCo , Silver Lake Wat...",
-        "href": "https://venturebeat.com/technology/netomi-raises-110-million-as-accenture-and-adobe-bet-on-ai-for-customer-service",
-        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/17Z7TzwDGYPOr36mKN8hXV/14fcfd667d19fd9d96b2de2371783baa/nuneybits_Vector_art_of_a_customer_service_headset_dissolving_i_1435a88a-3615-4579-bf8d-fa3f812f8e62.webp?w=300&q=30",
-        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
       },
       {
         "id": "anthropic-s-new-claude-security-tool-scans-your-b7a47af7-may01",
@@ -1373,6 +1323,16 @@
         "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
       },
       {
+        "id": "firefox-maker-torches-google-for-building-prompt-d795798d-may01",
+        "category": "Product Updates",
+        "title": "Firefox maker torches Google for building Prompt API into browser",
+        "source": "The Register AI",
+        "summary": "Mozilla fears wiring an AI API into Chrome will make the web less open Updated Mozilla has reiterated its opposition to Google's decision to build AI plumbing into its Chrome browser, though rather belatedly now that the technology, known as the Prompt API, i...",
+        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/mozilla_pushes_back_against_googles/",
+        "imageUrl": "https://regmedia.co.uk/2022/09/30/chrome_with_chains.jpg",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
         "id": "cursor-introduces-a-typescript-sdk-for-building-ab02e967-may01",
         "category": "Developer Tools",
         "title": "Cursor Introduces a TypeScript SDK for Building Programmatic Coding Agents With Sandboxed Cloud VMs, Subagents, Hooks,...",
@@ -1381,6 +1341,46 @@
         "href": "https://www.marktechpost.com/2026/04/29/cursor-introduces-a-typescript-sdk-for-building-programmatic-coding-agents-with-sandboxed-cloud-vms-subagents-hooks-and-token-based-pricing/",
         "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-90.png",
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "everything-you-need-to-know-about-elon-musks-ope-efbbf270-may01",
+        "category": "Product Updates",
+        "title": "Everything you need to know about Elon Musks OpenAI testimony",
+        "source": "Mashable",
+        "summary": "TL;DR: Musk doesn't understand what \"TL;DR\" stands for.",
+        "href": "https://mashable.com/article/musk-openai-trial-testimony",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00ST6klDlzPw71TKLNwhGTm/hero-image.fill.size_1200x675.v1777591577.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "writer-launches-ai-agents-that-can-act-without-p-386e9dd5-may01",
+        "category": "Developer Tools",
+        "title": "Writer launches AI agents that can act without prompts, taking on Amazon, Microsoft and Salesforce",
+        "source": "VentureBeat",
+        "summary": "Writer , the enterprise AI agent platform backed by Salesforce Ventures , Adobe Ventures , and Insight Partners , today launched event-based triggers for its Writer Agent platform, enabling AI agents to autonomously detect business signals across Gmail, Gong,...",
+        "href": "https://venturebeat.com/technology/writer-launches-ai-agents-that-can-act-without-prompts-taking-on-amazon-microsoft-and-salesforce",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/2A4wsP5BX8u0ZylzUEOncb/d97852834fdd610f61a1f5d79609d4ea/nuneybits_Vector_art_of_robot_secretary_typing_on_glowing_typew_bdb6fb50-e1f2-4f80-a241-560e6d906a91.webp?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "netomi-raises-110-million-as-accenture-and-adobe-5b1bffb8-may01",
+        "category": "Developer Tools",
+        "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service",
+        "source": "VentureBeat",
+        "summary": "Netomi , the San Francisco-based startup building AI systems for enterprise customer service, said Thursday that it has raised $110 million in new funding in a round led by Accenture Ventures , with participation from Adobe Ventures , WndrCo , Silver Lake Wat...",
+        "href": "https://venturebeat.com/technology/netomi-raises-110-million-as-accenture-and-adobe-bet-on-ai-for-customer-service",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/17Z7TzwDGYPOr36mKN8hXV/14fcfd667d19fd9d96b2de2371783baa/nuneybits_Vector_art_of_a_customer_service_headset_dissolving_i_1435a88a-3615-4579-bf8d-fa3f812f8e62.webp?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-ceo-satya-nadella-says-ai-success-is-m-725f1abc-may01",
+        "category": "Developer Tools",
+        "title": "Microsoft CEO Satya Nadella says AI success is \"more about getting intense users and intense usage\" than seat counts",
+        "source": "The Decoder",
+        "summary": "Microsoft is posting record profits and strong cloud growth, but just like Google, the company is saying little about how its generative AI business is actually performing. The article Microsoft CEO Satya Nadella says AI success is \"more about getting intense...",
+        "href": "https://the-decoder.com/microsoft-ceo-satya-nadella-says-ai-success-is-more-about-getting-intense-users-and-intense-usage-than-seat-counts/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/microsoft_neural_network.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -1388,56 +1388,6 @@
     "date": "2026-04-30",
     "label": "April 30, 2026",
     "items": [
-      {
-        "id": "google-gains-25m-subscriptions-in-q1-driven-by-y-ea12b04b-apr30",
-        "category": "Product Updates",
-        "title": "Google gains 25M subscriptions in Q1, driven by YouTube and Google One",
-        "source": "TechCrunch",
-        "summary": "Google added 25M paid subscriptions in Q1, reaching 350M total, as YouTube and Google One grow.",
-        "href": "https://techcrunch.com/2026/04/29/google-gains-25m-subscriptions-in-q1-driven-by-youtube-and-google-one/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2020/06/GettyImages-1149449083.jpg?resize=1200,800",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "google-cloud-surpasses-20b-but-says-growth-was-c-f4817a46-apr30",
-        "category": "Product Updates",
-        "title": "Google Cloud surpasses $20B, but says growth was capacity-constrained",
-        "source": "TechCrunch",
-        "summary": "Google Cloud topped $20B in quarterly revenue for the first time, fueled by surging demand for AI. But capacity constraints mean it could have grown even faster.",
-        "href": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2266466589.jpg?w=1024",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "step-by-step-guide-to-build-a-complete-pii-detec-84201ae4-apr30",
-        "category": "Developer Tools",
-        "title": "Step by Step Guide to Build a Complete PII Detection and Redaction Pipeline with OpenAI Privacy Filter",
-        "source": "MarkTechPost",
-        "summary": "In this tutorial, we build a complete, production-style pipeline for detecting and redacting personally identifiable information using the OpenAI Privacy Filter. We begin by setting up the environment and loading a token classification model that identifies m...",
-        "href": "https://www.marktechpost.com/2026/04/29/step-by-step-guide-to-build-a-complete-pii-detection-and-redaction-pipeline-with-openai-privacy-filter/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-1-22.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "openai-researchers-explain-why-math-is-the-road-cb37a856-apr30",
-        "category": "Developer Tools",
-        "title": "OpenAI researchers explain why math is the road to AGI",
-        "source": "The Decoder",
-        "summary": "AI models have jumped from grade-school arithmetic to olympiad-level and research mathematics in only two years. In the OpenAI Podcast, OpenAI researchers Sebastian Bubeck and Ernest Ryu explain why math has become the key test on the road to artificial gener...",
-        "href": "https://the-decoder.com/openai-researchers-explain-why-math-is-the-road-to-agi/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/12/ai_in_science_math.jpeg",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "white-house-moves-to-restore-anthropic-access-af-09d5e84c-apr30",
-        "category": "Developer Tools",
-        "title": "White House moves to restore Anthropic access after Pentagon standoff",
-        "source": "The Decoder",
-        "summary": "The White House is drafting guidance that would let federal agencies work with Anthropic again, including access to the company's new model Mythos. The article White House moves to restore Anthropic access after Pentagon standoff appeared first on The Decoder...",
-        "href": "https://the-decoder.com/white-house-moves-to-restore-anthropic-access-after-pentagon-standoff/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/anthropic_pentagon-2.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
       {
         "id": "sources-anthropic-could-raise-a-new-50b-round-at-50738bf0-apr30",
         "category": "Funding",
@@ -1467,6 +1417,56 @@
         "href": "https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/",
         "imageUrl": "https://github.blog/wp-content/uploads/2026/04/command-cecnter.png?fit=1920%2C1080",
         "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-gains-25m-subscriptions-in-q1-driven-by-y-ea12b04b-apr30",
+        "category": "Product Updates",
+        "title": "Google gains 25M subscriptions in Q1, driven by YouTube and Google One",
+        "source": "TechCrunch",
+        "summary": "Google added 25M paid subscriptions in Q1, reaching 350M total, as YouTube and Google One grow.",
+        "href": "https://techcrunch.com/2026/04/29/google-gains-25m-subscriptions-in-q1-driven-by-youtube-and-google-one/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2020/06/GettyImages-1149449083.jpg?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-cloud-surpasses-20b-but-says-growth-was-c-f4817a46-apr30",
+        "category": "Product Updates",
+        "title": "Google Cloud surpasses $20B, but says growth was capacity-constrained",
+        "source": "TechCrunch",
+        "summary": "Google Cloud topped $20B in quarterly revenue for the first time, fueled by surging demand for AI. But capacity constraints mean it could have grown even faster.",
+        "href": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2266466589.jpg?w=1024",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "white-house-moves-to-restore-anthropic-access-af-09d5e84c-apr30",
+        "category": "Developer Tools",
+        "title": "White House moves to restore Anthropic access after Pentagon standoff",
+        "source": "The Decoder",
+        "summary": "The White House is drafting guidance that would let federal agencies work with Anthropic again, including access to the company's new model Mythos. The article White House moves to restore Anthropic access after Pentagon standoff appeared first on The Decoder...",
+        "href": "https://the-decoder.com/white-house-moves-to-restore-anthropic-access-after-pentagon-standoff/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/anthropic_pentagon-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "step-by-step-guide-to-build-a-complete-pii-detec-84201ae4-apr30",
+        "category": "Developer Tools",
+        "title": "Step by Step Guide to Build a Complete PII Detection and Redaction Pipeline with OpenAI Privacy Filter",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we build a complete, production-style pipeline for detecting and redacting personally identifiable information using the OpenAI Privacy Filter. We begin by setting up the environment and loading a token classification model that identifies m...",
+        "href": "https://www.marktechpost.com/2026/04/29/step-by-step-guide-to-build-a-complete-pii-detection-and-redaction-pipeline-with-openai-privacy-filter/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-1-22.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-researchers-explain-why-math-is-the-road-cb37a856-apr30",
+        "category": "Developer Tools",
+        "title": "OpenAI researchers explain why math is the road to AGI",
+        "source": "The Decoder",
+        "summary": "AI models have jumped from grade-school arithmetic to olympiad-level and research mathematics in only two years. In the OpenAI Podcast, OpenAI researchers Sebastian Bubeck and Ernest Ryu explain why math has become the key test on the road to artificial gener...",
+        "href": "https://the-decoder.com/openai-researchers-explain-why-math-is-the-road-to-agi/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/12/ai_in_science_math.jpeg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -1474,46 +1474,6 @@
     "date": "2026-04-29",
     "label": "April 29, 2026",
     "items": [
-      {
-        "id": "google-cloud-introduces-agents-cli-to-streamline-1eeff792-apr29",
-        "category": "Agents",
-        "title": "Google Cloud Introduces Agents CLI to Streamline AI Agent Development Lifecycle",
-        "source": "InfoQ AI",
-        "summary": "Google Cloud has introduced Agents CLI within its Agent Platform, aiming to streamline the development lifecycle of AI agents from local prototyping to production deployment. The release targets a common challenge in agent development, where tooling and infra...",
-        "href": "https://www.infoq.com/news/2026/04/agents-cli-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-        "imageUrl": "https://res.infoq.com/news/2026/04/agents-cli-google-cloud/en/headerimage/generatedHeaderImage-1777398240597.jpg",
-        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "google-signs-ai-deal-with-the-pentagon-ignoring-069bc604-apr29",
-        "category": "Developer Tools",
-        "title": "Google signs AI deal with the Pentagon, ignoring protest from over 600 employees",
-        "source": "The Decoder",
-        "summary": "Despite an open letter from hundreds of employees, Google has signed a contract giving the U.S. Department of Defense access to its AI models for classified work. Legal experts say the contract's safety clauses aren't legally binding. The article Google signs...",
-        "href": "https://the-decoder.com/google-signs-ai-deal-with-the-pentagon-ignoring-protest-from-over-600-employees/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_anthropic_google_pentagon-scaled.jpg",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "at-his-openai-trial-musk-relitigates-an-old-frie-2c170000-apr29",
-        "category": "Product Updates",
-        "title": "At his OpenAI trial, Musk relitigates an old friendship",
-        "source": "TechCrunch",
-        "summary": "It's a story Musk has told before -- in interviews and to author Walter Isaacson for his bestselling biography of Musk -- but Tuesday was the first time he said it under oath.",
-        "href": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2016/07/a3c4057e7d804c79b4bfb3278f4afced.jpg?resize=1200,675",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "how-to-build-traceable-and-evaluated-llm-workflo-3a36db5f-apr29",
-        "category": "Agents",
-        "title": "How to Build Traceable and Evaluated LLM Workflows Using Promptflow, Prompty, and OpenAI",
-        "source": "MarkTechPost",
-        "summary": "In this tutorial, we build a complete, production-style LLM workflow using Promptflow within a Colab environment. We begin by setting up a reliable keyring backend to avoid OS dependency issues and securely configure our OpenAI connection. From there, we esta...",
-        "href": "https://www.marktechpost.com/2026/04/28/how-to-build-traceable-and-evaluated-llm-workflows-using-promptflow-prompty-and-openai/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-84-1024x731.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
-      },
       {
         "id": "from-developer-desks-to-the-whole-organization-r-9ba53ef0-apr29",
         "category": "Developer Tools",
@@ -1523,26 +1483,6 @@
         "href": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/",
         "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/21/ml-20855-1120x630.png",
         "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "anthropic-s-magic-code-sniffer-more-swiss-cheese-5167d891-apr29",
-        "category": "Developer Tools",
-        "title": "Anthropic's magic code-sniffer: More Swiss cheese than cheddar, for now",
-        "source": "The Register AI",
-        "summary": "AI vuln-hunter finds what humans taught it to find. Funny that Opinion In retrospect, calling it Mythos made it a hostage to fortune. Anthropic may have hoped that the name implied its AI code security model had mythical god-like powers, but there's an altern...",
-        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/anthropics_magic_codesniffer_more_swiss/",
-        "imageUrl": "https://regmedia.co.uk/2016/08/09/swisscheese.jpg",
-        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "securing-the-git-push-pipeline-responding-to-a-c-b83b06fe-apr29",
-        "category": "Developer Tools",
-        "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
-        "source": "GitHub Blog",
-        "summary": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation. The post Securing the git push pipeline: Responding to a critical remote code execution vulnerability appeared first on The GitHub Blog .",
-        "href": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
-        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-security-logo-blocks-github.png",
-        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
       },
       {
         "id": "github-will-start-charging-copilot-users-based-o-1e374899-apr29",
@@ -1575,14 +1515,14 @@
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
-        "id": "meta-fair-releases-neuralset-a-python-package-fo-de196fe1-apr29",
-        "category": "Research Workflows",
-        "title": "Meta FAIR Releases NeuralSet: A Python Package for Neuro-AI That Supports fMRI, M/EEG, Spikes, and HuggingFace Embeddin...",
-        "source": "MarkTechPost",
-        "summary": "Introducing NeuralSet: Meta's Simple, Fast, and Scalable Python Package That Bridges Neuroscience and AI The post Meta FAIR Releases NeuralSet: A Python Package for Neuro-AI That Supports fMRI, M/EEG, Spikes, and HuggingFace Embeddings appeared first on MarkT...",
-        "href": "https://www.marktechpost.com/2026/04/29/meta-fair-releases-neuralset-a-python-package-for-neuro-ai-that-supports-fmri-m-eeg-spikes-and-huggingface-embeddings/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/Screenshot-2026-04-29-at-12.54.07-AM-1.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+        "id": "at-his-openai-trial-musk-relitigates-an-old-frie-2c170000-apr29",
+        "category": "Product Updates",
+        "title": "At his OpenAI trial, Musk relitigates an old friendship",
+        "source": "TechCrunch",
+        "summary": "It's a story Musk has told before -- in interviews and to author Walter Isaacson for his bestselling biography of Musk -- but Tuesday was the first time he said it under oath.",
+        "href": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2016/07/a3c4057e7d804c79b4bfb3278f4afced.jpg?resize=1200,675",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
       },
       {
         "id": "enabling-privacy-preserving-ai-training-on-every-9ea28709-apr29",
@@ -1593,6 +1533,66 @@
         "href": "https://news.mit.edu/2026/enabling-privacy-preserving-ai-training-everyday-devices-0429",
         "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202604/MIT-Federated-Constrained-01-press.jpg?itok=ILr4mnWw",
         "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-build-traceable-and-evaluated-llm-workflo-3a36db5f-apr29",
+        "category": "Agents",
+        "title": "How to Build Traceable and Evaluated LLM Workflows Using Promptflow, Prompty, and OpenAI",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we build a complete, production-style LLM workflow using Promptflow within a Colab environment. We begin by setting up a reliable keyring backend to avoid OS dependency issues and securely configure our OpenAI connection. From there, we esta...",
+        "href": "https://www.marktechpost.com/2026/04/28/how-to-build-traceable-and-evaluated-llm-workflows-using-promptflow-prompty-and-openai/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-84-1024x731.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-cloud-introduces-agents-cli-to-streamline-1eeff792-apr29",
+        "category": "Agents",
+        "title": "Google Cloud Introduces Agents CLI to Streamline AI Agent Development Lifecycle",
+        "source": "InfoQ AI",
+        "summary": "Google Cloud has introduced Agents CLI within its Agent Platform, aiming to streamline the development lifecycle of AI agents from local prototyping to production deployment. The release targets a common challenge in agent development, where tooling and infra...",
+        "href": "https://www.infoq.com/news/2026/04/agents-cli-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/04/agents-cli-google-cloud/en/headerimage/generatedHeaderImage-1777398240597.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "securing-the-git-push-pipeline-responding-to-a-c-b83b06fe-apr29",
+        "category": "Developer Tools",
+        "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
+        "source": "GitHub Blog",
+        "summary": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation. The post Securing the git push pipeline: Responding to a critical remote code execution vulnerability appeared first on The GitHub Blog .",
+        "href": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-security-logo-blocks-github.png",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-signs-ai-deal-with-the-pentagon-ignoring-069bc604-apr29",
+        "category": "Developer Tools",
+        "title": "Google signs AI deal with the Pentagon, ignoring protest from over 600 employees",
+        "source": "The Decoder",
+        "summary": "Despite an open letter from hundreds of employees, Google has signed a contract giving the U.S. Department of Defense access to its AI models for classified work. Legal experts say the contract's safety clauses aren't legally binding. The article Google signs...",
+        "href": "https://the-decoder.com/google-signs-ai-deal-with-the-pentagon-ignoring-protest-from-over-600-employees/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_anthropic_google_pentagon-scaled.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-s-magic-code-sniffer-more-swiss-cheese-5167d891-apr29",
+        "category": "Developer Tools",
+        "title": "Anthropic's magic code-sniffer: More Swiss cheese than cheddar, for now",
+        "source": "The Register AI",
+        "summary": "AI vuln-hunter finds what humans taught it to find. Funny that Opinion In retrospect, calling it Mythos made it a hostage to fortune. Anthropic may have hoped that the name implied its AI code security model had mythical god-like powers, but there's an altern...",
+        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/anthropics_magic_codesniffer_more_swiss/",
+        "imageUrl": "https://regmedia.co.uk/2016/08/09/swisscheese.jpg",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meta-fair-releases-neuralset-a-python-package-fo-de196fe1-apr29",
+        "category": "Research Workflows",
+        "title": "Meta FAIR Releases NeuralSet: A Python Package for Neuro-AI That Supports fMRI, M/EEG, Spikes, and HuggingFace Embeddin...",
+        "source": "MarkTechPost",
+        "summary": "Introducing NeuralSet: Meta's Simple, Fast, and Scalable Python Package That Bridges Neuroscience and AI The post Meta FAIR Releases NeuralSet: A Python Package for Neuro-AI That Supports fMRI, M/EEG, Spikes, and HuggingFace Embeddings appeared first on MarkT...",
+        "href": "https://www.marktechpost.com/2026/04/29/meta-fair-releases-neuralset-a-python-package-for-neuro-ai-that-supports-fmri-m-eeg-spikes-and-huggingface-embeddings/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/Screenshot-2026-04-29-at-12.54.07-AM-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -1600,16 +1600,6 @@
     "date": "2026-04-28",
     "label": "April 28, 2026",
     "items": [
-      {
-        "id": "samsung-wallet-just-got-a-travel-feature-that-i-c479a9a1-apr28",
-        "category": "Product Updates",
-        "title": "Samsung Wallet just got a travel feature that I hope Google Wallet copies ASAP",
-        "source": "ZDNet AI",
-        "summary": "This is a pretty big perk for Galaxy users since there's nothing like it built into Android.",
-        "href": "https://www.zdnet.com/article/samsung-wallet-new-trips-travel-feature/",
-        "imageUrl": "assets/news/ai-news-goldman-agents.png",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
       {
         "id": "eu-tells-google-to-open-up-ai-on-android-google-f50b6684-apr28",
         "category": "Model Releases",
@@ -1619,36 +1609,6 @@
         "href": "https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/",
         "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-1152x648.jpg",
         "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "openai-ends-microsoft-legal-peril-over-its-50b-a-949fd0ad-apr28",
-        "category": "Product Updates",
-        "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
-        "source": "TechCrunch",
-        "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement.",
-        "href": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2214107176.jpg?resize=1200,800",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "microsoft-and-openai-s-open-relationship-is-now-98b20a23-apr28",
-        "category": "Product Updates",
-        "title": "Microsoft and OpenAI's open relationship is now official",
-        "source": "The Register AI",
-        "summary": "No. More. Exclusivity. Redmond keeps the ring until 2032, but OpenAI is free to see other clouds Once tied tightly together, Microsoft and OpenAI have amended their agreement, making the Windows giant's license non-exclusive. In exchange, Microsoft will no lo...",
-        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/microsofts_and_openai_change_relationship/",
-        "imageUrl": "https://regmedia.co.uk/2016/09/01/split-path.jpg",
-        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "adobe-creative-cloud-pro-is-now-50-off-how-to-ge-c41e104b-apr28",
-        "category": "Product Updates",
-        "title": "Adobe Creative Cloud Pro is now 50% off - how to get the deal",
-        "source": "ZDNet AI",
-        "summary": "Get a year of access to more than 20 apps (including Photoshop and Premiere), generative AI, fonts, and Stock at a major discount right now.",
-        "href": "https://www.zdnet.com/article/adobe-creative-cloud-pro-deal-2026/",
-        "imageUrl": "https://www.zdnet.com/a/img/resize/e0500b7a86a0eec0a0cb2d4f02fe954d1c07ce9c/2025/07/17/aceba0b1-a1b7-4da0-9e83-0bfeeec02b72/adobe-firefly.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
       },
       {
         "id": "deepseek-drops-cheaper-v4-ai-as-huawei-jumps-in-1be32509-apr28",
@@ -1701,6 +1661,16 @@
         "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
       },
       {
+        "id": "preview-tool-helps-makers-visualize-3d-printed-o-f9ec2638-apr28",
+        "category": "Product Updates",
+        "title": "Preview tool helps makers visualize 3D-printed objects",
+        "source": "MIT News AI",
+        "summary": "By quickly generating aesthetically accurate previews of fabricated objects, the VisiPrint system could make prototyping faster and less wasteful.",
+        "href": "https://news.mit.edu/2026/preview-tool-helps-makers-visualize-3d-printed-objects-0401",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202603/MIT-VisiPrint-Preview-A1.jpg?itok=2ckh0mm0",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
         "id": "this-bestselling-gaming-device-is-not-a-nintendo-2e78e196-apr28",
         "category": "Product Updates",
         "title": "This bestselling gaming device is not a Nintendo or a PlayStation - and I highly recommend it",
@@ -1721,14 +1691,44 @@
         "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
       },
       {
-        "id": "preview-tool-helps-makers-visualize-3d-printed-o-f9ec2638-apr28",
+        "id": "samsung-wallet-just-got-a-travel-feature-that-i-c479a9a1-apr28",
         "category": "Product Updates",
-        "title": "Preview tool helps makers visualize 3D-printed objects",
-        "source": "MIT News AI",
-        "summary": "By quickly generating aesthetically accurate previews of fabricated objects, the VisiPrint system could make prototyping faster and less wasteful.",
-        "href": "https://news.mit.edu/2026/preview-tool-helps-makers-visualize-3d-printed-objects-0401",
-        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202603/MIT-VisiPrint-Preview-A1.jpg?itok=2ckh0mm0",
-        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+        "title": "Samsung Wallet just got a travel feature that I hope Google Wallet copies ASAP",
+        "source": "ZDNet AI",
+        "summary": "This is a pretty big perk for Galaxy users since there's nothing like it built into Android.",
+        "href": "https://www.zdnet.com/article/samsung-wallet-new-trips-travel-feature/",
+        "imageUrl": "assets/news/ai-news-goldman-agents.png",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-ends-microsoft-legal-peril-over-its-50b-a-949fd0ad-apr28",
+        "category": "Product Updates",
+        "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+        "source": "TechCrunch",
+        "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement.",
+        "href": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2214107176.jpg?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-and-openai-s-open-relationship-is-now-98b20a23-apr28",
+        "category": "Product Updates",
+        "title": "Microsoft and OpenAI's open relationship is now official",
+        "source": "The Register AI",
+        "summary": "No. More. Exclusivity. Redmond keeps the ring until 2032, but OpenAI is free to see other clouds Once tied tightly together, Microsoft and OpenAI have amended their agreement, making the Windows giant's license non-exclusive. In exchange, Microsoft will no lo...",
+        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/microsofts_and_openai_change_relationship/",
+        "imageUrl": "https://regmedia.co.uk/2016/09/01/split-path.jpg",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "adobe-creative-cloud-pro-is-now-50-off-how-to-ge-c41e104b-apr28",
+        "category": "Product Updates",
+        "title": "Adobe Creative Cloud Pro is now 50% off - how to get the deal",
+        "source": "ZDNet AI",
+        "summary": "Get a year of access to more than 20 apps (including Photoshop and Premiere), generative AI, fonts, and Stock at a major discount right now.",
+        "href": "https://www.zdnet.com/article/adobe-creative-cloud-pro-deal-2026/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/e0500b7a86a0eec0a0cb2d4f02fe954d1c07ce9c/2025/07/17/aceba0b1-a1b7-4da0-9e83-0bfeeec02b72/adobe-firefly.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
       },
       {
         "id": "working-to-advance-the-nuclear-renaissance-50cb47c2-apr28",
@@ -1746,46 +1746,6 @@
     "date": "2026-04-27",
     "label": "April 27, 2026",
     "items": [
-      {
-        "id": "google-cloud-next-proves-what-we-suspected-every-d23a2b19-apr27",
-        "category": "Developer Tools",
-        "title": "Google Cloud Next proves what we suspected: Everything is AI now",
-        "source": "The Register AI",
-        "summary": "Join us for this week's Kettle as we dive into GCN and the latest not-so-alarming revelations about Mythos KETTLE If you needed further evidence that AI comes first in pretty much everything nowadays, look no further than this year's Google Cloud Next show, w...",
-        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/google_cloud_next_proves_what/",
-        "imageUrl": "https://regmedia.co.uk/2019/11/20/cloudnext.jpg",
-        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "a-coding-tutorial-on-datashader-on-rendering-mas-54312e72-apr27",
-        "category": "Developer Tools",
-        "title": "A Coding Tutorial on Datashader on Rendering Massive Datasets with High-Performance Python Visual Analytics",
-        "source": "MarkTechPost",
-        "summary": "In this tutorial, we explore Datashader, a powerful, high-performance visualization library for rendering massive datasets that quickly overwhelm traditional plotting tools. We work through its full rendering pipeline in Google Colab, starting from dense poin...",
-        "href": "https://www.marktechpost.com/2026/04/25/a-coding-tutorial-on-datashader-on-rendering-massive-datasets-with-high-performance-python-visual-analytics/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-74-1024x731.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "an-openai-linked-news-outlet-appears-to-be-entir-f96e586f-apr27",
-        "category": "Product Updates",
-        "title": "An OpenAI-linked news outlet appears to be entirely AI-generated",
-        "source": "Mashable",
-        "summary": "A new report reveals that a news publication is entirely AI-generated and is funded by an OpenAI super PAC",
-        "href": "https://mashable.com/article/ai-generated-news-site-with-ties-to-openai",
-        "imageUrl": "https://helios-i.mashable.com/imagery/articles/07ybnEadd6yFYEtJF4HIetm/hero-image.fill.size_1200x675.v1777217331.png",
-        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "our-principles-e1e83761-apr27",
-        "category": "Developer Tools",
-        "title": "Our principles",
-        "source": "OpenAI Blog",
-        "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
-        "href": "https://openai.com/index/our-principles",
-        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/sOXwMmuOREhljTDZ4gVid/e277a6d0e6364e53591ac8b9c42de068/our-principles-16_9-text.png?w=1600&h=900&fit=fill",
-        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
-      },
       {
         "id": "deepseek-s-new-models-are-so-efficient-they-ll-r-47e5c1d3-apr27",
         "category": "Model Releases",
@@ -1817,16 +1777,6 @@
         "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
       },
       {
-        "id": "anthropic-created-a-test-marketplace-for-agent-o-2032f932-apr27",
-        "category": "Agents",
-        "title": "Anthropic created a test marketplace for agent-on-agent commerce",
-        "source": "TechCrunch",
-        "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
-        "href": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-88622588.jpg?resize=1200,870",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
         "id": "top-7-benchmarks-that-actually-matter-for-agenti-936e2163-apr27",
         "category": "Developer Tools",
         "title": "Top 7 Benchmarks That Actually Matter for Agentic Reasoning in Large Language Models",
@@ -1834,16 +1784,6 @@
         "summary": "As AI agents move from research demos to production deployments, one question has become impossible to ignore: how do you actually know if an agent is good? Perplexity scores and MMLU leaderboard numbers tell you very little about whether a model can navigate...",
         "href": "https://www.marktechpost.com/2026/04/26/top-7-benchmarks-that-actually-matter-for-agentic-reasoning-in-large-language-models/",
         "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-1-19.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "a-coding-implementation-on-kvcached-for-elastic-601a6e5e-apr27",
-        "category": "Developer Tools",
-        "title": "A Coding Implementation on kvcached for Elastic KV Cache Memory, Bursty LLM Serving, and Multi-Model GPU Sharing",
-        "source": "MarkTechPost",
-        "summary": "In this tutorial, we explore kvcached, a dynamic KV-cache implementation on top of vLLM, to understand how dynamic KV-cache allocation transforms GPU memory usage for large language models. We begin by setting up the environment and deploying lightweight Qwen...",
-        "href": "https://www.marktechpost.com/2026/04/25/a-coding-implementation-on-kvcached-for-elastic-kv-cache-memory-bursty-llm-serving-and-multi-model-gpu-sharing/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-1-18-1024x731.png",
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
@@ -1857,14 +1797,24 @@
         "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
       },
       {
-        "id": "github-acknowledges-recent-outages-cites-scaling-ca13eb58-apr27",
-        "category": "Developer Tools",
-        "title": "GitHub Acknowledges Recent Outages, Cites Scaling Challenges and Architectural Weaknesses",
-        "source": "InfoQ AI",
-        "summary": "GitHub has publicly addressed a series of recent availability and performance issues that disrupted services across its platform, attributing the incidents to rapid growth, architectural coupling, and limitations in handling system load. By Craig Risi",
-        "href": "https://www.infoq.com/news/2026/04/github-outages-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-        "imageUrl": "https://res.infoq.com/news/2026/04/github-outages-scaling/en/headerimage/generatedHeaderImage-1776504516196.jpg",
-        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+        "id": "an-openai-linked-news-outlet-appears-to-be-entir-f96e586f-apr27",
+        "category": "Product Updates",
+        "title": "An OpenAI-linked news outlet appears to be entirely AI-generated",
+        "source": "Mashable",
+        "summary": "A new report reveals that a news publication is entirely AI-generated and is funded by an OpenAI super PAC",
+        "href": "https://mashable.com/article/ai-generated-news-site-with-ties-to-openai",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/07ybnEadd6yFYEtJF4HIetm/hero-image.fill.size_1200x675.v1777217331.png",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-created-a-test-marketplace-for-agent-o-2032f932-apr27",
+        "category": "Agents",
+        "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+        "source": "TechCrunch",
+        "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
+        "href": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-88622588.jpg?resize=1200,870",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
       },
       {
         "id": "what-it-actually-takes-to-run-code-intelligence-92f4fdaa-apr27",
@@ -1875,6 +1825,56 @@
         "href": "http://localhost:5174/blog/what-it-actually-takes-to-run-code-intelligence-in-house",
         "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
         "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "our-principles-e1e83761-apr27",
+        "category": "Developer Tools",
+        "title": "Our principles",
+        "source": "OpenAI Blog",
+        "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+        "href": "https://openai.com/index/our-principles",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/sOXwMmuOREhljTDZ4gVid/e277a6d0e6364e53591ac8b9c42de068/our-principles-16_9-text.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-cloud-next-proves-what-we-suspected-every-d23a2b19-apr27",
+        "category": "Developer Tools",
+        "title": "Google Cloud Next proves what we suspected: Everything is AI now",
+        "source": "The Register AI",
+        "summary": "Join us for this week's Kettle as we dive into GCN and the latest not-so-alarming revelations about Mythos KETTLE If you needed further evidence that AI comes first in pretty much everything nowadays, look no further than this year's Google Cloud Next show, w...",
+        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/google_cloud_next_proves_what/",
+        "imageUrl": "https://regmedia.co.uk/2019/11/20/cloudnext.jpg",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "github-acknowledges-recent-outages-cites-scaling-ca13eb58-apr27",
+        "category": "Developer Tools",
+        "title": "GitHub Acknowledges Recent Outages, Cites Scaling Challenges and Architectural Weaknesses",
+        "source": "InfoQ AI",
+        "summary": "GitHub has publicly addressed a series of recent availability and performance issues that disrupted services across its platform, attributing the incidents to rapid growth, architectural coupling, and limitations in handling system load. By Craig Risi",
+        "href": "https://www.infoq.com/news/2026/04/github-outages-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/04/github-outages-scaling/en/headerimage/generatedHeaderImage-1776504516196.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-coding-tutorial-on-datashader-on-rendering-mas-54312e72-apr27",
+        "category": "Developer Tools",
+        "title": "A Coding Tutorial on Datashader on Rendering Massive Datasets with High-Performance Python Visual Analytics",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we explore Datashader, a powerful, high-performance visualization library for rendering massive datasets that quickly overwhelm traditional plotting tools. We work through its full rendering pipeline in Google Colab, starting from dense poin...",
+        "href": "https://www.marktechpost.com/2026/04/25/a-coding-tutorial-on-datashader-on-rendering-massive-datasets-with-high-performance-python-visual-analytics/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-74-1024x731.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-coding-implementation-on-kvcached-for-elastic-601a6e5e-apr27",
+        "category": "Developer Tools",
+        "title": "A Coding Implementation on kvcached for Elastic KV Cache Memory, Bursty LLM Serving, and Multi-Model GPU Sharing",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we explore kvcached, a dynamic KV-cache implementation on top of vLLM, to understand how dynamic KV-cache allocation transforms GPU memory usage for large language models. We begin by setting up the environment and deploying lightweight Qwen...",
+        "href": "https://www.marktechpost.com/2026/04/25/a-coding-implementation-on-kvcached-for-elastic-kv-cache-memory-bursty-llm-serving-and-multi-model-gpu-sharing/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-1-18-1024x731.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -1882,6 +1882,26 @@
     "date": "2026-04-26",
     "label": "April 26, 2026",
     "items": [
+      {
+        "id": "us-programmer-job-growth-nearly-halved-since-cha-a0c91f63-apr26",
+        "category": "Developer Tools",
+        "title": "US programmer job growth nearly halved since ChatGPT launched, Fed study finds",
+        "source": "The Decoder",
+        "summary": "Programmers are among the professional groups whose everyday lives have changed the most as a result of generative AI. A new study by the Federal Reserve Board now provides evidence that this is also reflected in employment figures. The article US programmer...",
+        "href": "https://the-decoder.com/us-programmer-job-growth-nearly-halved-since-chatgpt-launched-fed-study-finds/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/AI-Coding-Jobs-LLM-Nano-Banana-Pro-scaled.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-can-now-connect-with-spotify-uber-and-a-l-c7cf805a-apr26",
+        "category": "Product Updates",
+        "title": "Claude can now connect with Spotify, Uber, and a lot more apps",
+        "source": "Mashable",
+        "summary": "Anthropic's Claude chatbot can now interface with a bunch of major apps, including Spotify and Uber.",
+        "href": "https://mashable.com/article/anthropic-claude-connected-apps-spotify-uber-viator",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/01isVDzOf2lc7gajKn5rSub/hero-image.fill.size_1200x675.v1777045060.png",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
       {
         "id": "everything-announced-at-google-cloud-next-in-und-36e81898-apr26",
         "category": "Product Updates",
@@ -1903,13 +1923,13 @@
         "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
       },
       {
-        "id": "us-programmer-job-growth-nearly-halved-since-cha-a0c91f63-apr26",
+        "id": "qwen3-6-27b-beats-much-larger-predecessor-on-mos-ef14ff9f-apr26",
         "category": "Developer Tools",
-        "title": "US programmer job growth nearly halved since ChatGPT launched, Fed study finds",
+        "title": "Qwen3.6-27B beats much larger predecessor on most coding benchmarks",
         "source": "The Decoder",
-        "summary": "Programmers are among the professional groups whose everyday lives have changed the most as a result of generative AI. A new study by the Federal Reserve Board now provides evidence that this is also reflected in employment figures. The article US programmer...",
-        "href": "https://the-decoder.com/us-programmer-job-growth-nearly-halved-since-chatgpt-launched-fed-study-finds/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/AI-Coding-Jobs-LLM-Nano-Banana-Pro-scaled.jpg",
+        "summary": "Alibaba's new open-source model Qwen3.6-27B beats its 15-times-larger predecessor across coding benchmarks with just 27 billion parameters. The article Qwen3.6-27B beats much larger predecessor on most coding benchmarks appeared first on The Decoder .",
+        "href": "https://the-decoder.com/qwen3-6-27b-beats-much-larger-predecessor-on-most-coding-benchmarks/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/3.6_27b_banner.jpg",
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
@@ -1923,14 +1943,14 @@
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
-        "id": "claude-can-now-connect-with-spotify-uber-and-a-l-c7cf805a-apr26",
-        "category": "Product Updates",
-        "title": "Claude can now connect with Spotify, Uber, and a lot more apps",
-        "source": "Mashable",
-        "summary": "Anthropic's Claude chatbot can now interface with a bunch of major apps, including Spotify and Uber.",
-        "href": "https://mashable.com/article/anthropic-claude-connected-apps-spotify-uber-viator",
-        "imageUrl": "https://helios-i.mashable.com/imagery/articles/01isVDzOf2lc7gajKn5rSub/hero-image.fill.size_1200x675.v1777045060.png",
-        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+        "id": "hack-the-ai-agent-build-agentic-ai-security-skil-ed860607-apr26",
+        "category": "Developer Tools",
+        "title": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game",
+        "source": "GitHub Blog",
+        "summary": "Learn to find and exploit real-world agentic AI vulnerabilities through five progressive challenges in this free, open source game that over 10,000 developers have already used to sharpen their security skills. The post Hack the AI agent: Build agentic AI sec...",
+        "href": "https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-security-invertocat-blocks-copilot.png",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
       },
       {
         "id": "anthropic-says-stronger-ai-models-cut-better-dea-0778fd0e-apr26",
@@ -1941,26 +1961,6 @@
         "href": "https://the-decoder.com/anthropic-says-stronger-ai-models-cut-better-deals-and-the-losers-dont-even-notice/",
         "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/anthropic_Deal_cash.jpeg",
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "qwen3-6-27b-beats-much-larger-predecessor-on-mos-ef14ff9f-apr26",
-        "category": "Developer Tools",
-        "title": "Qwen3.6-27B beats much larger predecessor on most coding benchmarks",
-        "source": "The Decoder",
-        "summary": "Alibaba's new open-source model Qwen3.6-27B beats its 15-times-larger predecessor across coding benchmarks with just 27 billion parameters. The article Qwen3.6-27B beats much larger predecessor on most coding benchmarks appeared first on The Decoder .",
-        "href": "https://the-decoder.com/qwen3-6-27b-beats-much-larger-predecessor-on-most-coding-benchmarks/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/3.6_27b_banner.jpg",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "hack-the-ai-agent-build-agentic-ai-security-skil-ed860607-apr26",
-        "category": "Developer Tools",
-        "title": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game",
-        "source": "GitHub Blog",
-        "summary": "Learn to find and exploit real-world agentic AI vulnerabilities through five progressive challenges in this free, open source game that over 10,000 developers have already used to sharpen their security skills. The post Hack the AI agent: Build agentic AI sec...",
-        "href": "https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/",
-        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-security-invertocat-blocks-copilot.png",
-        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -1968,16 +1968,6 @@
     "date": "2026-04-25",
     "label": "April 25, 2026",
     "items": [
-      {
-        "id": "google-to-invest-up-to-40b-in-anthropic-in-cash-85c88209-apr25",
-        "category": "Model Releases",
-        "title": "Google to invest up to $40B in Anthropic in cash and compute",
-        "source": "TechCrunch",
-        "summary": "Google plans up to $40B investment in Anthropic as AI rivals race to secure massive compute capacity, following the limited release of its powerful, cybersecurity-focused Mythos model.",
-        "href": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
       {
         "id": "8-gemini-tips-for-organizing-your-space-and-life-ebab479a-apr25",
         "category": "Model Releases",
@@ -1996,16 +1986,6 @@
         "summary": "My ChatGPT Images 2.0 results were impressive, but occassionally wrong. Here's how it handles branding, text, and infographics.",
         "href": "https://www.zdnet.com/article/chatgpt-images-2-0-hands-on-test-fun-huge-useful-leap/",
         "imageUrl": "https://www.zdnet.com/a/img/resize/8fcb62e4cc9663ab492bc3c8760256de778fffb0/2026/04/24/c453df52-cdd0-4636-bff4-2f4f934db934/gpt-images-2-0.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "i-put-gpt-5-5-through-a-10-round-test-it-scored-17d478ac-apr25",
-        "category": "Model Releases",
-        "title": "I put GPT-5.5 through a 10-round test: It scored 93/100, losing points only for exuberance",
-        "source": "ZDNet AI",
-        "summary": "OpenAI's latest model delivers powerful results but sometimes ignores simple directions, creating a tension between intelligence and control.",
-        "href": "https://www.zdnet.com/article/i-put-openai-gpt-5-5-through-a-10-round-test/",
-        "imageUrl": "https://www.zdnet.com/a/img/resize/684ea15a26c6dd922df89a06dccb17544af22cbd/2026/04/24/e4dab768-0664-4150-a92f-be4744140f31/i-put-gpt-5-5-through-a-10-round-test-it-scored-93100-losing-points-only-for-exuberance.jpg?auto=webp&fit=crop&height=675&width=1200",
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
       },
       {
@@ -2047,6 +2027,26 @@
         "href": "https://www.zdnet.com/article/delete-me-review/",
         "imageUrl": "https://www.zdnet.com/a/img/resize/889f65a98213b4dbd32f79c505e83b9d08318c6c/2026/03/18/bdfd0709-c65f-4fed-ae3b-ba7693009f3f/dsc09852.jpg?auto=webp&fit=crop&height=675&width=1200",
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-put-gpt-5-5-through-a-10-round-test-it-scored-17d478ac-apr25",
+        "category": "Model Releases",
+        "title": "I put GPT-5.5 through a 10-round test: It scored 93/100, losing points only for exuberance",
+        "source": "ZDNet AI",
+        "summary": "OpenAI's latest model delivers powerful results but sometimes ignores simple directions, creating a tension between intelligence and control.",
+        "href": "https://www.zdnet.com/article/i-put-openai-gpt-5-5-through-a-10-round-test/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/684ea15a26c6dd922df89a06dccb17544af22cbd/2026/04/24/e4dab768-0664-4150-a92f-be4744140f31/i-put-gpt-5-5-through-a-10-round-test-it-scored-93100-losing-points-only-for-exuberance.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-to-invest-up-to-40b-in-anthropic-in-cash-85c88209-apr25",
+        "category": "Model Releases",
+        "title": "Google to invest up to $40B in Anthropic in cash and compute",
+        "source": "TechCrunch",
+        "summary": "Google plans up to $40B investment in Anthropic as AI rivals race to secure massive compute capacity, following the limited release of its powerful, cybersecurity-focused Mythos model.",
+        "href": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -2054,26 +2054,6 @@
     "date": "2026-04-24",
     "label": "April 24, 2026",
     "items": [
-      {
-        "id": "google-and-aws-split-the-ai-agent-stack-between-239549f6-apr24",
-        "category": "Developer Tools",
-        "title": "Google and AWS split the AI agent stack between control and execution",
-        "source": "VentureBeat",
-        "summary": "The era of enterprises stitching together prompt chains and shadow agents is nearing its end as more options for orchestrating complex multi-agent systems emerge. As organizations move AI agents into production, the question remains: \"how will we manage them?...",
-        "href": "https://venturebeat.com/orchestration/google-and-aws-split-the-ai-agent-stack-between-control-and-execution",
-        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1Vp25PZDnQQMBBb7WLhth0/f565b23d4dfbc56def7a55fae6405769/crimedy7_illustration_of_a_schism_but_related_to_artificial_i_2d035a47-60c4-4cab-9029-d5ee39e3dbdc_0.png?w=300&q=30",
-        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "openai-says-its-new-gpt-5-5-model-is-more-effici-d8444b6c-apr24",
-        "category": "Developer Tools",
-        "title": "OpenAI says its new GPT-5.5 model is more efficient and better at coding",
-        "source": "The Verge AI",
-        "summary": "OpenAI just announced its new GPT-5.5 model, which the company calls its \"smartest and most intuitive to use model yet, and the next step toward a new way of getting work done on a computer.\" OpenAI just released GPT-5.4 last month, but says that the new GPT-...",
-        "href": "https://www.theverge.com/ai-artificial-intelligence/917612/openai-gpt-5-5-chatgpt",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
-      },
       {
         "id": "openai-s-gpt-5-5-is-here-and-it-s-no-potato-narr-a7cdb554-apr24",
         "category": "Developer Tools",
@@ -2095,6 +2075,26 @@
         "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
       },
       {
+        "id": "building-an-emoji-list-generator-with-the-github-4c4aa325-apr24",
+        "category": "Developer Tools",
+        "title": "Building an emoji list generator with the GitHub Copilot CLI",
+        "source": "GitHub Blog",
+        "summary": "See how we created an emoji list generator during the Rubber Duck Thursday stream. The post Building an emoji list generator with the GitHub Copilot CLI appeared first on The GitHub Blog .",
+        "href": "https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/image-19.png?fit=2064%2C1076",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-says-its-new-gpt-5-5-model-is-more-effici-d8444b6c-apr24",
+        "category": "Developer Tools",
+        "title": "OpenAI says its new GPT-5.5 model is more efficient and better at coding",
+        "source": "The Verge AI",
+        "summary": "OpenAI just announced its new GPT-5.5 model, which the company calls its \"smartest and most intuitive to use model yet, and the next step toward a new way of getting work done on a computer.\" OpenAI just released GPT-5.4 last month, but says that the new GPT-...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/917612/openai-gpt-5-5-chatgpt",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
         "id": "how-github-uses-ebpf-to-improve-deployment-safet-461eacea-apr24",
         "category": "Developer Tools",
         "title": "How GitHub uses eBPF to improve deployment safety",
@@ -2105,14 +2105,14 @@
         "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
       },
       {
-        "id": "building-an-emoji-list-generator-with-the-github-4c4aa325-apr24",
+        "id": "google-and-aws-split-the-ai-agent-stack-between-239549f6-apr24",
         "category": "Developer Tools",
-        "title": "Building an emoji list generator with the GitHub Copilot CLI",
-        "source": "GitHub Blog",
-        "summary": "See how we created an emoji list generator during the Rubber Duck Thursday stream. The post Building an emoji list generator with the GitHub Copilot CLI appeared first on The GitHub Blog .",
-        "href": "https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/",
-        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/image-19.png?fit=2064%2C1076",
-        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+        "title": "Google and AWS split the AI agent stack between control and execution",
+        "source": "VentureBeat",
+        "summary": "The era of enterprises stitching together prompt chains and shadow agents is nearing its end as more options for orchestrating complex multi-agent systems emerge. As organizations move AI agents into production, the question remains: \"how will we manage them?...",
+        "href": "https://venturebeat.com/orchestration/google-and-aws-split-the-ai-agent-stack-between-control-and-execution",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1Vp25PZDnQQMBBb7WLhth0/f565b23d4dfbc56def7a55fae6405769/crimedy7_illustration_of_a_schism_but_related_to_artificial_i_2d035a47-60c4-4cab-9029-d5ee39e3dbdc_0.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
       },
       {
         "id": "a-philosophy-of-work-45b651f2-apr24",
@@ -2140,16 +2140,6 @@
     "date": "2026-04-23",
     "label": "April 23, 2026",
     "items": [
-      {
-        "id": "google-updates-workspace-to-make-ai-your-new-off-0d19c608-apr23",
-        "category": "Product Updates",
-        "title": "Google updates Workspace to make AI your new office intern",
-        "source": "TechCrunch",
-        "summary": "Google has introduced a host of new automated functions into Workspace, all of which are driven by Workspace Intelligence, its new AI system.",
-        "href": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/google-gemini-jagmeet-singh-techcrunch.jpg?resize=1200,800",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
       {
         "id": "google-turns-chrome-into-an-ai-co-worker-for-the-eb5b1403-apr23",
         "category": "Model Releases",
@@ -2181,26 +2171,6 @@
         "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
       },
       {
-        "id": "spacex-cuts-a-deal-to-maybe-buy-cursor-for-60-bi-9afd97e3-apr23",
-        "category": "Developer Tools",
-        "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
-        "source": "The Verge AI",
-        "summary": "With an IPO looming for Elon Musk's SpaceX / xAI / X combo platter of companies, SpaceX has announced an odd arrangement to either acquire the automated programming platform Cursor for $60 billion or pay a fee of $10 billion. Buying this startup that's focuse...",
-        "href": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB355_SPACEX_C.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
-        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "mozilla-anthropic-s-mythos-found-271-security-vu-180e24d3-apr23",
-        "category": "Model Releases",
-        "title": "Mozilla: Anthropic's Mythos found 271 security vulnerabilities in Firefox 150",
-        "source": "Ars Technica",
-        "summary": "CTO says new AI model is \"every bit as capable\" as world's best security researchers.",
-        "href": "https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/",
-        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2235759925-1152x648.jpg",
-        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
-      },
-      {
         "id": "anthropic-tested-removing-claude-code-from-the-p-23f26317-apr23",
         "category": "Developer Tools",
         "title": "Anthropic tested removing Claude Code from the Pro plan",
@@ -2211,6 +2181,26 @@
         "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
       },
       {
+        "id": "google-updates-workspace-to-make-ai-your-new-off-0d19c608-apr23",
+        "category": "Product Updates",
+        "title": "Google updates Workspace to make AI your new office intern",
+        "source": "TechCrunch",
+        "summary": "Google has introduced a host of new automated functions into Workspace, all of which are driven by Workspace Intelligence, its new AI system.",
+        "href": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/google-gemini-jagmeet-singh-techcrunch.jpg?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spacex-cuts-a-deal-to-maybe-buy-cursor-for-60-bi-9afd97e3-apr23",
+        "category": "Developer Tools",
+        "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
+        "source": "The Verge AI",
+        "summary": "With an IPO looming for Elon Musk's SpaceX / xAI / X combo platter of companies, SpaceX has announced an odd arrangement to either acquire the automated programming platform Cursor for $60 billion or pay a fee of $10 billion. Buying this startup that's focuse...",
+        "href": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB355_SPACEX_C.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
         "id": "how-spacex-preempted-a-2b-fundraise-with-a-60b-b-cd30cad5-apr23",
         "category": "Funding",
         "title": "How SpaceX preempted a $2B fundraise with a $60B buyout offer",
@@ -2219,6 +2209,16 @@
         "href": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
         "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/12/Anysphere-Cursor-Michael-Truell-.png?resize=1200,745",
         "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "mozilla-anthropic-s-mythos-found-271-security-vu-180e24d3-apr23",
+        "category": "Model Releases",
+        "title": "Mozilla: Anthropic's Mythos found 271 security vulnerabilities in Firefox 150",
+        "source": "Ars Technica",
+        "summary": "CTO says new AI model is \"every bit as capable\" as world's best security researchers.",
+        "href": "https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2235759925-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -2226,16 +2226,6 @@
     "date": "2026-04-22",
     "label": "April 22, 2026",
     "items": [
-      {
-        "id": "3-new-ways-ads-advisor-is-making-google-ads-safe-97921ff3-apr22",
-        "category": "Agents",
-        "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
-        "source": "Google AI Blog",
-        "summary": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
-        "href": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
-        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.max-600x600.format-webp.webp",
-        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
-      },
       {
         "id": "scaling-codex-to-enterprises-worldwide-d9639e2f-apr22",
         "category": "Developer Tools",
@@ -2245,6 +2235,16 @@
         "href": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
         "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6vVWsdD8Je8NBRf5rzcKgO/627fd8bf52395077f3ed200aaeb615b9/Frame.png?w=1600&h=900&fit=fill",
         "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "3-new-ways-ads-advisor-is-making-google-ads-safe-97921ff3-apr22",
+        "category": "Agents",
+        "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+        "source": "Google AI Blog",
+        "summary": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+        "href": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -2263,34 +2263,14 @@
         "excerpt": "Why it matters: coding agents are moving toward multi-agent orchestration inside the developer tools teams already use."
       },
       {
-        "id": "github-copilot-plans-individuals-apr21",
-        "category": "Product Updates",
-        "title": "Changes to GitHub Copilot plans for individuals",
-        "source": "GitHub Changelog",
-        "summary": "GitHub detailed plan changes for individual Copilot users, updating how model access, premium capabilities, and usage are packaged across paid tiers.",
-        "href": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
-        "imageUrl": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-deprecations.jpg",
-        "excerpt": "Why it matters: pricing and packaging shifts often reveal where real demand and cost pressure are landing in AI coding."
-      },
-      {
-        "id": "google-adk-skills-guide-apr21",
-        "category": "Agents",
-        "title": "Developer's guide to building ADK agents with skills",
-        "source": "Google Developers Blog",
-        "summary": "Google published a practical guide for wiring reusable skills into ADK agents, showing how teams can structure, compose, and extend agent behaviors more systematically.",
-        "href": "https://developers.googleblog.com/en/developers-guide-to-building-adk-agents-with-skills/",
-        "imageUrl": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleI_O_2025_Google_AI_Studio_-_4.original.png",
-        "excerpt": "Why it matters: agent builders increasingly differentiate on reusable skills and orchestration patterns, not just on model choice."
-      },
-      {
-        "id": "github-copilot-visual-studio-march-apr21",
-        "category": "Developer Tools",
-        "title": "Copilot in Visual Studio: March update",
-        "source": "GitHub Changelog",
-        "summary": "GitHub rolled new Copilot improvements into Visual Studio, adding model and chat workflow updates that keep more coding assistance inside the IDE.",
-        "href": "https://github.blog/changelog/2026-04-02-github-copilot-in-visual-studio-march-update/",
-        "imageUrl": "https://github.blog/wp-content/themes/github-2021-child/assets/img/featured-v3-new-releases.svg",
-        "excerpt": "Why it matters: IDE-native Copilot updates show how the coding-agent race is expanding beyond the browser and terminal into incumbent desktop workflows."
+        "id": "openai-hyatt-enterprise-adoption-apr21",
+        "category": "Productivity",
+        "title": "OpenAI helps Hyatt advance AI among colleagues",
+        "source": "OpenAI",
+        "summary": "OpenAI said Hyatt is extending ChatGPT Enterprise across more employee workflows to speed up research, writing, and operational knowledge sharing.",
+        "href": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+        "imageUrl": "assets/news/home-briefing/2026-04-21/industry-9647c8d154c78f6b.webp",
+        "excerpt": "Why it matters: enterprise AI adoption is increasingly measured by organization-wide usage, not just isolated pilot teams."
       },
       {
         "id": "anthropic-firefox-security-apr21",
@@ -2303,6 +2283,36 @@
         "excerpt": "Why it matters: frontier model vendors are pushing deeper into real security operations where trust and guardrails matter as much as raw capability."
       },
       {
+        "id": "github-copilot-plans-individuals-apr21",
+        "category": "Product Updates",
+        "title": "Changes to GitHub Copilot plans for individuals",
+        "source": "GitHub Changelog",
+        "summary": "GitHub detailed plan changes for individual Copilot users, updating how model access, premium capabilities, and usage are packaged across paid tiers.",
+        "href": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
+        "imageUrl": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-deprecations.jpg",
+        "excerpt": "Why it matters: pricing and packaging shifts often reveal where real demand and cost pressure are landing in AI coding."
+      },
+      {
+        "id": "github-copilot-visual-studio-march-apr21",
+        "category": "Developer Tools",
+        "title": "Copilot in Visual Studio: March update",
+        "source": "GitHub Changelog",
+        "summary": "GitHub rolled new Copilot improvements into Visual Studio, adding model and chat workflow updates that keep more coding assistance inside the IDE.",
+        "href": "https://github.blog/changelog/2026-04-02-github-copilot-in-visual-studio-march-update/",
+        "imageUrl": "https://github.blog/wp-content/themes/github-2021-child/assets/img/featured-v3-new-releases.svg",
+        "excerpt": "Why it matters: IDE-native Copilot updates show how the coding-agent race is expanding beyond the browser and terminal into incumbent desktop workflows."
+      },
+      {
+        "id": "google-adk-skills-guide-apr21",
+        "category": "Agents",
+        "title": "Developer's guide to building ADK agents with skills",
+        "source": "Google Developers Blog",
+        "summary": "Google published a practical guide for wiring reusable skills into ADK agents, showing how teams can structure, compose, and extend agent behaviors more systematically.",
+        "href": "https://developers.googleblog.com/en/developers-guide-to-building-adk-agents-with-skills/",
+        "imageUrl": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleI_O_2025_Google_AI_Studio_-_4.original.png",
+        "excerpt": "Why it matters: agent builders increasingly differentiate on reusable skills and orchestration patterns, not just on model choice."
+      },
+      {
         "id": "mit-autonomous-systems-ethics-apr21",
         "category": "Policy",
         "title": "Evaluating the ethics of autonomous systems",
@@ -2311,16 +2321,6 @@
         "href": "https://news.mit.edu/2026/evaluating-autonomous-systems-ethics-0402",
         "imageUrl": "assets/news/home-briefing/2026-04-21/semiconductor-0fd8099e8d5afd55.jpg",
         "excerpt": "Why it matters: governance pressure is rising alongside capability, so evaluation frameworks are becoming part of the product stack."
-      },
-      {
-        "id": "openai-hyatt-enterprise-adoption-apr21",
-        "category": "Productivity",
-        "title": "OpenAI helps Hyatt advance AI among colleagues",
-        "source": "OpenAI",
-        "summary": "OpenAI said Hyatt is extending ChatGPT Enterprise across more employee workflows to speed up research, writing, and operational knowledge sharing.",
-        "href": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
-        "imageUrl": "assets/news/home-briefing/2026-04-21/industry-9647c8d154c78f6b.webp",
-        "excerpt": "Why it matters: enterprise AI adoption is increasingly measured by organization-wide usage, not just isolated pilot teams."
       },
       {
         "id": "aws-infor-manufacturing-agents-apr21",
@@ -2359,6 +2359,16 @@
     "label": "April 20, 2026",
     "items": [
       {
+        "id": "google-gemini-api-tooling-update-apr20",
+        "category": "Agents",
+        "title": "Gemini API gets a tooling update with richer agent workflow controls",
+        "source": "Google Blog",
+        "summary": "Google added context circulation, mixed tool calling, and Google Maps grounding for Gemini so developers can build more capable agent workflows without stitching together as much orchestration logic by hand.",
+        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tooling-updates/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini_api_qh8fnpL.png",
+        "excerpt": "Why it matters: agent builders increasingly compete on workflow plumbing and tool orchestration, not only on raw model quality."
+      },
+      {
         "id": "openai-cloudflare-agent-cloud-apr20",
         "category": "Agents",
         "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
@@ -2369,14 +2379,14 @@
         "excerpt": "Why it matters: enterprise agent adoption is shifting from demos into hosted infrastructure where deployment, governance, and latency matter as much as model access."
       },
       {
-        "id": "google-gemini-api-tooling-update-apr20",
-        "category": "Agents",
-        "title": "Gemini API gets a tooling update with richer agent workflow controls",
-        "source": "Google Blog",
-        "summary": "Google added context circulation, mixed tool calling, and Google Maps grounding for Gemini so developers can build more capable agent workflows without stitching together as much orchestration logic by hand.",
-        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tooling-updates/",
-        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini_api_qh8fnpL.png",
-        "excerpt": "Why it matters: agent builders increasingly compete on workflow plumbing and tool orchestration, not only on raw model quality."
+        "id": "anthropic-project-glasswing-apr20",
+        "category": "Safety",
+        "title": "Anthropic launches Project Glasswing to secure critical software with frontier AI",
+        "source": "Anthropic",
+        "summary": "Anthropic launched Project Glasswing to give critical software defenders early access to Claude Mythos Preview and broader support for vulnerability discovery and remediation work.",
+        "href": "https://www.anthropic.com/project/glasswing",
+        "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/99ba671b072be2357accfbe53a46fe230ec55974-896x109.svg",
+        "excerpt": "Why it matters: frontier labs are using gated deployments and industry coalitions to push advanced cybersecurity capability toward defense before offense catches up."
       },
       {
         "id": "github-remote-cli-sessions-apr20",
@@ -2429,16 +2439,6 @@
         "excerpt": "Why it matters: model adoption increasingly depends on better uncertainty signals, not just better benchmark scores."
       },
       {
-        "id": "anthropic-project-glasswing-apr20",
-        "category": "Safety",
-        "title": "Anthropic launches Project Glasswing to secure critical software with frontier AI",
-        "source": "Anthropic",
-        "summary": "Anthropic launched Project Glasswing to give critical software defenders early access to Claude Mythos Preview and broader support for vulnerability discovery and remediation work.",
-        "href": "https://www.anthropic.com/project/glasswing",
-        "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/99ba671b072be2357accfbe53a46fe230ec55974-896x109.svg",
-        "excerpt": "Why it matters: frontier labs are using gated deployments and industry coalitions to push advanced cybersecurity capability toward defense before offense catches up."
-      },
-      {
         "id": "openai-child-safety-blueprint-apr20",
         "category": "Policy",
         "title": "OpenAI introduces the Child Safety Blueprint",
@@ -2465,46 +2465,6 @@
     "label": "April 19, 2026",
     "items": [
       {
-        "id": "aws-openai-strategic-partnership-apr19",
-        "category": "Product Updates",
-        "title": "AWS and OpenAI announce multi-year strategic partnership",
-        "source": "About Amazon",
-        "summary": "AWS and OpenAI announced a multi-year partnership that will put advanced OpenAI workloads on AWS infrastructure as the companies deepen their cloud relationship.",
-        "href": "https://www.aboutamazon.com/news/aws/aws-open-ai-workloads-compute-infrastructure",
-        "imageUrl": "https://assets.aboutamazon.com/dims4/default/1704cd2/2147483647/strip/true/crop/1999x1000+0+42/resize/1200x600!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fa3%2Fce%2F7e1631f748beb430293b8a60d80c%2Foai-aws-hero.png",
-        "excerpt": "Why it matters: infrastructure alliances are becoming a strategic lever for model labs trying to secure compute and distribution at scale."
-      },
-      {
-        "id": "anthropic-google-broadcom-compute-apr19",
-        "category": "Product Updates",
-        "title": "Anthropic expands partnership with Google and Broadcom for next-generation compute",
-        "source": "Anthropic",
-        "summary": "Anthropic said it is expanding work with Google and Broadcom to secure multiple gigawatts of next-generation compute for future model development and deployment.",
-        "href": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
-        "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Growth&backgroundColor=fig",
-        "excerpt": "Why it matters: compute access remains one of the clearest strategic bottlenecks in the frontier model race."
-      },
-      {
-        "id": "anthropic-claude-partner-network-100m-apr19",
-        "category": "Product Updates",
-        "title": "Anthropic invests $100 million into the Claude Partner Network",
-        "source": "Anthropic",
-        "summary": "Anthropic launched the Claude Partner Network with a $100 million commitment to help partner organizations support enterprise adoption of Claude.",
-        "href": "https://www.anthropic.com/news/claude-partner-network",
-        "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeBuild&backgroundColor=fig",
-        "excerpt": "Why it matters: frontier model vendors are scaling through service ecosystems and implementation partners, not just direct product sales."
-      },
-      {
-        "id": "github-copilot-cloud-agent-research-plan-apr19",
-        "category": "Agents",
-        "title": "GitHub broadens Copilot cloud agent from PR tasks to research and planning work",
-        "source": "GitHub Changelog",
-        "summary": "GitHub expanded Copilot cloud agent beyond pull-request workflows so it can take on more research, planning, and coding work before changes ever reach review.",
-        "href": "https://github.blog/changelog/2026-03-31-research-plan-and-code-with-copilot-cloud-agent/",
-        "imageUrl": "https://github.blog/wp-content/uploads/2026/03/570597591-85e373f2-2dad-4ea8-89a0-91d80e3d7bff.png",
-        "excerpt": "Why it matters: coding assistants are shifting from inline helpers to longer-horizon agents that can own more of the software loop."
-      },
-      {
         "id": "google-prepay-gemini-api-spend-control-apr19",
         "category": "Developer Tools",
         "title": "Prepay for the Gemini API to get more control over your spend",
@@ -2515,24 +2475,24 @@
         "excerpt": "Why it matters: as model costs become a line-item decision, pricing controls and billing flexibility are becoming product features in their own right."
       },
       {
-        "id": "google-colab-learn-mode-coding-tutor-apr19",
-        "category": "Developer Tools",
-        "title": "Introducing Learn Mode: your personal coding tutor in Google Colab",
+        "id": "google-gemini-3d-models-charts-apr19",
+        "category": "Creative AI",
+        "title": "Generate 3D models and interactive charts with the Gemini app",
         "source": "Google Blog",
-        "summary": "Google launched Learn Mode in Colab to guide users through code and notebook workflows with more tutor-like step-by-step support instead of only returning direct answers.",
-        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/colab-updates/",
-        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ColabLearning_hero.width-200.format-webp.webp",
-        "excerpt": "Why it matters: AI coding products are increasingly differentiating on teaching and guidance, not just raw task completion."
+        "summary": "Google expanded the Gemini app so users can create 3D models and interactive charts directly from prompts, pushing the product further into visual and data-rich creation tasks.",
+        "href": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/1_Visualize_how_fractals_work.width-100.format-webp.webp",
+        "excerpt": "Why it matters: consumer AI assistants are steadily broadening from text chat into richer visual outputs that can slot into real workflows faster."
       },
       {
-        "id": "google-chrome-skills-one-click-prompts-apr19",
-        "category": "Developer Tools",
-        "title": "Turn your best AI prompts into one-click tools in Chrome",
-        "source": "Google Blog",
-        "summary": "Google added a new Chrome workflow that turns saved prompts into reusable one-click tools so users can trigger repeatable AI actions without rebuilding prompts each time.",
-        "href": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
-        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chrome_Skills_Asset_5_Library_V2_.width-100.format-webp.webp",
-        "excerpt": "Why it matters: browser-native AI is shifting from one-off prompting toward lightweight workflow automation that users can keep close to where work already happens."
+        "id": "anthropic-claude-partner-network-100m-apr19",
+        "category": "Product Updates",
+        "title": "Anthropic invests $100 million into the Claude Partner Network",
+        "source": "Anthropic",
+        "summary": "Anthropic launched the Claude Partner Network with a $100 million commitment to help partner organizations support enterprise adoption of Claude.",
+        "href": "https://www.anthropic.com/news/claude-partner-network",
+        "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeBuild&backgroundColor=fig",
+        "excerpt": "Why it matters: frontier model vendors are scaling through service ecosystems and implementation partners, not just direct product sales."
       },
       {
         "id": "github-copilot-sdk-preview-builders-apr19",
@@ -2565,6 +2525,46 @@
         "excerpt": "Why it matters: once agent deployments grow, measurement and accountability become as important as model capability."
       },
       {
+        "id": "aws-openai-strategic-partnership-apr19",
+        "category": "Product Updates",
+        "title": "AWS and OpenAI announce multi-year strategic partnership",
+        "source": "About Amazon",
+        "summary": "AWS and OpenAI announced a multi-year partnership that will put advanced OpenAI workloads on AWS infrastructure as the companies deepen their cloud relationship.",
+        "href": "https://www.aboutamazon.com/news/aws/aws-open-ai-workloads-compute-infrastructure",
+        "imageUrl": "https://assets.aboutamazon.com/dims4/default/1704cd2/2147483647/strip/true/crop/1999x1000+0+42/resize/1200x600!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fa3%2Fce%2F7e1631f748beb430293b8a60d80c%2Foai-aws-hero.png",
+        "excerpt": "Why it matters: infrastructure alliances are becoming a strategic lever for model labs trying to secure compute and distribution at scale."
+      },
+      {
+        "id": "anthropic-google-broadcom-compute-apr19",
+        "category": "Product Updates",
+        "title": "Anthropic expands partnership with Google and Broadcom for next-generation compute",
+        "source": "Anthropic",
+        "summary": "Anthropic said it is expanding work with Google and Broadcom to secure multiple gigawatts of next-generation compute for future model development and deployment.",
+        "href": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+        "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Growth&backgroundColor=fig",
+        "excerpt": "Why it matters: compute access remains one of the clearest strategic bottlenecks in the frontier model race."
+      },
+      {
+        "id": "google-colab-learn-mode-coding-tutor-apr19",
+        "category": "Developer Tools",
+        "title": "Introducing Learn Mode: your personal coding tutor in Google Colab",
+        "source": "Google Blog",
+        "summary": "Google launched Learn Mode in Colab to guide users through code and notebook workflows with more tutor-like step-by-step support instead of only returning direct answers.",
+        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/colab-updates/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ColabLearning_hero.width-200.format-webp.webp",
+        "excerpt": "Why it matters: AI coding products are increasingly differentiating on teaching and guidance, not just raw task completion."
+      },
+      {
+        "id": "google-chrome-skills-one-click-prompts-apr19",
+        "category": "Developer Tools",
+        "title": "Turn your best AI prompts into one-click tools in Chrome",
+        "source": "Google Blog",
+        "summary": "Google added a new Chrome workflow that turns saved prompts into reusable one-click tools so users can trigger repeatable AI actions without rebuilding prompts each time.",
+        "href": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chrome_Skills_Asset_5_Library_V2_.width-100.format-webp.webp",
+        "excerpt": "Why it matters: browser-native AI is shifting from one-off prompting toward lightweight workflow automation that users can keep close to where work already happens."
+      },
+      {
         "id": "mit-shass-future-education-ai-apr19",
         "category": "Policy",
         "title": "Q&A: MIT SHASS and the future of education in the age of AI",
@@ -2583,16 +2583,6 @@
         "href": "https://www.anthropic.com/news/the-anthropic-institute",
         "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Book&backgroundColor=oat",
         "excerpt": "Why it matters: labs are increasingly building public-policy and governance arms alongside product and research teams."
-      },
-      {
-        "id": "google-gemini-3d-models-charts-apr19",
-        "category": "Creative AI",
-        "title": "Generate 3D models and interactive charts with the Gemini app",
-        "source": "Google Blog",
-        "summary": "Google expanded the Gemini app so users can create 3D models and interactive charts directly from prompts, pushing the product further into visual and data-rich creation tasks.",
-        "href": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
-        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/1_Visualize_how_fractals_work.width-100.format-webp.webp",
-        "excerpt": "Why it matters: consumer AI assistants are steadily broadening from text chat into richer visual outputs that can slot into real workflows faster."
       },
       {
         "id": "mit-compressm-leaner-faster-models-apr19",
@@ -2661,16 +2651,6 @@
         "excerpt": "Why it matters: model routing is becoming a built-in part of developer tooling instead of a manual setting teams have to tune on every task."
       },
       {
-        "id": "google-ai-travel-smarter-apr18",
-        "category": "Product Updates",
-        "title": "Google packages summer travel planning and deal finding into AI-powered Search flows",
-        "source": "Google Blog",
-        "summary": "Google highlighted new AI-powered travel planning features that help users compare deals, plan trips, and explore destinations inside Search and related products.",
-        "href": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
-        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/summer_travel_tips_2026_ss.width-1300.png",
-        "excerpt": "Why it matters: consumer AI wins are increasingly about getting useful workflow upgrades into familiar products people already open every day."
-      },
-      {
         "id": "google-ai-mode-chrome-apr18",
         "category": "Product Updates",
         "title": "Google brings AI Mode into Chrome for side-by-side web exploration",
@@ -2679,6 +2659,16 @@
         "href": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
         "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_in_Chrome_-_Social_feed.width-1300.png",
         "excerpt": "Why it matters: browser-native AI is becoming a distribution advantage as search, browsing, and assistant behavior continue to merge."
+      },
+      {
+        "id": "google-ai-travel-smarter-apr18",
+        "category": "Product Updates",
+        "title": "Google packages summer travel planning and deal finding into AI-powered Search flows",
+        "source": "Google Blog",
+        "summary": "Google highlighted new AI-powered travel planning features that help users compare deals, plan trips, and explore destinations inside Search and related products.",
+        "href": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/summer_travel_tips_2026_ss.width-1300.png",
+        "excerpt": "Why it matters: consumer AI wins are increasingly about getting useful workflow upgrades into familiar products people already open every day."
       },
       {
         "id": "salesforce-agent-fabric-controls-apr18",
@@ -2758,17 +2748,6 @@
         "excerpt": "Why it matters: consumer AI products are increasingly competing on personalization and creative control instead of one-size-fits-all generation."
       },
       {
-        "id": "openai-next-evolution-agents-sdk-apr17",
-        "category": "Agents",
-        "title": "OpenAI expands the Agents SDK for safer and more capable agent systems",
-        "source": "OpenAI",
-        "summary": "OpenAI detailed a new phase for its Agents SDK with stronger orchestration, evaluation, and safety patterns for production-grade agent deployments.",
-        "href": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
-        "imageUrl": "https://images.openai.com/blob/315f97f8-35c6-4f7b-97f5-ab6c44a8ad22/agents-sdk-diagram.png?trim=0%2C0%2C0%2C0&width=1920",
-        "fallbackImageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-openai-agents.jpg",
-        "excerpt": "Why it matters: enterprise agent adoption is increasingly about controls, reliability, and repeatable execution rather than raw model output alone."
-      },
-      {
         "id": "openai-codex-for-almost-everything-apr17",
         "category": "Developer Tools",
         "title": "OpenAI positions Codex as a broader coding agent for full software workflows",
@@ -2809,14 +2788,15 @@
         "excerpt": "Why it matters: enterprise AI rollouts increasingly hinge on fine-grained policy controls instead of broad on-or-off deployment decisions."
       },
       {
-        "id": "factory-ai-coding-enterprises-apr17-refresh",
-        "category": "Developer Tools",
-        "title": "Factory hits a $1.5B valuation as enterprise AI coding demand stays hot",
-        "source": "TechCrunch",
-        "summary": "Factory raised at a $1.5 billion valuation as investors keep backing AI coding systems built for large enterprise software teams.",
-        "href": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2210627883.jpg?w=1024",
-        "excerpt": "Why it matters: the biggest spending in AI coding continues to come from enterprise deployments that promise governance and operational control."
+        "id": "openai-next-evolution-agents-sdk-apr17",
+        "category": "Agents",
+        "title": "OpenAI expands the Agents SDK for safer and more capable agent systems",
+        "source": "OpenAI",
+        "summary": "OpenAI detailed a new phase for its Agents SDK with stronger orchestration, evaluation, and safety patterns for production-grade agent deployments.",
+        "href": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
+        "imageUrl": "https://images.openai.com/blob/315f97f8-35c6-4f7b-97f5-ab6c44a8ad22/agents-sdk-diagram.png?trim=0%2C0%2C0%2C0&width=1920",
+        "fallbackImageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-openai-agents.jpg",
+        "excerpt": "Why it matters: enterprise agent adoption is increasingly about controls, reliability, and repeatable execution rather than raw model output alone."
       },
       {
         "id": "roblox-agentic-ai-tools-games-apr17-refresh",
@@ -2827,6 +2807,16 @@
         "href": "https://techcrunch.com/2026/04/16/robloxs-ai-assistant-gets-new-agentic-tools-to-plan-build-and-test-games/",
         "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2199101548.jpg?w=1024",
         "excerpt": "Why it matters: creator platforms are moving beyond chat helpers toward AI systems that can orchestrate multi-step production work."
+      },
+      {
+        "id": "factory-ai-coding-enterprises-apr17-refresh",
+        "category": "Developer Tools",
+        "title": "Factory hits a $1.5B valuation as enterprise AI coding demand stays hot",
+        "source": "TechCrunch",
+        "summary": "Factory raised at a $1.5 billion valuation as investors keep backing AI coding systems built for large enterprise software teams.",
+        "href": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2210627883.jpg?w=1024",
+        "excerpt": "Why it matters: the biggest spending in AI coding continues to come from enterprise deployments that promise governance and operational control."
       },
       {
         "id": "amazon-bio-discovery-ai-drug-research-apr17",
@@ -2844,26 +2834,6 @@
     "date": "2026-04-16",
     "label": "April 16, 2026",
     "items": [
-      {
-        "id": "openai-agents-sdk-enterprise-sandbox-apr16",
-        "category": "Agents",
-        "title": "OpenAI updates Agents SDK with sandbox and harness support",
-        "source": "TechCrunch",
-        "summary": "OpenAI updated its Agents SDK with sandboxing and in-distribution harness features so enterprises can build safer long-horizon agents on frontier models.",
-        "href": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
-        "imageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-openai-agents.jpg",
-        "excerpt": "Why it matters: enterprise agent adoption is moving from demos toward controlled execution environments, approved tools, and deployable safety boundaries."
-      },
-      {
-        "id": "openai-life-sciences-policy-push-apr16",
-        "category": "Research Workflows",
-        "title": "OpenAI pushes for a bigger AI role in life sciences",
-        "source": "Axios",
-        "summary": "OpenAI is arguing that AI can accelerate biomedical research by connecting fragmented knowledge, designing tools, automating labs, and shortening experiment cycles.",
-        "href": "https://www.axios.com/2026/04/15/exclusive-openai-ai-life-science",
-        "imageUrl": "assets/news/home-briefing/2026-04-16/ai-c1640cf30c54b600.png",
-        "excerpt": "Why it matters: OpenAI is tying frontier model progress to regulated, high-value scientific workflows where adoption depends as much on policy and trust as raw capability."
-      },
       {
         "id": "adobe-firefly-ai-assistant-creative-cloud-apr16",
         "category": "Creative AI",
@@ -2895,6 +2865,16 @@
         "excerpt": "Why it matters: AI infrastructure demand is broadening from raw GPUs to billing, routing, and usage layers that make high-token applications practical."
       },
       {
+        "id": "openai-agents-sdk-enterprise-sandbox-apr16",
+        "category": "Agents",
+        "title": "OpenAI updates Agents SDK with sandbox and harness support",
+        "source": "TechCrunch",
+        "summary": "OpenAI updated its Agents SDK with sandboxing and in-distribution harness features so enterprises can build safer long-horizon agents on frontier models.",
+        "href": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-openai-agents.jpg",
+        "excerpt": "Why it matters: enterprise agent adoption is moving from demos toward controlled execution environments, approved tools, and deployable safety boundaries."
+      },
+      {
         "id": "gitar-agentic-code-security-seed-apr16",
         "category": "Developer Tools",
         "title": "Gitar emerges with $9M for agentic code security",
@@ -2915,6 +2895,16 @@
         "excerpt": "Why it matters: agentic coding competition is widening beyond the best-known US developer tools into regional products with local distribution advantages."
       },
       {
+        "id": "gizmo-ai-learning-22m-apr16",
+        "category": "Funding",
+        "title": "AI learning app Gizmo raises $22M after reaching 13M users",
+        "source": "TechCrunch",
+        "summary": "Gizmo, an AI learning app focused on study workflows, raised $22 million after growing to 13 million users.",
+        "href": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/apple-cf91fa832d8b2b04.jpg",
+        "excerpt": "Why it matters: education remains one of the clearest consumer AI wedges when products tie generation to memory, practice, and repeat use."
+      },
+      {
         "id": "hightouch-ai-marketing-arr-apr16",
         "category": "Productivity",
         "title": "Hightouch hits $100M ARR on AI-powered marketing tools",
@@ -2925,14 +2915,14 @@
         "excerpt": "Why it matters: enterprise buyers are paying for AI systems that stay grounded in brand assets and customer data instead of generic image generation."
       },
       {
-        "id": "gizmo-ai-learning-22m-apr16",
-        "category": "Funding",
-        "title": "AI learning app Gizmo raises $22M after reaching 13M users",
-        "source": "TechCrunch",
-        "summary": "Gizmo, an AI learning app focused on study workflows, raised $22 million after growing to 13 million users.",
-        "href": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
-        "imageUrl": "assets/news/home-briefing/2026-04-16/apple-cf91fa832d8b2b04.jpg",
-        "excerpt": "Why it matters: education remains one of the clearest consumer AI wedges when products tie generation to memory, practice, and repeat use."
+        "id": "openai-life-sciences-policy-push-apr16",
+        "category": "Research Workflows",
+        "title": "OpenAI pushes for a bigger AI role in life sciences",
+        "source": "Axios",
+        "summary": "OpenAI is arguing that AI can accelerate biomedical research by connecting fragmented knowledge, designing tools, automating labs, and shortening experiment cycles.",
+        "href": "https://www.axios.com/2026/04/15/exclusive-openai-ai-life-science",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/ai-c1640cf30c54b600.png",
+        "excerpt": "Why it matters: OpenAI is tying frontier model progress to regulated, high-value scientific workflows where adoption depends as much on policy and trust as raw capability."
       }
     ]
   },
@@ -2940,6 +2930,15 @@
     "date": "2026-04-15",
     "label": "April 15, 2026",
     "items": [
+      {
+        "id": "microsoft-copilot-openclaw-like-agents-apr15",
+        "category": "Agents",
+        "title": "Microsoft tests OpenClaw-like agents for Microsoft 365 Copilot",
+        "source": "The Verge",
+        "summary": "Microsoft is testing always-on Copilot agents for Microsoft 365 that could watch inboxes, calendars, and role-specific work streams while staying inside enterprise controls.",
+        "href": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
+        "excerpt": "Enterprise angle: Microsoft is trying to turn agent autonomy into a managed workplace feature, not a loose desktop experiment."
+      },
       {
         "id": "axios-openai-cyber-access-apr15",
         "category": "Safety",
@@ -2960,13 +2959,13 @@
         "excerpt": "Policy angle: powerful defensive models are only useful if governments can absorb them operationally."
       },
       {
-        "id": "microsoft-copilot-openclaw-like-agents-apr15",
-        "category": "Agents",
-        "title": "Microsoft tests OpenClaw-like agents for Microsoft 365 Copilot",
-        "source": "The Verge",
-        "summary": "Microsoft is testing always-on Copilot agents for Microsoft 365 that could watch inboxes, calendars, and role-specific work streams while staying inside enterprise controls.",
-        "href": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
-        "excerpt": "Enterprise angle: Microsoft is trying to turn agent autonomy into a managed workplace feature, not a loose desktop experiment."
+        "id": "nvidia-ising-quantum-ai-apr15",
+        "category": "Open Models",
+        "title": "Nvidia launches open Ising AI models for quantum computing",
+        "source": "Nvidia",
+        "summary": "Nvidia introduced the Ising open model family to help researchers and enterprises improve quantum processor calibration and error correction.",
+        "href": "https://seekingalpha.com/pr/20472509-nvidia-launches-ising-the-world-s-first-open-ai-models-to-accelerate-the-path-to-useful",
+        "excerpt": "Infrastructure signal: AI is becoming a control layer for the next generation of quantum-computing hardware."
       },
       {
         "id": "synera-agentic-engineering-funding-apr15",
@@ -2976,15 +2975,6 @@
         "summary": "Synera raised a $40 million Series B to scale an agentic AI platform that orchestrates engineering workflows across existing design and simulation tools.",
         "href": "https://finance.yahoo.com/sectors/technology/articles/synera-raises-40m-series-b-120000022.html",
         "excerpt": "Funding read: agentic AI is moving into high-value engineering work where integrations and on-prem deployment matter."
-      },
-      {
-        "id": "nvidia-ising-quantum-ai-apr15",
-        "category": "Open Models",
-        "title": "Nvidia launches open Ising AI models for quantum computing",
-        "source": "Nvidia",
-        "summary": "Nvidia introduced the Ising open model family to help researchers and enterprises improve quantum processor calibration and error correction.",
-        "href": "https://seekingalpha.com/pr/20472509-nvidia-launches-ising-the-world-s-first-open-ai-models-to-accelerate-the-path-to-useful",
-        "excerpt": "Infrastructure signal: AI is becoming a control layer for the next generation of quantum-computing hardware."
       },
       {
         "id": "ranger-ai-industrial-rfp-funding-apr15",
@@ -3011,16 +3001,6 @@
     "label": "April 14, 2026",
     "items": [
       {
-        "id": "bringing-people-together-at-ai-for-the-economy-f-373936d3-apr14",
-        "category": "Product Updates",
-        "title": "Bringing people together at AI for the Economy Forum",
-        "source": "Google AI Blog",
-        "summary": "Google is bringing people together in Washington D.C. at our AI for the Economy Forum.",
-        "href": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
-        "imageUrl": "assets/news/fallback-google-ai-economy.webp",
-        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
-      },
-      {
         "id": "github-claude-codex-model-selection-apr14",
         "category": "Developer Tools",
         "title": "GitHub adds model selection for Claude and Codex agents",
@@ -3029,6 +3009,16 @@
         "href": "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com/",
         "imageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-github-models.jpg",
         "excerpt": "Why it matters: agent platforms are turning model choice into a first-class workflow control instead of hiding it behind a single assistant brand."
+      },
+      {
+        "id": "bringing-people-together-at-ai-for-the-economy-f-373936d3-apr14",
+        "category": "Product Updates",
+        "title": "Bringing people together at AI for the Economy Forum",
+        "source": "Google AI Blog",
+        "summary": "Google is bringing people together in Washington D.C. at our AI for the Economy Forum.",
+        "href": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
+        "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
       },
       {
         "id": "human-machine-teaming-dives-underwater-84d4323c-apr14",
@@ -3201,15 +3191,6 @@
     "label": "April 9, 2026",
     "items": [
       {
-        "id": "openai-illinois-liability-bill-apr09",
-        "category": "Policy",
-        "title": "OpenAI's Illinois liability push shows regulation is now a product-adjacent battle",
-        "source": "Ben's Bites",
-        "summary": "OpenAI's support for an Illinois liability bill highlights how legal definitions around AI responsibility are becoming a meaningful competitive issue for major labs.",
-        "href": "https://news.bensbites.co/openai-backs-an-illinois-bill-that-would-limit-when-ai-labs-can-be-held-liable/",
-        "excerpt": "Why it matters: regulation is no longer outside the product story; it directly shapes deployment risk."
-      },
-      {
         "id": "openai-122b-round-apr09",
         "category": "Funding",
         "title": "OpenAI's $122B funding round reset expectations for frontier-AI scale",
@@ -3253,6 +3234,15 @@
         "summary": "Perplexity's push into tasks like tax prep shows the company wants Computer to be seen as an action-taking agent, not just a better search box.",
         "href": "https://www.superhuman.ai/p/perplexity-computer-does-your-taxes",
         "excerpt": "Why it matters: the market is rewarding products that can actually complete work, not only summarize it."
+      },
+      {
+        "id": "openai-illinois-liability-bill-apr09",
+        "category": "Policy",
+        "title": "OpenAI's Illinois liability push shows regulation is now a product-adjacent battle",
+        "source": "Ben's Bites",
+        "summary": "OpenAI's support for an Illinois liability bill highlights how legal definitions around AI responsibility are becoming a meaningful competitive issue for major labs.",
+        "href": "https://news.bensbites.co/openai-backs-an-illinois-bill-that-would-limit-when-ai-labs-can-be-held-liable/",
+        "excerpt": "Why it matters: regulation is no longer outside the product story; it directly shapes deployment risk."
       }
     ]
   },
@@ -3261,15 +3251,6 @@
     "label": "April 8, 2026",
     "items": [
       {
-        "id": "anti-distillation-frontier-labs-apr08",
-        "category": "Policy",
-        "title": "OpenAI, Anthropic, and Google align more openly against model-copying pressure",
-        "source": "The Neuron",
-        "summary": "The leading labs are taking a harder public line on distillation and model copying, a sign that open-model pressure from players like DeepSeek is reshaping the rules of competition.",
-        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anti-distillation",
-        "excerpt": "Why it matters: open-model competition is now triggering strategy changes inside the biggest closed-model labs."
-      },
-      {
         "id": "google-ai-studio-gemma-leverage-apr08",
         "category": "Open Models",
         "title": "Google AI Studio gets a stronger developer story when Gemma and Gemini move together",
@@ -3277,6 +3258,15 @@
         "summary": "Gemma 4 gives Google AI Studio more open-model credibility, making Google's stack feel broader than a single closed Gemini endpoint for developers and prototype teams.",
         "href": "https://deepmind.google/discover/blog/gemma-4-byte-for-byte-the-most-capable-open-models/#google-ai-studio",
         "excerpt": "Why it matters: the most durable platforms usually win by offering multiple lanes, not one monolithic model."
+      },
+      {
+        "id": "anti-distillation-frontier-labs-apr08",
+        "category": "Policy",
+        "title": "OpenAI, Anthropic, and Google align more openly against model-copying pressure",
+        "source": "The Neuron",
+        "summary": "The leading labs are taking a harder public line on distillation and model copying, a sign that open-model pressure from players like DeepSeek is reshaping the rules of competition.",
+        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anti-distillation",
+        "excerpt": "Why it matters: open-model competition is now triggering strategy changes inside the biggest closed-model labs."
       },
       {
         "id": "project-glasswing-apr08",
@@ -3321,15 +3311,6 @@
     "label": "April 7, 2026",
     "items": [
       {
-        "id": "anthropic-google-broadcom-compute-deal-apr07",
-        "category": "Infrastructure",
-        "title": "Anthropic's huge TPU deal shows Claude's growth is now gated by infrastructure scale",
-        "source": "The Neuron",
-        "summary": "Anthropic's expanded compute arrangement with Google and Broadcom makes clear that serving and training Claude at the frontier is now as much an infrastructure story as a model story.",
-        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anthropic-compute-deal",
-        "excerpt": "Why it matters: demand for top assistants is increasingly constrained by how much compute can actually be delivered."
-      },
-      {
         "id": "openai-mini-new-deal-apr07",
         "category": "Policy",
         "title": "OpenAI's policy paper reads like a mini-New Deal for the AI economy",
@@ -3346,6 +3327,15 @@
         "summary": "Reporting around IPO pressure shows how quickly the frontier-model race is being financialized as ChatGPT and Claude keep scaling revenue and compute spend at the same time.",
         "href": "https://www.theneurondaily.com/p/what-does-openai-see-coming#ipo-pressure",
         "excerpt": "Why it matters: the market is increasingly evaluating AI leaders as giant infrastructure businesses, not just products."
+      },
+      {
+        "id": "anthropic-google-broadcom-compute-deal-apr07",
+        "category": "Infrastructure",
+        "title": "Anthropic's huge TPU deal shows Claude's growth is now gated by infrastructure scale",
+        "source": "The Neuron",
+        "summary": "Anthropic's expanded compute arrangement with Google and Broadcom makes clear that serving and training Claude at the frontier is now as much an infrastructure story as a model story.",
+        "href": "https://www.theneurondaily.com/p/too-dangerous-to-release#anthropic-compute-deal",
+        "excerpt": "Why it matters: demand for top assistants is increasingly constrained by how much compute can actually be delivered."
       },
       {
         "id": "perplexity-arr-growth-apr07",
