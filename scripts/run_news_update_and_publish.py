@@ -227,8 +227,24 @@ def run_backfill(args: argparse.Namespace, repo_root: Path, target_date: date) -
         build_backfill_command(args, repo_root, target_date),
         cwd=repo_root,
         label="NEWS backfill",
+        check=False,
     )
-    return parse_json_from_stdout(completed.stdout)
+    summary = parse_json_from_stdout(completed.stdout)
+    summary["returnCode"] = completed.returncode
+    if completed.returncode != 0:
+        detail = (completed.stderr or completed.stdout).strip()
+        if detail:
+            summary["error"] = detail
+    return summary
+
+
+def restore_managed_news_paths(git_command: str, repo_root: Path) -> None:
+    run_git(
+        git_command,
+        repo_root,
+        ["restore", "--source=HEAD", "--worktree", "--staged", "--", "app.js", "data/news"],
+        check=False,
+    )
 
 
 def extract_processed_dates(summary: dict[str, Any], target_date: date) -> set[str]:
@@ -349,11 +365,62 @@ def main() -> int:
         f"commit={str(should_commit).lower()} push={str(args.git_push).lower()}",
     )
 
+    managed_dirty_before = managed_status(git_command, repo_root) if should_commit else ""
+    if should_commit and managed_dirty_before:
+        append_run_log(log_dir, "abort reason=managed_paths_dirty")
+        print(
+            json.dumps(
+                {
+                    "targetDate": target_date.isoformat(),
+                    "processedDates": [target_date.isoformat()],
+                    "backfill": None,
+                    "publish": {
+                        "status": "skipped-dirty",
+                        "commit": latest_commit(git_command, repo_root),
+                        "pushed": False,
+                    },
+                },
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+        return 1
+
     if should_commit:
         configure_git_identity(git_command, repo_root, args.git_user_name, args.git_user_email)
         sync_branch_best_effort(git_command, repo_root, args.git_remote, args.git_branch, log_dir)
 
     summary = run_backfill(args, repo_root, target_date)
+    if int(summary.get("returnCode") or 0) != 0:
+        processed_dates = extract_processed_dates(summary, target_date)
+        if should_commit and not managed_dirty_before:
+            restore_managed_news_paths(git_command, repo_root)
+        append_run_log(
+            log_dir,
+            "deferred "
+            f"target_date={target_date.isoformat()} "
+            f"reason=insufficient_unique_items "
+            f"processed_dates={','.join(sorted(processed_dates))} "
+            f"return_code={summary.get('returnCode')}",
+        )
+        print(
+            json.dumps(
+                {
+                    "targetDate": target_date.isoformat(),
+                    "processedDates": sorted(processed_dates),
+                    "backfill": summary,
+                    "publish": {
+                        "status": "deferred",
+                        "commit": latest_commit(git_command, repo_root),
+                        "pushed": False,
+                    },
+                },
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+        return 1
+
     processed_dates = extract_processed_dates(summary, target_date)
     publish_summary: dict[str, Any] = {
         "status": "not-requested",
