@@ -1,14 +1,14 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-05-10T13:16:45+00:00",
-  "digestDate": "2026-05-10",
+  "updatedAt": "2026-05-11T04:50:25+00:00",
+  "digestDate": "2026-05-11",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-05-07T21:13:59+08:00",
-  "windowEnd": "2026-05-10T21:13:59+08:00",
-  "catalogExpansionFeedsAvailable": 34,
+  "windowStart": "2026-05-08T12:47:24+08:00",
+  "windowEnd": "2026-05-11T12:47:24+08:00",
+  "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
     {
@@ -32,13 +32,13 @@
     {
       "toolId": "grammarly",
       "feedName": "Grammarly Blog",
-      "feedUrl": "https://www.grammarly.com/blog/rss.xml",
+      "feedUrl": "https://www.grammarly.com/blog/feed/",
       "requireToolMatch": false
     },
     {
       "toolId": "hubspot",
       "feedName": "HubSpot AI Blog",
-      "feedUrl": "https://blog.hubspot.com/marketing/topic/ai/rss.xml",
+      "feedUrl": "https://blog.hubspot.com/marketing/topic/artificial-intelligence/rss.xml",
       "requireToolMatch": false
     },
     {
@@ -60,6 +60,18 @@
       "requireToolMatch": false
     },
     {
+      "toolId": "replicate",
+      "feedName": "Replicate Blog",
+      "feedUrl": "https://replicate.com/blog/rss",
+      "requireToolMatch": false
+    },
+    {
+      "toolId": "openrouter",
+      "feedName": "OpenRouter Announcements",
+      "feedUrl": "https://openrouter.ai/announcements/feed.xml",
+      "requireToolMatch": false
+    },
+    {
       "toolId": "replit",
       "feedName": "Replit Blog",
       "feedUrl": "https://blog.replit.com/rss.xml",
@@ -78,9 +90,15 @@
       "requireToolMatch": false
     },
     {
+      "toolId": "n8n",
+      "feedName": "n8n Blog",
+      "feedUrl": "https://blog.n8n.io/rss/",
+      "requireToolMatch": false
+    },
+    {
       "toolId": "zapier",
       "feedName": "Zapier Blog",
-      "feedUrl": "https://zapier.com/blog/rss.xml",
+      "feedUrl": "https://zapier.com/blog/feeds/latest/",
       "requireToolMatch": false
     },
     {
@@ -93,6 +111,18 @@
       "toolId": "descript",
       "feedName": "Descript Blog",
       "feedUrl": "https://www.descript.com/blog/rss.xml",
+      "requireToolMatch": false
+    },
+    {
+      "toolId": "cursor",
+      "feedName": "Cursor Changelog",
+      "feedUrl": "https://cursor.com/changelog/rss.xml",
+      "requireToolMatch": false
+    },
+    {
+      "toolId": "fireflies",
+      "feedName": "Fireflies Blog",
+      "feedUrl": "https://fireflies.ai/blog/rss/",
       "requireToolMatch": false
     },
     {
@@ -218,26 +248,103 @@
   ],
   "items": [
     {
-      "id": "ai-agents-that-hack-computers-and-replicate-them-cb4a3e24-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "how-to-build-a-cost-aware-llm-routing-system-wit-d998a82b-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
+      "category": "Model Releases",
+      "title": "How to Build a Cost-Aware LLM Routing System with NadirClaw Using Local Prompt Classification and Gemini Model Switching",
+      "source": "MarkTechPost",
+      "summary": "In this tutorial, we explore NadirClaw as an intelligent routing layer that classifies prompts into simple and complex tiers before sending them to the most suitable model. We start by installing the required packages, setting up an optional Gemini API key, a...",
+      "href": "https://www.marktechpost.com/2026/05/10/how-to-build-a-cost-aware-llm-routing-system-with-nadirclaw-using-local-prompt-classification-and-gemini-model-switching/",
+      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11-1-3-1024x731.png",
+      "publishedAt": "2026-05-10T15:18:43+00:00",
+      "toolIds": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "chatgpt-is-saying-weird-things-in-chinese-4ff8a86a-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
+      "category": "Model Releases",
+      "title": "ChatGPT Is Saying Weird Things in Chinese",
+      "source": "Futurism AI",
+      "summary": "\"We don't know how to say: 'this is good writing, but if we do this good writing thing 10 times, then it's no longer good writing.\" The post ChatGPT Is Saying Weird Things in Chinese appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/chatpgt-weird-chinese",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/chatpgt-weird-chinese_b13548.jpg?quality=85",
+      "publishedAt": "2026-05-10T15:15:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "researchers-alarmed-by-ai-that-can-self-replicat-78df4e89-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
+      "category": "Research Workflows",
+      "title": "Researchers Alarmed by AI That Can Self-Replicate Into Another Machine",
+      "source": "Futurism AI",
+      "summary": "\"We're rapidly approaching the point where no one would be able to shut down a rogue AI.\" The post Researchers Alarmed by AI That Can Self-Replicate Into Another Machine appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/researchers-teach-ai-self-replicate",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/researchers-teach-ai-self-replicate_12e67e.jpg?quality=85",
+      "publishedAt": "2026-05-10T13:45:00+00:00",
+      "toolIds": [
+        "replicate"
+      ]
+    },
+    {
+      "id": "students-receive-10-000-prizes-from-openai-for-i-00e0a202-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
+      "category": "Model Releases",
+      "title": "Students receive $10,000 prizes from OpenAI for innovative use of artificial intelligence",
+      "source": "Fast Company AI",
+      "summary": "The awards come as the first class to have ChatGPT access for all four years of college is about to graduate.",
+      "href": "https://www.fastcompany.com/91539141/students-receive-10000-prizes-from-openai-for-innovative-use-of-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=05112026",
+      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91539141-students-receive-10000-prizes-from-openai-for-innovative-use-of-ai.jpg",
+      "publishedAt": "2026-05-10T12:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "ai-agents-can-now-hack-computers-and-copy-themse-87a3e70d-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Developer Tools",
-      "title": "AI agents that hack computers and replicate themselves, and they're getting better fast",
+      "title": "AI agents can now hack computers and copy themselves, and they're getting better fast",
       "source": "The Decoder",
       "summary": "Palisade Research shows that AI agents can hack remote computers, copy themselves onto them, and form replication chains. In one year, the success rate jumped from 6 to 81 percent. The researchers expect remaining barriers to fall as models get better at hack...",
-      "href": "https://the-decoder.com/ai-agents-that-hack-computers-and-replicate-themselves-and-theyre-getting-better-fast/",
+      "href": "https://the-decoder.com/ai-agents-can-now-hack-computers-and-copy-themselves-and-theyre-getting-better-fast/",
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/hacking_agents_self_replicating-2.png",
       "publishedAt": "2026-05-10T11:45:41+00:00",
       "toolIds": [
-        "replicate",
         "copyai"
       ]
     },
     {
-      "id": "anthropic-and-openai-sit-down-with-religious-lea-ca546c11-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "man-who-invented-roomba-moves-into-household-dem-e3257c8a-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
+      "category": "Product Updates",
+      "title": "Man Who Invented Roomba Moves Into Household Demon Market",
+      "source": "Futurism AI",
+      "summary": "Furry AI robots that are whole new levels of uncanny. The post Man Who Invented Roomba Moves Into Household Demon Market appeared first on Futurism .",
+      "href": "https://futurism.com/robots-and-machines/roomba-inventor-moves-into-demon-market",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/roomba-inventor-moves-into-demon-market.jpg?quality=85",
+      "publishedAt": "2026-05-10T10:45:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "anthropic-and-openai-sit-down-with-religious-lea-ca546c11-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Developer Tools",
       "title": "Anthropic and OpenAI sit down with religious leaders to seek ethical advice",
       "source": "The Decoder",
@@ -252,9 +359,9 @@
       ]
     },
     {
-      "id": "metr-says-it-can-barely-measure-claude-mythos-pa-56072e9f-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "metr-says-it-can-barely-measure-claude-mythos-pa-56072e9f-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Developer Tools",
       "title": "METR says it can barely measure Claude Mythos, Palo Alto Networks warns of autonomous AI attackers",
       "source": "The Decoder",
@@ -268,26 +375,9 @@
       ]
     },
     {
-      "id": "last-day-to-get-lifetime-chatgpt-gemini-and-more-2c5fb275-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Model Releases",
-      "title": "Last day to get lifetime ChatGPT, Gemini, and more for $75",
-      "source": "Mashable",
-      "summary": "1min.AI is a lifetime AI tool that combines top AI models into one platform for a single $75 platform (MSRP $540).",
-      "href": "https://mashable.com/article/may-10-1minai-advanced-business-plan-lifetime-subscription",
-      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
-      "imageUrl": "https://helios-i.mashable.com/imagery/articles/00AXNtfFSPxzWBQiM9Tw0TW/hero-image.fill.size_1200x675.v1778236701.jpg",
-      "publishedAt": "2026-05-10T09:00:00+00:00",
-      "toolIds": [
-        "chatgpt",
-        "gemini"
-      ]
-    },
-    {
-      "id": "gpt-5-5-costs-49-to-92-percent-more-than-its-pre-b782a5ff-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "gpt-5-5-costs-49-to-92-percent-more-than-its-pre-b782a5ff-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Developer Tools",
       "title": "GPT-5.5 costs 49 to 92 percent more than its predecessor, depending on the input length",
       "source": "The Decoder",
@@ -303,9 +393,9 @@
       ]
     },
     {
-      "id": "researchers-may-have-found-a-way-to-stop-ai-mode-18133ca5-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "researchers-may-have-found-a-way-to-stop-ai-mode-18133ca5-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Developer Tools",
       "title": "Researchers may have found a way to stop AI models from intentionally playing dumb during safety evaluations",
       "source": "The Decoder",
@@ -319,9 +409,23 @@
       ]
     },
     {
-      "id": "fields-medalist-says-chatgpt-5-5-pro-delivered-p-90ffe53c-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "a-major-paper-claiming-ai-is-good-for-students-j-b05cddbd-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
+      "category": "Research Workflows",
+      "title": "A Major Paper Claiming AI Is Good for Students Just Got Retracted, Which Is Very Bad News for Advocates of AI in the Cl...",
+      "source": "Futurism AI",
+      "summary": "\"It really seemed like a paper that should not have been published in the first place.\" The post A Major Paper Claiming AI Is Good for Students Just Got Retracted, Which Is Very Bad News for Advocates of AI in the Classroom appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/study-ai-good-for-students-retracted",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/study-ai-good-for-students-retracted.jpg?quality=85",
+      "publishedAt": "2026-05-09T15:15:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "fields-medalist-says-chatgpt-5-5-pro-delivered-p-90ffe53c-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Developer Tools",
       "title": "Fields Medalist says ChatGPT 5.5 Pro delivered \"PhD-level\" math research in under two hours with zero human help",
       "source": "The Decoder",
@@ -335,9 +439,23 @@
       ]
     },
     {
-      "id": "broadcom-reportedly-won-t-build-openai-s-custom-b0f1e7d0-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "is-an-ai-agent-is-your-new-coworker-make-sure-to-56c82c8d-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
+      "category": "Agents",
+      "title": "Is an AI agent is your new coworker? Make sure to lean into your humanness",
+      "source": "Fast Company AI",
+      "summary": "Fight the FOBO (fear of becoming obsolete). Automated work still requires human judgement.",
+      "href": "https://www.fastcompany.com/91537704/ai-agent-your-new-co-worker-heres-how-make-best-it?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=05112026",
+      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91537704-ai-agent-your-new-co-worker-heres-how-make-best-it.jpg",
+      "publishedAt": "2026-05-09T13:00:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "broadcom-reportedly-won-t-build-openai-s-custom-b0f1e7d0-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Developer Tools",
       "title": "Broadcom reportedly won't build OpenAI's custom chip unless Microsoft buys 40 percent of them",
       "source": "The Decoder",
@@ -351,9 +469,9 @@
       ]
     },
     {
-      "id": "5-000-vibe-coded-apps-just-proved-shadow-ai-is-t-02f8015f-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "5-000-vibe-coded-apps-just-proved-shadow-ai-is-t-02f8015f-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Developer Tools",
       "title": "5,000 vibe-coded apps just proved shadow AI is the new S3 bucket crisis",
       "source": "VentureBeat",
@@ -367,9 +485,25 @@
       ]
     },
     {
-      "id": "your-google-i-o-cheat-sheet-what-to-expect-2ae4149b-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "emo-pretraining-mixture-of-experts-for-emergent-a40b2ba2-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
+      "category": "Product Updates",
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
+      "source": "Hugging Face Blog",
+      "summary": "Hugging Face Blog reported: EMO: Pretraining mixture of experts for emergent modularity",
+      "href": "https://huggingface.co/blog/allenai/emo",
+      "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
+      "publishedAt": "2026-05-08T16:03:50+00:00",
+      "toolIds": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "your-google-i-o-cheat-sheet-what-to-expect-2ae4149b-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Model Releases",
       "title": "Your Google I/O cheat sheet: What to expect",
       "source": "Mashable",
@@ -383,9 +517,23 @@
       ]
     },
     {
-      "id": "groks-voice-mode-comes-to-apple-carplay-49fcff42-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "stop-wasting-tokens-a-smarter-alternative-to-jso-d6826719-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
+      "category": "Model Releases",
+      "title": "Stop Wasting Tokens: A Smarter Alternative to JSON for LLM Pipelines",
+      "source": "KDnuggets",
+      "summary": "If you are feeding structured data into an LLM, there is a good chance you are paying a JSON tax.",
+      "href": "https://www.kdnuggets.com/stop-wasting-tokens-a-smarter-alternative-to-json-for-llm-pipelines",
+      "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-stop-wasting-tokens-a-smarter-alternative-to-json-for-llm-pipelines-2.png",
+      "publishedAt": "2026-05-08T14:00:30+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "groks-voice-mode-comes-to-apple-carplay-49fcff42-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Product Updates",
       "title": "Groks voice mode comes to Apple CarPlay",
       "source": "Mashable",
@@ -399,97 +547,63 @@
       ]
     },
     {
-      "id": "running-codex-safely-at-openai-91ec1ce9-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "running-codex-safely-at-openai-91ec1ce9-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Developer Tools",
       "title": "Running Codex safely at OpenAI",
       "source": "OpenAI Blog",
       "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
       "href": "https://openai.com/index/running-codex-safely",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-productivity.svg",
+      "imageUrl": "assets/news/ai-news-goldman-agents.png",
       "publishedAt": "2026-05-08T12:30:00+00:00",
       "toolIds": [
         "chatgpt"
       ]
     },
     {
-      "id": "openai-releases-three-realtime-audio-models-gpt-e8e4e4bc-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
+      "id": "google-used-to-be-a-search-engine-now-it-wants-t-6740c0e3-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
       "category": "Developer Tools",
-      "title": "OpenAI Releases Three Realtime Audio Models: GPT-Realtime-2, GPT-Realtime-Translate, and GPT-Realtime-Whisper in the Re...",
-      "source": "MarkTechPost",
-      "summary": "Three purpose-built audio models expand what developers can build with live voice: reasoning agents, speech translation across 70+ languages, and streaming transcription. The post OpenAI Releases Three Realtime Audio Models: GPT-Realtime-2, GPT-Realtime-Trans...",
-      "href": "https://www.marktechpost.com/2026/05/08/openai-releases-three-realtime-audio-models-gpt-realtime-2-gpt-realtime-translate-and-gpt-realtime-whisper-in-the-realtime-api/",
-      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11.png",
-      "publishedAt": "2026-05-08T07:05:36+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "improving-token-efficiency-in-github-agentic-wor-2b3dd723-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "Improving token efficiency in GitHub Agentic Workflows",
-      "source": "GitHub Blog",
-      "summary": "Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them. The post Improving token efficiency in GitHub Agentic Wor...",
-      "href": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
-      "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-commit-logo.png?fit=1920%2C1080",
-      "publishedAt": "2026-05-07T23:00:00+00:00",
+      "title": "Google used to be a search engine. Now it wants to be everything",
+      "source": "Fast Company AI",
+      "summary": "The tech giant still dominates online advertising, but its aggressive AI push has transformed Google into a sprawling company with competing identities.",
+      "href": "https://www.fastcompany.com/91538458/google-used-to-be-a-search-engine-now-it-wants-to-be-everything?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=9&partner=newsletter&campaign_date=05112026",
+      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91538458-google-used-to-be-a-search-engine-now-it-wants-to-be-everything.jpg",
+      "publishedAt": "2026-05-08T10:00:00+00:00",
       "toolIds": []
     },
     {
-      "id": "chatgpt-users-can-now-choose-a-trusted-contact-88d4a86a-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Model Releases",
-      "title": "ChatGPT users can now choose a trusted contact\"",
-      "source": "Mashable",
-      "summary": "OpenAI to notify user's trusted contact in the event of a possible serious safety concern.",
-      "href": "https://mashable.com/article/chatgpt-trusted-contact",
-      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
-      "imageUrl": "https://helios-i.mashable.com/imagery/articles/05UTq9JHzJIEwbEbxCcVKDH/hero-image.fill.size_1200x675.v1778112668.jpg",
-      "publishedAt": "2026-05-07T18:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
+      "id": "ai-may-kill-the-app-grid-but-complex-tasks-still-1fed0391-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
+      "category": "Product Updates",
+      "title": "AI may kill the app grid, but complex tasks still need apps",
+      "source": "TechRadar Software",
+      "summary": "Yes, there's still \"an app for that.\"",
+      "href": "https://www.techradar.com/ai-platforms-assistants/ai-may-kill-the-app-grid-but-complex-tasks-still-need-apps",
+      "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window.",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/o2DLxqvoATMNos4owy4PUC-1280-80.png",
+      "publishedAt": "2026-05-08T07:20:00+00:00",
+      "toolIds": []
     },
     {
-      "id": "openai-introduces-websocket-based-execution-mode-2b34b1be-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "OpenAI Introduces Websocket-Based Execution Mode to Reduce Latency in Agentic Workflows",
-      "source": "InfoQ AI",
-      "summary": "OpenAI introduces a WebSocket-based execution mode for its Responses API to improve agentic workflow performance in coding agents and real-time AI systems. The update reduces latency by up to 40 percent by replacing HTTP request-response cycles with persisten...",
-      "href": "https://www.infoq.com/news/2026/05/openai-websocket-responses-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://res.infoq.com/news/2026/05/openai-websocket-responses-api/en/headerimage/generatedHeaderImage-1777845282531.jpg",
-      "publishedAt": "2026-05-07T14:48:00+00:00",
+      "id": "zapier-mcp-zapier-sdk-and-zapier-cli-what-s-the-a16f4b73-may11",
+      "date": "2026-05-11",
+      "dateLabel": "May 11, 2026",
+      "category": "Agents",
+      "title": "Zapier MCP, Zapier SDK, and Zapier CLI: What's the difference?",
+      "source": "Zapier Blog",
+      "summary": "If you've been paying attention to new products in the tech space, you may have noticed three initialisms popping up a lot: MCP, SDK, and CLI. Zapier has dedicated products for each: Zapier MCP, Zapier SDK, and Zapier CLI. All three connect AI to Zapier's eco...",
+      "href": "https://zapier.com/blog/zapier-mcp-vs-sdk",
+      "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/5R3nzNnfkhYCSJV7OIjv3k/93d2d3d9802f9313867af9e033b805b2/Hero__App_tips__4_.jpg",
+      "publishedAt": "2026-05-08T05:00:00+00:00",
       "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "presentation-engineering-at-ai-speed-lessons-fro-c0836eae-may10",
-      "date": "2026-05-10",
-      "dateLabel": "May 10, 2026",
-      "category": "Developer Tools",
-      "title": "Presentation: Engineering at AI Speed: Lessons from the First Agentically Accelerated Software Project",
-      "source": "InfoQ AI",
-      "summary": "Adam Wolff discusses the evolution of Claude Code, explaining how AI shifts the SDLC bottleneck from implementation to architectural decision-making. He shares three \"war stories\" to show why dogfooding and rapid unshipping are vital. He explains that when co...",
-      "href": "https://www.infoq.com/presentations/engineering-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://res.infoq.com/presentations/engineering-ai/en/mediumimage/medium-1777370739830.jpg",
-      "publishedAt": "2026-05-07T14:07:00+00:00",
-      "toolIds": [
-        "claude"
+        "zapier"
       ]
     }
   ]

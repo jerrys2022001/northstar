@@ -62,6 +62,12 @@ BUILT_IN_FEEDS = [
     ("Hugging Face Blog", "https://huggingface.co/blog/feed.xml"),
     ("Perplexity Blog", "https://www.perplexity.ai/hub/blog/rss.xml"),
     ("MIT News AI", "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml"),
+    ("WIRED AI", "https://www.wired.com/feed/tag/ai/latest/rss"),
+    ("Fast Company AI", "https://www.fastcompany.com/section/artificial-intelligence/rss"),
+    ("The Guardian AI", "https://www.theguardian.com/technology/artificialintelligenceai/rss"),
+    ("Futurism AI", "https://futurism.com/categories/ai-artificial-intelligence/feed"),
+    ("KDnuggets", "https://www.kdnuggets.com/feed"),
+    ("TechRadar Software", "https://www.techradar.com/au/feeds/tag/software"),
 ]
 CATALOG_TOOL_WATCH_FEEDS = [
     ("catalog-watch", "TechCrunch AI", "https://techcrunch.com/tag/artificial-intelligence/feed/", True),

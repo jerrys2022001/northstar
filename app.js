@@ -365,6 +365,132 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-11",
+    "label": "May 11, 2026",
+    "items": [
+      {
+        "id": "how-to-build-a-cost-aware-llm-routing-system-wit-d998a82b-may11",
+        "category": "Model Releases",
+        "title": "How to Build a Cost-Aware LLM Routing System with NadirClaw Using Local Prompt Classification and Gemini Model Switching",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we explore NadirClaw as an intelligent routing layer that classifies prompts into simple and complex tiers before sending them to the most suitable model. We start by installing the required packages, setting up an optional Gemini API key, a...",
+        "href": "https://www.marktechpost.com/2026/05/10/how-to-build-a-cost-aware-llm-routing-system-with-nadirclaw-using-local-prompt-classification-and-gemini-model-switching/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11-1-3-1024x731.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "students-receive-10-000-prizes-from-openai-for-i-00e0a202-may11",
+        "category": "Model Releases",
+        "title": "Students receive $10,000 prizes from OpenAI for innovative use of artificial intelligence",
+        "source": "Fast Company AI",
+        "summary": "The awards come as the first class to have ChatGPT access for all four years of college is about to graduate.",
+        "href": "https://www.fastcompany.com/91539141/students-receive-10000-prizes-from-openai-for-innovative-use-of-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=05112026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91539141-students-receive-10000-prizes-from-openai-for-innovative-use-of-ai.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chatgpt-is-saying-weird-things-in-chinese-4ff8a86a-may11",
+        "category": "Model Releases",
+        "title": "ChatGPT Is Saying Weird Things in Chinese",
+        "source": "Futurism AI",
+        "summary": "\"We don't know how to say: 'this is good writing, but if we do this good writing thing 10 times, then it's no longer good writing.\" The post ChatGPT Is Saying Weird Things in Chinese appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/chatpgt-weird-chinese",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/chatpgt-weird-chinese_b13548.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "emo-pretraining-mixture-of-experts-for-emergent-a40b2ba2-may11",
+        "category": "Product Updates",
+        "title": "EMO: Pretraining mixture of experts for emergent modularity",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: EMO: Pretraining mixture of experts for emergent modularity",
+        "href": "https://huggingface.co/blog/allenai/emo",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "zapier-mcp-zapier-sdk-and-zapier-cli-what-s-the-a16f4b73-may11",
+        "category": "Agents",
+        "title": "Zapier MCP, Zapier SDK, and Zapier CLI: What's the difference?",
+        "source": "Zapier Blog",
+        "summary": "If you've been paying attention to new products in the tech space, you may have noticed three initialisms popping up a lot: MCP, SDK, and CLI. Zapier has dedicated products for each: Zapier MCP, Zapier SDK, and Zapier CLI. All three connect AI to Zapier's eco...",
+        "href": "https://zapier.com/blog/zapier-mcp-vs-sdk",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/5R3nzNnfkhYCSJV7OIjv3k/93d2d3d9802f9313867af9e033b805b2/Hero__App_tips__4_.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "man-who-invented-roomba-moves-into-household-dem-e3257c8a-may11",
+        "category": "Product Updates",
+        "title": "Man Who Invented Roomba Moves Into Household Demon Market",
+        "source": "Futurism AI",
+        "summary": "Furry AI robots that are whole new levels of uncanny. The post Man Who Invented Roomba Moves Into Household Demon Market appeared first on Futurism .",
+        "href": "https://futurism.com/robots-and-machines/roomba-inventor-moves-into-demon-market",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/roomba-inventor-moves-into-demon-market.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-may-kill-the-app-grid-but-complex-tasks-still-1fed0391-may11",
+        "category": "Product Updates",
+        "title": "AI may kill the app grid, but complex tasks still need apps",
+        "source": "TechRadar Software",
+        "summary": "Yes, there's still \"an app for that.\"",
+        "href": "https://www.techradar.com/ai-platforms-assistants/ai-may-kill-the-app-grid-but-complex-tasks-still-need-apps",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/o2DLxqvoATMNos4owy4PUC-1280-80.png",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "stop-wasting-tokens-a-smarter-alternative-to-jso-d6826719-may11",
+        "category": "Model Releases",
+        "title": "Stop Wasting Tokens: A Smarter Alternative to JSON for LLM Pipelines",
+        "source": "KDnuggets",
+        "summary": "If you are feeding structured data into an LLM, there is a good chance you are paying a JSON tax.",
+        "href": "https://www.kdnuggets.com/stop-wasting-tokens-a-smarter-alternative-to-json-for-llm-pipelines",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-stop-wasting-tokens-a-smarter-alternative-to-json-for-llm-pipelines-2.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "is-an-ai-agent-is-your-new-coworker-make-sure-to-56c82c8d-may11",
+        "category": "Agents",
+        "title": "Is an AI agent is your new coworker? Make sure to lean into your humanness",
+        "source": "Fast Company AI",
+        "summary": "Fight the FOBO (fear of becoming obsolete). Automated work still requires human judgement.",
+        "href": "https://www.fastcompany.com/91537704/ai-agent-your-new-co-worker-heres-how-make-best-it?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=05112026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91537704-ai-agent-your-new-co-worker-heres-how-make-best-it.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-used-to-be-a-search-engine-now-it-wants-t-6740c0e3-may11",
+        "category": "Developer Tools",
+        "title": "Google used to be a search engine. Now it wants to be everything",
+        "source": "Fast Company AI",
+        "summary": "The tech giant still dominates online advertising, but its aggressive AI push has transformed Google into a sprawling company with competing identities.",
+        "href": "https://www.fastcompany.com/91538458/google-used-to-be-a-search-engine-now-it-wants-to-be-everything?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=9&partner=newsletter&campaign_date=05112026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91538458-google-used-to-be-a-search-engine-now-it-wants-to-be-everything.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "researchers-alarmed-by-ai-that-can-self-replicat-78df4e89-may11",
+        "category": "Research Workflows",
+        "title": "Researchers Alarmed by AI That Can Self-Replicate Into Another Machine",
+        "source": "Futurism AI",
+        "summary": "\"We're rapidly approaching the point where no one would be able to shut down a rogue AI.\" The post Researchers Alarmed by AI That Can Self-Replicate Into Another Machine appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/researchers-teach-ai-self-replicate",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/researchers-teach-ai-self-replicate_12e67e.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-major-paper-claiming-ai-is-good-for-students-j-b05cddbd-may11",
+        "category": "Research Workflows",
+        "title": "A Major Paper Claiming AI Is Good for Students Just Got Retracted, Which Is Very Bad News for Advocates of AI in the Cl...",
+        "source": "Futurism AI",
+        "summary": "\"It really seemed like a paper that should not have been published in the first place.\" The post A Major Paper Claiming AI Is Good for Students Just Got Retracted, Which Is Very Bad News for Advocates of AI in the Classroom appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/study-ai-good-for-students-retracted",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/study-ai-good-for-students-retracted.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-10",
     "label": "May 10, 2026",
     "items": [
@@ -389,16 +515,6 @@
         "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
       },
       {
-        "id": "fields-medalist-says-chatgpt-5-5-pro-delivered-p-90ffe53c-may10",
-        "category": "Developer Tools",
-        "title": "Fields Medalist says ChatGPT 5.5 Pro delivered \"PhD-level\" math research in under two hours with zero human help",
-        "source": "The Decoder",
-        "summary": "Fields Medalist Timothy Gowers had ChatGPT 5.5 Pro tackle open problems in number theory. The model improved an exponential bound to a polynomial one in under an hour. An MIT researcher involved calls the key idea \"completely original.\" Gowers' takeaway: the...",
-        "href": "https://the-decoder.com/fields-medalist-says-chatgpt-5-5-pro-delivered-phd-level-math-research-in-under-two-hours-with-zero-human-help/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/ai_and_math.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
         "id": "metr-says-it-can-barely-measure-claude-mythos-pa-56072e9f-may10",
         "category": "Developer Tools",
         "title": "METR says it can barely measure Claude Mythos, Palo Alto Networks warns of autonomous AI attackers",
@@ -416,6 +532,16 @@
         "summary": "OpenAI doubled GPT-5.5's list price compared to GPT-5.4, claiming shorter responses would offset the increase. An OpenRouter analysis of real usage data tells a different story: actual costs rose 49 to 92 percent depending on input length. Anthropic hiked Opu...",
         "href": "https://the-decoder.com/gpt-5-5-costs-49-to-92-percent-more-than-its-predecessor-depending-on-the-input-length/",
         "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/openai_logo_orange.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-agents-that-hack-computers-and-replicate-them-cb4a3e24-may10",
+        "category": "Developer Tools",
+        "title": "AI agents that hack computers and replicate themselves, and they're getting better fast",
+        "source": "The Decoder",
+        "summary": "Palisade Research shows that AI agents can hack remote computers, copy themselves onto them, and form replication chains. In one year, the success rate jumped from 6 to 81 percent. The researchers expect remaining barriers to fall as models get better at hack...",
+        "href": "https://the-decoder.com/ai-agents-that-hack-computers-and-replicate-themselves-and-theyre-getting-better-fast/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/hacking_agents_self_replicating-2.png",
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
@@ -456,16 +582,6 @@
         "summary": "Anthropic and OpenAI are turning to religious leaders for help with AI ethics. At the first \"Faith-AI Covenant\" roundtable in New York, representatives from both companies met with faith leaders from various religions. Critics like AI researcher Rumman Chowdh...",
         "href": "https://the-decoder.com/anthropic-and-openai-sit-down-with-religious-leaders-to-seek-ethical-advice/",
         "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/openai_anthropic_religion.png",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "ai-agents-that-hack-computers-and-replicate-them-cb4a3e24-may10",
-        "category": "Developer Tools",
-        "title": "AI agents that hack computers and replicate themselves, and they're getting better fast",
-        "source": "The Decoder",
-        "summary": "Palisade Research shows that AI agents can hack remote computers, copy themselves onto them, and form replication chains. In one year, the success rate jumped from 6 to 81 percent. The researchers expect remaining barriers to fall as models get better at hack...",
-        "href": "https://the-decoder.com/ai-agents-that-hack-computers-and-replicate-themselves-and-theyre-getting-better-fast/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/hacking_agents_self_replicating-2.png",
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       }
     ]
@@ -609,16 +725,6 @@
         "href": "https://www.infoq.com/presentations/engineering-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
         "imageUrl": "https://res.infoq.com/presentations/engineering-ai/en/mediumimage/medium-1777370739830.jpg",
         "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "anthropic-introduces-dreaming-a-system-that-lets-76c688dd-may08",
-        "category": "Developer Tools",
-        "title": "Anthropic introduces \"dreaming,\" a system that lets AI agents learn from their own mistakes",
-        "source": "VentureBeat",
-        "summary": "Anthropic on Tuesday unveiled a suite of updates to its Claude Managed Agents platform at its second annual Code with Claude developer conference in San Francisco, introducing a new capability called \" dreaming \" that lets AI agents learn from their own past...",
-        "href": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes",
-        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5I4zuQbx738JfOAQbToZdD/b5c7c367d367e55b484dc1480e399cba/Nuneybits_Vector_art_of_burnt-orange_moonlit_sleeper_dissolving_71200d84-78a7-48eb-890e-fb59ef136db1.webp?w=300&q=30",
-        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
       },
       {
         "id": "ai-translation-company-deepl-cuts-around-250-job-29c4474a-may08",
@@ -823,16 +929,6 @@
         "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
       },
       {
-        "id": "elevenlabs-lists-blackrock-jamie-foxx-and-eva-lo-69d9fa3b-may06",
-        "category": "Product Updates",
-        "title": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors",
-        "source": "TechCrunch",
-        "summary": "ElevenLabs reveals new investors, hits $500M ARR, and expands enterprise footprint as voice AI becomes a critical interface.",
-        "href": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/Mati-Staniszewski_SXSW.jpg?resize=1200,799",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
         "id": "this-weird-pixel-feature-is-one-of-my-favorite-t-a9563460-may06",
         "category": "Product Updates",
         "title": "This weird Pixel feature is one of my favorite tools - too bad Google may remove it soon",
@@ -841,6 +937,16 @@
         "href": "https://www.zdnet.com/article/google-removing-pixel-thermometer/",
         "imageUrl": "https://www.zdnet.com/a/img/resize/1ae411430238884f636ac19a7fc74ad642a71012/2025/08/27/87461d54-1171-4e4a-b900-fc8419eca9f3/dsc07492.jpg?auto=webp&fit=crop&height=675&width=1200",
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "elevenlabs-lists-blackrock-jamie-foxx-and-eva-lo-69d9fa3b-may06",
+        "category": "Product Updates",
+        "title": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors",
+        "source": "TechCrunch",
+        "summary": "ElevenLabs reveals new investors, hits $500M ARR, and expands enterprise footprint as voice AI becomes a critical interface.",
+        "href": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/Mati-Staniszewski_SXSW.jpg?resize=1200,799",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
       },
       {
         "id": "this-critical-linux-vulnerability-is-putting-mil-48a754c0-may06",
@@ -949,6 +1055,16 @@
         "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
       },
       {
+        "id": "lessons-on-ux-security-and-scale-when-building-a-84576f16-may05",
+        "category": "Agents",
+        "title": "Lessons on UX, security, and scale when building an enterprise-grade Slack agent",
+        "source": "Sourcegraph Blog",
+        "summary": "We built a Deep Search Slack agent for large companies. Here is what we learned about user experience, enterprise security, and Redis-backed rate limiting.",
+        "href": "http://localhost:5174/blog/deep-search-slack-agent-lessons",
+        "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+        "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window."
+      },
+      {
         "id": "i-tested-google-maps-vs-apple-maps-to-find-the-b-855f86ec-may05",
         "category": "Product Updates",
         "title": "I tested Google Maps vs. Apple Maps to find the best navigation app - and this one wins",
@@ -967,16 +1083,6 @@
         "href": "https://www.marktechpost.com/2026/05/04/top-search-and-fetch-apis-for-building-ai-agents-in-2026-tools-tradeoffs-and-free-tiers/",
         "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/search_fetch_api_table_2026-1.png",
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "lessons-on-ux-security-and-scale-when-building-a-84576f16-may05",
-        "category": "Agents",
-        "title": "Lessons on UX, security, and scale when building an enterprise-grade Slack agent",
-        "source": "Sourcegraph Blog",
-        "summary": "We built a Deep Search Slack agent for large companies. Here is what we learned about user experience, enterprise security, and Redis-backed rate limiting.",
-        "href": "http://localhost:5174/blog/deep-search-slack-agent-lessons",
-        "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
-        "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window."
       },
       {
         "id": "register-now-for-openclaw-after-hours-github-20b3f4ac-may05",
@@ -1131,16 +1237,6 @@
         "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
       },
       {
-        "id": "how-i-scan-documents-with-my-android-phone-and-t-5e7b0d6f-may03",
-        "category": "Product Updates",
-        "title": "How I scan documents with my Android phone and turn them into PDFs for free - it's easy",
-        "source": "ZDNet AI",
-        "summary": "Need to make a PDF from your Android phone? You can use Google's free tool to scan and create documents in seconds. Here's how.",
-        "href": "https://www.zdnet.com/article/how-to-scan-documents-and-turn-into-pdfs-on-android/",
-        "imageUrl": "https://www.zdnet.com/a/img/resize/c5d4b401cfacd84e1c23bf205177352255729e2e/2026/04/29/9c2174d6-4b16-481a-b563-cdc03e58c0ef/pdfscanhero2.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
-      {
         "id": "even-the-latest-ai-models-make-three-systematic-376d1bc9-may03",
         "category": "Developer Tools",
         "title": "Even the latest AI models make three systematic reasoning errors, ARC-AGI-3 analysis shows",
@@ -1149,6 +1245,16 @@
         "href": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/",
         "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/arc-agi-benchmark.png",
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-i-scan-documents-with-my-android-phone-and-t-5e7b0d6f-may03",
+        "category": "Product Updates",
+        "title": "How I scan documents with my Android phone and turn them into PDFs for free - it's easy",
+        "source": "ZDNet AI",
+        "summary": "Need to make a PDF from your Android phone? You can use Google's free tool to scan and create documents in seconds. Here's how.",
+        "href": "https://www.zdnet.com/article/how-to-scan-documents-and-turn-into-pdfs-on-android/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/c5d4b401cfacd84e1c23bf205177352255729e2e/2026/04/29/9c2174d6-4b16-481a-b563-cdc03e58c0ef/pdfscanhero2.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
       },
       {
         "id": "elon-musk-calls-himself-a-fool-for-giving-openai-9f48ac2f-may03",
@@ -1197,6 +1303,26 @@
         "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
       },
       {
+        "id": "andy-serkis-on-animal-farm-george-orwell-and-ai-915f393e-may02",
+        "category": "Product Updates",
+        "title": "Andy Serkis on Animal Farm, George Orwell, and AI in Hollywood",
+        "source": "Mashable",
+        "summary": "\"Animal Farm\" director Andy Serkis breaks down his George Orwell adaptation, including why he added a new character: piglet Lucky.",
+        "href": "https://mashable.com/video/andy-serkis-interview-animal-farm",
+        "imageUrl": "https://helios-i.mashable.com/imagery/videos/04rjSM4XVfbwtO36oKglzDO/hero-image.fill.size_1200x675.v1777639935.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "qwen-ai-releases-qwen-scope-an-open-source-spars-efb00c05-may02",
+        "category": "Developer Tools",
+        "title": "Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Pract...",
+        "source": "MarkTechPost",
+        "summary": "Qwen Team Introduces Qwen-Scope: An Open-Source Sparse Autoencoder Suite That Turns LLM Internals into Practical Development Tools The post Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Pract...",
+        "href": "https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-1.00.12-AM-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
         "id": "severe-linux-copy-fail-security-flaw-uncovered-u-549d7080-may02",
         "category": "Product Updates",
         "title": "Severe Linux Copy Fail security flaw uncovered using AI scanning help",
@@ -1227,16 +1353,6 @@
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
       },
       {
-        "id": "andy-serkis-on-animal-farm-george-orwell-and-ai-915f393e-may02",
-        "category": "Product Updates",
-        "title": "Andy Serkis on Animal Farm, George Orwell, and AI in Hollywood",
-        "source": "Mashable",
-        "summary": "\"Animal Farm\" director Andy Serkis breaks down his George Orwell adaptation, including why he added a new character: piglet Lucky.",
-        "href": "https://mashable.com/video/andy-serkis-interview-animal-farm",
-        "imageUrl": "https://helios-i.mashable.com/imagery/videos/04rjSM4XVfbwtO36oKglzDO/hero-image.fill.size_1200x675.v1777639935.jpg",
-        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
-      },
-      {
         "id": "pentagon-inks-deals-with-nvidia-microsoft-and-aw-33c1ee68-may02",
         "category": "Model Releases",
         "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
@@ -1245,16 +1361,6 @@
         "href": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
         "imageUrl": "https://techcrunch.com/wp-content/uploads/2021/07/GettyImages-1292192586.jpg?resize=1200,900",
         "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "qwen-ai-releases-qwen-scope-an-open-source-spars-efb00c05-may02",
-        "category": "Developer Tools",
-        "title": "Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Pract...",
-        "source": "MarkTechPost",
-        "summary": "Qwen Team Introduces Qwen-Scope: An Open-Source Sparse Autoencoder Suite That Turns LLM Internals into Practical Development Tools The post Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Pract...",
-        "href": "https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-1.00.12-AM-1.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
         "id": "all-the-evidence-revealed-so-far-in-musk-v-altma-814f8d51-may02",
@@ -1323,16 +1429,6 @@
         "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
       },
       {
-        "id": "firefox-maker-torches-google-for-building-prompt-d795798d-may01",
-        "category": "Product Updates",
-        "title": "Firefox maker torches Google for building Prompt API into browser",
-        "source": "The Register AI",
-        "summary": "Mozilla fears wiring an AI API into Chrome will make the web less open Updated Mozilla has reiterated its opposition to Google's decision to build AI plumbing into its Chrome browser, though rather belatedly now that the technology, known as the Prompt API, i...",
-        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/mozilla_pushes_back_against_googles/",
-        "imageUrl": "https://regmedia.co.uk/2022/09/30/chrome_with_chains.jpg",
-        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
-      },
-      {
         "id": "cursor-introduces-a-typescript-sdk-for-building-ab02e967-may01",
         "category": "Developer Tools",
         "title": "Cursor Introduces a TypeScript SDK for Building Programmatic Coding Agents With Sandboxed Cloud VMs, Subagents, Hooks,...",
@@ -1341,6 +1437,16 @@
         "href": "https://www.marktechpost.com/2026/04/29/cursor-introduces-a-typescript-sdk-for-building-programmatic-coding-agents-with-sandboxed-cloud-vms-subagents-hooks-and-token-based-pricing/",
         "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-90.png",
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "firefox-maker-torches-google-for-building-prompt-d795798d-may01",
+        "category": "Product Updates",
+        "title": "Firefox maker torches Google for building Prompt API into browser",
+        "source": "The Register AI",
+        "summary": "Mozilla fears wiring an AI API into Chrome will make the web less open Updated Mozilla has reiterated its opposition to Google's decision to build AI plumbing into its Chrome browser, though rather belatedly now that the technology, known as the Prompt API, i...",
+        "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/mozilla_pushes_back_against_googles/",
+        "imageUrl": "https://regmedia.co.uk/2022/09/30/chrome_with_chains.jpg",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
       },
       {
         "id": "everything-you-need-to-know-about-elon-musks-ope-efbbf270-may01",
@@ -1515,6 +1621,16 @@
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
+        "id": "meta-fair-releases-neuralset-a-python-package-fo-de196fe1-apr29",
+        "category": "Research Workflows",
+        "title": "Meta FAIR Releases NeuralSet: A Python Package for Neuro-AI That Supports fMRI, M/EEG, Spikes, and HuggingFace Embeddin...",
+        "source": "MarkTechPost",
+        "summary": "Introducing NeuralSet: Meta's Simple, Fast, and Scalable Python Package That Bridges Neuroscience and AI The post Meta FAIR Releases NeuralSet: A Python Package for Neuro-AI That Supports fMRI, M/EEG, Spikes, and HuggingFace Embeddings appeared first on MarkT...",
+        "href": "https://www.marktechpost.com/2026/04/29/meta-fair-releases-neuralset-a-python-package-for-neuro-ai-that-supports-fmri-m-eeg-spikes-and-huggingface-embeddings/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/Screenshot-2026-04-29-at-12.54.07-AM-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
         "id": "at-his-openai-trial-musk-relitigates-an-old-frie-2c170000-apr29",
         "category": "Product Updates",
         "title": "At his OpenAI trial, Musk relitigates an old friendship",
@@ -1583,16 +1699,6 @@
         "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/anthropics_magic_codesniffer_more_swiss/",
         "imageUrl": "https://regmedia.co.uk/2016/08/09/swisscheese.jpg",
         "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "meta-fair-releases-neuralset-a-python-package-fo-de196fe1-apr29",
-        "category": "Research Workflows",
-        "title": "Meta FAIR Releases NeuralSet: A Python Package for Neuro-AI That Supports fMRI, M/EEG, Spikes, and HuggingFace Embeddin...",
-        "source": "MarkTechPost",
-        "summary": "Introducing NeuralSet: Meta's Simple, Fast, and Scalable Python Package That Bridges Neuroscience and AI The post Meta FAIR Releases NeuralSet: A Python Package for Neuro-AI That Supports fMRI, M/EEG, Spikes, and HuggingFace Embeddings appeared first on MarkT...",
-        "href": "https://www.marktechpost.com/2026/04/29/meta-fair-releases-neuralset-a-python-package-for-neuro-ai-that-supports-fmri-m-eeg-spikes-and-huggingface-embeddings/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/Screenshot-2026-04-29-at-12.54.07-AM-1.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -1661,16 +1767,6 @@
         "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
       },
       {
-        "id": "preview-tool-helps-makers-visualize-3d-printed-o-f9ec2638-apr28",
-        "category": "Product Updates",
-        "title": "Preview tool helps makers visualize 3D-printed objects",
-        "source": "MIT News AI",
-        "summary": "By quickly generating aesthetically accurate previews of fabricated objects, the VisiPrint system could make prototyping faster and less wasteful.",
-        "href": "https://news.mit.edu/2026/preview-tool-helps-makers-visualize-3d-printed-objects-0401",
-        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202603/MIT-VisiPrint-Preview-A1.jpg?itok=2ckh0mm0",
-        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
-      },
-      {
         "id": "this-bestselling-gaming-device-is-not-a-nintendo-2e78e196-apr28",
         "category": "Product Updates",
         "title": "This bestselling gaming device is not a Nintendo or a PlayStation - and I highly recommend it",
@@ -1699,6 +1795,16 @@
         "href": "https://www.zdnet.com/article/samsung-wallet-new-trips-travel-feature/",
         "imageUrl": "assets/news/ai-news-goldman-agents.png",
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "preview-tool-helps-makers-visualize-3d-printed-o-f9ec2638-apr28",
+        "category": "Product Updates",
+        "title": "Preview tool helps makers visualize 3D-printed objects",
+        "source": "MIT News AI",
+        "summary": "By quickly generating aesthetically accurate previews of fabricated objects, the VisiPrint system could make prototyping faster and less wasteful.",
+        "href": "https://news.mit.edu/2026/preview-tool-helps-makers-visualize-3d-printed-objects-0401",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202603/MIT-VisiPrint-Preview-A1.jpg?itok=2ckh0mm0",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
       },
       {
         "id": "openai-ends-microsoft-legal-peril-over-its-50b-a-949fd0ad-apr28",
@@ -1787,6 +1893,16 @@
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
+        "id": "a-coding-implementation-on-kvcached-for-elastic-601a6e5e-apr27",
+        "category": "Developer Tools",
+        "title": "A Coding Implementation on kvcached for Elastic KV Cache Memory, Bursty LLM Serving, and Multi-Model GPU Sharing",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we explore kvcached, a dynamic KV-cache implementation on top of vLLM, to understand how dynamic KV-cache allocation transforms GPU memory usage for large language models. We begin by setting up the environment and deploying lightweight Qwen...",
+        "href": "https://www.marktechpost.com/2026/04/25/a-coding-implementation-on-kvcached-for-elastic-kv-cache-memory-bursty-llm-serving-and-multi-model-gpu-sharing/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-1-18-1024x731.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
         "id": "microsoft-s-github-grounds-copilot-account-sign-aa931d7e-apr27",
         "category": "Developer Tools",
         "title": "Microsoft's GitHub grounds Copilot account sign-ups amid capacity crunch",
@@ -1795,6 +1911,16 @@
         "href": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/microsofts_github_grounds_copilot_account/",
         "imageUrl": "https://regmedia.co.uk/2025/09/05/githubcopilot.jpg",
         "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-it-actually-takes-to-run-code-intelligence-92f4fdaa-apr27",
+        "category": "Developer Tools",
+        "title": "What it actually takes to run code intelligence in-house",
+        "source": "Sourcegraph Blog",
+        "summary": "We audited what it would take to build a Sourcegraph equivalent internally, mapped the platform to 90 engineering requirements across 10 categories, and modeled 3-year costs for different environment sizes.",
+        "href": "http://localhost:5174/blog/what-it-actually-takes-to-run-code-intelligence-in-house",
+        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+        "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window."
       },
       {
         "id": "an-openai-linked-news-outlet-appears-to-be-entir-f96e586f-apr27",
@@ -1815,16 +1941,6 @@
         "href": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
         "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-88622588.jpg?resize=1200,870",
         "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "what-it-actually-takes-to-run-code-intelligence-92f4fdaa-apr27",
-        "category": "Developer Tools",
-        "title": "What it actually takes to run code intelligence in-house",
-        "source": "Sourcegraph Blog",
-        "summary": "We audited what it would take to build a Sourcegraph equivalent internally, mapped the platform to 90 engineering requirements across 10 categories, and modeled 3-year costs for different environment sizes.",
-        "href": "http://localhost:5174/blog/what-it-actually-takes-to-run-code-intelligence-in-house",
-        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
-        "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window."
       },
       {
         "id": "our-principles-e1e83761-apr27",
@@ -1865,16 +1981,6 @@
         "href": "https://www.marktechpost.com/2026/04/25/a-coding-tutorial-on-datashader-on-rendering-massive-datasets-with-high-performance-python-visual-analytics/",
         "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-74-1024x731.png",
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "a-coding-implementation-on-kvcached-for-elastic-601a6e5e-apr27",
-        "category": "Developer Tools",
-        "title": "A Coding Implementation on kvcached for Elastic KV Cache Memory, Bursty LLM Serving, and Multi-Model GPU Sharing",
-        "source": "MarkTechPost",
-        "summary": "In this tutorial, we explore kvcached, a dynamic KV-cache implementation on top of vLLM, to understand how dynamic KV-cache allocation transforms GPU memory usage for large language models. We begin by setting up the environment and deploying lightweight Qwen...",
-        "href": "https://www.marktechpost.com/2026/04/25/a-coding-implementation-on-kvcached-for-elastic-kv-cache-memory-bursty-llm-serving-and-multi-model-gpu-sharing/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/04/blog-1-18-1024x731.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       }
     ]
   },
@@ -1903,6 +2009,16 @@
         "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
       },
       {
+        "id": "qwen3-6-27b-beats-much-larger-predecessor-on-mos-ef14ff9f-apr26",
+        "category": "Developer Tools",
+        "title": "Qwen3.6-27B beats much larger predecessor on most coding benchmarks",
+        "source": "The Decoder",
+        "summary": "Alibaba's new open-source model Qwen3.6-27B beats its 15-times-larger predecessor across coding benchmarks with just 27 billion parameters. The article Qwen3.6-27B beats much larger predecessor on most coding benchmarks appeared first on The Decoder .",
+        "href": "https://the-decoder.com/qwen3-6-27b-beats-much-larger-predecessor-on-most-coding-benchmarks/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/3.6_27b_banner.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
         "id": "everything-announced-at-google-cloud-next-in-und-36e81898-apr26",
         "category": "Product Updates",
         "title": "Everything announced at Google Cloud Next in under 15 minutes",
@@ -1921,16 +2037,6 @@
         "href": "https://www.infoq.com/news/2026/04/google-adk-1-0-new-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
         "imageUrl": "https://res.infoq.com/news/2026/04/google-adk-1-0-new-architecture/en/headerimage/google-adk-java-1-0-1776676782594.jpeg",
         "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "qwen3-6-27b-beats-much-larger-predecessor-on-mos-ef14ff9f-apr26",
-        "category": "Developer Tools",
-        "title": "Qwen3.6-27B beats much larger predecessor on most coding benchmarks",
-        "source": "The Decoder",
-        "summary": "Alibaba's new open-source model Qwen3.6-27B beats its 15-times-larger predecessor across coding benchmarks with just 27 billion parameters. The article Qwen3.6-27B beats much larger predecessor on most coding benchmarks appeared first on The Decoder .",
-        "href": "https://the-decoder.com/qwen3-6-27b-beats-much-larger-predecessor-on-most-coding-benchmarks/",
-        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/3.6_27b_banner.jpg",
-        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
         "id": "openai-unveils-gpt-5-5-claims-a-new-class-of-int-a797a7b6-apr26",
@@ -2181,16 +2287,6 @@
         "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
       },
       {
-        "id": "google-updates-workspace-to-make-ai-your-new-off-0d19c608-apr23",
-        "category": "Product Updates",
-        "title": "Google updates Workspace to make AI your new office intern",
-        "source": "TechCrunch",
-        "summary": "Google has introduced a host of new automated functions into Workspace, all of which are driven by Workspace Intelligence, its new AI system.",
-        "href": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
-        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/google-gemini-jagmeet-singh-techcrunch.jpg?resize=1200,800",
-        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
-      },
-      {
         "id": "spacex-cuts-a-deal-to-maybe-buy-cursor-for-60-bi-9afd97e3-apr23",
         "category": "Developer Tools",
         "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
@@ -2208,6 +2304,16 @@
         "summary": "Cursor was on track to close a $2 billion funding round this week but chose to halt discussions after SpaceX offered a $10 billion \"collaboration fee\" and a path to a $60 billion acquisition.",
         "href": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
         "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/12/Anysphere-Cursor-Michael-Truell-.png?resize=1200,745",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-updates-workspace-to-make-ai-your-new-off-0d19c608-apr23",
+        "category": "Product Updates",
+        "title": "Google updates Workspace to make AI your new office intern",
+        "source": "TechCrunch",
+        "summary": "Google has introduced a host of new automated functions into Workspace, all of which are driven by Workspace Intelligence, its new AI system.",
+        "href": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/google-gemini-jagmeet-singh-techcrunch.jpg?resize=1200,800",
         "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
       },
       {
@@ -2515,16 +2621,6 @@
         "excerpt": "Why it matters: enterprise AI rollouts increasingly depend on shared defaults and governance controls, not just individual user prompts."
       },
       {
-        "id": "github-copilot-cloud-agent-usage-metrics-apr19",
-        "category": "Developer Tools",
-        "title": "GitHub adds cloud-agent activity into Copilot usage metrics",
-        "source": "GitHub Changelog",
-        "summary": "GitHub updated Copilot usage metrics so cloud-agent active user counts roll into reporting, giving teams a clearer read on how agent workflows are actually being adopted.",
-        "href": "https://github.blog/changelog/2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts/",
-        "imageUrl": "https://github.blog/wp-content/uploads/2026/04/576797226-760096e8-6f39-4293-94f6-b896738c1fcc.jpeg",
-        "excerpt": "Why it matters: once agent deployments grow, measurement and accountability become as important as model capability."
-      },
-      {
         "id": "aws-openai-strategic-partnership-apr19",
         "category": "Product Updates",
         "title": "AWS and OpenAI announce multi-year strategic partnership",
@@ -2651,16 +2747,6 @@
         "excerpt": "Why it matters: model routing is becoming a built-in part of developer tooling instead of a manual setting teams have to tune on every task."
       },
       {
-        "id": "google-ai-mode-chrome-apr18",
-        "category": "Product Updates",
-        "title": "Google brings AI Mode into Chrome for side-by-side web exploration",
-        "source": "Google Blog",
-        "summary": "Google added a new AI Mode experience in Chrome so users can explore the web and AI responses together in a more integrated browsing flow.",
-        "href": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
-        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_in_Chrome_-_Social_feed.width-1300.png",
-        "excerpt": "Why it matters: browser-native AI is becoming a distribution advantage as search, browsing, and assistant behavior continue to merge."
-      },
-      {
         "id": "google-ai-travel-smarter-apr18",
         "category": "Product Updates",
         "title": "Google packages summer travel planning and deal finding into AI-powered Search flows",
@@ -2669,6 +2755,16 @@
         "href": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
         "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/summer_travel_tips_2026_ss.width-1300.png",
         "excerpt": "Why it matters: consumer AI wins are increasingly about getting useful workflow upgrades into familiar products people already open every day."
+      },
+      {
+        "id": "google-ai-mode-chrome-apr18",
+        "category": "Product Updates",
+        "title": "Google brings AI Mode into Chrome for side-by-side web exploration",
+        "source": "Google Blog",
+        "summary": "Google added a new AI Mode experience in Chrome so users can explore the web and AI responses together in a more integrated browsing flow.",
+        "href": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_in_Chrome_-_Social_feed.width-1300.png",
+        "excerpt": "Why it matters: browser-native AI is becoming a distribution advantage as search, browsing, and assistant behavior continue to merge."
       },
       {
         "id": "salesforce-agent-fabric-controls-apr18",
@@ -2855,16 +2951,6 @@
         "excerpt": "Why it matters: recurring downtime is now a product signal for AI tools that users rely on for daily coding and operational workflows."
       },
       {
-        "id": "parasail-tokenmaxxing-ai-compute-apr16",
-        "category": "Funding",
-        "title": "Parasail raises $32M for tokenmaxxing AI developers",
-        "source": "TechCrunch",
-        "summary": "Parasail raised $32 million for infrastructure aimed at developers who need to spend and manage large token volumes for AI products.",
-        "href": "https://techcrunch.com/2026/04/15/parasail-raises-32m-to-feed-tokenmaxxing-ai-developers/",
-        "imageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-parasail-compute.jpg",
-        "excerpt": "Why it matters: AI infrastructure demand is broadening from raw GPUs to billing, routing, and usage layers that make high-token applications practical."
-      },
-      {
         "id": "openai-agents-sdk-enterprise-sandbox-apr16",
         "category": "Agents",
         "title": "OpenAI updates Agents SDK with sandbox and harness support",
@@ -2893,6 +2979,16 @@
         "href": "https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/",
         "imageUrl": "assets/news/home-briefing/2026-04-16/industry-emergent-agents.webp",
         "excerpt": "Why it matters: agentic coding competition is widening beyond the best-known US developer tools into regional products with local distribution advantages."
+      },
+      {
+        "id": "parasail-tokenmaxxing-ai-compute-apr16",
+        "category": "Funding",
+        "title": "Parasail raises $32M for tokenmaxxing AI developers",
+        "source": "TechCrunch",
+        "summary": "Parasail raised $32 million for infrastructure aimed at developers who need to spend and manage large token volumes for AI products.",
+        "href": "https://techcrunch.com/2026/04/15/parasail-raises-32m-to-feed-tokenmaxxing-ai-developers/",
+        "imageUrl": "assets/news/home-briefing/2026-04-16/semiconductor-parasail-compute.jpg",
+        "excerpt": "Why it matters: AI infrastructure demand is broadening from raw GPUs to billing, routing, and usage layers that make high-token applications practical."
       },
       {
         "id": "gizmo-ai-learning-22m-apr16",
