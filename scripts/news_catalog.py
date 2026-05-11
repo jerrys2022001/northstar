@@ -14,6 +14,7 @@ CATALOG_PATHS = [ROOT / "catalog.js", *sorted(ROOT.glob("catalog_extra_*.js"))]
 # Unreachable feeds are ignored by callers, so this list can be conservative.
 CATALOG_TOOL_FEEDS = {
     "airtable": [("Airtable Blog", "https://www.airtable.com/blog/rss.xml")],
+    "cursor": [("Cursor Changelog", "https://cursor.com/changelog/rss.xml")],
     "descript": [("Descript Blog", "https://www.descript.com/blog/rss.xml")],
     "elevenlabs": [("ElevenLabs Blog", "https://elevenlabs.io/blog/rss.xml")],
     "figma": [("Figma Blog", "https://www.figma.com/blog/rss.xml")],
@@ -23,8 +24,11 @@ CATALOG_TOOL_FEEDS = {
     "heygen": [("HeyGen Blog", "https://www.heygen.com/blog/rss.xml")],
     "hubspot": [("HubSpot AI Blog", "https://blog.hubspot.com/marketing/topic/ai/rss.xml")],
     "miro": [("Miro Blog", "https://miro.com/blog/rss/")],
+    "n8n": [("n8n Blog", "https://blog.n8n.io/rss/")],
     "notion": [("Notion Blog", "https://www.notion.so/blog/rss.xml")],
+    "openrouter": [("OpenRouter Announcements", "https://openrouter.ai/announcements/feed.xml")],
     "otter": [("Otter Blog", "https://otter.ai/blog/rss.xml")],
+    "replicate": [("Replicate Blog", "https://replicate.com/blog/rss")],
     "replit": [("Replit Blog", "https://blog.replit.com/rss.xml")],
     "runway": [("Runway Blog", "https://runwayml.com/blog/rss.xml")],
     "synthesia": [("Synthesia Blog", "https://www.synthesia.io/blog/rss.xml")],

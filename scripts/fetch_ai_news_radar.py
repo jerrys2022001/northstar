@@ -6,6 +6,7 @@ import hashlib
 import html
 import json
 import re
+import ssl
 import sys
 import urllib.error
 import urllib.request
@@ -25,6 +26,9 @@ FIXED_TIME_ZONES: dict[str, tzinfo] = {
     "UTC": timezone.utc,
     "Asia/Shanghai": timezone(timedelta(hours=8), name="Asia/Shanghai"),
 }
+UNVERIFIED_SSL_HOST_HINTS = (
+    "blog.n8n.io",
+)
 FALLBACK_IMAGE_POOL = [
     "assets/news/ai-news-goldman-agents.png",
     "assets/news/bright-product-updates.svg",
@@ -243,8 +247,19 @@ def resolve_window_end(raw_as_of: str | None, digest_date: date, digest_zone: tz
 
 def fetch_text(url: str, timeout: int = 6) -> str:
     request = urllib.request.Request(url, headers={"User-Agent": "northstar-ai-news/1.0"})
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        return response.read().decode("utf-8", errors="replace")
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            return response.read().decode("utf-8", errors="replace")
+    except urllib.error.URLError as exc:
+        url_lower = url.lower()
+        should_retry_unverified_ssl = isinstance(exc.reason, ssl.SSLCertVerificationError) and any(
+            host_hint in url_lower for host_hint in UNVERIFIED_SSL_HOST_HINTS
+        )
+        if not should_retry_unverified_ssl:
+            raise
+        insecure_context = ssl._create_unverified_context()
+        with urllib.request.urlopen(request, timeout=timeout, context=insecure_context) as response:
+            return response.read().decode("utf-8", errors="replace")
 
 
 def read_radar_snapshot(url: str, timeout: int, digest_date: str) -> list[dict[str, Any]]:
