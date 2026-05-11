@@ -16,13 +16,14 @@ CATALOG_TOOL_FEEDS = {
     "airtable": [("Airtable Blog", "https://www.airtable.com/blog/rss.xml")],
     "cursor": [("Cursor Changelog", "https://cursor.com/changelog/rss.xml")],
     "descript": [("Descript Blog", "https://www.descript.com/blog/rss.xml")],
+    "fireflies": [("Fireflies Blog", "https://fireflies.ai/blog/rss/")],
     "elevenlabs": [("ElevenLabs Blog", "https://elevenlabs.io/blog/rss.xml")],
     "figma": [("Figma Blog", "https://www.figma.com/blog/rss.xml")],
     "gemini": [("Google AI Blog", "https://blog.google/technology/ai/rss/")],
-    "grammarly": [("Grammarly Blog", "https://www.grammarly.com/blog/rss.xml")],
+    "grammarly": [("Grammarly Blog", "https://www.grammarly.com/blog/feed/")],
     "githubcopilot": [("GitHub Blog", "https://github.blog/feed/")],
     "heygen": [("HeyGen Blog", "https://www.heygen.com/blog/rss.xml")],
-    "hubspot": [("HubSpot AI Blog", "https://blog.hubspot.com/marketing/topic/ai/rss.xml")],
+    "hubspot": [("HubSpot AI Blog", "https://blog.hubspot.com/marketing/topic/artificial-intelligence/rss.xml")],
     "miro": [("Miro Blog", "https://miro.com/blog/rss/")],
     "n8n": [("n8n Blog", "https://blog.n8n.io/rss/")],
     "notion": [("Notion Blog", "https://www.notion.so/blog/rss.xml")],
@@ -32,7 +33,7 @@ CATALOG_TOOL_FEEDS = {
     "replit": [("Replit Blog", "https://blog.replit.com/rss.xml")],
     "runway": [("Runway Blog", "https://runwayml.com/blog/rss.xml")],
     "synthesia": [("Synthesia Blog", "https://www.synthesia.io/blog/rss.xml")],
-    "zapier": [("Zapier Blog", "https://zapier.com/blog/rss.xml")],
+    "zapier": [("Zapier Blog", "https://zapier.com/blog/feeds/latest/")],
 }
 
 GENERIC_ALIAS_TOKENS = {

@@ -211,7 +211,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--rss-opml", type=Path, help="Optional OPML file with extra RSS feeds.")
     parser.add_argument("--radar-url", default=RAW_RADAR_URL)
-    parser.add_argument("--timeout", type=int, default=6, help="Network timeout per source, in seconds.")
+    parser.add_argument("--timeout", type=int, default=12, help="Network timeout per source, in seconds.")
     parser.add_argument("--skip-radar-snapshot", action="store_true")
     return parser.parse_args()
 
@@ -247,19 +247,28 @@ def resolve_window_end(raw_as_of: str | None, digest_date: date, digest_zone: tz
 
 def fetch_text(url: str, timeout: int = 6) -> str:
     request = urllib.request.Request(url, headers={"User-Agent": "northstar-ai-news/1.0"})
-    try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
-            return response.read().decode("utf-8", errors="replace")
-    except urllib.error.URLError as exc:
-        url_lower = url.lower()
-        should_retry_unverified_ssl = isinstance(exc.reason, ssl.SSLCertVerificationError) and any(
-            host_hint in url_lower for host_hint in UNVERIFIED_SSL_HOST_HINTS
-        )
-        if not should_retry_unverified_ssl:
-            raise
-        insecure_context = ssl._create_unverified_context()
-        with urllib.request.urlopen(request, timeout=timeout, context=insecure_context) as response:
-            return response.read().decode("utf-8", errors="replace")
+    last_error: Exception | None = None
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                return response.read().decode("utf-8", errors="replace")
+        except urllib.error.URLError as exc:
+            last_error = exc
+            url_lower = url.lower()
+            should_retry_unverified_ssl = isinstance(exc.reason, ssl.SSLCertVerificationError) and any(
+                host_hint in url_lower for host_hint in UNVERIFIED_SSL_HOST_HINTS
+            )
+            if should_retry_unverified_ssl:
+                insecure_context = ssl._create_unverified_context()
+                with urllib.request.urlopen(request, timeout=timeout, context=insecure_context) as response:
+                    return response.read().decode("utf-8", errors="replace")
+        except TimeoutError as exc:
+            last_error = exc
+        except ConnectionError as exc:
+            last_error = exc
+    if last_error is not None:
+        raise last_error
+    raise RuntimeError(f"Unable to fetch {url}")
 
 
 def read_radar_snapshot(url: str, timeout: int, digest_date: str) -> list[dict[str, Any]]:

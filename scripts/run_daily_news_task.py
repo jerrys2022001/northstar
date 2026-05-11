@@ -10,7 +10,7 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-from news_catalog import load_catalog_tools, normalize_alias
+from news_catalog import build_tool_alias_map, load_catalog_tools, normalize_alias
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -138,23 +138,6 @@ def parse_args() -> argparse.Namespace:
 
 def clamp_daily_tool_cap(value: int) -> int:
     return max(1, min(value, ABSOLUTE_MAX_PER_TOOL_PER_DAY))
-
-
-def build_product_tool_alias_map(
-    base_aliases: dict[str, list[str]],
-    catalog_tools: list[dict[str, Any]],
-) -> dict[str, set[str]]:
-    merged = {
-        tool_id: {normalize_alias(alias) for alias in aliases if normalize_alias(alias)}
-        for tool_id, aliases in base_aliases.items()
-    }
-    for tool in catalog_tools:
-        tool_id = str(tool.get("id") or "").strip()
-        tool_name = normalize_alias(str(tool.get("name") or ""))
-        if not tool_id or not tool_name:
-            continue
-        merged.setdefault(tool_id, set()).add(tool_name)
-    return merged
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -740,7 +723,7 @@ def run_render_validation(run_date: str, validation_port: int) -> str:
 def main() -> int:
     global TOOL_ALIASES
     args = parse_args()
-    TOOL_ALIASES = build_product_tool_alias_map(BASE_TOOL_ALIASES, load_catalog_tools())
+    TOOL_ALIASES = build_tool_alias_map(BASE_TOOL_ALIASES, load_catalog_tools())
     run_date = args.date
 
     tool_visits = load_tool_visits()
