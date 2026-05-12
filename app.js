@@ -65,6 +65,12 @@
       iconUrl: "assets/submit-lane/find-ai.png"
     },
     {
+      name: "Octopus",
+      meta: "App Name",
+      href: "https://apps.apple.com/app/octopus-codex-code-app/id6763834077",
+      iconUrl: "assets/submit-lane/octopus.jpg"
+    },
+    {
       name: "Bluetooth Explorer",
       meta: "App Name",
       href: "https://apps.apple.com/app/bluetooth-explorer-ai-terminal/id6757826313",
@@ -5980,26 +5986,16 @@
           <img class="news-ad-image" src="assets/sponsors/velocai.jpg" alt="VelocAI sponsor banner">
         </a>
         <div class="news-ad-card news-ad-card-submit" aria-label="Submit Lane app shortcuts">
-          <a class="submit-app-link" href="https://apps.apple.com/app/ai-cleanup-kit/id6757135968" target="_blank" rel="noreferrer" aria-label="Cleanup Pro on the App Store">
-            <img class="submit-app-icon" src="assets/submit-lane/cleanup-pro.png" alt="Cleanup Pro">
-            <span class="submit-app-name">App Name: Cleanup Pro</span>
-          </a>
-          <a class="submit-app-link" href="https://apps.apple.com/app/ai-find/id6757230039" target="_blank" rel="noreferrer" aria-label="Find AI on the App Store">
-            <img class="submit-app-icon" src="assets/submit-lane/find-ai.png" alt="Find AI">
-            <span class="submit-app-name">App Name: Find AI</span>
-          </a>
-          <a class="submit-app-link" href="https://apps.apple.com/app/bluetooth-explorer-ai-terminal/id6757826313" target="_blank" rel="noreferrer" aria-label="Bluetooth Explorer on the App Store">
-            <img class="submit-app-icon" src="assets/submit-lane/bluetooth-explorer.png" alt="Bluetooth Explorer">
-            <span class="submit-app-name">App Name: Bluetooth Explorer</span>
-          </a>
-          <a class="submit-app-link" href="https://apps.apple.com/app/translate-ai-ai-translator/id6757105258" target="_blank" rel="noreferrer" aria-label="AI Translator on the App Store">
-            <img class="submit-app-icon" src="assets/submit-lane/ai-translator.png" alt="AI Translator">
-            <span class="submit-app-name">App Name: AI Translator</span>
-          </a>
-          <a class="submit-app-link" href="https://apps.apple.com/app/dualshot-camera-dual-recorder/id6761664966" target="_blank" rel="noreferrer" aria-label="DualShot Camera on the App Store">
-            <img class="submit-app-icon" src="assets/submit-lane/watch-companion.png" alt="DualShot Camera">
-            <span class="submit-app-name">App Name: DualShot Camera</span>
-          </a>
+          ${releaseAppShortcuts
+            .map(
+              (app) => `
+                <a class="submit-app-link" href="${app.href}" target="_blank" rel="noreferrer" aria-label="${escapeAttribute(app.name)} on the App Store">
+                  <img class="submit-app-icon" src="${app.iconUrl}" alt="${escapeAttribute(app.name)}">
+                  <span class="submit-app-name">${app.meta}: ${app.name}</span>
+                </a>
+              `
+            )
+            .join("")}
         </div>
       `;
     }
