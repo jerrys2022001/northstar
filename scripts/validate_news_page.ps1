@@ -179,17 +179,33 @@ Push-Location $screenshotDir
 try {
   $rawValidation = $null
   $nodeExitCode = 0
+  $nodeArgs = @($validatorScript, $playwrightModulePath, $url, $snapshotPath, $screenshotPath, $systemBrowserPath)
+  $nodeJob = Start-Job -ScriptBlock {
+    param([string[]]$Arguments)
+    $output = & node @Arguments 2>&1
+    [pscustomobject]@{
+      ExitCode = $LASTEXITCODE
+      Output = ($output | Out-String)
+    }
+  } -ArgumentList (,$nodeArgs)
+
   try {
-    $rawValidation = & node $validatorScript $playwrightModulePath $url $snapshotPath $screenshotPath $systemBrowserPath 2>&1
-    $nodeExitCode = $LASTEXITCODE
-  } catch {
-    $rawValidation = $_ | Out-String
-    $nodeExitCode = 1
+    if (Wait-Job -Job $nodeJob -Timeout 75) {
+      $nodeResult = Receive-Job -Job $nodeJob
+      $nodeExitCode = [int]$nodeResult.ExitCode
+      $rawValidation = $nodeResult.Output
+    } else {
+      Stop-Job -Job $nodeJob -ErrorAction SilentlyContinue
+      $rawValidation = "Playwright validation timed out after 75 seconds."
+      $nodeExitCode = 1
+    }
+  } finally {
+    Remove-Job -Job $nodeJob -Force -ErrorAction SilentlyContinue
   }
 
   if ($nodeExitCode -ne 0) {
     $rawText = ($rawValidation | Out-String)
-    if ($rawText -match "spawn EPERM" -or $rawText -match "spawn UNKNOWN" -or $rawText -match "Executable doesn't exist") {
+    if ($rawText -match "spawn EPERM" -or $rawText -match "spawn UNKNOWN" -or $rawText -match "Executable doesn't exist" -or $rawText -match "timed out") {
       $response = Invoke-WebRequest -UseBasicParsing -Uri $url -TimeoutSec 5
       $content = $response.Content
       $hasNewsFeed = $content -like '*id="news-feed"*'
