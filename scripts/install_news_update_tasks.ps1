@@ -1,6 +1,5 @@
 param(
-  [string]$PythonExe = "py",
-  [string]$PythonArgs = "-3 -B",
+  [string]$PythonExe = "",
   [string]$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path,
   [string]$TaskNamePrefix = "Northstar-News",
   [string]$PrimaryAt = "08:45",
@@ -17,23 +16,23 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-$ScriptPath = Join-Path $RepoRoot "scripts\run_news_update_and_publish.py"
+$ScriptPath = Join-Path $RepoRoot "scripts\run_news_update_task.ps1"
 if (-not (Test-Path $ScriptPath)) {
   throw "Missing script: $ScriptPath"
 }
 
-$PythonCommand = (Get-Command $PythonExe -ErrorAction Stop).Source
-if (-not $PythonCommand) {
-  throw "Cannot resolve Python command: $PythonExe"
-}
+$PowerShellCommand = (Get-Command "powershell.exe" -ErrorAction Stop).Source
 
 function Remove-TaskIfExists([string]$TaskName) {
   Unregister-ScheduledTask -TaskName $TaskName -Confirm:$false -ErrorAction SilentlyContinue | Out-Null
 }
 
 function New-NewsAction {
-  $Args = "$PythonArgs `"$ScriptPath`" --repo-root `"$RepoRoot`" --time-zone $TimeZone --max-backfill-days 3 --limit 96 --fetch-min-items 80 --max-fetch-min-items 80 --max-fetch-limit 96 --max-window-hours 72 --initial-catalog-expansion-feeds 48 --max-catalog-expansion-feeds 48 --max-auto-per-tool-per-day 3 --skip-render-validation --git-commit --git-push --git-remote $GitRemote --git-branch $GitBranch"
-  return New-ScheduledTaskAction -Execute $PythonCommand -Argument $Args -WorkingDirectory $RepoRoot
+  $Args = "-NoProfile -ExecutionPolicy Bypass -File `"$ScriptPath`" -RepoRoot `"$RepoRoot`" -TimeZone $TimeZone -GitRemote $GitRemote -GitBranch $GitBranch"
+  if ($PythonExe) {
+    $Args += " -PythonExe `"$PythonExe`""
+  }
+  return New-ScheduledTaskAction -Execute $PowerShellCommand -Argument $Args -WorkingDirectory $RepoRoot
 }
 
 function New-NewsSettings {
@@ -108,4 +107,4 @@ if ($LogonInstalled) {
 } else {
   Write-Warning "  Logon:   skipped. Daily tasks still use StartWhenAvailable."
 }
-Write-Output "Command: $PythonCommand $PythonArgs `"$ScriptPath`" --repo-root `"$RepoRoot`" ..."
+Write-Output "Command: $PowerShellCommand -NoProfile -ExecutionPolicy Bypass -File `"$ScriptPath`" -RepoRoot `"$RepoRoot`" ..."
