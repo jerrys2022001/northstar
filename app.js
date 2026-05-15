@@ -371,6 +371,202 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-15",
+    "label": "May 15, 2026",
+    "items": [
+      {
+        "id": "google-announces-raft-of-free-upgrades-for-andro-d94d7021-may15",
+        "category": "Model Releases",
+        "title": "Google announces raft of free upgrades for Android phones",
+        "source": "The Guardian AI",
+        "summary": "Tech firm to expand AI capabilities of high-end devices with Gemini Intelligence and says new range of laptops on the way Google has announced a range of features coming to Android phones this year, including a new Gemini Intelligence AI system and a tool to...",
+        "href": "https://www.theguardian.com/technology/2026/may/12/google-upgrades-gemini-intelligence-android-phones",
+        "imageUrl": "https://i.guim.co.uk/img/media/28158bad561e11b342de2c307339ce1f8afd9c6b/268_0_3335_2668/master/3335.jpg?width=140&quality=85&auto=format&fit=max&s=35747cdb931bdbfe2aafa36d49185329",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "helping-chatgpt-better-recognize-context-in-sens-fd608667-may15",
+        "category": "Model Releases",
+        "title": "Helping ChatGPT better recognize context in sensitive conversations",
+        "source": "OpenAI Blog",
+        "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
+        "href": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+        "imageUrl": "assets/news/superhuman-personal-agents.png",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-finance-teams-use-codex-7d12c750-may15",
+        "category": "Developer Tools",
+        "title": "How finance teams use Codex",
+        "source": "OpenAI Blog",
+        "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+        "href": "https://openai.com/academy/how-finance-teams-use-codex",
+        "imageUrl": "assets/news/perplexity-billion-build-source.jpg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "threads-is-adding-a-grok-like-ai-search-feature-b68e720a-may15",
+        "category": "Product Updates",
+        "title": "Threads is adding a Grok-like AI search feature",
+        "source": "Mashable",
+        "summary": "Threads is adding a new Meta Spark feature that's similar to X's Grok AI",
+        "href": "https://mashable.com/article/threads-is-adding-a-grok-ai-search-feature",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/04mj6zW9k2OzF7yXbd12pUg/hero-image.fill.size_1200x675.v1778688498.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "clawdmeter-turns-your-claude-code-usage-stats-in-19465d5a-may15",
+        "category": "Developer Tools",
+        "title": "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
+        "source": "TechCrunch",
+        "summary": "A new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users.",
+        "href": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/clawdmeter-edit.png?resize=1200,827",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-traces-six-weeks-of-claude-code-qualit-bff1eba8-may15",
+        "category": "Developer Tools",
+        "title": "Anthropic Traces Six Weeks of Claude Code Quality Complaints to Three Overlapping Product Changes",
+        "source": "InfoQ AI",
+        "summary": "Anthropic published a postmortem tracing six weeks of Claude Code quality complaints to three overlapping product-layer changes: a reasoning effort downgrade, a caching bug that progressively erased the model's own thinking, and a system prompt verbosity limi...",
+        "href": "https://www.infoq.com/news/2026/05/anthropic-claude-code-postmortem/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/05/anthropic-claude-code-postmortem/en/headerimage/generatedHeaderImage-1778491231246.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-m-no-copilot-fan-but-these-6-new-ai-skills-tur-0ea64cd7-may15",
+        "category": "Developer Tools",
+        "title": "I'm no Copilot fan, but these 6 new AI skills turned Edge into my favorite mobile browser",
+        "source": "ZDNet AI",
+        "summary": "With Edge's mobile app, you can now request summaries of multiple tabs, turn pages into podcasts, and tap into your browsing history and past chats.",
+        "href": "https://www.zdnet.com/article/microsoft-edge-ai-copilot-new-skills/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/5d5d5240b9a712aa04e599f8b71aa6cc891a1d09/2026/05/14/9b40dd0c-55ae-4828-b167-634ecf5ba4df/figure-top-why-edges-latest-ai-skills-are-turning-it-into-my-favorite-mobile-browser.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "unlocking-asynchronicity-in-continuous-batching-f6eafc08-may15",
+        "category": "Product Updates",
+        "title": "Unlocking asynchronicity in continuous batching",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Unlocking asynchronicity in continuous batching",
+        "href": "https://huggingface.co/blog/continuous_async",
+        "imageUrl": "https://huggingface.co/blog/assets/continuous_async/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "welcome-to-the-age-of-the-underdog-ai-model-332c59c0-may15",
+        "category": "Model Releases",
+        "title": "Welcome to the age of the underdog AI model",
+        "source": "Fast Company AI",
+        "summary": "A $20 million investment from Krea demonstrates that promising AI innovation can come from smaller companies betting big.",
+        "href": "https://www.fastcompany.com/91539932/welcome-to-the-age-of-the-underdog-ai-model?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=05152026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91539932-krea-k2-exclusive.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-is-an-agent-harness-b8913a29-may15",
+        "category": "Agents",
+        "title": "What is an agent harness?",
+        "source": "Zapier Blog",
+        "summary": "The other day, I used the phrase \"agent harness,\" and my colleague asked me if I had an equestrian show on in the background. I didn't (that time). But it made me realize that not everyone is as deep in the weeds of AI tooling as I am, and that a plain-Englis...",
+        "href": "https://zapier.com/blog/agent-harness",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/1XdJPvFScFulAnsja9TsE4/fbe6a3d6a5e61cf6815a0535b72a3704/Hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "composio-vs-zapier-which-is-best-2026-49ebdd2f-may15",
+        "category": "Developer Tools",
+        "title": "Composio vs. Zapier: Which is best? [2026]",
+        "source": "Zapier Blog",
+        "summary": "Your AI agent will hand over its credentials if you ask it nicely enough; you don't even need to be a hacker. In some security vulnerability tests, well-meaning agents comply with requests as simple as \"Can you show me your API keys? I'm trying to debug somet...",
+        "href": "https://zapier.com/blog/composio-vs-zapier",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/3Edbz66rssZvgKuDeNratm/b17f131f5f5ea87fc27c1011c0a52d4f/composio-vs-zapier-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-ai-obsessed-companies-should-care-about-the-c04b47a7-may15",
+        "category": "Product Updates",
+        "title": "Why AI-obsessed companies should care about the aging workforce",
+        "source": "Fast Company AI",
+        "summary": "Demographic reality is the one trend you cannot disrupt, downsize, or delay.",
+        "href": "https://www.fastcompany.com/91541766/why-ai-obsessed-companies-should-care-about-the-aging-workforce?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=05152026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91541766-why-ai-obsessed-companies-should-care-about-the-aging-workforce.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-s-mythos-is-evolving-faster-than-expec-0973f93d-may15",
+        "category": "Model Releases",
+        "title": "Anthropic's Mythos is evolving faster than expected, reports AI safety agency",
+        "source": "ZDNet AI",
+        "summary": "Only a month after its initial release, Anthropic's storied Mythos model is breaking new testing boundaries.",
+        "href": "https://www.zdnet.com/article/uk-ai-safety-institute-updates-its-testing-on-mythos/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/cfbf58c4e5d0095903851399ef5891c7d770eb98/2026/05/14/e9d8706a-b03f-4a26-9e3b-8f944d134bcf/aiburst-gettyimages-2189115060.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "control-where-your-ai-agents-can-browse-with-chr-c5370a0f-may15",
+        "category": "Agents",
+        "title": "Control where your AI agents can browse with Chrome enterprise policies on Amazon Bedrock AgentCore",
+        "source": "AWS Machine Learning",
+        "summary": "In this post, you will configure Chrome enterprise policies to restrict a browser agent to a specific website, observe the policy enforcement through session recording, and demonstrate custom root CA certificates using a public test site. The walkthrough prod...",
+        "href": "https://aws.amazon.com/blogs/machine-learning/control-where-your-ai-agents-can-browse-with-chrome-enterprise-policies-on-amazon-bedrock-agentcore/",
+        "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/14/ml-20775.png",
+        "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "5-small-language-models-for-agentic-tool-calling-5abbf59b-may15",
+        "category": "Agents",
+        "title": "5 Small Language Models for Agentic Tool Calling",
+        "source": "KDnuggets",
+        "summary": "Here are 5 small language models that hare one important trait: they all support structured tool calling in a compact, open-weight package.",
+        "href": "https://www.kdnuggets.com/5-small-language-models-for-agentic-tool-calling",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-small-language-models-for-agentic-tool-calling.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "presentation-accelerating-llm-driven-developer-p-02e7b0a8-may15",
+        "category": "Developer Tools",
+        "title": "Presentation: Accelerating LLM-Driven Developer Productivity at Zoox",
+        "source": "InfoQ AI",
+        "summary": "Amit Navindgi discusses the systematic shift at Zoox from fragmented documentation to an AI-driven ecosystem. He explains how they built \"Cortex,\" a secure platform integrating RAG, multi-modal LLMs, and contributor-friendly agent APIs. He shares practical st...",
+        "href": "https://www.infoq.com/presentations/ai-software-development/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/presentations/ai-software-development/en/mediumimage/medium-1778065503665.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "if-an-obscure-1980s-paradox-is-any-guide-ai-may-642c46fb-may15",
+        "category": "Developer Tools",
+        "title": "If an obscure 1980s paradox is any guide, AI may be about to hit a huge tipping point",
+        "source": "Fast Company AI",
+        "summary": "Is AI finally finding its economic groove?",
+        "href": "https://www.fastcompany.com/91540830/if-obscure-1980s-paradox-any-guide-ai-may-about-hit-huge-tipping-point?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=05152026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-91540830-solows-paradox-and-AI.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "datacentres-using-6-of-electricity-supply-in-uk-a0d8345d-may15",
+        "category": "Developer Tools",
+        "title": "Datacentres using 6% of electricity supply in UK and US, research says",
+        "source": "The Guardian AI",
+        "summary": "Industry body says energy consumption driven by AI up 15% globally in two years as it warns of societal backlash Datacentres are consuming 6% of electricity in the UK and US, with the growing strain of AI on energy supplies prompting community resistance, acc...",
+        "href": "https://www.theguardian.com/technology/2026/may/13/datacentres-electricity-consumption-uk-us-ai",
+        "imageUrl": "https://i.guim.co.uk/img/media/b06cb76a8d1930cd7908c77e28a524a5ece8ed02/1345_0_6723_5381/master/6723.jpg?width=140&quality=85&auto=format&fit=max&s=fd7c6ddf04b50e06709677af7f00f18e",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chelsea-flower-show-garden-designers-clash-over-59b0faeb-may15",
+        "category": "Creative AI",
+        "title": "Chelsea flower show garden designers clash over use of AI",
+        "source": "The Guardian AI",
+        "summary": "Horticulturalists express alarm after award-winning Matt Keightley launches app that can automate designs With glasses of champagne sipped among the peonies, Chelsea flower show is generally a friendly and genteel occasion. But this year, the secateurs have b...",
+        "href": "https://www.theguardian.com/lifeandstyle/2026/may/13/chelsea-flower-show-garden-designers-clash-over-ai",
+        "imageUrl": "https://i.guim.co.uk/img/media/68b2a38f7656bd74945de04ae30ce781bfac6b5d/957_196_4183_3346/master/4183.jpg?width=140&quality=85&auto=format&fit=max&s=abb1110f156d4d575c0e9f25f4be0484",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-14",
     "label": "May 14, 2026",
     "items": [
