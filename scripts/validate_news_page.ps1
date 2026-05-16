@@ -152,6 +152,44 @@ async function main() {
     const title = await page.title();
     const groups = await page.$$eval("#news-feed .news-day-group", (nodes) => nodes.length);
     const leads = await page.$$eval("#news-lead-grid .news-feature-card", (nodes) => nodes.length);
+    await page.waitForLoadState("networkidle", { timeout: 15000 }).catch(() => {});
+
+    const badImageFragments = [
+      "assets/news/adobe-firefly-precision-flow.webp",
+      "assets/news/ai-news-goldman-agents.png",
+      "assets/news/google-gemini-flash-live-source-large.webp",
+      "assets/news/google-gemini-flash-live.png",
+      "assets/news/neuron-chatgpt-100-tier.png",
+      "assets/news/perplexity-billion-build-source.jpg"
+    ];
+    const imageFailures = await page.$$eval(
+      "#news-lead-grid img, #news-latest-articles img, #news-feed img",
+      (images, fragments) =>
+        images
+          .map((image) => {
+            const src = image.currentSrc || image.src || "";
+            const reason = fragments.some((fragment) => src.includes(fragment))
+              ? "known bad image"
+              : image.naturalWidth < 80 || image.naturalHeight < 60
+                ? `not loaded (${image.naturalWidth}x${image.naturalHeight})`
+                : "";
+            return reason
+              ? {
+                  reason,
+                  src,
+                  alt: image.alt || "",
+                  naturalWidth: image.naturalWidth,
+                  naturalHeight: image.naturalHeight
+                }
+              : null;
+          })
+          .filter(Boolean),
+      badImageFragments
+    );
+
+    if (imageFailures.length) {
+      throw new Error(`News image validation failed: ${JSON.stringify(imageFailures.slice(0, 8))}`);
+    }
 
     fs.writeFileSync(snapshotPath, await page.content(), "utf8");
     await page.screenshot({ path: screenshotPath, fullPage: true });
@@ -160,6 +198,7 @@ async function main() {
       title,
       groups,
       leads,
+      imageFailures,
       snapshotPath,
       screenshotPath
     }));

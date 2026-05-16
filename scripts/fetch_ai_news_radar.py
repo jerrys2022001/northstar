@@ -30,7 +30,6 @@ UNVERIFIED_SSL_HOST_HINTS = (
     "blog.n8n.io",
 )
 FALLBACK_IMAGE_POOL = [
-    "assets/news/ai-news-goldman-agents.png",
     "assets/news/bright-product-updates.svg",
     "assets/news/bright-productivity.svg",
     "assets/news/bright-safety.svg",
@@ -40,8 +39,9 @@ FALLBACK_IMAGE_POOL = [
     "assets/news/fallback-axios-openai-cyber.webp",
     "assets/news/fallback-google-ai-economy.webp",
     "assets/news/mit-compressm.png",
+    "assets/news/openai-databricks-agent-workflows.webp",
     "assets/news/openai-cyber-defense-local.jpg",
-    "assets/news/perplexity-billion-build-source.jpg",
+    "assets/news/perplexity-billion-build.png",
     "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
     "assets/news/superhuman-claude-mythos.png",
     "assets/news/superhuman-personal-agents.png",

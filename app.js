@@ -481,7 +481,7 @@
         "source": "OpenAI Blog",
         "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
         "href": "https://openai.com/index/databricks",
-        "imageUrl": "assets/news/ai-news-goldman-agents.png",
+        "imageUrl": "assets/news/openai-databricks-agent-workflows.webp",
         "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
       },
       {
@@ -557,7 +557,7 @@
         "source": "OpenAI Blog",
         "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
         "href": "https://openai.com/academy/how-finance-teams-use-codex",
-        "imageUrl": "assets/news/perplexity-billion-build-source.jpg",
+        "imageUrl": "assets/news/chatgpt-100-tier-source.png",
         "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
       },
       {
@@ -2789,7 +2789,7 @@
         "source": "ZDNet AI",
         "summary": "This is a pretty big perk for Galaxy users since there's nothing like it built into Android.",
         "href": "https://www.zdnet.com/article/samsung-wallet-new-trips-travel-feature/",
-        "imageUrl": "assets/news/ai-news-goldman-agents.png",
+        "imageUrl": "assets/news/fallback-google-ai-economy.webp",
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
       },
       {
@@ -4149,7 +4149,7 @@
         "source": "Google Blog",
         "summary": "Google is pushing Gemini deeper into real-time assistant workflows with a lower-latency audio model that feels built for live conversation, demos, and multimodal agent experiences.",
         "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
-        "imageUrl": "assets/news/google-gemini-flash-live-source.webp",
+        "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
         "excerpt": "Heat read: Gemini still leads this site's traffic ranking, so product moves that improve latency and voice reliability are among the most representative April signals."
       },
       {
@@ -6200,27 +6200,27 @@
   const NEWS_IMAGE_FALLBACKS = {
     default: "assets/brand-mark.png",
     agents: "assets/news/superhuman-personal-agents.png",
-    model: "assets/news/google-gemini-flash-live-source.webp",
+    model: "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
     open: "assets/news/deepseek-v3-open-source-first.png",
     funding: "assets/news/perplexity-billion-build.png",
     business: "assets/news/perplexity-billion-build.png",
-    finance: "assets/news/neuron-chatgpt-100-tier.png",
+    finance: "assets/news/fallback-google-ai-economy.webp",
     policy: "assets/news/rundown-meta-superintelligence.png",
     safety: "assets/news/mit-compressm.png",
-    research: "assets/news/google-gemini-flash-live.png",
-    translation: "assets/news/google-gemini-flash-live.png",
+    research: "assets/news/mit-compressm.png",
+    translation: "assets/news/mit-compressm.png",
     productivity: "assets/news/adobe-firefly-precision-flow.jpg",
     creative: "assets/news/adobe-firefly-precision-flow.jpg",
     developer: "assets/news/chatgpt-100-tier-source.png",
     infrastructure: "assets/news/openai-cyber-defense-local.jpg",
     anthropic: "assets/news/superhuman-claude-mythos.png",
-    perplexity: "assets/news/perplexity-billion-build-source.jpg",
-    google: "assets/news/google-gemini-flash-live-source-large.webp",
+    perplexity: "assets/news/perplexity-billion-build.png",
+    google: "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
     openai: "assets/news/chatgpt-100-tier-source.png",
     adobe: "assets/news/adobe-firefly-precision-flow.jpg",
     deepseek: "assets/news/deepseek-v3-open-source-first.png",
     claude: "assets/news/superhuman-claude-mythos.png",
-    gemini: "assets/news/google-gemini-flash-live-source.webp"
+    gemini: "assets/news/source-techcrunch-gemini-personal-intelligence.jpg"
   };
   const NEWS_BRAND_FALLBACK_IMAGE = "assets/brand-mark.png";
   const NEWS_TREE_FALLBACK_ICON = "assets/news/northstar-icon-fallback.svg";

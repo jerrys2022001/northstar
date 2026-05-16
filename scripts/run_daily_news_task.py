@@ -36,6 +36,17 @@ DISALLOWED_NEWS_IMAGE_HINTS = (
     "screen_capture",
     "capture",
 )
+DISALLOWED_NEWS_IMAGE_URLS = {
+    "assets/news/adobe-firefly-precision-flow.webp",
+    "assets/news/ai-news-goldman-agents.png",
+    "assets/news/google-gemini-flash-live-source-large.webp",
+    "assets/news/google-gemini-flash-live.png",
+    "assets/news/neuron-chatgpt-100-tier.png",
+    "assets/news/perplexity-billion-build-source.jpg",
+}
+MIN_LOCAL_NEWS_IMAGE_BYTES = 1024
+MIN_LOCAL_NEWS_IMAGE_WIDTH = 240
+MIN_LOCAL_NEWS_IMAGE_HEIGHT = 120
 
 STOPWORDS = {
     "the",
@@ -484,6 +495,82 @@ def validate_news_image_policy(kept_items: list[dict[str, Any]], tool_visits: di
     return errors
 
 
+def normalize_news_image_url(image_url: str) -> str:
+    return image_url.strip().replace("\\", "/").split("?", 1)[0].lower()
+
+
+def validate_local_news_image_asset(item: dict[str, Any], image_url: str, field_name: str) -> list[str]:
+    errors: list[str] = []
+    normalized_url = normalize_news_image_url(image_url)
+
+    if normalized_url in DISALLOWED_NEWS_IMAGE_URLS:
+        errors.append(f"{item['id']}: {field_name} uses a known bad image capture: {image_url}")
+
+    if image_url.startswith(("http://", "https://")):
+        return errors
+
+    image_path = ROOT / Path(image_url.replace("\\", "/"))
+    if not image_path.exists():
+        errors.append(f"{item['id']}: missing {field_name} image {image_url}")
+        return errors
+
+    suffix = image_path.suffix.lower()
+    if suffix == ".svg":
+        if image_path.stat().st_size < 200:
+            errors.append(f"{item['id']}: {field_name} SVG is unexpectedly small: {image_url}")
+        return errors
+
+    if image_path.stat().st_size < MIN_LOCAL_NEWS_IMAGE_BYTES:
+        errors.append(f"{item['id']}: {field_name} image is unexpectedly small: {image_url}")
+        return errors
+
+    try:
+        from PIL import Image, ImageStat
+    except ImportError as exc:
+        errors.append(f"{item['id']}: cannot validate {field_name} image without Pillow: {exc}")
+        return errors
+
+    try:
+        with Image.open(image_path) as opened_image:
+            opened_image.verify()
+        with Image.open(image_path) as opened_image:
+            width, height = opened_image.size
+            if width < MIN_LOCAL_NEWS_IMAGE_WIDTH or height < MIN_LOCAL_NEWS_IMAGE_HEIGHT:
+                errors.append(
+                    f"{item['id']}: {field_name} image dimensions are too small: "
+                    f"{image_url} ({width}x{height})"
+                )
+                return errors
+
+            sample = opened_image.convert("RGB")
+            sample.thumbnail((320, 200))
+            sample_width, sample_height = sample.size
+            corner_size = max(4, min(sample_width, sample_height) // 10)
+            corner_boxes = [
+                (0, 0, corner_size, corner_size),
+                (sample_width - corner_size, 0, sample_width, corner_size),
+                (0, sample_height - corner_size, corner_size, sample_height),
+                (sample_width - corner_size, sample_height - corner_size, sample_width, sample_height),
+            ]
+            corner_means = [ImageStat.Stat(sample.crop(box)).mean for box in corner_boxes]
+            background = [sum(channel_values) / len(channel_values) for channel_values in zip(*corner_means)]
+            background_luma = sum(background) / 3
+            foreground_pixels = 0
+            pixels = list(sample.getdata())
+            for red, green, blue in pixels:
+                if abs(red - background[0]) + abs(green - background[1]) + abs(blue - background[2]) > 75:
+                    foreground_pixels += 1
+            foreground_ratio = foreground_pixels / max(len(pixels), 1)
+            if background_luma > 235 and foreground_ratio < 0.05:
+                errors.append(
+                    f"{item['id']}: {field_name} image looks like a blank security/checkpoint page: {image_url}"
+                )
+    except Exception as exc:
+        errors.append(f"{item['id']}: cannot decode {field_name} image {image_url}: {exc}")
+
+    return errors
+
+
 def validate_no_duplicate_news_items(kept_items: list[dict[str, Any]]) -> list[str]:
     errors: list[str] = []
     for left_index, left in enumerate(kept_items):
@@ -586,15 +673,11 @@ def validate_static_news_assets(
     for group in grouped_feed:
         for item in group["items"]:
             image_url = item.get("imageUrl")
-            if image_url and not image_url.startswith(("http://", "https://")):
-                image_path = ROOT / image_url.replace("/", "\\")
-                if not image_path.exists():
-                    image_errors.append(f"{item['id']}: missing image {image_url}")
+            if image_url:
+                image_errors.extend(validate_local_news_image_asset(item, image_url, "imageUrl"))
             fallback_image_url = item.get("fallbackImageUrl")
-            if fallback_image_url and not fallback_image_url.startswith(("http://", "https://")):
-                fallback_image_path = ROOT / fallback_image_url.replace("/", "\\")
-                if not fallback_image_path.exists():
-                    image_errors.append(f"{item['id']}: missing fallback image {fallback_image_url}")
+            if fallback_image_url:
+                image_errors.extend(validate_local_news_image_asset(item, fallback_image_url, "fallbackImageUrl"))
 
     if image_errors:
         errors.extend(image_errors)
