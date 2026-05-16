@@ -371,6 +371,162 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-16",
+    "label": "May 16, 2026",
+    "items": [
+      {
+        "id": "what-to-expect-from-google-i-o-2026-gemini-news-1e4d8d8b-may16",
+        "category": "Developer Tools",
+        "title": "What to expect from Google I/O 2026: Gemini news, Android XR glasses",
+        "source": "Mashable",
+        "summary": "The Google I/O 2026 developers conference is happening on May 19. This year, we're expecting a big focus on AI tools like Gemini and Veo.",
+        "href": "https://mashable.com/article/google-io-2026-what-to-expect",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00T2GdDsx8Q57WAcup8PVdK/hero-image.fill.size_1200x675.v1778709718.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-launches-chatgpt-for-personal-finance-wil-7c1aec81-may16",
+        "category": "Model Releases",
+        "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
+        "source": "TechCrunch",
+        "summary": "Once users connect their accounts, they will see a dashboard of their portfolio performance, spending, subscriptions, and upcoming payments.",
+        "href": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2195918462.jpg?w=1024",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chatgpt-now-wants-access-to-your-bank-account-so-0ffa0a92-may16",
+        "category": "Developer Tools",
+        "title": "ChatGPT now wants access to your bank account so it can tell you to stop ordering takeout",
+        "source": "The Decoder",
+        "summary": "OpenAI is turning ChatGPT into a personal financial assistant. Pro users in the US can now connect their bank accounts through Plaid to get personalized analysis based on real transaction data. The feature runs on GPT-5.5 Thinking and will eventually roll out...",
+        "href": "https://the-decoder.com/chatgpt-now-wants-access-to-your-bank-account-so-it-can-tell-you-to-stop-ordering-takeout/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/ai_finance-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "x-ai-plays-catch-up-with-grok-build-its-first-te-15612325-may16",
+        "category": "Developer Tools",
+        "title": "x.AI plays catch-up with Grok Build, its first terminal-based coding agent",
+        "source": "The Decoder",
+        "summary": "Elon Musk's AI company x.AI is jumping into the coding agent space with Grok Build, a new terminal-based tool. The article x.AI plays catch-up with Grok Build, its first terminal-based coding agent appeared first on The Decoder .",
+        "href": "https://the-decoder.com/x-ai-plays-catch-up-with-grok-build-its-first-terminal-based-coding-agent/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/Grok-Build-CLI.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-pulls-claude-code-licenses-and-pushes-d6345f41-may16",
+        "category": "Developer Tools",
+        "title": "Microsoft pulls Claude Code licenses and pushes developers back toward its own AI tool",
+        "source": "The Decoder",
+        "summary": "Thousands of Microsoft developers used Anthropic's Claude Code for programming. Now the company is revoking licenses and betting on GitHub Copilot CLI. The article Microsoft pulls Claude Code licenses and pushes developers back toward its own AI tool appeared...",
+        "href": "https://the-decoder.com/microsoft-pulls-claude-code-licenses-and-pushes-developers-back-toward-its-own-ai-tool/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/01/copilot_logo_anthropic_claude-1.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-introduces-routines-for-claude-code-au-84e9bbb7-may16",
+        "category": "Developer Tools",
+        "title": "Anthropic Introduces Routines for Claude Code Automation",
+        "source": "InfoQ AI",
+        "summary": "Anthropic has introduced a new feature called Routines for Claude Code, allowing developers to configure automated coding workflows that run on schedules, through API calls, or in response to external events. By Daniel Dominguez",
+        "href": "https://www.infoq.com/news/2026/05/anthropic-routines-claude/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/05/anthropic-routines-claude/en/headerimage/generatedHeaderImage-1778774115333.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "intercom-now-called-fin-launches-an-ai-agent-who-e125a079-may16",
+        "category": "Developer Tools",
+        "title": "Intercom, now called Fin, launches an AI agent whose only job is managing another AI agent",
+        "source": "VentureBeat",
+        "summary": "The company formerly known as Intercom just did something that no major customer service platform has attempted at scale: it built an AI agent whose sole job is to manage another AI agent. Fin Operator , announced Thursday at a live event in San Francisco, is...",
+        "href": "https://venturebeat.com/technology/intercom-now-called-fin-launches-an-ai-agent-whose-only-job-is-managing-another-ai-agent",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/10I7GZFZUePTddNj8ASkQA/6377bab1d1c7f5e7bfeed8c047ac2588/Nuneybits_Vector_art_of_a_back-office_maze_navigated_by_an_AI_o_f7f13274-2bb1-4557-bc50-34a00548ce56.webp?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meta-ai-what-is-muse-spark-and-what-happened-to-a092e9fd-may16",
+        "category": "Model Releases",
+        "title": "Meta AI: What is Muse Spark? And what happened to Llama?",
+        "source": "Zapier Blog",
+        "summary": "Meta has introduced a new flagship AI model called Muse Spark and sent the Llama \"herd\" of models to the farm upstate. It's a dramatic shift in AI strategy from the company that was once pioneering open models. Muse Spark is a multimodal reasoning model. It's...",
+        "href": "https://zapier.com/blog/llama-meta",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/1aj1XTUnsFYioeLjP7xEPy/be1af2cae5f9aa08da67eea7871d7fb8/meta-app-tips.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-best-ai-agent-builder-software-in-2026-1fb220da-may16",
+        "category": "Developer Tools",
+        "title": "The best AI agent builder software in 2026",
+        "source": "Zapier Blog",
+        "summary": "AI agents have matured fast, and I've been in the weeds the whole time. These days, AI agents are running a lot of my processes in the background. And it's not just me or the Zapier team: 84% of enterprises plan to boost AI agent investments. Agents can run c...",
+        "href": "https://zapier.com/blog/best-ai-agent-builder",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/2K7anZyYS3pQ9rZE2qxtK6/c804ba91357fa42f9bb08197461dfd81/best-ai-agent-builders.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "if-ai-causes-a-mass-unemployment-crisis-will-the-88f7845c-may16",
+        "category": "Product Updates",
+        "title": "If AI Causes a Mass Unemployment Crisis, Will the Public Explode Into Violence?",
+        "source": "Futurism AI",
+        "summary": "\"AI generates the structural conditions historically associated with the onset of political violence.\" The post If AI Causes a Mass Unemployment Crisis, Will the Public Explode Into Violence? appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ai-mass-unemployement-violence",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/ai-mass-unemployement-violence.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "databricks-brings-gpt-5-5-to-enterprise-agent-wo-c64312c3-may16",
+        "category": "Agents",
+        "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+        "source": "OpenAI Blog",
+        "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+        "href": "https://openai.com/index/databricks",
+        "imageUrl": "assets/news/ai-news-goldman-agents.png",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-keeps-shuffling-its-executives-in-bid-to-59911f20-may16",
+        "category": "Developer Tools",
+        "title": "OpenAI keeps shuffling its executives in bid to win AI agent battle",
+        "source": "The Verge AI",
+        "summary": "OpenAI announced yet another reorganization Friday, consolidating certain areas and making company president Greg Brockman the official lead of all things product. In a memo viewed by The Verge, Brockman wrote that since OpenAI's product strategy for this yea...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "developer-withdraws-plans-for-perth-datacentre-a-d3c416e6-may16",
+        "category": "Developer Tools",
+        "title": "Developer withdraws plans for Perth datacentre after fierce community opposition",
+        "source": "The Guardian AI",
+        "summary": "Three-storey GreenSquare datacentre in Hazelmere was to power cloud computing and the acceleration of AI Get our breaking news email , free app or daily news podcast A 15,000 sq metre datacentre near Perth will no longer go ahead after the developer withdrew...",
+        "href": "https://www.theguardian.com/technology/2026/may/15/developer-withdraws-plans-for-perth-datacentre-after-fierce-community-opposition",
+        "imageUrl": "https://i.guim.co.uk/img/media/923d224cc1112b69c4e41a963a69eb168165cd42/194_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=0a79e2bd011c9e88868fd168fe31722f",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-s-900-billion-valuation-would-make-it-d296d84b-may16",
+        "category": "Developer Tools",
+        "title": "Anthropic's $900 billion valuation would make it more valuable than OpenAI for the first time",
+        "source": "The Decoder",
+        "summary": "Anthropic is raising another $30 billion just three months after a round of the same size. The AI lab's valuation jumps to $900 billion, surpassing rival OpenAI for the first time. Fueling the surge: annualized revenue approaching $45 billion, a fivefold incr...",
+        "href": "https://the-decoder.com/anthropics-900-billion-valuation-would-make-it-more-valuable-than-openai-for-the-first-time/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/anthropic_Deal_cash.jpeg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-frames-ai-competition-with-china-as-a-4792c8b1-may16",
+        "category": "Developer Tools",
+        "title": "Anthropic frames AI competition with China as a now-or-never moment for Washington",
+        "source": "The Decoder",
+        "summary": "In a policy paper, Anthropic lays out two scenarios for 2028: either the US locks in its compute lead over China, or authoritarian regimes set the rules for the AI era. The timing is no coincidence. The article Anthropic frames AI competition with China as a...",
+        "href": "https://the-decoder.com/anthropic-frames-ai-competition-with-china-as-a-now-or-never-moment-for-washington/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/Anthropic-US-Leadership.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-15",
     "label": "May 15, 2026",
     "items": [

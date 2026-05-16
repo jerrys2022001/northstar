@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-05-15T01:36:42+00:00",
-  "digestDate": "2026-05-15",
+  "updatedAt": "2026-05-16T00:49:13+00:00",
+  "digestDate": "2026-05-16",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-05-12T09:33:17+08:00",
-  "windowEnd": "2026-05-15T09:33:17+08:00",
+  "windowStart": "2026-05-13T08:45:41+08:00",
+  "windowEnd": "2026-05-16T08:45:41+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -248,41 +248,296 @@
   ],
   "items": [
     {
-      "id": "clawdmeter-turns-your-claude-code-usage-stats-in-19465d5a-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "intercom-now-called-fin-launches-an-ai-agent-who-e125a079-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Developer Tools",
-      "title": "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
-      "source": "TechCrunch",
-      "summary": "A new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users.",
-      "href": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
-      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/clawdmeter-edit.png?resize=1200,827",
-      "publishedAt": "2026-05-14T19:05:01+00:00",
+      "title": "Intercom, now called Fin, launches an AI agent whose only job is managing another AI agent",
+      "source": "VentureBeat",
+      "summary": "The company formerly known as Intercom just did something that no major customer service platform has attempted at scale: it built an AI agent whose sole job is to manage another AI agent. Fin Operator , announced Thursday at a live event in San Francisco, is...",
+      "href": "https://venturebeat.com/technology/intercom-now-called-fin-launches-an-ai-agent-whose-only-job-is-managing-another-ai-agent",
+      "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/10I7GZFZUePTddNj8ASkQA/6377bab1d1c7f5e7bfeed8c047ac2588/Nuneybits_Vector_art_of_a_back-office_maze_navigated_by_an_AI_o_f7f13274-2bb1-4557-bc50-34a00548ce56.webp?w=300&q=30",
+      "publishedAt": "2026-05-15T21:06:09+00:00",
       "toolIds": [
+        "intercom"
+      ]
+    },
+    {
+      "id": "openai-keeps-shuffling-its-executives-in-bid-to-59911f20-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI keeps shuffling its executives in bid to win AI agent battle",
+      "source": "The Verge AI",
+      "summary": "OpenAI announced yet another reorganization Friday, consolidating certain areas and making company president Greg Brockman the official lead of all things product. In a memo viewed by The Verge, Brockman wrote that since OpenAI's product strategy for this yea...",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
+      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-05-15T18:21:35+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "chatgpt-now-wants-access-to-your-bank-account-so-0ffa0a92-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "ChatGPT now wants access to your bank account so it can tell you to stop ordering takeout",
+      "source": "The Decoder",
+      "summary": "OpenAI is turning ChatGPT into a personal financial assistant. Pro users in the US can now connect their bank accounts through Plaid to get personalized analysis based on real transaction data. The feature runs on GPT-5.5 Thinking and will eventually roll out...",
+      "href": "https://the-decoder.com/chatgpt-now-wants-access-to-your-bank-account-so-it-can-tell-you-to-stop-ordering-takeout/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/ai_finance-2.png",
+      "publishedAt": "2026-05-15T17:43:49+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "anthropic-s-900-billion-valuation-would-make-it-d296d84b-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "Anthropic's $900 billion valuation would make it more valuable than OpenAI for the first time",
+      "source": "The Decoder",
+      "summary": "Anthropic is raising another $30 billion just three months after a round of the same size. The AI lab's valuation jumps to $900 billion, surpassing rival OpenAI for the first time. Fueling the surge: annualized revenue approaching $45 billion, a fivefold incr...",
+      "href": "https://the-decoder.com/anthropics-900-billion-valuation-would-make-it-more-valuable-than-openai-for-the-first-time/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/anthropic_Deal_cash.jpeg",
+      "publishedAt": "2026-05-15T16:49:05+00:00",
+      "toolIds": [
+        "chatgpt",
         "claude"
       ]
     },
     {
-      "id": "anthropic-s-mythos-is-evolving-faster-than-expec-0973f93d-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "openai-launches-chatgpt-for-personal-finance-wil-7c1aec81-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Model Releases",
-      "title": "Anthropic's Mythos is evolving faster than expected, reports AI safety agency",
-      "source": "ZDNet AI",
-      "summary": "Only a month after its initial release, Anthropic's storied Mythos model is breaking new testing boundaries.",
-      "href": "https://www.zdnet.com/article/uk-ai-safety-institute-updates-its-testing-on-mythos/",
-      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.zdnet.com/a/img/resize/cfbf58c4e5d0095903851399ef5891c7d770eb98/2026/05/14/e9d8706a-b03f-4a26-9e3b-8f944d134bcf/aiburst-gettyimages-2189115060.jpg?auto=webp&fit=crop&height=675&width=1200",
-      "publishedAt": "2026-05-14T17:32:00+00:00",
+      "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
+      "source": "TechCrunch",
+      "summary": "Once users connect their accounts, they will see a dashboard of their portfolio performance, spending, subscriptions, and upcoming payments.",
+      "href": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2195918462.jpg?w=1024",
+      "publishedAt": "2026-05-15T16:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "openai-warns-mac-users-to-update-apps-after-supp-3f44425c-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI Warns Mac Users to Update Apps After Supply-Chain Attack",
+      "source": "TechRepublic AI",
+      "summary": "OpenAI says Mac users must update ChatGPT, Codex, and Atlas apps by June 12 after an npm supply-chain attack exposed signing certificates. The post OpenAI Warns Mac Users to Update Apps After Supply-Chain Attack appeared first on TechRepublic .",
+      "href": "https://www.techrepublic.com/article/news-openai-mac-app-update-supply-chain-attack/",
+      "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+      "publishedAt": "2026-05-15T15:53:36+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "anthropic-introduces-routines-for-claude-code-au-84e9bbb7-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "Anthropic Introduces Routines for Claude Code Automation",
+      "source": "InfoQ AI",
+      "summary": "Anthropic has introduced a new feature called Routines for Claude Code, allowing developers to configure automated coding workflows that run on schedules, through API calls, or in response to external events. By Daniel Dominguez",
+      "href": "https://www.infoq.com/news/2026/05/anthropic-routines-claude/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://res.infoq.com/news/2026/05/anthropic-routines-claude/en/headerimage/generatedHeaderImage-1778774115333.jpg",
+      "publishedAt": "2026-05-15T15:51:00+00:00",
       "toolIds": [
         "claude"
       ]
     },
     {
-      "id": "control-where-your-ai-agents-can-browse-with-chr-c5370a0f-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "x-ai-plays-catch-up-with-grok-build-its-first-te-15612325-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "x.AI plays catch-up with Grok Build, its first terminal-based coding agent",
+      "source": "The Decoder",
+      "summary": "Elon Musk's AI company x.AI is jumping into the coding agent space with Grok Build, a new terminal-based tool. The article x.AI plays catch-up with Grok Build, its first terminal-based coding agent appeared first on The Decoder .",
+      "href": "https://the-decoder.com/x-ai-plays-catch-up-with-grok-build-its-first-terminal-based-coding-agent/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/Grok-Build-CLI.png",
+      "publishedAt": "2026-05-15T13:58:14+00:00",
+      "toolIds": [
+        "grok"
+      ]
+    },
+    {
+      "id": "if-ai-causes-a-mass-unemployment-crisis-will-the-88f7845c-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Product Updates",
+      "title": "If AI Causes a Mass Unemployment Crisis, Will the Public Explode Into Violence?",
+      "source": "Futurism AI",
+      "summary": "\"AI generates the structural conditions historically associated with the onset of political violence.\" The post If AI Causes a Mass Unemployment Crisis, Will the Public Explode Into Violence? appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/ai-mass-unemployement-violence",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/ai-mass-unemployement-violence.jpg?quality=85",
+      "publishedAt": "2026-05-15T12:48:46+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "microsoft-pulls-claude-code-licenses-and-pushes-d6345f41-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "Microsoft pulls Claude Code licenses and pushes developers back toward its own AI tool",
+      "source": "The Decoder",
+      "summary": "Thousands of Microsoft developers used Anthropic's Claude Code for programming. Now the company is revoking licenses and betting on GitHub Copilot CLI. The article Microsoft pulls Claude Code licenses and pushes developers back toward its own AI tool appeared...",
+      "href": "https://the-decoder.com/microsoft-pulls-claude-code-licenses-and-pushes-developers-back-toward-its-own-ai-tool/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/01/copilot_logo_anthropic_claude-1.png",
+      "publishedAt": "2026-05-15T12:39:55+00:00",
+      "toolIds": [
+        "claude",
+        "githubcopilot"
+      ]
+    },
+    {
+      "id": "this-new-claude-skill-saves-you-from-bad-contrac-5e05ddb8-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Product Updates",
+      "title": "This new Claude skill saves you from bad contracts - and costs less than a lawyer",
+      "source": "ZDNet AI",
+      "summary": "I tested Claude for Small Business, which has 31 skills, and the contract review tool is amazing.",
+      "href": "https://www.zdnet.com/article/claude-small-business-contract-review-ai-no-lawyer/",
+      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/d2bed5ae04d0535904c5d58c78c030c0d0d55a32/2026/05/15/36aeff88-daa7-4249-ac7a-360e51a3b710/claude-business-skill.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2026-05-15T12:31:53+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "anthropic-frames-ai-competition-with-china-as-a-4792c8b1-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "Anthropic frames AI competition with China as a now-or-never moment for Washington",
+      "source": "The Decoder",
+      "summary": "In a policy paper, Anthropic lays out two scenarios for 2028: either the US locks in its compute lead over China, or authoritarian regimes set the rules for the AI era. The timing is no coincidence. The article Anthropic frames AI competition with China as a...",
+      "href": "https://the-decoder.com/anthropic-frames-ai-competition-with-china-as-a-now-or-never-moment-for-washington/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/Anthropic-US-Leadership.png",
+      "publishedAt": "2026-05-15T10:05:51+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "developer-withdraws-plans-for-perth-datacentre-a-d3c416e6-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "Developer withdraws plans for Perth datacentre after fierce community opposition",
+      "source": "The Guardian AI",
+      "summary": "Three-storey GreenSquare datacentre in Hazelmere was to power cloud computing and the acceleration of AI Get our breaking news email , free app or daily news podcast A 15,000 sq metre datacentre near Perth will no longer go ahead after the developer withdrew...",
+      "href": "https://www.theguardian.com/technology/2026/may/15/developer-withdraws-plans-for-perth-datacentre-after-fierce-community-opposition",
+      "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://i.guim.co.uk/img/media/923d224cc1112b69c4e41a963a69eb168165cd42/194_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=0a79e2bd011c9e88868fd168fe31722f",
+      "publishedAt": "2026-05-15T08:57:11+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "openai-makes-its-ai-coding-assistant-codex-avail-96fe3753-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI makes its AI coding assistant Codex available on iOS and Android",
+      "source": "The Decoder",
+      "summary": "OpenAI brings its AI coding assistant Codex to the ChatGPT app on iOS and Android. The article OpenAI makes its AI coding assistant Codex available on iOS and Android appeared first on The Decoder .",
+      "href": "https://the-decoder.com/openai-makes-its-ai-coding-assistant-codex-available-on-ios-and-android/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/openai_audio-1.png",
+      "publishedAt": "2026-05-15T08:39:26+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "best-ai-agents-for-software-development-ranked-a-2ed1e46e-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "Best AI Agents for Software Development Ranked: A Benchmark-Driven Look at the Current Field",
+      "source": "MarkTechPost",
+      "summary": "The AI coding agent field in 2026 is more capable, more fragmented, and harder to benchmark than it looks. Claude Code leads on code quality at 87.6% SWE-bench Verified. GPT-5.5 tops Terminal-Bench at 82.7%. But the benchmark OpenAI itself declared contaminat...",
+      "href": "https://www.marktechpost.com/2026/05/15/best-ai-agents-for-software-development-ranked-a-benchmark-driven-look-at-the-current-field/",
+      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11-1-8.png",
+      "publishedAt": "2026-05-15T08:23:01+00:00",
+      "toolIds": [
+        "chatgpt",
+        "claude"
+      ]
+    },
+    {
+      "id": "api-by-zapier-make-secure-outbound-api-calls-ff1a2562-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Agents",
+      "title": "API by Zapier: Make secure outbound API calls",
+      "source": "Zapier Blog",
+      "summary": "Zapier connects to thousands of apps, but maybe an app or action you need isn't available, or a native integration doesn't let you set OAuth scopes. Without them, IT might not approve the integration you want. In the past, there was just one workaround: to pa...",
+      "href": "https://zapier.com/blog/api-guide",
+      "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/6r6Prdb2Lrah0oFvldEqI/fbdb904bfcc65067aa16024ad3846ab6/Hero.jpg",
+      "publishedAt": "2026-05-15T05:00:00+00:00",
+      "toolIds": [
+        "zapier"
+      ]
+    },
+    {
+      "id": "databricks-brings-gpt-5-5-to-enterprise-agent-wo-c64312c3-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Agents",
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "source": "OpenAI Blog",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "href": "https://openai.com/index/databricks",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/ai-news-goldman-agents.png",
+      "publishedAt": "2026-05-15T00:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "sea-s-view-on-the-future-of-agentic-software-dev-ca03c8de-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "Sea's View on the Future of Agentic Software Development with Codex",
+      "source": "OpenAI Blog",
+      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
+      "href": "https://openai.com/index/sea-david-chen",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+      "publishedAt": "2026-05-14T20:30:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "control-where-your-ai-agents-can-browse-with-chr-c5370a0f-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Agents",
       "title": "Control where your AI agents can browse with Chrome enterprise policies on Amazon Bedrock AgentCore",
       "source": "AWS Machine Learning",
@@ -296,39 +551,23 @@
       ]
     },
     {
-      "id": "i-m-no-copilot-fan-but-these-6-new-ai-skills-tur-0ea64cd7-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Developer Tools",
-      "title": "I'm no Copilot fan, but these 6 new AI skills turned Edge into my favorite mobile browser",
-      "source": "ZDNet AI",
-      "summary": "With Edge's mobile app, you can now request summaries of multiple tabs, turn pages into podcasts, and tap into your browsing history and past chats.",
-      "href": "https://www.zdnet.com/article/microsoft-edge-ai-copilot-new-skills/",
-      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.zdnet.com/a/img/resize/5d5d5240b9a712aa04e599f8b71aa6cc891a1d09/2026/05/14/9b40dd0c-55ae-4828-b167-634ecf5ba4df/figure-top-why-edges-latest-ai-skills-are-turning-it-into-my-favorite-mobile-browser.jpg?auto=webp&fit=crop&height=675&width=1200",
-      "publishedAt": "2026-05-14T16:49:59+00:00",
-      "toolIds": [
-        "githubcopilot"
-      ]
-    },
-    {
-      "id": "if-an-obscure-1980s-paradox-is-any-guide-ai-may-642c46fb-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "if-an-obscure-1980s-paradox-is-any-guide-ai-may-a7a023a2-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Developer Tools",
       "title": "If an obscure 1980s paradox is any guide, AI may be about to hit a huge tipping point",
       "source": "Fast Company AI",
       "summary": "Is AI finally finding its economic groove?",
-      "href": "https://www.fastcompany.com/91540830/if-obscure-1980s-paradox-any-guide-ai-may-about-hit-huge-tipping-point?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=05152026",
+      "href": "https://www.fastcompany.com/91540830/if-obscure-1980s-paradox-any-guide-ai-may-about-hit-huge-tipping-point?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=05162026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-91540830-solows-paradox-and-AI.jpg",
       "publishedAt": "2026-05-14T15:16:50+00:00",
       "toolIds": []
     },
     {
-      "id": "presentation-accelerating-llm-driven-developer-p-02e7b0a8-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "presentation-accelerating-llm-driven-developer-p-02e7b0a8-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Developer Tools",
       "title": "Presentation: Accelerating LLM-Driven Developer Productivity at Zoox",
       "source": "InfoQ AI",
@@ -342,9 +581,25 @@
       ]
     },
     {
-      "id": "5-small-language-models-for-agentic-tool-calling-5abbf59b-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "work-with-codex-from-anywhere-3e12c692-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "Work with Codex from anywhere",
+      "source": "OpenAI Blog",
+      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
+      "href": "https://openai.com/index/work-with-codex-from-anywhere",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/superhuman-claude-mythos.png",
+      "publishedAt": "2026-05-14T13:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "5-small-language-models-for-agentic-tool-calling-5abbf59b-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Agents",
       "title": "5 Small Language Models for Agentic Tool Calling",
       "source": "KDnuggets",
@@ -356,14 +611,14 @@
       "toolIds": []
     },
     {
-      "id": "welcome-to-the-age-of-the-underdog-ai-model-332c59c0-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "welcome-to-the-age-of-the-underdog-ai-model-969d06e7-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Model Releases",
       "title": "Welcome to the age of the underdog AI model",
       "source": "Fast Company AI",
       "summary": "A $20 million investment from Krea demonstrates that promising AI innovation can come from smaller companies betting big.",
-      "href": "https://www.fastcompany.com/91539932/welcome-to-the-age-of-the-underdog-ai-model?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=05152026",
+      "href": "https://www.fastcompany.com/91539932/welcome-to-the-age-of-the-underdog-ai-model?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=05162026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91539932-krea-k2-exclusive.jpg",
       "publishedAt": "2026-05-14T11:00:00+00:00",
@@ -372,23 +627,23 @@
       ]
     },
     {
-      "id": "why-ai-obsessed-companies-should-care-about-the-c04b47a7-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "why-ai-obsessed-companies-should-care-about-the-488a8cd5-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Product Updates",
       "title": "Why AI-obsessed companies should care about the aging workforce",
       "source": "Fast Company AI",
       "summary": "Demographic reality is the one trend you cannot disrupt, downsize, or delay.",
-      "href": "https://www.fastcompany.com/91541766/why-ai-obsessed-companies-should-care-about-the-aging-workforce?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=05152026",
+      "href": "https://www.fastcompany.com/91541766/why-ai-obsessed-companies-should-care-about-the-aging-workforce?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=8&partner=newsletter&campaign_date=05162026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91541766-why-ai-obsessed-companies-should-care-about-the-aging-workforce.jpg",
       "publishedAt": "2026-05-14T09:30:00+00:00",
       "toolIds": []
     },
     {
-      "id": "anthropic-traces-six-weeks-of-claude-code-qualit-bff1eba8-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "anthropic-traces-six-weeks-of-claude-code-qualit-bff1eba8-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Developer Tools",
       "title": "Anthropic Traces Six Weeks of Claude Code Quality Complaints to Three Overlapping Product Changes",
       "source": "InfoQ AI",
@@ -402,9 +657,25 @@
       ]
     },
     {
-      "id": "what-is-an-agent-harness-b8913a29-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "what-to-expect-from-google-i-o-2026-gemini-news-1e4d8d8b-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
+      "category": "Developer Tools",
+      "title": "What to expect from Google I/O 2026: Gemini news, Android XR glasses",
+      "source": "Mashable",
+      "summary": "The Google I/O 2026 developers conference is happening on May 19. This year, we're expecting a big focus on AI tools like Gemini and Veo.",
+      "href": "https://mashable.com/article/google-io-2026-what-to-expect",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/articles/00T2GdDsx8Q57WAcup8PVdK/hero-image.fill.size_1200x675.v1778709718.jpg",
+      "publishedAt": "2026-05-14T09:00:00+00:00",
+      "toolIds": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "what-is-an-agent-harness-b8913a29-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Agents",
       "title": "What is an agent harness?",
       "source": "Zapier Blog",
@@ -416,9 +687,9 @@
       "toolIds": []
     },
     {
-      "id": "composio-vs-zapier-which-is-best-2026-49ebdd2f-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "composio-vs-zapier-which-is-best-2026-49ebdd2f-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Developer Tools",
       "title": "Composio vs. Zapier: Which is best? [2026]",
       "source": "Zapier Blog",
@@ -433,25 +704,25 @@
       ]
     },
     {
-      "id": "helping-chatgpt-better-recognize-context-in-sens-fd608667-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "helping-chatgpt-better-recognize-context-in-sens-fd608667-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Model Releases",
       "title": "Helping ChatGPT better recognize context in sensitive conversations",
       "source": "OpenAI Blog",
       "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
       "href": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/superhuman-personal-agents.png",
+      "imageUrl": "assets/news/perplexity-billion-build-source.jpg",
       "publishedAt": "2026-05-14T00:00:00+00:00",
       "toolIds": [
         "chatgpt"
       ]
     },
     {
-      "id": "unlocking-asynchronicity-in-continuous-batching-f6eafc08-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "unlocking-asynchronicity-in-continuous-batching-f6eafc08-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Product Updates",
       "title": "Unlocking asynchronicity in continuous batching",
       "source": "Hugging Face Blog",
@@ -465,25 +736,9 @@
       ]
     },
     {
-      "id": "highlights-from-the-android-show-i-o-edition-202-40f903ad-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Model Releases",
-      "title": "Highlights from The Android Show I/O Edition 2026",
-      "source": "Mashable",
-      "summary": "See highlights from The Android Show I/O Edition 2026, including Googlebooks laptops and Gemini AI updates across devices.",
-      "href": "https://mashable.com/video/android-show-io-edition-2026-highlights",
-      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
-      "imageUrl": "https://helios-i.mashable.com/imagery/videos/053rxNjZG4X2JQD7hdv2uNZ/hero-image.fill.size_1200x675.v1778703345.png",
-      "publishedAt": "2026-05-13T20:15:52+00:00",
-      "toolIds": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "what-it-will-take-to-make-ai-sustainable-0ee7af4f-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "what-it-will-take-to-make-ai-sustainable-0ee7af4f-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Research Workflows",
       "title": "What It Will Take to Make AI Sustainable",
       "source": "WIRED AI",
@@ -495,9 +750,9 @@
       "toolIds": []
     },
     {
-      "id": "a-deranged-new-wikipedia-clone-is-made-entirely-0b9622a1-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "a-deranged-new-wikipedia-clone-is-made-entirely-0b9622a1-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Product Updates",
       "title": "A Deranged New Wikipedia Clone Is Made Entirely of Surreal AI Hallucinations",
       "source": "Futurism AI",
@@ -509,39 +764,9 @@
       "toolIds": []
     },
     {
-      "id": "threads-is-adding-a-grok-like-ai-search-feature-b68e720a-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Product Updates",
-      "title": "Threads is adding a Grok-like AI search feature",
-      "source": "Mashable",
-      "summary": "Threads is adding a new Meta Spark feature that's similar to X's Grok AI",
-      "href": "https://mashable.com/article/threads-is-adding-a-grok-ai-search-feature",
-      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
-      "imageUrl": "https://helios-i.mashable.com/imagery/articles/04mj6zW9k2OzF7yXbd12pUg/hero-image.fill.size_1200x675.v1778688498.jpg",
-      "publishedAt": "2026-05-13T18:41:52+00:00",
-      "toolIds": [
-        "grok"
-      ]
-    },
-    {
-      "id": "overworked-ai-agents-turn-marxist-researchers-fi-6cd3e264-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Agents",
-      "title": "Overworked AI Agents Turn Marxist, Researchers Find",
-      "source": "WIRED AI",
-      "summary": "In a recent experiment, mistreated AI agents started grumbling about inequality and calling for collective bargaining rights.",
-      "href": "https://www.wired.com/story/overworked-ai-agents-turn-marxist-study/",
-      "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://media.wired.com/photos/6a0377eed777b9d6a8aa4b70/master/pass/AI-Lab-AI-Overworked-Marxist-Business.jpg",
-      "publishedAt": "2026-05-13T18:08:33+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "four-financial-journalists-accused-of-being-fake-64f7a6f7-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "four-financial-journalists-accused-of-being-fake-64f7a6f7-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Product Updates",
       "title": "Four Financial Journalists Accused of Being Fake AI-Generated Puppets That Shill Crypto in Forbes, HuffPost, and More",
       "source": "Futurism AI",
@@ -553,14 +778,14 @@
       "toolIds": []
     },
     {
-      "id": "anthropic-courts-mom-and-pop-shops-with-claude-f-6962aa5e-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "anthropic-courts-mom-and-pop-shops-with-claude-f-1190fed1-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Agents",
       "title": "Anthropic courts mom-and-pop shops with Claude for Small Business",
       "source": "Fast Company AI",
       "summary": "The product launches with 15 ready-to-run agentic workflows, 15 reusable AI skills, and connectors to platforms including QuickBooks, Canva, Google Workspace, Microsoft 365, Slack, and others.",
-      "href": "https://www.fastcompany.com/91540953/anthropic-launches-claude-for-small-business?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=10&partner=newsletter&campaign_date=05152026",
+      "href": "https://www.fastcompany.com/91540953/anthropic-launches-claude-for-small-business?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=12&partner=newsletter&campaign_date=05162026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91540953-anthropic-is-announcing-claude-for-small-business.jpg",
       "publishedAt": "2026-05-13T16:05:00+00:00",
@@ -571,9 +796,9 @@
       ]
     },
     {
-      "id": "anthropic-says-claude-turned-evil-for-a-bizarre-b13504e6-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "anthropic-says-claude-turned-evil-for-a-bizarre-b13504e6-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Product Updates",
       "title": "Anthropic Says Claude Turned Evil for a Bizarre Reason",
       "source": "Futurism AI",
@@ -587,9 +812,9 @@
       ]
     },
     {
-      "id": "the-ai-industry-is-secretly-powered-by-homeless-0ae6bcf2-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "the-ai-industry-is-secretly-powered-by-homeless-0ae6bcf2-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Product Updates",
       "title": "The AI Industry Is Secretly Powered by Homeless People",
       "source": "Futurism AI",
@@ -601,9 +826,9 @@
       "toolIds": []
     },
     {
-      "id": "how-ai-agents-will-transform-data-science-work-i-c9f42d9f-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "how-ai-agents-will-transform-data-science-work-i-c9f42d9f-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Agents",
       "title": "How AI Agents Will Transform Data Science Work in 2026",
       "source": "KDnuggets",
@@ -615,9 +840,9 @@
       "toolIds": []
     },
     {
-      "id": "exclusive-airops-targets-emerging-ai-search-mark-8849b767-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "exclusive-airops-targets-emerging-ai-search-mark-8849b767-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Agents",
       "title": "Exclusive: AirOps targets emerging AI search market with autonomous content optimization agent",
       "source": "SiliconANGLE AI",
@@ -631,23 +856,23 @@
       ]
     },
     {
-      "id": "your-fitness-app-is-becoming-an-ai-wellness-over-1ef8632d-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "your-fitness-app-is-becoming-an-ai-wellness-over-5e5643ed-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Product Updates",
       "title": "Your fitness app is becoming an AI wellness overlord",
       "source": "Fast Company AI",
       "summary": "From Strava to Peloton to WHOOP, fitness companies are racing to turn biometric data into personalized workout plans, health advice, and round-the-clock wellness guidance.",
-      "href": "https://www.fastcompany.com/91539188/your-fitness-app-is-becoming-an-ai-wellness-overlord?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=12&partner=newsletter&campaign_date=05152026",
+      "href": "https://www.fastcompany.com/91539188/your-fitness-app-is-becoming-an-ai-wellness-overlord?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=14&partner=newsletter&campaign_date=05162026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91539188-hed-ai-has-taken-over-fitness-apps.jpg",
       "publishedAt": "2026-05-13T12:00:00+00:00",
       "toolIds": []
     },
     {
-      "id": "datacentres-using-6-of-electricity-supply-in-uk-a0d8345d-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "datacentres-using-6-of-electricity-supply-in-uk-a0d8345d-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Developer Tools",
       "title": "Datacentres using 6% of electricity supply in UK and US, research says",
       "source": "The Guardian AI",
@@ -659,23 +884,9 @@
       "toolIds": []
     },
     {
-      "id": "this-tiny-maine-town-used-ai-to-make-a-new-logo-8e0582a4-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Developer Tools",
-      "title": "This tiny Maine town used AI to make a new logo. Its residents had other ideas",
-      "source": "Fast Company AI",
-      "summary": "In a state where major data center construction is now banned, the residents of a small town blocked the adoption of an AI-generated logo.",
-      "href": "https://www.fastcompany.com/91539895/newburgh-maine-ai-logo-blowback?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=15&partner=newsletter&campaign_date=05152026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91539895-maine-ai-logo.jpg",
-      "publishedAt": "2026-05-13T10:00:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "how-to-automatically-answer-form-responses-with-ec58ee5e-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "how-to-automatically-answer-form-responses-with-ec58ee5e-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Agents",
       "title": "How to automatically answer form responses with ChatGPT",
       "source": "Zapier Blog",
@@ -690,9 +901,9 @@
       ]
     },
     {
-      "id": "chelsea-flower-show-garden-designers-clash-over-59b0faeb-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "chelsea-flower-show-garden-designers-clash-over-59b0faeb-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Creative AI",
       "title": "Chelsea flower show garden designers clash over use of AI",
       "source": "The Guardian AI",
@@ -704,9 +915,9 @@
       "toolIds": []
     },
     {
-      "id": "meta-ai-what-is-muse-spark-and-what-happened-to-a092e9fd-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "meta-ai-what-is-muse-spark-and-what-happened-to-a092e9fd-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Model Releases",
       "title": "Meta AI: What is Muse Spark? And what happened to Llama?",
       "source": "Zapier Blog",
@@ -718,9 +929,9 @@
       "toolIds": []
     },
     {
-      "id": "codex-vs-cursor-which-should-you-use-2026-65ee64af-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "codex-vs-cursor-which-should-you-use-2026-65ee64af-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Developer Tools",
       "title": "Codex vs. Cursor: Which should you use? [2026]",
       "source": "Zapier Blog",
@@ -735,9 +946,9 @@
       ]
     },
     {
-      "id": "the-best-ai-agent-builder-software-in-2026-1fb220da-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
+      "id": "the-best-ai-agent-builder-software-in-2026-1fb220da-may16",
+      "date": "2026-05-16",
+      "dateLabel": "May 16, 2026",
       "category": "Developer Tools",
       "title": "The best AI agent builder software in 2026",
       "source": "Zapier Blog",
@@ -746,268 +957,6 @@
       "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/2K7anZyYS3pQ9rZE2qxtK6/c804ba91357fa42f9bb08197461dfd81/best-ai-agent-builders.jpg",
       "publishedAt": "2026-05-13T04:00:00+00:00",
-      "toolIds": [
-        "zapier"
-      ]
-    },
-    {
-      "id": "development-environments-for-cloud-agents-2b18a57b-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Agents",
-      "title": "Development environments for cloud agents",
-      "source": "Cursor Changelog",
-      "summary": "To take engineering tasks from start to finish, agents need a development environment similar to the setup on your laptop: cloned repositories, installed dependencies, credentials for internal toolchains, and access to build systems.",
-      "href": "https://cursor.com/changelog/05-13-26",
-      "excerpt": "Radar signal: Cursor Changelog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/opengraph-changelog-may-13-2026.png",
-      "publishedAt": "2026-05-13T00:00:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "google-debuts-gemini-intelligence-automation-fea-87d4e2e2-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Agents",
-      "title": "Google debuts Gemini Intelligence automation features, Googlebook laptop series",
-      "source": "SiliconANGLE AI",
-      "summary": "Google LLC is upgrading its consumer device portfolio with a set of Android features called Gemini Intelligence and a new laptop series. The company debuted the products today during a virtual event called The Android Show. It also introduced new mobile secur...",
-      "href": "https://siliconangle.com/2026/05/12/google-debuts-gemini-intelligence-automation-features-googlebook-laptop-series/",
-      "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/05/Google.png",
-      "publishedAt": "2026-05-12T23:31:46+00:00",
-      "toolIds": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "build-a-hybrid-memory-autonomous-agent-with-modu-e6235ed2-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Agents",
-      "title": "Build a Hybrid-Memory Autonomous Agent with Modular Architecture and Tool Dispatch Using OpenAI",
-      "source": "MarkTechPost",
-      "summary": "In this tutorial, we begin by exploring the architecture behind a hybrid-memory autonomous agent. This system combines semantic vector search, keyword-based retrieval, and a modular tool-dispatching loop to create an agent capable of reasoning, remembering, a...",
-      "href": "https://www.marktechpost.com/2026/05/12/build-a-hybrid-memory-autonomous-agent-with-modular-architecture-and-tool-dispatch-using-openai/",
-      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11-14-1024x731.png",
-      "publishedAt": "2026-05-12T21:55:57+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "sam-altman-defends-openai-in-courtroom-showdown-6992d931-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Product Updates",
-      "title": "Sam Altman defends OpenAI in courtroom showdown with Elon Musk",
-      "source": "The Guardian AI",
-      "summary": "The OpenAI chief rejects claims he deceived Elon Musk as high-stakes AI trial nears its end Sign up for the Breaking News US newsletter email The OpenAI CEO, Sam Altman , took the stand on Tuesday to defend himself and his company against a lawsuit by Elon Mu...",
-      "href": "https://www.theguardian.com/technology/2026/may/12/sam-altman-openai-trial-elon-musk",
-      "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://i.guim.co.uk/img/media/32632f8e3e5cd1d4ffd991d30c5f14164f102b42/385_0_3853_3083/master/3853.jpg?width=140&quality=85&auto=format&fit=max&s=6828d13b52525df6d98a26c9591e9ff7",
-      "publishedAt": "2026-05-12T20:48:15+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "large-study-finds-that-replacing-workers-with-ai-4a7694dd-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Product Updates",
-      "title": "Large Study Finds That Replacing Workers With AI Is Backfiring Badly",
-      "source": "Futurism AI",
-      "summary": "Oops. The post Large Study Finds That Replacing Workers With AI Is Backfiring Badly appeared first on Futurism .",
-      "href": "https://futurism.com/artificial-intelligence/layoffs-ai-automation-backfire",
-      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/layoffs-ai-automation-backfire.jpg?quality=85",
-      "publishedAt": "2026-05-12T20:32:54+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "openai-sued-over-chatgpt-medical-advice-that-all-d780be0c-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Model Releases",
-      "title": "OpenAI Sued Over ChatGPT Medical Advice That Allegedly Killed College Student",
-      "source": "Futurism AI",
-      "summary": "\"ChatGPT recommended a dangerous combination of drugs without offering even the most basic warning that the mix could be fatal.\" The post OpenAI Sued Over ChatGPT Medical Advice That Allegedly Killed College Student appeared first on Futurism .",
-      "href": "https://futurism.com/artificial-intelligence/openai-sued-chatgpt-medical-advice-killed-student",
-      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/openai-sued-chatgpt-medical-advice-killed-student.jpg?quality=85",
-      "publishedAt": "2026-05-12T18:47:31+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "6-best-chatgpt-photo-editing-trends-in-2026-with-dd0e42ea-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Model Releases",
-      "title": "6 Best ChatGPT Photo Editing Trends in 2026 (With Prompts to Try)",
-      "source": "TechRepublic AI",
-      "summary": "Explore the biggest ChatGPT photo editing trends of 2026, from caricatures and toy-style portraits to nostalgic film edits and AI collages. The post 6 Best ChatGPT Photo Editing Trends in 2026 (With Prompts to Try) appeared first on TechRepublic .",
-      "href": "https://www.techrepublic.com/article/news-chatgpt-photo-editing-trends-2026/",
-      "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
-      "publishedAt": "2026-05-12T18:30:35+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "github-copilot-individual-plans-introducing-flex-ce13f861-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Developer Tools",
-      "title": "GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan",
-      "source": "GitHub Blog",
-      "summary": "Starting June 1, our lineup of individual plans will update based on your feedback. The post GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan appeared first on The GitHub Blog .",
-      "href": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/",
-      "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-github-invertocat-logo.png",
-      "publishedAt": "2026-05-12T17:35:41+00:00",
-      "toolIds": [
-        "githubcopilot"
-      ]
-    },
-    {
-      "id": "new-york-times-issues-stern-warning-to-its-freel-b1461045-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Product Updates",
-      "title": "New York Times Issues Stern Warning to Its Freelance Writers About AI Use",
-      "source": "Futurism AI",
-      "summary": "\"To be clear on AI...\" The post New York Times Issues Stern Warning to Its Freelance Writers About AI Use appeared first on Futurism .",
-      "href": "https://futurism.com/artificial-intelligence/new-york-times-freelancers-ai-rules",
-      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/new-york-times-freelancers-ai-rules_f13567.jpg?quality=85",
-      "publishedAt": "2026-05-12T17:24:21+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "exclusive-clickup-endows-its-brain-assistant-wit-7c815f03-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Developer Tools",
-      "title": "Exclusive: ClickUp endows its Brain assistant with agentic capabilities",
-      "source": "SiliconANGLE AI",
-      "summary": "ClickUp, the business name of Mango Technologies Inc., today is introducing what it says is a major overhaul of its Brain artificial intelligence assistant inside its workplace collaboration platform, going beyond answering questions to executing complex work...",
-      "href": "https://siliconangle.com/2026/05/12/exclusive-clickup-endows-brain-assistant-agentic-capabilities/",
-      "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/05/ClickUp-Times-Square.jpg",
-      "publishedAt": "2026-05-12T17:00:55+00:00",
-      "toolIds": [
-        "clickup"
-      ]
-    },
-    {
-      "id": "google-announces-raft-of-free-upgrades-for-andro-d94d7021-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Model Releases",
-      "title": "Google announces raft of free upgrades for Android phones",
-      "source": "The Guardian AI",
-      "summary": "Tech firm to expand AI capabilities of high-end devices with Gemini Intelligence and says new range of laptops on the way Google has announced a range of features coming to Android phones this year, including a new Gemini Intelligence AI system and a tool to...",
-      "href": "https://www.theguardian.com/technology/2026/may/12/google-upgrades-gemini-intelligence-android-phones",
-      "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://i.guim.co.uk/img/media/28158bad561e11b342de2c307339ce1f8afd9c6b/268_0_3335_2668/master/3335.jpg?width=140&quality=85&auto=format&fit=max&s=35747cdb931bdbfe2aafa36d49185329",
-      "publishedAt": "2026-05-12T17:00:05+00:00",
-      "toolIds": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "how-finance-teams-use-codex-7d12c750-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Developer Tools",
-      "title": "How finance teams use Codex",
-      "source": "OpenAI Blog",
-      "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
-      "href": "https://openai.com/academy/how-finance-teams-use-codex",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/perplexity-billion-build-source.jpg",
-      "publishedAt": "2026-05-12T15:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "dungeons-desktops-building-a-procedurally-genera-5135cdc4-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Developer Tools",
-      "title": "Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI",
-      "source": "GitHub Blog",
-      "summary": "Learn how one Hubber used GitHub Copilot CLI to build an extension that turns any codebase into a unique, roguelike dungeon. The post Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI appeared first on The GitHub Blog .",
-      "href": "https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/",
-      "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://github.blog/wp-content/uploads/2026/05/586361988-07b052aa-cf75-4102-acfd-bc157c18ba32.gif?fit=1920%2C1080",
-      "publishedAt": "2026-05-12T15:00:00+00:00",
-      "toolIds": [
-        "githubcopilot"
-      ]
-    },
-    {
-      "id": "ai-is-giving-your-boss-tools-to-be-more-monstrou-b31f112a-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Product Updates",
-      "title": "AI Is Giving Your Boss Tools to Be More Monstrous Than Ever Before",
-      "source": "Futurism AI",
-      "summary": "\"Many jobs will remain in the future, but they will be more pressured, more fragmented and less human.\" The post AI Is Giving Your Boss Tools to Be More Monstrous Than Ever Before appeared first on Futurism .",
-      "href": "https://futurism.com/artificial-intelligence/ai-boss-surveillance",
-      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/ai-boss-surveillance.jpg?quality=85",
-      "publishedAt": "2026-05-12T13:06:41+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "n8n-partners-with-sap-to-bring-visual-ai-workflo-88a5969e-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Developer Tools",
-      "title": "n8n Partners with SAP to bring Visual AI Workflow Orchestration to Enterprise",
-      "source": "n8n Blog",
-      "summary": "n8n will soon be available as a fully managed environment inside the Joule Studio solution on the SAP Business AI Platform. With n8n, SAP software developers can visually build AI workflows and orchestrate agents across SAP and their broader tech stack.",
-      "href": "https://blog.n8n.io/n8n-partners-with-sap-to-bring-visual-ai-workflow-orchestration-to-enterprise/",
-      "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/05/n8n_SAP_Hero--1-.jpg",
-      "publishedAt": "2026-05-12T12:31:11+00:00",
-      "toolIds": [
-        "n8n"
-      ]
-    },
-    {
-      "id": "us-workers-overwhelmingly-support-union-backed-p-0defad40-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Product Updates",
-      "title": "US workers overwhelmingly support union-backed policies on AI, poll says",
-      "source": "The Guardian AI",
-      "summary": "Nine out of 10 workers express support for policies on artificial intelligence that labor unions may fight for US workers overwhelmingly support pro-worker policies on artificial intelligence (AI) and view labor unions as the most reliable protectors of worke...",
-      "href": "https://www.theguardian.com/us-news/2026/may/12/workers-ai-policy-unions",
-      "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://i.guim.co.uk/img/media/1f8fac5df4a2e9a0b79c932ddf17542c624e4d35/617_0_3701_2963/master/3701.jpg?width=140&quality=85&auto=format&fit=max&s=b5f29a69fa843273ce325f760c14c30c",
-      "publishedAt": "2026-05-12T11:00:45+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "how-a-real-estate-broker-built-a-custom-ai-agent-90685c0c-may15",
-      "date": "2026-05-15",
-      "dateLabel": "May 15, 2026",
-      "category": "Developer Tools",
-      "title": "How a real estate broker built a custom AI agent on Zapier MCP",
-      "source": "Zapier Blog",
-      "summary": "Marcus Rush is the founder and Team Leader behind Rush Home, a residential real estate brokerage with eight real estate agents. A year ago, he was using various tools to build automations that connect to Follow Up Boss, his CRM. That system worked, but he wan...",
-      "href": "https://zapier.com/blog/rush-home-mcp",
-      "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/56nPFNFSxHWN7fD0seYoZX/21c4b3d0276b385125f3bee69a12d99e/Hero___Portrait_left__big_title_right.png",
-      "publishedAt": "2026-05-12T05:00:00+00:00",
       "toolIds": [
         "zapier"
       ]
