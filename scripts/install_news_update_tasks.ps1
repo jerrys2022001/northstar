@@ -21,6 +21,11 @@ if (-not (Test-Path $ScriptPath)) {
   throw "Missing script: $ScriptPath"
 }
 
+$EnsureScriptPath = Join-Path $RepoRoot "scripts\ensure_news_update_tasks.ps1"
+if (-not (Test-Path $EnsureScriptPath)) {
+  throw "Missing script: $EnsureScriptPath"
+}
+
 $PowerShellCommand = (Get-Command "powershell.exe" -ErrorAction Stop).Source
 
 function Remove-TaskIfExists([string]$TaskName) {
@@ -59,6 +64,30 @@ function Register-DailyNewsTask([string]$TaskName, [string]$At) {
   Write-Output "Installed task: $TaskName at $At"
 }
 
+function Install-StartupEnsureShortcut {
+  try {
+    $StartupDir = [Environment]::GetFolderPath("Startup")
+    if (-not $StartupDir) {
+      Write-Warning "Startup folder could not be resolved."
+      return $false
+    }
+
+    $ShortcutPath = Join-Path $StartupDir "$TaskNamePrefix-Ensure.lnk"
+    $Shell = New-Object -ComObject WScript.Shell
+    $Shortcut = $Shell.CreateShortcut($ShortcutPath)
+    $Shortcut.TargetPath = $PowerShellCommand
+    $Shortcut.Arguments = "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$EnsureScriptPath`" -RepoRoot `"$RepoRoot`""
+    $Shortcut.WorkingDirectory = $RepoRoot
+    $Shortcut.Save()
+    Write-Output "Installed startup ensure shortcut: $ShortcutPath"
+    return $true
+  } catch {
+    Write-Warning "Startup ensure shortcut was not installed."
+    Write-Warning $_.Exception.Message
+    return $false
+  }
+}
+
 function Register-LogonNewsTask([string]$TaskName) {
   if ($ReplaceExisting) {
     Remove-TaskIfExists $TaskName
@@ -95,6 +124,7 @@ Register-DailyNewsTask $FirstCheckTask $FirstCheckAt
 Register-DailyNewsTask $SecondCheckTask $SecondCheckAt
 Register-DailyNewsTask $FinalCheckTask $FinalCheckAt
 $LogonInstalled = Register-LogonNewsTask $LogonTask
+$StartupEnsureInstalled = Install-StartupEnsureShortcut
 
 Write-Output ""
 Write-Output "Installed Northstar NEWS update schedule:"
@@ -106,5 +136,10 @@ if ($LogonInstalled) {
   Write-Output "  Logon:   $LogonTask after $LogonDelay"
 } else {
   Write-Warning "  Logon:   skipped. Daily tasks still use StartWhenAvailable."
+}
+if ($StartupEnsureInstalled) {
+  Write-Output "  Ensure:  Startup shortcut repairs missing/stale tasks at user logon"
+} else {
+  Write-Warning "  Ensure:  startup shortcut skipped."
 }
 Write-Output "Command: $PowerShellCommand -NoProfile -ExecutionPolicy Bypass -File `"$ScriptPath`" -RepoRoot `"$RepoRoot`" ..."
