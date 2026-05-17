@@ -546,6 +546,10 @@ h6 {
   color: #8c867e;
 }
 
+.topbar-search-input:focus::placeholder {
+  color: transparent;
+}
+
 .topbar-search-submit {
   min-width: 108px;
   min-height: 52px;
@@ -3822,6 +3826,10 @@ body[data-page="directory"] .section-lead {
 
 .news-search-input::placeholder {
   color: #8c867e;
+}
+
+.news-search-input:focus::placeholder {
+  color: transparent;
 }
 
 .news-search-input::-webkit-search-decoration,
