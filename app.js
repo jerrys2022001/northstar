@@ -6061,6 +6061,53 @@
       .replace(/>/g, "&gt;");
   }
 
+  function escapeRegExp(value) {
+    return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function searchTokensFromValue(value) {
+    const seen = new Set();
+    return trimmedSearchValue(value)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .split(/\s+/)
+      .filter(Boolean)
+      .filter((token) => {
+        if (seen.has(token)) {
+          return false;
+        }
+        seen.add(token);
+        return true;
+      })
+      .sort((left, right) => right.length - left.length);
+  }
+
+  function highlightSearchText(value, tokens) {
+    const source = String(value ?? "");
+    const activeTokens = (tokens || []).filter(Boolean);
+    if (!source || !activeTokens.length) {
+      return escapeAttribute(source);
+    }
+
+    const matcher = new RegExp(activeTokens.map(escapeRegExp).join("|"), "gi");
+    let lastIndex = 0;
+    let output = "";
+
+    source.replace(matcher, (match, offset) => {
+      output += escapeAttribute(source.slice(lastIndex, offset));
+      output += `<mark class="search-highlight">${escapeAttribute(match)}</mark>`;
+      lastIndex = offset + match.length;
+      return match;
+    });
+
+    output += escapeAttribute(source.slice(lastIndex));
+    return output;
+  }
+
+  function toolSearchTokens() {
+    return searchTokensFromValue(state.query);
+  }
+
   function shortenText(value, maxLength) {
     if (!value || value.length <= maxLength) {
       return value;
@@ -6089,11 +6136,7 @@
   }
 
   function filteredTools() {
-    const query = state.query.trim().toLowerCase();
-    const queryTokens = query
-      .replace(/[^a-z0-9]+/g, " ")
-      .split(/\s+/)
-      .filter(Boolean);
+    const queryTokens = toolSearchTokens();
 
     return tools.filter((tool) => {
       const categoryMatches = state.activeCategory === "All" || tool.categories.includes(state.activeCategory);
@@ -6269,8 +6312,11 @@
   function toolCard(tool, options) {
     const settings = options || {};
     const classes = ["unified-tool-card", settings.className].filter(Boolean).join(" ");
+    const highlightTokens = settings.highlightQuery ? (settings.searchTokens || toolSearchTokens()) : [];
+    const renderText = (value) => highlightTokens.length ? highlightSearchText(value, highlightTokens) : escapeAttribute(value);
+    const metaText = settings.meta ? shortenText(settings.meta, 12) : "";
     const rankBadge = settings.rank ? `<span class="tool-rank-badge">${settings.rank}</span>` : "";
-    const metaBadge = settings.meta ? `<span class="tool-badge tool-corner-badge">${shortenText(settings.meta, 12)}</span>` : "";
+    const metaBadge = metaText ? `<span class="tool-badge tool-corner-badge">${renderText(metaText)}</span>` : "";
     const idAttr = settings.id ? ` id="${settings.id}"` : "";
     const fullSummary = settings.summary || tool.summary;
     const summary = shortenText(settings.summary || tool.summary, settings.summaryLength || 112);
@@ -6283,24 +6329,20 @@
           ${iconShell(tool, settings.iconClassName, settings.iconOptions)}
           <span class="tool-text">
             <span class="tool-title-line">
-              <h3>${tool.name}</h3>
+              <h3>${renderText(tool.name)}</h3>
             </span>
-            <span class="tool-subtitle">${tool.vendor}</span>
+            <span class="tool-subtitle">${renderText(tool.vendor)}</span>
           </span>
         </span>
         <span class="tool-summary" data-tip="${escapeAttribute(fullSummary)}">
-          <span class="tool-summary-text">${summary}</span>
+          <span class="tool-summary-text">${renderText(summary)}</span>
         </span>
       </a>
     `;
   }
 
   function newsSearchTokens() {
-    return trimmedSearchValue(state.newsQuery)
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, " ")
-      .split(/\s+/)
-      .filter(Boolean);
+    return searchTokensFromValue(state.newsQuery);
   }
 
   function newsSearchBlob(item) {
@@ -6949,6 +6991,8 @@
     const featuredItems = distinctNewsItems(featuredCandidatesWithImages, 3, []);
     const visibleGroups = isNewsPage ? filteredNewsGroups() : homeNewsGroups();
     const activeNewsSearch = trimmedSearchValue(state.newsQuery);
+    const activeNewsTokens = newsSearchTokens();
+    const renderNewsSearchText = (value) => activeNewsTokens.length ? highlightSearchText(value, activeNewsTokens) : escapeAttribute(value);
 
     if (!displayItems.length) {
       ui.newsLeadGrid.innerHTML = "";
@@ -6977,15 +7021,15 @@
         <article class="news-feature-card ${index === 0 ? "is-primary" : ""} ${(featureImageUrl || featureFallbackImageUrl) ? "has-media" : ""}">
           ${newsImageMarkupFromUrl(item, "news-feature-media", featureImageUrl, featureFallbackImageUrl)}
           <div class="news-card-topline">
-            <span class="news-topic-badge">${item.category}</span>
-            <span class="news-card-date">${item.dateLabel}</span>
+            <span class="news-topic-badge">${renderNewsSearchText(item.category)}</span>
+            <span class="news-card-date">${renderNewsSearchText(item.dateLabel)}</span>
           </div>
-          <h3><a href="${item.href}" target="_blank" rel="noreferrer">${title}</a></h3>
-          <p class="news-summary">${summary}</p>
-          ${excerpt ? `<p class="news-excerpt">${excerpt}</p>` : ""}
+          <h3><a href="${escapeAttribute(item.href)}" target="_blank" rel="noreferrer">${renderNewsSearchText(title)}</a></h3>
+          <p class="news-summary">${renderNewsSearchText(summary)}</p>
+          ${excerpt ? `<p class="news-excerpt">${renderNewsSearchText(excerpt)}</p>` : ""}
           <div class="news-card-meta">
-            <span>${item.source}</span>
-            <a class="news-inline-link" href="${item.href}" target="_blank" rel="noreferrer">View source</a>
+            <span>${renderNewsSearchText(item.source)}</span>
+            <a class="news-inline-link" href="${escapeAttribute(item.href)}" target="_blank" rel="noreferrer">View source</a>
           </div>
         </article>
       `;
@@ -7008,7 +7052,7 @@
         return `
           <section class="news-day-group" id="${newsGroupAnchorId(group)}">
             <div class="news-day-header">
-              <h3>${group.label}</h3>
+              <h3>${renderNewsSearchText(group.label)}</h3>
             </div>
             <div class="news-tree">
               ${groupItems
@@ -7019,7 +7063,7 @@
                       <div class="news-tree-tools">
                         ${newsTreeToolIcons(item)}
                       </div>
-                      <p class="news-tree-summary"><a href="${item.href}" target="_blank" rel="noreferrer">${item.summary}</a></p>
+                      <p class="news-tree-summary"><a href="${escapeAttribute(item.href)}" target="_blank" rel="noreferrer">${renderNewsSearchText(item.summary)}</a></p>
                     </div>
                   </article>
                 `)
@@ -7071,16 +7115,16 @@
           const articleImageUrl = uniqueNewsImageUrl(item, articleImageOptions, weeklyNewsImages);
           const articleFallbackImageUrl = fallbackNewsImageUrl(item, articleImageOptions, articleImageUrl);
           return `
-          <a class="news-article-row ${(articleImageUrl || articleFallbackImageUrl) ? "has-media" : ""}" href="${item.href}" target="_blank" rel="noreferrer">
+          <a class="news-article-row ${(articleImageUrl || articleFallbackImageUrl) ? "has-media" : ""}" href="${escapeAttribute(item.href)}" target="_blank" rel="noreferrer">
             ${newsImageMarkupFromUrl(item, "news-article-media", articleImageUrl, articleFallbackImageUrl)}
             <span class="news-article-copy">
               <span class="news-card-topline">
-                <span class="news-topic-badge">${item.category}</span>
-                <span class="news-card-date">${item.dateLabel}</span>
+                <span class="news-topic-badge">${renderNewsSearchText(item.category)}</span>
+                <span class="news-card-date">${renderNewsSearchText(item.dateLabel)}</span>
               </span>
-              <strong>${shortenWords(item.title, 11)}</strong>
-              <span class="news-article-summary">${shortenWords(item.summary, 20)}</span>
-              <span class="news-article-meta">${item.source}</span>
+              <strong>${renderNewsSearchText(shortenWords(item.title, 11))}</strong>
+              <span class="news-article-summary">${renderNewsSearchText(shortenWords(item.summary, 20))}</span>
+              <span class="news-article-meta">${renderNewsSearchText(item.source)}</span>
             </span>
           </a>
         `;
@@ -7227,6 +7271,7 @@
       return;
     }
     const items = filteredTools().slice(0, 8);
+    const searchTokens = toolSearchTokens();
     if (!items.length) {
       ui.hotGrid.innerHTML = `
         <div class="empty-state">
@@ -7244,6 +7289,8 @@
           meta: tool.pricing === "Free" ? "Free" : formatVisits(tool.monthlyVisits),
           summary: tool.summary,
           summaryLength: 104,
+          highlightQuery: true,
+          searchTokens,
           iconOptions: index < 4 ? { eager: true } : null
         })
       )
@@ -7774,6 +7821,8 @@
     ensureDirectoryVisibleCounts();
     const isCompact = isCompactDirectoryViewport();
     const items = filteredTools();
+    const searchTokens = toolSearchTokens();
+    const renderDirectorySearchText = (value) => searchTokens.length ? highlightSearchText(value, searchTokens) : escapeAttribute(value);
     const itemsByCategory = new Map();
 
     items.forEach((tool) => {
@@ -7839,11 +7888,11 @@
                 return `
                   <button class="directory-overview-row" type="button" data-category="${category}" role="listitem">
                     <span class="directory-overview-row-main">
-                      <span class="directory-overview-row-title">${category}</span>
-                      <span class="directory-overview-row-copy">${topNames}</span>
+                      <span class="directory-overview-row-title">${renderDirectorySearchText(category)}</span>
+                      <span class="directory-overview-row-copy">${renderDirectorySearchText(topNames)}</span>
                     </span>
                     <span class="directory-overview-row-count">${categoryItems.length} tools</span>
-                    <span class="directory-overview-row-meta">${lead.trafficLabel} leader · ${lead.name}</span>
+                    <span class="directory-overview-row-meta">${renderDirectorySearchText(`${lead.trafficLabel} leader · ${lead.name}`)}</span>
                   </button>
                 `;
               })
@@ -7878,8 +7927,8 @@
             <section class="directory-category-section" id="directory-section-${slugify(category)}" data-directory-category="${category}">
               <div class="section-header compact-header">
                 <div class="section-header-copy">
-                  <p class="kicker">${category}</p>
-                  <h3>${category} picks</h3>
+                  <p class="kicker">${renderDirectorySearchText(category)}</p>
+                  <h3>${renderDirectorySearchText(`${category} picks`)}</h3>
                   <p class="section-lead">${categoryItems.length} tools currently match this lane.</p>
                 </div>
               </div>
@@ -7892,7 +7941,9 @@
                       id: slugify(`${category}-${tool.name}`),
                       meta: tool.pricing,
                       summary: tool.summary,
-                      summaryLength: isCompact ? 72 : 96
+                      summaryLength: isCompact ? 72 : 96,
+                      highlightQuery: true,
+                      searchTokens
                     })
                   )
                   .join("")}
@@ -7921,6 +7972,8 @@
           meta: tool.pricing,
           summary: tool.recommendation,
           summaryLength: isCompact ? 80 : 102,
+          highlightQuery: true,
+          searchTokens,
           iconOptions: index < 6 ? { eager: true } : null
         })
       )
