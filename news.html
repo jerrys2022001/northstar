@@ -66,7 +66,14 @@
         <div class="section-header news-shell-header">
           <div class="section-header-copy">
             <p class="kicker">Daily AI News</p>
-            <h1 class="news-title">NEWS</h1>
+            <div class="news-title-row">
+              <h1 class="news-title">NEWS</h1>
+              <form class="news-search-form" id="news-search-form" role="search" aria-label="Search NEWS">
+                <span class="news-search-icon" aria-hidden="true">&#8981;</span>
+                <input class="news-search-input" id="news-search-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search NEWS" aria-label="Search NEWS content">
+                <button class="news-search-clear" id="news-search-clear" type="button" aria-label="Clear NEWS search" hidden>&times;</button>
+              </form>
+            </div>
             <p class="section-lead">Track fast-moving AI headlines across launches, model releases, coding tools, funding, open-source momentum, and operator discussion.</p>
           </div>
           <div class="news-shell-meta">

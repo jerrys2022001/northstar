@@ -5365,6 +5365,7 @@
 
   const state = {
     query: pageQuery.get("query") || "",
+    newsQuery: "",
     activeCategory: "All",
     activePricing: "All",
     activeRanking: "Assistants",
@@ -5604,6 +5605,9 @@
     hotGrid: document.getElementById("hot-grid"),
     newsLeadGrid: document.getElementById("news-lead-grid"),
     newsFeed: document.getElementById("news-feed"),
+    newsSearchForm: document.getElementById("news-search-form"),
+    newsSearchInput: document.getElementById("news-search-input"),
+    newsSearchClear: document.getElementById("news-search-clear"),
     newsAds: document.getElementById("news-ads"),
     newsDateBrowser: document.getElementById("news-date-browser"),
     newsHotTools: document.getElementById("news-hot-tools"),
@@ -6291,11 +6295,77 @@
     `;
   }
 
-  function filteredNewsItems() {
-    if (state.activeNewsCategory === "All") {
-      return flatNewsItems;
+  function newsSearchTokens() {
+    return trimmedSearchValue(state.newsQuery)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .split(/\s+/)
+      .filter(Boolean);
+  }
+
+  function newsSearchBlob(item) {
+    return [
+      item.title,
+      item.summary,
+      item.excerpt,
+      item.source,
+      item.category,
+      item.dateLabel,
+      item.date
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+  }
+
+  function newsItemForGroup(item, group) {
+    if (!group || item.date) {
+      return item;
     }
-    return flatNewsItems.filter((item) => item.category === state.activeNewsCategory);
+    return {
+      ...item,
+      date: group.date,
+      dateLabel: group.label
+    };
+  }
+
+  function newsItemMatchesFilters(item, group) {
+    const normalizedItem = newsItemForGroup(item, group);
+    const categoryMatches = state.activeNewsCategory === "All" || normalizedItem.category === state.activeNewsCategory;
+    if (!categoryMatches) {
+      return false;
+    }
+
+    const tokens = newsSearchTokens();
+    if (!tokens.length) {
+      return true;
+    }
+
+    const searchBlob = newsSearchBlob(normalizedItem);
+    return tokens.every((token) => searchBlob.includes(token));
+  }
+
+  function filteredNewsItems() {
+    return flatNewsItems.filter((item) => newsItemMatchesFilters(item));
+  }
+
+  function filteredNewsGroups() {
+    return newsFeed
+      .map((group) => ({
+        ...group,
+        items: group.items
+          .map((item) => newsItemForGroup(item, group))
+          .filter((item) => newsItemMatchesFilters(item))
+      }))
+      .filter((group) => group.items.length);
+  }
+
+  function syncNewsSearchControls() {
+    const nextValue = normalizeSearchValue(state.newsQuery);
+    setInputValue(ui.newsSearchInput, nextValue);
+    if (ui.newsSearchClear) {
+      ui.newsSearchClear.hidden = !trimmedSearchValue(nextValue);
+    }
   }
 
   function newsToolListMarkup(items, badgeBuilder) {
@@ -6581,10 +6651,10 @@
     const selectedItems = [];
     for (const group of newsFeed) {
       for (const item of sortNewsItems(group.items)) {
-        if (state.activeNewsCategory !== "All" && item.category !== state.activeNewsCategory) {
+        if (!newsItemMatchesFilters(item, group)) {
           continue;
         }
-        selectedItems.push({ group, item });
+        selectedItems.push({ group, item: newsItemForGroup(item, group) });
         if (selectedItems.length >= limit) {
           break;
         }
@@ -6877,16 +6947,18 @@
     const displayItems = isNewsPage ? items : homeNewsItems();
     const featuredCandidatesWithImages = displayItems.filter((item) => newsImageUrl(item, { allowFallback: true }));
     const featuredItems = distinctNewsItems(featuredCandidatesWithImages, 3, []);
-    const visibleGroups = isNewsPage ? newsFeed : homeNewsGroups();
+    const visibleGroups = isNewsPage ? filteredNewsGroups() : homeNewsGroups();
+    const activeNewsSearch = trimmedSearchValue(state.newsQuery);
 
     if (!displayItems.length) {
       ui.newsLeadGrid.innerHTML = "";
       ui.newsFeed.innerHTML = `
         <div class="empty-state">
           <p class="kicker">No News</p>
-          <h3>No stories are available for this topic yet. Try another news lane.</h3>
+          <h3>${activeNewsSearch ? `No stories match "${escapeAttribute(shortenText(activeNewsSearch, 48))}".` : "No stories are available for this topic yet. Try another news lane."}</h3>
         </div>
       `;
+      syncNewsSearchControls();
       return;
     }
 
@@ -6925,7 +6997,7 @@
       .map((group) => {
         const groupExclusions = isNewsPage ? timelineItems : [...featuredItems, ...timelineItems];
         const groupItems = distinctNewsItems(
-          sortNewsItems(group.items.filter((item) => state.activeNewsCategory === "All" || item.category === state.activeNewsCategory)),
+          sortNewsItems(group.items),
           isNewsPage ? group.items.length : 10,
           groupExclusions
         );
@@ -6959,6 +7031,7 @@
       .join("");
 
     ui.newsFeed.innerHTML = groupedMarkup;
+    syncNewsSearchControls();
 
     if (ui.newsAds) {
       ui.newsAds.innerHTML = `
@@ -8321,9 +8394,43 @@
       ui.searchButton.addEventListener("click", handleSearchSubmit);
     }
 
+    if (ui.newsSearchForm) {
+      ui.newsSearchForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+      });
+    }
+
+    if (ui.newsSearchInput) {
+      setInputValue(ui.newsSearchInput, state.newsQuery);
+
+      ui.newsSearchInput.addEventListener("input", (event) => {
+        state.newsQuery = normalizeSearchValue(event.target.value);
+        renderNewsHub();
+      });
+
+      ui.newsSearchInput.addEventListener("keydown", (event) => {
+        if (event.key !== "Escape") {
+          return;
+        }
+        state.newsQuery = "";
+        syncNewsSearchControls();
+        renderNewsHub();
+      });
+    }
+
+    if (ui.newsSearchClear) {
+      ui.newsSearchClear.addEventListener("click", () => {
+        state.newsQuery = "";
+        syncNewsSearchControls();
+        renderNewsHub();
+        ui.newsSearchInput?.focus();
+      });
+    }
+
     if (ui.resetFilters) {
       ui.resetFilters.addEventListener("click", () => {
         state.query = "";
+        state.newsQuery = "";
         state.activeCategory = "All";
         state.activePricing = "All";
         state.activeRanking = "Assistants";
