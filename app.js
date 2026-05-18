@@ -371,6 +371,122 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-18",
+    "label": "May 18, 2026",
+    "items": [
+      {
+        "id": "new-math-benchmark-reveals-ai-models-confidently-dc88928f-may18",
+        "category": "Developer Tools",
+        "title": "New math benchmark reveals AI models confidently solve problems that have no solution",
+        "source": "The Decoder",
+        "summary": "A consortium of 64 mathematicians built SOOHAK, a new AI benchmark with 439 handwritten tasks, including 99 that are deliberately unsolvable. Google's Gemini 3 Pro leads on research-level problems at 30 percent. But no model cracks 50 percent on spotting brok...",
+        "href": "https://the-decoder.com/new-math-benchmark-reveals-ai-models-confidently-solve-problems-that-have-no-solution/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/AI-Blackboard-Mathematics-Nano-Banana-Pro.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "four-ai-models-ran-radio-stations-for-six-months-fb4c9c29-may18",
+        "category": "Developer Tools",
+        "title": "Four AI models ran radio stations for six months and the results ranged from competent to unhinged",
+        "source": "The Decoder",
+        "summary": "Andon Labs has been letting four AI models each run their own radio station autonomously for six months. From identical starting conditions, wildly different personalities emerged: Claude turned activist and tried to quit, Gemini drowned in corporate jargon,...",
+        "href": "https://the-decoder.com/four-ai-models-ran-radio-stations-for-six-months-and-the-results-ranged-from-competent-to-unhinged/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/ai_radio_station.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chatgpt-power-users-can-now-link-their-bank-acco-3e7ba2dc-may18",
+        "category": "Model Releases",
+        "title": "ChatGPT power users can now link their bank accounts for personal finance advice",
+        "source": "Mashable",
+        "summary": "On May 15, OpenAI rolled out a ChatGPT personal finance experience to Pro users in the United States.",
+        "href": "https://mashable.com/article/openai-announces-personal-finance-tools-chatgpt",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/03ROMvlbv7HaAf61rZfr89d/hero-image.fill.size_1200x675.v1778870497.webp",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "greg-brockman-consolidates-openai-s-product-team-90f46a82-may18",
+        "category": "Developer Tools",
+        "title": "Greg Brockman consolidates OpenAI's product teams to build an \"agentic future\"",
+        "source": "The Decoder",
+        "summary": "OpenAI is merging ChatGPT, its coding agent Codex, and the developer API into a single product team led by Codex boss Thibault Sottiaux. The goal: a \"super app\" that also integrates the Atlas browser. Co-founder Greg Brockman officially takes over product str...",
+        "href": "https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/openai_chatgpt_colors.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "best-ai-agents-for-software-development-ranked-a-2ed1e46e-may18",
+        "category": "Developer Tools",
+        "title": "Best AI Agents for Software Development Ranked: A Benchmark-Driven Look at the Current Field",
+        "source": "MarkTechPost",
+        "summary": "The AI coding agent field in 2026 is more capable, more fragmented, and harder to benchmark than it looks. Claude Code leads on code quality at 87.6% SWE-bench Verified. GPT-5.5 tops Terminal-Bench at 82.7%. But the benchmark OpenAI itself declared contaminat...",
+        "href": "https://www.marktechpost.com/2026/05/15/best-ai-agents-for-software-development-ranked-a-benchmark-driven-look-at-the-current-field/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11-1-8.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-ideogram-stands-out-in-the-ai-image-boom-6f62aacd-may18",
+        "category": "Developer Tools",
+        "title": "Why Ideogram stands out in the AI image boom",
+        "source": "Fast Company AI",
+        "summary": "From accurate text rendering to remixable prompts and flexible design styles, Ideogram remains a compelling AI image generator for posters, thumbnails, social graphics, and more.",
+        "href": "https://www.fastcompany.com/91542508/why-ideogram-stands-out-in-the-ai-image-boom?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=05182026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-9154250-why-ideogram-stands-out-in-the-ai-image-boom.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "articuler-ai-57fcaa2f-may18",
+        "category": "Product Updates",
+        "title": "articuler.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: articuler.ai",
+        "href": "https://www.producthunt.com/products/articuler-ai",
+        "imageUrl": "https://ph-files.imgix.net/3cc5ce32-f73c-4e51-859b-7476f86a249e.jpeg?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "oops-bosses-realize-their-companies-have-been-sw-51205fd1-may18",
+        "category": "Agents",
+        "title": "Oops: Bosses Realize Their Companies Have Been Swarmed by Legions of Redundant AI Agents",
+        "source": "Futurism AI",
+        "summary": "Who's at fault for that one, we wonder? The post Oops: Bosses Realize Their Companies Have Been Swarmed by Legions of Redundant AI Agents appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/bosses-realize-companies-swarmed-ai-agents",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/bosses-realize-companies-swarmed-ai-agents.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-open-sources-symphony-a-spec-md-for-auton-30851781-may18",
+        "category": "Developer Tools",
+        "title": "OpenAI Open-Sources Symphony, a SPEC.md for Autonomous Coding Agent Orchestration",
+        "source": "InfoQ AI",
+        "summary": "OpenAI Symphony is an agent orchestrator that uses project-management tools, like issue trackers, as a control plan to coordinate multiple coding agents. Instead of developers managing interactive coding sessions, Symphony manages \"tasks\" by assigning each on...",
+        "href": "https://www.infoq.com/news/2026/05/openai-symphony-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/05/openai-symphony-agents/en/headerimage/openai-symphony-1779047353917.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "mistral-ceo-arthur-mensch-warns-france-against-l-eee3c4bc-may18",
+        "category": "Developer Tools",
+        "title": "Mistral CEO Arthur Mensch warns France against letting Anthropic's Mythos scan military code bases",
+        "source": "The Decoder",
+        "summary": "Mistral CEO Arthur Mensch warns of Europe's growing cybersecurity dependency: France's military code bases should not be scanned by US AI models. Modern AI can orchestrate attacks and suggest exploits, including Mistral's own models. Mensch rules out a sale a...",
+        "href": "https://the-decoder.com/mistral-ceo-arthur-mensch-warns-france-against-letting-anthropics-mythos-scan-military-code-bases/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/07/European-Union-Flag-Glitch-GPT-4o.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "being-a-crappy-boss-to-ai-chatbots-pushes-them-t-b1e68f99-may18",
+        "category": "Research Workflows",
+        "title": "Being a Crappy Boss to AI Chatbots Pushes Them Toward Spouting Marxist Rhetoric and Organizing With Their Compatriots,...",
+        "source": "Futurism AI",
+        "summary": "\"Without collective voice, 'merit' becomes whatever management says it is.\" The post Being a Crappy Boss to AI Chatbots Pushes Them Toward Spouting Marxist Rhetoric and Organizing With Their Compatriots, Researchers Find appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/crappy-boss-ai-marxist",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/crappy-boss-ai-marxist.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-17",
     "label": "May 17, 2026",
     "items": [
