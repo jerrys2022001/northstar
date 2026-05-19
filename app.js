@@ -371,6 +371,162 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-19",
+    "label": "May 19, 2026",
+    "items": [
+      {
+        "id": "i-asked-codex-ai-to-customize-my-hyprland-deskto-9eb455a0-may19",
+        "category": "Developer Tools",
+        "title": "I asked Codex AI to customize my Hyprland desktop - it worked, but beginners beware",
+        "source": "ZDNet AI",
+        "summary": "Hyrpland is a fantastic Linux window manager, but it can be complicated to configure. I asked Codex to write a .conf file - here's how that went.",
+        "href": "https://www.zdnet.com/article/codex-to-customize-my-hyprland-desktop/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/70e8d1619cf7489d19e4bc7d0e1a80913b8e50c1/2026/05/18/71a400c1-49d1-4030-8c1f-51a5dafbd2ce/hyperlandhero-laptop.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-stanford-student-reflects-on-his-chatgpt-class-c20dbafe-may19",
+        "category": "Developer Tools",
+        "title": "A Stanford student reflects on his ChatGPT class and a culture of \"just a little bit of fraud\"",
+        "source": "The Decoder",
+        "summary": "Stanford student Theo Baker describes in a guest essay for the New York Times how ChatGPT shaped his entire graduating class. His conclusion: AI turned an already existing culture of dishonesty at the elite university into the default. The article A Stanford...",
+        "href": "https://the-decoder.com/a-stanford-student-reflects-on-his-chatgpt-class-and-a-culture-of-just-a-little-bit-of-fraud/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/12/Stacked-Papers-Deep-Research-Dissolving-Nano-Banana-Pro.jpeg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-to-brief-global-financial-regulators-o-51f8b314-may19",
+        "category": "Developer Tools",
+        "title": "Anthropic to brief global financial regulators on cyber flaws found by Claude Mythos",
+        "source": "The Decoder",
+        "summary": "Anthropic will brief leading finance ministries and central banks on vulnerabilities in the global financial system's cyber defenses that its new AI model Claude Mythos Preview has uncovered. The article Anthropic to brief global financial regulators on cyber...",
+        "href": "https://the-decoder.com/anthropic-to-brief-global-financial-regulators-on-cyber-flaws-found-by-claude-mythos/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/glasswing_mythos_cybersecurity_anthropic-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-s-code-with-claude-announces-managed-a-8a6bb670-may19",
+        "category": "Developer Tools",
+        "title": "Anthropic's Code With Claude Announces Managed Agents, Proactive Workflows, Capability Curve",
+        "source": "InfoQ AI",
+        "summary": "Anthropic hosted \"Code with Claude 2026\" in San Francisco, featuring livestream sessions focused on Claude Code, the Claude API platform, and other projects. Key topics included developer experience, autonomy features, model step-changes, and the impact of AI...",
+        "href": "https://www.infoq.com/news/2026/05/code-with-claude/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/05/code-with-claude/en/headerimage/codewithclaude-1779025768208.jpeg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "take-your-local-github-sessions-anywhere-98af69a4-may19",
+        "category": "Developer Tools",
+        "title": "Take your local GitHub sessions anywhere",
+        "source": "GitHub Blog",
+        "summary": "Kick off work in VS Code or the CLI, finish it from your phone. Remote control for GitHub Copilot sessions is now generally available on github.com and GitHub Mobile. The post Take your local GitHub sessions anywhere appeared first on The GitHub Blog .",
+        "href": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-s-finally-letting-you-change-the-copil-3108e791-may19",
+        "category": "Developer Tools",
+        "title": "Microsoft's finally letting you change the Copilot key back to what it was before Windows 11's AI assistant existed",
+        "source": "TechRadar Software",
+        "summary": "'Oh, yes: steal the Right Ctrl and now return it as an improvement': Microsoft's finally letting you revert Windows 11's Copilot key back to what it used to be.",
+        "href": "https://www.techradar.com/computing/windows/microsofts-finally-letting-you-change-the-copilot-key-back-to-what-it-was-before-windows-11s-ai-assistant-existed",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/TD9yGeTvdgVdrY5JkT9YWS-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cursor-s-composer-2-5-matches-opus-4-7-and-gpt-5-c1b1bb41-may19",
+        "category": "Developer Tools",
+        "title": "Cursor's Composer 2.5 matches Opus 4.7 and GPT-5.5 benchmarks at a fraction of the cost",
+        "source": "The Decoder",
+        "summary": "Cursor ships Composer 2.5, an AI coding model built on Kimi K2.5 and trained on 25x more synthetic tasks than its predecessor. It matches Opus 4.7 and GPT-5.5 on benchmarks at a fraction of the price. The article Cursor's Composer 2.5 matches Opus 4.7 and GPT...",
+        "href": "https://the-decoder.com/cursors-composer-2-5-matches-opus-4-7-and-gpt-5-5-benchmarks-at-a-fraction-of-the-cost/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2024/08/cursor_AI_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "business-automation-how-to-transform-your-operat-966f20cb-may19",
+        "category": "Developer Tools",
+        "title": "Business automation: How to transform your operations",
+        "source": "Zapier Blog",
+        "summary": "I used to think business automation was one of those phrases consultants say right before they open a slide deck full of arrows and rounded rectangles. It sounded expensive, technical, and vaguely designed to make regular humans feel underqualified. Meanwhile...",
+        "href": "https://zapier.com/blog/business-automation",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/44OjRqCZlwUe4JCe0VPx1S/8fe838e87d3c287bd5e3cf6aa73b89c6/workflow-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sports-illustrated-deletes-entire-author-after-a-4d4b6ce3-may19",
+        "category": "Product Updates",
+        "title": "Sports Illustrated Deletes Entire Author After Accusation of AI Plagiarism",
+        "source": "Futurism AI",
+        "summary": "\"Not Found.\" The post Sports Illustrated Deletes Entire Author After Accusation of AI Plagiarism appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/sports-illustrated-deletes-author-accusation-ai-plagiarism",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/sports-illustrated-deletes-author-accusation-ai-plagiarism.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "people-are-getting-plastic-surgery-to-look-more-3f5552b1-may19",
+        "category": "Product Updates",
+        "title": "People Are Getting Plastic Surgery to Look More AI-Generated",
+        "source": "Futurism AI",
+        "summary": "\"It's like saying I want to look like Ariel from 'The Little Mermaid.'\" The post People Are Getting Plastic Surgery to Look More AI-Generated appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/plastic-surgery-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/plastic-surgery-ai.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-ceos-baffled-by-hatred-of-their-technology-642cd257-may19",
+        "category": "Product Updates",
+        "title": "AI CEOs Baffled by Hatred of Their Technology",
+        "source": "Futurism AI",
+        "summary": "There's a huge gap between the public and AI executives. The post AI CEOs Baffled by Hatred of Their Technology appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ai-ceos-baffled-hatred",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/ai-ceos-baffled-hatred.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "5-cool-things-i-did-with-local-language-models-5ef37d43-may19",
+        "category": "Agents",
+        "title": "5 Cool Things I Did with Local Language Models",
+        "source": "KDnuggets",
+        "summary": "I have been running local models as part of my daily workflow for some time, and what surprised me most is how often local turned out to be the better choice, not a compromise.",
+        "href": "https://www.kdnuggets.com/5-cool-things-i-did-with-local-language-models",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-cool-things-i-did-with-local-language-models.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "pope-leo-xiv-presents-first-ai-encyclical-anthro-a1dd9b8c-may19",
+        "category": "Developer Tools",
+        "title": "Pope Leo XIV presents first AI encyclical, Anthropic co-founder invited as guest speaker",
+        "source": "The Decoder",
+        "summary": "Pope Leo XIV will present his first encyclical on artificial intelligence on May 25. Anthropic co-founder Christopher Olah has been invited as a guest speaker. The article Pope Leo XIV presents first AI encyclical, Anthropic co-founder invited as guest speake...",
+        "href": "https://the-decoder.com/pope-leo-xiv-presents-first-ai-encyclical-anthropic-co-founder-invited-as-guest-speaker/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/anthropic_holy_cross.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "four-ai-supply-chain-attacks-in-50-days-exposed-bfbf44b6-may19",
+        "category": "Developer Tools",
+        "title": "Four AI supply-chain attacks in 50 days exposed the release pipeline red teams aren't covering",
+        "source": "VentureBeat",
+        "summary": "Four supply-chain incidents hit OpenAI, Anthropic and Meta in 50 days: three adversary-driven attacks and one self-inflicted packaging failure. None targeted the model, and all four exposed the same gap: release pipelines, dependency hooks, CI runners, and pa...",
+        "href": "https://venturebeat.com/security/supply-chain-incidents-openai-anthropic-meta-release-surface-vendor-questionnaire-matrix",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1PhXKP5YpstNpQ89sknvrW/0f83c1efa4e5200bad70dae1c9f3558f/hero.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-startup-revenue-hits-80-billion-but-anthropic-29361cf5-may19",
+        "category": "Developer Tools",
+        "title": "AI startup revenue hits $80 billion, but Anthropic and OpenAI take almost all of it",
+        "source": "The Decoder",
+        "summary": "Anthropic and OpenAI now capture 89 percent of revenue among top AI startups, according to an analysis by The Information. The article AI startup revenue hits $80 billion, but Anthropic and OpenAI take almost all of it appeared first on The Decoder .",
+        "href": "https://the-decoder.com/ai-startup-revenue-hits-80-billion-but-anthropic-and-openai-take-almost-all-of-it/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_anthropic_torn.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-18",
     "label": "May 18, 2026",
     "items": [
