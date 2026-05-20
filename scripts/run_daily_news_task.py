@@ -407,6 +407,44 @@ def count_run_date_candidate_items(
     return sum(1 for item in kept_items if item["date"] == run_date and item["id"] in candidate_item_ids)
 
 
+def news_image_key(item: dict[str, Any]) -> str:
+    return normalize_news_image_url(str(item.get("imageUrl") or ""))
+
+
+def days_between_news_items(left: dict[str, Any], right: dict[str, Any]) -> int:
+    left_date = datetime.strptime(left["date"], "%Y-%m-%d").date()
+    right_date = datetime.strptime(right["date"], "%Y-%m-%d").date()
+    return abs((left_date - right_date).days)
+
+
+def has_weekly_image_conflict(item: dict[str, Any], existing_items: list[dict[str, Any]]) -> bool:
+    image_key = news_image_key(item)
+    if not image_key:
+        return False
+
+    return any(
+        image_key == news_image_key(existing_item)
+        and days_between_news_items(item, existing_item) < 7
+        for existing_item in existing_items
+    )
+
+
+def filter_weekly_image_conflicts(
+    archive_items: list[dict[str, Any]],
+    candidate_items: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    kept_candidates: list[dict[str, Any]] = []
+    skipped_candidates: list[dict[str, Any]] = []
+
+    for item in candidate_items:
+        if has_weekly_image_conflict(item, archive_items) or has_weekly_image_conflict(item, kept_candidates):
+            skipped_candidates.append(item)
+            continue
+        kept_candidates.append(item)
+
+    return kept_candidates, skipped_candidates
+
+
 def group_items_for_feed(items: list[dict[str, Any]], tool_visits: dict[str, int]) -> list[dict[str, Any]]:
     grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
     labels: dict[str, str] = {}
@@ -780,6 +818,11 @@ def write_daily_log(
             skipped_tools = ", ".join(item.get("skippedToolIds", [])) or "unknown"
             lines.append(f"- {item['date']} - {item['title']} [{skipped_tools}]")
 
+    if dedupe_summary.get("imageConflictSkipped"):
+        lines.extend(["", "## Weekly image repeat skips", ""])
+        for item in dedupe_summary["imageConflictSkipped"][:10]:
+            lines.append(f"- {item['date']} - {item['title']} [{item.get('imageUrl') or 'no image'}]")
+
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return path
 
@@ -818,6 +861,7 @@ def main() -> int:
         for item in candidate_items
         if not any(items_are_similar(item, archived_item) for archived_item in historical_archive_items)
     ]
+    candidate_items, image_conflict_skips = filter_weekly_image_conflicts(historical_archive_items, candidate_items)
     # A rerun for the same local day should rebuild that day's cluster from the
     # latest candidate set instead of accumulating stale stories from earlier runs.
     if any(item["date"] == run_date for item in candidate_items):
@@ -842,6 +886,7 @@ def main() -> int:
         if run_date_candidate_count >= required_run_date_items or effective_max_per_tool_per_day >= max_cap_limit:
             break
         effective_max_per_tool_per_day += 1
+    dedupe_summary["imageConflictSkipped"] = image_conflict_skips
 
     grouped_feed = group_items_for_feed(kept_items, tool_visits)
     rewrite_app_js_news_feed(grouped_feed)
@@ -880,6 +925,7 @@ def main() -> int:
         "effectiveMaxPerToolPerDay": effective_max_per_tool_per_day,
         "duplicatesSkipped": len(dedupe_summary["duplicatesSkipped"]),
         "toolCapSkipped": len(dedupe_summary["toolCapSkipped"]),
+        "imageConflictSkipped": len(dedupe_summary["imageConflictSkipped"]),
         "renderValidation": render_validation,
         "logPath": str(log_path),
     }
