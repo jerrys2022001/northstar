@@ -371,6 +371,272 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-20",
+    "label": "May 20, 2026",
+    "items": [
+      {
+        "id": "everything-announced-at-google-i-o-2026-gemini-s-76345b01-may20",
+        "category": "Agents",
+        "title": "Everything Announced at Google I/O 2026: Gemini, Search, Smart Glasses",
+        "source": "WIRED AI",
+        "summary": "Google is sprucing up its Gemini models, revamping search, and enabling AI agents in everything. There are also some spiffy new smart glasses coming this fall.",
+        "href": "https://www.wired.com/story/everything-google-announced-at-google-io-2026/",
+        "imageUrl": "https://media.wired.com/photos/6a047ecbec98d3bd8037fdbe/master/pass/GettyImages-2215577882.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-i-o-2026-live-our-takes-on-gemini-3-5-spa-a9f3ef68-may20",
+        "category": "Developer Tools",
+        "title": "Google I/O 2026 live: Our takes on Gemini 3.5, Spark, Android XR, and more",
+        "source": "ZDNet AI",
+        "summary": "We're reporting live from Mountain View at Google's annual developer conference today. Stay tuned for the latest updates.",
+        "href": "https://www.zdnet.com/article/google-io-05-19-2026-live-blog/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/a51153c4d1a4e53d2da41218afebe9489ca556ce/2026/05/08/b82b10eb-f9ab-468e-b9f1-27bb60e7cb8f/google-io-zdnet-02.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-and-dell-partner-to-bring-codex-to-hybrid-210c7a7c-may20",
+        "category": "Developer Tools",
+        "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+        "href": "https://openai.com/index/dell-codex-enterprise-partnership",
+        "imageUrl": "assets/news/bright-safety.svg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-pics-is-a-new-workspace-tool-that-sounds-7e0bf589-may20",
+        "category": "Product Updates",
+        "title": "Google Pics is a new Workspace tool that sounds like a big Canva competitor",
+        "source": "Mashable",
+        "summary": "At Google I/O 2026, the company debuted the new Workspace program, Google Pics, which felt quite familiar. So is the AI-powered Google Pics the new Canva?",
+        "href": "https://mashable.com/tech/google-pics-canva-competitor-google-io-2026",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/06CT2loiZPzSqGqZQUV8wd6/hero-image.fill.size_1200x675.v1779220228.png",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-introduces-mcp-tunnels-for-private-age-4674c058-may20",
+        "category": "Agents",
+        "title": "Anthropic Introduces MCP Tunnels for Private Agent Access to Internal Systems",
+        "source": "InfoQ AI",
+        "summary": "Anthropic has expanded its Claude Managed Agents platform with two enterprise-focused capabilities: self-hosted sandboxes and MCP tunnels. The release aims to address a recurring challenge in enterprise AI deployments, where organizations want to use autonomo...",
+        "href": "https://www.infoq.com/news/2026/05/claude-mcp-tunnels/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/05/claude-mcp-tunnels/en/headerimage/generatedHeaderImage-1779216964890.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-get-the-most-out-of-claude-cowork-0347411f-may20",
+        "category": "Developer Tools",
+        "title": "How to Get the Most Out of Claude Cowork",
+        "source": "KDnuggets",
+        "summary": "Cowork is an autonomous agent that lives inside the Claude Desktop app, which has direct access to a folder on your computer, and can plan, execute, and deliver real work.",
+        "href": "https://www.kdnuggets.com/how-to-get-the-most-out-of-claude-cowork",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-get-the-most-out-of-claude-cowork.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "introducing-the-ettin-reranker-family-1bd4f1ec-may20",
+        "category": "Product Updates",
+        "title": "Introducing the Ettin Reranker Family",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Introducing the Ettin Reranker Family",
+        "href": "https://huggingface.co/blog/ettin-reranker",
+        "imageUrl": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "fine-tuning-nvidia-cosmos-predict-2-5-with-lora-a15f6257-may20",
+        "category": "Developer Tools",
+        "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
+        "href": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
+        "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-transformation-is-a-problem-of-governance-her-1ba7f6d5-may20",
+        "category": "Agents",
+        "title": "AI transformation is a problem of governance. Here's how to address it.",
+        "source": "Zapier Blog",
+        "summary": "I'm terrible with blank canvases. Hand me a blank check and a mission to fix work with AI, and you'll find me spiraling at 2 a.m., debating org charts, agent architectures, and whether I need a second career in compliance before I've touched a single real wor...",
+        "href": "https://zapier.com/blog/ai-transformation-is-a-problem-of-governance",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/2cMUNtk7CzoCjfbO17494Z/4ce277e78b1c32dd0632e2fecad80f05/ai-transformation-hero-green.png",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sql-vs-nosql-how-to-choose-a-database-language-d9dbe01a-may20",
+        "category": "Creative AI",
+        "title": "SQL vs. NoSQL: How to choose a database language",
+        "source": "Zapier Blog",
+        "summary": "I built my first app on a SQL database because a guy in a YouTube tutorial said it was \"the right way.\" Now, I'm not saying you should never take advice from strangers on the internet, but I am saying that particular stranger cost me about forty hours of my l...",
+        "href": "https://zapier.com/blog/sql-vs-nosql",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/673pFVo3Pgk1uXI6XIhWAt/385dae1507979a56df5273f507508579/sql-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "will-ai-cause-mass-political-polarization-maybe-8fdda2d6-may20",
+        "category": "Product Updates",
+        "title": "Will AI cause mass political polarization? Maybe not",
+        "source": "Fast Company AI",
+        "summary": "Dartmouth political scientist Brendan Nyhan says fears of AI-driven political persuasion may be overstated.",
+        "href": "https://www.fastcompany.com/91543997/will-ai-cause-mass-political-polarization-maybe-not?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=7&partner=newsletter&campaign_date=05202026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91543997-will-ai-cause-mass-political-polarization-maybe-not.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "warby-parker-and-google-take-on-meta-with-new-ai-447437f6-may20",
+        "category": "Product Updates",
+        "title": "Warby Parker and Google take on Meta with new AI smart glasses",
+        "source": "Fast Company AI",
+        "summary": "The glasses maker wants to bring extended reality to the masses via slightly more stylish smart frames.",
+        "href": "https://www.fastcompany.com/91544045/warby-parker-google-intelligent-eyewear?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=05202026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-2-91544045-warby-parker-smart-eyewear.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "students-boo-and-jeer-as-ai-name-reader-flops-sp-e261b793-may20",
+        "category": "Product Updates",
+        "title": "Students Boo and Jeer as AI Name-Reader Flops Spectacularly at College Graduation Ceremony",
+        "source": "Futurism AI",
+        "summary": "\"That is a lesson learned for us.\" The post Students Boo and Jeer as AI Name-Reader Flops Spectacularly at College Graduation Ceremony appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ai-name-reader-flops-college-graduation",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/ai-name-reader-flops-college-graduation_60a93e.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-s-synthid-ai-watermarking-tech-is-being-a-ad532681-may20",
+        "category": "Product Updates",
+        "title": "Google's SynthID AI watermarking tech is being adopted by OpenAI, Nvidia, and more",
+        "source": "Ars Technica",
+        "summary": "AI content is getting good, but SynthID might be able to help tell truth from fiction.",
+        "href": "https://arstechnica.com/google/2026/05/googles-synthid-ai-watermarking-tech-is-being-adopted-by-openai-nvidia-and-more/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/SynthID-1-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "expedia-is-preparing-for-a-future-beyond-travel-445f1ce4-may20",
+        "category": "Product Updates",
+        "title": "Expedia is preparing for a future beyond travel websites",
+        "source": "Fast Company AI",
+        "summary": "AI is changing how people discover and book trips. Expedia thinks the winners may be the companies powering the systems underneath.",
+        "href": "https://www.fastcompany.com/91544117/expedia-is-preparing-for-a-future-beyond-travel-websites?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=05202026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-91544117-expedia-Rich-Barton-future-beyond-travel-websites.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "demis-hassabis-thinks-ai-job-cuts-are-dumb-2aa50cbe-may20",
+        "category": "Product Updates",
+        "title": "Demis Hassabis Thinks AI Job Cuts Are Dumb",
+        "source": "WIRED AI",
+        "summary": "The CEO of Google DeepMind tells WIRED that companies should use the productivity gains of AI to do more, not lay people off.",
+        "href": "https://www.wired.com/story/demis-hassabis-ai-layoffs-deepmind-google-io/",
+        "imageUrl": "https://media.wired.com/photos/6a0c628c807dd3ba7634a39a/master/pass/GettyImages-2273112148.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-new-era-for-ai-search-1f203743-may20",
+        "category": "Product Updates",
+        "title": "A new era for AI Search",
+        "source": "Google AI Blog",
+        "summary": "We shared the next step in our journey to bring together the best of a search engine with the best of AI.",
+        "href": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_AI_and_search_engine_v46.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-is-making-it-easier-to-check-if-an-image-5b38c449-may20",
+        "category": "Model Releases",
+        "title": "OpenAI is making it easier to check if an image was made by their models",
+        "source": "TechCrunch",
+        "summary": "OpenAI announced two new measures to help detect AI generated imagery: joining the open C2PA standard and adding Google's SynthID to its products.",
+        "href": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/google-synth-id-developer-conference.png?resize=1200,692",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-build-an-advanced-agentic-ai-system-with-854bf6da-may20",
+        "category": "Agents",
+        "title": "How to Build an Advanced Agentic AI System with Planning, Tool Calling, Memory, and Self-Critique Using OpenAI API",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we build an advanced agentic AI system using the OpenAI API and a hidden terminal prompt for the API key. We design the agent as a small pipeline of specialized roles: planner, tool-using executor, and critic, so that we can separate strateg...",
+        "href": "https://www.marktechpost.com/2026/05/18/how-to-build-an-advanced-agentic-ai-system-with-planning-tool-calling-memory-and-self-critique-using-openai-api/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11-28-1024x731.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "rtk-ai-rtk-7366ec38-may20",
+        "category": "Developer Tools",
+        "title": "rtk-ai / rtk",
+        "source": "github",
+        "summary": "github reported: rtk-ai / rtk",
+        "href": "https://github.com/rtk-ai/rtk",
+        "imageUrl": "https://opengraph.githubassets.com/8f6182dcf68c75e0ee26887bd60fac98ee37f69a67a2586be1ff77053db83199/rtk-ai/rtk",
+        "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "prominent-ai-researcher-andrej-karpathy-picks-an-618464eb-may20",
+        "category": "Developer Tools",
+        "title": "Prominent AI researcher Andrej Karpathy picks Anthropic over former home OpenAI to get back into frontier LLM research",
+        "source": "The Decoder",
+        "summary": "Andrej Karpathy, one of the biggest names in AI, is joining Anthropic. The former OpenAI core team member and Tesla Autopilot architect says he wants to get back into R&D, calling the next few years at the frontier of LLMs \"especially formative.\" That he chos...",
+        "href": "https://the-decoder.com/prominent-ai-researcher-andrej-karpathy-picks-anthropic-over-former-home-openai-to-get-back-into-frontier-llm-research/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2024/08/andrej_karpathy_youtube_screenshot.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-s-new-image-watermarks-make-it-easier-to-33184e02-may20",
+        "category": "Developer Tools",
+        "title": "OpenAI's new image watermarks make it easier to spot AI fakes - here's how",
+        "source": "ZDNet AI",
+        "summary": "Older metadata could be stripped out. OpenAI's new approach hides signals in the pixels themselves.",
+        "href": "https://www.zdnet.com/article/openai-image-watermarks-help-spot-ai-fakes/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/402a71cc8521dc706fee555a58b2448f3263f925/2026/05/19/b73a5b7e-0da9-4e3c-acb3-65d7bc71b971/openais-new-image-watermarks-could-make-ai-fakes-harder-to-hide.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-co-founder-andrej-karpathy-announces-he-s-8acf6150-may20",
+        "category": "Developer Tools",
+        "title": "OpenAI co-founder Andrej Karpathy announces he's joining Anthropic",
+        "source": "VentureBeat",
+        "summary": "Andrej Karpathy, the influential 39-year-old Slovak-Canadian AI researcher and one of the original 11 co-founders of OpenAI , and former head of Tesla's AI division, announced on Tuesday, May 19 that he's joining rival lab Anthropic. As Karpathy posted from h...",
+        "href": "https://venturebeat.com/technology/andrej-karpathy-announces-hes-joining-anthropic",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/58QpFz6X4tNBK7eVdvHSEV/327dcff524e285d001d931712eaaacc0/ChatGPT_Image_May_19__2026__12_15_22_PM.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cloudflare-says-anthropic-s-mythos-preview-finds-dd3636ff-may20",
+        "category": "Developer Tools",
+        "title": "Cloudflare says Anthropic's Mythos Preview finds exploit chains that earlier frontier models missed",
+        "source": "The Decoder",
+        "summary": "Cloudflare tested Anthropic's security-focused AI model Mythos Preview across more than 50 of its own code repositories as part of Project Glasswing. The article Cloudflare says Anthropic's Mythos Preview finds exploit chains that earlier frontier models miss...",
+        "href": "https://the-decoder.com/cloudflare-says-anthropics-mythos-preview-finds-exploit-chains-that-earlier-frontier-models-missed/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/glasswing_mythos_cybersecurity_anthropic-1.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "as-the-federal-government-races-to-adopt-ai-tale-6b7fd94b-may20",
+        "category": "Developer Tools",
+        "title": "As the Federal Government races to adopt AI, talent, transparency, and flexibility remain vital",
+        "source": "TechRadar Software",
+        "summary": "Widespread AI adoption has been hindered by capacity constraints, procurement and funding challenges, and low public trust in AI systems.",
+        "href": "https://www.techradar.com/pro/as-the-federal-government-races-to-adopt-ai-talent-transparency-and-flexibility-remain-vital",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/Rb6YDzdRZjccpn6MQ26KML-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "new-ways-to-create-and-get-things-done-in-google-4a09b699-may20",
+        "category": "Creative AI",
+        "title": "New ways to create and get things done in Google Workspace",
+        "source": "Google AI Blog",
+        "summary": "Announcing new voice capabilities in Gmail, Docs and Keep, a new design tool called Google Pics and updates to AI Inbox.",
+        "href": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GoogleWorkspace-IO.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-19",
     "label": "May 19, 2026",
     "items": [
