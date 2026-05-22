@@ -371,6 +371,222 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-22",
+    "label": "May 22, 2026",
+    "items": [
+      {
+        "id": "google-showed-me-the-future-of-android-auto-and-f76e9b83-may22",
+        "category": "Model Releases",
+        "title": "Google showed me the future of Android Auto - and now I dread my own car",
+        "source": "ZDNet AI",
+        "summary": "The latest showcase of Android Auto highlighted key improvements to the user interface, map design, Gemini features, and more.",
+        "href": "https://www.zdnet.com/article/google-io-android-auto-demo/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/5a17e39c946bc8c51344a8257d494b637e61d18c/2026/05/21/d3fd9bab-c73a-47c7-b0fa-86dd256e5871/dsc09984.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-gemini-is-making-its-way-into-your-car-097dba34-may22",
+        "category": "Model Releases",
+        "title": "Google Gemini is making its way into your car.",
+        "source": "Mashable",
+        "summary": "Google showcased new Gemini-powered Android Auto and Google Built-in features at I/O 2026 focused on driving assistance.",
+        "href": "https://mashable.com/tech/google-gemini-android-auto-preview",
+        "imageUrl": "https://helios-i.mashable.com/imagery/videos/06AEvovtdn6nGObObfHcHGN/hero-image.fill.size_1200x675.v1779308030.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-prompt-chatgpt-10-tips-for-better-answers-cea2e0d5-may22",
+        "category": "Model Releases",
+        "title": "How to prompt ChatGPT: 10 tips for better answers",
+        "source": "Zapier Blog",
+        "summary": "I've complained on more than one occasion that I wish my partner knew what I wanted without me having to tell him. But I've finally accepted a universal truth: nobody's a mind reader. Not even an AI chatbot trained on the entire internet. When you prompt Chat...",
+        "href": "https://zapier.com/blog/gpt-prompt",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/78BBO1w4RTJR6C1Xh4BWlF/b4f5a180764fd9677dbcb304f00c0948/openai-hero-green.png",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-ipo-will-happen-asap-say-insiders-d39b7050-may22",
+        "category": "Developer Tools",
+        "title": "OpenAI IPO will happen ASAP, say insiders",
+        "source": "Mashable",
+        "summary": "A Wall Street Journal report says ChatGPT maker OpenAI is preparing its Initial Public Offering (IPO) for fall 2026.",
+        "href": "https://mashable.com/tech/openai-ipo-coming",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/024pFTKBBe4BhBBrE2YbW2p/hero-image.fill.size_1200x675.v1779300968.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "as-grok-flounders-spacex-bets-future-on-beating-866e4cbc-may22",
+        "category": "Funding",
+        "title": "As Grok flounders, SpaceX bets future on beating Big Tech at AI",
+        "source": "Ars Technica",
+        "summary": "SpaceX IPO filing pitches orbital data centers as Grok lags rival AI services.",
+        "href": "https://arstechnica.com/ai/2026/05/as-grok-flounders-spacex-bets-future-on-beating-big-tech-at-ai/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/AI-chatbot-icons-on-smartphone-1-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "us-cyber-command-races-to-deploy-ai-on-top-secre-bde16516-may22",
+        "category": "Developer Tools",
+        "title": "US Cyber Command races to deploy AI on top-secret networks",
+        "source": "The Decoder",
+        "summary": "US Cyber Command has launched a task force to run AI models from OpenAI, Google, and others on the most classified Pentagon and NSA networks. The trigger: AI systems like Anthropic's Claude Mythos can find security vulnerabilities faster than the best human h...",
+        "href": "https://the-decoder.com/us-cyber-command-races-to-deploy-ai-on-top-secret-networks/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/pentagon_AI_strategy.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-musical-turing-test-for-ai-consciousness-lette-454e2ff9-may22",
+        "category": "Creative AI",
+        "title": "A musical Turing test for AI consciousness | Letters",
+        "source": "The Guardian AI",
+        "summary": "Stephen Ladyman suggests a question to ask artificial intelligence systems, while John van Someren is suspicious of advice he got from the AI assistant Claude There is a test that Prof Richard Dawkins might use to determine if artificial intelligence systems...",
+        "href": "https://www.theguardian.com/technology/2026/may/21/a-musical-turing-test-for-ai-consciousness",
+        "imageUrl": "https://i.guim.co.uk/img/media/6c7873490cf4f46df61186b00b7a8683dd0fff34/1014_0_6625_5304/master/6625.jpg?width=140&quality=85&auto=format&fit=max&s=d81ea509e73ed361a1300b8dd08f0757",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "qwen-introduces-qwen3-7-max-a-reasoning-agent-mo-1f4dc9a4-may22",
+        "category": "Developer Tools",
+        "title": "Qwen Introduces Qwen3.7-Max: A Reasoning Agent Model With a 1M-Token Context Window",
+        "source": "MarkTechPost",
+        "summary": "Alibaba's Qwen team introduced Qwen3.7-Max at the 2026 Alibaba Cloud Summit, describing it as its most advanced and comprehensive agent model to date. The model features a 1M-token context window, extended-thinking mode, and is designed for long-horizon tasks...",
+        "href": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-21-at-3.32.30-PM.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spotify-launches-an-elevenlabs-powered-audiobook-09aab2c4-may22",
+        "category": "Creative AI",
+        "title": "Spotify launches an ElevenLabs-powered audiobook creation tool",
+        "source": "TechCrunch",
+        "summary": "The AI-powered audiobook generation won't bind authors to an exclusive contract, meaning they are free to publish their generated audiobooks anywhere.",
+        "href": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/Spotify-Audiobooks-Ux.jpg?resize=1200,675",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "this-25-subscription-will-bring-ai-into-your-bus-17590724-may22",
+        "category": "Model Releases",
+        "title": "This $25 Subscription Will Bring AI Into Your Business",
+        "source": "TechRepublic AI",
+        "summary": "Tap into the power of OpenAI, Meta, Midjourney, and additional powerful AI models with 1min.AI. The post This $25 Subscription Will Bring AI Into Your Business appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/1minai-pro-plan-lifetime-subscription/",
+        "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-implement-event-driven-architecture-model-6282613e-may22",
+        "category": "Model Releases",
+        "title": "How To Implement Event-Driven Architecture: Models, Trade-Offs, and Operational Realities",
+        "source": "n8n Blog",
+        "summary": "Learn how to implement event-driven architecture including message brokers, event schemas, and scalable system design.",
+        "href": "https://blog.n8n.io/how-to-implement-event-driven-architecture/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/05/TL-1.jpeg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-maturity-where-enterprises-stand-today-51107f57-may22",
+        "category": "Developer Tools",
+        "title": "AI Maturity - Where Enterprises Stand Today",
+        "source": "n8n Blog",
+        "summary": "Ninety-two percent of C-suite leaders say they are fully confident in their AI return on investment. Yet 58% admit there is no clear owner of AI in their organization, 75% lack governance frameworks, and only 12% of CEOs have achieved both revenue growth and...",
+        "href": "https://blog.n8n.io/ai-maturity-where-enterprises-stand-today/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/05/BlogHeader_AI-Maturity-V2-2.jpg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "zapier-mcp-perform-tens-of-thousands-of-actions-dfc91b57-may22",
+        "category": "Developer Tools",
+        "title": "Zapier MCP: Perform tens of thousands of actions in your AI tool",
+        "source": "Zapier Blog",
+        "summary": "Large language models can extract, classify, summarize, and write for us. They just can't execute those tasks on their own. Or not without some seriously cumbersome technical upkeep, anyway. For AI to do something in an app you use, a developer has to build a...",
+        "href": "https://zapier.com/blog/zapier-mcp-guide",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/6FjbCs1vmzmkt9E2ZNLw22/7ed6fb89743cc48c28b9fa948e6f3a8f/Hero__App_tips__7_.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "technology-usually-creates-jobs-for-young-skille-8d09d65f-may22",
+        "category": "Product Updates",
+        "title": "Technology usually creates jobs for young, skilled workers. Will AI do the same?",
+        "source": "MIT News AI",
+        "summary": "A new study of the postwar U.S. shows which kinds of workers historically filled new tech-enabled jobs.",
+        "href": "https://news.mit.edu/2026/technology-creates-jobs-young-skilled-workers-ai-0521",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/MIT-NewWork-01-press.jpg?itok=byMeP8Rb",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "patch-window-is-officially-dead-as-ai-finds-bugs-47fa604b-may22",
+        "category": "Product Updates",
+        "title": "Patch window is officially dead as AI finds bugs faster than humans can squash them",
+        "source": "TechRadar Software",
+        "summary": "AI uncovers massive vulnerabilities, forcing shift from patching to resilient software defenses.",
+        "href": "https://www.techradar.com/pro/patch-window-is-officially-dead-as-ai-finds-bugs-faster-than-humans-can-squash-them",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/7DtE9RCVmUtmH2FAfvxsvM-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "jeff-bezos-lectures-the-public-saying-they-shoul-884bbfb8-may22",
+        "category": "Product Updates",
+        "title": "Jeff Bezos Lectures the Public, Saying They Should Be Grateful for the Wonders of AI",
+        "source": "Futurism AI",
+        "summary": "\"You should be so happy!\" The post Jeff Bezos Lectures the Public, Saying They Should Be Grateful for the Wonders of AI appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/jeff-bezos-public-grateful-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/jeff-bezos-public-grateful-ai.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "bt-warns-of-smartphone-price-rises-due-to-chip-s-8830306c-may22",
+        "category": "Product Updates",
+        "title": "BT warns of smartphone price rises due to chip shortages from AI boom",
+        "source": "The Guardian AI",
+        "summary": "Telecoms company CEO says tech firms are buying up memory chips to power datacentres relied on by AI BT has said the cost of smartphones could rise as technology companies buy up semiconductor chips because of the boom in artificial intelligence, putting pres...",
+        "href": "https://www.theguardian.com/business/2026/may/21/bt-smartphone-price-rises-chip-shortages-ai-boom",
+        "imageUrl": "https://i.guim.co.uk/img/media/d9b2d86d10fcc0cbaca5fcec6f39c8562e75abbd/1319_212_4489_3592/master/4489.jpg?width=140&quality=85&auto=format&fit=max&s=da54e3bee495d7c01b28bc253b7f3102",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "if-you-want-a-motorola-foldable-its-the-razr-ult-db5b8b0e-may22",
+        "category": "Creative AI",
+        "title": "If you want a Motorola foldable, its the Razr Ultra or bust",
+        "source": "Mashable",
+        "summary": "Motorola's new flagship foldable flip phone is a powerhouse with a beautiful design. We put the cameras, processor, and display to the test.",
+        "href": "https://mashable.com/tech/motorola-razr-ultra-plus-review-foldable-phones",
+        "imageUrl": "https://helios-i.mashable.com/imagery/reviews/05yAHWKWL1DoIn0aDHP1fHH/hero-image.fill.size_1200x675.v1779323942.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spacex-ipo-filing-shows-billions-in-ai-losses-a-5cc6279e-may22",
+        "category": "Developer Tools",
+        "title": "SpaceX IPO filing shows billions in AI losses, a $2 trillion valuation target, and turbine spending that signals more d...",
+        "source": "The Decoder",
+        "summary": "SpaceX has filed for what could be the largest IPO ever, targeting a valuation of up to $2 trillion. The filing reveals xAI losses of $6.36 billion in 2025 and an Anthropic compute deal worth $15 billion per year. Elon Musk secures 85.1 percent of voting powe...",
+        "href": "https://the-decoder.com/spacex-ipo-filing-shows-billions-in-ai-losses-a-2-trillion-valuation-target-and-turbine-spending-that-signals-more-data-center-conflicts-ahead/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/SpaceX-IPO.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "it-seems-a-lot-like-trump-accidentally-invested-d2f6e175-may22",
+        "category": "Developer Tools",
+        "title": "It Seems a Lot Like Trump Accidentally Invested $1 Million in a Conveyor Belt Sushi Restaurant Thinking It Was an AI Ha...",
+        "source": "Futurism AI",
+        "summary": "\"Does Trump have any interest in sushi? I always picture him eating steak and hamburgers every day.\" The post It Seems a Lot Like Trump Accidentally Invested $1 Million in a Conveyor Belt Sushi Restaurant Thinking It Was an AI Hardware Company appeared first...",
+        "href": "https://futurism.com/artificial-intelligence/trump-sushi-stock",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/trump-sushi-stock.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "san-francisco-turns-to-ai-to-save-whales-from-sh-48aac21b-may22",
+        "category": "Creative AI",
+        "title": "San Francisco turns to AI to save whales from ship strikes as deaths soar",
+        "source": "The Guardian AI",
+        "summary": "Climate change is pushing starving grey whales to San Francisco Bay, where ship strikes led to 40% of 21 deaths Ferries, cargo ships and tankers cut through choppy waters in the San Francisco Bay on Tuesday as a whale surfaced nearby, its spout barely visible...",
+        "href": "https://www.theguardian.com/environment/2026/may/20/san-francisco-bay-ai-whales",
+        "imageUrl": "https://i.guim.co.uk/img/media/d98e7f552376ffff076448b69da87cf0077948c6/557_656_4182_3344/master/4182.jpg?width=140&quality=85&auto=format&fit=max&s=98333272e4cc9f0c406976b29888f16c",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-21",
     "label": "May 21, 2026",
     "items": [
