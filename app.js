@@ -371,6 +371,152 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-23",
+    "label": "May 23, 2026",
+    "items": [
+      {
+        "id": "10-gemini-tricks-to-try-in-google-docs-695ac0a0-may23",
+        "category": "Model Releases",
+        "title": "10 Gemini Tricks to Try in Google Docs",
+        "source": "TechRepublic AI",
+        "summary": "Learn how to use Gemini in Google Docs to draft, edit, summarize, format, generate images, pull sources, and listen to documents. The post 10 Gemini Tricks to Try in Google Docs appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/news-how-to-use-gemini-google-docs/",
+        "imageUrl": "assets/news/superhuman-claude-mythos.png",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "easy-agentic-tool-calling-with-gemma-4-5a4fd366-may23",
+        "category": "Developer Tools",
+        "title": "Easy Agentic Tool Calling with Gemma 4",
+        "source": "KDnuggets",
+        "summary": "In this tutorial, we will give Gemma 4 two new tools and watch the model decide, on its own, when to look around and when to compute.",
+        "href": "https://www.kdnuggets.com/easy-agentic-tool-calling-with-gemma-4",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-easy-agentic-tool-calling-with-gemma-4.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-launches-a-chatgpt-powerpoint-plugin-and-7e1e9bf7-may23",
+        "category": "Developer Tools",
+        "title": "OpenAI launches a ChatGPT Powerpoint plugin and warns it might accidentally delete your content",
+        "source": "The Decoder",
+        "summary": "OpenAI brings ChatGPT directly into PowerPoint. A new beta plugin creates presentations from notes, documents, or images and edits existing slides. The add-in is available worldwide across all tiers. OpenAI recommends saving important decks before using it. T...",
+        "href": "https://the-decoder.com/openai-launches-a-chatgpt-powerpoint-plugin-and-warns-it-might-accidentally-delete-your-content/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_gpt54-3.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-appshots-turn-any-mac-window-into-context-e87c0b19-may23",
+        "category": "Developer Tools",
+        "title": "OpenAI Appshots turn any Mac window into context for Codex",
+        "source": "The Decoder",
+        "summary": "With the new Codex feature Appshots, Mac users can send the contents of any app window to OpenAI's coding assistant Codex at the press of a button, giving it the context it needs for a task. The article OpenAI Appshots turn any Mac window into context for Cod...",
+        "href": "https://the-decoder.com/openai-appshots-turn-any-mac-window-into-context-for-codex/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/openai_dark_pattern.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "deepseek-reportedly-prioritizes-agi-research-ove-b199ff37-may23",
+        "category": "Developer Tools",
+        "title": "Deepseek reportedly prioritizes AGI research over quick profits despite billions in funding",
+        "source": "The Decoder",
+        "summary": "Deepseek is about to raise around $10 billion, which would value the Chinese AI startup at roughly $45 billion. Founder Liang Wenfeng is telling investors he's putting AGI research ahead of short-term profits. The article Deepseek reportedly prioritizes AGI r...",
+        "href": "https://the-decoder.com/deepseek-reportedly-prioritizes-agi-research-over-quick-profits-despite-billions-in-funding/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/deepseek_chart_background.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "elon-stop-trying-to-make-grok-happen-ec246dd4-may23",
+        "category": "Product Updates",
+        "title": "Elon, stop trying to make Grok happen",
+        "source": "The Verge AI",
+        "summary": "There is a harsh truth about Elon Musk's \"truth-seeking\" AI chatbot Grok: It's not very good, and not many people are using it. That's the takeaway of a new Reuters report, which found that Grok barely appears in federal records of how the US government used...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/VRG_Illo_STK022_K_Radtke_Musk_Smiles.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "xai-releases-grok-skills-and-updates-tool-callin-b76452e1-may23",
+        "category": "Model Releases",
+        "title": "xAI Releases Grok Skills and Updates Tool Calling Responses API",
+        "source": "InfoQ AI",
+        "summary": "xAI has released Grok Skills together with enhancements to the Responses API for Grok 4.3, enabling persistent custom expertise that the model retains across all conversations. By Daniel Dominguez",
+        "href": "https://www.infoq.com/news/2026/05/xai-grok-skills/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/05/xai-grok-skills/en/headerimage/generatedHeaderImage-1779398972807.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-reportedly-reaches-profitability-as-cl-8e0a2543-may23",
+        "category": "Product Updates",
+        "title": "Anthropic Reportedly Reaches Profitability as Claude Wins Over Businesses",
+        "source": "TechRepublic AI",
+        "summary": "Anthropic reportedly expects its first profitable quarter as enterprise AI revenue surges, but rising compute costs could test that momentum. The post Anthropic Reportedly Reaches Profitability as Claude Wins Over Businesses appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/news-anthropic-first-profitable-quarter-enterprise-ai/",
+        "imageUrl": "assets/news/mit-compressm.png",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "7-ways-to-use-zapier-mcp-f6d040a5-may23",
+        "category": "Agents",
+        "title": "7 ways to use Zapier MCP",
+        "source": "Zapier Blog",
+        "summary": "I love being able to hook up Claude and my other AI tools to apps I use, but I'm picky about how I establish that connection. If I switch AI harnesses, I don't want to rebuild my app connections every time. And I really don't want my AI poking around in tools...",
+        "href": "https://zapier.com/blog/11-ways-to-use-zapier-mcp",
+        "imageUrl": "assets/news/bright-product-updates.svg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "starbucks-scraps-disastrous-ai-tool-5693ec66-may23",
+        "category": "Product Updates",
+        "title": "Starbucks Scraps Disastrous AI Tool",
+        "source": "Futurism AI",
+        "summary": "The AI never had its coffee. The post Starbucks Scraps Disastrous AI Tool appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/starbucks-scraps-disastrous-ai-tool",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/starbucks-scraps-disastrous-ai-tool.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "finance-bros-tremble-in-fear-that-they-could-be-e4675ff4-may23",
+        "category": "Product Updates",
+        "title": "Finance Bros Tremble in Fear That They Could Be Replaced by AI Too",
+        "source": "Futurism AI",
+        "summary": "You're not safe either. The post Finance Bros Tremble in Fear That They Could Be Replaced by AI Too appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/finance-bros-tremble-replaced-by-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/finance-bros-tremble-replaced-by-ai.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "catch-up-on-the-dialogues-stage-at-google-i-o-20-3405d5d5-may23",
+        "category": "Product Updates",
+        "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+        "source": "Google AI Blog",
+        "summary": "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
+        "href": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "build-recurrent-depth-transformers-with-openmyth-2ae14ab6-may23",
+        "category": "Agents",
+        "title": "Build Recurrent-Depth Transformers with OpenMythos for MLA, GQA, Sparse MoE, and Loop-Scaled Reasoning",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we explore OpenMythos by building an advanced recurrent-depth transformer workflow that runs end-to-end in Google Colab. We create both MLA and GQA model variants, compare their parameter counts, and check the stability of the recurrent inje...",
+        "href": "https://www.marktechpost.com/2026/05/22/build-recurrent-depth-transformers-with-openmythos-for-mla-gqa-sparse-moe-and-loop-scaled-reasoning/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/blog11-2-4.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spotify-and-universal-music-agree-deal-to-let-su-ec79a885-may23",
+        "category": "Creative AI",
+        "title": "Spotify and Universal Music agree deal to let subscribers create AI remixes",
+        "source": "The Guardian AI",
+        "summary": "Licensing agreement will allow listeners to use AI to create content on streaming platform for first time Spotify and Universal Music Group have agreed on a deal that will allow subscribers to generate song covers and remixes using artificial intelligence. Th...",
+        "href": "https://www.theguardian.com/technology/2026/may/21/spotify-and-universal-music-agree-deal-to-let-subscribers-create-ai-remixes",
+        "imageUrl": "https://i.guim.co.uk/img/media/7720a23fe78987213e79ec1cc44a07953edad891/0_398_4750_3801/master/4750.jpg?width=140&quality=85&auto=format&fit=max&s=2f9778f724918509b3b51f4e6ce4c03a",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-22",
     "label": "May 22, 2026",
     "items": [
@@ -2529,16 +2675,6 @@
         "href": "https://huggingface.co/blog/allenai/emo",
         "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
         "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "zapier-mcp-zapier-sdk-and-zapier-cli-what-s-the-a16f4b73-may11",
-        "category": "Agents",
-        "title": "Zapier MCP, Zapier SDK, and Zapier CLI: What's the difference?",
-        "source": "Zapier Blog",
-        "summary": "If you've been paying attention to new products in the tech space, you may have noticed three initialisms popping up a lot: MCP, SDK, and CLI. Zapier has dedicated products for each: Zapier MCP, Zapier SDK, and Zapier CLI. All three connect AI to Zapier's eco...",
-        "href": "https://zapier.com/blog/zapier-mcp-vs-sdk",
-        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/5R3nzNnfkhYCSJV7OIjv3k/93d2d3d9802f9313867af9e033b805b2/Hero__App_tips__4_.jpg",
-        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
       },
       {
         "id": "man-who-invented-roomba-moves-into-household-dem-e3257c8a-may11",
