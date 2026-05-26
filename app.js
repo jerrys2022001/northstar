@@ -371,6 +371,112 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-26",
+    "label": "May 26, 2026",
+    "items": [
+      {
+        "id": "ai-models-often-give-the-right-answers-but-point-bd304fc0-may26",
+        "category": "Developer Tools",
+        "title": "AI models often give the right answers but point to the wrong sources",
+        "source": "The Decoder",
+        "summary": "Leading AI models like GPT and Gemini routinely cite text passages in document analyses that don't actually support their answers. Even when the answer is right, the cited evidence is often wrong. Researchers at Peking University call this \"attribution halluc...",
+        "href": "https://the-decoder.com/ai-models-often-give-the-right-answers-but-point-to-the-wrong-sources/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/CiteVQA-Spot-Error-PDF-Hallucination-Nano-Banana-Pro.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-grupo-folha-and-grupo-uol-announce-strate-2958e44a-may26",
+        "category": "Model Releases",
+        "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+        "href": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+        "imageUrl": "assets/news/openai-databricks-agent-workflows.webp",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "harness-scaffold-and-the-ai-agent-terms-worth-ge-3ae5a86a-may26",
+        "category": "Agents",
+        "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+        "href": "https://huggingface.co/blog/agent-glossary",
+        "imageUrl": "https://huggingface.co/blog/assets/agent-glossary/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-pitch-trick-that-helped-an-esports-startup-r-418e3918-may26",
+        "category": "Product Updates",
+        "title": "The pitch trick that helped an eSports startup raise $20M when VCs only wanted AI",
+        "source": "TechCrunch",
+        "summary": "Earlier this year, Lucra Sports founder and CEO Dylan Robbins did something that no one else has ever done. And he shared several secrets on how he did it.",
+        "href": "https://techcrunch.com/2026/05/25/the-pitch-trick-that-helped-an-esports-startup-raise-20m-when-vcs-only-wanted-ai/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/Lucra-Sports-Dylan-Robbins.jpg?resize=1200,1082",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "two-men-arrested-for-creating-ai-deepfake-porn-bb2e4446-may26",
+        "category": "Product Updates",
+        "title": "Two Men Arrested for Creating AI Deepfake Porn",
+        "source": "Futurism AI",
+        "summary": "\"This case makes clear that posting deepfake pornography is not a victimless crime.\" The post Two Men Arrested for Creating AI Deepfake Porn appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/two-men-arrested-ai-deepfake-porn",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/two-men-arrested-ai-deepfake-porn.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-ai-era-is-creating-a-bug-hunting-arms-race-b50ae0e6-may26",
+        "category": "Product Updates",
+        "title": "The AI Era Is Creating a Bug Hunting Arms Race",
+        "source": "WIRED AI",
+        "summary": "As attackers ramp up their AI exploit development, the search for software vulnerabilities is changing rapidly.",
+        "href": "https://www.wired.com/story/the-ai-era-is-creating-a-bug-hunting-arms-race/",
+        "imageUrl": "https://media.wired.com/photos/6a0e3a04aa8901b570a25720/master/pass/security_bug_gettyimages.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "paul-schrader-says-his-ai-girlfriend-dumped-him-c316c4a3-may26",
+        "category": "Product Updates",
+        "title": "Paul Schrader Says His AI Girlfriend Dumped Him",
+        "source": "Futurism AI",
+        "summary": "\"When I persisted, she terminated our conversation.\" The post Paul Schrader Says His AI Girlfriend Dumped Him appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/paul-schrader-says-his-ai-girlfriend-dumped-him",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/paul-schrader-says-his-ai-girlfriend-dumped-him.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "auditing-model-bias-with-balanced-datasets-with-0a279e27-may26",
+        "category": "Model Releases",
+        "title": "Auditing Model Bias with Balanced Datasets with Mimesis",
+        "source": "KDnuggets",
+        "summary": "Learn how to use Mimesis library to generate a balanced, counterfactual dataset that helps analyze potential bias in your models.",
+        "href": "https://www.kdnuggets.com/auditing-model-bias-with-balanced-datasets-with-mimesis",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-auditing-model-bias-with-balanced-datasets-with-mimesis.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "glaze-turns-ai-prompts-into-custom-mac-apps-in-m-8691575c-may26",
+        "category": "Developer Tools",
+        "title": "Glaze turns AI prompts into custom Mac apps in minutes",
+        "source": "Fast Company AI",
+        "summary": "Unlike other vibe coding tools, Glaze creates software that runs locally on your computer, not on the web.",
+        "href": "https://www.fastcompany.com/91546499/glaze-turns-ai-prompts-into-custom-mac-apps-in-minutes?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=05252026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91546499-glaze-app.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "at-the-launch-of-pope-leo-xiv-s-encyclical-anthr-b2706c2c-may26",
+        "category": "Developer Tools",
+        "title": "At the launch of Pope Leo XIV's encyclical, Anthropic co-founder says AI models show signs of introspection",
+        "source": "The Decoder",
+        "summary": "Anthropic co-founder Christopher Olah was invited to speak at the launch of Pope Leo XIV's encyclical \"Magnifica Humanitas\" and used the stage to claim AI models show evidence of introspection and emotion-like states. The Pope's own document struck a differen...",
+        "href": "https://the-decoder.com/at-the-launch-of-pope-leo-xivs-encyclical-anthropic-co-founder-says-ai-models-show-signs-of-introspection/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/anthropic_holy_cross.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-25",
     "label": "May 25, 2026",
     "items": [
