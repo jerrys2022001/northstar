@@ -371,6 +371,112 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-05-28",
+    "label": "May 28, 2026",
+    "items": [
+      {
+        "id": "i-was-intrigued-by-google-s-new-video-cloning-om-703dc29e-may28",
+        "category": "Developer Tools",
+        "title": "I was intrigued by Google's new video-cloning Omni AI - then I considered the implications",
+        "source": "ZDNet AI",
+        "summary": "Google's Gemini Omni combines realism, avatars, style control, and natural-language editing in one AI video tool.",
+        "href": "https://www.zdnet.com/article/google-omni-ai-tool-video-gemini/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/a51153c4d1a4e53d2da41218afebe9489ca556ce/2026/05/08/b82b10eb-f9ab-468e-b9f1-27bb60e7cb8f/google-io-zdnet-02.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-releases-polar-a-token-faithful-rollout-f-fd0adca1-may28",
+        "category": "Developer Tools",
+        "title": "NVIDIA Releases Polar, a Token-Faithful Rollout Framework for GRPO Training Across Codex, Claude Code, and Qwen Code",
+        "source": "MarkTechPost",
+        "summary": "NVIDIA researchers have introduced Polar, a rollout framework that trains language agents using reinforcement learning without modifying their agent harnesses. Polar places a model API proxy between the harness and the inference server, capturing token-level...",
+        "href": "https://www.marktechpost.com/2026/05/27/nvidia-releases-polar-a-token-faithful-rollout-framework-for-grpo-training-across-codex-claude-code-and-qwen-code/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-27-at-10.08.51-AM-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "robinhood-lets-ai-agents-trade-shares-and-make-c-cf70ab9b-may28",
+        "category": "Developer Tools",
+        "title": "Robinhood lets AI agents trade shares and make credit card purchases for customers",
+        "source": "The Decoder",
+        "summary": "Robinhood now lets customers connect AI agents like Anthropic's Claude to a separate investment account via MCP. The agents can trade stocks on their own. US brokerage regulator FINRA already flags such agents as a new risk area, warning about unchecked decis...",
+        "href": "https://the-decoder.com/robinhood-lets-ai-agents-trade-shares-and-make-credit-card-purchases-for-customers/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/robinhood_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "replit-vs-cursor-which-ai-coding-tool-is-right-f-93400a58-may28",
+        "category": "Developer Tools",
+        "title": "Replit vs. Cursor: Which AI coding tool is right for you? [2026]",
+        "source": "Zapier Blog",
+        "summary": "Choosing between Cursor and Replit used to come down to a single question: do you code? If you didn't, Replit was great to turn your idea into a published app or website using AI. If you did, Cursor was one of the best choices for AI pair programming, adding...",
+        "href": "https://zapier.com/blog/replit-vs-cursor",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/hBiyE2U3BLhuj4vq3Fukq/f1bdb3618f487bc656a8b3f0900e1987/replit-vs-cursor-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-fbi-just-dropped-its-2025-internet-crime-rep-950ea18f-may28",
+        "category": "Product Updates",
+        "title": "The FBI just dropped its 2025 internet crime report. Here are 6 big takeaways",
+        "source": "Fast Company AI",
+        "summary": "Online crime complaints surpassed 1 million for the first time last year, driven by a spike in AI-enabled fraud, crypto scams, and phishing attacks.",
+        "href": "https://www.fastcompany.com/91549214/fbi-2025-internet-crime-report-6-takeaways?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=05282026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91549214-fbi-issues-internet-crime-report-for-2025-here-are-6-key-takeawaysby-chris-morris.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "tech-can-radically-improve-government-8b19818b-may28",
+        "category": "Product Updates",
+        "title": "Tech can radically improve government",
+        "source": "Fast Company AI",
+        "summary": "Social work has shown how adopting AI functionality can improve lives for foster children.",
+        "href": "https://www.fastcompany.com/91546363/tech-can-radically-improve-government?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=05282026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/INC-Masters-Fast-Company-publishing-2026-05-21T103943.565.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "debt-collectors-are-being-replaced-with-ai-agent-0ff18bb9-may28",
+        "category": "Agents",
+        "title": "Debt Collectors Are Being Replaced With AI Agents",
+        "source": "Futurism AI",
+        "summary": "\"Would you like to resolve it today by card or bank transfer?\" The post Debt Collectors Are Being Replaced With AI Agents appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/debt-collectors-replaced-ai-agents",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/debt-collectors-replaced-ai-agents.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-s-mai-image-2-5-pulls-even-with-google-5d72cb9b-may28",
+        "category": "Developer Tools",
+        "title": "Microsoft's MAI-Image-2.5 pulls even with Google's Nano Banana 2 on benchmarks",
+        "source": "The Decoder",
+        "summary": "Microsoft's MAI-Image-2.5 ranks third on Arena's text-to-image leaderboard, on par with Google's Nano Banana 2 but still behind OpenAI's Image-2. The model shows clear gains over its predecessor, especially in rendering text inside images and commercial visua...",
+        "href": "https://the-decoder.com/microsofts-mai-image-2-5-pulls-even-with-googles-nano-banana-2-on-benchmarks/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/mai_25.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-ai-inhibits-our-curiosity-and-what-to-do-to-1ba5ea49-may28",
+        "category": "Developer Tools",
+        "title": "How AI inhibits our curiosity, and what to do to regain it, according to science",
+        "source": "Fast Company AI",
+        "summary": "When answers are instantly available, prepackaged, and delivered with confidence, the motivation to explore diminishes.",
+        "href": "https://www.fastcompany.com/91536344/how-ai-inhibits-our-curiosity-and-what-to-do-to-regain-it-according-to-science?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=05282026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-91536344-after-AI-how-do-we-regain-our-curiosity.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "girls-who-code-ceo-tarika-barrett-says-ai-skepti-f6fef642-may28",
+        "category": "Developer Tools",
+        "title": "Girls Who Code CEO Tarika Barrett says AI skepticism can be a strength",
+        "source": "Fast Company AI",
+        "summary": "The chief executive talks to Fast Company about the AI gender usage gap and student anxiety surrounding the tech.",
+        "href": "https://www.fastcompany.com/91546658/girls-who-code-ceo-tarika-barrett-says-ai-skepticism-can-be-a-strength?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=05282026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91546658-girls-who-code-ceo-tarika-barrett-says-ai-skepticism-can-be-a-strength.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-05-27",
     "label": "May 27, 2026",
     "items": [
