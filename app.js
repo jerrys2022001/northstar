@@ -435,16 +435,6 @@
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
-        "id": "profiling-in-pytorch-part-1-a-beginner-s-guide-t-357d064b-may31",
-        "category": "Developer Tools",
-        "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
-        "source": "Hugging Face Blog",
-        "summary": "Hugging Face Blog reported: Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
-        "href": "https://huggingface.co/blog/torch-profiler",
-        "imageUrl": "https://huggingface.co/blog/assets/torch-profiler/thumbnail.png",
-        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
-      },
-      {
         "id": "guardrails-protect-your-agents-data-and-costs-8e226c9c-may31",
         "category": "Developer Tools",
         "title": "Guardrails: Protect your Agents, Data, and Costs",
@@ -475,6 +465,16 @@
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
+        "id": "sovereign-ai-in-practice-automate-document-summa-81716fe5-may31",
+        "category": "Developer Tools",
+        "title": "Sovereign AI in practice: automate document summarization with IONOS AI Model Hub and Nextcloud",
+        "source": "n8n Blog",
+        "summary": "Automate document summarization on infrastructure that meets strict data residency requirements. A step-by-step n8n workflow using IONOS AI Model Hub and Nextcloud.",
+        "href": "https://blog.n8n.io/sovereign-ai-in-practice-automate-document-summarization-with-ionos-ai-model-hub-and-nextcloud/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/05/BlogHeader_Node-Spotlight_IONOS.jpg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
         "id": "woman-alarmed-when-her-trusted-therapist-starts-fbe966af-may31",
         "category": "Product Updates",
         "title": "Woman Alarmed When Her Trusted Therapist Starts Recording Her With AI",
@@ -482,6 +482,16 @@
         "summary": "\"I felt completely violated.\" The post Woman Alarmed When Her Trusted Therapist Starts Recording Her With AI appeared first on Futurism .",
         "href": "https://futurism.com/artificial-intelligence/woman-alarmed-therapist-recording-ai",
         "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/woman-alarmed-therapist-recording-ai.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "was-this-the-moment-that-ai-psychosis-began-d57e0a6b-may31",
+        "category": "Product Updates",
+        "title": "Was This the Moment That AI Psychosis Began?",
+        "source": "Futurism AI",
+        "summary": "One event seems to have kicked off a wave of AI psychosis: memory that persists across chat sessions, letting the bot weave tapestries of delusions about users' lives. The post Was This the Moment That AI Psychosis Began? appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/chatgpt-memory-ai-psychosis",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/chatgpt-memory-ai-psychosis.jpg?quality=85",
         "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
       },
       {
@@ -493,6 +503,16 @@
         "href": "https://futurism.com/artificial-intelligence/tech-ceos-problem-ai-laziness",
         "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/tech-ceos-problem-ai-laziness.jpg?quality=85",
         "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meta-is-rumored-to-be-working-on-an-ai-pendant-a-80022ae2-may31",
+        "category": "Product Updates",
+        "title": "Meta is rumored to be working on an AI pendant, and smart glasses different to what we've seen before",
+        "source": "TechRadar Software",
+        "summary": "We've got a couple of Meta hardware rumors to sort through, and AI is of course central to them.",
+        "href": "https://www.techradar.com/computing/virtual-reality-augmented-reality/meta-is-rumored-to-be-working-on-an-ai-pendant-and-smart-glasses-different-to-what-weve-seen-before",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/mSh9maSJhVqYPyPtv3UvZB-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
       },
       {
         "id": "do-you-actually-need-to-pay-for-transcription-so-a5735fe4-may31",
@@ -525,6 +545,16 @@
         "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
       },
       {
+        "id": "ai-company-paying-random-people-2-000-per-month-e8fd29fa-may31",
+        "category": "Product Updates",
+        "title": "AI Company Paying Random People $2,000 Per Month to Crank the Hog",
+        "source": "Futurism AI",
+        "summary": "\"Time to go pro.\" The post AI Company Paying Random People $2,000 Per Month to Crank the Hog appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ai-company-cranking-hog",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/ai-company-cranking-hog.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
         "id": "making-ai-chatbots-helpful-weakens-their-ability-134b34ec-may31",
         "category": "Developer Tools",
         "title": "Making AI chatbots helpful weakens their ability to simulate human behavior, large-scale study finds",
@@ -532,6 +562,36 @@
         "summary": "A large-scale study covering 208,000 participants and 26 million responses shows that the very training that turns language models into helpful chatbots weakens their ability to replicate human behavior. The effect gets worse with each new model generation. E...",
         "href": "https://the-decoder.com/making-ai-chatbots-helpful-weakens-their-ability-to-simulate-human-behavior-large-scale-study-finds/",
         "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/AI-Chatbots-Less-Human-Nano-Banana-Pro.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-study-finds-men-use-ai-coding-agents-m-abc3bb85-may31",
+        "category": "Developer Tools",
+        "title": "Anthropic study finds men use AI coding agents more than twice as often as women in social science research",
+        "source": "The Decoder",
+        "summary": "Researchers with typically male names use coding agents more than twice as often as those with typically female names, even within the same discipline and career level, according to an Anthropic study. Economists lead at 39 percent, while education researcher...",
+        "href": "https://the-decoder.com/anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-social-science-research/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/anthropic_logo_wall-1.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-bans-ai-tools-during-job-interviews-to-4a73de98-may31",
+        "category": "Developer Tools",
+        "title": "Anthropic bans AI tools during job interviews to see how candidates actually think",
+        "source": "The Decoder",
+        "summary": "Anthropic bans AI during job interviews and runs candidates through up to five rounds testing skills, values, and ethical thinking. Salaries go up to $850,000, and some applicants pay $4,600 for prep coaching run anonymously by current AI company employees. T...",
+        "href": "https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/anthropic_office_work.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-search-agents-often-confirm-what-they-already-728a051e-may31",
+        "category": "Developer Tools",
+        "title": "AI search agents often confirm what they already know instead of actually researching the web",
+        "source": "The Decoder",
+        "summary": "Leading AI search agents like GPT-5.4 and Kimi K2.6 don't appear to do much actual research on established benchmarks. They mostly just use the web to confirm what they already learned during training. Researchers at the Harbin Institute of Technology found t...",
+        "href": "https://the-decoder.com/ai-search-agents-often-confirm-what-they-already-know-instead-of-actually-researching-the-web/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/ai-search-doesnt-google-nano-banana-pro.jpg",
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
