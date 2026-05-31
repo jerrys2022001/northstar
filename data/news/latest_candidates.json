@@ -1,7 +1,7 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-05-31T13:58:17+00:00",
+  "updatedAt": "2026-05-31T14:00:54+00:00",
   "digestDate": "2026-05-31",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
@@ -491,7 +491,7 @@
       "summary": "Gemini has made voice control in my car fun and useful, and I'm still discovering new ways to use it.",
       "href": "https://www.zdnet.com/article/how-gemini-in-android-auto-is-changing-my-daily-drive/",
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/228e90c097c70f7e112337fb2b0bcda28ecab753/2026/05/29/3269ddda-65ca-4a13-9ce3-681b742a3eaa/pxl-20260529-144228712.jpg?auto=webp&fit=crop&height=675&width=1200",
       "publishedAt": "2026-05-29T15:26:51+00:00",
       "toolIds": [
         "gemini"
@@ -766,23 +766,6 @@
       "publishedAt": "2026-05-28T18:01:59+00:00",
       "toolIds": [
         "claude"
-      ]
-    },
-    {
-      "id": "claude-opus-4-8-is-now-available-on-aws-25f3aaa1-may31",
-      "date": "2026-05-31",
-      "dateLabel": "May 31, 2026",
-      "category": "Agents",
-      "title": "Claude Opus 4.8 is now available on AWS",
-      "source": "AWS Machine Learning",
-      "summary": "This post covers Opus 4.8's improvements and practical guidance for AI engineers integrating the model into agentic systems and production inference workloads on Amazon Bedrock.",
-      "href": "https://aws.amazon.com/blogs/machine-learning/claude-opus-4-8-is-now-available-on-aws/",
-      "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window.",
-      "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/28/21036.png",
-      "publishedAt": "2026-05-28T17:51:32+00:00",
-      "toolIds": [
-        "claude",
-        "opusclip"
       ]
     },
     {

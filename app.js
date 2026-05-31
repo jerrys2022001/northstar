@@ -381,7 +381,7 @@
         "source": "ZDNet AI",
         "summary": "Gemini has made voice control in my car fun and useful, and I'm still discovering new ways to use it.",
         "href": "https://www.zdnet.com/article/how-gemini-in-android-auto-is-changing-my-daily-drive/",
-        "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/228e90c097c70f7e112337fb2b0bcda28ecab753/2026/05/29/3269ddda-65ca-4a13-9ce3-681b742a3eaa/pxl-20260529-144228712.jpg?auto=webp&fit=crop&height=675&width=1200",
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
       },
       {
