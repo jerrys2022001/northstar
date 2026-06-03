@@ -371,6 +371,222 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-03",
+    "label": "June 3, 2026",
+    "items": [
+      {
+        "id": "this-easy-prompt-trick-gave-me-better-ai-generat-b680f7a0-jun03",
+        "category": "Model Releases",
+        "title": "This easy prompt trick gave me better AI-generated images - no matter the model",
+        "source": "ZDNet AI",
+        "summary": "Having trouble getting the right image out of ChatGPT, Gemini, or another AI tool? Try this foolproof prompt.",
+        "href": "https://www.zdnet.com/article/beginner-ai-image-prompt-tip-chatgpt-gemini/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/ef041e1d3833a7001794421517966d2ed65ccf11/2026/06/02/7f792f90-f900-44c3-9276-11da4f2f63bb/prompt-of-the-day-ai-image-generator.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-eases-gemini-usage-limits-after-complaint-888facdf-jun03",
+        "category": "Model Releases",
+        "title": "Google Eases Gemini Usage Limits After Complaints",
+        "source": "TechRepublic AI",
+        "summary": "Google adjusted Gemini usage limits after complaints, adding Pro quota caps, free Flash-Lite prompts, and clearer usage reporting. The post Google Eases Gemini Usage Limits After Complaints appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/news-google-gemini-usage-limits-complaints/",
+        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-s-codex-update-lets-agents-build-interact-9c322a41-jun03",
+        "category": "Developer Tools",
+        "title": "OpenAI's Codex update lets agents build interactive enterprise workspaces via Sites and role-specific plugins",
+        "source": "VentureBeat",
+        "summary": "Agentic AI is moving rapidly from the developer terminal to the corporate world. On Tuesday, OpenAI announced a major update of its agentic AI platform Codex, introducing domain-specific workflows, a rapid, semi-private web hosting feature within it for enter...",
+        "href": "https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/2TEj8wOuqSrOfRJ3k5WZTg/fc481e92f1a3b9b2421e12757fef8532/ChatGPT_Image_Jun_2__2026__11_52_04_AM.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "fake-claude-code-installers-deliver-credential-s-1b1bbae5-jun03",
+        "category": "Developer Tools",
+        "title": "Fake Claude Code Installers Deliver Credential-Stealing Malware",
+        "source": "TechRepublic AI",
+        "summary": "Fake Claude Code install sites are pushing malware that steals API keys, developer credentials, crypto wallets, and other sensitive data. The post Fake Claude Code Installers Deliver Credential-Stealing Malware appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/news-fake-claude-code-install-sites-malware/",
+        "imageUrl": "assets/news/superhuman-claude-mythos.png",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-scales-project-glasswing-to-150-partne-35c194ec-jun03",
+        "category": "Developer Tools",
+        "title": "Anthropic scales Project Glasswing to 150 partners across 15 countries to hunt critical software flaws",
+        "source": "The Decoder",
+        "summary": "Anthropic is scaling up Project Glasswing with 150 new partners across more than 15 countries, all using Claude Mythos Preview to scan critical infrastructure for security flaws. Partners already on board have found over 10,000 serious vulnerabilities. At the...",
+        "href": "https://the-decoder.com/anthropic-scales-project-glasswing-to-150-partners-across-15-countries-to-hunt-critical-software-flaws/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/glasswing_mythos_cybersecurity_anthropic-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "github-copilot-app-the-agent-native-desktop-expe-85f2e70c-jun03",
+        "category": "Developer Tools",
+        "title": "GitHub Copilot app: The agent-native desktop experience",
+        "source": "GitHub Blog",
+        "summary": "At Microsoft Build 2026, GitHub introduced new tools, updates, and surfaces so agents can work the way you already work. The post GitHub Copilot app: The agent-native desktop experience appeared first on The GitHub Blog .",
+        "href": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/06/MSFTBuild_Blog_Header_01.jpg",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-costs-how-much-github-copilot-users-react-to-88d629fd-jun03",
+        "category": "Developer Tools",
+        "title": "AI costs how much? GitHub Copilot users react to new usage-based pricing system.",
+        "source": "Ars Technica",
+        "summary": "Some report burning through their whole monthly \"AI credit\" allotment in a single day.",
+        "href": "https://arstechnica.com/ai/2026/06/ai-costs-how-much-github-copilot-users-react-to-new-usage-based-pricing-system/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2254059922-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "introducing-mellum2-a-12b-mixture-of-experts-mod-2995ca1c-jun03",
+        "category": "Model Releases",
+        "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+        "href": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/60ef2a438432bc401cd0abbe/tFjSaWUOM_pVsgKjHrAHt.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "beyond-llms-why-scalable-enterprise-ai-adoption-65ae950e-jun03",
+        "category": "Agents",
+        "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+        "href": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/65b12ed52be9660f0b7e5f72/mu_IH3lDD1qGRQZptFmPP.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "on-premise-vs-cloud-which-setup-works-best-91e76c29-jun03",
+        "category": "Model Releases",
+        "title": "On-premise vs. cloud: Which setup works best?",
+        "source": "Zapier Blog",
+        "summary": "The on-premise vs. cloud debate is actually pretty simple: do you want to manage infrastructure yourself? Or are you comfortable with outsourcing? On premise means running software and systems in your environment; cloud, by contrast, means using the tools and...",
+        "href": "https://zapier.com/blog/on-premise-vs-cloud",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/6eTCQiVWG0HHIL2uIyw4CV/175e9ebe658db89c741f4c37eb9c02a0/cloud-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-debug-failures-or-missteps-in-ai-agent-be-3b420027-jun03",
+        "category": "Agents",
+        "title": "How to debug failures or missteps in AI agent behavior?",
+        "source": "n8n Blog",
+        "summary": "AI agents often hallucinate without generating errors. Learn to debug agents by filtering execution logs, inspecting traces and tweaking LLM parameters.",
+        "href": "https://blog.n8n.io/how-to-debug-failures-or-missteps-in-ai-agent-behavior/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/06/BlogHeader_How-to-debug-failures-or-missteps-in-AI-agent-behavior--1-.jpg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "legacy-application-modernization-future-proof-yo-b449a1f0-jun03",
+        "category": "Agents",
+        "title": "Legacy application modernization: Future-proof your tech stack",
+        "source": "Zapier Blog",
+        "summary": "A recent survey by Zapier revealed that 78% of enterprises struggle to integrate AI with their legacy systems. The gap between \"we know we need to modernize\" and \"we're not sure where to start\" is very real. One of the easiest lifts is with legacy application...",
+        "href": "https://zapier.com/blog/legacy-application-modernization",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/Y39WpMdXWhTbBmTaLmQ8r/84b10c4dd432079b010d37fafaef88f1/computer-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ubuntu-26-04-is-the-os-for-the-ai-agentic-era-sa-43ffc0f2-jun03",
+        "category": "Agents",
+        "title": "Ubuntu 26.04 is the OS for the AI agentic era, says Canonical's Mark Shuttleworth - here's why",
+        "source": "ZDNet AI",
+        "summary": "Canonical's pitch starts with snaps and security.",
+        "href": "https://www.zdnet.com/article/ubuntu-26-04-is-os-for-ai-agentic-era-says-canonical-mark-shuttleworth-why/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/d7c59b5b409d6d5bb554413625e6725c1eb0ef7e/2026/06/02/a04b178f-df12-42d4-b7db-73c5f767d08a/canonicals-mark-shuttleworth-recasts-ubuntu-as-the-linux-for-agentic-ai.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "film-community-aghast-as-martin-scorsese-extolls-395d01dc-jun03",
+        "category": "Product Updates",
+        "title": "Film Community Aghast as Martin Scorsese Extolls AI Startup, Says He Now Uses AI for Storyboards",
+        "source": "Futurism AI",
+        "summary": "\"Cannot stress enough how disappointing it is that Martin Scorsese is collaborating with an AI company and putting a stain on his name so late in his life and career.\" The post Film Community Aghast as Martin Scorsese Extolls AI Startup, Says He Now Uses AI f...",
+        "href": "https://futurism.com/artificial-intelligence/film-community-aghast-as-martin-scorsese-extolls-ai-startup",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/film-community-aghast-as-martin-scorsese-extolls-ai-startup.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "building-the-infrastructure-for-the-intelligence-dadd123d-jun03",
+        "category": "Product Updates",
+        "title": "Building the infrastructure for the Intelligence Age in Michigan",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+        "href": "https://openai.com/index/stargate-michigan-data-center",
+        "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-gentle-primer-on-llm-explainability-4317051c-jun03",
+        "category": "Model Releases",
+        "title": "A Gentle Primer on LLM Explainability",
+        "source": "KDnuggets",
+        "summary": "This article discusses LLM explainability and outlines the advances, trends, and ongoing developments in this important field of study.",
+        "href": "https://www.kdnuggets.com/a-gentle-primer-on-llm-explainability",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-a-gentle-primer-on-llm-explainability.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "now-you-gotta-buy-a-second-computer-just-for-you-2b8351a6-jun03",
+        "category": "Agents",
+        "title": "Now You Gotta Buy a Second Computer Just for Your AI Agent, Nvidia Declares",
+        "source": "Futurism AI",
+        "summary": "Nvidia says it's \"reinventing the personal computer.\" The post Now You Gotta Buy a Second Computer Just for Your AI Agent, Nvidia Declares appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/second-computer-ai-agent-nvidia-declares",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/second-computer-ai-agent-nvidia-declares.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "trump-signs-executive-order-seeking-early-access-dbb26570-jun03",
+        "category": "Developer Tools",
+        "title": "Trump signs executive order seeking early access to new AI releases",
+        "source": "The Guardian AI",
+        "summary": "Under new rules, tech companies will be asked to share AI models with government for review before public release Donald Trump signed an executive order to create a voluntary framework for the federal government to vet powerful new AI models before they are r...",
+        "href": "https://www.theguardian.com/us-news/2026/jun/02/trump-executive-order-ai-voluntary-review",
+        "imageUrl": "https://i.guim.co.uk/img/media/c5cba33af1567905ced9113cb0b1db454b271b04/287_0_3334_2667/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=36aa842ef8d8f07b4858f8f826a21968",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-dating-apps-that-failed-to-deliver-the-joys-417a2127-jun03",
+        "category": "Developer Tools",
+        "title": "The dating apps that failed to deliver the joys of sex and romance now offer AI as cupid. No thanks | Tatum Hunter",
+        "source": "The Guardian AI",
+        "summary": "Endless swiping has left a generation of singles burned out. But get real: dating assistants and AI-aided chats will never recreate the friction of real romance After years of shrinking usage and tumbling stock prices, the dating app Bumble is teasing a major...",
+        "href": "https://www.theguardian.com/commentisfree/2026/jun/01/dating-apps-failed-sex-romance-ai-cupid-swiping-bumble",
+        "imageUrl": "https://i.guim.co.uk/img/media/a0eb5b7fc919dc090019f5f088aae1323266e95a/625_0_3164_2532/master/3164.jpg?width=140&quality=85&auto=format&fit=max&s=f4d6cd01c54a545bad3288c774ac63b9",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-will-ai-sycophancy-change-us-early-signs-are-e2a251e8-jun03",
+        "category": "Developer Tools",
+        "title": "How will AI sycophancy change us? Early signs are not encouraging | Arwa Mahdawi",
+        "source": "The Guardian AI",
+        "summary": "Constant validation and flattery from AI chatbots poses a serious risk to society and our shared grasp of reality Do you ever get the feeling that the people running the world are delulu? That the 1% are living in a completely different universe from the rest...",
+        "href": "https://www.theguardian.com/commentisfree/2026/jun/02/ai-sycophancy-risk-to-society-grasp-reality",
+        "imageUrl": "https://i.guim.co.uk/img/media/38a58bf68e53d2951168112840917ac0b076078a/452_0_5020_4016/master/5020.jpg?width=140&quality=85&auto=format&fit=max&s=e04b63637744ba9ebfda65580cbcd692",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "10-github-repositories-for-modern-database-syste-1dc03b95-jun03",
+        "category": "Developer Tools",
+        "title": "10 GitHub Repositories for Modern Database Systems and Tools",
+        "source": "KDnuggets",
+        "summary": "Explore 10 top open-source GitHub repositories for modern databases, analytics, SQL, caching, monitoring, replication, PostgreSQL, SQLite, and AI agent memory.",
+        "href": "https://www.kdnuggets.com/10-github-repositories-for-modern-database-systems-and-tools",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/awan_10_github_repositories_modern_database_systems_tools_1.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-02",
     "label": "June 2, 2026",
     "items": [

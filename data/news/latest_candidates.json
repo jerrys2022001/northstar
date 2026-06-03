@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-06-02T01:09:03+00:00",
-  "digestDate": "2026-06-02",
+  "updatedAt": "2026-06-03T00:47:20+00:00",
+  "digestDate": "2026-06-03",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-05-30T09:06:39+08:00",
-  "windowEnd": "2026-06-02T09:06:39+08:00",
+  "windowStart": "2026-05-31T08:45:11+08:00",
+  "windowEnd": "2026-06-03T08:45:11+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -248,25 +248,316 @@
   ],
   "items": [
     {
-      "id": "florida-sues-openai-sam-altman-in-first-of-its-k-8dc8d875-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "film-community-aghast-as-martin-scorsese-extolls-395d01dc-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Product Updates",
+      "title": "Film Community Aghast as Martin Scorsese Extolls AI Startup, Says He Now Uses AI for Storyboards",
+      "source": "Futurism AI",
+      "summary": "\"Cannot stress enough how disappointing it is that Martin Scorsese is collaborating with an AI company and putting a stain on his name so late in his life and career.\" The post Film Community Aghast as Martin Scorsese Extolls AI Startup, Says He Now Uses AI f...",
+      "href": "https://futurism.com/artificial-intelligence/film-community-aghast-as-martin-scorsese-extolls-ai-startup",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/film-community-aghast-as-martin-scorsese-extolls-ai-startup.jpg?quality=85",
+      "publishedAt": "2026-06-02T21:04:16+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "github-copilot-app-the-agent-native-desktop-expe-85f2e70c-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Developer Tools",
-      "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
-      "source": "TechCrunch",
-      "summary": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident.",
-      "href": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
-      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273245180.jpg?resize=1200,800",
-      "publishedAt": "2026-06-01T20:03:40+00:00",
+      "title": "GitHub Copilot app: The agent-native desktop experience",
+      "source": "GitHub Blog",
+      "summary": "At Microsoft Build 2026, GitHub introduced new tools, updates, and surfaces so agents can work the way you already work. The post GitHub Copilot app: The agent-native desktop experience appeared first on The GitHub Blog .",
+      "href": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+      "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://github.blog/wp-content/uploads/2026/06/MSFTBuild_Blog_Header_01.jpg",
+      "publishedAt": "2026-06-02T17:30:03+00:00",
+      "toolIds": [
+        "githubcopilot"
+      ]
+    },
+    {
+      "id": "trump-signs-executive-order-seeking-early-access-dbb26570-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Developer Tools",
+      "title": "Trump signs executive order seeking early access to new AI releases",
+      "source": "The Guardian AI",
+      "summary": "Under new rules, tech companies will be asked to share AI models with government for review before public release Donald Trump signed an executive order to create a voluntary framework for the federal government to vet powerful new AI models before they are r...",
+      "href": "https://www.theguardian.com/us-news/2026/jun/02/trump-executive-order-ai-voluntary-review",
+      "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://i.guim.co.uk/img/media/c5cba33af1567905ced9113cb0b1db454b271b04/287_0_3334_2667/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=36aa842ef8d8f07b4858f8f826a21968",
+      "publishedAt": "2026-06-02T17:23:26+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "anthropic-scales-project-glasswing-to-150-partne-35c194ec-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Developer Tools",
+      "title": "Anthropic scales Project Glasswing to 150 partners across 15 countries to hunt critical software flaws",
+      "source": "The Decoder",
+      "summary": "Anthropic is scaling up Project Glasswing with 150 new partners across more than 15 countries, all using Claude Mythos Preview to scan critical infrastructure for security flaws. Partners already on board have found over 10,000 serious vulnerabilities. At the...",
+      "href": "https://the-decoder.com/anthropic-scales-project-glasswing-to-150-partners-across-15-countries-to-hunt-critical-software-flaws/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/glasswing_mythos_cybersecurity_anthropic-2.png",
+      "publishedAt": "2026-06-02T16:29:42+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "fake-claude-code-installers-deliver-credential-s-1b1bbae5-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Developer Tools",
+      "title": "Fake Claude Code Installers Deliver Credential-Stealing Malware",
+      "source": "TechRepublic AI",
+      "summary": "Fake Claude Code install sites are pushing malware that steals API keys, developer credentials, crypto wallets, and other sensitive data. The post Fake Claude Code Installers Deliver Credential-Stealing Malware appeared first on TechRepublic .",
+      "href": "https://www.techrepublic.com/article/news-fake-claude-code-install-sites-malware/",
+      "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/superhuman-claude-mythos.png",
+      "publishedAt": "2026-06-02T16:29:34+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "openai-s-codex-update-lets-agents-build-interact-9c322a41-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI's Codex update lets agents build interactive enterprise workspaces via Sites and role-specific plugins",
+      "source": "VentureBeat",
+      "summary": "Agentic AI is moving rapidly from the developer terminal to the corporate world. On Tuesday, OpenAI announced a major update of its agentic AI platform Codex, introducing domain-specific workflows, a rapid, semi-private web hosting feature within it for enter...",
+      "href": "https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins",
+      "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/2TEj8wOuqSrOfRJ3k5WZTg/fc481e92f1a3b9b2421e12757fef8532/ChatGPT_Image_Jun_2__2026__11_52_04_AM.png?w=300&q=30",
+      "publishedAt": "2026-06-02T16:00:00+00:00",
       "toolIds": [
         "chatgpt"
       ]
     },
     {
-      "id": "anthropic-now-atop-the-ai-bubble-files-for-its-i-85d82567-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "now-you-gotta-buy-a-second-computer-just-for-you-2b8351a6-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Agents",
+      "title": "Now You Gotta Buy a Second Computer Just for Your AI Agent, Nvidia Declares",
+      "source": "Futurism AI",
+      "summary": "Nvidia says it's \"reinventing the personal computer.\" The post Now You Gotta Buy a Second Computer Just for Your AI Agent, Nvidia Declares appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/second-computer-ai-agent-nvidia-declares",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/second-computer-ai-agent-nvidia-declares.jpg?quality=85",
+      "publishedAt": "2026-06-02T15:43:21+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "ubuntu-26-04-is-the-os-for-the-ai-agentic-era-sa-43ffc0f2-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Agents",
+      "title": "Ubuntu 26.04 is the OS for the AI agentic era, says Canonical's Mark Shuttleworth - here's why",
+      "source": "ZDNet AI",
+      "summary": "Canonical's pitch starts with snaps and security.",
+      "href": "https://www.zdnet.com/article/ubuntu-26-04-is-os-for-ai-agentic-era-says-canonical-mark-shuttleworth-why/",
+      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/d7c59b5b409d6d5bb554413625e6725c1eb0ef7e/2026/06/02/a04b178f-df12-42d4-b7db-73c5f767d08a/canonicals-mark-shuttleworth-recasts-ubuntu-as-the-linux-for-agentic-ai.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2026-06-02T14:07:00+00:00",
+      "toolIds": [
+        "pitch"
+      ]
+    },
+    {
+      "id": "a-gentle-primer-on-llm-explainability-4317051c-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Model Releases",
+      "title": "A Gentle Primer on LLM Explainability",
+      "source": "KDnuggets",
+      "summary": "This article discusses LLM explainability and outlines the advances, trends, and ongoing developments in this important field of study.",
+      "href": "https://www.kdnuggets.com/a-gentle-primer-on-llm-explainability",
+      "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-a-gentle-primer-on-llm-explainability.png",
+      "publishedAt": "2026-06-02T14:00:18+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "i-set-10-honesty-traps-for-claude-opus-4-8-and-a-84915be2-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Developer Tools",
+      "title": "I set 10 honesty traps for Claude Opus 4.8 - and a legal test broke it",
+      "source": "ZDNet AI",
+      "summary": "I tested Opus 4.8 against 4.7 using coding, medical, finance, and legal traps, then cross-checked the results with multiple AIs.",
+      "href": "https://www.zdnet.com/article/claude-opus-4-8-honesty-test/",
+      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/334aeb0e4f4647986939c564b1e57353e601fa14/2026/06/02/8a500ca6-09a2-465f-b3ef-ec44241aa74d/img-9749.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2026-06-02T12:41:00+00:00",
+      "toolIds": [
+        "claude",
+        "opusclip"
+      ]
+    },
+    {
+      "id": "10-github-repositories-for-modern-database-syste-1dc03b95-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Developer Tools",
+      "title": "10 GitHub Repositories for Modern Database Systems and Tools",
+      "source": "KDnuggets",
+      "summary": "Explore 10 top open-source GitHub repositories for modern databases, analytics, SQL, caching, monitoring, replication, PostgreSQL, SQLite, and AI agent memory.",
+      "href": "https://www.kdnuggets.com/10-github-repositories-for-modern-database-systems-and-tools",
+      "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/awan_10_github_repositories_modern_database_systems_tools_1.png",
+      "publishedAt": "2026-06-02T12:00:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "this-easy-prompt-trick-gave-me-better-ai-generat-b680f7a0-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Model Releases",
+      "title": "This easy prompt trick gave me better AI-generated images - no matter the model",
+      "source": "ZDNet AI",
+      "summary": "Having trouble getting the right image out of ChatGPT, Gemini, or another AI tool? Try this foolproof prompt.",
+      "href": "https://www.zdnet.com/article/beginner-ai-image-prompt-tip-chatgpt-gemini/",
+      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/ef041e1d3833a7001794421517966d2ed65ccf11/2026/06/02/7f792f90-f900-44c3-9276-11da4f2f63bb/prompt-of-the-day-ai-image-generator.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2026-06-02T12:00:00+00:00",
+      "toolIds": [
+        "chatgpt",
+        "gemini"
+      ]
+    },
+    {
+      "id": "how-will-ai-sycophancy-change-us-early-signs-are-e2a251e8-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Developer Tools",
+      "title": "How will AI sycophancy change us? Early signs are not encouraging | Arwa Mahdawi",
+      "source": "The Guardian AI",
+      "summary": "Constant validation and flattery from AI chatbots poses a serious risk to society and our shared grasp of reality Do you ever get the feeling that the people running the world are delulu? That the 1% are living in a completely different universe from the rest...",
+      "href": "https://www.theguardian.com/commentisfree/2026/jun/02/ai-sycophancy-risk-to-society-grasp-reality",
+      "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://i.guim.co.uk/img/media/38a58bf68e53d2951168112840917ac0b076078a/452_0_5020_4016/master/5020.jpg?width=140&quality=85&auto=format&fit=max&s=e04b63637744ba9ebfda65580cbcd692",
+      "publishedAt": "2026-06-02T11:10:16+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "how-to-debug-failures-or-missteps-in-ai-agent-be-3b420027-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Agents",
+      "title": "How to debug failures or missteps in AI agent behavior?",
+      "source": "n8n Blog",
+      "summary": "AI agents often hallucinate without generating errors. Learn to debug agents by filtering execution logs, inspecting traces and tweaking LLM parameters.",
+      "href": "https://blog.n8n.io/how-to-debug-failures-or-missteps-in-ai-agent-behavior/",
+      "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/06/BlogHeader_How-to-debug-failures-or-missteps-in-AI-agent-behavior--1-.jpg",
+      "publishedAt": "2026-06-02T10:57:53+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "openai-turns-chatgpt-into-a-career-platform-with-0d3f9aa4-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI turns ChatGPT into a career platform with job search and CV editor",
+      "source": "The Decoder",
+      "summary": "OpenAI turns ChatGPT into a career tool: A new job search feature surfaces personalized listings from Indeed, Upwork, and Appcast, initially US-only. Resumes can also be created directly in ChatGPT and tailored to specific roles. The article OpenAI turns Chat...",
+      "href": "https://the-decoder.com/openai-turns-chatgpt-into-a-career-platform-with-job-search-and-cv-editor/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/openai_chatgpt_colors.png",
+      "publishedAt": "2026-06-02T10:40:22+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "openai-models-now-available-on-amazon-web-servic-2bb9f3d3-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI models now available on Amazon Web Services",
+      "source": "The Decoder",
+      "summary": "OpenAI is making GPT-5.5, GPT-5.4, and Codex available through Amazon Bedrock at the same prices as OpenAI's own platform. The models run in commercial and government AWS regions but are limited to the US for now. Usage counts toward existing AWS contracts. T...",
+      "href": "https://the-decoder.com/openai-models-now-available-on-amazon-web-services/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/aws-open-ai-amazon-news-jp-042426.jpeg",
+      "publishedAt": "2026-06-02T08:00:26+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "on-premise-vs-cloud-which-setup-works-best-91e76c29-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Model Releases",
+      "title": "On-premise vs. cloud: Which setup works best?",
+      "source": "Zapier Blog",
+      "summary": "The on-premise vs. cloud debate is actually pretty simple: do you want to manage infrastructure yourself? Or are you comfortable with outsourcing? On premise means running software and systems in your environment; cloud, by contrast, means using the tools and...",
+      "href": "https://zapier.com/blog/on-premise-vs-cloud",
+      "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/6eTCQiVWG0HHIL2uIyw4CV/175e9ebe658db89c741f4c37eb9c02a0/cloud-hero.jpg",
+      "publishedAt": "2026-06-02T04:00:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "lindy-pricing-and-plans-for-2026-8db26f44-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Product Updates",
+      "title": "Lindy pricing and plans for 2026",
+      "source": "Zapier Blog",
+      "summary": "As a small business owner running multiple newsletters, I'm always hunting for ways to claw back a few hours. So my ears perked up when I first heard Lindy AI's pitch that it could save me up to ten hours a week. Of course, I had questions: namely, how much d...",
+      "href": "https://zapier.com/blog/lindy-pricing",
+      "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/2HcOjuiIYdiVHFe4krxreb/8b2d6deedeb318dea2a9429fd73d36c9/lindy-hero.jpg",
+      "publishedAt": "2026-06-02T04:00:00+00:00",
+      "toolIds": [
+        "lindy",
+        "pitch"
+      ]
+    },
+    {
+      "id": "legacy-application-modernization-future-proof-yo-b449a1f0-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Agents",
+      "title": "Legacy application modernization: Future-proof your tech stack",
+      "source": "Zapier Blog",
+      "summary": "A recent survey by Zapier revealed that 78% of enterprises struggle to integrate AI with their legacy systems. The gap between \"we know we need to modernize\" and \"we're not sure where to start\" is very real. One of the easiest lifts is with legacy application...",
+      "href": "https://zapier.com/blog/legacy-application-modernization",
+      "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/Y39WpMdXWhTbBmTaLmQ8r/84b10c4dd432079b010d37fafaef88f1/computer-hero.jpg",
+      "publishedAt": "2026-06-02T04:00:00+00:00",
+      "toolIds": [
+        "zapier"
+      ]
+    },
+    {
+      "id": "ai-costs-how-much-github-copilot-users-react-to-88d629fd-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Developer Tools",
+      "title": "AI costs how much? GitHub Copilot users react to new usage-based pricing system.",
+      "source": "Ars Technica",
+      "summary": "Some report burning through their whole monthly \"AI credit\" allotment in a single day.",
+      "href": "https://arstechnica.com/ai/2026/06/ai-costs-how-much-github-copilot-users-react-to-new-usage-based-pricing-system/",
+      "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2254059922-1152x648.jpg",
+      "publishedAt": "2026-06-01T22:18:09+00:00",
+      "toolIds": [
+        "githubcopilot"
+      ]
+    },
+    {
+      "id": "anthropic-now-atop-the-ai-bubble-files-for-its-i-85d82567-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Funding",
       "title": "Anthropic, now atop the AI bubble, files for its IPO",
       "source": "The Register AI",
@@ -281,23 +572,23 @@
       ]
     },
     {
-      "id": "use-ai-to-augment-design-not-replace-it-6593a0c0-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "use-ai-to-augment-design-not-replace-it-e2d8ac0f-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Agents",
       "title": "Use AI to augment design, not replace it",
       "source": "Fast Company AI",
       "summary": "The growing push toward full automation is a mistake.",
-      "href": "https://www.fastcompany.com/91551054/use-ai-to-augment-design-not-replace-it?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=06022026",
+      "href": "https://www.fastcompany.com/91551054/use-ai-to-augment-design-not-replace-it?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=7&partner=newsletter&campaign_date=06032026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/INC-Masters-Fast-Company-publishing-2026-05-29T132006.613.png",
       "publishedAt": "2026-06-01T18:02:00+00:00",
       "toolIds": []
     },
     {
-      "id": "claude-maker-anthropic-files-for-ipo-with-the-se-4832c378-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "claude-maker-anthropic-files-for-ipo-with-the-se-4832c378-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Developer Tools",
       "title": "Claude maker Anthropic files for IPO with the SEC",
       "source": "The Decoder",
@@ -312,9 +603,9 @@
       ]
     },
     {
-      "id": "claude-code-adds-dynamic-workflows-for-parallel-dd52e09c-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "claude-code-adds-dynamic-workflows-for-parallel-dd52e09c-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Developer Tools",
       "title": "Claude Code Adds Dynamic Workflows for Parallel Agent Coordination",
       "source": "InfoQ AI",
@@ -328,9 +619,9 @@
       ]
     },
     {
-      "id": "unfortunate-company-accidentally-blows-half-a-bi-f406b7f8-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "unfortunate-company-accidentally-blows-half-a-bi-f406b7f8-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Developer Tools",
       "title": "Unfortunate Company Accidentally Blows Half a Billion Dollars on Claude in One Month",
       "source": "Futurism AI",
@@ -344,42 +635,9 @@
       ]
     },
     {
-      "id": "anthropic-files-to-go-public-14ca8e9e-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Developer Tools",
-      "title": "Anthropic files to go public",
-      "source": "TechCrunch",
-      "summary": "Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the emerging world of large language models.",
-      "href": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
-      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2261854833.jpg?resize=1200,800",
-      "publishedAt": "2026-06-01T16:36:55+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "minimax-m3-debuts-eclipsing-gpt-5-5-and-gemini-3-96815321-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Developer Tools",
-      "title": "MiniMax-M3 debuts, eclipsing GPT-5.5 and Gemini 3.1 Pro on key benchmark performance for just 5-10% of the cost",
-      "source": "VentureBeat",
-      "summary": "Big news in enterprise AI broke over the weekend as Chinese AI startup MiniMax released its highly anticipated M3 large language model on Sunday evening Eastern time, pairing frontier-tier coding and agentic performance with a 1-million-token context window a...",
-      "href": "https://venturebeat.com/technology/minimax-m3-debuts-eclipsing-gpt-5-5-and-gemini-3-1-pro-on-key-benchmark-performance-for-just-5-10-of-the-cost",
-      "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/2xknlPWQng1dFd9Hs24w6L/f35f7459068592467a35e04819c87a59/ChatGPT_Image_Jun_1__2026__11_28_15_AM.png?w=300&q=30",
-      "publishedAt": "2026-06-01T16:10:05+00:00",
-      "toolIds": [
-        "chatgpt",
-        "gemini"
-      ]
-    },
-    {
-      "id": "how-we-used-gemini-to-build-google-i-o-2026-4e436077-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "how-we-used-gemini-to-build-google-i-o-2026-4e436077-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Model Releases",
       "title": "How we used Gemini to build Google I/O 2026",
       "source": "Google AI Blog",
@@ -393,30 +651,78 @@
       ]
     },
     {
-      "id": "ai-made-building-easy-f6b2da97-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "introducing-mellum2-a-12b-mixture-of-experts-mod-2995ca1c-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Model Releases",
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "source": "Hugging Face Blog",
+      "summary": "Hugging Face Blog reported: Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "href": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/60ef2a438432bc401cd0abbe/tFjSaWUOM_pVsgKjHrAHt.png",
+      "publishedAt": "2026-06-01T15:45:17+00:00",
+      "toolIds": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "ai-made-building-easy-3d11c2d4-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Developer Tools",
       "title": "AI made building easy",
       "source": "Fast Company AI",
       "summary": "Coherence decides what survives.",
-      "href": "https://www.fastcompany.com/91551331/ai-made-building-easy?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=06022026",
+      "href": "https://www.fastcompany.com/91551331/ai-made-building-easy?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=9&partner=newsletter&campaign_date=06032026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/INC-Masters-Fast-Company-publishing-2026-05-29T163610.949.png",
       "publishedAt": "2026-06-01T14:37:00+00:00",
       "toolIds": []
     },
     {
-      "id": "major-ai-models-consistently-break-eu-regulation-0a3d8048-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "beyond-llms-why-scalable-enterprise-ai-adoption-65ae950e-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Agents",
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "source": "Hugging Face Blog",
+      "summary": "Hugging Face Blog reported: Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "href": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/65b12ed52be9660f0b7e5f72/mu_IH3lDD1qGRQZptFmPP.png",
+      "publishedAt": "2026-06-01T13:51:18+00:00",
+      "toolIds": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "building-the-infrastructure-for-the-intelligence-dadd123d-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Product Updates",
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+      "href": "https://openai.com/index/stargate-michigan-data-center",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+      "publishedAt": "2026-06-01T12:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "major-ai-models-consistently-break-eu-regulation-0a3d8048-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Model Releases",
       "title": "Major AI Models Consistently Break EU Regulations, Study Shows",
       "source": "TechRepublic AI",
       "summary": "Major AI models from OpenAI, Anthropic, and Google routinely fail EU GDPR and AI Act compliance, a new study reveals. Discover the enterprise risks. The post Major AI Models Consistently Break EU Regulations, Study Shows appeared first on TechRepublic .",
       "href": "https://www.techrepublic.com/article/ai-models-break-eu-regulations-study-shows/",
       "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/perplexity-billion-build.png",
+      "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
       "publishedAt": "2026-06-01T09:10:45+00:00",
       "toolIds": [
         "chatgpt",
@@ -424,25 +730,55 @@
       ]
     },
     {
-      "id": "google-eases-gemini-usage-limits-after-complaint-888facdf-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "the-dating-apps-that-failed-to-deliver-the-joys-417a2127-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Developer Tools",
+      "title": "The dating apps that failed to deliver the joys of sex and romance now offer AI as cupid. No thanks | Tatum Hunter",
+      "source": "The Guardian AI",
+      "summary": "Endless swiping has left a generation of singles burned out. But get real: dating assistants and AI-aided chats will never recreate the friction of real romance After years of shrinking usage and tumbling stock prices, the dating app Bumble is teasing a major...",
+      "href": "https://www.theguardian.com/commentisfree/2026/jun/01/dating-apps-failed-sex-romance-ai-cupid-swiping-bumble",
+      "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://i.guim.co.uk/img/media/a0eb5b7fc919dc090019f5f088aae1323266e95a/625_0_3164_2532/master/3164.jpg?width=140&quality=85&auto=format&fit=max&s=f4d6cd01c54a545bad3288c774ac63b9",
+      "publishedAt": "2026-06-01T09:00:13+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "google-eases-gemini-usage-limits-after-complaint-888facdf-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Model Releases",
       "title": "Google Eases Gemini Usage Limits After Complaints",
       "source": "TechRepublic AI",
       "summary": "Google adjusted Gemini usage limits after complaints, adding Pro quota caps, free Flash-Lite prompts, and clearer usage reporting. The post Google Eases Gemini Usage Limits After Complaints appeared first on TechRepublic .",
       "href": "https://www.techrepublic.com/article/news-google-gemini-usage-limits-complaints/",
       "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-safety.svg",
+      "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
       "publishedAt": "2026-06-01T08:54:57+00:00",
       "toolIds": [
         "gemini"
       ]
     },
     {
-      "id": "parallax-a-parameterized-local-linear-attention-61c95022-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "welcome-nvidia-cosmos-3-the-first-open-omni-mode-7c8c63c4-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Model Releases",
+      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+      "source": "Hugging Face Blog",
+      "summary": "Hugging Face Blog reported: Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+      "href": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6799309995f2227228bc38f3/js_kXqJrfpYZd1hZvwPug.png",
+      "publishedAt": "2026-06-01T04:44:55+00:00",
+      "toolIds": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "parallax-a-parameterized-local-linear-attention-61c95022-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Product Updates",
       "title": "Parallax: A Parameterized Local Linear Attention That Keeps Softmax and Adds a Learned Covariance Correction Branch",
       "source": "MarkTechPost",
@@ -456,9 +792,9 @@
       ]
     },
     {
-      "id": "the-best-workflow-automation-tools-in-2026-924a1cbe-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "the-best-workflow-automation-tools-in-2026-924a1cbe-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Agents",
       "title": "The best workflow automation tools in 2026",
       "source": "Zapier Blog",
@@ -470,9 +806,9 @@
       "toolIds": []
     },
     {
-      "id": "the-9-best-process-mapping-tools-in-2026-466507ab-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "the-9-best-process-mapping-tools-in-2026-466507ab-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Agents",
       "title": "The 9 best process mapping tools in 2026",
       "source": "Zapier Blog",
@@ -484,9 +820,27 @@
       "toolIds": []
     },
     {
-      "id": "claude-vs-chatgpt-which-is-best-2026-a1a0d0f6-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "may-release-spotlight-acebc87a-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
+      "category": "Model Releases",
+      "title": "May Release Spotlight",
+      "source": "OpenRouter Announcements",
+      "summary": "Speech and transcription APIs, Model Fusion, private models, enterprise workspace controls, and 20 new model launches including Gemini 3.5 Flash and Claude Opus 4.8.",
+      "href": "https://openrouter.ai/announcements/may-release-spotlight",
+      "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window.",
+      "imageUrl": "https://openrouter.ai/dynamic-og?title=May+Release+Spotlight&description=Speech+and+transcription+APIs%2C+Model+Fusion%2C+private+models%2C+enterprise+workspace+controls%2C+and+20+new+model+launches+including+Gemini+3.5+Flash+and+Claude+Opus",
+      "publishedAt": "2026-06-01T00:00:00+00:00",
+      "toolIds": [
+        "claude",
+        "gemini",
+        "opusclip"
+      ]
+    },
+    {
+      "id": "claude-vs-chatgpt-which-is-best-2026-a1a0d0f6-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Developer Tools",
       "title": "Claude vs. ChatGPT: Which is best? [2026]",
       "source": "Zapier Blog",
@@ -501,9 +855,9 @@
       ]
     },
     {
-      "id": "major-teachers-union-pleads-with-elementary-scho-757fa0a1-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "major-teachers-union-pleads-with-elementary-scho-757fa0a1-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Product Updates",
       "title": "Major Teachers Union Pleads With Elementary Schools to Stop Giving Young Kids AI",
       "source": "Futurism AI",
@@ -515,26 +869,9 @@
       "toolIds": []
     },
     {
-      "id": "claude-mythos-exposed-a-hard-truth-your-enterpri-57129b35-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Developer Tools",
-      "title": "Claude Mythos exposed a hard truth: Your enterprise patching process is way too slow",
-      "source": "VentureBeat",
-      "summary": "In 2024, researchers from the University of Illinois found that GPT-4, when provided with a common vulnerabilities and exposures (CVE) description, could autonomously exploit 87% of a curated 15-vulnerability one-day dataset. Without the description, it could...",
-      "href": "https://venturebeat.com/security/claude-mythos-exposed-a-hard-truth-your-enterprise-patching-process-is-way-too-slow",
-      "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/2cA0GCQpD8tpycEMmf0mwY/617d2d6214e1fadcb252519b00a1ec60/u7277289442_A_modern_interpretation_of_cybersecurity._3D._--a_48e0894a-799a-4645-9c75-f18358f3b4bf_3.png?w=300&q=30",
-      "publishedAt": "2026-05-31T16:30:23+00:00",
-      "toolIds": [
-        "chatgpt",
-        "claude"
-      ]
-    },
-    {
-      "id": "take-no-prisoners-professor-will-fail-any-studen-ce2de382-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "take-no-prisoners-professor-will-fail-any-studen-ce2de382-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Product Updates",
       "title": "Take-No-Prisoners Professor Will Fail Any Student Who Uses AI",
       "source": "Futurism AI",
@@ -546,25 +883,9 @@
       "toolIds": []
     },
     {
-      "id": "i-ve-used-android-auto-with-gemini-for-2-months-9d9b5af7-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Model Releases",
-      "title": "I've used Android Auto with Gemini for 2 months now - it's transformed my drives in 4 ways",
-      "source": "ZDNet AI",
-      "summary": "Gemini has made voice control in my car fun and useful, and I'm still discovering new ways to use it.",
-      "href": "https://www.zdnet.com/article/how-gemini-in-android-auto-is-changing-my-daily-drive/",
-      "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.zdnet.com/a/img/resize/228e90c097c70f7e112337fb2b0bcda28ecab753/2026/05/29/3269ddda-65ca-4a13-9ce3-681b742a3eaa/pxl-20260529-144228712.jpg?auto=webp&fit=crop&height=675&width=1200",
-      "publishedAt": "2026-05-31T14:00:43+00:00",
-      "toolIds": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "ai-company-paying-random-people-2-000-per-month-e8fd29fa-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "ai-company-paying-random-people-2-000-per-month-e8fd29fa-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Product Updates",
       "title": "AI Company Paying Random People $2,000 Per Month to Crank the Hog",
       "source": "Futurism AI",
@@ -576,9 +897,9 @@
       "toolIds": []
     },
     {
-      "id": "meta-is-rumored-to-be-working-on-an-ai-pendant-a-80022ae2-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "meta-is-rumored-to-be-working-on-an-ai-pendant-a-80022ae2-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Product Updates",
       "title": "Meta is rumored to be working on an AI pendant, and smart glasses different to what we've seen before",
       "source": "TechRadar Software",
@@ -590,9 +911,9 @@
       "toolIds": []
     },
     {
-      "id": "was-this-the-moment-that-ai-psychosis-began-d57e0a6b-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "was-this-the-moment-that-ai-psychosis-began-d57e0a6b-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Product Updates",
       "title": "Was This the Moment That AI Psychosis Began?",
       "source": "Futurism AI",
@@ -604,9 +925,9 @@
       "toolIds": []
     },
     {
-      "id": "sovereign-ai-in-practice-automate-document-summa-81716fe5-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
+      "id": "sovereign-ai-in-practice-automate-document-summa-81716fe5-jun03",
+      "date": "2026-06-03",
+      "dateLabel": "June 3, 2026",
       "category": "Developer Tools",
       "title": "Sovereign AI in practice: automate document summarization with IONOS AI Model Hub and Nextcloud",
       "source": "n8n Blog",
@@ -617,147 +938,6 @@
       "publishedAt": "2026-05-31T11:25:03+00:00",
       "toolIds": [
         "n8n"
-      ]
-    },
-    {
-      "id": "anthropic-bans-ai-tools-during-job-interviews-to-4a73de98-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Developer Tools",
-      "title": "Anthropic bans AI tools during job interviews to see how candidates actually think",
-      "source": "The Decoder",
-      "summary": "Anthropic bans AI during job interviews and runs candidates through up to five rounds testing skills, values, and ethical thinking. Salaries go up to $850,000, and some applicants pay $4,600 for prep coaching run anonymously by current AI company employees. T...",
-      "href": "https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/anthropic_office_work.png",
-      "publishedAt": "2026-05-31T10:10:14+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "anthropic-study-finds-men-use-ai-coding-agents-m-abc3bb85-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Developer Tools",
-      "title": "Anthropic study finds men use AI coding agents more than twice as often as women in social science research",
-      "source": "The Decoder",
-      "summary": "Researchers with typically male names use coding agents more than twice as often as those with typically female names, even within the same discipline and career level, according to an Anthropic study. Economists lead at 39 percent, while education researcher...",
-      "href": "https://the-decoder.com/anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-social-science-research/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/anthropic_logo_wall-1.png",
-      "publishedAt": "2026-05-31T09:42:11+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "cancel-your-claude-sub-and-get-lifetime-access-t-ec19b233-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Model Releases",
-      "title": "Cancel your Claude sub and get lifetime access to ChatGPT, Gemini, Claude, and more for $60",
-      "source": "Mashable",
-      "summary": "ChatPlayground gives you lifetime access to 20+ AI tools for $70.",
-      "href": "https://mashable.com/tech/may-30-chatplayground-ai-unlimited-plan-lifetime-subscriptions",
-      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
-      "imageUrl": "https://helios-i.mashable.com/imagery/articles/01slvSKpQQpioTrZf23W6sv/hero-image.fill.size_1200x675.v1779796115.jpg",
-      "publishedAt": "2026-05-30T22:00:00+00:00",
-      "toolIds": [
-        "chatgpt",
-        "claude",
-        "gemini"
-      ]
-    },
-    {
-      "id": "woman-alarmed-when-her-trusted-therapist-starts-fbe966af-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Product Updates",
-      "title": "Woman Alarmed When Her Trusted Therapist Starts Recording Her With AI",
-      "source": "Futurism AI",
-      "summary": "\"I felt completely violated.\" The post Woman Alarmed When Her Trusted Therapist Starts Recording Her With AI appeared first on Futurism .",
-      "href": "https://futurism.com/artificial-intelligence/woman-alarmed-therapist-recording-ai",
-      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/woman-alarmed-therapist-recording-ai.jpg?quality=85",
-      "publishedAt": "2026-05-30T17:30:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "ai-filmmaker-compares-his-tech-to-something-that-6d7032ab-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Product Updates",
-      "title": "AI Filmmaker Compares His Tech to Something That Gets Worse the More You Think About It",
-      "source": "Futurism AI",
-      "summary": "Something about sex and babies. The post AI Filmmaker Compares His Tech to Something That Gets Worse the More You Think About It appeared first on Futurism .",
-      "href": "https://futurism.com/artificial-intelligence/ai-filmmaker-normal-analogy-of-all-time",
-      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/ai-filmmaker-baby.jpg?quality=85",
-      "publishedAt": "2026-05-30T15:15:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "tech-ceos-have-a-problem-even-their-closest-alli-741cefe7-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Product Updates",
-      "title": "Tech CEOs Have a Problem: Even Their Closest Allies Now See AI as a Sign of Laziness and Dishonesty",
-      "source": "Futurism AI",
-      "summary": "\"I have never knowingly finished reading an email signed by a human but written by AI.\" The post Tech CEOs Have a Problem: Even Their Closest Allies Now See AI as a Sign of Laziness and Dishonesty appeared first on Futurism .",
-      "href": "https://futurism.com/artificial-intelligence/tech-ceos-problem-ai-laziness",
-      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://futurism.com/wp-content/uploads/2026/05/tech-ceos-problem-ai-laziness.jpg?quality=85",
-      "publishedAt": "2026-05-30T13:45:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "do-you-actually-need-to-pay-for-transcription-so-a5735fe4-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Product Updates",
-      "title": "Do You Actually Need to Pay for Transcription Software?",
-      "source": "WIRED AI",
-      "summary": "I tested Wispr Flow and various AI-powered transcription software to see whether you should bother subscribing or stick with free services.",
-      "href": "https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/",
-      "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://media.wired.com/photos/6a16ee1164b9036ecc8e9699/master/pass/GettyImages-1241968547.jpg",
-      "publishedAt": "2026-05-30T09:30:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "until-may-31-get-claude-gemini-and-chatgpt-for-l-7dfcf623-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Model Releases",
-      "title": "Until May 31, get Claude, Gemini, and ChatGPT for life for $70",
-      "source": "Mashable",
-      "summary": "1min.AI is an AI platform that gives you lifetime access to ChatGPT, Gemini, and more for $70",
-      "href": "https://mashable.com/tech/may-30-1minai-advanced-business-plan-lifetime-subscription",
-      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
-      "imageUrl": "https://helios-i.mashable.com/imagery/articles/03CBFvRFwBAdqTfPIQU7aEO/hero-image.fill.size_1200x675.v1779795883.jpg",
-      "publishedAt": "2026-05-30T09:00:00+00:00",
-      "toolIds": [
-        "chatgpt",
-        "claude",
-        "gemini"
-      ]
-    },
-    {
-      "id": "hermes-agent-ships-tool-search-for-mcp-anthropic-ac858659-jun02",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "category": "Agents",
-      "title": "Hermes Agent Ships Tool Search for MCP: Anthropic Evals Show 49% to 74% Accuracy Gain on Opus 4",
-      "source": "MarkTechPost",
-      "summary": "Nous Research's Hermes Agent adds Tool Search to fix MCP context bloat using BM25 progressive schema disclosure. The post Hermes Agent Ships Tool Search for MCP: Anthropic Evals Show 49% to 74% Accuracy Gain on Opus 4 appeared first on MarkTechPost .",
-      "href": "https://www.marktechpost.com/2026/05/29/hermes-agent-ships-tool-search-for-mcp-anthropic-evals-show-49-to-74-accuracy-gain-on-opus-4/",
-      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-29-at-7.56.04-PM-1.png",
-      "publishedAt": "2026-05-30T03:11:59+00:00",
-      "toolIds": [
-        "claude",
-        "opusclip"
       ]
     }
   ]
