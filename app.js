@@ -371,6 +371,282 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-05",
+    "label": "June 5, 2026",
+    "items": [
+      {
+        "id": "malicious-whatsapp-slack-alerts-could-have-expos-60f43760-jun05",
+        "category": "Model Releases",
+        "title": "Malicious WhatsApp, Slack Alerts Could Have Exposed Millions of Android Users",
+        "source": "TechRepublic AI",
+        "summary": "SafeBreach found a now-fixed Gemini Android flaw that let malicious WhatsApp and Slack alerts manipulate AI responses and tools. The post Malicious WhatsApp, Slack Alerts Could Have Exposed Millions of Android Users appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/news-whatsapp-slack-alerts-could-manipulate-gemini-android/",
+        "imageUrl": "assets/news/mit-compressm.png",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-tried-google-drive-s-new-ai-cleanup-tool-to-fi-992bba7d-jun05",
+        "category": "Model Releases",
+        "title": "I tried Google Drive's new AI cleanup tool to fix 14 years of storage clutter - here's the result",
+        "source": "ZDNet AI",
+        "summary": "With Organize My Files, can Gemini clean up my messy Google Drive and save me money on storage? Let's see.",
+        "href": "https://www.zdnet.com/article/i-tried-google-drives-new-ai-cleanup-tool-storage-clutter/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/bd845db6b974c2be96dc90e50c5a0fcc4e903463/2026/06/04/01f6db10-0f34-4c7a-acd5-62e3e534d659/2.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "is-microsoft-365-premium-worth-it-what-20-a-mont-c669c451-jun05",
+        "category": "Developer Tools",
+        "title": "Is Microsoft 365 Premium worth it? What $20 a month gets you - and how it compares to ChatGPT Plus",
+        "source": "ZDNet AI",
+        "summary": "Microsoft is offering a 50% discount to 365 subscribers who want more AI Copilot features. Here's what's included.",
+        "href": "https://www.zdnet.com/article/is-microsoft-365-premium-worth-it-vs-chatgpt-plus/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/6ad888e6c0732ed38668b50d75765d5a5b28dc85/2026/06/04/b014cfda-ba9e-40c2-bd27-0a6cabf3e774/copilot.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chatgpt-now-saves-narrative-dossiers-about-you-s-48b9c17a-jun05",
+        "category": "Developer Tools",
+        "title": "ChatGPT now saves narrative dossiers about you sorted by work, hobbies, and travel preferences",
+        "source": "The Decoder",
+        "summary": "ChatGPT's updated \"Dreaming\" memory system now builds coherent user profiles from conversations instead of saving scattered bullet points. OpenAI says the success rate for keeping information current jumped from 52.2 percent last year to 75.1 percent. The art...",
+        "href": "https://the-decoder.com/chatgpt-now-saves-narrative-dossiers-about-you-sorted-by-work-hobbies-and-travel-preferences/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/openai_logos_wall_grid-1.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "xai-updates-grok-imagine-to-1-5-with-image-to-vi-ca713252-jun05",
+        "category": "Developer Tools",
+        "title": "xAI updates Grok Imagine to 1.5 with image-to-video generation at 720p resolution",
+        "source": "The Decoder",
+        "summary": "xAI has released \"grok-imagine-video-1.5-preview,\" an image-to-video model that turns still images into cinematic videos at up to 720p based on text prompts. Multiple clips can be stitched together into longer scenes. The article xAI updates Grok Imagine to 1...",
+        "href": "https://the-decoder.com/xai-updates-grok-imagine-to-1-5-with-image-to-video-generation-at-720p-resolution/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/grok_xai_video15.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "former-police-officer-in-hiding-after-being-fals-620251ef-jun05",
+        "category": "Developer Tools",
+        "title": "Former police officer in hiding after being falsely linked to Henry Nowak arrest",
+        "source": "The Guardian AI",
+        "summary": "Christi Hill and male officer misidentified in Vickrum Digwa murder case on AI platforms including Grok A former police officer has been forced to flee to a safe space after she was falsely accused online of being involved in the arrest of Henry Nowak . Chris...",
+        "href": "https://www.theguardian.com/uk-news/2026/jun/03/former-officer-hampshire-hiding-after-being-falsely-linked-henry-nowak-arrest",
+        "imageUrl": "https://i.guim.co.uk/img/media/498a025f9b73746ca8cd287cde4bb2948a1cfde7/667_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=e49fefb5d42715405f4bdcedbe453acc",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "presentation-choosing-your-ai-copilot-maximizing-82c48189-jun05",
+        "category": "Developer Tools",
+        "title": "Presentation: Choosing Your AI Copilot: Maximizing Developer Productivity",
+        "source": "InfoQ AI",
+        "summary": "Sepehr Khosravi discusses the evolution of developer productivity tools. Evaluating the strengths of tools like Cursor and Claude Code, he explains actionable techniques for senior engineers - including context engineering, custom rules, and Model Context Pro...",
+        "href": "https://www.infoq.com/presentations/choosing-ai-copilot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/presentations/choosing-ai-copilot/en/mediumimage/medium-1779867439150.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "direct-preference-optimization-beyond-chatbots-bc0be78c-jun05",
+        "category": "Product Updates",
+        "title": "Direct Preference Optimization Beyond Chatbots",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Direct Preference Optimization Beyond Chatbots",
+        "href": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+        "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "adding-mcp-tools-to-reachy-mini-79972631-jun05",
+        "category": "Agents",
+        "title": "Adding MCP Tools to Reachy Mini",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Adding MCP Tools to Reachy Mini",
+        "href": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+        "imageUrl": "https://huggingface.co/blog/assets/adding-mcp-tools-to-reachy-mini/reachy_mini_remote_spaces_thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-best-enterprise-workflow-management-software-f6590ca1-jun05",
+        "category": "Agents",
+        "title": "The best enterprise workflow management software in 2026",
+        "source": "Zapier Blog",
+        "summary": "The bigger you get, the slower you move. While that's a tragedy for DMV lines, huge software updates, and \"quick\" 20-person meetings that run 37 minutes over schedule, it's even worse for your business. As your employee headcount increases (great!), so too gr...",
+        "href": "https://zapier.com/blog/enterprise-workflow-management-software",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/5lX5zM4nHqNkFS7w91zzkm/c37f3ce550e16f28b30ab15274d40625/enterprise-workflow-management-software-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gumloop-vs-n8n-which-is-best-2026-b9dd4932-jun05",
+        "category": "Developer Tools",
+        "title": "Gumloop vs. n8n: Which is best? [2026]",
+        "source": "Zapier Blog",
+        "summary": "We live in an era of absurd abundance when it comes to workflow automation platforms. There are so many options that choosing one has become its own unautomated nightmare. The latest matchup demanding attention? Gumloop vs. n8n. Both promise to liberate you f...",
+        "href": "https://zapier.com/blog/gumloop-vs-n8n",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/5VI2fjjrqSUUHk9bHBjooM/fad55f68ff72c44f8cabfaeebcb2a041/gumloop-vs-n8n-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "canvas-design-mode-and-context-usage-report-8b20b6da-jun05",
+        "category": "Agents",
+        "title": "Canvas Design Mode and Context Usage Report",
+        "source": "Cursor Changelog",
+        "summary": "With canvases , agents can create interactive artifacts like dashboards, reports, and internal tools that you can share with your team .",
+        "href": "https://cursor.com/changelog/canvas-improvements",
+        "imageUrl": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/changelog/opengraph-changelog-june-4-2026.png",
+        "excerpt": "Radar signal: Cursor Changelog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "path-to-boost-ai-training-and-career-opportuniti-849d03fe-jun05",
+        "category": "Product Updates",
+        "title": "PATH to boost AI training and career opportunities for industry-aligned jobs",
+        "source": "MIT News AI",
+        "summary": "MIT RAISE and Georgia State University announce an initiative to connect universities, community colleges, industry, and government to expand industry-aligned AI training and career pathways.",
+        "href": "https://news.mit.edu/2026/mit-raise-georgia-state-university-announce-path-0604",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/mit-raise.jpg?itok=m2Y3rah1",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-and-anthropic-sign-letter-to-prevent-ai-d-074dfc13-jun05",
+        "category": "Product Updates",
+        "title": "OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons",
+        "source": "WIRED AI",
+        "summary": "Leading AI labs, executives, and scientists are sending a letter to lawmakers urging them to improve tracking of synthetic DNA sequences that could be used for bioweapons.",
+        "href": "https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/",
+        "imageUrl": "https://media.wired.com/photos/6a1f6447234d4b89dad80277/master/pass/science_anthropic_final.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "extella-ai-3082ec77-jun05",
+        "category": "Product Updates",
+        "title": "Extella.AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: Extella.AI",
+        "href": "https://www.producthunt.com/products/extella-ai",
+        "imageUrl": "https://ph-files.imgix.net/423a5dbb-962c-449d-89ba-7e7ec1963a45.jpeg?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "deliveryman-ai-ce41bd92-jun05",
+        "category": "Product Updates",
+        "title": "Deliveryman.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: Deliveryman.ai",
+        "href": "https://www.producthunt.com/products/deliveryman-ai",
+        "imageUrl": "https://ph-files.imgix.net/a1033803-cc7e-477f-9370-50db256653a1.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "can-autonomous-ai-powered-killer-drones-take-mor-e98c63ce-jun05",
+        "category": "Product Updates",
+        "title": "Can autonomous AI-powered killer drones take morality onboard?",
+        "source": "The Guardian AI",
+        "summary": "While the technology is set to play a growing role in modern warfare, there remains an unresolved ethical challenge Should the AI-powered drones of the future have a licence to kill? The question is becoming ever more pressing as governments and the defence i...",
+        "href": "https://www.theguardian.com/world/2026/jun/03/can-autonomous-ai-powered-killer-drones-take-morality-onboard",
+        "imageUrl": "https://i.guim.co.uk/img/media/bd81c6d5daae91aac020868af5474879e6cd54dc/289_0_2890_2312/master/2890.jpg?width=140&quality=85&auto=format&fit=max&s=950cbffcb59184b531109691738e4135",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-look-at-the-biggest-ai-players-barreling-towar-0f5a683b-jun05",
+        "category": "Product Updates",
+        "title": "A look at the biggest AI players barreling toward huge Wall Street debuts",
+        "source": "Fast Company AI",
+        "summary": "In a bid to access more capital for AI, tech giants are looking to take their shares public.",
+        "href": "https://www.fastcompany.com/91553827/look-biggest-ai-players-barreling-towards-huge-wall-street-debuts?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=06052026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/AP26154448087145.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "5-ways-google-search-can-level-up-your-thrift-an-76912b85-jun05",
+        "category": "Product Updates",
+        "title": "5 ways Google Search can level up your thrift and vintage shopping",
+        "source": "Google AI Blog",
+        "summary": "Uncover second-hand scores with AI tools in Google Search and Shopping.",
+        "href": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nsf-renews-support-for-mit-led-ai-and-physics-in-e5de1631-jun05",
+        "category": "Model Releases",
+        "title": "NSF renews support for MIT-led AI and physics institute, expanding a new model for discovery",
+        "source": "MIT News AI",
+        "summary": "IAIFI enters its second phase with increased funding, broader ambitions, and a growing community at the frontier of AI and fundamental physics.",
+        "href": "https://news.mit.edu/2026/nsf-renews-support-mit-led-ai-and-physics-institute-0604",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/iaifi-mit-announcement-26.jpg?itok=74oD6zcK",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-the-agentic-era-means-for-data-science-8d5dd2a9-jun05",
+        "category": "Agents",
+        "title": "What the Agentic Era Means for Data Science",
+        "source": "KDnuggets",
+        "summary": "Learn how AI agents are reshaping data science workflows and which skills practitioners need in 2026.",
+        "href": "https://www.kdnuggets.com/what-the-agentic-era-means-for-data-science",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-what-the-agentic-era-means-for-data-science.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "introducing-new-capabilities-to-gpt-rosalind-bfb45dca-jun05",
+        "category": "Agents",
+        "title": "Introducing new capabilities to GPT-Rosalind",
+        "source": "OpenAI Blog",
+        "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+        "href": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+        "imageUrl": "assets/news/superhuman-personal-agents.png",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-ceo-sam-altman-sees-proactive-ai-as-the-n-5fd2865e-jun05",
+        "category": "Developer Tools",
+        "title": "OpenAI CEO Sam Altman sees \"proactive AI\" as the next big phase after chatbots and agents",
+        "source": "The Decoder",
+        "summary": "OpenAI CEO Sam Altman outlines the next phase of AI products: a \"proactive AI\" that runs constantly in the background and acts on its own instead of waiting for user prompts. Companies are also wrestling with spiraling AI costs and a basic problem: most emplo...",
+        "href": "https://the-decoder.com/openai-ceo-sam-altman-sees-proactive-ai-as-the-next-big-phase-after-chatbots-and-agents/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/sam_altman_openai_screenshot.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "future-ai-weapons-such-as-drones-should-have-mor-98da7143-jun05",
+        "category": "Developer Tools",
+        "title": "Future AI weapons such as drones should have moral code, says former UK spy chief",
+        "source": "The Guardian AI",
+        "summary": "Software could make ethically superior decisions to humans in high-pressure moments, claims ex-GCHQ head David Omand Drones will need to be programmed with moral guidelines as AI-driven decision making reduces human involvement in autonomous warfare, accordin...",
+        "href": "https://www.theguardian.com/science/2026/jun/03/ai-weapons-drones-moral-code-former-uk-gchq-chief-david-omand",
+        "imageUrl": "https://i.guim.co.uk/img/media/7ea88c241d810722c2017d45605b8564efe72b3e/2211_986_2519_2015/master/2519.jpg?width=140&quality=85&auto=format&fit=max&s=7665d55f2a7b4d7269e268b42a65a232",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-public-policy-agenda-0a440e31-jun05",
+        "category": "Policy",
+        "title": "OpenAI public policy agenda",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+        "href": "https://openai.com/index/public-policy-agenda",
+        "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-blueprint-for-democratic-governance-of-frontie-fae173f5-jun05",
+        "category": "Policy",
+        "title": "A blueprint for democratic governance of frontier AI",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+        "href": "https://openai.com/index/frontier-safety-blueprint",
+        "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-ai-ipo-race-heats-up-doge-whistleblower-sues-756bbf4f-jun05",
+        "category": "Funding",
+        "title": "The AI IPO Race Heats Up, DOGE Whistleblower Sues Elon Musk, and Instagram Gets Hacked",
+        "source": "WIRED AI",
+        "summary": "On Uncanny Valley, we dive into the IPO bonanza that the top AI companies are embarking on to the point where some real estate listings are looking for not just regular old cash, but Anthropic stock.",
+        "href": "https://www.wired.com/story/uncanny-valley-podcast-ai-ipo-race-elon-musk-doge-whistleblower-instagram-hacking-incident/",
+        "imageUrl": "https://media.wired.com/photos/6a20a487d5b5f5af30a6fa53/master/pass/Uncanny-Valley-AI-IPO-Race-Business-1189366547.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-04",
     "label": "June 4, 2026",
     "items": [
