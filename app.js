@@ -371,6 +371,212 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-06",
+    "label": "June 6, 2026",
+    "items": [
+      {
+        "id": "apple-reportedly-turning-to-nvidia-chips-for-gem-4321cccb-jun06",
+        "category": "Model Releases",
+        "title": "Apple reportedly turning to Nvidia chips for Gemini-powered Siri",
+        "source": "Mashable",
+        "summary": "Apple will lean on Nvidia's Blackwell data center architecture to fuel the new AI-enhanced Siri experience.",
+        "href": "https://mashable.com/tech/apple-siri-ios-27-nvidia-blackwell-chips",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00kpFpoDySTmLpV23az66Z1/hero-image.fill.size_1200x675.v1780584468.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "supabase-doubles-valuation-to-10b-in-8-months-1393832a-jun06",
+        "category": "Developer Tools",
+        "title": "Supabase doubles valuation to $10B in 8 months",
+        "source": "TechCrunch",
+        "summary": "Supabase, an example of an open source project becoming a fast-growing company, has greatly benefited from AI tools like Claude, Codex, and other vibe-coding platforms.",
+        "href": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/11/supabase-paul-copplestone.jpg?resize=1195,1200",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "florida-s-lawsuit-against-openai-and-ceo-altman-1173f52f-jun06",
+        "category": "Developer Tools",
+        "title": "Florida's lawsuit against OpenAI and CEO Altman treats ChatGPT as a defective product and public nuisance",
+        "source": "The Decoder",
+        "summary": "Florida is the first US state to sue OpenAI and CEO Sam Altman personally over risks to minors, missing age checks, and inadequate safety investment. The 83-page complaint treats ChatGPT as a product subject to liability and threatens billions in penalties. T...",
+        "href": "https://the-decoder.com/floridas-lawsuit-against-openai-and-ceo-altman-treats-chatgpt-as-a-defective-product-and-public-nuisance/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/openai_Altman.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-says-claude-now-writes-over-90-of-its-df0523fc-jun06",
+        "category": "Developer Tools",
+        "title": "Anthropic says Claude now writes over 90% of its code and wants the world to have an AI pause button",
+        "source": "The Decoder",
+        "summary": "Anthropic is sharing internal data showing how much Claude is speeding up its own AI development: more than 80 percent of production code now comes from Claude, and engineers are shipping eight times as much code per day as in 2024. The goal is AI that improv...",
+        "href": "https://the-decoder.com/anthropic-says-claude-now-writes-over-90-of-its-code-and-wants-the-world-to-have-an-ai-pause-button/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/anthropic_claude_clone.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "perplexity-ai-introduces-hybrid-local-server-inf-f8742f0c-jun06",
+        "category": "Model Releases",
+        "title": "Perplexity AI Introduces Hybrid Local-Server Inference Orchestrator for Personal Computer: Automatic On-Device and Clou...",
+        "source": "MarkTechPost",
+        "summary": "Perplexity AI announces a hybrid local-server inference orchestrator for Personal Computer, automatically routing AI tasks between on-device and cloud models. The post Perplexity AI Introduces Hybrid Local-Server Inference Orchestrator for Personal Computer:...",
+        "href": "https://www.marktechpost.com/2026/06/05/perplexity-ai-introduces-hybrid-local-server-inference-orchestrator-for-personal-computer-automatic-on-device-and-cloud-task-routing/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/high-level-description-a-clean-editorial_yqeutS2pX1ucASzjTlwsHg_fFr2f5YJS86LDiwNyBuaxg.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "eva-bench-data-2-0-3-domains-121-tools-213-scena-d9c42ca0-jun06",
+        "category": "Product Updates",
+        "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+        "href": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+        "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ServiceNow-AI/eva-bench-data.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nemotron-3-5-content-safety-customizable-multimo-3c2e7a73-jun06",
+        "category": "Policy",
+        "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+        "href": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+        "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-3-5-content-safety.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "track-stripe-payments-to-facebook-conversions-ev-e46bfa6d-jun06",
+        "category": "Product Updates",
+        "title": "Track Stripe payments to Facebook Conversions events with AI",
+        "source": "Zapier Blog",
+        "summary": "If you use Meta to advertise your business, you've probably wondered whether your ads are actually driving any revenue. You could look at metrics like click-through rate (CTR), but that's a superficial measurement. What you really need is to look at your paym...",
+        "href": "https://zapier.com/blog/stripe-facebook-conversions-ai",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/4pYcO3t4PjzT1Vv4t7lUYm/f0851b262c5f601e024f3172ec07a18a/Hero__App_tips_2.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-are-ai-hallucinations-and-how-to-improve-ac-b57d3116-jun06",
+        "category": "Model Releases",
+        "title": "What Are AI Hallucinations? And How To Improve Accuracy in Pipelines",
+        "source": "n8n Blog",
+        "summary": "Discover what AI hallucinations are, how LLMs generate them, and which types matter in production. Learn how to reduce them and create a reliable pipeline.",
+        "href": "https://blog.n8n.io/ai-hallucinations/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/06/TL--3-.jpeg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "comparing-8-cloud-integration-platforms-for-ente-e22fd1e1-jun06",
+        "category": "Model Releases",
+        "title": "Comparing 8 Cloud Integration Platforms for Enterprise IT",
+        "source": "n8n Blog",
+        "summary": "Compare the top cloud integration platforms for enterprise IT. Evaluate deployment models, connector depth, and governance, and see where n8n fits.",
+        "href": "https://blog.n8n.io/cloud-integration-platforms/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/06/TL.jpeg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "design-mode-improvements-8de08b34-jun06",
+        "category": "Agents",
+        "title": "Design Mode Improvements",
+        "source": "Cursor Changelog",
+        "summary": "With Design Mode in the Cursor browser, you can click, draw, or describe changes by voice to help agents update your UI.",
+        "href": "https://cursor.com/changelog/design-mode-improvements",
+        "imageUrl": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/changelog/opengraph-changelog-june-5-2026.png",
+        "excerpt": "Radar signal: Cursor Changelog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "custom-stores-custom-tools-and-auto-review-for-t-3692e6d7-jun06",
+        "category": "Agents",
+        "title": "Custom stores, custom tools, and auto-review for the Cursor SDK",
+        "source": "Cursor Changelog",
+        "summary": "New stores, custom tools, auto-review, and nested subagents for the TypeScript and Python SDKs, plus run correlation IDs, lighter imports, and reliability fixes.",
+        "href": "https://cursor.com/changelog/sdk-updates-jun-2026",
+        "imageUrl": "https://cursor.com/public/opengraph-image.png",
+        "excerpt": "Radar signal: Cursor Changelog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-economic-crisis-the-ai-moment-4cc973c3-jun06",
+        "category": "Product Updates",
+        "title": "The economic crisis + the AI moment",
+        "source": "Fast Company AI",
+        "summary": "Why successful companies will lean into both.",
+        "href": "https://www.fastcompany.com/91554875/the-economic-crisis-the-ai-moment?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=06062026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/INC-Masters-Fast-Company-publishing-2026-06-05T094915.310.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-asked-ai-for-help-with-diy-it-told-me-to-build-3c99e527-jun06",
+        "category": "Product Updates",
+        "title": "I asked AI for help with DIY. It told me to build a subfloor on rotting stumps, but also taught me valuable lessons | M...",
+        "source": "The Guardian AI",
+        "summary": "Nothing does more for your ego than realising you can make a better decision than a bot with all of human knowledge at its digital fingertips I am not, by nature, an early adopter. There comes a point in our lives where change becomes more irritating than exc...",
+        "href": "https://www.theguardian.com/technology/commentisfree/2026/jun/05/ai-artificial-intelligence-help-with-diy-valuable-lessons",
+        "imageUrl": "https://i.guim.co.uk/img/media/9385ef37578d73ffa5287d97c3ee8c0f14aa4c9a/64_0_4680_3744/master/4680.jpg?width=140&quality=85&auto=format&fit=max&s=76a8aba7e62f98f469249a17843f2ac7",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ceo-says-there-will-be-no-raises-because-he-spen-6a36febd-jun06",
+        "category": "Product Updates",
+        "title": "CEO Says There Will Be No Raises Because He Spent All the Money on AI",
+        "source": "Futurism AI",
+        "summary": "\"We will fund this AI investment by reallocating the budget from 2026 annual salary adjustments.\" The post CEO Says There Will Be No Raises Because He Spent All the Money on AI appeared first on Futurism .",
+        "href": "https://futurism.com/future-society/ceo-no-raises-money-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/scrooge.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "biodefense-in-the-intelligence-age-dbb39445-jun06",
+        "category": "Product Updates",
+        "title": "Biodefense in the Intelligence Age",
+        "source": "OpenAI Blog",
+        "summary": "An action plan for AI-powered biological resilience",
+        "href": "https://openai.com/index/biodefense-in-the-intelligence-age",
+        "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-scared-calls-for-global-freeze-on-ai-a-8c53aa11-jun06",
+        "category": "Product Updates",
+        "title": "Anthropic Scared, Calls for Global Freeze on AI Advances",
+        "source": "Futurism AI",
+        "summary": "We've heard this one before. The post Anthropic Scared, Calls for Global Freeze on AI Advances appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/anthropic-scared-calls-global-freeze-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/anthropic-scared-calls-global-freeze-ai.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-fara-tutorial-run-a-browser-use-agent-031ec662-jun06",
+        "category": "Developer Tools",
+        "title": "Microsoft Fara Tutorial: Run a Browser-Use Agent in Google Colab with a Mock OpenAI-Compatible Endpoint",
+        "source": "MarkTechPost",
+        "summary": "A hands-on guide to running Microsoft Fara in Colab, testing the browser agent loop with a mock endpoint. The post Microsoft Fara Tutorial: Run a Browser-Use Agent in Google Colab with a Mock OpenAI-Compatible Endpoint appeared first on MarkTechPost .",
+        "href": "https://www.marktechpost.com/2026/06/05/microsoft-fara-tutorial-run-a-browser-use-agent-in-google-colab-with-a-mock-openai-compatible-endpoint/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog14-3.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-s-mythos-model-is-reportedly-powering-f9ff33d4-jun06",
+        "category": "Developer Tools",
+        "title": "Anthropic's Mythos model is reportedly powering NSA offensive cyber ops against China and Iran",
+        "source": "The Decoder",
+        "summary": "Anthropic has reportedly stationed about half a dozen engineers directly at the NSA to adapt its Mythos AI model for offensive cyber operations. The model could be used to break into networks in China or Iran. That fits Anthropic's broader stance: the company...",
+        "href": "https://the-decoder.com/anthropics-mythos-model-is-reportedly-powering-nsa-offensive-cyber-ops-against-china-and-iran/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/anthropic_head_benchmark_knowing-1.jpeg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-crucial-human-component-in-computing-and-ai-dca334e2-jun06",
+        "category": "Research Workflows",
+        "title": "The crucial human component in computing and AI",
+        "source": "MIT News AI",
+        "summary": "The MIT Ethics of Computing Research Symposium brought together experts and researchers working at the heart of ethical and social impact in technology.",
+        "href": "https://news.mit.edu/2026/crucial-human-component-computing-and-ai-0605",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202605/mit-schwarzman-ethics-of-computing.jpg?itok=HYfZyqXf",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-05",
     "label": "June 5, 2026",
     "items": [
