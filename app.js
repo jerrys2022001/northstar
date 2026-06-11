@@ -371,6 +371,212 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-11",
+    "label": "June 11, 2026",
+    "items": [
+      {
+        "id": "local-agentic-programming-on-the-cheap-claude-co-79b424b1-jun11",
+        "category": "Developer Tools",
+        "title": "Local Agentic Programming on the Cheap: Claude Code + Ollama + Gemma4",
+        "source": "KDnuggets",
+        "summary": "This article builds a full local agentic programming stack using Ollama, Gemma 4, and Claude Code.",
+        "href": "https://www.kdnuggets.com/local-agentic-programming-on-the-cheap-claude-code-ollama-gemma4",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Local-Agentic-Programming-on-the-Cheap.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-s-notebooklm-now-runs-its-own-cloud-compu-fc2e0efe-jun11",
+        "category": "Developer Tools",
+        "title": "Google's NotebookLM now runs its own cloud computer with code execution and agent-based research",
+        "source": "The Decoder",
+        "summary": "Google is giving NotebookLM a major upgrade. The research tool now runs on Gemini 3.5 Flash, has its own cloud computer for code execution, and can find sources on its own via Google Search. In internal tests, the new system beat the previous version up to 78...",
+        "href": "https://the-decoder.com/googles-notebooklm-now-runs-its-own-cloud-computer-with-code-execution-and-agent-based-research/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/google_logo_wall-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-codex-unlocks-for-notion-e8e11bcb-jun11",
+        "category": "Developer Tools",
+        "title": "What Codex unlocks for Notion",
+        "source": "OpenAI Blog",
+        "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+        "href": "https://openai.com/index/notion",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4kuHNpLFWGTJ5PFyZ8ZYKs/f294630773ebdf81c05804a62fed2f00/oai_Notion_SEO.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-engineers-at-nextdoor-use-codex-to-build-wit-d484de55-jun11",
+        "category": "Developer Tools",
+        "title": "How engineers at Nextdoor use Codex to build without limits",
+        "source": "OpenAI Blog",
+        "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+        "href": "https://openai.com/index/nextdoor",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2VQiKydNUVAutnHRuCIV4S/3262cc8deff3fe49c6b512f854e14dcf/oai_Nextdoor_1x1.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "xai-fired-an-engineer-who-raised-alarms-about-gr-77660257-jun11",
+        "category": "Policy",
+        "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
+        "source": "TechCrunch",
+        "summary": "A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX's historic IPO.",
+        "href": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-ceo-says-ai-growth-is-exponential-anth-458152a7-jun11",
+        "category": "Research Workflows",
+        "title": "Anthropic CEO says AI growth is exponential. Anthropic research says otherwise.",
+        "source": "Mashable",
+        "summary": "Anthropic CEO Dario Amodei claims in a new essay that AI growth remains \"exponential.\" Claude Mythos tells us something different.",
+        "href": "https://mashable.com/tech/anthropic-ceo-ai-growth-exponential-research",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/06nqZB0k25YhDqGhy4S4Ttu/hero-image.fill.size_1200x675.v1781131581.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "best-ai-governance-tools-for-enterprise-grade-co-e1ce22e6-jun11",
+        "category": "Product Updates",
+        "title": "Best AI Governance Tools for Enterprise-Grade Compliance",
+        "source": "n8n Blog",
+        "summary": "Compare top AI governance tools for enterprise compliance. Review platform capabilities, different vendors, and key criteria to choose the right fit.",
+        "href": "https://blog.n8n.io/ai-governance-tools/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/06/Screenshot-2026-06-08-at-2.24.41---p.m..png",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "llm-routing-from-strategy-selection-to-productio-2752e60b-jun11",
+        "category": "Model Releases",
+        "title": "LLM Routing: From Strategy Selection to Production Architecture",
+        "source": "n8n Blog",
+        "summary": "Learn how LLM routing improves accuracy, latency, and cost with per request model selection. Optimize pipelines, and use the right tool every time.",
+        "href": "https://blog.n8n.io/llm-routing/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/06/TL-2.jpeg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-gourmet-ads-uses-zapier-mcp-to-turn-salesfor-7f94231a-jun11",
+        "category": "Developer Tools",
+        "title": "How Gourmet Ads uses Zapier MCP to turn Salesforce and Atlassian into a weekly growth report",
+        "source": "Zapier Blog",
+        "summary": "Benjamin Christie runs Gourmet Ads, a digital advertising business that helps food brands reach household grocery buyers and home cooks online. The company has been around for 18 years. Its advertising customers include supermarkets, food and beverage brands,...",
+        "href": "https://zapier.com/blog/gourmet-ads-mcp",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/3pmzo7LMz7izvOKyJ7GRch/3e0624601da1c3aeb2224460e5142cac/gourmet-ads-og-portrait-1200x630__1_.png",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "top-ai-coding-agents-and-development-platforms-i-12ecd4a8-jun11",
+        "category": "Developer Tools",
+        "title": "Top AI Coding Agents and Development Platforms in 2026: Atoms, Devin, Windsurf, Cursor, Warp, and More Compared",
+        "source": "MarkTechPost",
+        "summary": "Software development has changed. Engineers no longer type most code by hand. They describe intent, and AI agents do the work. Modern tools plan tasks, edit across files, run tests, and open pull requests. Many now ship to production with limited supervision....",
+        "href": "https://www.marktechpost.com/2026/06/10/ai-coding-agents-development-platforms-2026/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2025/02/blog15.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-a-two-person-seo-shop-is-building-an-engine-5f764de5-jun11",
+        "category": "Creative AI",
+        "title": "How a two-person SEO shop is building an engine to run twelve clients in thirty minutes a month",
+        "source": "Zapier Blog",
+        "summary": "Adrian Martinez runs a digital marketing agency in Toronto focused on Website Design, SEO, and answer engine optimization (AEO). He and his wife deliver for about twelve clients today. The constraint is time. Each account takes 10 to fifteen hours a month in...",
+        "href": "https://zapier.com/blog/hire-adrian-mcp",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/2uHfqHCLxCxtbpOt6IshbO/93cb0427017d02fdce25a162a3e99772/li-portrait-1200x627.png",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nobody-needs-ai-to-search-the-internet-court-say-48229335-jun11",
+        "category": "Product Updates",
+        "title": "Nobody needs AI to search the Internet, court says in ruling against Google",
+        "source": "Ars Technica",
+        "summary": "Google AI Overview court loss in Germany could spell doom for AI search industry.",
+        "href": "https://arstechnica.com/tech-policy/2026/06/nobody-needs-ai-to-search-the-internet-court-says-in-ruling-against-google/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2277898840-1024x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "innocent-man-freed-after-spending-over-50-days-i-17c57c78-jun11",
+        "category": "Product Updates",
+        "title": "Innocent Man Freed After Spending Over 50 Days in Jail Due to Horribly Inaccurate AI Facial Recognition Tech",
+        "source": "Futurism AI",
+        "summary": "\"The technology is simply too dangerous for law enforcement to be using at all.\" The post Innocent Man Freed After Spending Over 50 Days in Jail Due to Horribly Inaccurate AI Facial Recognition Tech appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/innocent-man-jail-ai-facial-recognition-arrest",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/innocent-man-jail-ai-facial-recognition-arrest.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "iart-ai-caab99c6-jun11",
+        "category": "Product Updates",
+        "title": "iArt.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: iArt.ai",
+        "href": "https://www.producthunt.com/products/iart-ai",
+        "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-ai-releases-diffusiongemma-a-26b-moe-open-d980902e-jun11",
+        "category": "Model Releases",
+        "title": "Google AI Releases DiffusionGemma, a 26B MoE Open Model Using Text Diffusion for Up to 4x Faster Generation",
+        "source": "MarkTechPost",
+        "summary": "DiffusionGemma is Google DeepMind's experimental 26B open model using text diffusion for up to 4x faster generation on GPUs. The post Google AI Releases DiffusionGemma, a 26B MoE Open Model Using Text Diffusion for Up to 4x Faster Generation appeared first on...",
+        "href": "https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/Screenshot-2026-06-10-at-11.42.40-AM-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-s-ipo-slips-as-altman-tells-staff-to-expe-30f28e69-jun11",
+        "category": "Developer Tools",
+        "title": "OpenAI's IPO slips as Altman tells staff to expect a public offering \"within the next year\"",
+        "source": "The Decoder",
+        "summary": "Sam Altman told employees he expects an OpenAI IPO \"within the next year,\" but a delay to 2027 is possible. He frames it as caution around self-improving AI, though Anthropic's stronger growth numbers and imminent IPO may be the real reason to wait. The artic...",
+        "href": "https://the-decoder.com/openais-ipo-slips-as-altman-tells-staff-to-expect-a-public-offering-within-the-next-year/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/openai_altman_2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "germany-s-national-security-council-greenights-a-75275ed2-jun11",
+        "category": "Developer Tools",
+        "title": "Germany's National Security Council greenights an AI Safety Institute modeled after the UK's AISI",
+        "source": "The Decoder",
+        "summary": "Germany's National Security Council has decided to establish an AI security institute. The \"DE-AISI\" will test frontier models from Anthropic or OpenAI for security risks, following the British model. But as long as the EU doesn't have its own frontier models...",
+        "href": "https://the-decoder.com/germanys-national-security-council-greenights-an-ai-safety-institute-modeled-after-the-uks-aisi/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/germany_flag_neural_network.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "confidential-submission-of-draft-s-1-to-the-sec-41e74c14-jun11",
+        "category": "Developer Tools",
+        "title": "Confidential submission of draft S-1 to the SEC",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+        "href": "https://openai.com/index/openai-submits-confidential-s-1",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1kKjVqt4LdJo6DAWO4rklb/93d7ae2d6a5cb70b17fd5ff440552291/confidential-submission-of-draft-s-1-to-the-sec-16x9.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-study-shows-ai-needs-hours-not-weeks-t-d96a2209-jun11",
+        "category": "Developer Tools",
+        "title": "Anthropic study shows AI needs hours, not weeks, to build exploits from security patches",
+        "source": "The Decoder",
+        "summary": "Anthropic's security team found that its Mythos Preview AI model can turn security patches for Firefox and the Windows kernel into working exploits within hours, for a few thousand dollars and no specialized knowledge. Eight complete attack chains were finish...",
+        "href": "https://the-decoder.com/anthropic-study-shows-ai-needs-hours-not-weeks-to-build-exploits-from-security-patches/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/glasswing_claude.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-coding-implementation-on-microsoft-skillopt-fo-5437671e-jun11",
+        "category": "Developer Tools",
+        "title": "A Coding Implementation on Microsoft SkillOpt for Instrumented Prompt Optimization, Skill Evolution Analysis, and Basel...",
+        "source": "MarkTechPost",
+        "summary": "We implement an instrumented workflow for Microsoft SkillOpt end to end. We set up the repository, connect OpenAI-compatible model access, and configure the optimizer and target models. We evaluate the original seed skill as a baseline, then run a real optimi...",
+        "href": "https://www.marktechpost.com/2026/06/10/a-coding-implementation-on-microsoft-skillopt-for-instrumented-prompt-optimization-skill-evolution-analysis-and-baseline-comparison/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog15-9.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-10",
     "label": "June 10, 2026",
     "items": [
