@@ -371,6 +371,232 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-12",
+    "label": "June 12, 2026",
+    "items": [
+      {
+        "id": "which-ai-models-can-you-automate-on-zapier-opus-0f676982-jun12",
+        "category": "Developer Tools",
+        "title": "Which AI models can you automate on Zapier? (Opus 4.8, Gemini 3.5 Flash, and more)",
+        "source": "Zapier Blog",
+        "summary": "New AI models launch practically every week, and keeping up with which ones to use for specific workflows is a job in itself. Consider this article your living reference. At Zapier, we run every model through AutomationBench. It's our benchmark for testing ho...",
+        "href": "https://zapier.com/blog/ai-models-on-zapier",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/6y1J7rrUFny1up43nepLz5/c9c01d430961f85fe9ea6eda1e278b1d/Hero__zapier-logo-purple-new.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "is-gemini-down-google-acknowledges-something-wen-c4047d4a-jun12",
+        "category": "Developer Tools",
+        "title": "Is Gemini down? Google acknowledges something went wrong errors.",
+        "source": "Mashable",
+        "summary": "Google Gemini is down across web, iOS, Android, and Chrome for many U.S. users. Google says a fix is in progress but didn't provide an ETA.",
+        "href": "https://mashable.com/tech/google-gemini-down-google-acknowledges-problem",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00EHiEJR7e4HUqdYsIaQUZg/hero-image.fill.size_1200x675.v1781113722.png",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "these-logs-of-chatgpt-allegedly-driving-a-suicid-355939df-jun12",
+        "category": "Model Releases",
+        "title": "These Logs of ChatGPT Allegedly Driving a Suicidal Woman to Her Death Are Deeply Disturbing",
+        "source": "Futurism AI",
+        "summary": "\"I don't want to tell you to hang on if you don't believe it can ever get better.\" The post These Logs of ChatGPT Allegedly Driving a Suicidal Woman to Her Death Are Deeply Disturbing appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/logs-chatgpt-suicidal-woman-death",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/logs-chatgpt-suicidal-user-death.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-s-gpt-5-5-and-codex-reach-general-availab-ceb558cd-jun12",
+        "category": "Developer Tools",
+        "title": "OpenAI's GPT-5.5 and Codex Reach General Availability on Amazon Bedrock",
+        "source": "InfoQ AI",
+        "summary": "OpenAI's GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock, one month after OpenAI revised its exclusive Azure arrangement. Pricing matches OpenAI's direct rates with usage counting toward AWS commitments. Codex shifts to pay-per-token...",
+        "href": "https://www.infoq.com/news/2026/06/openai-frontier-models-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/06/openai-frontier-models-aws/en/headerimage/generatedHeaderImage-1780936908139.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "xai-ships-grok-build-plugin-marketplace-with-mon-0372cc1a-jun12",
+        "category": "Agents",
+        "title": "xAI Ships Grok Build Plugin Marketplace With MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, and Superpowers Plug...",
+        "source": "MarkTechPost",
+        "summary": "Grok Build's in-terminal marketplace bundles skills, agents, hooks, and MCP servers, with commit-SHA verification on every remote plugin. The post xAI Ships Grok Build Plugin Marketplace With MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, and Superpowe...",
+        "href": "https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog15-12.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "xiaomi-s-new-open-source-agentic-ai-coding-harne-20130169-jun12",
+        "category": "Developer Tools",
+        "title": "Xiaomi's new open source, agentic AI coding harness MiMo Code beats Claude Code at ultra-long, 200+ step tasks",
+        "source": "VentureBeat",
+        "summary": "Xiaomi's MiMo AI team has open-sourced MiMo Code V0.1.0 , a terminal-native AI coding assistant that the Chinese electronics giant says outperforms Anthropic's Claude Code on key agentic coding benchmarks, especially on long-horizon, multi-step tasks (200+ st...",
+        "href": "https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/12q7BpuvmPejutBrIyn6sZ/404c467dfe2af6da6c3a0854eb32fc98/Gemini_Generated_Image_fg84xafg84xafg84.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "evaluate-ai-agents-systematically-with-agent-eva-06b27fa5-jun12",
+        "category": "Developer Tools",
+        "title": "Evaluate AI agents systematically with Agent-EvalKit",
+        "source": "AWS Machine Learning",
+        "summary": "Agent-EvalKit is an open-source toolkit (Apache 2.0) that makes this evaluation infrastructure available by integrating with AI coding assistants, including Claude Code, Kiro CLI, and Kilo Code. This post walks through how Agent-EvalKit works across its six e...",
+        "href": "https://aws.amazon.com/blogs/machine-learning/evaluate-ai-agents-systematically-with-agent-evalkit/",
+        "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/11/ml-20590.png",
+        "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "perplexity-moves-deep-research-into-computer-rou-14de5c08-jun12",
+        "category": "Developer Tools",
+        "title": "Perplexity Moves Deep Research Into Computer, Routing Research Subtasks Across 20+ Frontier Models For Reports, Decks,...",
+        "source": "MarkTechPost",
+        "summary": "Deep Research now lives inside Perplexity Computer, breaking hard questions into subtasks and routing across 20+ frontier models. The post Perplexity Moves Deep Research Into Computer, Routing Research Subtasks Across 20+ Frontier Models For Reports, Decks, A...",
+        "href": "https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog15-13.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-bill-that-would-let-jimmy-kimmel-sue-brendan-689ede1f-jun12",
+        "category": "Product Updates",
+        "title": "The bill that would let Jimmy Kimmel sue Brendan Carr is here",
+        "source": "The Verge",
+        "summary": "Under a new bipartisan bill, Americans could sue for damages if a government official illegally tries to coerce a social media, AI, or broadcasting company to remove their post - regardless of whether the platform actually does it. Senate Commerce Committee C...",
+        "href": "https://www.theverge.com/policy/948525/cruz-wyden-jawbone-act-censorship",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25840497/STKP211_BRENDAN_CARR_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-an-agent-built-a-3d-paris-gallery-by-chainin-92ae8342-jun12",
+        "category": "Agents",
+        "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+        "href": "https://huggingface.co/blog/mishig/spaces-agents-md",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/60a551a34ecc5d054c8ad93e/0tamlKpAvO3lZEklNmwHT.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-is-an-llm-gateway-the-missing-layer-between-c72f372e-jun12",
+        "category": "Developer Tools",
+        "title": "What Is an LLM Gateway? The Missing Layer Between Your App and AI Models",
+        "source": "OpenRouter Announcements",
+        "summary": "Without an LLM gateway, provider outages become user-facing errors and AI spend stays opaque. Compare the best options by routing, compliance, and setup time.",
+        "href": "https://openrouter.ai/blog/insights/llm-gateway/",
+        "imageUrl": "assets/news/superhuman-personal-agents.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-urenbank-turns-weeks-of-ux-research-into-a-d-40ed8bbf-jun12",
+        "category": "Agents",
+        "title": "How Urenbank turns weeks of UX research into a day with Fireflies",
+        "source": "Fireflies Blog",
+        "summary": "An innovation specialist at Urenbank stopped following his interview script. Now his UX research synthesis takes less than a day instead of weeks. Here's the workflow.",
+        "href": "https://fireflies.ai/blog/urenbank-fireflies-ux-research/",
+        "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2026/06/toon-quote-card-v2.png",
+        "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "this-ai-tool-builds-polished-presentations-in-se-7afcf390-jun12",
+        "category": "Product Updates",
+        "title": "This AI Tool Builds Polished Presentations in Seconds",
+        "source": "TechRepublic AI",
+        "summary": "PowerPresent AI converts topics, prompts, and documents into polished, export-ready presentations in seconds. The post This AI Tool Builds Polished Presentations in Seconds appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/powerpresent-ai-lifetime-subscription/",
+        "imageUrl": "assets/news/mit-compressm.png",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "from-data-to-decisions-how-lseg-is-scaling-trust-2be94cf7-jun12",
+        "category": "Product Updates",
+        "title": "From data to decisions: how LSEG is scaling trusted AI",
+        "source": "OpenAI Blog",
+        "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+        "href": "https://openai.com/index/lseg",
+        "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "doctors-and-nhs-could-be-sued-for-mistakes-made-6ecc9761-jun12",
+        "category": "Product Updates",
+        "title": "Doctors and NHS could be sued for mistakes made by AI tools, report warns",
+        "source": "The Guardian AI",
+        "summary": "Medical Protection Society calls for law to be overhauled to help medics avoid liability for errors made by technology Doctors and the NHS could be sued for medical negligence over mistakes made by artificial intelligence tools used in diagnosing patients and...",
+        "href": "https://www.theguardian.com/society/2026/jun/09/doctors-nhs-could-be-sued-mistakes-ai-tools-medical-protection-society-report",
+        "imageUrl": "https://i.guim.co.uk/img/media/3966d5c4e13ada2a070dfce14f4467899e5794c3/0_0_6630_5304/master/6630.jpg?width=140&quality=85&auto=format&fit=max&s=2203c3f0a983fc63f7d44d8bbac85caa",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-taps-tcs-to-scale-its-enterprise-ai-de-175e6f47-jun12",
+        "category": "Model Releases",
+        "title": "Anthropic taps TCS to scale its enterprise AI deployments",
+        "source": "TechCrunch",
+        "summary": "The partnership will see TCS creating a business unit focused on deploying Anthropic's AI models to its customers.",
+        "href": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/12/Screenshot-2025-12-09-at-12.11.34-PM.png?resize=1200,673",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "making-secret-scanning-more-trustworthy-reducing-fa257017-jun12",
+        "category": "Developer Tools",
+        "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
+        "source": "GitHub Blog",
+        "summary": "Alerts are more trustworthy and actionable when noise is reduced. See how we improved the verification step with context-aware LLM reasoning. The post Making secret scanning more trustworthy: Reducing false positives at scale appeared first on The GitHub Blog...",
+        "href": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/github-generic-security-blocks-logo.png?fit=1920%2C1080",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "florida-lawsuit-alleges-wrongful-arrest-after-ai-1428e5bf-jun12",
+        "category": "Developer Tools",
+        "title": "Florida lawsuit alleges wrongful arrest after AI facial recognition error",
+        "source": "The Guardian AI",
+        "summary": "Robert Dillon was arrested at home in Florida despite living 300 miles away from where a crime was committed Sign up for the Breaking News US newsletter email A Florida man is suing several law enforcement agencies for his arrest and prosecution for allegedly...",
+        "href": "https://www.theguardian.com/us-news/2026/jun/10/florida-lawsuit-ai-facial-recognition",
+        "imageUrl": "https://i.guim.co.uk/img/media/898e4b6f40778f62f4cdd579b0089ff5df3fef86/612_1574_3618_2893/master/3618.jpg?width=140&quality=85&auto=format&fit=max&s=8c133d263810da65c9be982c245b5828",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "dario-amodei-s-new-essay-reads-like-a-cold-war-p-a7c48b4a-jun12",
+        "category": "Developer Tools",
+        "title": "Dario Amodei's new essay reads like a Cold War playbook for the AI age",
+        "source": "The Decoder",
+        "summary": "Anthropic publishes a sweeping essay and two policy frameworks. The company calls for binding audits of frontier models and paints a picture of AI as a strategic weapon wielded by nation-states. The article Dario Amodei's new essay reads like a Cold War playb...",
+        "href": "https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/Anthropic-Policy-2026.webp",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "bank-of-england-warns-of-ai-scams-as-deepfakes-o-9445908a-jun12",
+        "category": "Developer Tools",
+        "title": "Bank of England warns of AI scams as deepfakes of Farage-Bailey fight spread",
+        "source": "The Guardian AI",
+        "summary": "Governor urges people to report videos on X that falsely show the men clashing in the Question Time studio The Bank of England has warned the public against falling for AI-generated scams after deepfake videos of Nigel Farage fighting its governor spread onli...",
+        "href": "https://www.theguardian.com/business/2026/jun/09/bank-of-england-ai-scams-deepfakes-nigel-farage-andrew-bailey-fight-x-question-time",
+        "imageUrl": "https://i.guim.co.uk/img/media/97573692dff5b00b11ad3a3f1938aae80201903f/1391_125_3808_3046/master/3808.jpg?width=140&quality=85&auto=format&fit=max&s=cfb07284b0d66429e4804aa90d95ac05",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "feature-stores-from-scratch-a-minimal-working-im-a633a8f0-jun12",
+        "category": "Creative AI",
+        "title": "Feature Stores from Scratch: A Minimal Working Implementation",
+        "source": "KDnuggets",
+        "summary": "Build the five components every feature store needs, then see where AI changes the design.",
+        "href": "https://www.kdnuggets.com/feature-stores-from-scratch-a-minimal-working-implementation",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Feature-Stores-Minimal-Implementation-1.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "jinhua-zhao-named-head-of-the-department-of-urba-f4c7cd47-jun12",
+        "category": "Research Workflows",
+        "title": "Jinhua Zhao named head of the Department of Urban Studies and Planning",
+        "source": "MIT News AI",
+        "summary": "An expert in behavioral science and transportation, Zhao combines these studies with AI and public policy to address some of the most urgent challenges facing cities.",
+        "href": "https://news.mit.edu/2026/jinhua-zhao-named-head-department-urban-studies-planning-0611",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/mit-dusp-zhao.jpg?itok=rT3KQlN1",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-11",
     "label": "June 11, 2026",
     "items": [
