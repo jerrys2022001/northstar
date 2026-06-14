@@ -371,6 +371,162 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-14",
+    "label": "June 14, 2026",
+    "items": [
+      {
+        "id": "my-yard-is-dying-so-i-made-an-app-for-that-283c8f53-jun14",
+        "category": "Model Releases",
+        "title": "My yard is dying, so I made an app for that",
+        "source": "The Verge AI",
+        "summary": "When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug. \"~ Channel is unrecoverably broken and will be disposed!\" Sounded bad! But right below it was...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268530_SUMMER_UPGRADE_WEEK_VIBECODING_BACKYARD_ADemidova.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-research-s-gemini-sql2-tops-text-to-sql-b-f58b4c8a-jun14",
+        "category": "Developer Tools",
+        "title": "Google Research's Gemini-SQL2 tops text-to-SQL benchmarks by a wide margin",
+        "source": "The Decoder",
+        "summary": "Google Research's Gemini-SQL2 turns natural language into executable SQL queries. Built on Gemini 3.1 Pro, it tops the BIRD benchmark at 80.04 percent accuracy, well ahead of OpenAI and Anthropic. Google says the technology could improve natural language feat...",
+        "href": "https://the-decoder.com/google-researchs-gemini-sql2-tops-text-to-sql-benchmarks-by-a-wide-margin/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/google_gemini_logo_wall.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "visa-is-connecting-with-chatgpt-to-let-ai-agents-ab380278-jun14",
+        "category": "Agents",
+        "title": "Visa is connecting with ChatGPT to let AI agents automatically make purchases",
+        "source": "Mashable",
+        "summary": "ChatGPT can now search for and buy products on your behalf using Visa.",
+        "href": "https://mashable.com/tech/visa-chatgpt-agents-automatic-purchases",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/05bEED5nCtbgYEqkLIzqPrB/hero-image.fill.size_1200x675.v1781190084.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-is-generative-ai-44a1cde3-jun14",
+        "category": "Developer Tools",
+        "title": "What is generative AI?",
+        "source": "Zapier Blog",
+        "summary": "If you've tried ChatGPT, Microsoft Copilot, Nano Banana, Grok, or any other AI chatbot or image generator, you've used generative AI (also called GenAI). Over the past few years, huge developments in generative AI and computing power have taken these kinds of...",
+        "href": "https://zapier.com/blog/generative-ai",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/7e4sbMzvVGKGsM0roNglRh/31b6db9cf3609e538b83516a5254338a/ai-writing-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-1bc3de8d-jun14",
+        "category": "Developer Tools",
+        "title": "Open model Kimi K2.7 Code undercuts GPT-5.5 and Claude by up to 12x on price per token",
+        "source": "The Decoder",
+        "summary": "Moonshot AI has released Kimi K2.7 Code, an open-weights model with one trillion parameters built for programming. It still trails GPT-5.5 and Claude Opus 4.8 in coding benchmarks but costs a fraction of the price. So the key question isn't whether it's the b...",
+        "href": "https://the-decoder.com/moonshots-open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-claude-by-up-to-12x-on-price-per-token/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/kimi_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-fable-5-outpaces-gpt-5-5-by-13-points-on-d6130fac-jun14",
+        "category": "Developer Tools",
+        "title": "Claude Fable 5 outpaces GPT-5.5 by 13 points on FrontierMath's toughest problems",
+        "source": "The Decoder",
+        "summary": "Anthropic's Claude Fable 5 hits 88 percent accuracy on the hardest FrontierMath tier, a massive jump from Opus 4.5, which sat below 10 percent in early 2026. OpenAI's GPT-5.5 reaches about 75 percent on the same tier. The pace of improvement in AI math keeps...",
+        "href": "https://the-decoder.com/claude-fable-5-outpaces-gpt-5-5-by-13-points-on-frontiermaths-toughest-problems/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/12/ai_in_science_math.jpeg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "olmo-eval-an-evaluation-workbench-for-the-model-80b8efd8-jun14",
+        "category": "Model Releases",
+        "title": "olmo-eval: An evaluation workbench for the model development loop",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: olmo-eval: An evaluation workbench for the model development loop",
+        "href": "https://huggingface.co/blog/allenai/olmo-eval",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/gacAOFYwPkpxu7cC4eeey.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "visa-is-handling-ai-prompted-transactions-for-op-be2e8726-jun14",
+        "category": "Product Updates",
+        "title": "Visa is handling AI-prompted transactions for OpenAI - but can you trust it?",
+        "source": "ZDNet AI",
+        "summary": "A new partnership between Visa and OpenAI takes the next step in AI-led purchasing. Here's what an expert wants you to know.",
+        "href": "https://www.zdnet.com/article/openai-and-visa-aim-to-secure-agentic-transactions-how-theyll-work/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/8a8d806a45d9b36e1b61cd80a8f044140b05fbde/2026/06/12/973b2b5f-9fe4-4f36-97cd-3501a7485674/gettyimages-2222592495-cropped.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "visa-officially-allowing-ai-agents-to-go-ham-wit-89983f9c-jun14",
+        "category": "Agents",
+        "title": "Visa Officially Allowing AI Agents to Go Ham With Your Credit Card",
+        "source": "Futurism AI",
+        "summary": "This will in no way backfire. The post Visa Officially Allowing AI Agents to Go Ham With Your Credit Card appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/visa-allowing-ai-use-credit-card",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/visa-allowing-ai-use-credit-card.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "new-openai-academy-courses-for-the-next-era-of-w-e17db838-jun14",
+        "category": "Agents",
+        "title": "New OpenAI Academy courses for the next era of work",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+        "href": "https://openai.com/index/academy-courses-applying-ai-at-work",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3uhZVST93Uain15J19fqjF/544b8b12c44fb2035c96b419c5196013/Frame.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-s-skillopt-boosts-gpt-5-5-by-using-not-b982666e-jun14",
+        "category": "Developer Tools",
+        "title": "Microsoft's SkillOpt boosts GPT-5.5 by using nothing but a trained Markdown file",
+        "source": "The Decoder",
+        "summary": "Microsoft and three Chinese universities have developed SkillOpt, a method that optimizes instruction documents for AI agents using principles from traditional model training. A simple Markdown file is enough to boost GPT-5.5 by about 23 points on procedural...",
+        "href": "https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/skillopt-markdown-neural-training-nano-banana-pro.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-ai-overviews-legal-risks-raise-new-enterp-0c350e74-jun14",
+        "category": "Developer Tools",
+        "title": "Google AI Overviews Legal Risks Raise New Enterprise Governance Questions",
+        "source": "TechRepublic AI",
+        "summary": "Google AI Overviews are facing legal and regulatory tests as companies consider how employees use AI search for research, compliance, and high-risk decisions. The post Google AI Overviews Legal Risks Raise New Enterprise Governance Questions appeared first on...",
+        "href": "https://www.techrepublic.com/article/news-google-ai-overviews-legal-risks/",
+        "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "amazon-ceo-reportedly-raised-anthropic-model-con-39908d3e-jun14",
+        "category": "Developer Tools",
+        "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+        "source": "TechCrunch",
+        "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+        "href": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1348139958.jpg?resize=1200,767",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "doctors-inject-human-subjects-with-first-vaccine-80faf233-jun14",
+        "category": "Creative AI",
+        "title": "Doctors Inject Human Subjects With First Vaccine Designed by AI",
+        "source": "Futurism AI",
+        "summary": "\"This is a fundamental shift in how we prepare for pandemics.\" The post Doctors Inject Human Subjects With First Vaccine Designed by AI appeared first on Futurism .",
+        "href": "https://futurism.com/health-medicine/doctors-inject-human-ai-vaccine",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/doctors-inject-human-ai-vaccine.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-court-has-ruled-that-google-is-liable-for-fals-0a8062c6-jun14",
+        "category": "Creative AI",
+        "title": "A Court Has Ruled That Google Is Liable for False Statements Generated by AI Overviews",
+        "source": "WIRED AI",
+        "summary": "The ruling holds that a company that designs, trains, operates, and manages an AI system must assume legal liability for any damages caused by the responses it generates.",
+        "href": "https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews/",
+        "imageUrl": "https://media.wired.com/photos/6a2c41ce14f8a13c2f9c4aac/master/pass/googleAI.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-13",
     "label": "June 13, 2026",
     "items": [
