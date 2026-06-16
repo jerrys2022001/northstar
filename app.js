@@ -371,6 +371,112 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-16",
+    "label": "June 16, 2026",
+    "items": [
+      {
+        "id": "z-ai-launches-glm-5-2-with-a-usable-1m-token-con-afcd77dc-jun16",
+        "category": "Developer Tools",
+        "title": "Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Thinking-Effort Levels, and No Benchmarks at Launch",
+        "source": "MarkTechPost",
+        "summary": "Z.ai launched GLM-5.2 on June 13, 2026, across every GLM Coding Plan tier. The headline is a usable 1-million-token context window plus High and Max effort levels. It drops into Claude Code, Cline, and OpenClaw through an Anthropic-compatible endpoint. No ben...",
+        "href": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog19-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-explains-how-claude-builds-its-own-exe-4c8ecff5-jun16",
+        "category": "Developer Tools",
+        "title": "Anthropic Explains How Claude Builds Its Own Execution Harnesses",
+        "source": "InfoQ AI",
+        "summary": "Anthropic has published additional details about the orchestration system behind Claude Code's recently introduced Dynamic Workflows, highlighting how the feature generates custom execution harnesses designed to coordinate teams of AI agents for complex tasks...",
+        "href": "https://www.infoq.com/news/2026/06/claude-code-harnesses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/06/claude-code-harnesses/en/headerimage/generatedHeaderImage-1781555724529.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "github-copilot-cli-for-beginners-overview-of-com-7465511e-jun16",
+        "category": "Developer Tools",
+        "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
+        "source": "GitHub Blog",
+        "summary": "GitHub Copilot CLI for Beginners: Learn how to use slash commands to control your terminal AI agent. The post GitHub Copilot CLI for Beginners: Overview of common slash commands appeared first on The GitHub Blog .",
+        "href": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/06/Episode-3.png",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "kpmg-fabricated-ai-case-studies-in-a-report-desi-c9f53b97-jun16",
+        "category": "Developer Tools",
+        "title": "KPMG fabricated AI case studies in a report designed to sell clients on AI adoption",
+        "source": "The Decoder",
+        "summary": "KPMG published a report on AI in business that contained fabricated case studies involving UBS, the NHS, and other organizations. GPTZero CEO Edward Tian, who helped uncover the errors, warns of \"secondary hallucinations,\" flawed claims from trusted consultin...",
+        "href": "https://the-decoder.com/kpmg-fabricated-ai-case-studies-in-a-report-designed-to-sell-clients-on-ai-adoption/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/kpmg_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "introducing-the-openai-partner-network-888bd1de-jun16",
+        "category": "Product Updates",
+        "title": "Introducing the OpenAI Partner Network",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+        "href": "https://openai.com/index/introducing-openai-partner-network",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4Mmo10RLJ6HIoEmbRe3QPf/4dd23942812b8e483d345607db7bc551/Introducing_OAI_Partner_Network_seo_card.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "emailflow-ai-08fa976e-jun16",
+        "category": "Product Updates",
+        "title": "EmailFlow.AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: EmailFlow.AI",
+        "href": "https://www.producthunt.com/products/emailflow-ai-b2b-lead-generation",
+        "imageUrl": "https://ph-files.imgix.net/611b87f8-5f4d-4342-92a0-6eeed7748962.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ceos-now-being-forced-to-reverse-course-cut-ai-s-9fe19d3c-jun16",
+        "category": "Product Updates",
+        "title": "CEOs Now Being Forced to Reverse Course, Cut AI Spending",
+        "source": "Futurism AI",
+        "summary": "The age of \"tokenmaxxing\" didn't last long. The post CEOs Now Being Forced to Reverse Course, Cut AI Spending appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ceos-reverse-course-ai-spending",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/ceos-reverse-course-ai-spending.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "amazon-and-five-other-companies-reportedly-trigg-fb1052b1-jun16",
+        "category": "Developer Tools",
+        "title": "Amazon and five other companies reportedly triggered the government crackdown on Anthropic's Fable model",
+        "source": "The Decoder",
+        "summary": "Amazon CEO Andy Jassy and executives from other tech companies reportedly warned the Trump administration about security vulnerabilities in Anthropic's Fable model, even though Amazon is one of Anthropic's largest investors. Within hours, the White House forc...",
+        "href": "https://the-decoder.com/amazon-and-five-other-companies-reportedly-triggered-the-government-crackdown-on-anthropics-fable-model/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/white_house_claude-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-use-by-the-us-government-is-ballooning-and-th-c6e77bad-jun16",
+        "category": "Developer Tools",
+        "title": "AI use by the US government is ballooning. And the lack of transparency is troubling | Nathan E Sanders and Bruce Schne...",
+        "source": "The Guardian AI",
+        "summary": "The list of government AI use cases has ballooned by 70% since Biden left office and includes many plans to hand over sensitive governmental functions to AI On 14 April, the Trump administration quietly acknowledged the widespread use of AI to automate govern...",
+        "href": "https://www.theguardian.com/commentisfree/2026/jun/15/ai-use-by-the-us-government-is-ballooning-and-the-lack-of-transparency-is-troubling",
+        "imageUrl": "https://i.guim.co.uk/img/media/863584ddc8ee49c89ddce1df5e7212e503e5fe23/333_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=4f1fbcb4d914c61389c0a793fe707808",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "accelerating-researchers-and-developers-building-7ef2200e-jun16",
+        "category": "Developer Tools",
+        "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
+        "source": "GitHub Blog",
+        "summary": "A new repository-level dataset, published on GitHub under CC0-1.0, helps researchers and developers discover multilingual developer content across READMEs, issues, and pull requests. The post Accelerating researchers and developers building multilingual AI wi...",
+        "href": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo.png",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-14",
     "label": "June 14, 2026",
     "items": [
