@@ -371,6 +371,202 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-17",
+    "label": "June 17, 2026",
+    "items": [
+      {
+        "id": "how-to-transcribe-google-meet-meetings-4-methods-926ce066-jun17",
+        "category": "Model Releases",
+        "title": "How to Transcribe Google Meet Meetings (4 Methods, Including Free Options)",
+        "source": "Fireflies Blog",
+        "summary": "Learn how to transcribe Google Meet meetings with ease using Gemini or Fireflies.ai. Capture, summarize, and share notes effortlessly.",
+        "href": "https://fireflies.ai/blog/how-to-transcribe-google-meet/",
+        "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2025/01/Copy-of-Meeting-etiquette-rules-all-professionals-must-follow---2025-01-30T203700.909.png",
+        "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "free-llm-apis-compared-rate-limits-models-and-re-80aece6b-jun17",
+        "category": "Developer Tools",
+        "title": "Free LLM APIs Compared: Rate Limits, Models, and Real Costs (2026)",
+        "source": "OpenRouter Announcements",
+        "summary": "Stop guessing which free LLM API survives past a side project. Here's how OpenRouter, Groq, Gemini, and 10 more compare on limits, cost, and data use.",
+        "href": "https://openrouter.ai/blog/tutorials/free-llm-apis-compared/",
+        "imageUrl": "assets/news/bright-productivity.svg",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-s-copilot-cowork-moves-to-usage-based-6a6bf6f5-jun17",
+        "category": "Developer Tools",
+        "title": "Microsoft's Copilot Cowork moves to usage-based billing and may tap DeepSeek",
+        "source": "The Decoder",
+        "summary": "Microsoft is weighing a fine-tuned version of Deepseek V4 as a cheaper model option for Copilot Cowork. The company is also switching to usage-based billing, since Copilot head Charles Lamanna says flat-rate pricing isn't sustainable. The move fits a broader...",
+        "href": "https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/microsoft_logo_plain.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "deepseek-takes-outside-money-for-the-first-time-46b9c8a0-jun17",
+        "category": "Developer Tools",
+        "title": "DeepSeek takes outside money for the first time at a $50 billion valuation",
+        "source": "The Decoder",
+        "summary": "Chinese AI startup DeepSeek has raised more than 50 billion yuan - about $7.4 billion - in its first external funding round. The article DeepSeek takes outside money for the first time at a $50 billion valuation appeared first on The Decoder .",
+        "href": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/08/deepseek_logo_wahle_Matrix.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "doj-invokes-national-security-to-defend-xai-s-un-61f9262e-jun17",
+        "category": "Developer Tools",
+        "title": "DOJ invokes national security to defend xAI's unpermitted gas turbines in NAACP lawsuit",
+        "source": "The Decoder",
+        "summary": "US Justice Department calls xAI's chatbot Grok essential to military operations, defending its controversial gas turbines. The article DOJ invokes national security to defend xAI's unpermitted gas turbines in NAACP lawsuit appeared first on The Decoder .",
+        "href": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/SpaceX-IPO.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-pauses-token-based-billing-for-its-cla-e9c3ba9a-jun17",
+        "category": "Agents",
+        "title": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK",
+        "source": "Ars Technica",
+        "summary": "Move originally planned for Monday would have heavily increased power users' costs.",
+        "href": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/02/claude37_header-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-backs-off-unpopular-billing-overhaul-a-9bab0444-jun17",
+        "category": "Developer Tools",
+        "title": "Anthropic backs off unpopular billing overhaul as price war with OpenAI looms",
+        "source": "The Decoder",
+        "summary": "Anthropic has pulled back its planned billing change for the Claude Agent SDK just before launch. Instead of separate credits, the SDK and third-party apps will keep drawing from regular subscription limits. The article Anthropic backs off unpopular billing o...",
+        "href": "https://the-decoder.com/anthropic-backs-off-unpopular-billing-overhaul-as-price-war-with-openai-looms/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/anthropic_logo_wall-1.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meet-qwen-robotsuite-three-embodied-ai-models-fo-87ac48ba-jun17",
+        "category": "Developer Tools",
+        "title": "Meet Qwen-RobotSuite: Three Embodied AI Models for VLA Manipulation, Video World Modeling, and Navigation",
+        "source": "MarkTechPost",
+        "summary": "We break down Qwen-RobotSuite, the Qwen team's three new embodied AI models. We cover RobotManip, a Vision-Language-Action model built on Qwen3.5-4B for manipulation. We cover RobotWorld, a language-conditioned video world model with a 60-layer MMDiT. We cove...",
+        "href": "https://www.marktechpost.com/2026/06/16/meet-qwen-robotsuite-three-embodied-ai-models-for-vla-manipulation-video-world-modeling-and-navigation/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog191-6.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "critical-copilot-vulnerability-allowed-hackers-t-4dabfdd6-jun17",
+        "category": "Developer Tools",
+        "title": "Critical Copilot vulnerability allowed hackers to steal 2FA code from users",
+        "source": "Ars Technica",
+        "summary": "SearchLeak exploit shows why the industry's approach to LLM security fails over and over.",
+        "href": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2242817595-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "salesforce-makes-3-6b-play-for-ai-customer-servi-ad84704c-jun17",
+        "category": "Agents",
+        "title": "Salesforce Makes $3.6B Play for AI Customer Service",
+        "source": "TechRepublic AI",
+        "summary": "Salesforce will buy Fin, formerly Intercom, for about $3.6 billion to expand Agentforce with AI customer service agents and support automation. The post Salesforce Makes $3.6B Play for AI Customer Service appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/news-salesforce-acquires-fin-agentforce-ai-agents/",
+        "imageUrl": "assets/news/perplexity-billion-build.png",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "subagent-let-your-model-delegate-the-busywork-2e5b8b74-jun17",
+        "category": "Agents",
+        "title": "Subagent: Let Your Model Delegate the Busywork",
+        "source": "OpenRouter Announcements",
+        "summary": "The openrouter:subagent server tool lets a frontier model hand off self-contained tasks to a smaller, cheaper, faster worker model mid-generation. Summarize a doc, extract structured data, reformat text, all without burning frontier tokens.",
+        "href": "https://openrouter.ai/blog/announcements/subagent-server-tool/",
+        "imageUrl": "assets/news/superhuman-claude-mythos.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "zapier-pricing-why-zapier-is-a-better-value-than-161f979a-jun17",
+        "category": "Agents",
+        "title": "Zapier pricing: Why Zapier is a better value than Make, n8n, and other automation platforms",
+        "source": "Zapier Blog",
+        "summary": "When evaluating software, pricing is about more than the dollar amount: it's about the return on your investment. One business might fixate on price-per-task, while another might care more about speed to market, reliability, or the ability to scale without hi...",
+        "href": "https://zapier.com/blog/zapier-pricing",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/7sYLMymQDinPKZQS77P4BX/9545150792946dbb3c3d48f0fd18b55a/Zapier_logo.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-is-a-task-in-zapier-everything-to-know-abou-3d9cb6c1-jun17",
+        "category": "Agents",
+        "title": "What is a task in Zapier? Everything to know about Zapier's task-based pricing",
+        "source": "Zapier Blog",
+        "summary": "When my husband and I say we're running to the pet store for \"a few things,\" we both know that's hilariously optimistic. We might go in planning to pick up kibble and maybe refill the treat jar, but there's no way we can resist maxing out our budget on dog to...",
+        "href": "https://zapier.com/blog/what-is-a-task-in-zapier",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/v0GN2Y5xF0Z0WGiTx3Rai/402fb4fa03b3baa59069e09d13601c63/zap-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "consensus-grows-that-china-is-crushing-the-unite-afb125cb-jun17",
+        "category": "Product Updates",
+        "title": "Consensus Grows That China Is Crushing the United States at AI",
+        "source": "Futurism AI",
+        "summary": "Global opinion is starting to turn. The post Consensus Grows That China Is Crushing the United States at AI appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/consensus-china-crushing-usa-ai-survey",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/consensus-china-crushing-usa-ai-survey.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spacex-to-acquire-ai-coding-platform-cursor-for-a954a6db-jun17",
+        "category": "Developer Tools",
+        "title": "SpaceX to acquire AI coding platform Cursor for $60 billion",
+        "source": "Ars Technica",
+        "summary": "Separately, neither could compete. Now they hope they can.",
+        "href": "https://arstechnica.com/ai/2026/06/spacex-will-acquire-coding-tool-cursor-to-compete-with-anthropic-openai/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Cursor-1152x648-1781627048.png",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spacex-buys-ai-coding-startup-cursor-for-60-bill-b78278c1-jun17",
+        "category": "Developer Tools",
+        "title": "SpaceX buys AI coding startup Cursor for $60 billion",
+        "source": "Fast Company AI",
+        "summary": "Cursor, made by San Francisco startup Anysphere, is a popular AI coding assistant.",
+        "href": "https://www.fastcompany.com/91560594/spacex-cursor-acquisition-vibe-coding?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=06172026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/AP26161664772635.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-new-siri-makes-one-of-apple-s-most-convenien-a49c4e25-jun17",
+        "category": "Product Updates",
+        "title": "The new Siri makes one of Apple's most convenient OS features a cumbersome mess",
+        "source": "The Register AI",
+        "summary": "Goodbye, useful Spotlight; hello force-fed Apple intelligence bloatware that feels distressingly like Google AI Overviews",
+        "href": "https://www.theregister.com/ai-and-ml/2026/06/16/the-new-siri-makes-one-of-apples-most-convenient-os-features-a-cumbersome-mess/5256591",
+        "imageUrl": "https://image.theregister.com/?imageId=4093949&width=800",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "my-father-wants-to-age-in-place-ai-will-be-watch-f65bb40e-jun17",
+        "category": "Product Updates",
+        "title": "My Father Wants to Age in Place. AI Will Be Watching",
+        "source": "WIRED AI",
+        "summary": "Devices that monitor seniors for safety are appealing to worried loved ones and underresourced home care agencies.",
+        "href": "https://www.wired.com/story/sensi-ai-seniors-home-care-aging-in-place/",
+        "imageUrl": "https://media.wired.com/photos/6a20764c9e9ae62de4e328fc/master/pass/Sensi_housePillar.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-roadmap-to-becoming-an-llm-engineer-in-2026-10dcf816-jun17",
+        "category": "Model Releases",
+        "title": "The Roadmap to Becoming an LLM Engineer in 2026",
+        "source": "KDnuggets",
+        "summary": "A step-by-step path through the skills that turn a machine learning practitioner into someone who ships large language model applications.",
+        "href": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-llm-engineer-in-2026",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-the-roadmap-to-becoming-an-llm-engineer-in-2026-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-16",
     "label": "June 16, 2026",
     "items": [
