@@ -371,6 +371,282 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-18",
+    "label": "June 18, 2026",
+    "items": [
+      {
+        "id": "ten-months-later-the-100-google-home-speaker-is-d5d96b8b-jun18",
+        "category": "Model Releases",
+        "title": "Ten months later, the $100 Google Home Speaker is finally available for preorder",
+        "source": "Ars Technica",
+        "summary": "Google's new smart speaker is more about Gemini than audio quality.",
+        "href": "https://arstechnica.com/google/2026/06/the-gemini-powered-google-home-speaker-arrives-on-june-25-for-100/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-Jade-copy-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-bets-on-gemini-to-reinvent-the-smart-home-116c37f2-jun18",
+        "category": "Model Releases",
+        "title": "Google bets on Gemini to reinvent the smart home speaker",
+        "source": "TechCrunch",
+        "summary": "Google is betting generative AI can breathe new life into the smart speaker. The company's new $99.99 Google Home Speaker replaces the rigid commands of the Google Assistant era with more conversational Gemini interactions.",
+        "href": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/Google-Home-Speaker-Berry.jpeg?resize=1200,899",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "deepseek-reportedly-wont-be-banned-in-u-s-for-no-df468ad4-jun18",
+        "category": "Product Updates",
+        "title": "DeepSeek reportedly wont be banned in U.S. (for now)",
+        "source": "Mashable",
+        "summary": "DeepSeek is available in the U.S. for now, the U.S. government reportedly holding off on banning the Chinese AI company.",
+        "href": "https://mashable.com/tech/deepseek-ai-us-ban-entity-list",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/07jlpDJ6Hk2ACWAKJU5SjED/hero-image.fill.size_1200x675.v1781685420.png",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "zhipu-ai-s-glm-5-2-closes-in-on-closed-source-le-bcfd9e6c-jun18",
+        "category": "Developer Tools",
+        "title": "Zhipu AI's GLM-5.2 closes in on closed-source leaders in coding marathons",
+        "source": "The Decoder",
+        "summary": "Chinese AI lab Zhipu AI releases GLM-5.2 with a stable 1-million-token context under the MIT license. On FrontierSWE, a benchmark for hours-long coding tasks, the open-source model trails Anthropic's Claude Opus 4.8 by just one percentage point. On reasoning,...",
+        "href": "https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/zhipu-ai-logo-wall-nano-banana-pro.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-ships-major-claude-design-overhaul-wit-95a26897-jun18",
+        "category": "Developer Tools",
+        "title": "Anthropic ships major Claude Design overhaul with design system imports, code round-trips, and a fix for its token-burn...",
+        "source": "VentureBeat",
+        "summary": "When Anthropic quietly released Claude Design in April as a \" research preview ,\" it generated the kind of instant traction most product teams dream about: more than one million users in its first week. It also generated a problem. The tool consumed tokens so...",
+        "href": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/A7rh9k4f5l3OFsViB4gjc/8c1c2679504faa38007e3e334377755f/image__1___1_.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "github-copilot-desktop-app-targets-parallel-agen-7627069f-jun18",
+        "category": "Developer Tools",
+        "title": "GitHub Copilot Desktop App Targets Parallel Agentic Workflows",
+        "source": "InfoQ AI",
+        "summary": "GitHub has introduced the GitHub Copilot app, a desktop control centre for agent-native development that aims to keep engineers in charge while AI agents handle more coding work. Mario Rodriguez writes on the GitHub blog that the recent wave of coding agents...",
+        "href": "https://www.infoq.com/news/2026/06/github-copilot-app/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/06/github-copilot-app/en/headerimage/generatedHeaderImage-1781650188827.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "getting-more-from-each-token-how-copilot-improve-45a22139-jun18",
+        "category": "Developer Tools",
+        "title": "Getting more from each token: How Copilot improves context handling and model routing",
+        "source": "GitHub Blog",
+        "summary": "How GitHub Copilot is making more of each session go toward useful work, so your credits go further. The post Getting more from each token: How Copilot improves context handling and model routing appeared first on The GitHub Blog .",
+        "href": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "agentic-resource-discovery-let-agents-search-da3c8166-jun18",
+        "category": "Agents",
+        "title": "Agentic Resource Discovery: Let agents search",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Agentic Resource Discovery: Let agents search",
+        "href": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+        "imageUrl": "https://huggingface.co/blog/assets/agentic-resource-discovery-launch/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "connect-brighthire-to-the-rest-of-your-hiring-wo-9bf5acc4-jun18",
+        "category": "Agents",
+        "title": "Connect BrightHire to the rest of your hiring workflow",
+        "source": "Zapier Blog",
+        "summary": "An interview isn't one task. Now that BrightHire connects with Zapier, teams can automate more of the work around it. Before an interview starts, the team needs the right candidate, position, and schedule records in place. After it ends, the team needs the no...",
+        "href": "https://zapier.com/blog/brighthire-zapier-integration",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/4kn47UsLL6xi3TUzMJAlvH/66409b6bb13af859a9079672438fc792/brighthire-zapier-email-hero.png",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cloud-environment-setup-and-cloud-subagents-in-a-1ad1e012-jun18",
+        "category": "Agents",
+        "title": "Cloud Environment Setup and Cloud Subagents in Agents Window",
+        "source": "Cursor Changelog",
+        "summary": "This release introduces updates to cloud agents in the Agents Window of the Cursor desktop app.",
+        "href": "https://cursor.com/changelog/cloud-in-agents-window",
+        "imageUrl": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/changelog/opengraph-changelog-june-17-2026.png",
+        "excerpt": "Radar signal: Cursor Changelog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-zapier-can-minimize-your-ai-spend-8fd3ee53-jun18",
+        "category": "Creative AI",
+        "title": "How Zapier can minimize your AI spend",
+        "source": "Zapier Blog",
+        "summary": "You ever watch a hot dog eating contest? It's impressive to see someone wolf down five franks per minute, but you just know the stomach pains are coming. This is the image that comes to mind when I hear about companies tracking how many AI tokens their employ...",
+        "href": "https://zapier.com/blog/minimize-ai-spend",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/5RP612yyhLnW36nnewrVye/126f5187d63a1dc72802e9c64766aabb/Hero__App_tips__-icon-.png",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spacex-to-acquire-vibe-coding-startup-cursor-for-c2dd6461-jun18",
+        "category": "Developer Tools",
+        "title": "SpaceX to acquire vibe coding startup Cursor for $60B",
+        "source": "SiliconANGLE AI",
+        "summary": "Newly public SpaceX Corp. today announced plans to acquire Cursor, the developer of a popular vibe coding platform, for $60 billion in stock. The companies expect to close the transaction by the end of the quarter. The move is not unexpected. In April, SpaceX...",
+        "href": "https://siliconangle.com/2026/06/16/spacex-acquire-vibe-coding-startup-cursor-60b/",
+        "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/Unsplash-1.jpg",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "could-ai-tell-you-where-you-left-your-keys-0dc90b9f-jun18",
+        "category": "Product Updates",
+        "title": "Could AI tell you where you left your keys?",
+        "source": "MIT News AI",
+        "summary": "A new spatial memory system for robots efficiently captures details about the objects they see while exploring their environment.",
+        "href": "https://news.mit.edu/2026/could-ai-tell-you-where-you-left-your-keys-0617",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/MIT-DescribeAnything-01-press.jpg?itok=RxMov68e",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "as-g7-wraps-openai-and-anthropic-meet-with-world-c49a861a-jun18",
+        "category": "Product Updates",
+        "title": "As G7 wraps, OpenAI and Anthropic meet with world leaders to discuss the future of AI",
+        "source": "Fast Company AI",
+        "summary": "Sam Altman, Demis Hassabis, and Dario Amodei are attending talks with Trump and other leaders regarding artificial intelligence.",
+        "href": "https://www.fastcompany.com/91561045/g7-wraps-openai-anthropic-meet-world-leaders-discuss-future-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=06182026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/AP26167793471446.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-becomes-first-ai-startup-to-join-the-f-9e40b3fd-jun18",
+        "category": "Product Updates",
+        "title": "Anthropic becomes first AI startup to join the Frontier carbon removal coalition",
+        "source": "TechCrunch",
+        "summary": "Anthropic has joined the Frontier coalition, which received another $915M in pledges to fund carbon removal projects.",
+        "href": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-can-stop-the-next-financial-crisis-before-it-6b4da95e-jun18",
+        "category": "Product Updates",
+        "title": "AI can stop the next financial crisis before it starts",
+        "source": "Fast Company AI",
+        "summary": "Artificial intelligence can make the system safer, surfacing insights not seen with traditional metrics.",
+        "href": "https://www.fastcompany.com/91560395/ai-can-stop-the-next-financial-crisis-before-it-starts?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=06182026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/INC-Masters-Fast-Company-publishing-2026-06-16T085529.286.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-white-house-wants-anthropic-to-block-all-jai-7f7f3ec6-jun18",
+        "category": "Model Releases",
+        "title": "The White House Wants Anthropic to Block All Jailbreaks. That May Not Be Possible",
+        "source": "WIRED AI",
+        "summary": "Trump administration officials tell WIRED that if Anthropic wants to rerelease Fable 5, it will need to ensure the model's guardrails can't be circumvented. Security experts say that can't be done.",
+        "href": "https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/",
+        "imageUrl": "https://media.wired.com/photos/6a31d49a95ac419546b42eb7/master/pass/politics_white_house_anthropic.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "predicting-model-behavior-before-release-by-simu-b387731f-jun18",
+        "category": "Model Releases",
+        "title": "Predicting model behavior before release by simulating deployment",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+        "href": "https://openai.com/index/deployment-simulation",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4nRyRNS5bPvePGSTz5xlQE/ea4b18c80061d14d480d6a20d57a14eb/SEO_Card.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "introducing-lifescibench-0088b664-jun18",
+        "category": "Model Releases",
+        "title": "Introducing LifeSciBench",
+        "source": "OpenAI Blog",
+        "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+        "href": "https://openai.com/index/introducing-life-sci-bench",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1trh6KslZ4XaGmEYHQVoDP/e4a6d9910ef9025bfbe5bed00cf0ae42/LifeSciBench_16x9.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "mcp-2000-67dd4fe7-jun18",
+        "category": "Agents",
+        "title": "MCP 2000",
+        "source": "producthunt",
+        "summary": "producthunt reported: MCP 2000",
+        "href": "https://www.producthunt.com/products/mcp-2000",
+        "imageUrl": "https://ph-files.imgix.net/eefda904-d09b-4d43-90a5-4b7ee070c3ef.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "bland-raises-50m-to-automate-complex-high-stakes-a0f3cbc9-jun18",
+        "category": "Agents",
+        "title": "Bland raises $50M to automate complex, high-stakes phone calls",
+        "source": "SiliconANGLE AI",
+        "summary": "Voice artificial intelligence startup Bland today revealed that it has raised $50 million in new funding to expand its research, grow its engineering team and scale its platform into more regulated industries. Founded in 2023, Bland builds AI agents that hand...",
+        "href": "https://siliconangle.com/2026/06/16/bland-raises-50m-automate-complex-high-stakes-phone-calls/",
+        "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/bland.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-researchers-want-to-predict-how-often-ai-284c4c2c-jun18",
+        "category": "Developer Tools",
+        "title": "OpenAI researchers want to predict how often AI models will fail before launch",
+        "source": "The Decoder",
+        "summary": "OpenAI researchers propose a method for predicting how often a new AI model will make mistakes after release. It could fill gaps left by standard safety testing. The article OpenAI researchers want to predict how often AI models will fail before launch appear...",
+        "href": "https://the-decoder.com/openai-researchers-want-to-predict-how-often-ai-models-will-fail-before-launch/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/openai_chatgpt.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "limitless-labs-lands-20m-to-build-ai-agents-for-4fb353c4-jun18",
+        "category": "Developer Tools",
+        "title": "Limitless Labs lands $20M to build AI agents for precision manufacturing",
+        "source": "SiliconANGLE AI",
+        "summary": "Limitless Labs, operating as LimitlessCNC Ltd., today announced it has raised $20 million in early-stage funding to support agentic artificial intelligence in computer-aided manufacturing. Dell Technologies Capital and Square Peg co-led the Series A funding r...",
+        "href": "https://siliconangle.com/2026/06/16/limitless-labs-lands-20m-build-ai-agents-precision-manufacturing/",
+        "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/Limitless-Labs-CAM-Agent-in-action.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-and-why-i-built-an-ai-assistant-2d089374-jun18",
+        "category": "Developer Tools",
+        "title": "How (and Why) I Built an AI Assistant",
+        "source": "KDnuggets",
+        "summary": "This article is an honest account of the process on why I built a custom AI assistant instead of just paying for one, what the architecture looks like, the actual code, what broke, and what it does now that I genuinely rely on.",
+        "href": "https://www.kdnuggets.com/how-and-why-i-built-an-ai-assistant",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-how-and-why-i-built-an-ai-assistant-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-got-hit-by-export-rules-nobody-underst-f5aa4b91-jun18",
+        "category": "Developer Tools",
+        "title": "Anthropic got hit by export rules nobody understands",
+        "source": "The Verge AI",
+        "summary": "Anthropic has spent much of this week fighting to get its newest AI models back online after the Trump administration abruptly ordered the company to cut access for all foreign nationals, including users inside the US and its own employees, forcing Anthropic...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_2_A_3800fc.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-had-a-blood-clot-an-ai-diagnosis-may-have-save-186a1100-jun18",
+        "category": "Policy",
+        "title": "I had a blood clot. An AI diagnosis may have saved my life | Gleb Tsipursky",
+        "source": "The Guardian AI",
+        "summary": "An AI tool is no replacement for a doctor, and regulation is essential. But together, physicians and AI could prove beneficial A calf cramp should not be a brush with death. Mine almost was. For five days, I had what felt like a stubborn muscle spasm in my le...",
+        "href": "https://www.theguardian.com/commentisfree/2026/jun/17/blood-clot-dvt-ai-diagnosis",
+        "imageUrl": "https://i.guim.co.uk/img/media/1462c6f7c323a2617d16ea15270704d2b3040961/583_0_2917_2333/master/2917.jpg?width=140&quality=85&auto=format&fit=max&s=4b600d3c080b54b6febf1286abd4fd16",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "vsco-launches-studio-pro-mobile-photo-editing-ap-dbc0d347-jun18",
+        "category": "Creative AI",
+        "title": "VSCO launches Studio Pro mobile photo editing app and plans $500 per year subscription",
+        "source": "The Verge",
+        "summary": "VSCO is taking on Adobe with a new Studio Pro editing app rolling out today on iOS and coming to macOS later this year, as Bloomberg reports. At launch, the app offers tools for batch editing, style matching from a reference image, and sharing images through...",
+        "href": "https://www.theverge.com/tech/951863/vsco-studio-pro-vsco-one-subscription",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/VSCO-Studio-Pro-Hero-Visual.png?quality=90&strip=all&crop=60.840002441406,83.860457035476,0,0",
+        "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-17",
     "label": "June 17, 2026",
     "items": [
