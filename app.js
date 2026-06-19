@@ -371,6 +371,262 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-19",
+    "label": "June 19, 2026",
+    "items": [
+      {
+        "id": "i-put-siri-ai-through-the-same-tests-i-use-for-c-b29d2b0a-jun19",
+        "category": "Model Releases",
+        "title": "I put Siri AI through the same tests I use for ChatGPT and Gemini on MacOS 27 - here's how it did",
+        "source": "ZDNet AI",
+        "summary": "I tried the new Siri on my Mac, and although it's off to a promising start, Apple still has more work to do.",
+        "href": "https://www.zdnet.com/article/new-siri-ai-apple-intelligence-test-on-mac/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/a5b15dc21beb919913703608ab40bb022463420e/2026/06/16/081d258e-8966-4b42-88c5-4b0d25f63fda/figure-top-i-tried-chatting-with-the-new-siri-ai-on-my-mac-heres-how-it-faired.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-s-gemini-co-lead-noam-shazeer-joins-opena-fb823726-jun19",
+        "category": "Developer Tools",
+        "title": "Google's Gemini co-lead Noam Shazeer joins OpenAI after two-year return stint",
+        "source": "The Decoder",
+        "summary": "Noam Shazeer, co-author of the landmark \"Attention Is All You Need\" paper and former co-lead of Google's Gemini models, is joining OpenAI. He only returned to Google from Character.AI in 2024 as part of a $2.7 billion deal. After Karpathy's move to Anthropic,...",
+        "href": "https://the-decoder.com/googles-gemini-co-lead-noam-shazeer-joins-openai-after-two-year-return-stint/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/google_logo_wall.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "adobe-embeds-agentic-ai-workflows-across-creativ-eb89fc6a-jun19",
+        "category": "Developer Tools",
+        "title": "Adobe embeds agentic AI workflows across Creative Cloud, shifting from media generation to production orchestration",
+        "source": "VentureBeat",
+        "summary": "Adobe has announced a major expansion of its \"creative agent\" across its flagship Creative Cloud suite and upgraded Firefly AI studio. Available in public beta starting today across Premiere Pro, Photoshop, Illustrator, InDesign, and Frame.io, the agent is de...",
+        "href": "https://venturebeat.com/orchestration/adobe-embeds-agentic-ai-workflows-across-creative-cloud-shifting-from-media-generation-to-production-orchestration",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/CRblDVbL1kQ1uEVW35sEq/ad7b269e284b5c73782b5d4934b93c2c/ChatGPT_Image_Jun_18__2026__10_30_55_AM.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "adobe-adds-its-ai-assistant-to-premiere-illustra-da2a1e54-jun19",
+        "category": "Creative AI",
+        "title": "Adobe adds its AI assistant to Premiere, Illustrator and InDesign",
+        "source": "TechCrunch",
+        "summary": "Adobe is updating its Firefly AI assistant with new chops, and adding it to Premiere, Illustrator, InDesign and Frame.io.",
+        "href": "https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/Firefly-Creative-AI-Assistant-16x9-1.jpeg?resize=1200,526",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-s-claude-code-artifacts-update-brings-9c8ef201-jun19",
+        "category": "Developer Tools",
+        "title": "Anthropic's Claude Code Artifacts update brings live, shared dashboards and interactive workspaces to enterprises",
+        "source": "VentureBeat",
+        "summary": "Anthropic announced a potentially game-changing new feature for users of Claude Code on the Claude Team and Enterprise subscription plans: Artifacts . This update turns a Claude Code session's work into a live, interactive, and shareable, custom HTML webpage,...",
+        "href": "https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/2rGZZLXFe3kRoiPC50Ycwv/a32853493a91cece13baf19f06f38fbb/ChatGPT_Image_Jun_18__2026__07_12_17_PM.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-brings-artifacts-to-claude-code-lettin-dcdec8bd-jun19",
+        "category": "Developer Tools",
+        "title": "Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions",
+        "source": "The Decoder",
+        "summary": "Claude Code can now turn work results into interactive web pages called \"artifacts\" and share them with your team. The pages pull from the full session context, update automatically when something changes, and keep a version history. The article Anthropic bri...",
+        "href": "https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/claude_code_artifcats-scaled.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "alibaba-cloud-bets-on-france-as-europe-seeks-mor-2bbba738-jun19",
+        "category": "Product Updates",
+        "title": "Alibaba Cloud Bets on France as Europe Seeks More Control Over AI",
+        "source": "TechRepublic AI",
+        "summary": "Alibaba Cloud opened two Paris availability zones as European enterprises weigh data sovereignty, resilience, and AI infrastructure needs. The post Alibaba Cloud Bets on France as Europe Seeks More Control Over AI appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/news-alibaba-cloud-ai-sovereignty-emea-france/",
+        "imageUrl": "assets/news/fallback-ai-datacenter-aerial.jpg",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "copilot-searched-your-mailbox-litellm-handed-out-ec31fab9-jun19",
+        "category": "Developer Tools",
+        "title": "Copilot searched your mailbox. LiteLLM handed out admin keys. Run this 5-check audit before your stack is next",
+        "source": "VentureBeat",
+        "summary": "Two AI tools broke in the same way in the same two weeks, and four research teams proved it. The pattern underneath every disclosure is one sentence: enterprise AI accepts external input with no trust boundary. On June 15, Varonis disclosed SearchLeak (CVE-20...",
+        "href": "https://venturebeat.com/security/copilot-searched-your-mailbox-litellm-handed-out-admin",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/599hDEEWXHzpIDiNVQFFsc/069254d665cc4a88ccee32f955648c72/hero.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "charles-lamanna-is-moving-microsoft-copilot-beyo-ba97dbca-jun19",
+        "category": "Developer Tools",
+        "title": "Charles Lamanna is moving Microsoft Copilot beyond chat",
+        "source": "Fast Company AI",
+        "summary": "With Copilot Cowork, he wants workers to delegate complex office tasks to AI agents that can use Excel, Outlook, and other Microsoft 365 tools.",
+        "href": "https://www.fastcompany.com/91550785/charles-lamanna-is-moving-microsoft-copilot-beyond-chat?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=12&partner=newsletter&campaign_date=06192026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91550785-charles-lamanna-is-moving-microsoft-copilot-beyond-chat.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "from-the-hugging-face-hub-to-robot-hardware-with-c7b6e0d1-jun19",
+        "category": "Agents",
+        "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+        "href": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6a1dc0f2b4238bb17ff94794/qvSGZ0tZsgr4U4BCx_bVX.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "molmomotion-language-guided-3d-motion-forecastin-07c125a3-jun19",
+        "category": "Developer Tools",
+        "title": "MolmoMotion: Language-guided 3D motion forecasting",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: MolmoMotion: Language-guided 3D motion forecasting",
+        "href": "https://huggingface.co/blog/allenai/molmomotion",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/wdq3AFZcDZAekGTb16VDy.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "connect-openclaw-to-openrouter-41d03837-jun19",
+        "category": "Agents",
+        "title": "Connect OpenClaw to OpenRouter",
+        "source": "OpenRouter Announcements",
+        "summary": "OpenClaw has built-in OpenRouter support. One command gives your agents one key, one bill, and automatic failover across 300+ models. Here's the setup and the fixes for the errors that trip people up.",
+        "href": "https://openrouter.ai/blog/tutorials/openclaw-openrouter/",
+        "imageUrl": "assets/news/bright-safety.svg",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "midjourney-known-for-ai-image-generation-unveils-866909d9-jun19",
+        "category": "Developer Tools",
+        "title": "Midjourney, known for AI image generation, unveils a full-body ultrasound scanner and its own spa",
+        "source": "The Decoder",
+        "summary": "Rumors about Midjourney hardware have circulated for years, but nobody saw this coming. The AI image startup is building a full-body ultrasound scanner and opening its own spa in San Francisco to house it. The article Midjourney, known for AI image generation...",
+        "href": "https://the-decoder.com/midjourney-known-for-ai-image-generation-unveils-a-full-body-ultrasound-scanner-and-its-own-spa/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/Midjourney-Medical-title-scaled.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "kilo-code-openrouter-setup-model-routing-and-fre-5b7c1c3d-jun19",
+        "category": "Developer Tools",
+        "title": "Kilo Code + OpenRouter: Setup, Model Routing, and Free Models",
+        "source": "OpenRouter Announcements",
+        "summary": "Kilo Code is a bring-your-own-provider coding agent, so adding OpenRouter gives it one key for 300+ models, provider routing, and failover. Here's the three-step setup plus the kilo.json fields that control routing.",
+        "href": "https://openrouter.ai/blog/tutorials/kilo-code-openrouter/",
+        "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "midjourney-is-working-on-an-full-body-ultrasonic-9cadc891-jun19",
+        "category": "Creative AI",
+        "title": "Midjourney is working on an full-body ultrasonic scanner. For real.",
+        "source": "Mashable",
+        "summary": "Midjourney, the company known for its AI-based image generator, is developing a full-body ultrasonic scanner.",
+        "href": "https://mashable.com/life/midjourney-mri-scanner-full-body",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/01uxUTcQhZj1y71AbzqtXX3/hero-image.fill.size_1200x675.v1781771860.png",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ploy-ai-766417b8-jun19",
+        "category": "Product Updates",
+        "title": "Ploy.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: Ploy.ai",
+        "href": "https://www.producthunt.com/products/ploy-ai",
+        "imageUrl": "https://ph-files.imgix.net/21463a3f-92cf-4143-a808-40512638e5c9.jpeg?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "daniel-danker-on-how-walmart-solves-customer-pro-144fe1b4-jun19",
+        "category": "Product Updates",
+        "title": "Daniel Danker on how Walmart solves customer problems with AI",
+        "source": "Fast Company AI",
+        "summary": "The retail giant executive is bringing AI to shopping, store operations, Scan & Go, and behind-the-scenes logistics.",
+        "href": "https://www.fastcompany.com/91550771/daniel-danker-on-how-walmart-solves-customer-problems-with-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=8&partner=newsletter&campaign_date=06192026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91550771-daniel-danker-on-how-walmart-solves-customer-problems-with-ai.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-near-autonomous-ai-chemist-improves-a-challeng-1a8cd099-jun19",
+        "category": "Model Releases",
+        "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+        "href": "https://openai.com/index/ai-chemist-improves-reaction",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4NBFdbusKgYSDZQu73MAR9/2f84206eba72f43384d4bb005b97f8c3/molecule-one-SEO-Card.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "shimon-elkabetz-wants-weather-forecasts-to-make-f95d636b-jun19",
+        "category": "Agents",
+        "title": "Shimon Elkabetz wants weather forecasts to make better decisions",
+        "source": "Fast Company AI",
+        "summary": "Tomorrow.io uses satellites, customer data, and agentic AI to help companies and cities act before severe weather hits.",
+        "href": "https://www.fastcompany.com/91550787/shimon-elkabetz-wants-weather-forecasts-to-make-better-decisions?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=13&partner=newsletter&campaign_date=06192026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91550787-shimon-elkabetz-wants-weather-forecasts-to-make-better-decisions.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-releases-lifescibench-a-750-task-benchmar-871d1ab9-jun19",
+        "category": "Agents",
+        "title": "OpenAI Releases LifeSciBench, a 750-Task Benchmark Grading AI Models on Real Life-Science Research With Expert-Written...",
+        "source": "MarkTechPost",
+        "summary": "OpenAI's LifeSciBench evaluates whether frontier AI can handle real life-science research across 750 expert-authored tasks, seven workflows, and seven biological domains. Built by 173 PhD scientists with 19,020 rubric criteria, it grades reasoning and decisio...",
+        "href": "https://www.marktechpost.com/2026/06/17/openai-releases-lifescibench-a-750-task-benchmark-grading-ai-models-on-real-life-science-research-with-expert-written-rubric/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog1912-1024x731.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cameron-stanley-is-pushing-the-pentagon-to-becom-e1127a3b-jun19",
+        "category": "Agents",
+        "title": "Cameron Stanley is pushing the Pentagon to become AI-first",
+        "source": "Fast Company AI",
+        "summary": "The Defense Department official is accelerating agentic AI across military operations, from back-office workflows to battlefield decision-making.",
+        "href": "https://www.fastcompany.com/91550791/cameron-stanley-is-pushing-the-pentagon-to-become-ai-first?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=14&partner=newsletter&campaign_date=06192026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-91550791-cameron-stanley-is-pushing-the-pentagon-to-become-ai-first.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "yann-lecun-warns-ai-labs-like-openai-and-anthrop-9e5d7789-jun19",
+        "category": "Developer Tools",
+        "title": "Yann LeCun warns AI labs like OpenAI and Anthropic face a \"big bubble explosion\"",
+        "source": "The Decoder",
+        "summary": "According to Yann LeCun, AI labs like OpenAI and Anthropic are heading for a \"big bubble explosion\": Their operations are effectively subsidized by investors, and operating costs aren't dropping fast enough, he says. LeCun's criticism isn't entirely selfless:...",
+        "href": "https://the-decoder.com/yann-lecun-warns-ai-labs-like-openai-and-anthropic-face-a-big-bubble-explosion/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2023/01/yann_le_cun_flickr_cc_licence.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cop-accused-of-using-ai-to-fake-evidence-159afc79-jun19",
+        "category": "Developer Tools",
+        "title": "Cop Accused of Using AI to Fake Evidence",
+        "source": "Futurism AI",
+        "summary": "The officer allegedly used AI to \"create evidential material in a number of cases.\" The post Cop Accused of Using AI to Fake Evidence appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/cop-ai-fake-evidence-uk",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/dirty-cop-using-ai-fake-evidence-uk.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-is-bringing-on-some-big-guns-in-the-lead-385c00c9-jun19",
+        "category": "Policy",
+        "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+        "source": "TechCrunch",
+        "summary": "OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.",
+        "href": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/noam-shazeer-deal-ball.png?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "elizabeth-minor-wants-humans-to-stay-in-control-60e59253-jun19",
+        "category": "Policy",
+        "title": "Elizabeth Minor wants humans to stay in control of AI weapons",
+        "source": "Fast Company AI",
+        "summary": "As head of policy at Stop Killer Robots, she is pushing for international rules to limit autonomous weapons before they become normalized in war.",
+        "href": "https://www.fastcompany.com/91550779/elizabeth-minor-wants-humans-to-stay-in-control-of-ai-weapons?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=10&partner=newsletter&campaign_date=06192026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91550779-elizabeth-minor-wants-humans-to-stay-in-control-of-ai-weapons.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-18",
     "label": "June 18, 2026",
     "items": [
