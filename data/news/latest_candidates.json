@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-06-19T01:51:58+00:00",
-  "digestDate": "2026-06-19",
+  "updatedAt": "2026-06-20T00:34:55+00:00",
+  "digestDate": "2026-06-20",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-06-16T09:50:06+08:00",
-  "windowEnd": "2026-06-19T09:50:06+08:00",
+  "windowStart": "2026-06-17T08:33:03+08:00",
+  "windowEnd": "2026-06-20T08:33:03+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -248,9 +248,202 @@
   ],
   "items": [
     {
-      "id": "anthropic-s-claude-code-artifacts-update-brings-9c8ef201-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "vibethinker-3b-a-3b-dense-reasoning-model-built-2c96c2cb-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Developer Tools",
+      "title": "VibeThinker-3B: A 3B Dense Reasoning Model Built on Qwen2.5-Coder-3B With the Spectrum-to-Signal Post-Training Pipeline",
+      "source": "MarkTechPost",
+      "summary": "VibeThinker-3B, a 3B MIT-licensed reasoning model matching DeepSeek V3.2 and Kimi K2.5 on verifiable benchmarks. The post VibeThinker-3B: A 3B Dense Reasoning Model Built on Qwen2.5-Coder-3B With the Spectrum-to-Signal Post-Training Pipeline appeared first on...",
+      "href": "https://www.marktechpost.com/2026/06/19/vibethinker-3b-a-3b-dense-reasoning-model-built-on-qwen2-5-coder-3b-with-the-spectrum-to-signal-post-training-pipeline/",
+      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-at-3.07.21-PM-1.png",
+      "publishedAt": "2026-06-19T22:06:31+00:00",
+      "toolIds": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "7-000-langflow-servers-are-under-attack-langgrap-f0b9eafe-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Developer Tools",
+      "title": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
+      "source": "VentureBeat",
+      "summary": "Your AI agent did exactly what it was designed to do. The framework underneath it just handed an attacker a shell on the box that holds your OpenAI key, your database credentials, and your CRM tokens. That is not a hypothetical. In a few months, three of the...",
+      "href": "https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes",
+      "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5CFo8mBoW1WjItcZvYyHpg/3172659c88b4856fe7137de54672ab16/hero.png?w=300&q=30",
+      "publishedAt": "2026-06-19T21:14:19+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "openrouter-vs-portkey-which-llm-gateway-for-your-4abadba8-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Developer Tools",
+      "title": "OpenRouter vs Portkey: Which LLM Gateway for Your Team?",
+      "source": "OpenRouter Announcements",
+      "summary": "OpenRouter routes across providers on credits you buy; Portkey governs the provider keys you already have. Here's how they compare on models, observability, compliance, and price.",
+      "href": "https://openrouter.ai/blog/insights/openrouter-vs-portkey/",
+      "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+      "publishedAt": "2026-06-19T19:00:00+00:00",
+      "toolIds": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "google-deepmind-loses-another-top-ai-researcher-118a34d9-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Developer Tools",
+      "title": "Google Deepmind loses another top AI researcher as Nobel laureate John Jumper leaves for Anthropic",
+      "source": "The Decoder",
+      "summary": "Nobel Prize winner John Jumper is leaving Google Deepmind for Anthropic after nearly nine years. Days earlier, Gemini co-lead Noam Shazeer left for OpenAI. Weeks before that, AlphaGo researcher David Silver started his own company. Three of Google's most prom...",
+      "href": "https://the-decoder.com/google-deepmind-loses-another-top-ai-researcher-as-nobel-laureate-john-jumper-leaves-for-anthropic/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/01/deepmind_logo_wall-2.jpeg",
+      "publishedAt": "2026-06-19T17:54:14+00:00",
+      "toolIds": [
+        "chatgpt",
+        "claude",
+        "gemini"
+      ]
+    },
+    {
+      "id": "how-we-built-an-internal-data-analytics-agent-1c1b2656-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Developer Tools",
+      "title": "How we built an internal data analytics agent",
+      "source": "GitHub Blog",
+      "summary": "Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language. Here's what we learned as we built it. The post How we built an internal data analytics agent appeared first on The GitHub Blog .",
+      "href": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-copilot-flying-invertocat-logo-github.png?fit=1920%2C1080",
+      "publishedAt": "2026-06-19T16:00:00+00:00",
+      "toolIds": [
+        "githubcopilot"
+      ]
+    },
+    {
+      "id": "openrouter-vs-litellm-which-llm-gateway-fits-you-fd3562e4-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Developer Tools",
+      "title": "OpenRouter vs LiteLLM: Which LLM Gateway Fits Your Stack?",
+      "source": "OpenRouter Announcements",
+      "summary": "OpenRouter is a managed gateway; LiteLLM is a self-hosted proxy. Here's how they compare on cost, data residency, routing, and latency.",
+      "href": "https://openrouter.ai/blog/insights/openrouter-vs-litellm/",
+      "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/superhuman-claude-mythos.png",
+      "publishedAt": "2026-06-19T15:00:00+00:00",
+      "toolIds": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "accelerate-campaign-workflow-with-insights-from-a4c8790d-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Agents",
+      "title": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
+      "source": "AWS Machine Learning",
+      "summary": "This post shows how to enable Adobe Marketing Agent for Amazon Quick using a Model Context Protocol (MCP). We walk you through how to configure the integration, authenticate using your Adobe credentials, and get the latest insights in Amazon Quick. The sample...",
+      "href": "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/",
+      "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window.",
+      "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/18/ML-21232-1-1119x630.png",
+      "publishedAt": "2026-06-19T14:05:04+00:00",
+      "toolIds": [
+        "adobefirefly"
+      ]
+    },
+    {
+      "id": "openai-just-hired-a-guy-accused-of-terrible-thin-c624e58f-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI Just Hired a Guy Accused of Terrible Things",
+      "source": "Futurism AI",
+      "summary": "OpenAI hired the cofounder Character.AI, a startup linked to a spate of minor suicides. The post OpenAI Just Hired a Guy Accused of Terrible Things appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/openai-hires-noam-shazeer",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/openai-hires-noam-shazeer.jpg?quality=85",
+      "publishedAt": "2026-06-19T14:00:00+00:00",
+      "toolIds": [
+        "chatgpt",
+        "characterai"
+      ]
+    },
+    {
+      "id": "over-reliance-on-chatbots-can-diminish-critical-855bbd00-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Developer Tools",
+      "title": "Over-reliance on chatbots can diminish critical-thinking skills, study finds",
+      "source": "The Guardian AI",
+      "summary": "Depending on AI can also potentially decrease the ability to discern misinformation, research says A new study from the Massachusetts Institute of Technology is the latest research to find that relying too much on chatbots can diminish critical-thinking skill...",
+      "href": "https://www.theguardian.com/us-news/2026/jun/19/chatbots-critical-thinking-skills",
+      "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://i.guim.co.uk/img/media/8e53aec66dd9742346209e9a62a77507c35d313f/316_0_4560_3648/master/4560.jpg?width=140&quality=85&auto=format&fit=max&s=6483592f2305dbd4de75363fdfce9ceb",
+      "publishedAt": "2026-06-19T11:00:32+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "openai-researchers-show-small-doses-of-beneficia-ab0862ac-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI researchers show small doses of \"beneficial trait\" training make AI models broadly safer and harder to manipulate",
+      "source": "The Decoder",
+      "summary": "OpenAI researchers show that reinforcement learning on desired behavioral traits like truthfulness and corrigibility works across domains. Training on health data also improved deception detection, and the model scored better on 44 out of 53 benchmarks. The a...",
+      "href": "https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/openai_chatgpt_colors.png",
+      "publishedAt": "2026-06-19T10:08:27+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "website-in-the-weights-shows-whether-ai-models-k-87ae0921-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Developer Tools",
+      "title": "Website \"In the Weights\" shows whether AI models know who you are",
+      "source": "The Decoder",
+      "summary": "Two former OpenAI employees have built a website called \"In the Weights\" that reveals which people AI models can recall purely from their training data. A strength score of up to 996 shows how deeply a person is embedded, with Mozart, Shakespeare, and Taylor...",
+      "href": "https://the-decoder.com/website-in-the-weights-shows-whether-ai-models-know-who-you-are/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/are_you_in_the_weights.png",
+      "publishedAt": "2026-06-19T08:24:50+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "barret-zoph-is-out-at-openai-again-after-just-fi-1c5754d8-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Product Updates",
+      "title": "Barret Zoph is out at OpenAI again after just five months",
+      "source": "The Verge AI",
+      "summary": "Five months after returning to OpenAI, Barret Zoph - the company's head of enterprise AI sales - has departed, The Verge has learned. Zoph returned to OpenAI in mid-January after a stint as co-founder and CTO of Thinking Machines Lab, the competing AI company...",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK155_OPEN_AI_CVirginia_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-06-19T04:49:33+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "anthropic-s-claude-code-artifacts-update-brings-9c8ef201-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "Anthropic's Claude Code Artifacts update brings live, shared dashboards and interactive workspaces to enterprises",
       "source": "VentureBeat",
@@ -264,9 +457,9 @@
       ]
     },
     {
-      "id": "openai-is-bringing-on-some-big-guns-in-the-lead-385c00c9-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "openai-is-bringing-on-some-big-guns-in-the-lead-385c00c9-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Policy",
       "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
       "source": "TechCrunch",
@@ -280,9 +473,9 @@
       ]
     },
     {
-      "id": "chatgpt-s-new-health-upgrade-beats-doctor-writte-14c1464d-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "chatgpt-s-new-health-upgrade-beats-doctor-writte-14c1464d-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "ChatGPT's new health upgrade beats doctor-written answers, OpenAI says",
       "source": "The Decoder",
@@ -296,9 +489,9 @@
       ]
     },
     {
-      "id": "anthropic-brings-artifacts-to-claude-code-lettin-dcdec8bd-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "anthropic-brings-artifacts-to-claude-code-lettin-dcdec8bd-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "Anthropic brings Artifacts to Claude Code, letting teams share live pages from coding sessions",
       "source": "The Decoder",
@@ -312,41 +505,25 @@
       ]
     },
     {
-      "id": "connect-openclaw-to-openrouter-41d03837-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "connect-openclaw-to-openrouter-41d03837-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Agents",
       "title": "Connect OpenClaw to OpenRouter",
       "source": "OpenRouter Announcements",
       "summary": "OpenClaw has built-in OpenRouter support. One command gives your agents one key, one bill, and automatic failover across 300+ models. Here's the setup and the fixes for the errors that trip people up.",
       "href": "https://openrouter.ai/blog/tutorials/openclaw-openrouter/",
       "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-safety.svg",
+      "imageUrl": "assets/news/bright-productivity.svg",
       "publishedAt": "2026-06-18T19:00:00+00:00",
       "toolIds": [
         "openrouter"
       ]
     },
     {
-      "id": "alleged-china-ties-at-sk-telecom-alarmed-us-offi-2308f6a2-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Developer Tools",
-      "title": "Alleged China ties at SK Telecom alarmed US officials and triggered Anthropic crisis",
-      "source": "The Decoder",
-      "summary": "SK Telecom had access to Anthropic's AI model Claude Mythos through the company's partner program Project Glasswing until the White House stepped in. US officials saw ties between the South Korean conglomerate and China. The article Alleged China ties at SK T...",
-      "href": "https://the-decoder.com/alleged-china-ties-at-sk-telecom-alarmed-us-officials-and-triggered-anthropic-crisis/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/fable_5_logo-scaled.webp",
-      "publishedAt": "2026-06-18T18:54:09+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "cop-accused-of-using-ai-to-fake-evidence-159afc79-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "cop-accused-of-using-ai-to-fake-evidence-159afc79-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "Cop Accused of Using AI to Fake Evidence",
       "source": "Futurism AI",
@@ -358,9 +535,9 @@
       "toolIds": []
     },
     {
-      "id": "new-ai-optimization-framework-beats-claude-code-08843c95-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "new-ai-optimization-framework-beats-claude-code-08843c95-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "New AI optimization framework beats Claude Code and Codex by 2.5x on the same compute budget",
       "source": "VentureBeat",
@@ -375,9 +552,25 @@
       ]
     },
     {
-      "id": "copilot-searched-your-mailbox-litellm-handed-out-ec31fab9-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "mosaicleaks-can-your-research-agent-keep-a-secre-e9b8182d-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Agents",
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "source": "Hugging Face Blog",
+      "summary": "Hugging Face Blog reported: MosaicLeaks: Can your research agent keep a secret?",
+      "href": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/680ba1729f7688275d2ce0f4/hGCO4pOyJjijLPCbRT07v.webp",
+      "publishedAt": "2026-06-18T18:13:13+00:00",
+      "toolIds": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "copilot-searched-your-mailbox-litellm-handed-out-ec31fab9-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "Copilot searched your mailbox. LiteLLM handed out admin keys. Run this 5-check audit before your stack is next",
       "source": "VentureBeat",
@@ -391,25 +584,41 @@
       ]
     },
     {
-      "id": "alibaba-cloud-bets-on-france-as-europe-seeks-mor-2bbba738-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "new-usage-analytics-and-updated-spend-controls-f-217d8a1a-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Developer Tools",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "href": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1ehSOdp5G7FxMMtynCUoLV/c5d7539672c8a3dd93a3c058f70e7661/Spend_Controls_SEO.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-06-18T17:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "alibaba-cloud-bets-on-france-as-europe-seeks-mor-2bbba738-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Product Updates",
       "title": "Alibaba Cloud Bets on France as Europe Seeks More Control Over AI",
       "source": "TechRepublic AI",
       "summary": "Alibaba Cloud opened two Paris availability zones as European enterprises weigh data sovereignty, resilience, and AI infrastructure needs. The post Alibaba Cloud Bets on France as Europe Seeks More Control Over AI appeared first on TechRepublic .",
       "href": "https://www.techrepublic.com/article/news-alibaba-cloud-ai-sovereignty-emea-france/",
       "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-ai-datacenter-aerial.jpg",
+      "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
       "publishedAt": "2026-06-18T16:04:10+00:00",
       "toolIds": [
         "qwen"
       ]
     },
     {
-      "id": "i-put-siri-ai-through-the-same-tests-i-use-for-c-b29d2b0a-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "i-put-siri-ai-through-the-same-tests-i-use-for-c-b29d2b0a-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Model Releases",
       "title": "I put Siri AI through the same tests I use for ChatGPT and Gemini on MacOS 27 - here's how it did",
       "source": "ZDNet AI",
@@ -424,9 +633,9 @@
       ]
     },
     {
-      "id": "adobe-embeds-agentic-ai-workflows-across-creativ-eb89fc6a-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "adobe-embeds-agentic-ai-workflows-across-creativ-eb89fc6a-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "Adobe embeds agentic AI workflows across Creative Cloud, shifting from media generation to production orchestration",
       "source": "VentureBeat",
@@ -441,106 +650,41 @@
       ]
     },
     {
-      "id": "anthropic-adds-brand-controls-code-sync-to-claud-efc0b62c-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "anthropic-adds-brand-controls-code-sync-to-claud-efc0b62c-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "Anthropic Adds Brand Controls, Code Sync to Claude Design",
       "source": "TechRepublic AI",
       "summary": "Anthropic updated Claude Design with design system imports, Claude Code syncing, canvas editing, and more export options for enterprise teams. The post Anthropic Adds Brand Controls, Code Sync to Claude Design appeared first on TechRepublic .",
       "href": "https://www.techrepublic.com/article/news-anthropic-claude-design-overhaul-enterprise-teams/",
       "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/mit-compressm.png",
+      "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
       "publishedAt": "2026-06-18T14:25:18+00:00",
       "toolIds": [
         "claude"
       ]
     },
     {
-      "id": "yann-lecun-warns-ai-labs-like-openai-and-anthrop-9e5d7789-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Developer Tools",
-      "title": "Yann LeCun warns AI labs like OpenAI and Anthropic face a \"big bubble explosion\"",
-      "source": "The Decoder",
-      "summary": "According to Yann LeCun, AI labs like OpenAI and Anthropic are heading for a \"big bubble explosion\": Their operations are effectively subsidized by investors, and operating costs aren't dropping fast enough, he says. LeCun's criticism isn't entirely selfless:...",
-      "href": "https://the-decoder.com/yann-lecun-warns-ai-labs-like-openai-and-anthropic-face-a-big-bubble-explosion/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2023/01/yann_le_cun_flickr_cc_licence.jpg",
-      "publishedAt": "2026-06-18T13:35:47+00:00",
-      "toolIds": [
-        "chatgpt",
-        "claude"
-      ]
-    },
-    {
-      "id": "midjourney-known-for-ai-image-generation-unveils-866909d9-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Developer Tools",
-      "title": "Midjourney, known for AI image generation, unveils a full-body ultrasound scanner and its own spa",
-      "source": "The Decoder",
-      "summary": "Rumors about Midjourney hardware have circulated for years, but nobody saw this coming. The AI image startup is building a full-body ultrasound scanner and opening its own spa in San Francisco to house it. The article Midjourney, known for AI image generation...",
-      "href": "https://the-decoder.com/midjourney-known-for-ai-image-generation-unveils-a-full-body-ultrasound-scanner-and-its-own-spa/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/Midjourney-Medical-title-scaled.png",
-      "publishedAt": "2026-06-18T13:21:52+00:00",
-      "toolIds": [
-        "midjourney"
-      ]
-    },
-    {
-      "id": "adobe-adds-its-ai-assistant-to-premiere-illustra-da2a1e54-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "photoshop-and-premiere-now-have-ai-assistants-ffaf585f-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Creative AI",
-      "title": "Adobe adds its AI assistant to Premiere, Illustrator and InDesign",
-      "source": "TechCrunch",
-      "summary": "Adobe is updating its Firefly AI assistant with new chops, and adding it to Premiere, Illustrator, InDesign and Frame.io.",
-      "href": "https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/",
-      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/Firefly-Creative-AI-Assistant-16x9-1.jpeg?resize=1200,526",
+      "title": "Photoshop and Premiere now have AI assistants",
+      "source": "The Verge AI",
+      "summary": "Adobe's plan to stick AI assistants into all of its Creative Cloud suite is now fully underway, with new chatbots now rolling out to its biggest editing and design apps. As part of a public beta launching today, Photoshop, Premiere, Illustrator, InDesign, and...",
+      "href": "https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch",
+      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Adobe-Photoshop-AI-assistant-hero.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "publishedAt": "2026-06-18T13:00:00+00:00",
       "toolIds": [
         "adobefirefly"
       ]
     },
     {
-      "id": "adobe-adds-ai-agents-to-photoshop-premiere-and-m-e6b12f12-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Developer Tools",
-      "title": "Adobe adds AI agents to Photoshop, Premiere, and more Creative Cloud apps",
-      "source": "The Decoder",
-      "summary": "Adobe is rolling out its \"creative agent\" across its main Creative Cloud apps and third-party AI platforms like ChatGPT and Claude. Users describe what they want, and the software handles the multi-step work. The article Adobe adds AI agents to Photoshop, Pre...",
-      "href": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/Adobe-AI-Agents.png",
-      "publishedAt": "2026-06-18T12:59:00+00:00",
-      "toolIds": [
-        "adobefirefly",
-        "chatgpt",
-        "claude"
-      ]
-    },
-    {
-      "id": "ploy-ai-766417b8-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Product Updates",
-      "title": "Ploy.ai",
-      "source": "producthunt",
-      "summary": "producthunt reported: Ploy.ai",
-      "href": "https://www.producthunt.com/products/ploy-ai",
-      "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window.",
-      "imageUrl": "https://ph-files.imgix.net/21463a3f-92cf-4143-a808-40512638e5c9.jpeg?auto=format&fit=crop&frame=1&h=512&w=1024",
-      "publishedAt": "2026-06-18T12:33:11+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "midjourney-is-working-on-an-full-body-ultrasonic-9cadc891-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "midjourney-is-working-on-an-full-body-ultrasonic-9cadc891-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Creative AI",
       "title": "Midjourney is working on an full-body ultrasonic scanner. For real.",
       "source": "Mashable",
@@ -554,42 +698,42 @@
       ]
     },
     {
-      "id": "daniel-danker-on-how-walmart-solves-customer-pro-144fe1b4-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "daniel-danker-on-how-walmart-solves-customer-pro-1d263a56-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Product Updates",
       "title": "Daniel Danker on how Walmart solves customer problems with AI",
       "source": "Fast Company AI",
       "summary": "The retail giant executive is bringing AI to shopping, store operations, Scan & Go, and behind-the-scenes logistics.",
-      "href": "https://www.fastcompany.com/91550771/daniel-danker-on-how-walmart-solves-customer-problems-with-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=8&partner=newsletter&campaign_date=06192026",
+      "href": "https://www.fastcompany.com/91550771/daniel-danker-on-how-walmart-solves-customer-problems-with-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=11&partner=newsletter&campaign_date=06202026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91550771-daniel-danker-on-how-walmart-solves-customer-problems-with-ai.jpg",
       "publishedAt": "2026-06-18T11:00:00+00:00",
       "toolIds": []
     },
     {
-      "id": "elizabeth-minor-wants-humans-to-stay-in-control-60e59253-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "elizabeth-minor-wants-humans-to-stay-in-control-4a28f868-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Policy",
       "title": "Elizabeth Minor wants humans to stay in control of AI weapons",
       "source": "Fast Company AI",
       "summary": "As head of policy at Stop Killer Robots, she is pushing for international rules to limit autonomous weapons before they become normalized in war.",
-      "href": "https://www.fastcompany.com/91550779/elizabeth-minor-wants-humans-to-stay-in-control-of-ai-weapons?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=10&partner=newsletter&campaign_date=06192026",
+      "href": "https://www.fastcompany.com/91550779/elizabeth-minor-wants-humans-to-stay-in-control-of-ai-weapons?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=13&partner=newsletter&campaign_date=06202026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91550779-elizabeth-minor-wants-humans-to-stay-in-control-of-ai-weapons.jpg",
       "publishedAt": "2026-06-18T11:00:00+00:00",
       "toolIds": []
     },
     {
-      "id": "charles-lamanna-is-moving-microsoft-copilot-beyo-ba97dbca-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "charles-lamanna-is-moving-microsoft-copilot-beyo-20c28019-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "Charles Lamanna is moving Microsoft Copilot beyond chat",
       "source": "Fast Company AI",
       "summary": "With Copilot Cowork, he wants workers to delegate complex office tasks to AI agents that can use Excel, Outlook, and other Microsoft 365 tools.",
-      "href": "https://www.fastcompany.com/91550785/charles-lamanna-is-moving-microsoft-copilot-beyond-chat?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=12&partner=newsletter&campaign_date=06192026",
+      "href": "https://www.fastcompany.com/91550785/charles-lamanna-is-moving-microsoft-copilot-beyond-chat?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=15&partner=newsletter&campaign_date=06202026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91550785-charles-lamanna-is-moving-microsoft-copilot-beyond-chat.jpg",
       "publishedAt": "2026-06-18T11:00:00+00:00",
@@ -598,56 +742,25 @@
       ]
     },
     {
-      "id": "shimon-elkabetz-wants-weather-forecasts-to-make-f95d636b-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Agents",
-      "title": "Shimon Elkabetz wants weather forecasts to make better decisions",
-      "source": "Fast Company AI",
-      "summary": "Tomorrow.io uses satellites, customer data, and agentic AI to help companies and cities act before severe weather hits.",
-      "href": "https://www.fastcompany.com/91550787/shimon-elkabetz-wants-weather-forecasts-to-make-better-decisions?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=13&partner=newsletter&campaign_date=06192026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91550787-shimon-elkabetz-wants-weather-forecasts-to-make-better-decisions.jpg",
-      "publishedAt": "2026-06-18T11:00:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "cameron-stanley-is-pushing-the-pentagon-to-becom-e1127a3b-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Agents",
-      "title": "Cameron Stanley is pushing the Pentagon to become AI-first",
-      "source": "Fast Company AI",
-      "summary": "The Defense Department official is accelerating agentic AI across military operations, from back-office workflows to battlefield decision-making.",
-      "href": "https://www.fastcompany.com/91550791/cameron-stanley-is-pushing-the-pentagon-to-become-ai-first?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=14&partner=newsletter&campaign_date=06192026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-91550791-cameron-stanley-is-pushing-the-pentagon-to-become-ai-first.jpg",
-      "publishedAt": "2026-06-18T11:00:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "google-s-gemini-co-lead-noam-shazeer-joins-opena-fb823726-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "using-ai-to-help-physicians-diagnose-rare-geneti-2155d7cb-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
-      "title": "Google's Gemini co-lead Noam Shazeer joins OpenAI after two-year return stint",
-      "source": "The Decoder",
-      "summary": "Noam Shazeer, co-author of the landmark \"Attention Is All You Need\" paper and former co-lead of Google's Gemini models, is joining OpenAI. He only returned to Google from Character.AI in 2024 as part of a $2.7 billion deal. After Karpathy's move to Anthropic,...",
-      "href": "https://the-decoder.com/googles-gemini-co-lead-noam-shazeer-joins-openai-after-two-year-return-stint/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/google_logo_wall.png",
-      "publishedAt": "2026-06-18T07:08:29+00:00",
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "source": "OpenAI Blog",
+      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "href": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/42SsGr6pOo6F7fcF0VZGGV/25583b98cb667d103adb7bf0476cafc5/SEO_Card_new.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-06-18T08:00:00+00:00",
       "toolIds": [
-        "chatgpt",
-        "claude",
-        "gemini",
-        "characterai"
+        "chatgpt"
       ]
     },
     {
-      "id": "zapier-vs-make-comparison-which-is-best-2026-10289c77-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "zapier-vs-make-comparison-which-is-best-2026-10289c77-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Agents",
       "title": "Zapier vs. Make comparison: Which is best? [2026]",
       "source": "Zapier Blog",
@@ -661,9 +774,9 @@
       ]
     },
     {
-      "id": "midjourney-goes-from-generating-cat-images-to-fu-099f3e8c-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "midjourney-goes-from-generating-cat-images-to-fu-099f3e8c-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Creative AI",
       "title": "Midjourney goes from generating cat images to full-body ultrasound scans",
       "source": "The Verge AI",
@@ -677,9 +790,9 @@
       ]
     },
     {
-      "id": "openai-releases-lifescibench-a-750-task-benchmar-871d1ab9-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "openai-releases-lifescibench-a-750-task-benchmar-871d1ab9-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Agents",
       "title": "OpenAI Releases LifeSciBench, a 750-Task Benchmark Grading AI Models on Real Life-Science Research With Expert-Written...",
       "source": "MarkTechPost",
@@ -693,9 +806,41 @@
       ]
     },
     {
-      "id": "improvements-to-cursor-automations-a8da9719-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "beyond-lora-can-you-beat-the-most-popular-fine-t-dc672d00-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Product Updates",
+      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "source": "Hugging Face Blog",
+      "summary": "Hugging Face Blog reported: Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "href": "https://huggingface.co/blog/peft-beyond-lora",
+      "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://huggingface.co/blog/assets/peft-beyond-lora/thumbnail.png",
+      "publishedAt": "2026-06-18T00:00:00+00:00",
+      "toolIds": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "is-it-agentic-enough-benchmarking-open-models-on-d44bbcfd-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Agents",
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "source": "Hugging Face Blog",
+      "summary": "Hugging Face Blog reported: Is it agentic enough? Benchmarking open models on your own tooling",
+      "href": "https://huggingface.co/blog/is-it-agentic-enough",
+      "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://huggingface.co/blog/assets/is-it-agentic-enough/thumbnail.png",
+      "publishedAt": "2026-06-18T00:00:00+00:00",
+      "toolIds": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "improvements-to-cursor-automations-a8da9719-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "Improvements to Cursor Automations",
       "source": "Cursor Changelog",
@@ -709,9 +854,9 @@
       ]
     },
     {
-      "id": "getting-more-from-each-token-how-copilot-improve-45a22139-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "getting-more-from-each-token-how-copilot-improve-45a22139-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "Getting more from each token: How Copilot improves context handling and model routing",
       "source": "GitHub Blog",
@@ -725,41 +870,25 @@
       ]
     },
     {
-      "id": "kilo-code-openrouter-setup-model-routing-and-fre-5b7c1c3d-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "kilo-code-openrouter-setup-model-routing-and-fre-5b7c1c3d-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "Kilo Code + OpenRouter: Setup, Model Routing, and Free Models",
       "source": "OpenRouter Announcements",
       "summary": "Kilo Code is a bring-your-own-provider coding agent, so adding OpenRouter gives it one key for 300+ models, provider routing, and failover. Here's the three-step setup plus the kilo.json fields that control routing.",
       "href": "https://openrouter.ai/blog/tutorials/kilo-code-openrouter/",
       "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+      "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
       "publishedAt": "2026-06-17T19:00:00+00:00",
       "toolIds": [
         "openrouter"
       ]
     },
     {
-      "id": "anthropic-ships-major-claude-design-overhaul-wit-95a26897-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Developer Tools",
-      "title": "Anthropic ships major Claude Design overhaul with design system imports, code round-trips, and a fix for its token-burn...",
-      "source": "VentureBeat",
-      "summary": "When Anthropic quietly released Claude Design in April as a \" research preview ,\" it generated the kind of instant traction most product teams dream about: more than one million users in its first week. It also generated a problem. The tool consumed tokens so...",
-      "href": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
-      "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/A7rh9k4f5l3OFsViB4gjc/8c1c2679504faa38007e3e334377755f/image__1___1_.png?w=300&q=30",
-      "publishedAt": "2026-06-17T19:00:00+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "anthropic-got-hit-by-export-rules-nobody-underst-f5aa4b91-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "anthropic-got-hit-by-export-rules-nobody-underst-f5aa4b91-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "Anthropic got hit by export rules nobody understands",
       "source": "The Verge AI",
@@ -773,9 +902,9 @@
       ]
     },
     {
-      "id": "the-white-house-wants-anthropic-to-block-all-jai-7f7f3ec6-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "the-white-house-wants-anthropic-to-block-all-jai-7f7f3ec6-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Model Releases",
       "title": "The White House Wants Anthropic to Block All Jailbreaks. That May Not Be Possible",
       "source": "WIRED AI",
@@ -789,9 +918,9 @@
       ]
     },
     {
-      "id": "agent-to-agent-a2a-protocol-how-cross-agent-comm-be3298ff-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "agent-to-agent-a2a-protocol-how-cross-agent-comm-be3298ff-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Agents",
       "title": "Agent-to-Agent (A2A) Protocol: How Cross-Agent Communication Works in Production",
       "source": "n8n Blog",
@@ -803,9 +932,9 @@
       "toolIds": []
     },
     {
-      "id": "molmomotion-language-guided-3d-motion-forecastin-07c125a3-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "molmomotion-language-guided-3d-motion-forecastin-07c125a3-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "MolmoMotion: Language-guided 3D motion forecasting",
       "source": "Hugging Face Blog",
@@ -819,16 +948,16 @@
       ]
     },
     {
-      "id": "how-to-use-openai-codex-cli-with-openrouter-9d178dc1-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "how-to-use-openai-codex-cli-with-openrouter-9d178dc1-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "How to Use OpenAI Codex CLI with OpenRouter",
       "source": "OpenRouter Announcements",
       "summary": "Codex CLI supports custom OpenAI-compatible providers, so a small config.toml block routes it through OpenRouter. You get provider failover, usage tracking, and one key across every model, with no change to Codex itself.",
       "href": "https://openrouter.ai/blog/tutorials/codex-cli-openrouter/",
       "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+      "imageUrl": "assets/news/superhuman-personal-agents.png",
       "publishedAt": "2026-06-17T15:00:00+00:00",
       "toolIds": [
         "chatgpt",
@@ -836,9 +965,9 @@
       ]
     },
     {
-      "id": "how-and-why-i-built-an-ai-assistant-2d089374-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "how-and-why-i-built-an-ai-assistant-2d089374-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "How (and Why) I Built an AI Assistant",
       "source": "KDnuggets",
@@ -850,9 +979,9 @@
       "toolIds": []
     },
     {
-      "id": "i-had-a-blood-clot-an-ai-diagnosis-may-have-save-186a1100-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "i-had-a-blood-clot-an-ai-diagnosis-may-have-save-186a1100-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Policy",
       "title": "I had a blood clot. An AI diagnosis may have saved my life | Gleb Tsipursky",
       "source": "The Guardian AI",
@@ -864,9 +993,25 @@
       "toolIds": []
     },
     {
-      "id": "from-the-hugging-face-hub-to-robot-hardware-with-c7b6e0d1-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "10-best-otter-ai-alternatives-in-2026-free-and-p-9742de13-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
+      "category": "Product Updates",
+      "title": "10 Best Otter AI Alternatives in 2026 (Free and Paid)",
+      "source": "Fireflies Blog",
+      "summary": "Looking for Otter AI alternatives? Compare the 10 best AI meeting notetakers for transcription, summaries, and action items. Free options included.",
+      "href": "https://fireflies.ai/blog/otter-ai-alternatives/",
+      "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2023/05/Best-Otter-AI-Alternatives.jpg",
+      "publishedAt": "2026-06-17T13:00:00+00:00",
+      "toolIds": [
+        "otter"
+      ]
+    },
+    {
+      "id": "from-the-hugging-face-hub-to-robot-hardware-with-c7b6e0d1-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Agents",
       "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
       "source": "Hugging Face Blog",
@@ -880,9 +1025,9 @@
       ]
     },
     {
-      "id": "a-near-autonomous-ai-chemist-improves-a-challeng-1a8cd099-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "a-near-autonomous-ai-chemist-improves-a-challeng-1a8cd099-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Model Releases",
       "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
       "source": "OpenAI Blog",
@@ -896,9 +1041,9 @@
       ]
     },
     {
-      "id": "glm-5-2-built-for-long-horizon-tasks-64d6b4cb-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "glm-5-2-built-for-long-horizon-tasks-64d6b4cb-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Product Updates",
       "title": "GLM-5.2: Built for Long-Horizon Tasks",
       "source": "Hugging Face Blog",
@@ -912,9 +1057,9 @@
       ]
     },
     {
-      "id": "github-copilot-desktop-app-targets-parallel-agen-7627069f-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "github-copilot-desktop-app-targets-parallel-agen-7627069f-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Developer Tools",
       "title": "GitHub Copilot Desktop App Targets Parallel Agentic Workflows",
       "source": "InfoQ AI",
@@ -928,9 +1073,9 @@
       ]
     },
     {
-      "id": "how-zapier-can-minimize-your-ai-spend-8fd3ee53-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "how-zapier-can-minimize-your-ai-spend-8fd3ee53-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Creative AI",
       "title": "How Zapier can minimize your AI spend",
       "source": "Zapier Blog",
@@ -944,9 +1089,9 @@
       ]
     },
     {
-      "id": "could-ai-tell-you-where-you-left-your-keys-0dc90b9f-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "could-ai-tell-you-where-you-left-your-keys-0dc90b9f-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Product Updates",
       "title": "Could AI tell you where you left your keys?",
       "source": "MIT News AI",
@@ -958,9 +1103,9 @@
       "toolIds": []
     },
     {
-      "id": "connect-brighthire-to-the-rest-of-your-hiring-wo-9bf5acc4-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
+      "id": "connect-brighthire-to-the-rest-of-your-hiring-wo-9bf5acc4-jun20",
+      "date": "2026-06-20",
+      "dateLabel": "June 20, 2026",
       "category": "Agents",
       "title": "Connect BrightHire to the rest of your hiring workflow",
       "source": "Zapier Blog",
@@ -969,261 +1114,6 @@
       "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/4kn47UsLL6xi3TUzMJAlvH/66409b6bb13af859a9079672438fc792/brighthire-zapier-email-hero.png",
       "publishedAt": "2026-06-17T04:00:00+00:00",
-      "toolIds": [
-        "zapier"
-      ]
-    },
-    {
-      "id": "introducing-lifescibench-0088b664-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Model Releases",
-      "title": "Introducing LifeSciBench",
-      "source": "OpenAI Blog",
-      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "href": "https://openai.com/index/introducing-life-sci-bench",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1trh6KslZ4XaGmEYHQVoDP/e4a6d9910ef9025bfbe5bed00cf0ae42/LifeSciBench_16x9.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-06-17T00:00:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "agentic-resource-discovery-let-agents-search-da3c8166-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Agents",
-      "title": "Agentic Resource Discovery: Let agents search",
-      "source": "Hugging Face Blog",
-      "summary": "Hugging Face Blog reported: Agentic Resource Discovery: Let agents search",
-      "href": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://huggingface.co/blog/assets/agentic-resource-discovery-launch/thumbnail_.png",
-      "publishedAt": "2026-06-17T00:00:00+00:00",
-      "toolIds": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "cloud-environment-setup-and-cloud-subagents-in-a-1ad1e012-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Agents",
-      "title": "Cloud Environment Setup and Cloud Subagents in Agents Window",
-      "source": "Cursor Changelog",
-      "summary": "This release introduces updates to cloud agents in the Agents Window of the Cursor desktop app.",
-      "href": "https://cursor.com/changelog/cloud-in-agents-window",
-      "excerpt": "Radar signal: Cursor Changelog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/changelog/opengraph-changelog-june-17-2026.png",
-      "publishedAt": "2026-06-17T00:00:00+00:00",
-      "toolIds": [
-        "cursor"
-      ]
-    },
-    {
-      "id": "bland-raises-50m-to-automate-complex-high-stakes-a0f3cbc9-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Agents",
-      "title": "Bland raises $50M to automate complex, high-stakes phone calls",
-      "source": "SiliconANGLE AI",
-      "summary": "Voice artificial intelligence startup Bland today revealed that it has raised $50 million in new funding to expand its research, grow its engineering team and scale its platform into more regulated industries. Founded in 2023, Bland builds AI agents that hand...",
-      "href": "https://siliconangle.com/2026/06/16/bland-raises-50m-automate-complex-high-stakes-phone-calls/",
-      "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/bland.png",
-      "publishedAt": "2026-06-16T22:28:38+00:00",
-      "toolIds": [
-        "bland"
-      ]
-    },
-    {
-      "id": "the-new-siri-makes-one-of-apple-s-most-convenien-a49c4e25-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Product Updates",
-      "title": "The new Siri makes one of Apple's most convenient OS features a cumbersome mess",
-      "source": "The Register AI",
-      "summary": "Goodbye, useful Spotlight; hello force-fed Apple intelligence bloatware that feels distressingly like Google AI Overviews",
-      "href": "https://www.theregister.com/ai-and-ml/2026/06/16/the-new-siri-makes-one-of-apples-most-convenient-os-features-a-cumbersome-mess/5256591",
-      "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://image.theregister.com/?imageId=4093949&width=800",
-      "publishedAt": "2026-06-16T20:47:37+00:00",
-      "toolIds": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "spacex-to-acquire-vibe-coding-startup-cursor-for-c2dd6461-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Developer Tools",
-      "title": "SpaceX to acquire vibe coding startup Cursor for $60B",
-      "source": "SiliconANGLE AI",
-      "summary": "Newly public SpaceX Corp. today announced plans to acquire Cursor, the developer of a popular vibe coding platform, for $60 billion in stock. The companies expect to close the transaction by the end of the quarter. The move is not unexpected. In April, SpaceX...",
-      "href": "https://siliconangle.com/2026/06/16/spacex-acquire-vibe-coding-startup-cursor-60b/",
-      "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/Unsplash-1.jpg",
-      "publishedAt": "2026-06-16T20:25:29+00:00",
-      "toolIds": [
-        "cursor"
-      ]
-    },
-    {
-      "id": "best-granola-ai-alternatives-in-2026-including-f-55a3e096-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Product Updates",
-      "title": "Best Granola AI Alternatives in 2026 (Including Free Options)",
-      "source": "Fireflies Blog",
-      "summary": "Granola only works on Mac. Discover the best Granola AI alternatives that work on Windows, Teams, Zoom, and more, with free plans available.",
-      "href": "https://fireflies.ai/blog/granola-alternatives/",
-      "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-google-ai-economy.webp",
-      "publishedAt": "2026-06-16T20:16:31+00:00",
-      "toolIds": [
-        "granola"
-      ]
-    },
-    {
-      "id": "how-to-use-claude-code-with-openrouter-794f0b69-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Developer Tools",
-      "title": "How to Use Claude Code with OpenRouter",
-      "source": "OpenRouter Announcements",
-      "summary": "Route Claude Code through OpenRouter with three environment variables and no local proxy. You get provider failover, budget controls, and usage visibility on top of the same Anthropic models.",
-      "href": "https://openrouter.ai/blog/tutorials/claude-code-openrouter/",
-      "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/superhuman-claude-mythos.png",
-      "publishedAt": "2026-06-16T19:00:00+00:00",
-      "toolIds": [
-        "claude",
-        "openrouter"
-      ]
-    },
-    {
-      "id": "meet-qwen-robotsuite-three-embodied-ai-models-fo-87ac48ba-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Developer Tools",
-      "title": "Meet Qwen-RobotSuite: Three Embodied AI Models for VLA Manipulation, Video World Modeling, and Navigation",
-      "source": "MarkTechPost",
-      "summary": "We break down Qwen-RobotSuite, the Qwen team's three new embodied AI models. We cover RobotManip, a Vision-Language-Action model built on Qwen3.5-4B for manipulation. We cover RobotWorld, a language-conditioned video world model with a 60-layer MMDiT. We cove...",
-      "href": "https://www.marktechpost.com/2026/06/16/meet-qwen-robotsuite-three-embodied-ai-models-for-vla-manipulation-video-world-modeling-and-navigation/",
-      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog191-6.png",
-      "publishedAt": "2026-06-16T16:51:19+00:00",
-      "toolIds": [
-        "qwen"
-      ]
-    },
-    {
-      "id": "consensus-grows-that-china-is-crushing-the-unite-afb125cb-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Product Updates",
-      "title": "Consensus Grows That China Is Crushing the United States at AI",
-      "source": "Futurism AI",
-      "summary": "Global opinion is starting to turn. The post Consensus Grows That China Is Crushing the United States at AI appeared first on Futurism .",
-      "href": "https://futurism.com/artificial-intelligence/consensus-china-crushing-usa-ai-survey",
-      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/consensus-china-crushing-usa-ai-survey.jpg?quality=85",
-      "publishedAt": "2026-06-16T16:47:48+00:00",
-      "toolIds": [
-        "consensus"
-      ]
-    },
-    {
-      "id": "how-to-use-openrouter-with-any-coding-agent-or-a-9c39619c-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Developer Tools",
-      "title": "How to Use OpenRouter With Any Coding Agent or AI Tool",
-      "source": "OpenRouter Announcements",
-      "summary": "Any tool that speaks the OpenAI API works with OpenRouter after two changes, the base URL and the key. Here's the setup pattern and the tools that already support it.",
-      "href": "https://openrouter.ai/blog/tutorials/any-coding-agent/",
-      "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-productivity.svg",
-      "publishedAt": "2026-06-16T15:00:00+00:00",
-      "toolIds": [
-        "chatgpt",
-        "openrouter"
-      ]
-    },
-    {
-      "id": "salesforce-makes-3-6b-play-for-ai-customer-servi-ad84704c-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Agents",
-      "title": "Salesforce Makes $3.6B Play for AI Customer Service",
-      "source": "TechRepublic AI",
-      "summary": "Salesforce will buy Fin, formerly Intercom, for about $3.6 billion to expand Agentforce with AI customer service agents and support automation. The post Salesforce Makes $3.6B Play for AI Customer Service appeared first on TechRepublic .",
-      "href": "https://www.techrepublic.com/article/news-salesforce-acquires-fin-agentforce-ai-agents/",
-      "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/superhuman-personal-agents.png",
-      "publishedAt": "2026-06-16T14:45:50+00:00",
-      "toolIds": [
-        "intercom"
-      ]
-    },
-    {
-      "id": "the-roadmap-to-becoming-an-llm-engineer-in-2026-10dcf816-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Model Releases",
-      "title": "The Roadmap to Becoming an LLM Engineer in 2026",
-      "source": "KDnuggets",
-      "summary": "A step-by-step path through the skills that turn a machine learning practitioner into someone who ships large language model applications.",
-      "href": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-llm-engineer-in-2026",
-      "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-the-roadmap-to-becoming-an-llm-engineer-in-2026-feature.png",
-      "publishedAt": "2026-06-16T14:00:11+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "limitless-labs-lands-20m-to-build-ai-agents-for-4fb353c4-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Developer Tools",
-      "title": "Limitless Labs lands $20M to build AI agents for precision manufacturing",
-      "source": "SiliconANGLE AI",
-      "summary": "Limitless Labs, operating as LimitlessCNC Ltd., today announced it has raised $20 million in early-stage funding to support agentic artificial intelligence in computer-aided manufacturing. Dell Technologies Capital and Square Peg co-led the Series A funding r...",
-      "href": "https://siliconangle.com/2026/06/16/limitless-labs-lands-20m-build-ai-agents-precision-manufacturing/",
-      "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/Limitless-Labs-CAM-Agent-in-action.png",
-      "publishedAt": "2026-06-16T13:00:10+00:00",
-      "toolIds": [
-        "limitless"
-      ]
-    },
-    {
-      "id": "zapier-pricing-why-zapier-is-a-better-value-than-161f979a-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Agents",
-      "title": "Zapier pricing: Why Zapier is a better value than Make, n8n, and other automation platforms",
-      "source": "Zapier Blog",
-      "summary": "When evaluating software, pricing is about more than the dollar amount: it's about the return on your investment. One business might fixate on price-per-task, while another might care more about speed to market, reliability, or the ability to scale without hi...",
-      "href": "https://zapier.com/blog/zapier-pricing",
-      "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/7sYLMymQDinPKZQS77P4BX/9545150792946dbb3c3d48f0fd18b55a/Zapier_logo.jpg",
-      "publishedAt": "2026-06-16T05:00:00+00:00",
-      "toolIds": [
-        "n8n",
-        "zapier"
-      ]
-    },
-    {
-      "id": "what-is-a-task-in-zapier-everything-to-know-abou-3d9cb6c1-jun19",
-      "date": "2026-06-19",
-      "dateLabel": "June 19, 2026",
-      "category": "Agents",
-      "title": "What is a task in Zapier? Everything to know about Zapier's task-based pricing",
-      "source": "Zapier Blog",
-      "summary": "When my husband and I say we're running to the pet store for \"a few things,\" we both know that's hilariously optimistic. We might go in planning to pick up kibble and maybe refill the treat jar, but there's no way we can resist maxing out our budget on dog to...",
-      "href": "https://zapier.com/blog/what-is-a-task-in-zapier",
-      "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/v0GN2Y5xF0Z0WGiTx3Rai/402fb4fa03b3baa59069e09d13601c63/zap-hero.jpg",
-      "publishedAt": "2026-06-16T05:00:00+00:00",
       "toolIds": [
         "zapier"
       ]
