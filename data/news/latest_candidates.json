@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-06-22T01:52:27+00:00",
+  "updatedAt": "2026-06-22T04:38:07+00:00",
   "digestDate": "2026-06-22",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-06-19T09:51:02+08:00",
-  "windowEnd": "2026-06-22T09:51:02+08:00",
+  "windowStart": "2026-06-19T12:36:00+08:00",
+  "windowEnd": "2026-06-22T12:36:00+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -283,12 +283,12 @@
       {
         "source": "Perplexity Blog",
         "url": "https://www.perplexity.ai/hub/blog/rss.xml",
-        "error": "HTTPError: HTTP Error 404: Not Found"
+        "error": "HTTPError: HTTP Error 403: Forbidden"
       },
       {
         "source": "Notion Blog",
         "url": "https://www.notion.so/blog/rss.xml",
-        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+        "error": "HTTPError: HTTP Error 404: Not Found"
       },
       {
         "source": "Figma Blog",
