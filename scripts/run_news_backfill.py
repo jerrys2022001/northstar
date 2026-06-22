@@ -310,10 +310,11 @@ def process_digest_date(run_date: date, args: argparse.Namespace) -> dict[str, o
         fetch_summary = run_json_command(fetch_command)
         merge_summary = run_json_command(merge_command)
         run_date_items = int(merge_summary.get("runDateItems") or 0)
+        required_run_date_items = int(merge_summary.get("requiredRunDateItems") or args.min_daily_items)
         available_expansion_feeds = int(fetch_summary.get("catalogExpansionFeedsAvailable") or 0)
         current_feed_budget = int(fetch_summary.get("catalogExpansionFeedsConfigured") or expansion_budget)
 
-        if run_date_items >= args.min_daily_items:
+        if run_date_items >= required_run_date_items:
             return {
                 "date": date_value,
                 "targetMet": True,

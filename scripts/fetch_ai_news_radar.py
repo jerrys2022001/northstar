@@ -47,6 +47,11 @@ FALLBACK_IMAGE_POOL = [
     "assets/news/superhuman-personal-agents.png",
 ]
 MEDIA_NAMESPACE = "{http://search.yahoo.com/mrss/}"
+FETCH_DIAGNOSTICS: dict[str, Any] = {
+    "sourcesAttempted": 0,
+    "sourcesSucceeded": 0,
+    "sourceErrors": [],
+}
 
 BUILT_IN_FEEDS = [
     ("OpenAI Blog", "https://openai.com/news/rss.xml"),
@@ -277,11 +282,29 @@ def fetch_text(url: str, timeout: int = 6) -> str:
     raise RuntimeError(f"Unable to fetch {url}")
 
 
+def record_source_success() -> None:
+    FETCH_DIAGNOSTICS["sourcesAttempted"] += 1
+    FETCH_DIAGNOSTICS["sourcesSucceeded"] += 1
+
+
+def record_source_error(source_name: str, source_url: str, exc: Exception) -> None:
+    FETCH_DIAGNOSTICS["sourcesAttempted"] += 1
+    FETCH_DIAGNOSTICS["sourceErrors"].append(
+        {
+            "source": source_name,
+            "url": source_url,
+            "error": f"{type(exc).__name__}: {exc}",
+        }
+    )
+
+
 def read_radar_snapshot(url: str, timeout: int, digest_date: str) -> list[dict[str, Any]]:
     try:
         payload = json.loads(fetch_text(url, timeout=timeout))
-    except (OSError, urllib.error.URLError, json.JSONDecodeError):
+    except (OSError, urllib.error.URLError, json.JSONDecodeError) as exc:
+        record_source_error("LearnPrompt/ai-news-radar", url, exc)
         return []
+    record_source_success()
     raw_items = extract_items(payload)
     return [normalize_external_item(item, "ai-news-radar", digest_date) for item in raw_items]
 
@@ -347,8 +370,10 @@ def load_opml_feeds(path: Path | None) -> list[tuple[str, str]]:
 def read_feed_items(feed_name: str, feed_url: str, timeout: int, digest_date: str) -> list[dict[str, Any]]:
     try:
         root = ET.fromstring(fetch_text(feed_url, timeout=timeout))
-    except (OSError, urllib.error.URLError, ET.ParseError):
+    except (OSError, urllib.error.URLError, ET.ParseError) as exc:
+        record_source_error(feed_name, feed_url, exc)
         return []
+    record_source_success()
     channel_items = root.findall(".//item")
     atom_items = root.findall("{http://www.w3.org/2005/Atom}entry")
     if channel_items:
@@ -747,8 +772,28 @@ def main() -> int:
         "catalogExpansionFeedsAvailable": available_catalog_feed_count,
         "catalogExpansionFeedsConfigured": configured_catalog_feed_limit,
         "catalogExpansionFeedsUsed": catalog_feeds_used,
+        "fetchDiagnostics": FETCH_DIAGNOSTICS,
         "items": candidates,
     }
+    if not candidates and FETCH_DIAGNOSTICS["sourcesSucceeded"] == 0 and FETCH_DIAGNOSTICS["sourceErrors"]:
+        print(
+            json.dumps(
+                {
+                    "items": 0,
+                    "output": str(args.output),
+                    "effectiveWindowHours": effective_window_hours,
+                    "catalogExpansionFeedsAvailable": available_catalog_feed_count,
+                    "catalogExpansionFeedsConfigured": configured_catalog_feed_limit,
+                    "catalogExpansionFeedsUsed": len(catalog_feeds_used),
+                    "fetchDiagnostics": FETCH_DIAGNOSTICS,
+                    "error": "All NEWS sources failed; refusing to publish an empty candidate set.",
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
+            file=sys.stderr,
+        )
+        return 1
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(
@@ -760,6 +805,7 @@ def main() -> int:
                 "catalogExpansionFeedsAvailable": available_catalog_feed_count,
                 "catalogExpansionFeedsConfigured": configured_catalog_feed_limit,
                 "catalogExpansionFeedsUsed": len(catalog_feeds_used),
+                "fetchDiagnostics": FETCH_DIAGNOSTICS,
             },
             ensure_ascii=False,
             indent=2,
