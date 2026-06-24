@@ -371,6 +371,282 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-24",
+    "label": "June 24, 2026",
+    "items": [
+      {
+        "id": "openai-says-new-gpt-5-5-cyber-outperforms-anthro-a26a88c3-jun24",
+        "category": "Developer Tools",
+        "title": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark",
+        "source": "The Decoder",
+        "summary": "OpenAI is expanding its Daybreak cybersecurity initiative with an updated Codex Security plugin, the full GPT-5.5-Cyber model, and a partner network with more than 25 security firms and several governments. The focus shifts from finding vulnerabilities to pat...",
+        "href": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/openai_logo_orange.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "getty-images-strikes-multi-year-deal-to-put-lice-18a780a6-jun24",
+        "category": "Developer Tools",
+        "title": "Getty Images strikes multi-year deal to put licensed photos in ChatGPT search",
+        "source": "The Decoder",
+        "summary": "Getty Images has entered into a multi-year licensing agreement with OpenAI. The article Getty Images strikes multi-year deal to put licensed photos in ChatGPT search appeared first on The Decoder .",
+        "href": "https://the-decoder.com/getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/openai_glitchy_blip.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-reimagines-claude-in-slack-as-nosy-alw-71f06086-jun24",
+        "category": "Agents",
+        "title": "Anthropic reimagines Claude in Slack as nosy, always-on agentic AI coworker",
+        "source": "The Register AI",
+        "summary": "The Claude in Slack app is dead, long live Claude in Slack",
+        "href": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422",
+        "imageUrl": "https://image.theregister.com/?imageId=231367&width=800",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-launches-claude-tag-replacing-its-slac-bdfb7607-jun24",
+        "category": "Developer Tools",
+        "title": "Anthropic launches Claude Tag, replacing its Slack app with a persistent AI teammate that learns, monitors and works au...",
+        "source": "VentureBeat",
+        "summary": "Anthropic on Tuesday launched Claude Tag , a new product that embeds its most advanced AI model directly inside Slack as a persistent, shared teammate that anyone on a team can delegate work to by simply typing @Claude. The product, available today in beta fo...",
+        "href": "https://venturebeat.com/technology/anthropic-launches-claude-tag-replacing-its-slack-app-with-a-persistent-ai-teammate-that-learns-monitors-and-works-autonomously",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/6CFsd7sGf60QrI8jTqYfuy/788282d94743cf3a42c6c4bb28553ad6/Nuneybits_Vector_art_of_entirely_burnt_orange_chat_panel_mergin_c649b311-f246-4715-9849-8358622f4bee.webp?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-replaced-google-search-with-duckduckgo-and-per-6db458d7-jun24",
+        "category": "Product Updates",
+        "title": "I replaced Google Search with DuckDuckGo and Perplexity - my results were noticeably better",
+        "source": "ZDNet AI",
+        "summary": "With Google now a cesspool of AI-generated answers, here's how to work smarter: DuckDuckGo and Perplexity are the best one-two punch in search today.",
+        "href": "https://www.zdnet.com/article/i-replaced-google-search-with-duckduckgo-and-perplexity/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/e69aac9a0fa2173ca3162dc8d330a6a8182b8b5d/2026/06/23/0f8ff291-9998-405d-ac11-82bcd1d7e0fc/perplexhero.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "build-a-protein-research-copilot-with-amazon-bed-9a6d6aee-jun24",
+        "category": "Developer Tools",
+        "title": "Build a protein research copilot with Amazon Bedrock AgentCore",
+        "source": "AWS Machine Learning",
+        "summary": "This post shows you how to build a conversational protein research assistant that combines three capabilities: Natural language query parsing to extract structured search parameters, vector similarity search over protein embeddings using a specialized languag...",
+        "href": "https://aws.amazon.com/blogs/machine-learning/build-a-protein-research-copilot-with-amazon-bedrock-agentcore/",
+        "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/03/19630.png",
+        "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "superhuman-acquires-ai-detection-startup-gptzero-9c888f13-jun24",
+        "category": "Model Releases",
+        "title": "Superhuman acquires AI detection startup GPTZero",
+        "source": "TechCrunch",
+        "summary": "Superhuman, which also has an AI detection tool as part of Grammarly, has snapped up GPTZero.",
+        "href": "https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/06/GPTZero-founders-Edward-and-Alex.jpg?resize=1200,786",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "pp-ocrv6-on-hugging-face-50-language-ocr-from-1-493a508e-jun24",
+        "category": "Product Updates",
+        "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+        "href": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/652b2e9166313ebb6197e706/l156KP0e5PRyDrE4woHoM.jpeg",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "we-got-local-models-to-triage-the-openclaw-repo-d1c7fe87-jun24",
+        "category": "Model Releases",
+        "title": "We got local models to triage the OpenClaw repo for FREE!*",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: We got local models to triage the OpenClaw repo for FREE!*",
+        "href": "https://huggingface.co/blog/local-models-pr-triage",
+        "imageUrl": "https://huggingface.co/blog/assets/local-models-pr-triage/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-governance-checklist-your-llm-architecture-co-545008e6-jun24",
+        "category": "Model Releases",
+        "title": "AI Governance Checklist: Your LLM Architecture Comes First",
+        "source": "OpenRouter Announcements",
+        "summary": "Policy language can't show who called which model or where the audit trail lives. Map your governance checklist to the three routing postures your stack can actually prove.",
+        "href": "https://openrouter.ai/blog/insights/ai-governance-checklist/",
+        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "when-fireflies-ai-entered-british-parliament-8b78c53f-jun24",
+        "category": "Product Updates",
+        "title": "When Fireflies AI Entered British Parliament",
+        "source": "Fireflies Blog",
+        "summary": "In May 2021, Professor Chris Imafidon transcribed Queen Elizabeth II's Speech in minutes using Fireflies. See how AI entered UK Parliament.",
+        "href": "https://fireflies.ai/blog/fireflies-uk-parliament/",
+        "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2026/06/parliament-hero.jpg",
+        "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "customize-cursor-546ba956-jun24",
+        "category": "Agents",
+        "title": "Customize Cursor",
+        "source": "Cursor Changelog",
+        "summary": "Plugins, skills, and MCPs let you customize Cursor for your workflows. The new Customize page brings them into one place.",
+        "href": "https://cursor.com/changelog/customize",
+        "imageUrl": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/changelog/opengraph-cursor-customize-1-.png",
+        "excerpt": "Radar signal: Cursor Changelog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cursor-announces-its-own-ai-model-a-new-git-plat-c9166c94-jun24",
+        "category": "Developer Tools",
+        "title": "Cursor announces its own AI model, a new Git platform, and a mobile app",
+        "source": "The Decoder",
+        "summary": "Cursor has revealed new details about its first AI model trained entirely in-house and announced two new products. The article Cursor announces its own AI model, a new Git platform, and a mobile app appeared first on The Decoder .",
+        "href": "https://the-decoder.com/cursor-announces-its-own-ai-model-a-new-git-platform-and-a-mobile-app/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2024/08/cursor_AI_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "your-customers-are-starting-to-trust-ai-more-tha-cd524f3d-jun24",
+        "category": "Product Updates",
+        "title": "Your customers are starting to trust AI more than your experts",
+        "source": "Fast Company AI",
+        "summary": "New data reveals how quickly consumer sentiment about AI-assisted planning is shifting.",
+        "href": "https://www.fastcompany.com/91561961/your-customers-are-starting-to-trust-ai-more-than-your-experts?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=06242026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/FCIC-and-ILF-templates-1-13.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "tech-stocks-tank-on-wall-street-is-the-chip-bubb-39b6e78d-jun24",
+        "category": "Product Updates",
+        "title": "Tech stocks tank on Wall Street. Is the chip bubble finally popping?",
+        "source": "Fast Company AI",
+        "summary": "Nvidia, Micron, Qualcomm, and other major tech names sank Tuesday as the AI rally came under new pressure, but some analysts say this still does not look like a bubble burst.",
+        "href": "https://www.fastcompany.com/91563622/tech-stocks-tank-on-wall-street-is-the-chip-bubble-finally-popping?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=06242026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91563622-tech-stocks-tank-is-the-chip-bubble-finally-popping.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "one-fake-web-page-can-be-enough-to-trick-ai-shop-610308bc-jun24",
+        "category": "Product Updates",
+        "title": "One fake web page can be enough to trick AI shopping recommendations",
+        "source": "Fast Company AI",
+        "summary": "A single fake web page might be enough to make an AI system recommend a product that does not exist.",
+        "href": "https://www.fastcompany.com/91562049/one-fake-webpage-can-be-enough-to-trick-ai-shopping-recommendations?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=06242026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-ai-pollution.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "o-ai-fdd3eb20-jun24",
+        "category": "Product Updates",
+        "title": "O-AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: O-AI",
+        "href": "https://www.producthunt.com/products/o-ai",
+        "imageUrl": "https://ph-files.imgix.net/7c6c29e5-1d89-4b8d-aba4-8f74693c84f9.svg?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-has-a-single-story-problem-f425cb46-jun24",
+        "category": "Product Updates",
+        "title": "AI has a single story problem",
+        "source": "Fast Company AI",
+        "summary": "Why we need to move away from the dominant narrative to one of shared agency.",
+        "href": "https://www.fastcompany.com/91562261/ai-has-a-single-story-problem?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=06242026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/8-FCIC-and-ILF-templates-.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-companies-are-trying-to-seize-control-of-elec-58d270d3-jun24",
+        "category": "Product Updates",
+        "title": "AI Companies Are Trying to Seize Control of Elections",
+        "source": "Futurism AI",
+        "summary": "\"There was no way as a grassroots person that I could compete with that kind of money.\" The post AI Companies Are Trying to Seize Control of Elections appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ai-companies-elections-midterms",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/ai-companies-elections-midterms.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a24-fans-in-meltdown-after-it-enters-ai-partners-c71c9be8-jun24",
+        "category": "Product Updates",
+        "title": "A24 Fans in Meltdown After It Enters AI Partnership With Google",
+        "source": "Futurism AI",
+        "summary": "\"There goes A24.\" The post A24 Fans in Meltdown After It Enters AI Partnership With Google appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/a24-fans-meltdown-google-ai-partnership",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/a24-fans-meltdown-google-ai-partnership.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "5-essential-approaches-to-robust-outlier-detecti-c2f59739-jun24",
+        "category": "Model Releases",
+        "title": "5 Essential Approaches to Robust Outlier Detection",
+        "source": "KDnuggets",
+        "summary": "Outliers can easily ruin the performance of any predictive analysis models you build: robustly detecting and handling them is crucial in any data project. This article lists and compares five essential approaches for detecting them.",
+        "href": "https://www.kdnuggets.com/5-essential-approaches-to-robust-outlier-detection",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-essential-approaches-to-robust-outlier-detection.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "new-paper-proposes-what-really-causes-ai-psychos-cc26b13c-jun24",
+        "category": "Developer Tools",
+        "title": "New Paper Proposes What Really Causes AI Psychosis",
+        "source": "Futurism AI",
+        "summary": "\"Unlike historical technology-incorporated delusions, AI may actively co-construct delusional ideation through endless, personalized interaction.\" The post New Paper Proposes What Really Causes AI Psychosis appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/paper-proposes-ai-psychosis",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/psychiatrists-hypothesis-ai-psychosis.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "glm-5-2-openai-compatible-api-a-hands-on-guide-t-66e3102c-jun24",
+        "category": "Developer Tools",
+        "title": "GLM-5.2 OpenAI-Compatible API: A Hands-On Guide to Reasoning Effort, Function Calling, and Long-Context Retrieval",
+        "source": "MarkTechPost",
+        "summary": "We build a practical GLM-5.2 workflow using its hosted, OpenAI-compatible API instead of running the model locally. We set up multiple providers, load the API key securely, and create a reusable chat wrapper. We then test thinking-effort control, streamed rea...",
+        "href": "https://www.marktechpost.com/2026/06/22/glm-5-2-openai-compatible-api-a-hands-on-guide-to-reasoning-effort-function-calling-and-long-context-retrieval/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog1913-11.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "patch-the-planet-a-daybreak-initiative-to-suppor-f0ab1740-jun24",
+        "category": "Open Models",
+        "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+        "href": "https://openai.com/index/patch-the-planet",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/28CORR4fvsUacNtm39ZFFM/f57721baa5b429689844d619a4f1e5dd/SEO_Card__1_.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-launches-new-initiative-to-help-find-and-c7f151b0-jun24",
+        "category": "Open Models",
+        "title": "OpenAI launches new initiative to help find and patch open source bugs",
+        "source": "TechCrunch",
+        "summary": "OpenAI is using AI to help the open source community better protect itself.",
+        "href": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2214107176.jpg?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "after-betting-the-firm-on-anthropic-menlo-ventur-4ae0da48-jun24",
+        "category": "Funding",
+        "title": "After betting the firm on Anthropic, Menlo Ventures raises victorious $3B fund",
+        "source": "TechCrunch",
+        "summary": "Menlo has created a solid rep for itself as an AI investor, all based on one gutsy $750 million move in 2024.",
+        "href": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/Victory-dollars-dollar-signs.png?resize=1200,960",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "majority-of-datacenters-are-vulnerable-to-climat-8c923d63-jun24",
+        "category": "Research Workflows",
+        "title": "Majority of datacenters are vulnerable to climate threats like floods and fires, study finds",
+        "source": "The Guardian AI",
+        "summary": "Study warns AI datacenters are vulnerable to the climate hazards that their global greenhouse gas emissions bolster Amid rising concern that the artificial intelligence boom is fueling the climate crisis, a new report has found that nearly 80% of datacenters...",
+        "href": "https://www.theguardian.com/us-news/2026/jun/23/datacenters-climate-hazards-study",
+        "imageUrl": "https://i.guim.co.uk/img/media/beeb1b282a4c9873eb541eec6c02f74961e097c3/116_319_2911_2329/master/2911.jpg?width=140&quality=85&auto=format&fit=max&s=162434d318f636f8bcc84e52d8c1ef83",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-23",
     "label": "June 23, 2026",
     "items": [
