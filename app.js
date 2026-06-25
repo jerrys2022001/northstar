@@ -371,6 +371,262 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-25",
+    "label": "June 25, 2026",
+    "items": [
+      {
+        "id": "openai-s-deployment-chief-on-codex-growth-fallin-b20e8717-jun25",
+        "category": "Developer Tools",
+        "title": "OpenAI's deployment chief on Codex growth, falling AI prices, and the ROI question",
+        "source": "The Decoder",
+        "summary": "OpenAI deployment chief Arnaud Fournier explains in an interview how DeployCo wants to embed AI deep inside large corporations using its own engineers. He talks about explosive Codex growth, the feedback loop from customers back into model development, and wh...",
+        "href": "https://the-decoder.com/openais-deployment-chief-on-codex-growth-falling-ai-prices-and-the-roi-question/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/OpenAI-Fournier-DeployCo-title.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-expands-daybreak-with-patch-the-planet-an-6c79ddca-jun25",
+        "category": "Developer Tools",
+        "title": "OpenAI expands Daybreak with Patch the Planet and full GPT-5.5-Cyber release",
+        "source": "SiliconANGLE AI",
+        "summary": "OpenAI Group PBC today expanded its Daybreak cybersecurity program with a new open-source patching initiative called Patch the Planet, an updated Codex Security plugin, a partner program and the full release of its most capable defensive artificial intelligen...",
+        "href": "https://siliconangle.com/2026/06/22/openai-expands-daybreak-patch-planet-full-gpt-5-5-cyber-release/",
+        "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/parchtheplanet.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-launches-claude-tag-bringing-ai-agents-bd8ed9c6-jun25",
+        "category": "Agents",
+        "title": "Anthropic Launches Claude Tag, Bringing AI Agents Into Slack",
+        "source": "TechRepublic AI",
+        "summary": "Anthropic launched Claude Tag in Slack, giving enterprise teams an AI agent with shared context, admin controls, logs, and spend limits. The post Anthropic Launches Claude Tag, Bringing AI Agents Into Slack appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/news-anthropic-claude-tag-ai-agent-slack/",
+        "imageUrl": "assets/news/perplexity-billion-build.png",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "snowflake-ceo-finds-glm-5-2-competitive-with-opu-9cf27afe-jun25",
+        "category": "Developer Tools",
+        "title": "Snowflake CEO finds GLM-5.2 competitive with Opus 4.7 at a fraction of the cost",
+        "source": "The Decoder",
+        "summary": "Zhipu AI's GLM-5.2 nearly matches Claude Opus 4.7 in a Snowflake benchmark with 103 coding tasks at one-fifth the cost per output token. But the Chinese model burns through nearly twice as many tokens per task. Still, that pricing gap is putting real pressure...",
+        "href": "https://the-decoder.com/snowflake-ceo-finds-glm-5-2-competitive-with-opus-4-7-at-a-fraction-of-the-cost/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/china_us_price_war.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "figma-bets-on-human-judgment-at-config-2026-whil-39218531-jun25",
+        "category": "Developer Tools",
+        "title": "Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
+        "source": "The Decoder",
+        "summary": "At Config 2026, Figma turned its canvas into a full workspace with code, animation, shaders, and AI agents. But the intelligence powering all of it is rented from API providers, squeezing margins. And one of those providers is now building competing design to...",
+        "href": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/Config_2026_product_overview.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "figma-adds-code-layers-support-for-animations-mo-b15a0f3d-jun25",
+        "category": "Developer Tools",
+        "title": "Figma adds code layers, support for animations, more AI features in new update",
+        "source": "TechCrunch",
+        "summary": "Figma's update adds a new code layer, support for motion and shaders, and the ability to create custom plug-ins for various tasks using AI.",
+        "href": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/Config-product-feat.jpg?resize=1200,675",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "introducing-the-ffasr-leaderboard-benchmarking-a-c8f31042-jun25",
+        "category": "Model Releases",
+        "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+        "href": "https://huggingface.co/blog/ffasr-leaderboard",
+        "imageUrl": "https://huggingface.co/blog/assets/ffasr-leaderboard/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "build-real-agentic-apps-using-cuga-two-dozen-wor-f0c4ab46-jun25",
+        "category": "Agents",
+        "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+        "href": "https://huggingface.co/blog/ibm-research/cuga-apps",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/649d9ad1500fd8d51a675a93/p9JwFYkZS7fB9g2PMFMft.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "introducing-the-unified-image-api-8fa52f41-jun25",
+        "category": "Developer Tools",
+        "title": "Introducing the Unified Image API",
+        "source": "OpenRouter Announcements",
+        "summary": "A dedicated Image API with capability discovery across 30+ models from 8 providers. One endpoint tells your code what each model can do.",
+        "href": "https://openrouter.ai/blog/announcements/image-api/",
+        "imageUrl": "assets/news/superhuman-personal-agents.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-9-best-ai-voice-generators-6a718fc6-jun25",
+        "category": "Developer Tools",
+        "title": "The 9 best AI voice generators",
+        "source": "Zapier Blog",
+        "summary": "Recording a voiceover is challenging enough. You go through way too many takes to get what you want. You don't have enough time to rehearse and hit your tone and intention targets. You read endless audio editing software guides to make sure your voice sounds...",
+        "href": "https://zapier.com/blog/best-ai-voice-generator",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/YfmILonnkEx33N7mxSRfF/faaeffbc2964d2248b7366453b749f90/best-ai-voice-generator-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-8-best-ai-presentation-makers-in-2026-ee26c4c0-jun25",
+        "category": "Developer Tools",
+        "title": "The 8 best AI presentation makers in 2026",
+        "source": "Zapier Blog",
+        "summary": "The days of spending hours dragging images to just the right place on a slide are far behind us. You can now create a presentation with AI, giving the robots the job of setting the structure, adding the initial content, and executing on the aesthetics of your...",
+        "href": "https://zapier.com/blog/best-ai-presentation-maker-ai-presentation-maker",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/6U0ndXsM8GSil7HuuZRJ5O/36de70d3b27494469ca9e1c0d263d320/best-ai-presentation-maker-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-27-million-al-proxy-war-over-alex-bores-ends-9670f0f2-jun25",
+        "category": "Product Updates",
+        "title": "The $27 million Al proxy war over Alex Bores ends in a draw",
+        "source": "The Verge AI",
+        "summary": "The expensive, $27 million political proxy war between Anthropic and OpenAI came to a draw last night when Alex Bores, a New York state Assemblyman whose popularity surged after being targeted by a pro-AI super PAC, narrowly lost the Democratic primary to rep...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2282522212.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "qualcomm-buys-buzzy-chip-startup-modular-for-nea-93bb9133-jun25",
+        "category": "Product Updates",
+        "title": "Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion",
+        "source": "WIRED AI",
+        "summary": "Modular, one of the most promising chip software startups of the AI era, heads for a multibillion-dollar exit.",
+        "href": "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/",
+        "imageUrl": "https://media.wired.com/photos/6a3bc8bcb0d9ff58f6121983/master/pass/GettyImages-2204326766.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-omio-is-building-the-future-of-conversationa-0c794cbb-jun25",
+        "category": "Product Updates",
+        "title": "How Omio is building the future of conversational travel",
+        "source": "OpenAI Blog",
+        "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+        "href": "https://openai.com/index/omio",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6wFIgOcT1xK5IvZQIDJ2xQ/edf82561f00cdb27cf3ffcfcad7cd215/oai_Omio_SEO.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "helping-build-shared-standards-for-advanced-ai-6507bbb3-jun25",
+        "category": "Product Updates",
+        "title": "Helping build shared standards for advanced AI",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+        "href": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5QquFbmHjfSUovww9EUMcm/07e61e7f25fa04044767e9a0c11237e1/helping-build-shared-standards-for-advanced-ai-16_9.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "failing-robot-cop-company-knightscope-now-publis-34bfdfb8-jun25",
+        "category": "Product Updates",
+        "title": "Failing Robot Cop Company Knightscope Now Publishing Bizarre AI Slop Fan Fiction About Its Robots Solving Absurd Crimes",
+        "source": "Futurism AI",
+        "summary": "\"The name matched. The money moved. Baby Bob was back.\" The post Failing Robot Cop Company Knightscope Now Publishing Bizarre AI Slop Fan Fiction About Its Robots Solving Absurd Crimes appeared first on Futurism .",
+        "href": "https://futurism.com/robots-and-machines/knightscope-robot-cop-company-fan-fiction",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/knightscope-robot-cop-company-fan-fiction.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-can-help-governments-see-around-corners-56c7fce2-jun25",
+        "category": "Product Updates",
+        "title": "AI can help governments see around corners",
+        "source": "Fast Company AI",
+        "summary": "Gathering and analyzing qualitative data can help agencies prevent crises.",
+        "href": "https://www.fastcompany.com/91563151/ai-can-help-governments-see-around-corners?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=06252026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/3-FCIC-and-ILF-templates-.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-and-broadcom-announce-chip-designed-for-l-77bfb778-jun25",
+        "category": "Model Releases",
+        "title": "OpenAI and Broadcom announce chip designed for LLM inference at scale",
+        "source": "Ars Technica",
+        "summary": "The silicon race is heating up amid the struggle to keep up with demand.",
+        "href": "https://arstechnica.com/gadgets/2026/06/openai-and-broadcom-announce-chip-designed-for-llm-inference-at-scale/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/openai-broadcom-jalapeno-inference-chip-image-1152x648.webp",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-gpt-5-helped-immunologist-derya-unutmaz-solv-7c36fb32-jun25",
+        "category": "Model Releases",
+        "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+        "source": "OpenAI Blog",
+        "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+        "href": "https://openai.com/index/gpt-5-immunology-mystery",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2qNRrOyIX7qjpdePUIObdS/9307a1d928c8b0167cd85e22b39c5132/derya_16x9.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gradium-launches-stt-translate-and-s2s-translate-6b41f186-jun25",
+        "category": "Model Releases",
+        "title": "Gradium Launches stt-translate and s2s-translate, Real-Time Speech Translation Models Beating gpt-realtime-translate on...",
+        "source": "MarkTechPost",
+        "summary": "Gradium released two real-time speech translation models, stt-translate and s2s-translate, covering English, French, German, Spanish, and Portuguese across 20 language pairs. The models collapse the standard three-model cascade into two, pairing single-pass t...",
+        "href": "https://www.marktechpost.com/2026/06/24/gradium-launches-stt-translate-and-s2s-translate-real-time-speech-translation-models-beating-gpt-realtime-translate-on-accuracy-and-latency/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog1913-21.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "top-7-coding-models-you-can-run-locally-in-2026-8ad30578-jun25",
+        "category": "Developer Tools",
+        "title": "Top 7 Coding Models You Can Run Locally in 2026",
+        "source": "KDnuggets",
+        "summary": "Explore the best local coding models for private AI coding, fast GGUF inference, agentic workflows, multimodal development, and running powerful open models on your own GPU.",
+        "href": "https://www.kdnuggets.com/top-7-coding-models-you-can-run-locally-in-2026",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/awan_top_7_coding_models_run_locally_2026_1.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "mistral-s-new-ocr-model-beats-competitors-in-72-a74829fe-jun25",
+        "category": "Developer Tools",
+        "title": "Mistral's new OCR model beats competitors in 72 percent of blind test cases, company says",
+        "source": "The Decoder",
+        "summary": "Mistral AI has released OCR 4, a new model that reads text from documents like PDFs, Word files, and PowerPoint presentations. The article Mistral's new OCR model beats competitors in 72 percent of blind test cases, company says appeared first on The Decoder .",
+        "href": "https://the-decoder.com/mistrals-new-ocr-model-beats-competitors-in-72-percent-of-blind-test-cases-company-says/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/mistral_ai-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "everyone-is-a-builder-now-069504ad-jun25",
+        "category": "Developer Tools",
+        "title": "Everyone is a builder now",
+        "source": "Fast Company AI",
+        "summary": "AI tools have widened the ability to create new functionalities and new companies.",
+        "href": "https://www.fastcompany.com/91563402/everyone-is-a-builder-now?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=06252026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/INC-Masters-Fast-Company-publishing-2026-06-22T180730.687.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "can-we-trust-scientific-images-in-the-era-of-ai-f55d1106-jun25",
+        "category": "Developer Tools",
+        "title": "Can we trust scientific images in the era of AI?",
+        "source": "Fast Company AI",
+        "summary": "Without guidelines and standards, science risks entering a world where every image can be questioned and no image carries inherent credibility.",
+        "href": "https://www.fastcompany.com/91563036/can-we-trust-scientific-images-ai-era?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=06252026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-91563036-fake-ai-scientific-images-are-hurting-health-care-trust.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-researchers-continue-to-leave-google-for-its-1fd44d05-jun25",
+        "category": "Research Workflows",
+        "title": "AI researchers continue to leave Google for its rivals",
+        "source": "TechCrunch",
+        "summary": "Top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, following departures from top scientists Noam Shazeer and John Jumper.",
+        "href": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/02/glitched-google-logo.jpg?resize=1200,645",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-24",
     "label": "June 24, 2026",
     "items": [
