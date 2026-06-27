@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-06-26T00:08:48+00:00",
-  "digestDate": "2026-06-26",
+  "updatedAt": "2026-06-27T02:03:39+00:00",
+  "digestDate": "2026-06-27",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-06-23T08:04:05+08:00",
-  "windowEnd": "2026-06-26T08:04:05+08:00",
+  "windowStart": "2026-06-24T09:58:35+08:00",
+  "windowEnd": "2026-06-27T09:58:35+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -268,7 +268,7 @@
       {
         "source": "Google DeepMind",
         "url": "https://deepmind.google/discover/blog/rss.xml",
-        "error": "URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>"
+        "error": "HTTPError: HTTP Error 404: Not Found"
       },
       {
         "source": "Microsoft AI",
@@ -359,13 +359,282 @@
   },
   "items": [
     {
-      "id": "the-white-house-is-asking-openai-to-slow-roll-th-d5ed8295-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "trump-administration-allows-anthropic-to-release-5b338281-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Model Releases",
+      "title": "Trump Administration Allows Anthropic to Release Mythos to Select US Organizations",
+      "source": "WIRED AI",
+      "summary": "After weeks of negotiations, the White House permitted Anthropic to grant access to its most advanced AI model to a select group of US companies and government agencies.",
+      "href": "https://www.wired.com/story/anthropic-restores-access-to-mythos/",
+      "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://media.wired.com/photos/6a31dd3da349dd0edc2c4b26/master/pass/Anthropic-Restores-Fable-Access-Business.jpg",
+      "publishedAt": "2026-06-27T00:26:14+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "cursor-study-finds-reward-hacking-inflates-codin-866b6199-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Developer Tools",
+      "title": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro",
+      "source": "MarkTechPost",
+      "summary": "A Cursor study shows coding agents retrieve known fixes instead of deriving them, inflating SWE-bench Pro scores through runtime contamination. The post Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro appeared first o...",
+      "href": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro/",
+      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog1913-28.png",
+      "publishedAt": "2026-06-26T23:31:29+00:00",
+      "toolIds": [
+        "cursor"
+      ]
+    },
+    {
+      "id": "ford-scrambled-to-rehire-engineers-after-sabotag-4e48a26d-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Product Updates",
+      "title": "Ford Scrambled to Rehire Engineers After Sabotaging Itself With AI",
+      "source": "Futurism AI",
+      "summary": "Oops! The post Ford Scrambled to Rehire Engineers After Sabotaging Itself With AI appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/ford-rehire-engineers-ai",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/ford-rehire-engineers-ai.jpg?quality=85",
+      "publishedAt": "2026-06-26T19:39:12+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "perplexity-launches-computer-for-counsel-a-multi-0c9d6df3-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Agents",
+      "title": "Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows",
+      "source": "MarkTechPost",
+      "summary": "Perplexity's Computer for Counsel extends Perplexity Computer to legal teams. It routes 20+ models across Midpage, MCP connectors, and Microsoft 365, with cited outputs lawyers can verify. The post Perplexity Launches Computer for Counsel: A Multi-Model Agent...",
+      "href": "https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows/",
+      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog1913-27-1024x731.png",
+      "publishedAt": "2026-06-26T19:31:21+00:00",
+      "toolIds": [
+        "perplexity"
+      ]
+    },
+    {
+      "id": "openai-previews-gpt-5-6-with-sol-terra-and-luna-e1e6bf15-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Model Releases",
+      "title": "OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access",
+      "source": "MarkTechPost",
+      "summary": "OpenAI's GPT-5.6 family adds tiered models with max and ultra reasoning. Here is what early-level engineers should know. The post OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access appeared first on MarkTechP...",
+      "href": "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/",
+      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog1913-26.png",
+      "publishedAt": "2026-06-26T19:18:58+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "openai-s-gpt-5-6-sol-launches-to-rival-claude-my-ad8c67aa-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI's GPT-5.6 Sol launches to rival Claude Mythos under government access rules it calls unsustainable",
+      "source": "The Decoder",
+      "summary": "OpenAI's new flagship GPT-5.6 Sol beats Anthropic's Claude Mythos 5 in coding benchmarks, but the US government is forcing a restricted rollout. OpenAI isn't happy about it. The article OpenAI's GPT-5.6 Sol launches to rival Claude Mythos under government acc...",
+      "href": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/openai_gpt56_sol.png",
+      "publishedAt": "2026-06-26T18:30:01+00:00",
+      "toolIds": [
+        "chatgpt",
+        "claude"
+      ]
+    },
+    {
+      "id": "an-ai-model-programmed-nonstop-for-19-days-on-a-7b9845f9-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Developer Tools",
+      "title": "An AI model programmed nonstop for 19 days on a single MirrorCode task that cost $2,600 to run",
+      "source": "The Decoder",
+      "summary": "Epoch AI's new MirrorCode benchmark tests whether AI models can recreate complete programs without access to the original code. Claude Opus 4.7 leads with a 56 percent solve rate, rebuilding a 16,000-line toolkit in just 14 hours. But every model tested still...",
+      "href": "https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/llm_code_generation.png",
+      "publishedAt": "2026-06-26T17:24:27+00:00",
+      "toolIds": [
+        "claude",
+        "opusclip"
+      ]
+    },
+    {
+      "id": "openai-unveils-gpt-5-6-amid-us-ai-regulatory-dra-6f9ce579-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Model Releases",
+      "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
+      "source": "The Verge AI",
+      "summary": "Less than 24 hours after news broke that OpenAI would stagger its next model release at the request of the Trump administration, that model, GPT-5.6, is here. On Friday, the company unveiled the limited preview of its new GPT 5.6 model suite: Sol, the flagshi...",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/kTm2Q30DT9sCOWpyFewTes78TWbe7s-fy-w68LlL6V0.jpeg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-06-26T17:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "ai-startup-lindy-ditched-claude-entirely-for-dee-ace7a9df-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Developer Tools",
+      "title": "AI startup Lindy ditched Claude entirely for Deepseek, saving millions as cost pressure mounts on Anthropic",
+      "source": "The Decoder",
+      "summary": "AI startup Lindy ditched Claude entirely for Deepseek after AI costs exceeded personnel costs. CEO Flo Crivello calls it \"a matter of survival for the business.\" The article AI startup Lindy ditched Claude entirely for Deepseek, saving millions as cost pressu...",
+      "href": "https://the-decoder.com/ai-startup-lindy-ditched-claude-entirely-for-deepseek-saving-millions-as-cost-pressure-mounts-on-anthropic/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/anthropic_head_pattern.png",
+      "publishedAt": "2026-06-26T15:09:26+00:00",
+      "toolIds": [
+        "claude",
+        "deepseek",
+        "lindy"
+      ]
+    },
+    {
+      "id": "fine-tuning-language-models-on-apple-silicon-wit-9e77054a-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Model Releases",
+      "title": "Fine-tuning Language Models on Apple Silicon with MLX",
+      "source": "KDnuggets",
+      "summary": "Fine-tune open language models locally on your Mac using MLX. No cloud GPUs or costs required.",
+      "href": "https://www.kdnuggets.com/fine-tuning-language-models-on-apple-silicon-with-mlx",
+      "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-fine-tuning-language-models-apple-silicon-mlx-feature.png",
+      "publishedAt": "2026-06-26T15:00:17+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "europe-is-fed-up-and-wants-its-own-ai-0782cbdc-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Model Releases",
+      "title": "Europe Is Fed Up and Wants Its Own AI",
+      "source": "WIRED AI",
+      "summary": "It's a stretch to think that the continent can build a top-tier model, but it has an advantage: Donald Trump.",
+      "href": "https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/",
+      "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://media.wired.com/photos/6a3d7dcc9d8ba41349d50023/master/pass/Backchannel-Macron-G7-2282316572.jpg",
+      "publishedAt": "2026-06-26T15:00:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "chinese-ai-models-challenge-openai-and-anthropic-447c96ed-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Model Releases",
+      "title": "Chinese AI Models Challenge OpenAI and Anthropic on Cost and Enterprise Risk",
+      "source": "TechRepublic AI",
+      "summary": "Chinese AI models are undercutting OpenAI and Anthropic on price, but enterprise adoption depends on security, compliance, and data-governance trade-offs. The post Chinese AI Models Challenge OpenAI and Anthropic on Cost and Enterprise Risk appeared first on...",
+      "href": "https://www.techrepublic.com/article/news-chinese-ai-models-cost-risk/",
+      "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/mit-compressm.png",
+      "publishedAt": "2026-06-26T14:26:44+00:00",
+      "toolIds": [
+        "chatgpt",
+        "claude"
+      ]
+    },
+    {
+      "id": "5-agentic-workflows-to-automate-your-data-scienc-dc5d04e6-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Agents",
+      "title": "5 Agentic Workflows to Automate Your Data Science Pipeline",
+      "source": "KDnuggets",
+      "summary": "This article covers five concrete agentic workflows, one for each major stage of a data science pipeline.",
+      "href": "https://www.kdnuggets.com/5-agentic-workflows-to-automate-your-data-science-pipeline",
+      "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Agentic-Workflows-to-Automate-Your-Data-Science-Pipeline-scaled-1.png",
+      "publishedAt": "2026-06-26T13:34:35+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "build-self-improving-agent-skills-with-cognee-an-20ea5089-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Agents",
+      "title": "Build Self-Improving Agent Skills with cognee and n8n",
+      "source": "n8n Blog",
+      "summary": "When a review run falls short, this workflow catches it and proposes a fix to the skill, then writes the improved instructions back once you approve the diff.",
+      "href": "https://blog.n8n.io/skill-loop/",
+      "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/06/BlogHeader_Verified-Node-Spotlight_cognee.jpg",
+      "publishedAt": "2026-06-26T11:54:09+00:00",
+      "toolIds": [
+        "n8n"
+      ]
+    },
+    {
+      "id": "anthropic-doesn-t-need-junior-engineers-anymore-7ef70ae4-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Developer Tools",
+      "title": "Anthropic doesn't need junior engineers anymore thanks to AI and warns of an economic shock when other industries follow",
+      "source": "The Decoder",
+      "summary": "\"Returns on intuition\": Why Anthropic no longer needs junior engineers and warns of an economic shock. The article Anthropic doesn't need junior engineers anymore thanks to AI and warns of an economic shock when other industries follow appeared first on The D...",
+      "href": "https://the-decoder.com/anthropic-doesnt-need-junior-engineers-anymore-thanks-to-ai-and-warns-of-an-economic-shock-when-other-industries-follow/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/Anthropic-Claude-Worker-1.png",
+      "publishedAt": "2026-06-26T11:18:07+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "openai-s-gpt-5-6-rollout-now-requires-us-governm-2423745c-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI's GPT 5.6 rollout now requires US government approval on a \"customer by customer basis\"",
+      "source": "The Decoder",
+      "summary": "At the request of the U.S. government, OpenAI will initially make its new GPT-5.6 model available only to select partners, with access approved on a \"customer by customer\" basis. CEO Sam Altman says this isn't a \"preferred long term model.\" After the forced t...",
+      "href": "https://the-decoder.com/openais-gpt-5-6-rollout-now-requires-us-government-approval-on-a-customer-by-customer-basis/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/white_house_ai_firms.png",
+      "publishedAt": "2026-06-26T08:35:35+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "anthropic-thinks-its-own-success-is-key-to-makin-4175d2c7-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Product Updates",
+      "title": "Anthropic Thinks Its Own Success Is Key to Making AI Safe",
+      "source": "WIRED AI",
+      "summary": "Anthropic's critics argue it's rapidly accumulating power. The company says that's what responsible AI development looks like.",
+      "href": "https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/",
+      "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://media.wired.com/photos/6a3c48b56c59c72c499e0fad/master/pass/Model-Behavior-AI-Safe-Only-With-Anthropic-Business.jpg",
+      "publishedAt": "2026-06-26T00:49:13+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "the-white-house-is-asking-openai-to-slow-roll-th-d5ed8295-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Model Releases",
       "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
       "source": "TechCrunch",
-      "summary": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to.",
+      "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
       "href": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
       "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273246979.jpg?resize=1200,800",
@@ -375,9 +644,25 @@
       ]
     },
     {
-      "id": "evaluating-performance-and-efficiency-of-the-git-bdecf2cf-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "why-amazon-dropped-its-openai-movie-data-center-fdc04f4e-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Product Updates",
+      "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data",
+      "source": "WIRED AI",
+      "summary": "The decision by Amazon-owned MGM Studios to drop the OpenAI movie is just part of AI and film industries becoming increasingly intertwined. On Uncanny Valley, we look at where this is all headed.",
+      "href": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/",
+      "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://media.wired.com/photos/6a3c48825cdc2b309c97a195/master/pass/Uncanny-Valley-AI-Hollywood-Business.jpg",
+      "publishedAt": "2026-06-25T23:13:45+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "evaluating-performance-and-efficiency-of-the-git-bdecf2cf-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
       "source": "GitHub Blog",
@@ -391,9 +676,9 @@
       ]
     },
     {
-      "id": "openai-will-delay-gpt-5-6-after-trump-administra-efaf3577-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "openai-will-delay-gpt-5-6-after-trump-administra-efaf3577-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Model Releases",
       "title": "OpenAI will delay GPT-5.6 after Trump administration request",
       "source": "The Verge AI",
@@ -407,9 +692,9 @@
       ]
     },
     {
-      "id": "peppa-pig-owner-demands-child-actors-sign-away-v-ffea64d8-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "peppa-pig-owner-demands-child-actors-sign-away-v-ffea64d8-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Product Updates",
       "title": "Peppa Pig Owner Demands Child Actors Sign Away Voice Rights to AI",
       "source": "Futurism AI",
@@ -421,9 +706,9 @@
       "toolIds": []
     },
     {
-      "id": "notion-mail-shuts-down-amid-agent-takeover-a0e0d17a-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "notion-mail-shuts-down-amid-agent-takeover-a0e0d17a-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Agents",
       "title": "Notion Mail shuts down amid agent takeover",
       "source": "TechCrunch",
@@ -437,9 +722,9 @@
       ]
     },
     {
-      "id": "notion-killing-skiff-influenced-email-app-since-50f0e85a-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "notion-killing-skiff-influenced-email-app-since-50f0e85a-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Agents",
       "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
       "source": "Ars Technica",
@@ -453,9 +738,9 @@
       ]
     },
     {
-      "id": "anthropic-says-alibaba-must-be-punished-for-larg-2d1edac4-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "anthropic-says-alibaba-must-be-punished-for-larg-2d1edac4-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Product Updates",
       "title": "Anthropic says Alibaba must be punished for largest Claude cloning attack",
       "source": "Ars Technica",
@@ -470,9 +755,9 @@
       ]
     },
     {
-      "id": "customers-are-ditching-companies-that-force-them-2c8e2981-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "customers-are-ditching-companies-that-force-them-2c8e2981-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Agents",
       "title": "Customers Are Ditching Companies That Force Them to Talk to an AI Agent",
       "source": "Futurism AI",
@@ -484,9 +769,9 @@
       "toolIds": []
     },
     {
-      "id": "deepreinforce-releases-ornith-1-0-an-open-source-a0752393-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "deepreinforce-releases-ornith-1-0-an-open-source-a0752393-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds",
       "source": "MarkTechPost",
@@ -500,9 +785,9 @@
       ]
     },
     {
-      "id": "most-major-ai-chatbots-still-lean-left-on-politi-3fd7619d-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "most-major-ai-chatbots-still-lean-left-on-politi-3fd7619d-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "Most major AI chatbots still lean left on political questions, even \"anti-woke\" models are no exception",
       "source": "The Decoder",
@@ -517,9 +802,9 @@
       ]
     },
     {
-      "id": "using-gemini-to-create-google-sheets-bd75c82e-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "using-gemini-to-create-google-sheets-bd75c82e-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Model Releases",
       "title": "Using Gemini to Create Google Sheets",
       "source": "KDnuggets",
@@ -533,11 +818,11 @@
       ]
     },
     {
-      "id": "introducing-the-recommended-agent-in-ai-chat-wit-ca93f1df-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "introducing-a-recommended-agent-in-ai-chat-with-ca93f1df-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
-      "title": "Introducing the Recommended Agent in AI Chat with Codex as the current choice",
+      "title": "Introducing a Recommended Agent in AI Chat, With Codex as the Current Default",
       "source": "JetBrains AI",
       "summary": "JetBrains AI supports multiple coding agents, including Junie, Codex, Claude Agent, and any ACP-compatible agent you bring yourself. Previously, AI users in JetBrains IDEs started in Chat mode and had to choose an agent themselves. As models became more advan...",
       "href": "https://blog.jetbrains.com/ai/2026/06/codex-is-now-the-recommended-agent-in-jetbrains-ai/",
@@ -550,9 +835,9 @@
       ]
     },
     {
-      "id": "5-open-source-omni-ai-models-that-handle-text-im-15da8c05-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "5-open-source-omni-ai-models-that-handle-text-im-15da8c05-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "5 Open Source Omni AI Models That Handle Text, Images, Audio, and Video",
       "source": "KDnuggets",
@@ -564,25 +849,9 @@
       "toolIds": []
     },
     {
-      "id": "trump-administration-proposes-axing-brake-pedal-46c6457c-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Creative AI",
-      "title": "Trump administration proposes axing brake-pedal requirement for AVs in a boost for Tesla",
-      "source": "TechCrunch",
-      "summary": "The Department of Transportation wants to remove the brake-pedal requirement for vehicles \"designed to be driven exclusively by automated driving systems.\"",
-      "href": "https://techcrunch.com/2026/06/25/trump-admin-proposes-axing-brake-pedal-requirement-for-avs-in-a-boost-for-tesla/",
-      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/11/Cybercab_80.jpeg?resize=1200,924",
-      "publishedAt": "2026-06-25T13:58:05+00:00",
-      "toolIds": [
-        "removebg"
-      ]
-    },
-    {
-      "id": "grok-ai-is-reportedly-a-porn-platform-now-with-o-9e54fb67-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "grok-ai-is-reportedly-a-porn-platform-now-with-o-9e54fb67-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "Grok AI is reportedly a porn platform now, with over half its traffic tied to adult content",
       "source": "The Decoder",
@@ -598,9 +867,9 @@
       ]
     },
     {
-      "id": "warp-lands-60m-to-automate-payroll-compliance-an-c1164e9d-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "warp-lands-60m-to-automate-payroll-compliance-an-c1164e9d-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Product Updates",
       "title": "Warp lands $60M to automate payroll, compliance and HR with AI",
       "source": "SiliconANGLE AI",
@@ -614,9 +883,9 @@
       ]
     },
     {
-      "id": "software-engineers-are-facing-an-existential-cri-455625b0-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "software-engineers-are-facing-an-existential-cri-455625b0-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "Software Engineers Are Facing an Existential Crisis As They Drown In Horrendous AI Code",
       "source": "Futurism AI",
@@ -628,9 +897,9 @@
       "toolIds": []
     },
     {
-      "id": "ai-maturity-the-5-level-framework-9da1c90e-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "ai-maturity-the-5-level-framework-9da1c90e-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Model Releases",
       "title": "AI Maturity - The 5-Level Framework",
       "source": "n8n Blog",
@@ -642,9 +911,9 @@
       "toolIds": []
     },
     {
-      "id": "the-roadmap-to-becoming-an-ai-architect-in-2026-ea63a1c0-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "the-roadmap-to-becoming-an-ai-architect-in-2026-ea63a1c0-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Creative AI",
       "title": "The Roadmap to Becoming an AI Architect in 2026",
       "source": "KDnuggets",
@@ -656,53 +925,23 @@
       "toolIds": []
     },
     {
-      "id": "ai-is-the-ultimate-cofounder-46e039e5-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "ai-is-the-ultimate-cofounder-d1c06743-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Product Updates",
       "title": "AI is the ultimate cofounder",
       "source": "Fast Company AI",
       "summary": "How solopreneurship is driving a new era of economic mobility",
-      "href": "https://www.fastcompany.com/91563628/ai-is-the-ultimate-cofounder?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=06262026",
+      "href": "https://www.fastcompany.com/91563628/ai-is-the-ultimate-cofounder?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=11&partner=newsletter&campaign_date=06272026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/FCIC-and-ILF-templates-1-15.png",
       "publishedAt": "2026-06-25T12:00:00+00:00",
       "toolIds": []
     },
     {
-      "id": "authors-guild-test-finds-some-ai-detectors-perfe-9107cb08-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Developer Tools",
-      "title": "Authors Guild test finds some AI detectors perfectly identify human writing while others fail on every single text",
-      "source": "The Decoder",
-      "summary": "The Authors Guild tested five AI detectors on human-written texts. Pangram and Grammarly correctly identified all of them, while Sidekicker and ZeroGPT flagged human-written articles as AI-generated. But the Guild also warns of a paradox: professionally writt...",
-      "href": "https://the-decoder.com/authors-guild-test-finds-some-ai-detectors-perfectly-identify-human-writing-while-others-fail-on-every-single-text/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/ai_text_detection.png",
-      "publishedAt": "2026-06-25T11:21:37+00:00",
-      "toolIds": [
-        "grammarly"
-      ]
-    },
-    {
-      "id": "oxlo-ai-6981d152-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Product Updates",
-      "title": "Oxlo.ai",
-      "source": "producthunt",
-      "summary": "producthunt reported: Oxlo.ai",
-      "href": "https://www.producthunt.com/products/oxlo-ai",
-      "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-safety.svg",
-      "publishedAt": "2026-06-25T11:15:42+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "world-cup-teams-are-in-a-race-for-ai-dominance-a02a2d3c-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "world-cup-teams-are-in-a-race-for-ai-dominance-a02a2d3c-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Agents",
       "title": "World Cup Teams Are in a Race for AI Dominance",
       "source": "WIRED AI",
@@ -714,9 +953,9 @@
       "toolIds": []
     },
     {
-      "id": "a-scramble-for-visibility-and-control-as-spend-s-eb04133e-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "a-scramble-for-visibility-and-control-as-spend-s-eb04133e-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Product Updates",
       "title": "'A scramble for visibility and control, as spend surges': Less than a third of organizations know what their AI softwar...",
       "source": "TechRadar Software",
@@ -728,42 +967,9 @@
       "toolIds": []
     },
     {
-      "id": "google-bakes-computer-control-directly-into-gemi-fc0d5d6d-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Developer Tools",
-      "title": "Google bakes computer control directly into Gemini 3.5 Flash, letting the model see and operate your screen",
-      "source": "The Decoder",
-      "summary": "Google has integrated \"Computer Use\" directly into Gemini 3.5 Flash, letting the model operate computers, browsers, and mobile devices on its own. On the OSWorld benchmark, it scores 78.4, putting it on par with GPT-5.5. Developers can use the Gemini API to b...",
-      "href": "https://the-decoder.com/google-bakes-computer-control-directly-into-gemini-3-5-flash-letting-the-model-see-and-operate-your-screen/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/gemini_flash_wall.png",
-      "publishedAt": "2026-06-25T09:04:46+00:00",
-      "toolIds": [
-        "chatgpt",
-        "gemini"
-      ]
-    },
-    {
-      "id": "go-from-claude-ai-beginner-to-expert-user-with-t-27553125-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Product Updates",
-      "title": "Go from Claude AI beginner to expert user with this $20 E-Degree",
-      "source": "Mashable",
-      "summary": "Become an expert Claude AI user with this Claude AI Professional E-Degree.",
-      "href": "https://mashable.com/tech/june-25-claude-ai-professional-e-degree",
-      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
-      "imageUrl": "https://helios-i.mashable.com/imagery/articles/07jQDFwXUNNhYNFCLSzF2Lu/hero-image.fill.size_1200x675.v1781852956.jpg",
-      "publishedAt": "2026-06-25T09:00:00+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "code-by-zapier-add-custom-code-to-your-workflows-3029958a-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "code-by-zapier-add-custom-code-to-your-workflows-3029958a-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "Code by Zapier: Add custom code to your workflows",
       "source": "Zapier Blog",
@@ -777,9 +983,9 @@
       ]
     },
     {
-      "id": "zapier-sdk-connect-your-code-files-to-thousands-6652dc2c-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "zapier-sdk-connect-your-code-files-to-thousands-6652dc2c-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "Zapier SDK: Connect your code files to thousands of actions",
       "source": "Zapier Blog",
@@ -794,9 +1000,9 @@
       ]
     },
     {
-      "id": "improving-the-speed-and-energy-efficiency-of-ai-1c527416-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "improving-the-speed-and-energy-efficiency-of-ai-1c527416-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Agents",
       "title": "Improving the speed and energy-efficiency of AI agents",
       "source": "MIT News AI",
@@ -808,25 +1014,41 @@
       "toolIds": []
     },
     {
-      "id": "the-openrouter-mcp-server-abf72ee0-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "how-agents-are-transforming-work-2b6976f9-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
+      "category": "Agents",
+      "title": "How agents are transforming work",
+      "source": "OpenAI Blog",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "href": "https://openai.com/index/how-agents-are-transforming-work",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3JAh8VK98LHki9m4sr8KIR/3580b8ab65aca167342a3c674847531e/SEO_Card__2_.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-06-25T02:00:00+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "the-openrouter-mcp-server-abf72ee0-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "The OpenRouter MCP Server",
       "source": "OpenRouter Announcements",
       "summary": "Connect your coding agent to OpenRouter's live model catalog, benchmarks, docs, and test inference, all without leaving your editor.",
       "href": "https://openrouter.ai/blog/announcements/openrouter-mcp-server/",
       "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+      "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
       "publishedAt": "2026-06-25T00:00:00+00:00",
       "toolIds": [
         "openrouter"
       ]
     },
     {
-      "id": "grammarly-parent-superhuman-buys-ai-detector-gpt-b0458142-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "grammarly-parent-superhuman-buys-ai-detector-gpt-b0458142-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Model Releases",
       "title": "Grammarly parent Superhuman buys AI detector GPTZero",
       "source": "SiliconANGLE AI",
@@ -842,25 +1064,9 @@
       ]
     },
     {
-      "id": "openai-and-broadcom-announce-chip-designed-for-l-77bfb778-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Model Releases",
-      "title": "OpenAI and Broadcom announce chip designed for LLM inference at scale",
-      "source": "Ars Technica",
-      "summary": "The silicon race is heating up amid the struggle to keep up with demand.",
-      "href": "https://arstechnica.com/gadgets/2026/06/openai-and-broadcom-announce-chip-designed-for-llm-inference-at-scale/",
-      "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
-      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/openai-broadcom-jalapeno-inference-chip-image-1152x648.webp",
-      "publishedAt": "2026-06-24T22:28:18+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "gradium-launches-stt-translate-and-s2s-translate-6b41f186-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "gradium-launches-stt-translate-and-s2s-translate-6b41f186-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Model Releases",
       "title": "Gradium Launches stt-translate and s2s-translate, Real-Time Speech Translation Models Beating gpt-realtime-translate on...",
       "source": "MarkTechPost",
@@ -874,39 +1080,23 @@
       ]
     },
     {
-      "id": "openai-says-chatgpt-instant-now-better-understan-7ff9f772-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Developer Tools",
-      "title": "OpenAI says ChatGPT Instant now better understands what users actually want",
-      "source": "The Decoder",
-      "summary": "OpenAI is updating GPT-5.5 Instant, its most-used ChatGPT model. The update targets conversation quality, with better intent recognition, improved context across multiple turns, and more reliable handling of complex, multi-condition prompts. The article OpenA...",
-      "href": "https://the-decoder.com/openai-says-chatgpt-instant-now-better-understands-what-users-actually-want/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/openai_logo_chatgpt-2.png",
-      "publishedAt": "2026-06-24T19:54:23+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "everyone-is-a-builder-now-eca2cdb3-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "everyone-is-a-builder-now-c3ec70dc-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "Everyone is a builder now",
       "source": "Fast Company AI",
       "summary": "AI tools have widened the ability to create new functionalities and new companies.",
-      "href": "https://www.fastcompany.com/91563402/everyone-is-a-builder-now?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=8&partner=newsletter&campaign_date=06262026",
+      "href": "https://www.fastcompany.com/91563402/everyone-is-a-builder-now?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=13&partner=newsletter&campaign_date=06272026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/INC-Masters-Fast-Company-publishing-2026-06-22T180730.687.png",
       "publishedAt": "2026-06-24T19:45:00+00:00",
       "toolIds": []
     },
     {
-      "id": "the-27-million-al-proxy-war-over-alex-bores-ends-9670f0f2-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "the-27-million-al-proxy-war-over-alex-bores-ends-9670f0f2-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Product Updates",
       "title": "The $27 million Al proxy war over Alex Bores ends in a draw",
       "source": "The Verge AI",
@@ -921,26 +1111,9 @@
       ]
     },
     {
-      "id": "snowflake-ceo-finds-glm-5-2-competitive-with-opu-9cf27afe-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Developer Tools",
-      "title": "Snowflake CEO finds GLM-5.2 competitive with Opus 4.7 at a fraction of the cost",
-      "source": "The Decoder",
-      "summary": "Zhipu AI's GLM-5.2 nearly matches Claude Opus 4.7 in a Snowflake benchmark with 103 coding tasks at one-fifth the cost per output token. But the Chinese model burns through nearly twice as many tokens per task. Still, that pricing gap is putting real pressure...",
-      "href": "https://the-decoder.com/snowflake-ceo-finds-glm-5-2-competitive-with-opus-4-7-at-a-fraction-of-the-cost/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/china_us_price_war.png",
-      "publishedAt": "2026-06-24T17:07:37+00:00",
-      "toolIds": [
-        "claude",
-        "opusclip"
-      ]
-    },
-    {
-      "id": "figma-now-has-ai-motion-graphics-and-shader-tool-6d7b3293-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "figma-now-has-ai-motion-graphics-and-shader-tool-6d7b3293-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "Figma now has AI motion graphics and shader tools",
       "source": "The Verge AI",
@@ -954,25 +1127,25 @@
       ]
     },
     {
-      "id": "anthropic-launches-claude-tag-bringing-ai-agents-bd8ed9c6-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "anthropic-launches-claude-tag-bringing-ai-agents-bd8ed9c6-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Agents",
       "title": "Anthropic Launches Claude Tag, Bringing AI Agents Into Slack",
       "source": "TechRepublic AI",
       "summary": "Anthropic launched Claude Tag in Slack, giving enterprise teams an AI agent with shared context, admin controls, logs, and spend limits. The post Anthropic Launches Claude Tag, Bringing AI Agents Into Slack appeared first on TechRepublic .",
       "href": "https://www.techrepublic.com/article/news-anthropic-claude-tag-ai-agent-slack/",
       "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+      "imageUrl": "assets/news/openai-databricks-agent-workflows.webp",
       "publishedAt": "2026-06-24T15:52:37+00:00",
       "toolIds": [
         "claude"
       ]
     },
     {
-      "id": "failing-robot-cop-company-knightscope-now-publis-34bfdfb8-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "failing-robot-cop-company-knightscope-now-publis-34bfdfb8-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Product Updates",
       "title": "Failing Robot Cop Company Knightscope Now Publishing Bizarre AI Slop Fan Fiction About Its Robots Solving Absurd Crimes",
       "source": "Futurism AI",
@@ -984,37 +1157,23 @@
       "toolIds": []
     },
     {
-      "id": "qualcomm-buys-buzzy-chip-startup-modular-for-nea-93bb9133-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Product Updates",
-      "title": "Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion",
-      "source": "WIRED AI",
-      "summary": "Modular, one of the most promising chip software startups of the AI era, heads for a multibillion-dollar exit.",
-      "href": "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/",
-      "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://media.wired.com/photos/6a3bc8bcb0d9ff58f6121983/master/pass/GettyImages-2204326766.jpg",
-      "publishedAt": "2026-06-24T12:36:07+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "ai-can-help-governments-see-around-corners-9ee7b3d9-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "ai-can-help-governments-see-around-corners-966a9b24-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Product Updates",
       "title": "AI can help governments see around corners",
       "source": "Fast Company AI",
       "summary": "Gathering and analyzing qualitative data can help agencies prevent crises.",
-      "href": "https://www.fastcompany.com/91563151/ai-can-help-governments-see-around-corners?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=10&partner=newsletter&campaign_date=06262026",
+      "href": "https://www.fastcompany.com/91563151/ai-can-help-governments-see-around-corners?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=15&partner=newsletter&campaign_date=06272026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/3-FCIC-and-ILF-templates-.png",
       "publishedAt": "2026-06-24T12:00:00+00:00",
       "toolIds": []
     },
     {
-      "id": "top-7-coding-models-you-can-run-locally-in-2026-8ad30578-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "top-7-coding-models-you-can-run-locally-in-2026-8ad30578-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "Top 7 Coding Models You Can Run Locally in 2026",
       "source": "KDnuggets",
@@ -1026,23 +1185,9 @@
       "toolIds": []
     },
     {
-      "id": "can-we-trust-scientific-images-in-the-era-of-ai-101e3ea6-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Developer Tools",
-      "title": "Can we trust scientific images in the era of AI?",
-      "source": "Fast Company AI",
-      "summary": "Without guidelines and standards, science risks entering a world where every image can be questioned and no image carries inherent credibility.",
-      "href": "https://www.fastcompany.com/91563036/can-we-trust-scientific-images-ai-era?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=11&partner=newsletter&campaign_date=06262026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-91563036-fake-ai-scientific-images-are-hurting-health-care-trust.jpg",
-      "publishedAt": "2026-06-24T08:30:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "the-8-best-ai-image-generators-in-2026-8009335d-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "the-8-best-ai-image-generators-in-2026-8009335d-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Agents",
       "title": "The 8 best AI image generators in 2026",
       "source": "Zapier Blog",
@@ -1054,9 +1199,9 @@
       "toolIds": []
     },
     {
-      "id": "the-9-best-ai-voice-generators-6a718fc6-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "the-9-best-ai-voice-generators-6a718fc6-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "The 9 best AI voice generators",
       "source": "Zapier Blog",
@@ -1068,9 +1213,9 @@
       "toolIds": []
     },
     {
-      "id": "the-5-best-ai-app-builders-in-2026-c1952b41-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "the-5-best-ai-app-builders-in-2026-c1952b41-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "The 5 best AI app builders in 2026",
       "source": "Zapier Blog",
@@ -1082,9 +1227,9 @@
       "toolIds": []
     },
     {
-      "id": "the-8-best-ai-presentation-makers-in-2026-ee26c4c0-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
+      "id": "the-8-best-ai-presentation-makers-in-2026-ee26c4c0-jun27",
+      "date": "2026-06-27",
+      "dateLabel": "June 27, 2026",
       "category": "Developer Tools",
       "title": "The 8 best AI presentation makers in 2026",
       "source": "Zapier Blog",
@@ -1093,171 +1238,6 @@
       "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/6U0ndXsM8GSil7HuuZRJ5O/36de70d3b27494469ca9e1c0d263d320/best-ai-presentation-maker-hero.jpg",
       "publishedAt": "2026-06-24T05:00:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "how-gpt-5-helped-immunologist-derya-unutmaz-solv-7c36fb32-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Model Releases",
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "source": "OpenAI Blog",
-      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-      "href": "https://openai.com/index/gpt-5-immunology-mystery",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2qNRrOyIX7qjpdePUIObdS/9307a1d928c8b0167cd85e22b39c5132/derya_16x9.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-06-23T17:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "ai-companies-are-trying-to-seize-control-of-elec-58d270d3-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Product Updates",
-      "title": "AI Companies Are Trying to Seize Control of Elections",
-      "source": "Futurism AI",
-      "summary": "\"There was no way as a grassroots person that I could compete with that kind of money.\" The post AI Companies Are Trying to Seize Control of Elections appeared first on Futurism .",
-      "href": "https://futurism.com/artificial-intelligence/ai-companies-elections-midterms",
-      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/ai-companies-elections-midterms.jpg?quality=85",
-      "publishedAt": "2026-06-23T16:45:36+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "build-a-protein-research-copilot-with-amazon-bed-9a6d6aee-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Developer Tools",
-      "title": "Build a protein research copilot with Amazon Bedrock AgentCore",
-      "source": "AWS Machine Learning",
-      "summary": "This post shows you how to build a conversational protein research assistant that combines three capabilities: Natural language query parsing to extract structured search parameters, vector similarity search over protein embeddings using a specialized languag...",
-      "href": "https://aws.amazon.com/blogs/machine-learning/build-a-protein-research-copilot-with-amazon-bedrock-agentcore/",
-      "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window.",
-      "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/03/19630.png",
-      "publishedAt": "2026-06-23T16:39:34+00:00",
-      "toolIds": [
-        "githubcopilot"
-      ]
-    },
-    {
-      "id": "ai-chatbots-are-hitting-the-dating-scene-with-ad-7f4a5cef-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Product Updates",
-      "title": "AI chatbots are hitting the dating scene with advice on breaking the ice and breaking up",
-      "source": "Fast Company AI",
-      "summary": "Chatbots like Grok and Claude are making dating a little less painful.",
-      "href": "https://www.fastcompany.com/91563538/ai-chatbots-hitting-dating-scene-advice-breaking-ice-breaking-up?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=13&partner=newsletter&campaign_date=06262026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/AP26169567005918.jpg",
-      "publishedAt": "2026-06-23T14:45:14+00:00",
-      "toolIds": [
-        "claude",
-        "grok"
-      ]
-    },
-    {
-      "id": "tech-stocks-tank-on-wall-street-is-the-chip-bubb-763fdbb1-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Product Updates",
-      "title": "Tech stocks tank on Wall Street. Is the chip bubble finally popping?",
-      "source": "Fast Company AI",
-      "summary": "Nvidia, Micron, Qualcomm, and other major tech names sank Tuesday as the AI rally came under new pressure, but some analysts say this still does not look like a bubble burst.",
-      "href": "https://www.fastcompany.com/91563622/tech-stocks-tank-on-wall-street-is-the-chip-bubble-finally-popping?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=14&partner=newsletter&campaign_date=06262026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91563622-tech-stocks-tank-is-the-chip-bubble-finally-popping.jpg",
-      "publishedAt": "2026-06-23T14:16:26+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "new-paper-proposes-what-really-causes-ai-psychos-cc26b13c-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Developer Tools",
-      "title": "New Paper Proposes What Really Causes AI Psychosis",
-      "source": "Futurism AI",
-      "summary": "\"Unlike historical technology-incorporated delusions, AI may actively co-construct delusional ideation through endless, personalized interaction.\" The post New Paper Proposes What Really Causes AI Psychosis appeared first on Futurism .",
-      "href": "https://futurism.com/artificial-intelligence/paper-proposes-ai-psychosis",
-      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/psychiatrists-hypothesis-ai-psychosis.jpg?quality=85",
-      "publishedAt": "2026-06-23T14:15:34+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "a24-fans-in-meltdown-after-it-enters-ai-partners-c71c9be8-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Product Updates",
-      "title": "A24 Fans in Meltdown After It Enters AI Partnership With Google",
-      "source": "Futurism AI",
-      "summary": "\"There goes A24.\" The post A24 Fans in Meltdown After It Enters AI Partnership With Google appeared first on Futurism .",
-      "href": "https://futurism.com/artificial-intelligence/a24-fans-meltdown-google-ai-partnership",
-      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/a24-fans-meltdown-google-ai-partnership.jpg?quality=85",
-      "publishedAt": "2026-06-23T13:07:37+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "when-fireflies-ai-entered-british-parliament-8b78c53f-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Product Updates",
-      "title": "When Fireflies AI Entered British Parliament",
-      "source": "Fireflies Blog",
-      "summary": "In May 2021, Professor Chris Imafidon transcribed Queen Elizabeth II's Speech in minutes using Fireflies. See how AI entered UK Parliament.",
-      "href": "https://fireflies.ai/blog/fireflies-uk-parliament/",
-      "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2026/06/parliament-hero.jpg",
-      "publishedAt": "2026-06-23T13:03:44+00:00",
-      "toolIds": [
-        "fireflies"
-      ]
-    },
-    {
-      "id": "helping-build-shared-standards-for-advanced-ai-6507bbb3-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Product Updates",
-      "title": "Helping build shared standards for advanced AI",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "href": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5QquFbmHjfSUovww9EUMcm/07e61e7f25fa04044767e9a0c11237e1/helping-build-shared-standards-for-advanced-ai-16_9.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-06-23T13:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "5-essential-approaches-to-robust-outlier-detecti-c2f59739-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Model Releases",
-      "title": "5 Essential Approaches to Robust Outlier Detection",
-      "source": "KDnuggets",
-      "summary": "Outliers can easily ruin the performance of any predictive analysis models you build: robustly detecting and handling them is crucial in any data project. This article lists and compares five essential approaches for detecting them.",
-      "href": "https://www.kdnuggets.com/5-essential-approaches-to-robust-outlier-detection",
-      "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-essential-approaches-to-robust-outlier-detection.png",
-      "publishedAt": "2026-06-23T12:00:31+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "your-customers-are-starting-to-trust-ai-more-tha-b02239a0-jun26",
-      "date": "2026-06-26",
-      "dateLabel": "June 26, 2026",
-      "category": "Product Updates",
-      "title": "Your customers are starting to trust AI more than your experts",
-      "source": "Fast Company AI",
-      "summary": "New data reveals how quickly consumer sentiment about AI-assisted planning is shifting.",
-      "href": "https://www.fastcompany.com/91561961/your-customers-are-starting-to-trust-ai-more-than-your-experts?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=15&partner=newsletter&campaign_date=06262026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/FCIC-and-ILF-templates-1-13.png",
-      "publishedAt": "2026-06-23T12:00:00+00:00",
       "toolIds": []
     }
   ]
