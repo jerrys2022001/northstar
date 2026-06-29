@@ -371,6 +371,122 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-06-29",
+    "label": "June 29, 2026",
+    "items": [
+      {
+        "id": "use-android-auto-how-to-limit-what-information-g-5beb78d6-jun29",
+        "category": "Model Releases",
+        "title": "Use Android Auto? How to limit what information Gemini learns about you",
+        "source": "ZDNet AI",
+        "summary": "Google's AI offers a lot of convenience in your car, but you're offering up a lot of sensitive information.",
+        "href": "https://www.zdnet.com/article/stop-gemini-from-listening-in-android-auto/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/da6fd53b5bb7d4b36014062c636a165feea31c33/2026/05/21/ac3a0704-6b79-4535-945a-4e1d6e20fbe3/dsc09982.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sina-s-open-model-vibethinker-3b-aims-to-show-re-02f7ae12-jun29",
+        "category": "Developer Tools",
+        "title": "Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
+        "source": "The Decoder",
+        "summary": "Sina Weibo's VibeThinker-3B has just three billion parameters but matches models like DeepSeek V3.2 and Kimi K2.5 on math and coding benchmarks. Those models are up to 333 times larger. The secret isn't size but multi-stage post-training. The researchers prop...",
+        "href": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/vibe-thinker-small-reasoning-model-generated-image-nano-banana-pro.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-mythos-5-is-back-but-only-for-a-select-gr-61b3d333-jun29",
+        "category": "Product Updates",
+        "title": "Claude Mythos 5 is back, but only for a select group of US institutions",
+        "source": "Mashable",
+        "summary": "The US government has partially lifted its block on Claude Mythos 5 after two weeks of daily negotiations.",
+        "href": "https://mashable.com/tech/claude-mythos-5-reinstated-by-us-government",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/01esokkHUrIBfTySjx2NGDp/hero-image.fill.size_1200x675.v1782569677.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-gets-us-approval-to-bring-back-claude-f0cc1682-jun29",
+        "category": "Developer Tools",
+        "title": "Anthropic gets US approval to bring back Claude Mythos 5",
+        "source": "The Decoder",
+        "summary": "Anthropic has US approval to redeploy Claude Mythos 5 for organizations running critical infrastructure. The company is still negotiating broader access and the return of Fable 5, with no timeline set. The article Anthropic gets US approval to bring back Clau...",
+        "href": "https://the-decoder.com/anthropic-gets-us-approval-to-bring-back-claude-mythos-5/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/glasswing_mythos_cybersecurity_anthropic-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "building-a-stable-fable-5-traces-workflow-in-col-0d974385-jun29",
+        "category": "Agents",
+        "title": "Building a Stable Fable 5 Traces Workflow in Colab: Parsing Tool Calls, Auditing Data, and Training Baselines",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we build a stable workflow around the Fable 5 Traces dataset from Hugging Face. We avoid fragile dependencies and manually parse the merged JSONL file to keep Colab reliable. We inspect repository files, normalize tool calls, audit structure...",
+        "href": "https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog1913-33.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "hikers-lost-in-kosciuszko-national-park-rescued-382472df-jun29",
+        "category": "Product Updates",
+        "title": "Hikers lost in Kosciuszko national park rescued within five hours by AI drone",
+        "source": "The Guardian AI",
+        "summary": "Fire and Rescue NSW uses thermal imaging and a mobile phone red light to quickly locate men who veered off walking track near Jindabyne Get our breaking news email , free app or daily news podcast Two hikers who veered off a walking track in Kosciuszko nation...",
+        "href": "https://www.theguardian.com/australia-news/2026/jun/27/ai-drone-rescue-kosciuszko-national-park-hikers-fire-rescue-nsw",
+        "imageUrl": "https://i.guim.co.uk/img/media/3752ed6a45e2ccc0b4c976fef12974cb7e048003/455_0_2104_1684/master/2104.jpg?width=140&quality=85&auto=format&fit=max&s=21eaa9b4a57f59e55a3940291956516d",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cops-caught-using-ai-to-edit-picture-of-pathetic-a471139d-jun29",
+        "category": "Product Updates",
+        "title": "Cops Caught Using AI to Edit Picture of Pathetic Drug Bust",
+        "source": "Futurism AI",
+        "summary": "\"I like being lied to by the police, it's good for building trust!\" The post Cops Caught Using AI to Edit Picture of Pathetic Drug Bust appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/cops-caught-using-gen-ai-drug-bust",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/06/cops-caught-using-gen-ai-drug-bust.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "australian-with-retirement-savings-you-probably-7348a8ea-jun29",
+        "category": "Product Updates",
+        "title": "Australian with retirement savings? You probably own SpaceX",
+        "source": "The Guardian AI",
+        "summary": "Tech and AI stocks now make up as much as 12% of most balanced superannuation funds, experts say Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast Artificial intelligence and technology stocks...",
+        "href": "https://www.theguardian.com/australia-news/2026/jun/29/australian-with-retirement-savings-you-probably-own-spacex",
+        "imageUrl": "https://i.guim.co.uk/img/media/83b03182f5b065e02d70039e2ba3c58756588013/418_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=dc380f23592658517a76fa3a8f4f5f02",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-ai-bubble-has-further-to-run-despite-the-loo-34ee9d29-jun29",
+        "category": "Model Releases",
+        "title": "The AI bubble has further to run despite the looming crash",
+        "source": "The Guardian AI",
+        "summary": "As tech firms make huge profits and investors fear losing out, both are doing their best to hold off the day of reckoning OpenAI staggers AI model release after White House request Every couple of decades, investors will ask themselves how long can the stock...",
+        "href": "https://www.theguardian.com/business/2026/jun/27/ai-bubble-crash-tech-firms-stock-markets",
+        "imageUrl": "https://i.guim.co.uk/img/media/4a514c062129c0c284efe3e1a45a4c91b7323bdb/728_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=dc5e84958f8338addaed06cd25d1e8c6",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "discode-ai-a6f09042-jun29",
+        "category": "Developer Tools",
+        "title": "discode.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: discode.ai",
+        "href": "https://www.producthunt.com/products/discode-ai",
+        "imageUrl": "https://ph-files.imgix.net/106b9bca-50b4-4983-94c5-4f65119d2dac.jpeg?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chinese-cybersecurity-firm-builds-ai-tools-to-ri-181f0606-jun29",
+        "category": "Developer Tools",
+        "title": "Chinese cybersecurity firm builds AI tools to rival Mythos and frames the race as cyber-nuclear deterrence",
+        "source": "The Decoder",
+        "summary": "360 founder Zhou Hongyi presents two AI security tools designed to compete with Anthropic's Mythos. One has already flagged 3,432 vulnerabilities. Zhou admits Chinese models trail Western ones by 20 to 30 percent, but compares Mythos to \"cyber nuclear weapons...",
+        "href": "https://the-decoder.com/chinese-cybersecurity-firm-builds-ai-tools-to-rival-mythos-and-frames-the-race-as-cyber-nuclear-deterrence/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/china_vs_usa_ai_race.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-06-28",
     "label": "June 28, 2026",
     "items": [
