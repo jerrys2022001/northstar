@@ -371,6 +371,252 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-07-03",
+    "label": "July 3, 2026",
+    "items": [
+      {
+        "id": "hugging-face-and-cerebras-bring-gemma-4-to-real-b7f49b2b-jul03",
+        "category": "Product Updates",
+        "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+        "href": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+        "imageUrl": "https://huggingface.co/blog/assets/cerebras-gemma4-voice-ai/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-chatgpt-adoption-has-expanded-fb435a03-jul03",
+        "category": "Model Releases",
+        "title": "How ChatGPT adoption has expanded",
+        "source": "OpenAI Blog",
+        "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+        "href": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7pYrohTaJusmMwISBrPGF3/8d3e678444d2b6a22ba62085b9a3bb8b/Frame-1.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-199-246ad460-jul03",
+        "category": "Developer Tools",
+        "title": "v2.1.199",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.199",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
+        "imageUrl": "https://opengraph.githubassets.com/51f8cf863e006a14bd0cc4ca107ae30eab3aa99d49eb8719a55f17892bd104df/anthropics/claude-code/releases/tag/v2.1.199",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-says-it-cut-80-percent-of-claude-code-38d620eb-jul03",
+        "category": "Developer Tools",
+        "title": "Anthropic says it cut 80 percent of Claude Code's system prompt because Fable 5 models \"want a smaller system prompt\"",
+        "source": "The Decoder",
+        "summary": "Anthropic has cut the system prompt for Claude Code by 80 percent. According to staffer Tariq Shihipar, the new Fable 5 models need fewer instructions and examples. Guidelines can even hold the models back because they're \"more imaginative\" than what they're...",
+        "href": "https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/anthropic_ai_conference_talk_shihipar.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "new-alibaba-ai-framework-skips-loading-every-too-1348a3d8-jul03",
+        "category": "Developer Tools",
+        "title": "New Alibaba AI framework skips loading every tool, cutting agent token use 99%",
+        "source": "VentureBeat",
+        "summary": "As enterprise AI systems scale to handle complex workflows, practitioners face the challenge of routing subtasks to the right tools and skills. Agents can have hundreds of tools and skills and get confused on which one to use for each step of a workflow. To a...",
+        "href": "https://venturebeat.com/orchestration/new-alibaba-ai-framework-skips-loading-every-tool-cutting-agent-token-use-99",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5oP2rwb3fLrPFJUZ6RnoQR/772fb06df7c83640938eca78724ef511/LLM_skill_orchestration.jpg?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "choose-the-best-vector-databases-for-ai-and-rag-94ed6b3c-jul03",
+        "category": "Product Updates",
+        "title": "Choose the Best Vector Databases for AI and RAG Pipelines",
+        "source": "n8n Blog",
+        "summary": "Compare the 10 best vector databases for RAG and AI pipelines. Evaluate your options on scale ceiling, metadata filtering, overhead, and architectural fit.",
+        "href": "https://blog.n8n.io/best-vector-database/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/06/TL--2-.jpeg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-best-business-automation-software-in-2026-e3620a14-jul03",
+        "category": "Agents",
+        "title": "The best business automation software in 2026",
+        "source": "Zapier Blog",
+        "summary": "I make a sandwich every day for lunch, and I've put the mayo, turkey, cheese, and veggies in specific places in the fridge so I can grab them all in one go without opening a single drawer. So far, I've got my sandwich-making prep time down to about 45 seconds...",
+        "href": "https://zapier.com/blog/business-automation-software",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/1I5mJz6xopzCfnTL3Wpu79/143f35849833ad100c4653a9f455a0f7/business-automation-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "workato-vs-mulesoft-which-automation-platform-is-95652755-jul03",
+        "category": "Developer Tools",
+        "title": "Workato vs. MuleSoft: Which automation platform is best? [2026]",
+        "source": "Zapier Blog",
+        "summary": "I didn't expect to be comparing Workato and MuleSoft: workflow veterans know they usually show up in slightly different conversations. Workato tends to come up in enterprise conversations about app integration and workflow automation; it's developer-oriented,...",
+        "href": "https://zapier.com/blog/workato-vs-mulesoft",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/6RvdSoowwFJ5vZB8kbnidd/515e415b2f12242ed9434d26267a4526/workato-vs-mulesoft-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "fireflies-vs-tl-dv-2026-which-ai-notetaker-wins-cb73e222-jul03",
+        "category": "Product Updates",
+        "title": "Fireflies vs. tl;dv (2026): Which AI Notetaker Wins?",
+        "source": "Fireflies Blog",
+        "summary": "See how Fireflies and tl;dv compare on transcription, integrations, pricing, and AI features. Find out which meeting assistant fits your team in 2026.",
+        "href": "https://fireflies.ai/blog/fireflies-vs-tldv/",
+        "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2026/07/feature-vs-tldv.png",
+        "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-best-ai-notetaker-for-project-managers-in-20-350b5495-jul03",
+        "category": "Agents",
+        "title": "The Best AI Notetaker for Project Managers in 2026 (8 Tools Compared by Stack)",
+        "source": "Fireflies Blog",
+        "summary": "Compare 8 AI notetakers for project managers based on integration depth, automation, and ceremony fit. Honest picks for engineering, product, and PMs.",
+        "href": "https://fireflies.ai/blog/best-ai-notetaker-for-project-managers/",
+        "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2026/07/feature-1a-1.png",
+        "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meta-has-a-new-app-called-pocket-that-is-absolut-4f855a35-jul03",
+        "category": "Developer Tools",
+        "title": "Meta has a new app called Pocket that is absolutely nothing like the old Pocket",
+        "source": "The Verge",
+        "summary": "Mozilla shut down the well-loved read-it-later Pocket app last year, and now Meta is launching an app called Pocket with an entirely different, AI-focused pitch: this new app lets you make and share little interactive \"gizmos\" built from an AI prompt, as repo...",
+        "href": "https://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/meta.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200",
+        "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "pdftoword-ai-eded8763-jul03",
+        "category": "Product Updates",
+        "title": "pdftoword.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: pdftoword.ai",
+        "href": "https://www.producthunt.com/products/pdftoword-ai",
+        "imageUrl": "https://ph-files.imgix.net/d04df143-fe19-4ce7-98d1-6d8f0e9ebbd3.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-launches-its-own-ai-deployment-company-2eb7b659-jul03",
+        "category": "Product Updates",
+        "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+        "source": "TechCrunch",
+        "summary": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
+        "href": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/07/microsoft-logo-office-e1735933827774.jpg?resize=1200,799",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "elon-musk-denies-spacex-ai-device-report-as-star-c82df75a-jul03",
+        "category": "Product Updates",
+        "title": "Elon Musk Denies SpaceX AI Device Report as Starlink Strategy Questions Grow",
+        "source": "TechRepublic AI",
+        "summary": "Elon Musk denied a report that SpaceX showed investors an AI device prototype, but the Starlink-xAI connection gives IT teams a reason to monitor the platform risk. The post Elon Musk Denies SpaceX AI Device Report as Starlink Strategy Questions Grow appeared...",
+        "href": "https://www.techrepublic.com/article/news-spacex-ai-device-report/",
+        "imageUrl": "assets/news/openai-databricks-agent-workflows.webp",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "can-formula-1-embrace-ai-without-losing-its-soul-2ceddda9-jul03",
+        "category": "Product Updates",
+        "title": "Can Formula 1 embrace AI without losing its soul?",
+        "source": "Fast Company AI",
+        "summary": "Teams are using AI to analyze data, speed up engineering work, and give drivers an edge. Now the FIA is writing rules to keep humans at the center of the sport.",
+        "href": "https://www.fastcompany.com/91568228/can-formula-1-embrace-ai-without-losing-its-soul?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=07032026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91568228-can-formula-1-embrace-ai-without-losing-its-soul.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "fable-5-just-set-a-new-ai-freelance-work-perform-81a75514-jul03",
+        "category": "Model Releases",
+        "title": "Fable 5 just set a new AI freelance work performance record - but it can't replace humans yet",
+        "source": "ZDNet AI",
+        "summary": "The newly reinstated Anthropic model topped charts for automating work. Here's what that means for the future.",
+        "href": "https://www.zdnet.com/article/anthropic-fable-5-freelance-work-performance-record/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/4146d1e3eada52741409611760cdd8be2c4624e9/2026/07/02/d55da5d3-79fd-431f-902b-ea643cf2cd6b/gettyimages-2280239160.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "rag-anything-tutorial-build-a-multimodal-retriev-b0c9c1dc-jul03",
+        "category": "Agents",
+        "title": "RAG-Anything Tutorial: Build a Multimodal Retrieval Pipeline for Text, Tables, Equations, and Images in Colab",
+        "source": "MarkTechPost",
+        "summary": "In this tutorial, we build a RAG-Anything workflow to explore how multimodal retrieval works across text, tables, equations, and images. We prepare a Colab environment, enter our OpenAI API key at runtime, and generate a synthetic report with a chart and PDF....",
+        "href": "https://www.marktechpost.com/2026/07/02/rag-anything-tutorial-build-a-multimodal-retrieval-pipeline-for-text-tables-equations-and-images-in-colab/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/07/blog1913-5.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-i-set-openai-api-usage-limits-to-stop-agent-edfcc022-jul03",
+        "category": "Agents",
+        "title": "How I set OpenAI API usage limits to stop agent overspending and other AI billing nightmares",
+        "source": "ZDNet AI",
+        "summary": "OpenAI API costs can spiral when agents run wild. Here's how to set spend limits, enable hard caps, and avoid surprise AI bills.",
+        "href": "https://www.zdnet.com/article/how-to-set-openai-api-spend-usage-limits/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/f81911e4bd9ae3526d1a6e272db93df4d7c954b2/2026/07/02/bf051a93-c1dd-4daa-bd1d-d7d4da446f27/img-9860.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "10-agentic-ai-frameworks-you-should-know-in-2026-0f55368e-jul03",
+        "category": "Agents",
+        "title": "10 Agentic AI Frameworks You Should Know in 2026",
+        "source": "KDnuggets",
+        "summary": "LangGraph, CrewAI, OpenAI Agents SDK, Google ADK, Mastra, and more. If you're building AI agents in 2026, these are the frameworks worth paying attention to before starting your next project.",
+        "href": "https://www.kdnuggets.com/10-agentic-ai-frameworks-you-should-know-in-2026",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-10-agentic-ai-frameworks-you-should-know-in-2026.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "who-decides-when-a-cyber-ai-tool-is-safe-to-depl-f43ed5ad-jul03",
+        "category": "Developer Tools",
+        "title": "Who decides when a cyber AI tool is safe to deploy?",
+        "source": "TechRadar Software",
+        "summary": "As AI cyber threats grow, organizations need trained teams, not just stronger tools.",
+        "href": "https://www.techradar.com/pro/who-decides-when-a-cyber-ai-tool-is-safe-to-deploy",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/XbZCTEpjtunPvMj9ySXmWU-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spacex-shows-investors-a-slim-ai-smartphone-prot-6ccb04e5-jul03",
+        "category": "Developer Tools",
+        "title": "SpaceX shows investors a slim AI smartphone prototype powered by xAI technology",
+        "source": "The Decoder",
+        "summary": "SpaceX showed investors a prototype AI smartphone that's supposedly thinner than an iPhone and integrates xAI tech. The device runs on a Qualcomm Snapdragon chip with its own operating system. Musk wants to build an \"everything app\" modeled after WeChat. The...",
+        "href": "https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/spacex_logo_wall.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-reportedly-offers-the-trump-administratio-8e791c0e-jul03",
+        "category": "Developer Tools",
+        "title": "OpenAI reportedly offers the Trump administration a five percent stake in the company",
+        "source": "The Decoder",
+        "summary": "OpenAI is reportedly offering the Trump administration a five percent stake in the company. What the government would give in return, if anything, is still unclear. The move shows how closely the AI company wants to tie itself to Washington. The article OpenA...",
+        "href": "https://the-decoder.com/openai-reportedly-offers-the-trump-administration-a-five-percent-stake-in-the-company/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/openai_anthropic_white_house.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chromedevtools-chrome-devtools-mcp-a67bb8d2-jul03",
+        "category": "Developer Tools",
+        "title": "ChromeDevTools / chrome-devtools-mcp",
+        "source": "github",
+        "summary": "github reported: ChromeDevTools / chrome-devtools-mcp",
+        "href": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "imageUrl": "https://opengraph.githubassets.com/dd034d8ff36253eaa0e7900fd9662bb3ca56948225f80b1722a0df79d93db0e2/ChromeDevTools/chrome-devtools-mcp",
+        "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "rapid-spread-of-ai-may-worsen-global-inequality-5196073c-jul03",
+        "category": "Research Workflows",
+        "title": "Rapid spread of AI may worsen global inequality, UN warns",
+        "source": "The Guardian AI",
+        "summary": "Panel proses shared framework for responsible AI development as adoption grows unevenly across world A new United Nations report warns that the development of artificial intelligence may exacerbate global inequality and proposes a shared framework for how to...",
+        "href": "https://www.theguardian.com/technology/2026/jul/01/un-report-ai-inequality",
+        "imageUrl": "https://i.guim.co.uk/img/media/1188ea1b1f5e3a468578a8d1860ba2f101800f14/293_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=95ef282dd5946ff945328c0d47d46254",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-07-02",
     "label": "July 2, 2026",
     "items": [
