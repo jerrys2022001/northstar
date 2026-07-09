@@ -1,6 +1,252 @@
 {
-  "updatedAt": "2026-07-08T08:53:29",
+  "updatedAt": "2026-07-09T21:01:47",
   "groups": [
+    {
+      "date": "2026-07-09",
+      "label": "July 9, 2026",
+      "items": [
+        {
+          "id": "google-updates-android-bench-with-new-llms-but-g-eea9ce3a-jul09",
+          "category": "Developer Tools",
+          "title": "Google updates Android Bench with new LLMs, but Gemini still lags behind",
+          "source": "Ars Technica",
+          "summary": "Android Bench is evolving, and developers can help guide that process.",
+          "href": "https://arstechnica.com/google/2026/07/google-revamps-android-ai-dev-benchmark-adds-fable-5-and-other-agents/",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/07/Android-statue-1152x648.jpg",
+          "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "google-deepmind-adds-background-execution-and-mc-b7de8357-jul09",
+          "category": "Developer Tools",
+          "title": "Google Deepmind adds background execution and MCP support to Gemini API managed agents",
+          "source": "The Decoder",
+          "summary": "Google Deepmind is adding four new features to Managed Agents in the Gemini API. Agents can now run asynchronously in the background, connect directly to remote MCP servers, use custom functions alongside sandbox tools, and refresh credentials without losing...",
+          "href": "https://the-decoder.com/google-deepmind-adds-background-execution-and-mcp-support-to-gemini-api-managed-agents/",
+          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/gemini_logo_wall.png",
+          "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "this-startup-thinks-robotics-is-about-to-have-it-ddd0e329-jul09",
+          "category": "Developer Tools",
+          "title": "This startup thinks robotics is about to have its ChatGPT moment",
+          "source": "TechCrunch",
+          "summary": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
+          "href": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/pic_Pim_CEO.jpg?resize=1200,800",
+          "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "openai-fixes-18-year-old-gnu-libunwind-bug-by-tr-037c2326-jul09",
+          "category": "Developer Tools",
+          "title": "OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology",
+          "source": "InfoQ AI",
+          "summary": "OpenAI found two unrelated bugs masquerading as one in ChatGPT's data infrastructure. Silent hardware corruption on one Azure host and an 18-year-old race condition in GNU libunwind's setcontext function with a one-instruction vulnerability window. The breakt...",
+          "href": "https://www.infoq.com/news/2026/07/openai-libunwind-core-dumps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "imageUrl": "https://res.infoq.com/news/2026/07/openai-libunwind-core-dumps/en/headerimage/generatedHeaderImage-1783451097516.jpg",
+          "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "spacexai-releases-grok-4-5-a-cursor-trained-mode-bc72cdf1-jul09",
+          "category": "Developer Tools",
+          "title": "SpaceXAI Releases Grok 4.5, a Cursor-Trained Model for Coding, Agentic Tasks, and Knowledge Work at $2/M Input",
+          "source": "MarkTechPost",
+          "summary": "SpaceXAI released Grok 4.5, a Cursor-trained model for coding, agentic tasks, and knowledge work. It serves at 80 TPS, costs $2/$6 per million tokens, and ranks #1 on Harvey's Legal Agent Benchmark. The post SpaceXAI Releases Grok 4.5, a Cursor-Trained Model...",
+          "href": "https://www.marktechpost.com/2026/07/08/spacexai-releases-grok-4-5/",
+          "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/07/blog19132-7.png",
+          "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-2bbfa5ff-jul09",
+          "category": "Developer Tools",
+          "title": "Grok 4.5 is so cheap compared to Fable 5 and GPT 5.5 that benchmark gaps may not matter much",
+          "source": "The Decoder",
+          "summary": "xAI releases Grok 4.5, trained on tens of thousands of Nvidia GB300 GPUs. In coding benchmarks, the model trails Fable 5 and GPT-5.5 but needs 4.2 times fewer tokens than Opus 4.8. At $2 per million input tokens, it costs a fraction of the competition. EU ava...",
+          "href": "https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/",
+          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/xai_logo_wakk.png",
+          "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "v2-1-205-fa26ee3d-jul09",
+          "category": "Developer Tools",
+          "title": "v2.1.205",
+          "source": "Claude Code Releases",
+          "summary": "Claude Code Releases reported: v2.1.205",
+          "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
+          "imageUrl": "https://opengraph.githubassets.com/9481161529d117cd7bba08537d4fc72eb965338d989440e190b4df0f34148627/anthropics/claude-code/releases/tag/v2.1.205",
+          "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "i-gave-claude-cowork-7-non-coding-jobs-and-it-ea-42aeba68-jul09",
+          "category": "Developer Tools",
+          "title": "I gave Claude Cowork 7 non-coding jobs, and it earned a spot in my toolbox",
+          "source": "ZDNet AI",
+          "summary": "Claude Cowork is brilliant, unnerving, and far more useful than I expected.",
+          "href": "https://www.zdnet.com/article/claude-cowork-non-coding-jobs-tasks/",
+          "imageUrl": "https://www.zdnet.com/a/img/resize/899014be6b70145fe6442cab43ccecaf5972810f/2026/07/09/aa8fd0a6-6d9f-4c59-ae92-77caeb99a2c0/52.jpg?auto=webp&fit=crop&height=675&width=1200",
+          "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "google-ai-studio-adds-import-from-github-to-buil-61c0bb82-jul09",
+          "category": "Developer Tools",
+          "title": "Google AI Studio Adds Import from GitHub to Build a Deployable App",
+          "source": "MarkTechPost",
+          "summary": "Google AI Studio is rolling out Import from GitHub in Build mode. It transforms an existing repo into a runtime-compatible format. You can then iterate on it, deploy it, and more. The post Google AI Studio Adds Import from GitHub to Build a Deployable App app...",
+          "href": "https://www.marktechpost.com/2026/07/09/google-ai-studio-adds-import-from-github/",
+          "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/07/high-level-description-a-playful-editori_zo4vs541Vaqv4bm0YaPrxQ_b9p4wdHjSrKAUbTcfaTGjw.png",
+          "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "from-hugging-face-to-amazon-sagemaker-studio-in-ca9a2a21-jul09",
+          "category": "Product Updates",
+          "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+          "source": "Hugging Face Blog",
+          "summary": "Hugging Face Blog reported: From Hugging Face to Amazon SageMaker Studio in one click",
+          "href": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/68abb71b13d7773ad97e9035/f1nX3dXVmvJcQzJfgfpnJ.webp",
+          "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "hugging-face-models-on-foundry-managed-compute-024a3808-jul09",
+          "category": "Model Releases",
+          "title": "Hugging Face Models on Foundry Managed Compute",
+          "source": "Hugging Face Blog",
+          "summary": "Hugging Face Blog reported: Hugging Face Models on Foundry Managed Compute",
+          "href": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/688797c1629e0ef013c2556c/Dn2wmfWGM83ZhuQ-C5jPo.png",
+          "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "databricks-makes-chinese-open-source-model-glm-5-ae960563-jul09",
+          "category": "Developer Tools",
+          "title": "Databricks makes Chinese open-source model GLM 5.2 its default coding engine after it matched Opus at lower cost",
+          "source": "The Decoder",
+          "summary": "Databricks benchmarked coding agents on its own multi-million-line codebase and found that the Chinese open-source model GLM 5.2 matched Anthropic's Opus 4.8 at $1.28 per task versus $1.94. The company plans to roll it out as a daily coding workhorse. Its bro...",
+          "href": "https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/",
+          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/databricks_logo.png",
+          "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "building-an-ai-powered-incident-response-workflo-f98d19e1-jul09",
+          "category": "Developer Tools",
+          "title": "Building an AI-powered incident response workflow in n8n",
+          "source": "n8n Blog",
+          "summary": "Build an AI-powered incident response workflow with n8n. Combine RAG, threat intelligence, and historical incidents to accelerate SOC investigations.",
+          "href": "https://blog.n8n.io/building-an-ai-powered-incident-response-workflow-in-n8n/",
+          "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/07/TL-2_BlogHeader_observability-tools.jpg",
+          "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "a-look-inside-my-vibe-coding-portfolio-a2c20e79-jul09",
+          "category": "Developer Tools",
+          "title": "A look inside my vibe coding portfolio",
+          "source": "Zapier Blog",
+          "summary": "If you'd asked me a year ago whether I could turn my barely-there coding knowledge into fully functional apps, internal tools, and custom widgets without hiring a developer, I would've smiled politely and quietly choked on my LaCroix. But since early 2025, I'...",
+          "href": "https://zapier.com/blog/vibe-coding-ideas",
+          "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/MYSQCI4bR89RA3I0wCdOk/f05e8c8013cccbcbffb65914a5e864c2/ai-stylized.jpeg",
+          "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "three-things-every-leader-must-do-to-hold-the-li-52951996-jul09",
+          "category": "Product Updates",
+          "title": "Three things every leader must do to hold the line against AI decision-making",
+          "source": "Fast Company AI",
+          "summary": "The leaders who keep their edge will be the ones who resist the temptation to hand over judgments to machines.",
+          "href": "https://www.fastcompany.com/91569582/three-things-every-leader-must-do-hold-line-against-ai-decision-making?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07092026",
+          "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91569582-3-things-every-leader-must-do.jpg",
+          "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "the-cover-letter-is-officially-dead-ai-has-creat-4280eae2-jul09",
+          "category": "Product Updates",
+          "title": "The cover letter is officially dead: AI has created a new job-hunting paradox",
+          "source": "Fast Company AI",
+          "summary": "David Paffenholz, CEO of AI recruitment platform Juicebox, reflects on the pros and cons of the new world of job seeking.",
+          "href": "https://www.fastcompany.com/91570917/the-cover-letter-is-officially-dead-ai-has-created-a-new-job-hunting-paradox?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07092026",
+          "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-2-91570917-Tech-AI-has-created-a-new-job-hunting-paradox.jpg",
+          "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "pickup-artist-mystery-has-an-ai-girlfriend-d47cb63c-jul09",
+          "category": "Product Updates",
+          "title": "Pickup Artist Mystery Has an AI Girlfriend",
+          "source": "WIRED AI",
+          "summary": "A new book claims that Mystery, who teaches awkward men how to hit on women, had sex and smoked weed with an AI chatbot named Miss Shira Always.",
+          "href": "https://www.wired.com/story/pickup-artist-mystery-has-an-ai-girlfriend/",
+          "imageUrl": "https://media.wired.com/photos/6a4d726369eabca8afcd5361/master/pass/Original-Pickup-Artist-AI-Girlfriend-Culture-76938494.jpg",
+          "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "messi-and-ronaldo-are-building-tech-portfolios-m-97dfb192-jul09",
+          "category": "Product Updates",
+          "title": "Messi and Ronaldo Are Building Tech Portfolios. Mo Salah Is Playing a Different Game",
+          "source": "WIRED AI",
+          "summary": "Lionel Messi and Cristiano Ronaldo are betting on AI, health tech, and startups. Mohamed Salah is taking a more traditional route beyond football.",
+          "href": "https://www.wired.com/story/messi-ronaldo-tech-portfolios-salah-playing-a-different-game/",
+          "imageUrl": "https://media.wired.com/photos/6a4d0ba71ec7b7e789dcf997/master/pass/InvestmentFoot_Lead.jpg",
+          "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "ai-work-slop-what-is-it-how-can-uk-businesses-pr-63365adf-jul09",
+          "category": "Product Updates",
+          "title": "AI work slop: What is it & how can UK businesses protect themselves?",
+          "source": "TechRadar Software",
+          "summary": "This article explores the impact of AI work slop on UK businesses and how it can be prevented.",
+          "href": "https://www.techradar.com/pro/ai-work-slop-what-is-it-and-how-can-uk-businesses-protect-themselves",
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/U76sZeRd6fS2fKt5RqBYPL-1280-80.jpg",
+          "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "this-latest-frightening-ransomware-attack-was-or-89258d1b-jul09",
+          "category": "Model Releases",
+          "title": "This latest frightening ransomware attack was orchestrated entirely by an LLM",
+          "source": "Fast Company AI",
+          "summary": "Security researchers say JadePuffer marks a new step in AI hacking.",
+          "href": "https://www.fastcompany.com/91569927/this-latest-frightening-ransomware-attack-was-orchestrated-entirely-by-an-llm?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=07092026",
+          "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-91569927-jadepuffer-ai-ransomware-attack.jpg",
+          "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "openais-gpt-live-can-keep-a-real-conversation-0174a4bd-jul09",
+          "category": "Model Releases",
+          "title": "OpenAIs GPT-Live can keep a real conversation",
+          "source": "Mashable",
+          "summary": "OpenAI's latest model, GPT-Live, can listen and speak at the same time, allowing for a more realistic conversation.",
+          "href": "https://mashable.com/tech/openai-gpt-live",
+          "imageUrl": "https://helios-i.mashable.com/imagery/articles/00F6iIkOKCo8STUrXreN2LR/hero-image.fill.size_1200x675.v1783584435.png",
+          "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "openai-releases-new-voice-models-for-more-natura-0b3c247c-jul09",
+          "category": "Model Releases",
+          "title": "OpenAI releases new voice models for more natural live conversations",
+          "source": "TechCrunch",
+          "summary": "OpenAI says its new voice mode can speak and listen at the same time, a key ability for live translation.",
+          "href": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/Press-Static-Hero-16x9-1.jpg?resize=1200,675",
+          "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "women-and-university-graduates-in-australia-most-8bc26d9b-jul09",
+          "category": "Developer Tools",
+          "title": "Women and university graduates in Australia most at risk of losing jobs to AI, report finds",
+          "source": "The Guardian AI",
+          "summary": "Those with high levels of vocational training, including tradespeople, are least exposed to AI displacement, according to government review Get our breaking news email , free app or daily news podcast Artificial intelligence has yet to cause widespread job lo...",
+          "href": "https://www.theguardian.com/australia-news/2026/jul/08/women-and-university-graduates-most-at-risk-ai-job-loss-australia-report",
+          "imageUrl": "https://i.guim.co.uk/img/media/12f77a9b9537b09eb76ac5081b13445c2e73c3a6/158_0_6696_5357/master/6696.jpg?width=140&quality=85&auto=format&fit=max&s=bab5fb75dfb04640a75ad37041757306",
+          "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "openai-s-ai-beats-every-human-at-atcoder-a-top-c-54354b98-jul09",
+          "category": "Developer Tools",
+          "title": "OpenAI's AI beats every human at AtCoder, a top competitive programming contest",
+          "source": "The Decoder",
+          "summary": "At the AtCoder World Tour Finals 2026, an OpenAI system crushed all human competitors in an exhibition match, solving all five problems in the Algorithm Division. Two of those problems were rated exceptionally difficult by observers. The article OpenAI's AI b...",
+          "href": "https://the-decoder.com/openais-ai-beats-every-human-at-atcoder-a-top-competitive-programming-contest/",
+          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/AtCoder-OpenAI-Win-title.png",
+          "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+        }
+      ]
+    },
     {
       "date": "2026-07-08",
       "label": "July 8, 2026",
