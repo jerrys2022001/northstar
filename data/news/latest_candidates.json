@@ -1,7 +1,7 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-07-09T13:01:31+00:00",
+  "updatedAt": "2026-07-09T13:03:47+00:00",
   "digestDate": "2026-07-09",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
@@ -248,7 +248,7 @@
   ],
   "fetchDiagnostics": {
     "sourcesAttempted": 59,
-    "sourcesSucceeded": 40,
+    "sourcesSucceeded": 41,
     "sourceErrors": [
       {
         "source": "Anthropic News",
@@ -283,7 +283,7 @@
       {
         "source": "Perplexity Blog",
         "url": "https://www.perplexity.ai/hub/blog/rss.xml",
-        "error": "HTTPError: HTTP Error 403: Forbidden"
+        "error": "HTTPError: HTTP Error 404: Not Found"
       },
       {
         "source": "Notion Blog",
@@ -339,11 +339,6 @@
         "source": "Synthesia Blog",
         "url": "https://www.synthesia.io/blog/rss.xml",
         "error": "HTTPError: HTTP Error 404: Not Found"
-      },
-      {
-        "source": "SiliconANGLE AI",
-        "url": "https://siliconangle.com/category/ai/feed/",
-        "error": "TimeoutError: The read operation timed out"
       }
     ]
   },
@@ -629,7 +624,7 @@
       "summary": "OpenAI released GPT-Live, a new generation of voice models now powering ChatGPT Voice. It uses a full-duplex architecture to listen and speak at once, and delegates search and reasoning to GPT-5.5. The post OpenAI Releases GPT-Live and GPT-Live-1 mini: Full-D...",
       "href": "https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/",
       "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/07/high-level-description-a-chaotic-flat-ve_Yza4Pdu9WJWqVduzJShTGw_eMfPnAQJSpWhghP1c9OwbA-1024x768.png",
+      "imageUrl": "assets/news/superhuman-personal-agents.png",
       "publishedAt": "2026-07-08T18:08:21+00:00",
       "toolIds": [
         "chatgpt"
@@ -937,7 +932,7 @@
       "summary": "The Neuron Academy launched on July 7 with self-paced AI courses for professionals who want to use ChatGPT, Claude, and Gemini more confidently. The post The Neuron Launches AI Training Platform for Everyday Professionals appeared first on TechRepublic .",
       "href": "https://www.techrepublic.com/article/news-neuron-academy-ai-training-preview/",
       "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/superhuman-personal-agents.png",
+      "imageUrl": "assets/news/bright-product-updates.svg",
       "publishedAt": "2026-07-07T16:20:25+00:00",
       "toolIds": [
         "chatgpt",
@@ -1217,6 +1212,22 @@
       ]
     },
     {
+      "id": "the-token-economy-the-state-of-ai-mid-2026-90de67a8-jul09",
+      "date": "2026-07-09",
+      "dateLabel": "July 9, 2026",
+      "category": "Model Releases",
+      "title": "The token economy: The state of AI mid-2026",
+      "source": "SiliconANGLE AI",
+      "summary": "Gigawatt factories in the Texas scrub. Thirty trillion tokens a day. A $30 billion storage company, a search engine built for machines, and a continent trying to buy its independence one graphics processing unit at a time. Three years after ChatGPT, the artif...",
+      "href": "https://siliconangle.com/2026/07/06/token-economy-state-ai-mid-2026/",
+      "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/07/aireportmid26.jpg",
+      "publishedAt": "2026-07-06T18:06:56+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
       "id": "data-scientists-are-becoming-ai-managers-not-mod-148f2cc4-jul09",
       "date": "2026-07-09",
       "dateLabel": "July 9, 2026",
@@ -1286,7 +1297,7 @@
       "summary": "Anthropic is reportedly in early talks with Samsung on a custom AI chip as AI firms push to cut compute costs and rely less on Nvidia hardware. The post Anthropic Reportedly Eyes Samsung for Custom AI Chip appeared first on TechRepublic .",
       "href": "https://www.techrepublic.com/article/news-anthropic-samsung-custom-ai-chip/",
       "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-product-updates.svg",
+      "imageUrl": "assets/news/bright-productivity.svg",
       "publishedAt": "2026-07-06T13:37:39+00:00",
       "toolIds": [
         "claude"
