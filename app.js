@@ -371,6 +371,202 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-07-10",
+    "label": "July 10, 2026",
+    "items": [
+      {
+        "id": "openai-s-gpt-5-6-and-chatgpt-work-aim-to-beat-an-146d892e-jul10",
+        "category": "Model Releases",
+        "title": "OpenAI's GPT-5.6 and ChatGPT Work aim to beat Anthropic on price, speed, and productivity",
+        "source": "ZDNet AI",
+        "summary": "OpenAI's latest announcement looks like a lot more than a model upgrade.",
+        "href": "https://www.zdnet.com/article/openais-gpt-5-6-chatgpt-work-beat-anthropic-on-price-speed-and-productivity/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/300e7f56c876bef8ec70a53cb7e5000488b8c696/2026/07/09/c83db4ec-520e-41b7-ba6f-41f3c146c5b2/models.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "new-york-times-says-openai-hid-evidence-in-chatg-9ffafa51-jul10",
+        "category": "Developer Tools",
+        "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+        "source": "TechCrunch",
+        "summary": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
+        "href": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-2187615188.jpg?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "elon-musk-says-opus-class-grok-4-5-is-about-to-l-8c5b7c0f-jul10",
+        "category": "Product Updates",
+        "title": "Elon Musk says Opus-class Grok 4.5 is about to launch",
+        "source": "Mashable",
+        "summary": "Elon Musk says SpaceXAI's chatbot Grok 4.5 will launch on Thursday, July 9.",
+        "href": "https://mashable.com/tech/musk-grok-4-5-launch",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00cj3VuTP2XkH2KCAeo1p3w/hero-image.fill.size_1200x675.v1783515329.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "lawsuit-man-used-grok-to-make-7k-sex-images-of-s-28c77eca-jul10",
+        "category": "Creative AI",
+        "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
+        "source": "Ars Technica",
+        "summary": "More young girls sue X over Grok CSAM; X accused of shielding child predators.",
+        "href": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2261524889-1024x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-releases-gpt-5-6-sol-terra-luna-a-three-t-89c77d3f-jul10",
+        "category": "Developer Tools",
+        "title": "OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling in the Responses A...",
+        "source": "MarkTechPost",
+        "summary": "OpenAI moved GPT-5.6 to general availability on July 9, 2026, shipping three tiers instead of one model. Sol is $5/$30 per 1M tokens, Terra is $2.50/$15, and Luna is $1/$6. Sol sets the Artificial Analysis Coding Agent Index at 80, 2.8 points above Claude Fab...",
+        "href": "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/07/blog19132-11.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "introducing-claude-apps-gateway-for-aws-00ac3735-jul10",
+        "category": "Developer Tools",
+        "title": "Introducing Claude apps gateway for AWS",
+        "source": "AWS Machine Learning",
+        "summary": "Today, we're announcing the Claude apps gateway for AWS, a self-hosted control plane that gives organizations a single point of control over access, cost, and policy for Claude Code and Claude Desktop. In this post, we show how to set up and run Claude apps g...",
+        "href": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/",
+        "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/07/02/21305.png",
+        "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "native-speed-vllm-transformers-modeling-backend-f2a3364a-jul10",
+        "category": "Model Releases",
+        "title": "Native-speed vLLM transformers modeling backend",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Native-speed vLLM transformers modeling backend",
+        "href": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+        "imageUrl": "https://huggingface.co/blog/assets/native-speed-vllm-transformers-backend/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "enhancing-enterprise-inference-on-amazon-sagemak-cd8265d6-jul10",
+        "category": "Model Releases",
+        "title": "Enhancing enterprise inference on Amazon SageMaker HyperPod with data capture, Hugging Face, NVMe, and Route 53 integra...",
+        "source": "AWS Machine Learning",
+        "summary": "In this post, we walk through five capabilities now available in SageMaker HyperPod inference: multi-tier data capture for auditing and model improvement, direct deployment from Hugging Face Hub, local NVMe model loading for faster cold starts, automated Rout...",
+        "href": "https://aws.amazon.com/blogs/machine-learning/enhancing-enterprise-inference-on-amazon-sagemaker-hyperpod-with-data-capture-hugging-face-nvme-and-route-53-integration/",
+        "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/07/09/ML-21090.png",
+        "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-you-should-think-twice-before-letting-an-ai-529bb9e2-jul10",
+        "category": "Product Updates",
+        "title": "Why you should think twice before letting an AI notetaker in your meeting",
+        "source": "Fast Company AI",
+        "summary": "Here are some tips on the etiquette of kicking an AI notetaker out of a meeting, the risks of using one, and how to protect yourself.",
+        "href": "https://www.fastcompany.com/91571498/ai-notetaker-work-meetings-privacy-data?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07102026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/AP26189795015462.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "speed-still-matters-in-news-but-the-prize-is-no-97d69f20-jul10",
+        "category": "Product Updates",
+        "title": "Speed still matters in news, but the prize is no longer the click",
+        "source": "Fast Company AI",
+        "summary": "In the age of AI answers, speed still creates the opening. Authority determines who owns the story.",
+        "href": "https://www.fastcompany.com/91569588/speed-still-matters-news-prize-no-longer-click?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=07102026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91569588-Tech-CN-Speed-still-matters-in-news-but-the-prize-is-no-longer-the-click.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "our-approach-to-government-and-national-security-41b85c9c-jul10",
+        "category": "Product Updates",
+        "title": "Our approach to government and national security partnerships",
+        "source": "OpenAI Blog",
+        "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+        "href": "https://openai.com/index/government-national-security-partnerships",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2h3zDXkAt00qFTGsCqrLuV/f4b2ed4ee96f72220d4f6ddc9924a01a/Frame-1.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "knowyourcompany-ai-114a73ef-jul10",
+        "category": "Product Updates",
+        "title": "KnowYourCompany.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: KnowYourCompany.ai",
+        "href": "https://www.producthunt.com/products/knowyourcompany-ai",
+        "imageUrl": "https://ph-files.imgix.net/d27b017a-16c2-4265-9d89-2ad0ff25b101.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "american-tech-companies-are-suddenly-sweating-bu-7ce91b66-jul10",
+        "category": "Product Updates",
+        "title": "American Tech Companies Are Suddenly Sweating Bullets as China Catches Up on AI",
+        "source": "Futurism AI",
+        "summary": "Reality is setting in. The post American Tech Companies Are Suddenly Sweating Bullets as China Catches Up on AI appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/us-ai-companies-sweating-china",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/us-ai-companies-sweating-china.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openais-gpt-5-6-finally-set-for-public-release-a-f8138a1d-jul10",
+        "category": "Model Releases",
+        "title": "OpenAIs GPT-5.6 finally set for public release after delays",
+        "source": "Mashable",
+        "summary": "OpenAI will launch its \"strongest model yet\" this week, with GPT-5.6 Sol set for public release after White House-imposed delays.",
+        "href": "https://mashable.com/tech/openai-gpt-5-6-sol-public-release",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/01opNFtxBV8BcDuSJUX7bNu/hero-image.fill.size_1200x675.v1783507792.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-launches-its-new-family-of-models-with-gp-3ef0940f-jul10",
+        "category": "Model Releases",
+        "title": "OpenAI launches its new family of models with GPT-5.6",
+        "source": "TechCrunch",
+        "summary": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+        "href": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2224158119.jpg?resize=1200,837",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-is-shutting-down-atlas-but-its-ai-browser-7a2d1d0f-jul10",
+        "category": "Agents",
+        "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
+        "source": "TechCrunch",
+        "summary": "OpenAI is sunsetting its AI-powered browser after less than a year. But it's moving some agentic browsing features to its desktop app and a Chrome extension.",
+        "href": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/chatgpt-app-browser.jpg?resize=1200,675",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "separating-signal-from-noise-in-coding-evaluatio-eaad4cbc-jul10",
+        "category": "Developer Tools",
+        "title": "Separating signal from noise in coding evaluations",
+        "source": "OpenAI Blog",
+        "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+        "href": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5f0Xf4wOuXVsX7TZUM4tjl/4672bf7bf93bad67ade28dce57f62638/Seperating-signal-from-noise-SEO.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spacex-and-ai-startup-wealth-fuels-demand-for-pr-1432949c-jul10",
+        "category": "Research Workflows",
+        "title": "SpaceX and AI startup wealth fuels demand for private jets",
+        "source": "The Guardian AI",
+        "summary": "Newly minted rich and those anticipating huge IPOs are fueling buying and charter spree in the private jet sector Sign up for the Breaking News US newsletter email Aviation lawyer Amanda Applegate skipped her annual vacation last month as a surge of wealth fr...",
+        "href": "https://www.theguardian.com/us-news/2026/jul/09/private-jets-ai-ipo-super-rich",
+        "imageUrl": "https://i.guim.co.uk/img/media/6f70dcdeb8c520552d42efbd5c630e47d7cd1660/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=581822d13ed477c90499f7f0357f22da",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "running-openclaw-with-ollama-e34e2187-jul10",
+        "category": "Research Workflows",
+        "title": "Running OpenClaw with Ollama",
+        "source": "KDnuggets",
+        "summary": "This article covers the full path from zero to a running private research assistant on Telegram, including configuring the context length correctly, connecting the channel, enabling web search, and deploying it headlessly in Docker.",
+        "href": "https://www.kdnuggets.com/running-openclaw-with-ollama",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Runninr-Openclaw-with-Ollama-scaled.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-07-09",
     "label": "July 9, 2026",
     "items": [
