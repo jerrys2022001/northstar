@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-07-11T01:02:01+00:00",
+  "updatedAt": "2026-07-11T01:06:17+00:00",
   "digestDate": "2026-07-11",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-07-08T08:52:26+08:00",
-  "windowEnd": "2026-07-11T08:52:26+08:00",
+  "windowStart": "2026-07-08T08:52:27+08:00",
+  "windowEnd": "2026-07-11T08:52:27+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -273,7 +273,7 @@
       {
         "source": "Google DeepMind",
         "url": "https://deepmind.google/discover/blog/rss.xml",
-        "error": "URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>"
+        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
       },
       {
         "source": "Microsoft AI",
@@ -338,7 +338,7 @@
       {
         "source": "Otter Blog",
         "url": "https://otter.ai/blog/rss.xml",
-        "error": "HTTPError: HTTP Error 404: Not Found"
+        "error": "URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>"
       },
       {
         "source": "Runway Blog",
