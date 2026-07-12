@@ -371,6 +371,122 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-07-12",
+    "label": "July 12, 2026",
+    "items": [
+      {
+        "id": "terrorist-groups-are-using-every-major-ai-chatbo-1b5565f1-jul12",
+        "category": "Developer Tools",
+        "title": "Terrorist groups are using every major AI chatbot for attack planning and weapons development",
+        "source": "The Decoder",
+        "summary": "A Cambridge study found that Boko Haram uses AI chatbots like ChatGPT, Claude, and Gemini to plan attacks, build explosives, and maintain weapons. ISIS operatives have been training the group's commanders on how to bypass safety filters since 2023. Given that...",
+        "href": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/llm_bomb.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-bets-on-families-as-chatgpt-goes-deeper-i-e7fba57d-jul12",
+        "category": "Model Releases",
+        "title": "OpenAI bets on families as ChatGPT goes deeper into households",
+        "source": "TechCrunch",
+        "summary": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
+        "href": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?w=1024",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-207-c3736098-jul12",
+        "category": "Developer Tools",
+        "title": "v2.1.207",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.207",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+        "imageUrl": "https://opengraph.githubassets.com/6575476acc2447aba467ea7a938406fa893f7f211e4bbff3ade09f26fd2aae0a/anthropics/claude-code/releases/tag/v2.1.207",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "profiling-in-pytorch-part-3-attention-is-all-you-145fbd55-jul12",
+        "category": "Product Updates",
+        "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Profiling in PyTorch (Part 3): Attention is all you profile",
+        "href": "https://huggingface.co/blog/torch-attention-profile",
+        "imageUrl": "https://huggingface.co/blog/assets/torch-attention-profile/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-11-best-ai-summary-generators-for-meetings-a-11f4a16d-jul12",
+        "category": "Product Updates",
+        "title": "The 11 Best AI Summary Generators for Meetings, Articles, Resumes & LinkedIn (2026)",
+        "source": "Fireflies Blog",
+        "summary": "Compare 11 AI summary generators for meetings, articles, resumes, and LinkedIn. Features, pricing, and which tool fits your use case best in 2026.",
+        "href": "https://fireflies.ai/blog/ai-summary-generator/",
+        "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2024/03/Meeting-etiquette-rules-all-professionals-must-follow--2--1.png",
+        "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "fathom-ai-notetaker-an-honest-review-6-better-al-7433e7e7-jul12",
+        "category": "Product Updates",
+        "title": "Fathom AI Notetaker: An Honest Review + 6 Better Alternatives [2026]",
+        "source": "Fireflies Blog",
+        "summary": "Honest review of the Fathom AI Notetaker: pricing, pros, cons, and 6 better alternatives for 2026, including a free option that works across all meeting platforms.",
+        "href": "https://fireflies.ai/blog/fathom-ai-notetaker/",
+        "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2023/04/Screenshot-2023-04-12-at-5.23.15-PM.png",
+        "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "fl-studio-head-constantin-koehncke-turns-to-redd-6d1f2f86-jul12",
+        "category": "Creative AI",
+        "title": "FL Studio head Constantin Koehncke turns to Reddit for feedback and fun",
+        "source": "The Verge",
+        "summary": "If you're a music maker of a certain age, then you probably once dabbled with a pirated copy of a little app called Fruity Loops. These days it's called FL Studio, and Constantin Koehncke, is the man responsible for shepherding the pioneering digital audio wo...",
+        "href": "https://www.theverge.com/entertainment/963509/image-line-ceo-constantin-koehncke-fl-studio-interview",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/IMG_2887.jpeg?quality=90&strip=all&crop=0%2C24.763158265338%2C100%2C34.691184608181&w=1200",
+        "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-you-should-be-skeptical-about-financial-advi-0402a156-jul12",
+        "category": "Product Updates",
+        "title": "Why you should be skeptical about financial advice from chatbots",
+        "source": "Fast Company AI",
+        "summary": "Three things make financial advice especially treacherous for AI.",
+        "href": "https://www.fastcompany.com/91570161/ai-chatbots-financial-advice-why-you-should-be-skeptical?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07122026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-91570161-managing-your-money-with-a-chatbot.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-ai-industry-has-finally-found-the-perfect-cu-fe8773db-jul12",
+        "category": "Product Updates",
+        "title": "The AI Industry Has Finally Found the Perfect Customer: Bloodthirsty Terrorists",
+        "source": "Futurism AI",
+        "summary": "The AI industry has blood on its hands. The post The AI Industry Has Finally Found the Perfect Customer: Bloodthirsty Terrorists appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ai-industry-terrorists",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/ai-industry-terrorists.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "south-korea-chip-maker-sk-hynix-rides-ai-boom-ra-00a6fe00-jul12",
+        "category": "Developer Tools",
+        "title": "South Korea chip maker SK hynix rides AI boom raising $26.5bn in huge US listing",
+        "source": "The Guardian AI",
+        "summary": "SK hynix, a supplier of advanced memory chips, has seen profits skyrocket thanks to the global race to build AI datacentres South Korean chip maker SK hynix set pricing for its mega US listing on Friday, aiming to raise $26.5bn as it takes advantage of the AI...",
+        "href": "https://www.theguardian.com/world/2026/jul/10/south-korea-chip-maker-sk-hynix-rides-ai-boom-raising-265bn-in-huge-us-listing",
+        "imageUrl": "https://i.guim.co.uk/img/media/56998562048b43955280060cb3e828f3df52ff37/293_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=9598a6441f232634108299b6095dc850",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-s-gpt-5-6-sol-ultra-reportedly-solves-a-5-b905b01a-jul12",
+        "category": "Developer Tools",
+        "title": "OpenAI's GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour",
+        "source": "The Decoder",
+        "summary": "OpenAI's GPT-5.6 Sol Ultra produced a proof of the Cycle Double Cover Conjecture in under an hour, using 64 subagents working in parallel. The conjecture had remained unsolved for 50 years. Mathematician Thomas Bloom calls the proof surprisingly elementary bu...",
+        "href": "https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/a_math_universe.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-07-11",
     "label": "July 11, 2026",
     "items": [
