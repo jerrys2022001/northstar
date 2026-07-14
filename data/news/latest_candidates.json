@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-07-14T07:21:05+00:00",
+  "updatedAt": "2026-07-14T07:23:40+00:00",
   "digestDate": "2026-07-14",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-07-11T15:18:03+08:00",
-  "windowEnd": "2026-07-14T15:18:03+08:00",
+  "windowStart": "2026-07-11T15:19:17+08:00",
+  "windowEnd": "2026-07-14T15:19:17+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -248,7 +248,7 @@
   ],
   "fetchDiagnostics": {
     "sourcesAttempted": 59,
-    "sourcesSucceeded": 39,
+    "sourcesSucceeded": 38,
     "sourceErrors": [
       {
         "source": "Anthropic News",
@@ -284,6 +284,16 @@
         "source": "Perplexity Blog",
         "url": "https://www.perplexity.ai/hub/blog/rss.xml",
         "error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Fast Company AI",
+        "url": "https://www.fastcompany.com/section/artificial-intelligence/rss",
+        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+      },
+      {
+        "source": "TechRadar Software",
+        "url": "https://www.techradar.com/au/feeds/tag/software",
+        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
       },
       {
         "source": "Notion Blog",
@@ -326,6 +336,11 @@
         "error": "HTTPError: HTTP Error 404: Not Found"
       },
       {
+        "source": "n8n Blog",
+        "url": "https://blog.n8n.io/rss/",
+        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+      },
+      {
         "source": "Runway Blog",
         "url": "https://runwayml.com/blog/rss.xml",
         "error": "HTTPError: HTTP Error 404: Not Found"
@@ -339,16 +354,6 @@
         "source": "Synthesia Blog",
         "url": "https://www.synthesia.io/blog/rss.xml",
         "error": "HTTPError: HTTP Error 404: Not Found"
-      },
-      {
-        "source": "The Register AI",
-        "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
-        "error": "ParseError: not well-formed (invalid token): line 7, column 22"
-      },
-      {
-        "source": "NVIDIA Technical Blog AI",
-        "url": "https://developer.nvidia.com/blog/category/generative-ai/feed/",
-        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
       }
     ]
   },
@@ -417,20 +422,6 @@
       "toolIds": []
     },
     {
-      "id": "your-brand-might-be-invisible-to-ai-f75cdddb-jul14",
-      "date": "2026-07-14",
-      "dateLabel": "July 14, 2026",
-      "category": "Product Updates",
-      "title": "Your brand might be invisible to AI",
-      "source": "Fast Company AI",
-      "summary": "The signals behind AI recommendation are not mysterious, and every brand can build them.",
-      "href": "https://www.fastcompany.com/91571995/your-brand-might-be-invisible-to-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07142026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/INC-Masters-Fast-Company-publishing-2026-07-10T122214.885.png",
-      "publishedAt": "2026-07-13T18:28:00+00:00",
-      "toolIds": []
-    },
-    {
       "id": "windows-questions-how-copilot-can-analyze-your-p-69c38b58-jul14",
       "date": "2026-07-14",
       "dateLabel": "July 14, 2026",
@@ -440,7 +431,7 @@
       "summary": "Now rolling out to the Copilot Windows app, the new PC Insights skill can answer questions about your Windows system, settings, and more.",
       "href": "https://www.zdnet.com/article/microsoft-copilot-analyze-windows/",
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.zdnet.com/a/img/resize/bbac802560863e6d9c3f3afb28c745cb7d328777/2026/07/13/3336e261-2bdf-4464-a569-fdfebd74492d/copilot-windows-app-on-a-laptop.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "imageUrl": "assets/news/bright-product-updates.svg",
       "publishedAt": "2026-07-13T17:21:00+00:00",
       "toolIds": [
         "githubcopilot"
@@ -461,20 +452,6 @@
       "toolIds": [
         "googleaistudio"
       ]
-    },
-    {
-      "id": "massive-ai-spending-is-driving-up-prices-on-lapt-a257339c-jul14",
-      "date": "2026-07-14",
-      "dateLabel": "July 14, 2026",
-      "category": "Product Updates",
-      "title": "Massive AI spending is driving up prices on laptops and electricity, as the Fed watches closely",
-      "source": "Fast Company AI",
-      "summary": "Investment in AI data centers could exceed $700 billion in 2026, pushing up inflation.",
-      "href": "https://www.fastcompany.com/91572617/massive-ai-spending-driving-up-prices-laptops-electricity-as-fed-watches-closely?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=07142026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/AP26176665504357.jpg",
-      "publishedAt": "2026-07-13T16:40:30+00:00",
-      "toolIds": []
     },
     {
       "id": "acrouter-picks-the-smartest-ai-model-per-task-be-852a3293-jul14",
@@ -617,20 +594,6 @@
       "toolIds": [
         "chatgpt"
       ]
-    },
-    {
-      "id": "this-new-ai-model-thinks-in-images-not-just-word-03145037-jul14",
-      "date": "2026-07-14",
-      "dateLabel": "July 14, 2026",
-      "category": "Model Releases",
-      "title": "This new AI model thinks in images, not just words",
-      "source": "Fast Company AI",
-      "summary": "Elorian, founded by the ex-Google Brain and DeepMind researcher Andrew Dai, believes that learning from, and reasoning about, images is fundamental to rapid intelligence gains.",
-      "href": "https://www.fastcompany.com/91571127/this-new-ai-model-think-in-images-not-just-words?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=07142026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-91571127-elorian-ai.jpg",
-      "publishedAt": "2026-07-13T10:00:00+00:00",
-      "toolIds": []
     },
     {
       "id": "skillserver-ai-edc48ba9-jul14",
@@ -868,20 +831,6 @@
       "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window.",
       "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2026/07/Best-AI-notetaker-for-consultants-1.png",
       "publishedAt": "2026-07-11T10:07:10+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "why-you-should-be-skeptical-about-financial-advi-5d1ab465-jul14",
-      "date": "2026-07-14",
-      "dateLabel": "July 14, 2026",
-      "category": "Product Updates",
-      "title": "Why you should be skeptical about financial advice from chatbots",
-      "source": "Fast Company AI",
-      "summary": "Three things make financial advice especially treacherous for AI.",
-      "href": "https://www.fastcompany.com/91570161/ai-chatbots-financial-advice-why-you-should-be-skeptical?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=07142026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-91570161-managing-your-money-with-a-chatbot.jpg",
-      "publishedAt": "2026-07-11T08:30:00+00:00",
       "toolIds": []
     }
   ]
