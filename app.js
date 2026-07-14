@@ -371,6 +371,298 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-07-14",
+    "label": "July 14, 2026",
+    "items": [
+      {
+        "id": "codex-cli-0-144-4-91992ed9-jul14",
+        "category": "Developer Tools",
+        "title": "Codex CLI 0.144.4",
+        "source": "OpenAI Codex Changelog",
+        "summary": "OpenAI Codex Changelog reported: Codex CLI 0.144.4",
+        "href": "https://developers.openai.com/codex/changelog",
+        "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+        "excerpt": "Radar signal: OpenAI Codex Changelog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-208-e5584b0b-jul14",
+        "category": "Developer Tools",
+        "title": "v2.1.208",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.208",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.208",
+        "imageUrl": "https://opengraph.githubassets.com/f002f2d38338acf1fcda63ed9d84e6c972d9dd211b866e26acaa23ee10ff2947/anthropics/claude-code/releases/tag/v2.1.208",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-code-now-has-a-built-in-browser-that-lets-b48c7049-jul14",
+        "category": "Developer Tools",
+        "title": "Claude Code now has a built-in browser that lets the AI read, click, and type on external websites",
+        "source": "The Decoder",
+        "summary": "Claude Code now has a built-in browser that lets the AI open, read, and interact with web pages directly inside the development environment. Write actions on external sites are screened by classifiers, and purchases or account creations need user approval. Th...",
+        "href": "https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/claude_medicine.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "launching-ui-for-generative-ai-inference-recomme-0b0b56d8-jul14",
+        "category": "Developer Tools",
+        "title": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI",
+        "source": "AWS Machine Learning",
+        "summary": "In this post, we introduce the UI for optimized generative AI inference recommendations in Amazon SageMaker AI Studio, a low-code no-code (LCNC) experience. The API already gives you programmatic access to recommendations, but it assumes you know which parame...",
+        "href": "https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai/",
+        "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/07/13/ml-21345.png",
+        "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "windows-questions-how-copilot-can-analyze-your-p-69c38b58-jul14",
+        "category": "Developer Tools",
+        "title": "Windows questions? How Copilot can analyze your PC settings now",
+        "source": "ZDNet AI",
+        "summary": "Now rolling out to the Copilot Windows app, the new PC Insights skill can answer questions about your Windows system, settings, and more.",
+        "href": "https://www.zdnet.com/article/microsoft-copilot-analyze-windows/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/bbac802560863e6d9c3f3afb28c745cb7d328777/2026/07/13/3336e261-2bdf-4464-a569-fdfebd74492d/copilot-windows-app-on-a-laptop.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "acrouter-picks-the-smartest-ai-model-per-task-be-852a3293-jul14",
+        "category": "Developer Tools",
+        "title": "ACRouter picks the smartest AI model per task, beating Opus-only setups by 2.6x on cost",
+        "source": "VentureBeat",
+        "summary": "Model routing is becoming a key component of the enterprise AI stack, dynamically sending prompts to the right AI model to optimize speed and costs. However, current frameworks mostly treat routing as a static classification problem, which severely limits the...",
+        "href": "https://venturebeat.com/orchestration/acrouter-picks-the-smartest-ai-model-per-task-beating-opus-only-setups-by-2-6x-on-cost",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/2mh30Nqtt7uW4PBRmMyA01/117641a26656420dad770ac3b0e0eb14/model_routing.jpg?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "your-brand-might-be-invisible-to-ai-f75cdddb-jul14",
+        "category": "Product Updates",
+        "title": "Your brand might be invisible to AI",
+        "source": "Fast Company AI",
+        "summary": "The signals behind AI recommendation are not mysterious, and every brand can build them.",
+        "href": "https://www.fastcompany.com/91571995/your-brand-might-be-invisible-to-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07142026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/INC-Masters-Fast-Company-publishing-2026-07-10T122214.885.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "skillserver-ai-edc48ba9-jul14",
+        "category": "Product Updates",
+        "title": "SkillServer.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: SkillServer.ai",
+        "href": "https://www.producthunt.com/products/skillserver-ai",
+        "imageUrl": "https://ph-files.imgix.net/6d42abc5-2d63-466c-8f5c-e8b0ab6e1b87.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "massive-ai-spending-is-driving-up-prices-on-lapt-a257339c-jul14",
+        "category": "Product Updates",
+        "title": "Massive AI spending is driving up prices on laptops and electricity, as the Fed watches closely",
+        "source": "Fast Company AI",
+        "summary": "Investment in AI data centers could exceed $700 billion in 2026, pushing up inflation.",
+        "href": "https://www.fastcompany.com/91572617/massive-ai-spending-driving-up-prices-laptops-electricity-as-fed-watches-closely?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=07142026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/AP26176665504357.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "us-companies-are-realizing-that-chinese-ai-model-3255d0b2-jul14",
+        "category": "Model Releases",
+        "title": "US Companies Are Realizing That Chinese AI Models Are Way Cheaper, Ditch American Ones",
+        "source": "Futurism AI",
+        "summary": "\"'Hey, we don't need the best model, we can use the faster, cheaper models.'\" The post US Companies Are Realizing That Chinese AI Models Are Way Cheaper, Ditch American Ones appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/us-realizing-chinese-ai-models-way-cheaper",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/us-realizing-chinese-ai-models-way-cheaper.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "safe-from-ai-which-jobs-will-help-you-thrive-in-38ec438c-jul14",
+        "category": "Developer Tools",
+        "title": "Safe from AI: which jobs will help you thrive in the future?",
+        "source": "The Guardian AI",
+        "summary": "Experts say there will still be opportunities ahead in everything from teaching to hotels and the law Entering the world of work often brings some uncertainty, but now there is another question: how can I AI-proof my career? We asked people from across variou...",
+        "href": "https://www.theguardian.com/money/2026/jul/11/ai-work-jobs-future-medicine-teaching-hotels-law",
+        "imageUrl": "https://i.guim.co.uk/img/media/5a3983d88fce9aed3b93c1f0042fe0ca573df746/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b58841fb735bdaf6210808e0809f5896",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nobel-laureates-and-ai-leaders-warn-the-window-t-2fda84c1-jul14",
+        "category": "Developer Tools",
+        "title": "Nobel laureates and AI leaders warn the window to prepare for AI's economic impact is closing fast",
+        "source": "The Decoder",
+        "summary": "More than 200 economists and AI researchers, including 16 Nobel laureates and representatives from Google, OpenAI, and Anthropic, are calling for immediate action in a coordinated statement. The AI transformation could surpass the Industrial Revolution but un...",
+        "href": "https://the-decoder.com/nobel-laureates-and-ai-leaders-warn-the-window-to-prepare-for-ais-economic-impact-is-closing-fast/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/ai_knowledge_work_jobs-1.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chasing-new-skills-going-back-to-basics-and-push-c2e6d05c-jul14",
+        "category": "Developer Tools",
+        "title": "Chasing new skills, going back to basics and pushing for collective action: how software engineers are adapting to AI",
+        "source": "The Guardian AI",
+        "summary": "Software engineering was one of the best-paying professions in the US in 2022, but the advent of AI has disrupted it, leading to several layoffs and underemployment Every weekday, Matt, a software engineer, looks forward to his four-hour train commute to Pawl...",
+        "href": "https://www.theguardian.com/technology/ng-interactive/2026/jul/12/software-developers-engineers-ai",
+        "imageUrl": "https://i.guim.co.uk/img/media/4a4caf0545e4648e7dadf3b3c14c059a402b80f3/0_385_2001_1600/master/2001.jpg?width=140&quality=85&auto=format&fit=max&s=96f6849d8fb1af885989404c7630d3ec",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "albanese-to-compare-pivotal-moment-in-ai-to-rene-ff956847-jul14",
+        "category": "Developer Tools",
+        "title": "Albanese to compare pivotal moment in AI to renewable energy transition as he outlines approach",
+        "source": "The Guardian AI",
+        "summary": "Labor sources say the PM will discuss safety concerns in speech this week but will not provide an update on copyright reforms to protect artists Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcas...",
+        "href": "https://www.theguardian.com/australia-news/2026/jul/14/anthony-albanese-ai-speech-safety-copyright-datacentres-social-licence",
+        "imageUrl": "https://i.guim.co.uk/img/media/778c3afae1e524e9139bab0a9258c753c6fa822f/382_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=00ad82a2bbfd1886c1a8bc62a78380e0",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "label": "July 13, 2026",
+    "items": [
+      {
+        "id": "waze-is-getting-a-bunch-of-new-ai-powered-featur-d5798033-jul13",
+        "category": "Model Releases",
+        "title": "Waze is getting a bunch of new AI-powered features",
+        "source": "The Verge AI",
+        "summary": "Waze is getting an AI makeover. Google is integrating its flagship AI assistant, Gemini, into the driving app with the goal of letting users personalize their trips a little more. Of the four new updates, only two are being described as involving Gemini. Waze...",
+        "href": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25708121/waze_conversational_report.png?quality=90&strip=all&crop=0%2C3.2347601883764%2C100%2C93.530479623247&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "waze-adds-new-ai-powered-features-and-customizat-f35fdbbf-jul13",
+        "category": "Model Releases",
+        "title": "Waze adds new AI-powered features and customization updates",
+        "source": "TechCrunch",
+        "summary": "Some of the new features are powered by Google's Gemini AI assistant, which reflects the tech giant's broader push to integrate Gemini across its products while also better positioning Waze to compete with rival services such as Apple Maps.",
+        "href": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1235613908.jpg?resize=1200,806",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "law-school-bans-laptops-and-phones-as-ai-cheatin-4a252c6b-jul13",
+        "category": "Model Releases",
+        "title": "Law School Bans Laptops and Phones as AI Cheating Scandal Grows",
+        "source": "Futurism AI",
+        "summary": "No ChatGPT for the freshmen. The post Law School Bans Laptops and Phones as AI Cheating Scandal Grows appeared first on Futurism .",
+        "href": "https://futurism.com/future-society/law-school-bans-laptops-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/law-school-bans-laptops-ai.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-loved-chatgpt-desktop-until-openai-gutted-it-t-3bff19e2-jul13",
+        "category": "Developer Tools",
+        "title": "I loved ChatGPT Desktop until OpenAI gutted it to make room for Codex and Work",
+        "source": "ZDNet AI",
+        "summary": "OpenAI just merged the ChatGPT desktop app with Codex - and removed my favorite productivity features. What were they thinking?",
+        "href": "https://www.zdnet.com/article/openai-gutted-chatgpt-desktop-app-for-codex-work/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/0956cc8dd41d2935ff62989797ebe9bf1557ba43/2026/07/13/12879edf-8314-473a-9476-275285bdfcd2/img-9896.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-use-openrouter-for-deepseek-d1bcc910-jul13",
+        "category": "Developer Tools",
+        "title": "Why Use OpenRouter for DeepSeek",
+        "source": "OpenRouter Announcements",
+        "summary": "DeepSeek is one model served by 16 providers, at prices that vary by about 4x and throughput from 4 to 57 tokens per second. Here's what routing that spread through one slug actually buys you, and when going direct is the better call.",
+        "href": "https://openrouter.ai/blog/insights/why-openrouter-for-deepseek/",
+        "imageUrl": "https://openrouter.ai/blog/images/why-openrouter-for-deepseek.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-starts-localizing-claude-pricing-for-i-8bd4af67-jul13",
+        "category": "Product Updates",
+        "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
+        "source": "TechCrunch",
+        "summary": "Claude users in India are starting to see Indian rupee-denominated subscription plans.",
+        "href": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269811684.jpg?w=1024",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-extends-free-fable-5-access-for-subscr-eb3ea431-jul13",
+        "category": "Developer Tools",
+        "title": "Anthropic extends free Fable 5 access for subscribers as OpenAI's GPT-5.6 Sol heats up the pricing war",
+        "source": "The Decoder",
+        "summary": "Anthropic is keeping Claude Fable 5 in its subscription plans through July 19, 2026. The model was supposed to switch to pay-per-use today. Subscribers can use up to 50 percent of their weekly limit for Fable 5. The extension is likely a response to pricing p...",
+        "href": "https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/claude_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "confused-about-your-pc-specs-or-hardware-windows-55fa4095-jul13",
+        "category": "Developer Tools",
+        "title": "Confused about your PC specs or hardware? Windows 11's Copilot app is getting new powers to help you 'understand your d...",
+        "source": "TechRadar Software",
+        "summary": "Copilot app's new 'PC insights' feature has been greeted with some skepticism.",
+        "href": "https://www.techradar.com/computing/windows/confused-about-your-pc-specs-or-hardware-windows-11s-copilot-app-is-getting-new-powers-to-help-you-understand-your-device",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/FW3tr6LdvKmYiNeRxPhVUo-1280-80.jpeg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-best-ai-meeting-recorder-in-2026-9-tools-com-6bc96d6e-jul13",
+        "category": "Product Updates",
+        "title": "The Best AI Meeting Recorder in 2026 (9 Tools Compared by Use Case)",
+        "source": "Fireflies Blog",
+        "summary": "Compare 9 AI meeting recorders by use case, recording quality, sharing features, and consent compliance. Honest picks for sales, training, founders, and regulated teams.",
+        "href": "https://fireflies.ai/blog/best-ai-meeting-recorder/",
+        "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2026/07/The-best-AI-meeting-recorder.png",
+        "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "christopher-nolan-unloads-on-ai-slop-ccce8355-jul13",
+        "category": "Product Updates",
+        "title": "Christopher Nolan Unloads on AI Slop",
+        "source": "Futurism AI",
+        "summary": "The younger generations see AI slop \"for what it is.\" The post Christopher Nolan Unloads on AI Slop appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/christopher-nolan-ai-slop",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/christopher-nolan-ai-slop.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "this-new-ai-model-thinks-in-images-not-just-word-03145037-jul13",
+        "category": "Model Releases",
+        "title": "This new AI model thinks in images, not just words",
+        "source": "Fast Company AI",
+        "summary": "Elorian, founded by the ex-Google Brain and DeepMind researcher Andrew Dai, believes that learning from, and reasoning about, images is fundamental to rapid intelligence gains.",
+        "href": "https://www.fastcompany.com/91571127/this-new-ai-model-think-in-images-not-just-words?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=07142026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-91571127-elorian-ai.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "structured-language-model-generation-with-outlin-4d551655-jul13",
+        "category": "Model Releases",
+        "title": "Structured Language Model Generation with Outlines",
+        "source": "KDnuggets",
+        "summary": "Outlines is an open-source library that introduces deterministic certainty into LLMs' output generation process for better, more reliable generation of structured outputs.",
+        "href": "https://www.kdnuggets.com/structured-language-model-generation-with-outlines",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-structured-language-model-generation-with-outlines-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "new-method-aims-to-keep-kids-safe-from-illegal-a-9c435665-jul13",
+        "category": "Model Releases",
+        "title": "New method aims to keep kids safe from illegal AI-generated content",
+        "source": "MIT News AI",
+        "summary": "Researchers developed an auditing technique to test generative AI models for malicious capabilities, without prompting them for illegal outputs.",
+        "href": "https://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/MIT-Nongenerative-Assessment-01-press.jpg?itok=vUcnqySk",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nadella-calls-out-ai-labs-like-openai-and-anthro-aa911000-jul13",
+        "category": "Developer Tools",
+        "title": "Nadella calls out AI labs like OpenAI and Anthropic for banning distillation while training on everyone else's data",
+        "source": "The Decoder",
+        "summary": "Microsoft CEO Satya Nadella is calling out OpenAI and Anthropic for what he calls a \"reverse information paradox.\" They train on public data under fair use but ban distillation of their own models, all while learning from customer interactions. Nadella wants...",
+        "href": "https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/microsoft_datacenter.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-07-12",
     "label": "July 12, 2026",
     "items": [
