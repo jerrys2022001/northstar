@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-07-14T07:23:40+00:00",
+  "updatedAt": "2026-07-14T07:24:43+00:00",
   "digestDate": "2026-07-14",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-07-11T15:19:17+08:00",
-  "windowEnd": "2026-07-14T15:19:17+08:00",
+  "windowStart": "2026-07-11T15:20:48+08:00",
+  "windowEnd": "2026-07-14T15:20:48+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -248,7 +248,7 @@
   ],
   "fetchDiagnostics": {
     "sourcesAttempted": 59,
-    "sourcesSucceeded": 38,
+    "sourcesSucceeded": 36,
     "sourceErrors": [
       {
         "source": "Anthropic News",
@@ -354,6 +354,16 @@
         "source": "Synthesia Blog",
         "url": "https://www.synthesia.io/blog/rss.xml",
         "error": "HTTPError: HTTP Error 404: Not Found"
+      },
+      {
+        "source": "The Verge AI",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+      },
+      {
+        "source": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
       }
     ]
   },
@@ -431,7 +441,7 @@
       "summary": "Now rolling out to the Copilot Windows app, the new PC Insights skill can answer questions about your Windows system, settings, and more.",
       "href": "https://www.zdnet.com/article/microsoft-copilot-analyze-windows/",
       "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/bright-product-updates.svg",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/bbac802560863e6d9c3f3afb28c745cb7d328777/2026/07/13/3336e261-2bdf-4464-a569-fdfebd74492d/copilot-windows-app-on-a-laptop.jpg?auto=webp&fit=crop&height=675&width=1200",
       "publishedAt": "2026-07-13T17:21:00+00:00",
       "toolIds": [
         "githubcopilot"

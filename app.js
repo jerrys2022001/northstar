@@ -421,7 +421,7 @@
         "source": "ZDNet AI",
         "summary": "Now rolling out to the Copilot Windows app, the new PC Insights skill can answer questions about your Windows system, settings, and more.",
         "href": "https://www.zdnet.com/article/microsoft-copilot-analyze-windows/",
-        "imageUrl": "assets/news/bright-product-updates.svg",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/bbac802560863e6d9c3f3afb28c745cb7d328777/2026/07/13/3336e261-2bdf-4464-a569-fdfebd74492d/copilot-windows-app-on-a-laptop.jpg?auto=webp&fit=crop&height=675&width=1200",
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
       },
       {
