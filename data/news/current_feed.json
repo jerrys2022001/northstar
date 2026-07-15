@@ -1,6 +1,532 @@
 {
-  "updatedAt": "2026-07-14T15:25:01",
+  "updatedAt": "2026-07-15T08:50:21",
   "groups": [
+    {
+      "date": "2026-07-15",
+      "label": "July 15, 2026",
+      "items": [
+        {
+          "id": "getting-started-with-conductor-for-gemini-cli-222d5d58-jul15",
+          "category": "Model Releases",
+          "title": "Getting Started with Conductor for Gemini CLI",
+          "source": "KDnuggets",
+          "summary": "Conductor is a Gemini CLI extension built to fix your context problems. Learn all about it here.",
+          "href": "https://www.kdnuggets.com/getting-started-with-conductor-for-gemini-cli",
+          "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-An-Introduction-to-the-Antigravity-CLI-for-Gemini-scaled.png",
+          "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "mistral-vibe-for-code-vs-claude-code-vs-cursor-v-03f73e56-jul15",
+          "category": "Developer Tools",
+          "title": "Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task",
+          "source": "MarkTechPost Research",
+          "summary": "MarkTechPost Research reported: Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task",
+          "href": "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task",
+          "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/07/blog19132-20-1024x731.png",
+          "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "codex-starts-encrypting-sub-agent-prompts-4bd90928-jul15",
+          "category": "Developer Tools",
+          "title": "Codex starts encrypting sub-agent prompts",
+          "source": "hackernews",
+          "summary": "edit: originally was \"Codex starts encrypting prompts, uses cyphertext for inference instead\" reply It seems possible they trained this by doing full RL rollouts of agents interacting with each other. They likely view these prompts somewhat the same as raw re...",
+          "href": "https://news.ycombinator.com/item?id=48905028",
+          "imageUrl": "assets/news/perplexity-billion-build.png",
+          "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "deepseek-reportedly-in-talks-to-raise-1-5b-then-15cf231b-jul15",
+          "category": "Developer Tools",
+          "title": "DeepSeek reportedly in talks to raise $1.5B, then IPO",
+          "source": "TechCrunch",
+          "summary": "DeepSeek, the Chinese large language model developer, is said to be preparing for a 2027 IPO debut as it also looks to raise around $1.5 billion in new funds at a $71 billion valuation. DeepSeek, the Chinese large language model developer, is said to be prepa...",
+          "href": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2196333417_75e106.jpg?resize=1200,901",
+          "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "deepseek-needs-more-cash-just-weeks-after-closin-41de86bd-jul15",
+          "category": "Developer Tools",
+          "title": "DeepSeek needs more cash just weeks after closing its first $7 billion round",
+          "source": "The Decoder",
+          "summary": "DeepSeek is already raising again. The Chinese AI lab just closed its first funding round and needs capital for its own data centers and chips to keep its aggressive pricing strategy going. The article DeepSeek needs more cash just weeks after closing its fir...",
+          "href": "https://the-decoder.com/deepseek-needs-more-cash-just-weeks-after-closing-its-first-7-billion-round/",
+          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/deepseek_red_whale.png",
+          "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "v2-1-210-517aedb4-jul15",
+          "category": "Developer Tools",
+          "title": "v2.1.210",
+          "source": "Claude Code Releases",
+          "summary": "What's changed Added a live elapsed-time counter to the collapsed tool summary line so long-running tool calls visibly tick instead of looking stuck Added a startup warning for Write(path), Notebo... Claude Code is an agentic coding tool that lives in your te...",
+          "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210",
+          "imageUrl": "https://opengraph.githubassets.com/f5f95f35976b2002c02020c1536182306f9d13a3c473e796c88b9a07da0fd77b/anthropics/claude-code/releases/tag/v2.1.210",
+          "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "opencoredev-releases-domain-sdk-0-2-0-one-typesc-09e2cbef-jul15",
+          "category": "Model Releases",
+          "title": "OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platf...",
+          "source": "MarkTechPost",
+          "summary": "OpenCoreDev has published Domain SDK 0.2.0, a TypeScript client for the custom domain lifecycle. It covers Vercel, Cloudflare for SaaS, Railway, Render, and Netlify behind one API. Status is modeled as an eight-value union, with separate verification and cert...",
+          "href": "https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/",
+          "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/07/high-level-description-a-vibrant-cartoon_pKD1SQYxVZS3w328qEVqlQ_G3BjSYtwQXuk43uSkQarZg_cover-1024x768.png",
+          "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "the-real-ai-race-may-no-longer-be-at-the-frontie-fd86030a-jul15",
+          "category": "Model Releases",
+          "title": "The real AI race may no longer be at the frontier",
+          "source": "TechCrunch",
+          "summary": "Hugging Face CEO Clem Delangue says enterprises increasingly want open models, due to cost, accessibility, and ownership. Do frontier models still matter if most production AI ends up running on open models?",
+          "href": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-1849294862.jpg?w=1024",
+          "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "your-brand-might-be-invisible-to-ai-1b28e5f1-jul15",
+          "category": "Product Updates",
+          "title": "Your brand might be invisible to AI",
+          "source": "Fast Company AI",
+          "summary": "The signals behind AI recommendation are not mysterious, and every brand can build them.",
+          "href": "https://www.fastcompany.com/91571995/your-brand-might-be-invisible-to-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=07152026",
+          "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/INC-Masters-Fast-Company-publishing-2026-07-10T122214.885.png",
+          "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "you-essentially-pay-for-intelligence-twice-once-662c7e0d-jul15",
+          "category": "Product Updates",
+          "title": "'You essentially pay for intelligence twice, once with money, and again with something even more valuable': Microsoft C...",
+          "source": "TechRadar",
+          "summary": "TechRadar reported: 'You essentially pay for intelligence twice, once with money, and again with something even more valuable': Microsoft CEO Satya Nadella warns AI users not to give away too much",
+          "href": "https://www.techradar.com/pro/you-essentially-pay-for-intelligence-twice-once-with-money-and-again-with-something-even-more-valuable-microsoft-ceo-satya-nadella-warns-ai-users-not-to-give-away-too-much",
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/t7wpaX7ApZyFrNdXuR3JDj-2560-80.jpg",
+          "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "today-s-students-expect-the-best-connectivity-un-900e6fcc-jul15",
+          "category": "Product Updates",
+          "title": "Today's students expect the best connectivity. University of Plymouth uses HPE Mist AI and Marvis to create a self-heal...",
+          "source": "@NatarajanK15",
+          "summary": "@NatarajanK15 reported: Today's students expect the best connectivity. University of Plymouth uses HPE Mist AI and Marvis to create a self-healing network to support 18,500 students and 3,000 staff. https://t.co/0ukwBfXgGM",
+          "href": "https://x.com/NatarajanK15/status/2076941084060430681",
+          "imageUrl": "https://pbs.twimg.com/card_img/2076695146427543552/fB_ZyQ61?format=jpg&name=orig",
+          "excerpt": "Radar signal: @NatarajanK15 surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "the-trump-administration-launches-the-gold-eagle-e5b74cf3-jul15",
+          "category": "Product Updates",
+          "title": "The Trump administration launches the \"Gold Eagle\" federal clearinghouse for sharing AI cyber threat information betwee...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: The Trump administration launches the \"Gold Eagle\" federal clearinghouse for sharing AI cyber threat information between the government and private sector (Derek B. Johnson/CyberScoop)",
+          "href": "https://www.techmeme.com/260714/p50",
+          "imageUrl": "https://cyberscoop.com/wp-content/uploads/sites/3/2026/05/Trump-Bessent.jpeg",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "sources-openai-s-first-device-will-be-a-moveable-9a00d43b-jul15",
+          "category": "Product Updates",
+          "title": "Sources: OpenAI's first device will be a moveable, screen-free smart speaker with a camera and sensors, meant to serve...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: Sources: OpenAI's first device will be a moveable, screen-free smart speaker with a camera and sensors, meant to serve as a humanlike AI companion (Mark Gurman/Bloomberg)",
+          "href": "https://www.techmeme.com/260714/p46",
+          "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.bqBTJVQwUs/v0/1200x800.jpg",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "sources-nvidia-intensified-due-diligence-and-cut-d6e6f9ec-jul15",
+          "category": "Product Updates",
+          "title": "Sources: Nvidia intensified due diligence and cut its authorized AI chip customers in Singapore, Malaysia, and Japan by...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: Sources: Nvidia intensified due diligence and cut its authorized AI chip customers in Singapore, Malaysia, and Japan by 50%+ to prevent China diversions (Zijing Wu/Financial Times)",
+          "href": "https://www.techmeme.com/260714/p1",
+          "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F9e3c6690-7b49-4578-b712-8f0d6132f86d.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "risk-of-darkness-looms-across-europe-and-america-0e7e7f24-jul15",
+          "category": "Product Updates",
+          "title": "Risk of darkness looms across Europe and America as power-hungry AI data centers and electric cars drain the grid, deci...",
+          "source": "TechRadar",
+          "summary": "TechRadar reported: Risk of darkness looms across Europe and America as power-hungry AI data centers and electric cars drain the grid, decimate factory capacity, and engineer a four-year wait for transformers",
+          "href": "https://www.techradar.com/pro/darkness-looms-across-europe-and-america-as-power-hungry-ai-data-centers-and-electric-cars-drain-the-grid-decimate-factory-capacity-and-engineer-a-four-year-wait-for-transformers-threatening-to-leave-entire-regions-in-the-dark",
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/3Vu4FwPCzHo6pxU4MsqSPU-1920-80.png",
+          "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "rankscale-ai-19d42f58-jul15",
+          "category": "Product Updates",
+          "title": "Rankscale AI",
+          "source": "producthunt",
+          "summary": "producthunt reported: Rankscale AI",
+          "href": "https://www.producthunt.com/products/rankscale-ai",
+          "imageUrl": "https://ph-files.imgix.net/07f48031-8725-460d-aff1-abb0fb52ae7c.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+          "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "openai-s-first-device-will-be-moveable-screenles-ef566248-jul15",
+          "category": "Product Updates",
+          "title": "OpenAI's First Device Will Be Moveable, Screenless Speaker Built as AI Companion",
+          "source": "Slashdot",
+          "summary": "OpenAI is reportedly developing a screen-free, portable smart speaker meant to act as a personalized home computer and humanlike AI companion. \"It will help control smart-home appliances, play media, answer questions, respond to messages and tap into the rang...",
+          "href": "https://hardware.slashdot.org/story/26/07/14/2116245/openais-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion",
+          "imageUrl": "https://a.fsdn.com/sd/topics/hardware_64.png",
+          "excerpt": "Radar signal: Slashdot surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "new-york-becomes-first-state-to-ban-ai-data-cent-c1512bce-jul15",
+          "category": "Product Updates",
+          "title": "New York Becomes First State to Ban AI Data Centers",
+          "source": "Futurism AI",
+          "summary": "\"When companies succeed because of New York, New Yorkers succeed too.\" The post New York Becomes First State to Ban AI Data Centers appeared first on Futurism .",
+          "href": "https://futurism.com/artificial-intelligence/new-york-hochul-executive-order-ban-ai-data-centers",
+          "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/new-york-hochul-executive-order-ban-ai-data-centers.jpg?quality=85",
+          "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "new-anthropic-ad-implies-ai-could-kill-us-all-cfa86772-jul15",
+          "category": "Product Updates",
+          "title": "New Anthropic Ad Implies AI Could Kill Us All",
+          "source": "Futurism AI",
+          "summary": "One heck of a marketing strategy. The post New Anthropic Ad Implies AI Could Kill Us All appeared first on Futurism .",
+          "href": "https://futurism.com/artificial-intelligence/anthropic-ad-ai-kill-us-all",
+          "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/anthropic-ad-ai-kill-us-all.jpg?quality=85",
+          "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "meta-used-its-own-flawed-ai-to-pick-which-employ-190e9e38-jul15",
+          "category": "Product Updates",
+          "title": "Meta Used Its Own Flawed AI to Pick Which Employees to Lay Off, Lawsuit Claims",
+          "source": "Futurism AI",
+          "summary": "These are some serious allegations. The post Meta Used Its Own Flawed AI to Pick Which Employees to Lay Off, Lawsuit Claims appeared first on Futurism .",
+          "href": "https://futurism.com/artificial-intelligence/meta-biased-ai-layoffs-workers-labor-lawsuit",
+          "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/meta-biased-ai-layoffs-workers-labor-lawsuit.jpg?quality=85",
+          "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "meta-used-ai-to-tag-workers-who-took-leave-to-be-c95cb40b-jul15",
+          "category": "Product Updates",
+          "title": "Meta used AI to tag workers who took leave to be laid off, lawsuit claims",
+          "source": "The Guardian AI",
+          "summary": "Lawsuit filed by dozens of employees says people who took maternity or disability leave were disproportionately selected for layoffs Dozens of Meta employees have sued the social media company over claims that it used artificial intelligence tools to tag work...",
+          "href": "https://www.theguardian.com/technology/2026/jul/14/meta-ai-mass-layoffs-lawsuit",
+          "imageUrl": "https://i.guim.co.uk/img/media/c1f65fac6b8a7f109e61bc731e7d728fa93be1be/864_0_4318_3455/master/4318.jpg?width=140&quality=85&auto=format&fit=max&s=bd5f3adc42573f4d2328958a9e7ad5a6",
+          "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "massive-ai-spending-is-driving-up-prices-on-lapt-c996c59f-jul15",
+          "category": "Product Updates",
+          "title": "Massive AI spending is driving up prices on laptops and electricity, as the Fed watches closely",
+          "source": "Fast Company AI",
+          "summary": "Investment in AI data centers could exceed $700 billion in 2026, pushing up inflation.",
+          "href": "https://www.fastcompany.com/91572617/massive-ai-spending-driving-up-prices-laptops-electricity-as-fed-watches-closely?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=07152026",
+          "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/AP26176665504357.jpg",
+          "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "judgement-intelligence-is-about-to-become-the-sk-a82985a6-jul15",
+          "category": "Product Updates",
+          "title": "Judgement intelligence is about to become the skill of the future",
+          "source": "Fast Company AI",
+          "summary": "In the age of AI, the winners will be those who can interpret and apply information.",
+          "href": "https://www.fastcompany.com/91567391/judgement-intelligence-about-become-skill-future?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07152026",
+          "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91567391-Work-Life-CN-Judgement-intelligence-is-about-to-become-the-skill-of-the-future.jpg",
+          "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "in-the-wake-of-china-s-embodied-ai-push-there-s-5788a10e-jul15",
+          "category": "Product Updates",
+          "title": "In the wake of China's \"embodied AI\" push, there's an urgency among China's 100+ humanoid startups to launch IPOs; LimX...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: In the wake of China's \"embodied AI\" push, there's an urgency among China's 100+ humanoid startups to launch IPOs; LimX Dynamics raises $200M in a pre-IPO round (Evelyn Cheng/CNBC)",
+          "href": "https://www.techmeme.com/260713/p36",
+          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108333790-1783901895793-20260703_101521_limx.jpg?v=1783902013&w=1920&h=1080",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "dimon-says-ai-already-eliminated-30-to-40-percen-9c27a1f8-jul15",
+          "category": "Product Updates",
+          "title": "Dimon says AI already eliminated 30 to 40 percent of jobs in some JPMorgan divisions",
+          "source": "The Next Web",
+          "summary": "Jamie Dimon told analysts that AI has already eliminated 30 to 40 percent of jobs in some JPMorgan units, but competitive pressure will erase margin gains. Jamie Dimon told analysts that AI has already eliminated 30 to 40 percent of jobs in some JPMorgan unit...",
+          "href": "https://thenextweb.com/news/jpmorgan-dimon-ai-jobs-cuts-margins-q2-earnings",
+          "imageUrl": "assets/news/superhuman-claude-mythos.png",
+          "excerpt": "Radar signal: The Next Web surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "dimeadozen-ai-04b43311-jul15",
+          "category": "Product Updates",
+          "title": "DimeADozen.ai",
+          "source": "producthunt",
+          "summary": "producthunt reported: DimeADozen.ai",
+          "href": "https://www.producthunt.com/products/dimeadozen-ai",
+          "imageUrl": "https://ph-files.imgix.net/126ddaee-b692-4af8-8595-b608bbddb907.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+          "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "craigweiss-is-weird-that-we-here-so-many-ai-user-452f4069-jul15",
+          "category": "Product Updates",
+          "title": "@craigweiss Is weird that we here so many AI users burning 200K of tokens a month building digital apps. But where's al...",
+          "source": "@sahil_harriram",
+          "summary": "@sahil_harriram reported: @craigweiss Is weird that we here so many AI users burning 200K of tokens a month building digital apps. But where's all the scientists using AI to help cure diseases and solve some of humanities hardest problems?",
+          "href": "https://x.com/sahil_harriram/status/2076941079056634272",
+          "imageUrl": "https://pbs.twimg.com/profile_images/1920146376178163712/htA7rmTt_200x200.jpg",
+          "excerpt": "Radar signal: @sahil_harriram surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "chinese-startup-dfsx-launches-an-ai-chip-that-it-7b3632db-jul15",
+          "category": "Product Updates",
+          "title": "Chinese startup DFSX launches an AI chip that it claims uses a fully domestic supply chain and is built on a 14nm proce...",
+          "source": "Techmeme",
+          "summary": "Title: Attention Required! | Cloudflare Warning: Target URL returned error 403: Forbidden Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. ## Why have I been blocked? This website is using a security service...",
+          "href": "https://www.techmeme.com/260714/p28",
+          "imageUrl": "https://images.wsj.net/im-31131612/social",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "are-we-offloading-too-much-of-our-thinking-to-ai-2599522b-jul15",
+          "category": "Product Updates",
+          "title": "Are we offloading too much of our thinking to AI?",
+          "source": "hackernews",
+          "summary": "I feel like it's also making people even more lazy. It feels like people just ask questions without putting ANY effort in themselves beforehand to find the answer, like they assume everything is an AI and we're all just going to drop everything and give them...",
+          "href": "https://news.ycombinator.com/item?id=48908178",
+          "imageUrl": "assets/news/superhuman-personal-agents.png",
+          "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "ai-does-not-solve-poor-finance-infrastructure-it-6b9d540a-jul15",
+          "category": "Product Updates",
+          "title": "AI does not solve poor finance infrastructure: it weakens it",
+          "source": "TechRadar",
+          "summary": "AI exposes weak finance infrastructure rather than fixing it AI exposes weak finance infrastructure rather than fixing it AI exposes weak finance infrastructure rather than fixing it",
+          "href": "https://www.techradar.com/pro/ai-does-not-solve-poor-finance-infrastructure-it-weakens-it",
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/6t9Lsf3QWte55CdyiDs97L-2560-80.jpg",
+          "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "a-look-at-founders-fund-backed-state-affairs-whi-fa89d9c5-jul15",
+          "category": "Product Updates",
+          "title": "A look at Founders Fund-backed State Affairs, which raised $70M and uses AI trained on reporting by its 76 staffers to...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: A look at Founders Fund-backed State Affairs, which raised $70M and uses AI trained on reporting by its 76 staffers to power a Bloomberg Terminal-like product (Washington Post)",
+          "href": "https://www.techmeme.com/260714/p38",
+          "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/USWCA345ME5BSG5A2RDROLWADM_size-normalized.jpg&w=1440",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "researchers-detail-context-bombing-where-defende-bcdf0d6e-jul15",
+          "category": "Model Releases",
+          "title": "Researchers detail \"context bombing\", where defenders use prompt injections to trigger guardrails of attackers' LLMs, c...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: Researchers detail \"context bombing\", where defenders use prompt injections to trigger guardrails of attackers' LLMs, cutting AI hacking success rates by ~90% (Dan Goodin/Ars Technica)",
+          "href": "https://www.techmeme.com/260714/p2",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ai-agent-robot-guardrail-1152x648.jpg",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "helping-ai-models-to-meet-the-real-world-dfa10538-jul15",
+          "category": "Model Releases",
+          "title": "Helping AI models to meet the real world",
+          "source": "MIT News AI",
+          "summary": "Through research and entrepreneurship, Professor Devavrat Shah is helping to design methods that can handle constant decision-making using limited computational resources.",
+          "href": "https://news.mit.edu/2026/helping-ai-models-meet-real-world-0714",
+          "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/devavrat-shah-mit-00_0.jpg?itok=A3yCxNyV",
+          "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "hachette-elsevier-cengage-learning-and-author-sc-673e402b-jul15",
+          "category": "Model Releases",
+          "title": "Hachette, Elsevier, Cengage Learning, and author Scott Turow sue Google for allegedly using millions of copyrighted boo...",
+          "source": "Techmeme",
+          "summary": "Title: Attention Required! | Cloudflare Warning: Target URL returned error 403: Forbidden Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. ## Why have I been blocked? This website is using a security service...",
+          "href": "https://www.techmeme.com/260714/p30",
+          "imageUrl": "https://www.thewrap.com/wp-content/uploads/2026/04/GettyImages-2263055234-scaled.jpg",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "demis-hassabis-proposes-a-us-based-standards-bod-5bf30fe0-jul15",
+          "category": "Model Releases",
+          "title": "Demis Hassabis proposes a US-based Standards Body for \"Frontier-class\" AI, modeled after the FINRA; labs would voluntar...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: Demis Hassabis proposes a US-based Standards Body for \"Frontier-class\" AI, modeled after the FINRA; labs would voluntarily share models 30 days before release (Demis Hassabis/@demishassabis)",
+          "href": "https://www.techmeme.com/260714/p8",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!E5Nd!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bcba237-d57d-4764-8aab-919e2b7dc1cc_1920x1080.png",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "demis-hassabis-has-a-plan-to-harness-ai-safely-2587abcb-jul15",
+          "category": "Model Releases",
+          "title": "Demis Hassabis has a plan to harness AI safely",
+          "source": "hackernews",
+          "summary": "https://www.economist.com/business/2026/07/14/demis-hassabis... , https://archive.ph/GOUcN Goodhart's law applies in reverse as well. Once the chosen benchmarks are known, model makers will aim to come in just under the threshold on those specific benchmarks,...",
+          "href": "https://news.ycombinator.com/item?id=48904095",
+          "imageUrl": "assets/news/bright-safety.svg",
+          "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "ai-drug-design-startup-chai-discovery-raised-400-b1be6d30-jul15",
+          "category": "Model Releases",
+          "title": "AI drug design startup Chai Discovery raised $400M led by Index at a $3.8B valuation, as it positions its Chai models a...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: AI drug design startup Chai Discovery raised $400M led by Index at a $3.8B valuation, as it positions its Chai models as AI infrastructure for pharmaceuticals (Michael J. de la Merced/New York Times)",
+          "href": "https://www.techmeme.com/260714/p14",
+          "imageUrl": "https://static01.nyt.com/images/2026/07/14/business/14db-chai-discovery/14db-chai-discovery-facebookJumbo.jpg",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "adapter-which-offers-an-infrastructure-layer-to-d8bb8905-jul15",
+          "category": "Agents",
+          "title": "Adapter, which offers an infrastructure layer to help users leverage and control data for use by AI agents and apps, em...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: Adapter, which offers an infrastructure layer to help users leverage and control data for use by AI agents and apps, emerges from stealth with $17.8M in funding (Alex Konrad/Upstarts Media)",
+          "href": "https://www.techmeme.com/260714/p42",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!2O-8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82c13167-c26f-47c2-8e89-3c458dd20abf_6956x5158.jpeg",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "proof-of-care-in-the-age-of-ai-6ca91b06-jul15",
+          "category": "Developer Tools",
+          "title": "Proof of care in the age of AI",
+          "source": "hackernews",
+          "summary": "But what a great idea nevertheless - proof of care! Instead of checking if you are human and not a malicious bot, they shoud require a proof that you do care about what you are going to access. Like - I don't know - write by hand on the screen a short essay o...",
+          "href": "https://news.ycombinator.com/item?id=48906125",
+          "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
+          "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "global-cooperation-needed-to-tackle-ai-threats-s-f100c0ec-jul15",
+          "category": "Developer Tools",
+          "title": "Global cooperation needed to tackle AI threats, says Bank of England governor",
+          "source": "The Guardian AI",
+          "summary": "Andrew Bailey warns that US will not be able to achieve its ambitions alone The Bank of England governor has called for international cooperation to tackle growing AI threats, warning that the US and Trump administration would not be able to achieve their amb...",
+          "href": "https://www.theguardian.com/technology/2026/jul/14/global-cooperation-needed-to-tackle-ai-threats-says-bank-of-england-governor",
+          "imageUrl": "https://i.guim.co.uk/img/media/9b499f8346a55da156d361d621fd2d130f3bb990/1531_250_4460_3568/master/4460.jpg?width=140&quality=85&auto=format&fit=max&s=e14816fa6aac34a07f855c1cc896f870",
+          "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "debate-earn-make-an-impact-shape-health-ai-with-f87854d2-jul15",
+          "category": "Developer Tools",
+          "title": "Debate. Earn. Make an impact Shape Health & AI with @LifeNetwork_AI. Your voice matters. Join here: https://t.co/Ic890h...",
+          "source": "@MrZYBIT",
+          "summary": "@MrZYBIT reported: Debate. Earn. Make an impact Shape Health & AI with @LifeNetwork_AI. Your voice matters. Join here: https://t.co/Ic890hHzC5 Code: W32PWR8 #LifeAITestnet",
+          "href": "https://x.com/MrZYBIT/status/2076941084719243650",
+          "imageUrl": "https://pbs.twimg.com/profile_images/2053382460004868096/o1oebyca_200x200.jpg",
+          "excerpt": "Radar signal: @MrZYBIT surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "anthony-albanese-promises-fast-track-approvals-f-7f20a139-jul15",
+          "category": "Developer Tools",
+          "title": "Anthony Albanese promises fast-track approvals for datacentres to shore up AI investment",
+          "source": "The Guardian AI",
+          "summary": "PM to declare Australia the first country worldwide to bring economic, social, security and environmental issues from AI under single office in major speech Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily...",
+          "href": "https://www.theguardian.com/technology/2026/jul/14/anthony-albanese-promises-fast-track-approvals-for-datacentres-to-shore-up-ai-investment",
+          "imageUrl": "https://i.guim.co.uk/img/media/cd2a98fd77c0922afe1be3acbfe77a33d3664d81/2248_755_2693_2156/master/2693.jpg?width=140&quality=85&auto=format&fit=max&s=87258455ce0e5d73c0d6355882348137",
+          "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "a-majority-of-americans-now-support-seizing-weal-b3506851-jul15",
+          "category": "Developer Tools",
+          "title": "A majority of Americans now support seizing wealth from AI industry",
+          "source": "Reddit (热门)",
+          "summary": "Title: Warning: Target URL returned error 403: Forbidden You've been blocked by network security. To continue, log in to your Reddit account or use your developer token If you think you've been blocked by mistake, file a ticket below and we'll look into it.",
+          "href": "https://www.reddit.com/r/technology/comments/1uwbf4d/a_majority_of_americans_now_support_seizing",
+          "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+          "excerpt": "Radar signal: Reddit (热门) surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "5-ways-to-use-ai-to-sharpen-your-thinking-86d8a4e9-jul15",
+          "category": "Developer Tools",
+          "title": "5 ways to use AI to sharpen your thinking",
+          "source": "Fast Company AI",
+          "summary": "From challenging your assumptions to organizing half-formed ideas, these tactics can turn AI into an intellectual sparring partner, research assistant, and personal tutor.",
+          "href": "https://www.fastcompany.com/91572644/5-ways-to-use-ai-to-sharpen-your-thinking?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07152026",
+          "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-91572644-how-to-make-AI-a-thinking-partner.jpg",
+          "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "ai-startup-reflection-says-it-has-signed-a-1b-de-b1c999b6-jul15",
+          "category": "Policy",
+          "title": "AI startup Reflection says it has signed a $1B+ deal to secure computing capacity from Nebius, including access to Nvid...",
+          "source": "Techmeme",
+          "summary": "Title: Attention Required! | Cloudflare Warning: Target URL returned error 403: Forbidden Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. ## Why have I been blocked? This website is using a security service...",
+          "href": "https://www.techmeme.com/260714/p22",
+          "imageUrl": "https://www.reuters.com/resizer/v2/5GMI5I5BRZKEVCLMBRHXSHWZ7M.jpg?auth=ab629f17e4d09754774285c58fad3f836ab382f35b90a84f37e1516a742656cd&height=1005&width=1920&quality=80&smart=true",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "flex-which-offers-ai-based-payment-tools-credit-563a7fbc-jul15",
+          "category": "Funding",
+          "title": "Flex, which offers AI-based payment tools, credit, and more to mid-sized companies, raised a $70M Series B1 led by Halo...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: Flex, which offers AI-based payment tools, credit, and more to mid-sized companies, raised a $70M Series B1 led by Halo Fund, a source says at a $1.2B valuation (Aditya Soni/Reuters)",
+          "href": "https://www.techmeme.com/260714/p19",
+          "imageUrl": "https://www.reuters.com/resizer/v2/BJ5U3HM6VJM2NF2PT5GYTP7Z4Q.jpg?auth=2efe18ea404ad1255eb8dcb477d07a2a39e4f8da55042b5f5592fc54219629cc&height=1005&width=1920&quality=80&smart=true",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "overtone-a-voice-and-audio-forward-dating-servic-36ef2665-jul15",
+          "category": "Creative AI",
+          "title": "Overtone, a \"voice- and audio-forward\" dating service founded by Hinge creator Justin McLeod that uses AI to make \"high...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: Overtone, a \"voice- and audio-forward\" dating service founded by Hinge creator Justin McLeod that uses AI to make \"highly curated introductions\", raised $18M (Amanda Silberling/TechCrunch)",
+          "href": "https://www.techmeme.com/260714/p41",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-960137688.jpg?resize=1200,600",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "google-revamps-image-search-for-its-25th-anniver-23767f96-jul15",
+          "category": "Creative AI",
+          "title": "Google revamps image search for its 25th anniversary with more images and more AI",
+          "source": "Ars Technica",
+          "summary": "The new Google image search will use your \"unique interests\" to create an always-updated gallery. The new Google image search will use your \"unique interests\" to create an always-updated gallery. The new Google image search will use your \"unique interests\" to...",
+          "href": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai",
+          "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
+          "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "google-images-launches-a-pinterest-like-redesign-c0ceb9a6-jul15",
+          "category": "Creative AI",
+          "title": "Google Images launches a Pinterest-like redesign with a browsable, dynamic gallery of images, and adds a way for users...",
+          "source": "Techmeme",
+          "summary": "Title: Attention Required! | Cloudflare Warning: Target URL returned error 403: Forbidden Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. ## Why have I been blocked? This website is using a security service...",
+          "href": "https://www.techmeme.com/260714/p35",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/New-Google-Images-1.png?resize=1200,675",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "custom-ai-chip-design-startup-tylsemi-raised-43m-8a98ca22-jul15",
+          "category": "Creative AI",
+          "title": "Custom AI chip design startup TYLsemi raised $43M in early-stage funding led by Matter Venture Partners to build modula...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: Custom AI chip design startup TYLsemi raised $43M in early-stage funding led by Matter Venture Partners to build modular chips thanks to packaging tech advances (Mike Wheatley/SiliconANGLE)",
+          "href": "https://www.techmeme.com/260714/p16",
+          "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/07/Screenshot-from-2026-07-10-12-43-07.png",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "anthropic-faces-ridicule-and-criticism-for-an-ad-fee36ec5-jul15",
+          "category": "Creative AI",
+          "title": "Anthropic faces ridicule and criticism for an ad titled \"There's hope in hard questions\" that unsettled viewers with we...",
+          "source": "Techmeme",
+          "summary": "Techmeme reported: Anthropic faces ridicule and criticism for an ad titled \"There's hope in hard questions\" that unsettled viewers with weird graveyard imagery and doomer-ist tone (Lucas Ropek/TechCrunch)",
+          "href": "https://www.techmeme.com/260714/p44",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+          "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "openai-researcher-miles-wang-in-talks-to-launch-b47abe9a-jul15",
+          "category": "Research Workflows",
+          "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+          "source": "TechCrunch",
+          "summary": "Lightspeed is in discussions to lead the funding round, sources say.",
+          "href": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2021/10/biotech-header.jpg?resize=1200,807",
+          "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+        }
+      ]
+    },
     {
       "date": "2026-07-14",
       "label": "July 14, 2026",
