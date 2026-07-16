@@ -371,6 +371,532 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-07-16",
+    "label": "July 16, 2026",
+    "items": [
+      {
+        "id": "how-to-use-gemini-to-plan-your-next-summer-vacat-5653028f-jul16",
+        "category": "Model Releases",
+        "title": "How to use Gemini to plan your next summer vacation - in minutes",
+        "source": "ZDNet AI",
+        "summary": "This Gemini prompt can find flights, stays, and things to do for you. It'll even build an itinerary doc.",
+        "href": "https://www.zdnet.com/article/gemini-prompt-to-plan-vacation-build-itinerary-doc/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/a27012fad589e6bfb0bda3070c9ef375785283d5/2026/06/01/d1b21885-90be-4a67-9888-b6f6c03281e0/ai-prompt-hero-4.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "book-publishers-sue-google-for-copyright-infring-75b8d5b3-jul16",
+        "category": "Model Releases",
+        "title": "Book Publishers Sue Google For Copyright Infringement Over Gemini AI Training",
+        "source": "Slashdot",
+        "summary": "Major publishers Hachette, Cengage, Elsevier, and author Scott Turow have sued Google, accusing it of using millions of copyrighted books to train Gemini without permission or payment, in \"one of the most prolific infringements of copyrighted materials in his...",
+        "href": "https://yro.slashdot.org/story/26/07/15/2113245/book-publishers-sue-google-for-copyright-infringement-over-gemini-ai-training",
+        "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png",
+        "excerpt": "Radar signal: Slashdot surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-let-chatgpt-work-and-claude-cowork-loose-on-my-48772e78-jul16",
+        "category": "Developer Tools",
+        "title": "I let ChatGPT Work and Claude Cowork loose on my files - only one made me nervous",
+        "source": "ZDNet AI",
+        "summary": "How does ChatGPT Work compare with Claude Cowork for desktop automation? My testing reveals similar results, similar strengths, and one major reason Claude currently feels considerably safer right now.",
+        "href": "https://www.zdnet.com/article/chatgpt-work-claude-cowork/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/a254fa84b3780fbd04fa8be543bcea7e77887ee1/2026/07/15/2b10a472-a3c5-4baf-930b-45ed5ef14bd8/img-9897.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "amid-hardware-legal-battle-openai-releases-a-230-5d19712b-jul16",
+        "category": "Developer Tools",
+        "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+        "source": "TechCrunch",
+        "summary": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
+        "href": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/Supply-Co-Page_Brand.png?resize=1200,623",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-deepseek-s-annualized-revenue-recently-r-74af983e-jul16",
+        "category": "Funding",
+        "title": "Sources: DeepSeek's annualized revenue recently reached $400M to $500M as it seeks to raise ~$7.4B at a ~$74B valuation...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: DeepSeek's annualized revenue recently reached $400M to $500M as it seeks to raise ~$7.4B at a ~$74B valuation, up from ~$50B after raising ~$7B in May (The Information)",
+        "href": "https://www.techmeme.com/260715/p6",
+        "imageUrl": "https://tii.imgix.net/production/articles/17460/0ce99002-b87d-41f2-9ab2-8d6bf42222d6.jpg?fm=jpeg&auto=compress&w=610",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-211-ced8cc75-jul16",
+        "category": "Developer Tools",
+        "title": "v2.1.211",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.211",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.211",
+        "imageUrl": "https://opengraph.githubassets.com/146299704224c75e8edafd266c12897bb2c6345183ef6f0f9c0f7215d9f00248/anthropics/claude-code/releases/tag/v2.1.211",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "suno-snatched-millions-of-songs-from-youtube-gen-f8bec47b-jul16",
+        "category": "Developer Tools",
+        "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
+        "source": "The Verge AI",
+        "summary": "Suno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer, and Genius, 404 Media reports. Given that Suno has avoided reve...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25383554/STK467_AI_MUSIC_CVirginia_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "hack-suggests-ai-music-generator-suno-scraped-yo-48dc9974-jul16",
+        "category": "Developer Tools",
+        "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
+        "source": "TechCrunch",
+        "summary": "The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
+        "href": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/Suno_1.png?resize=1200,600",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "welcome-inkling-by-thinking-machines-210f6726-jul16",
+        "category": "Product Updates",
+        "title": "Welcome Inkling by Thinking Machines",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Welcome Inkling by Thinking Machines",
+        "href": "https://huggingface.co/blog/thinkingmachines-inkling",
+        "imageUrl": "https://huggingface.co/blog/assets/thinkingmachines-inkling/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "introducing-real-world-voiceeq-measuring-the-hum-5d7569c2-jul16",
+        "category": "Product Updates",
+        "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+        "href": "https://huggingface.co/blog/real-world-voiceeq",
+        "imageUrl": "https://huggingface.co/blog/assets/real-world-voiceeq/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "84-of-companies-have-ai-pilots-that-never-reach-9577a0b6-jul16",
+        "category": "Product Updates",
+        "title": "84% of companies have AI pilots that never reach deployment. Here's what's keeping them locked in limbo.",
+        "source": "Zapier Blog",
+        "summary": "Most companies don't have an AI ambition problem. If anything, it's the opposite. Give executives a new AI demo, and they'll find 47 potential use cases before lunch. Companies are spinning up pilots by the dozen, and that appetite is only growing. According...",
+        "href": "https://zapier.com/blog/ai-pilot-survey",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/vqzs6KR1yPqVozEvuKEhz/3b1f5d05a4cc798757dae1ea685823dc/stop-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meet-the-june-2026-zappy-award-monthly-winners-f305b996-jul16",
+        "category": "Developer Tools",
+        "title": "Meet the June 2026 Zappy Award monthly winners",
+        "source": "Zapier Blog",
+        "summary": "This month's three Zappy Award winners are turning scattered company knowledge into shared context that AI and humans can actually use. The strongest June Zappy Award submissions had the same shape: shared context. AI can only help with work it can see. When...",
+        "href": "https://zapier.com/blog/zappy-award-monthly-winners-june-2026",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/2k8xu69PFszknC0qZ5SCOw/396cc2940bc069f0c279dbd5e1fa22ed/Monthly__LinkedIn_1200x627.png",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "zinng-ai-69df6355-jul16",
+        "category": "Product Updates",
+        "title": "Zinng.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: Zinng.ai",
+        "href": "https://www.producthunt.com/products/zinng-ai",
+        "imageUrl": "https://ph-files.imgix.net/40cf8f3e-c8a5-4244-ba19-58bb0caf5d21.jpeg?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "yankee-ai-0b53c8b1-jul16",
+        "category": "Product Updates",
+        "title": "Yankee AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: Yankee AI",
+        "href": "https://www.producthunt.com/products/yankee-ai",
+        "imageUrl": "https://ph-files.imgix.net/0f1f739f-86f4-4edf-8a4d-ef87519f46fb.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "we-just-figured-having-an-ai-day-would-be-approp-27a20687-jul16",
+        "category": "Product Updates",
+        "title": "'We just figured having an AI day would be appropriate': how the National Day Calendar founder bypassed his own 30,000-...",
+        "source": "TechRadar",
+        "summary": "TechRadar reported: 'We just figured having an AI day would be appropriate': how the National Day Calendar founder bypassed his own 30,000-application queue to make it happen",
+        "href": "https://www.techradar.com/ai-platforms-assistants/we-just-figured-having-an-ai-day-would-be-appropriate-how-the-national-day-calendar-founder-bypassed-his-own-30-000-application-queue-to-make-it-happen",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/kB2SLWKwvHRM4KJBdEwu89-2000-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "want-experts-in-10-years-keep-ai-away-from-your-a447b961-jul16",
+        "category": "Product Updates",
+        "title": "Want experts in 10 years? Keep AI away from your beginners today",
+        "source": "Fast Company AI",
+        "summary": "A Norwegian school system and a New York law firm have reached the same conclusion.",
+        "href": "https://www.fastcompany.com/91572073/want-experts-in-ten-years-keep-ai-away-from-your-beginners-today?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=07162026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91572073-Work-Life-CN-Want-experts-in-ten-years-Keep-AI-away-from-your-beginners-today.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-uae-gained-broader-us-ai-chip-access-after-a-226fd4c3-jul16",
+        "category": "Product Updates",
+        "title": "The UAE gained broader US AI chip access after aiding the US in the Iran war, letting G42 buy freely for at least nine...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: The UAE gained broader US AI chip access after aiding the US in the Iran war, letting G42 buy freely for at least nine months; G42 plans to become a US company (Wall Street Journal)",
+        "href": "https://www.techmeme.com/260715/p3",
+        "imageUrl": "https://images.wsj.net/im-95306043/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-ai-job-apocalypse-is-a-myth-we-need-more-hum-df7534ee-jul16",
+        "category": "Product Updates",
+        "title": "The AI job apocalypse is a myth. We need more human talent than ever before",
+        "source": "TechRadar Software",
+        "summary": "Outlining why the AI jobs apocalypse isn't happening.",
+        "href": "https://www.techradar.com/pro/the-ai-job-apocalypse-is-a-myth-we-need-more-human-talent-than-ever-before",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/h8ZQHernNUVpnGYX7QnxVM-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-apple-is-looking-for-chip-companies-to-b-324ec43b-jul16",
+        "category": "Product Updates",
+        "title": "Sources: Apple is looking for chip companies to buy to boost its AI server chip efforts as it struggles with the perfor...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: Apple is looking for chip companies to buy to boost its AI server chip efforts as it struggles with the performance of its servers running on M2 Ultra (The Information)",
+        "href": "https://www.techmeme.com/260715/p33",
+        "imageUrl": "https://tii.imgix.net/production/articles/17458/99e11fd3-60cb-4cc4-b4ff-52e22c4c1144.png?fm=jpeg&auto=compress&w=610",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sixteen-nobel-winning-economists-warn-that-major-cccfde59-jul16",
+        "category": "Product Updates",
+        "title": "Sixteen Nobel-Winning Economists Warn That Major AI Job Losses Are Coming",
+        "source": "Futurism AI",
+        "summary": "The consequences could be devastating. The post Sixteen Nobel-Winning Economists Warn That Major AI Job Losses Are Coming appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/economists-warning-ai-job-losses",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/economists-warning-ai-job-losses.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "relax-apple-openai-and-its-rumored-ai-smart-spea-4b7984f0-jul16",
+        "category": "Product Updates",
+        "title": "Relax, Apple, OpenAI and its rumored AI smart speaker plans are no threat to you, Siri, HomePods, robots, or any other...",
+        "source": "TechRadar",
+        "summary": "TechRadar reported: Relax, Apple, OpenAI and its rumored AI smart speaker plans are no threat to you, Siri, HomePods, robots, or any other part of your business",
+        "href": "https://www.techradar.com/ai-platforms-assistants/relax-apple-openai-and-its-rumored-ai-smart-speaker-plans-are-no-threat-to-you-siri-homepods-robots-or-any-other-part-of-your-business",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/HPfcbGdBSppPbtF6JuqUBJ-2560-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-strikes-bold-deal-with-kalshi-to-mix-toge-3254850a-jul16",
+        "category": "Product Updates",
+        "title": "OpenAI Strikes Bold Deal With Kalshi to Mix Together the Most Hated Technologies in Existence: AI and Prediction Markets",
+        "source": "Futurism AI",
+        "summary": "A match made in hell. The post OpenAI Strikes Bold Deal With Kalshi to Mix Together the Most Hated Technologies in Existence: AI and Prediction Markets appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/openai-deal-kalshi-prediction-markets",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/openai-deal-kalshi-prediction-markets.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-employees-donated-a-combined-215k-to-guar-7980c49b-jul16",
+        "category": "Product Updates",
+        "title": "OpenAI employees donated a combined $215K+ to Guardrails Alliance, a super PAC seeking stricter AI rules and opposing G...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: OpenAI employees donated a combined $215K+ to Guardrails Alliance, a super PAC seeking stricter AI rules and opposing Greg Brockman-backed Leading the Future (Maxwell Zeff/Wired)",
+        "href": "https://www.techmeme.com/260715/p38",
+        "imageUrl": "https://media.wired.com/photos/6a554454e782ee66fec754f3/191:100/w_1280,c_limit/OpenAI-Employees-Launch-Super-PAC-to-Push-for-AI-Guardrails-Business-2274040983.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nokia-plans-to-sell-its-ai-driven-ran-platform-d-26258ac5-jul16",
+        "category": "Product Updates",
+        "title": "Nokia plans to sell its AI-driven RAN platform, developed with Nvidia, to mobile operators by 2027, aiming for a 100% i...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Nokia plans to sell its AI-driven RAN platform, developed with Nvidia, to mobile operators by 2027, aiming for a 100% increase in spectrum efficiency by 2028 (Paula Doenecke/Bloomberg)",
+        "href": "https://www.techmeme.com/260715/p13",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ifgl1T.nMrH8/v1/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meta-is-sued-by-26-current-and-former-employees-d4aa1274-jul16",
+        "category": "Product Updates",
+        "title": "Meta is sued by 26 current and former employees, who allege its use of AI in May layoffs unfairly targeted workers with...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Meta is sued by 26 current and former employees, who allege its use of AI in May layoffs unfairly targeted workers with disabilities or on protected leave (Wall Street Journal)",
+        "href": "https://www.techmeme.com/260714/p57",
+        "imageUrl": "https://images.wsj.net/im-27985154/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "hyundai-s-south-korea-auto-workers-have-gone-on-da0117de-jul16",
+        "category": "Product Updates",
+        "title": "Hyundai's South Korea auto workers have gone on a partial strike over wages, AI, and the prospect of the company deploy...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Hyundai's South Korea auto workers have gone on a partial strike over wages, AI, and the prospect of the company deploying its new humanoid robot in factories (Jiyoung Sohn/Wall Street Journal)",
+        "href": "https://www.techmeme.com/260715/p34",
+        "imageUrl": "https://images.wsj.net/im-32638797/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "health-care-workers-furious-as-nyc-replaces-nurs-c476f173-jul16",
+        "category": "Product Updates",
+        "title": "Health Care Workers Furious as NYC Replaces Nurses With AI",
+        "source": "Futurism AI",
+        "summary": "\"We are outraged about these layoffs because these dedicated nurses are being replaced by AI.\" The post Health Care Workers Furious as NYC Replaces Nurses With AI appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/nyc-replaces-nurses-with-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/nyc-replaces-nurses-with-ai.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "dave-brown-aws-svp-of-compute-ai-and-platform-is-fb52e519-jul16",
+        "category": "Product Updates",
+        "title": "Dave Brown, AWS SVP of Compute, AI, and Platform, is leaving the company after 19 years for a new job; he is a member o...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Dave Brown, AWS SVP of Compute, AI, and Platform, is leaving the company after 19 years for a new job; he is a member of the S-team that advises CEO Andy Jassy (Greg Bensinger/Reuters)",
+        "href": "https://www.techmeme.com/260715/p43",
+        "imageUrl": "https://www.reuters.com/resizer/v2/WM3RK2WVD5IKZCBJVAVA6WE5GM.jpg?auth=8181316a1fb60e5e933b1916abc6c3cb6b262a5e6217af543d91b2724a7300c0&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "american-growth-insurance-which-aims-to-acquire-39ffe092-jul16",
+        "category": "Product Updates",
+        "title": "American Growth Insurance, which aims to acquire struggling independent insurance firms and transform them using AI, ra...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: American Growth Insurance, which aims to acquire struggling independent insurance firms and transform them using AI, raised almost $70M (Mike Wheatley/SiliconANGLE)",
+        "href": "https://www.techmeme.com/260715/p24",
+        "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/07/Screenshot-from-2026-07-15-09-39-17.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-may-be-the-toughest-challenge-anthony-albanes-0c7c8834-jul16",
+        "category": "Product Updates",
+        "title": "AI may be the toughest challenge Anthony Albanese faces this term. Guardrails are urgently needed | Peter Lewis",
+        "source": "The Guardian AI",
+        "summary": "Coherent decision-making and internal accountability are critical to meeting this manic moment Anthony Albanese promises fast-track approvals for datacentres to shore up AI investment The University of Sydney was the natural setting for Anthony Albanese to la...",
+        "href": "https://www.theguardian.com/commentisfree/2026/jul/15/australia-ai-challenge-anthony-albanese",
+        "imageUrl": "https://i.guim.co.uk/img/media/74fa48e223da96ba2814bf20afa6091c78cd669e/374_128_2868_2295/master/2868.jpg?width=140&quality=85&auto=format&fit=max&s=2db3f642f0c50bc78156c146640d142b",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "rime-which-helps-companies-field-calls-using-ai-d3877c42-jul16",
+        "category": "Model Releases",
+        "title": "Rime, which helps companies field calls using AI voice models trained on conversational data it records in a studio, ra...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Rime, which helps companies field calls using AI voice models trained on conversational data it records in a studio, raised a $24M Series A led by M13 (Ivan Mehta/TechCrunch)",
+        "href": "https://www.techmeme.com/260715/p27",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/rime-ai-logo.jpg?w=1080",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-is-reportedly-training-salespeople-to-cce1dcce-jul16",
+        "category": "Model Releases",
+        "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+        "source": "TechCrunch AI",
+        "summary": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models. Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models. Latest AI Amazon Apps...",
+        "href": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/05/boxing_gloves_suit-e1650068012177.jpg?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "israel-based-hemispheric-whose-ai-model-can-anal-260d84d7-jul16",
+        "category": "Model Releases",
+        "title": "Israel-based Hemispheric, whose AI model can analyze brain activity measured non-invasively and turn it into quantitati...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Israel-based Hemispheric, whose AI model can analyze brain activity measured non-invasively and turn it into quantitative metrics for diagnoses, raised $52M (Meytal Vaizberg/Globes)",
+        "href": "https://www.techmeme.com/260715/p30",
+        "imageUrl": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1784117180/Hemispheric_-_Co-founders_-_photo_1_-_2048p_buyzvy.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-blackstone-and-hellman-friedman-s-1-5b-286a453b-jul16",
+        "category": "Model Releases",
+        "title": "Anthropic, Blackstone, and Hellman & Friedman's $1.5B AI implementation company, announced in May, launches with the na...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Anthropic, Blackstone, and Hellman & Friedman's $1.5B AI implementation company, announced in May, launches with the name Ode with Anthropic and 100 engineers (Rebecca Bellan/TechCrunch)",
+        "href": "https://www.techmeme.com/260715/p40",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/05/GettyImages-564946817.jpg?resize=1200,675",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "presentation-postgres-for-production-agents-your-48abe144-jul16",
+        "category": "Agents",
+        "title": "Presentation: Postgres for Production Agents: Your Relational Foundation for Enterprise AI",
+        "source": "InfoQ AI",
+        "summary": "Gwen Shapira shares how teams are scaling AI features using PostgreSQL for mission-critical apps. She explains how to leverage Postgres's multi-modal capabilities - including JSONB parsing and high-recall HNSW vector indexing - to deliver deterministic and se...",
+        "href": "https://www.infoq.com/presentations/postgres-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/presentations/postgres-ai-agents/en/mediumimage/gwen-shapira-medium-1783500671134.jpeg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "instalily-which-develops-ai-agents-to-automate-s-b5297fd8-jul16",
+        "category": "Agents",
+        "title": "InstaLILY, which develops AI agents to automate sales, operations, and service workflows, raised a $60M Series B led by...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: InstaLILY, which develops AI agents to automate sales, operations, and service workflows, raised a $60M Series B led by Energize Capital (Mike Wheatley/SiliconANGLE)",
+        "href": "https://www.techmeme.com/260714/p54",
+        "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/07/Screenshot-from-2026-07-15-06-42-17.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-manage-ai-investments-in-the-agentic-era-92ab1f77-jul16",
+        "category": "Agents",
+        "title": "How to manage AI investments in the agentic era",
+        "source": "OpenAI Blog",
+        "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+        "href": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+        "imageUrl": "assets/news/bright-product-updates.svg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "7-python-frameworks-for-orchestrating-local-ai-a-3cbb7c67-jul16",
+        "category": "Agents",
+        "title": "7 Python Frameworks for Orchestrating Local AI Agents",
+        "source": "KDnuggets",
+        "summary": "This article contains seven Python tools that engineers are actually using in 2026 to build, coordinate, and run agents on local infrastructure.",
+        "href": "https://www.kdnuggets.com/7-python-frameworks-for-orchestrating-local-ai-agents",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-7-Python-Frameworks-for-Orchestrating-Local-AI-Agents-scaled.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "thinking-machines-lab-drops-its-first-model-52c65682-jul16",
+        "category": "Developer Tools",
+        "title": "Thinking Machines Lab Drops Its First Model",
+        "source": "WIRED AI",
+        "summary": "Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.",
+        "href": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+        "imageUrl": "https://media.wired.com/photos/6a57d5395bdb9adeb6a7d1c2/master/pass/Thinking-Labs-Releasing-Its-First-Open-Weight-Model-Business-2279106900.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-s-first-hardware-product-is-a-screenless-f7339f7b-jul16",
+        "category": "Developer Tools",
+        "title": "OpenAI's first hardware product is a screenless AI speaker designed to feel alive",
+        "source": "The Decoder",
+        "summary": "OpenAI plans to enter hardware with a portable, screenless smart speaker. Equipped with a camera, sensors, and moving mechanical parts, the device is designed as an AI companion that feels \"alive.\" But Apple's trade secrets lawsuit involving OpenAI hardware c...",
+        "href": "https://the-decoder.com/openais-first-hardware-product-is-a-screenless-ai-speaker-designed-to-feel-alive/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/openai_hardware_mockup.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-is-now-using-ai-to-attack-its-own-ai-and-49408fdf-jul16",
+        "category": "Developer Tools",
+        "title": "OpenAI is now using AI to attack its own AI, and it's working better than humans ever did",
+        "source": "The Decoder",
+        "summary": "OpenAI's internal GPT-Red model finds successful attacks in 84 percent of test scenarios through self-play training. Human red teamers manage just 13 percent. The results feed directly into hardening models like GPT-5.6 Sol. The article OpenAI is now using AI...",
+        "href": "https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/openai_red_Logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-details-gpt-red-an-internal-automated-red-5d0f052c-jul16",
+        "category": "Developer Tools",
+        "title": "OpenAI details GPT-Red, an internal automated red-teaming model that helps it find and fix prompt injection vulnerabili...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: OpenAI details GPT-Red, an internal automated red-teaming model that helps it find and fix prompt injection vulnerabilities at scale before wider deployment (OpenAI)",
+        "href": "https://www.techmeme.com/260715/p45",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3ACfFRKDhuNzU4isOGxHRv/26f7f9bded23de64ea183a9ec19904c5/SEO_Card.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "israel-based-oak-which-is-building-an-ai-native-11dd3e0f-jul16",
+        "category": "Developer Tools",
+        "title": "Israel-based Oak, which is building an AI-native identity access management system, comes out of stealth with a $60M se...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Israel-based Oak, which is building an AI-native identity access management system, comes out of stealth with a $60M seed (Anna Heim/TechCrunch)",
+        "href": "https://www.techmeme.com/260715/p20",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/Oak-cofounders-Tal-Marom-left-and-Shai-Morag.jpg?resize=1200,800",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "indian-ai-coding-startup-emergent-raised-a-130m-0ad81f48-jul16",
+        "category": "Developer Tools",
+        "title": "Indian AI coding startup Emergent raised a $130M Series C at a $1.5B post-money valuation, up from $300M in January, br...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Indian AI coding startup Emergent raised a $130M Series C at a $1.5B post-money valuation, up from $300M in January, bringing its total funding raised to $230M (Jagmeet Singh/TechCrunch)",
+        "href": "https://www.techmeme.com/260715/p22",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/emergent-co-founders-madhav-jha-mukund-jha.jpg?resize=1200,800",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gpt-5-6-sol-reportedly-disproves-a-30-year-old-s-0e12ef72-jul16",
+        "category": "Developer Tools",
+        "title": "GPT-5.6 Sol reportedly disproves a 30-year-old statistics conjecture in 90 minutes after humans couldn't crack it",
+        "source": "The Decoder",
+        "summary": "A University of Pennsylvania statistics professor used OpenAI's GPT-5.6 Sol Pro to disprove a central open conjecture about the Benjamini-Hochberg method in roughly 90 minutes. The predecessor model, GPT-5.5, couldn't find a solution even after 20 hours. The...",
+        "href": "https://the-decoder.com/gpt-5-6-sol-reportedly-disproves-a-30-year-old-statistics-conjecture-in-90-minutes-after-humans-couldnt-crack-it/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/neural_network_math-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cadence-unveils-aurastack-ai-super-agent-an-ai-p-081096c3-jul16",
+        "category": "Developer Tools",
+        "title": "Cadence unveils AuraStack AI Super Agent, an AI platform for PCB and advanced chip packaging design, with Nvidia, TSMC,...",
+        "source": "Techmeme",
+        "summary": "Title: Cadence unveils AuraStack AI Super Agent, an AI platform for PCB and advanced chip packaging design, with Nvidia, TSMC, and Schneider Electric among early users [![Image 11](https://www.techmeme.com/img/x_icon.png)](https://twitter.com/Techmeme \"Follow...",
+        "href": "https://www.techmeme.com/260715/p51",
+        "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/6a58050de9d141a7b89a0c1d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-schools-are-multiplying-but-the-promise-of-ai-f2eb291d-jul16",
+        "category": "Developer Tools",
+        "title": "AI schools are multiplying, but the promise of AI tutoring is complicated",
+        "source": "Fast Company AI",
+        "summary": "There is no clear evidence that AI or other kinds of computer-based tutors are superior to human tutors.",
+        "href": "https://www.fastcompany.com/91572643/ai-schools-tutoring-students-promise-complicated?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=07162026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91572643-despite-the-growth-of-some-ai-schools-like-alpha-research-doesnt-show-that-ai-tutors-are-better-than-human-teachers.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "3-questions-neural-transparency-and-the-future-o-55349da0-jul16",
+        "category": "Developer Tools",
+        "title": "3 Questions: Neural transparency and the future of AI design",
+        "source": "MIT News AI",
+        "summary": "Assistant Professor Pat Pataranutaporn describes a new interface that lets everyday users glimpse inside an AI's neural network before their chatbot ever says a word.",
+        "href": "https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-medialab-pataranutaporn.jpg?itok=i96QeKNW",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-microsoft-security-chief-hayete-gallot-w-d5616dc8-jul16",
+        "category": "Policy",
+        "title": "Sources: Microsoft security chief Hayete Gallot, who took over in February, has prioritized AI tools, cut several hundr...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: Microsoft security chief Hayete Gallot, who took over in February, has prioritized AI tools, cut several hundred roles, replaced senior execs, and more (The Information)",
+        "href": "https://www.techmeme.com/260715/p50",
+        "imageUrl": "https://tii.imgix.net/production/articles/17464/943bdc7c-fdb4-4de7-b914-e8e35ae7dcb3.png?fm=jpeg&auto=compress&w=610",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-anthropic-is-pursuing-a-state-by-state-push-12b8e23d-jul16",
+        "category": "Policy",
+        "title": "How Anthropic is pursuing a state-by-state push for ever-tougher AI safety laws, in contrast with OpenAI's \"reverse fed...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: How Anthropic is pursuing a state-by-state push for ever-tougher AI safety laws, in contrast with OpenAI's \"reverse federalism\" strategy for common state rules (Politico)",
+        "href": "https://www.techmeme.com/260715/p26",
+        "imageUrl": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2Fd3%2Fc3%2F51a02a9b418b981b759729d7de66%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2249797203",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spectro-cloud-an-ai-infrastucture-company-helpin-47bf82f5-jul16",
+        "category": "Funding",
+        "title": "Spectro Cloud, an AI infrastucture company helping manage token costs, raised a $100M Series D from AMD, LG, others at...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Spectro Cloud, an AI infrastucture company helping manage token costs, raised a $100M Series D from AMD, LG, others at a $1B+ valuation, up from $750M in 2024 (Lucinda Shen/Axios)",
+        "href": "https://www.techmeme.com/260715/p32",
+        "imageUrl": "https://images.axios.com/P_plKSGCO8WpJVW_BWYh9Z8r_VQ=/1366x768/smart/2023/10/29/174436-1698601476270.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "daniel-ek-s-neko-health-which-offers-ai-based-fu-4885068a-jul16",
+        "category": "Funding",
+        "title": "Daniel Ek's Neko Health, which offers AI-based full-body scans, raised $700M co-led by Lightspeed and O.G. Venture Part...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Daniel Ek's Neko Health, which offers AI-based full-body scans, raised $700M co-led by Lightspeed and O.G. Venture Partners, sources say at a ~$7B valuation (Bernhard Warner/New York Times)",
+        "href": "https://www.techmeme.com/260715/p2",
+        "imageUrl": "https://static01.nyt.com/images/2026/07/15/multimedia/15db-neko-founders-zhlc/15db-neko-founders-zhlc-facebookJumbo.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-07-15",
     "label": "July 15, 2026",
     "items": [
