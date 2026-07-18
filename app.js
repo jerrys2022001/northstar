@@ -385,14 +385,24 @@
         "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
       },
       {
-        "id": "why-teens-deserve-access-to-safe-ai-8fe39edf-jul18",
+        "id": "create-edit-and-star-in-videos-with-two-google-v-0199c958-jul18",
+        "category": "Developer Tools",
+        "title": "Create, edit and star in videos with two Google Vids updates",
+        "source": "Google AI Blog",
+        "summary": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
+        "href": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "llms-like-chatgpt-often-prioritize-western-moral-acd6c122-jul18",
         "category": "Model Releases",
-        "title": "Why teens deserve access to safe AI",
-        "source": "OpenAI Blog",
-        "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-        "href": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4NGTbmWC5Q6asKYmOTchmz/8fde35f181e02c0dcf3b7334db08d394/why-teens-seo.jpg?w=1600&h=900&fit=fill",
-        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+        "title": "LLMs like ChatGPT often prioritize Western moral values, research shows",
+        "source": "Fast Company AI",
+        "summary": "There is a real risk of cultural bias if AI assumes the whole world ought to pursue the same values as the West.",
+        "href": "https://www.fastcompany.com/91573572/llms-chatgpt-bias-western-moral-values-research?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=9&partner=newsletter&campaign_date=07182026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91573572-large-language-models-often-prioritize-western-moral-values-overlooking-other-cultures.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
       },
       {
         "id": "openai-wants-developers-to-stop-typing-commands-ec323e1a-jul18",
@@ -425,24 +435,24 @@
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
-        "id": "during-an-internal-meeting-satya-nadella-critici-0d619c1e-jul18",
+        "id": "unabyss-for-claude-2a4050a5-jul18",
         "category": "Product Updates",
-        "title": "During an internal meeting, Satya Nadella criticized Claude Fable 5 for being \"editorially controlled\", saying its refu...",
-        "source": "Techmeme",
-        "summary": "Techmeme reported: During an internal meeting, Satya Nadella criticized Claude Fable 5 for being \"editorially controlled\", saying its refusal to do \"random things\" makes no sense (Jordan Novet/CNBC)",
-        "href": "https://www.techmeme.com/260717/p2",
-        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108336282-1784236796440-gettyimages-2262969470-20090101260225-99-646957.jpeg?v=1784237080&w=1920&h=1080",
-        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+        "title": "Unabyss for Claude",
+        "source": "producthunt",
+        "summary": "producthunt reported: Unabyss for Claude",
+        "href": "https://www.producthunt.com/products/unabyss",
+        "imageUrl": "https://ph-files.imgix.net/fd1493ae-aeef-440f-8346-1a286c1b2718.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
       },
       {
-        "id": "anthropic-s-claude-corps-will-pay-85-000-to-1-00-9e07a454-jul18",
-        "category": "Product Updates",
-        "title": "Anthropic's Claude Corps will pay $85,000 to 1,000 early-career professionals - apply now",
-        "source": "ZDNet AI",
-        "summary": "The Claude Corps fellowship matches professionals with partner nonprofits and pays them with benefits. But the deadline ends soon.",
-        "href": "https://www.zdnet.com/article/anthropic-claude-corps-pays-early-career-professionals-apply-now/",
-        "imageUrl": "https://www.zdnet.com/a/img/resize/58a6b54a47aa62bf9cb5fea3ed5af7489f50b6d3/2026/07/16/2d5884f2-0f99-4b76-b678-53880aceacc5/claude-corps-final.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+        "id": "claude-fable-5-vs-kimi-k3-vs-gpt-5-6-sol-video-eb128b25-jul18",
+        "category": "Developer Tools",
+        "title": "Claude Fable 5 vs. Kimi K3 vs. GPT 5.6 Sol [video]",
+        "source": "HN Algolia · AI 24h",
+        "summary": "Title: Kimi K3 competes with Fable 5 and Sol 5.6 to make the Odyssey! Warning: Target URL returned error 403: Forbidden Back [![Image 4: Meet the amusement park community](https://www.gstatic.com/youtube/img/promos/3dd439f2594099af5cc7d2ff0a92068b8fd88543130f...",
+        "href": "https://www.youtube.com/watch?v=iGNNgzUumoY",
+        "imageUrl": "https://i.ytimg.com/vi/iGNNgzUumoY/maxresdefault.jpg",
+        "excerpt": "Radar signal: HN Algolia · AI 24h surfaced this item in the latest AI news window."
       },
       {
         "id": "perplexity-launches-secure-sandbox-to-make-its-a-c29c6322-jul18",
@@ -473,6 +483,26 @@
         "href": "https://futurism.com/artificial-intelligence/hacker-ai-music-suno-copyright",
         "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/hacker-ai-music-suno-copyright.jpg?quality=85",
         "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "newer-models-same-advantage-4babaf3e-jul18",
+        "category": "Model Releases",
+        "title": "Newer Models, Same Advantage",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Newer Models, Same Advantage",
+        "href": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/69d815b52c6db28cfdfdd422/3HJgWuzAFymnAq6TqEdL7.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-building-shippy-taught-us-about-building-ag-53e3149d-jul18",
+        "category": "Agents",
+        "title": "What building Shippy taught us about building agents",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: What building Shippy taught us about building agents",
+        "href": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/2Ncq9fY3Po30QjlACoYTY.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
       },
       {
         "id": "every-modality-through-one-api-d8f0329e-jul18",
@@ -543,6 +573,16 @@
         "href": "https://www.techradar.com/pro/more-and-more-us-employees-back-forcing-ai-companies-to-transfer-half-of-their-stock-into-a-public-wealth-fund",
         "imageUrl": "https://cdn.mos.cms.futurecdn.net/N6EmHQVVkmEHHmq7P3oCec-2560-80.jpg",
         "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "isvisible-ai-cbf635a8-jul18",
+        "category": "Product Updates",
+        "title": "isvisible.ai?",
+        "source": "producthunt",
+        "summary": "producthunt reported: isvisible.ai?",
+        "href": "https://www.producthunt.com/products/isvisible-ai",
+        "imageUrl": "https://ph-files.imgix.net/a79549fa-0889-4d6e-a654-10884c939b10.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
       },
       {
         "id": "git-worktrees-for-ai-development-c35f124c-jul18",
@@ -839,16 +879,6 @@
         "href": "https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/",
         "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/30/21284.png",
         "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "1password-for-claude-give-claude-access-without-6b2bdf68-jul17",
-        "category": "Agents",
-        "title": "1Password for Claude: Give Claude access without giving up your credentials",
-        "source": "Hacker News · 24h最热",
-        "summary": "Give Claude access, without giving up control of your secrets. 1Password now enables AI agents to complete tasks requiring credentialed access, while keeping your credentials encrypted, secure, and inaccessible to AI agents. Give Claude access, without giving...",
-        "href": "https://1password.com/blog/1password-for-claude",
-        "imageUrl": "https://images.ctfassets.net/3091ajzcmzlr/3geCulwZymkXGQ8sfXLZGa/caeae03444f29af5e6bb04c76f9461b3/Blog-Header_Anthropic_1920x1080.webp",
-        "excerpt": "Radar signal: Hacker News · 24h最热 surfaced this item in the latest AI news window."
       },
       {
         "id": "kimi-s-open-model-k3-nears-gpt-5-6-sol-and-fable-d4757e45-jul17",
@@ -16331,16 +16361,6 @@
         "href": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/",
         "imageUrl": "assets/news/home-briefing/2026-04-16/industry-adobe-workflows.webp",
         "excerpt": "Why it matters: creative AI is shifting from single-output generation toward assistants that can operate across full production workflows."
-      },
-      {
-        "id": "claude-service-outage-claude-code-apr16",
-        "category": "AI Reliability",
-        "title": "Claude outage hits Claude.ai, API, and Claude Code users",
-        "source": "TechRadar",
-        "summary": "Anthropic confirmed elevated errors affecting Claude.ai, the API, and Claude Code, with users reporting login failures and interrupted prompt handling during the April 15 incident.",
-        "href": "https://www.techradar.com/news/live/claude-anthropic-down-outage-april-15-2026",
-        "imageUrl": "assets/news/home-briefing/2026-04-16/apple-9435e4a8937eb558.webp",
-        "excerpt": "Why it matters: recurring downtime is now a product signal for AI tools that users rely on for daily coding and operational workflows."
       },
       {
         "id": "openai-agents-sdk-enterprise-sandbox-apr16",
