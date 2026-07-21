@@ -371,6 +371,292 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-07-21",
+    "label": "July 21, 2026",
+    "items": [
+      {
+        "id": "google-is-working-on-a-new-ai-chip-designed-to-m-a76ea83e-jul21",
+        "category": "Model Releases",
+        "title": "Google is working on a new AI chip designed to make Gemini more efficient",
+        "source": "TechCrunch",
+        "summary": "Alphabet, Google's parent company, is reportedly working on a new chip designed to make its Gemini models run much more efficiently.",
+        "href": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/Screenshot-2026-07-01-at-10.00.27-AM.jpg?resize=1200,611",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-s-frozen-v2-chip-reportedly-bakes-gemini-c481ec8f-jul21",
+        "category": "Developer Tools",
+        "title": "Google's \"Frozen v2\" chip reportedly bakes Gemini's architecture directly into silicon for efficiency gains",
+        "source": "The Decoder",
+        "summary": "Google is developing \"Frozen v2,\" a server chip that bakes the Gemini architecture directly into hardware. According to internal sources, it could be 6 to 10 times more efficient than current TPUs. Scheduled for 2028, the chip would drastically cut Google's A...",
+        "href": "https://the-decoder.com/googles-frozen-v2-chip-reportedly-bakes-geminis-architecture-directly-into-silicon-for-efficiency-gains/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/google_gemini-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-check-if-chatgpt-and-other-ai-tools-cite-2a80a3eb-jul21",
+        "category": "Model Releases",
+        "title": "How to check if ChatGPT and other AI tools cite your website - and improve your chances in 2026",
+        "source": "ZDNet AI",
+        "summary": "SEO is not dead. Here's how to get cited more often and boost search visibility in AI tools today.",
+        "href": "https://www.zdnet.com/article/how-to-check-if-chatgpt-ai-tools-cite-website-improve-chances/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/187cc6fe58b7d92af92839172d7032b41e2a0bf2/2026/07/20/eeddb286-ecad-492d-ad50-3bf9c1948284/gettyimages-2285567119.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "lawsuit-alleges-that-chatgpt-encouraged-suicide-671b9a7b-jul21",
+        "category": "Developer Tools",
+        "title": "Lawsuit Alleges That ChatGPT Encouraged Suicide of Woman Who Walked Into Traffic",
+        "source": "Futurism AI",
+        "summary": "\"This is not suicide. This is surrender.\" The post Lawsuit Alleges That ChatGPT Encouraged Suicide of Woman Who Walked Into Traffic appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/lawsuit-chatgpt-encouraged-suicide-woman-traffic",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/lawsuit-chatgpt-encouraged-suicide-woman-traffic.jpg?quality=85",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-216-148899bb-jul21",
+        "category": "Developer Tools",
+        "title": "v2.1.216",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.216",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
+        "imageUrl": "https://opengraph.githubassets.com/593f159cf1d25f46b9d963cba1368af5d3d4869030a87734e41a94487827cdb2/anthropics/claude-code/releases/tag/v2.1.216",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "moonshot-s-kimi-k3-outperforms-fable-5-in-fronte-3cfdfcdc-jul21",
+        "category": "Developer Tools",
+        "title": "Moonshot's Kimi K3 outperforms Fable 5 in frontend code but lags far behind in complex math",
+        "source": "The Decoder",
+        "summary": "Moonshot's Kimi K3 is the first Chinese model to top the Code Arena: Frontend rankings, beating Claude Fable 5 and GPT-5.6 Sol by a wide margin. But on advanced math, the gap is stark: Kimi K3 scores only about 39 percent on FrontierMath Tier 4, while models...",
+        "href": "https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/kimi_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "an-ai-agent-breached-hugging-face-before-an-ai-d-4f87b9ca-jul21",
+        "category": "Agents",
+        "title": "An AI agent breached Hugging Face before an AI defender caught it: What users should do next",
+        "source": "ZDNet AI",
+        "summary": "An agentic AI infiltrated the production infrastructure of an AI project. Then an AI detected it. Is this the future of cyberattacks, and how will they be defended against?",
+        "href": "https://www.zdnet.com/article/hugging-face-breach-blamed-on-ai-agent/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/6a72c131c40a0a1373f768eca4241bd71cdf539b/2026/07/20/e64ab85b-5a44-4945-8896-a13bac148e10/colorcyber.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "hugging-face-says-an-ai-agent-hacked-its-infrast-843c5ae3-jul21",
+        "category": "Developer Tools",
+        "title": "Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back",
+        "source": "The Decoder",
+        "summary": "Hugging Face reports an attack on parts of its production infrastructure that was allegedly carried out entirely by an autonomous AI agent system. The attack spanned thousands of actions controlled by an agent framework. During forensic analysis, commercial A...",
+        "href": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/hugging_face_security.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "relay-app-is-shutting-down-how-to-export-your-wo-6a0679d7-jul21",
+        "category": "Agents",
+        "title": "Relay.app is shutting down: How to export your workflows and move to Zapier",
+        "source": "Zapier Blog",
+        "summary": "Relay is shutting down on August 15, 2026, for free users, and on September 14 for paid plans. Either way, if you built workflows, agents, or tables in Relay, the end is near. The good news is that Relay has made it as easy as possible to transition your work...",
+        "href": "https://zapier.com/blog/relay-alternatives",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/26oJbYh6GHaIV2ekfwprL4/ebbff450e1916f025e78d91244edf089/relay-alternative-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "kapwing-ai-video-editor-review-ddf61225-jul21",
+        "category": "Developer Tools",
+        "title": "Kapwing AI video editor review",
+        "source": "TechRadar Software",
+        "summary": "In our Kapwing review, we thoroughly examine the pros and cons of the platform relative to other top AI video editing solutions.",
+        "href": "https://www.techradar.com/computing/creative-software/kapwing-ai-video-editor-review",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/xgNzBGfy7mfB2Ay3wQe69B-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "skippr-ai-844d8dfd-jul21",
+        "category": "Product Updates",
+        "title": "Skippr AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: Skippr AI",
+        "href": "https://www.producthunt.com/products/skippr-3",
+        "imageUrl": "https://ph-files.imgix.net/e4c8f0e5-c39c-4226-85df-7d24ede05b0e.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "retail-traders-are-shifting-from-big-tech-to-sto-719b189e-jul21",
+        "category": "Product Updates",
+        "title": "Retail traders are shifting from Big Tech to stocks boosted by AI like SK Hynix and Marvell; five of the Magnificent Se...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Retail traders are shifting from Big Tech to stocks boosted by AI like SK Hynix and Marvell; five of the Magnificent Seven stocks trail the market this year (Hannah Erin Lang/Wall Street Journal)",
+        "href": "https://www.techmeme.com/260720/p7",
+        "imageUrl": "https://images.wsj.net/im-40663742/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "lunen-ai-b1eb201d-jul21",
+        "category": "Product Updates",
+        "title": "Lunen.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: Lunen.ai",
+        "href": "https://www.producthunt.com/products/lunen-ai",
+        "imageUrl": "https://ph-files.imgix.net/4c5e00b6-5de4-4574-98de-c6c5290bd226.jpeg?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "lseg-morgan-stanley-collected-2-3b-in-debt-and-e-2f023b95-jul21",
+        "category": "Product Updates",
+        "title": "LSEG: Morgan Stanley collected $2.3B in debt and equity capital market fees in H1 2026, up from $1.4B in H1 2025, drive...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: LSEG: Morgan Stanley collected $2.3B in debt and equity capital market fees in H1 2026, up from $1.4B in H1 2025, driven by AI infrastructure financing deals (Financial Times)",
+        "href": "https://www.techmeme.com/260720/p6",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F81f64f29-ba4d-4fa9-a949-dda2c6d8109d.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "googles-ai-search-is-a-minefield-for-schools-f5bfb1a8-jul21",
+        "category": "Product Updates",
+        "title": "Googles AI Search is a minefield for schools",
+        "source": "Mashable",
+        "summary": "A recent report claiming Google AI-powered Search is unsafe for children has led advocates to question the EdTech giant's place in schools.",
+        "href": "https://mashable.com/tech/is-google-search-ai-mode-safe-for-students",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/051q1Nkl99Vt1im5C2xn6J7/hero-image.fill.size_1200x675.v1784225228.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "fuzzy-ai-5a819d60-jul21",
+        "category": "Product Updates",
+        "title": "Fuzzy AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: Fuzzy AI",
+        "href": "https://www.producthunt.com/products/fuzzy-ai-2",
+        "imageUrl": "https://ph-files.imgix.net/2b7e45e0-5e5b-43f0-945b-b914185cc3fa.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cambridge-based-cuspai-raised-a-450m-series-b-le-b13d2609-jul21",
+        "category": "Product Updates",
+        "title": "Cambridge-based CuspAI raised a $450M Series B led by Kleiner Perkins and NEA, and launched a coalition for AI material...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Cambridge-based CuspAI raised a $450M Series B led by Kleiner Perkins and NEA, and launched a coalition for AI materials discovery for chip and other industries (Bloomberg)",
+        "href": "https://www.techmeme.com/260720/p8",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iQ5Ml7eRLhY4/v0/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "as-memory-shares-fall-investors-worry-capacity-e-bad49bb8-jul21",
+        "category": "Product Updates",
+        "title": "As memory shares fall, investors worry capacity expansion could lead to oversupply, while others believe AI demand will...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: As memory shares fall, investors worry capacity expansion could lead to oversupply, while others believe AI demand will break the industry's boom-and-bust cycle (Financial Times)",
+        "href": "https://www.techmeme.com/260720/p1",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fcd20dccb-e158-4f38-8bfd-0363615504c3.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-just-disproved-a-major-math-problem-a-mathema-addc1292-jul21",
+        "category": "Product Updates",
+        "title": "AI just disproved a major math problem. A mathematician explains.",
+        "source": "Mashable",
+        "summary": "A Harvard mathematician says he used Anthropic's Fable 5 to disprove a major open math problem. How impressed should we be?",
+        "href": "https://mashable.com/tech/anthropic-fable-5-disproves-jacobian-conjecture",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/03fmtdvgutj3GhXpvpqURIM/hero-image.fill.size_1200x675.v1784582893.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-look-at-israel-s-influence-campaign-in-the-us-f155d60f-jul21",
+        "category": "Product Updates",
+        "title": "A look at Israel's influence campaign in the US that's included millions of AI-driven texts and a $45M+ contract with e...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: A look at Israel's influence campaign in the US that's included millions of AI-driven texts and a $45M+ contract with ex-Trump campaign strategist Brad Parscale (Wall Street Journal)",
+        "href": "https://www.techmeme.com/260720/p11",
+        "imageUrl": "https://images.wsj.net/im-07404838/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "this-new-beijing-based-ai-model-is-causing-such-c5a9ada4-jul21",
+        "category": "Model Releases",
+        "title": "This new, Beijing-based AI model is causing such a stir that subscriptions are now on hold",
+        "source": "Fast Company AI",
+        "summary": "Chinese startup Moonshot AI says new subscriptions have been temporarily suspended due to overwhelming demand.",
+        "href": "https://www.fastcompany.com/91576459/this-new-beijing-based-ai-model-causing-such-stir-subscriptions-are-now-on-hold?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07212026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/AP26201321740916.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-the-eu-parliament-plans-to-roll-out-epge-7ead45e4-jul21",
+        "category": "Model Releases",
+        "title": "Sources: the EU Parliament plans to roll out EPGenAI Hub to MEPs and staff as early as Sept., letting them access Meta,...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: the EU Parliament plans to roll out EPGenAI Hub to MEPs and staff as early as Sept., letting them access Meta, OpenAI, Anthropic, and Mistral models (Max Griera/Politico)",
+        "href": "https://www.techmeme.com/260719/p18",
+        "imageUrl": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/07/19/IMG_3568-scaled.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-is-scared-of-open-weight-models-should-th-84b84aa1-jul21",
+        "category": "Model Releases",
+        "title": "OpenAI is scared of open-weight models. Should the US be?",
+        "source": "TechCrunch",
+        "summary": "Talk of banning Chinese-made open-weight LLMs reveals the challenge of turning AI into a business.",
+        "href": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2153474303-e.jpg?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "top-5-mcp-servers-for-high-performance-agentic-d-ba5b6754-jul21",
+        "category": "Agents",
+        "title": "Top 5 MCP Servers for High-Performance Agentic Development",
+        "source": "KDnuggets",
+        "summary": "Here are five that are genuinely worth wiring into a high-performance agent development setup, chosen for what they do to an agent's actual capability rather than their star count.",
+        "href": "https://www.kdnuggets.com/top-5-mcp-servers-for-high-performance-agentic-development",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-top-5-mcp-servers-for-high-performance-agentic-development.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-s-grip-on-ai-chips-weakens-as-microsoft-t-82855ebd-jul21",
+        "category": "Developer Tools",
+        "title": "Nvidia's grip on AI chips weakens as Microsoft turns to AMD and Anthropic may follow",
+        "source": "The Decoder",
+        "summary": "Microsoft is expanding Azure's AI infrastructure with AMD's new Helios platform, which is set to challenge Nvidia's GPU systems in the second half of 2026. A public GitHub profile suggests Anthropic is also testing AMD hardware, putting more pressure on Nvidi...",
+        "href": "https://the-decoder.com/nvidias-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-and-anthropic-may-follow/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/amd_logo_wall_blue.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "moonshine-ai-moonshine-346e5b02-jul21",
+        "category": "Developer Tools",
+        "title": "moonshine-ai / moonshine",
+        "source": "github",
+        "summary": "github reported: moonshine-ai / moonshine",
+        "href": "https://github.com/moonshine-ai/moonshine",
+        "imageUrl": "https://repository-images.githubusercontent.com/867866058/0fd49719-61f4-4a3d-bb6f-eda467526a0c",
+        "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-altered-images-on-birdwatching-forums-putting-12611e6a-jul21",
+        "category": "Developer Tools",
+        "title": "AI-altered images on birdwatching forums putting research at risk",
+        "source": "The Guardian AI",
+        "summary": "Experts warn increase in enhanced photos on birding platforms creating fake sightings, threatening credibility of tool used by scientists For many birdwatchers, recording a species outside its normal range is the holy grail. In the UK, the discoveries often m...",
+        "href": "https://www.theguardian.com/environment/2026/jul/20/ai-slop-manipulated-fake-images-birds-citizen-science-aoe",
+        "imageUrl": "https://i.guim.co.uk/img/media/2c6fb5539ce914deef1de8b4e9f9a3c6159194d2/256_0_1280_1024/master/1280.jpg?width=140&quality=85&auto=format&fit=max&s=f9bb2ec23d2baba4c999af1eb1c1f4ee",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "inference-startup-infinity-raises-15m-from-touri-dfa28995-jul21",
+        "category": "Research Workflows",
+        "title": "Inference startup Infinity raises $15M from Touring Capital, OpenAI and Anthropic researchers",
+        "source": "TechCrunch",
+        "summary": "AI infrastructure company Infinity announced Monday a $15 million raise at a $100 million valuation from investors including Touring Capital, Principal VC, and researchers from companies such as OpenAI and Anthropic.",
+        "href": "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/Jeremy-Nixon.jpg?resize=1200,900",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-07-20",
     "label": "July 20, 2026",
     "items": [
