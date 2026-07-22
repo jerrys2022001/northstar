@@ -1,6 +1,302 @@
 {
-  "updatedAt": "2026-07-21T08:49:15",
+  "updatedAt": "2026-07-22T09:05:47",
   "groups": [
+    {
+      "date": "2026-07-22",
+      "label": "July 22, 2026",
+      "items": [
+        {
+          "id": "google-announces-gemini-3-6-flash-and-cybersecur-d2db5703-jul22",
+          "category": "Model Releases",
+          "title": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
+          "source": "Ars Technica",
+          "summary": "There are new 3.6 and 3.5 models today, but Google is already training Gemini 4.",
+          "href": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-7-1152x648.jpg",
+          "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "google-ships-three-new-gemini-flash-models-but-i-aa035b0e-jul22",
+          "category": "Developer Tools",
+          "title": "Google ships three new Gemini Flash models but its frontier 3.5 Pro remains lost in training",
+          "source": "The Decoder",
+          "summary": "Google is shipping three new Flash models in the Gemini series, including the more efficient 3.6 Flash, which uses up to 65 percent fewer tokens, and a cybersecurity model available only to governments and select partners. But the anticipated flagship, Gemini...",
+          "href": "https://the-decoder.com/google-ships-three-new-gemini-flash-models-but-its-frontier-3-5-pro-remains-lost-in-training/",
+          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/google_gemini-1.png",
+          "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "v2-1-217-0f75bd72-jul22",
+          "category": "Developer Tools",
+          "title": "v2.1.217",
+          "source": "Claude Code Releases",
+          "summary": "Claude Code Releases reported: v2.1.217",
+          "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
+          "imageUrl": "https://opengraph.githubassets.com/69b7ce940d7f1adf9bb0cd7028f49657e2f2b4142fc61e49b3bef6264ff5491d/anthropics/claude-code/releases/tag/v2.1.217",
+          "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "claude-cowork-learns-new-skills-through-screen-r-feb96635-jul22",
+          "category": "Developer Tools",
+          "title": "Claude Cowork learns new skills through screen recordings and voice-over explanations",
+          "source": "The Decoder",
+          "summary": "Anthropic's Claude Cowork desktop app now lets users record their screen while completing a task, add voice commentary, and have Claude turn the whole thing into a reusable skill. The article Claude Cowork learns new skills through screen recordings and voice...",
+          "href": "https://the-decoder.com/claude-cowork-learns-new-skills-through-screen-recordings-and-voice-over-explanations/",
+          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/claude_medicine.png",
+          "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "ai-music-generator-suno-breach-affects-55m-users-176ab136-jul22",
+          "category": "Creative AI",
+          "title": "AI music generator Suno breach affects 55M users, per Have I Been Pwned",
+          "source": "TechCrunch",
+          "summary": "A hacker took names, phone numbers, and physical addresses of millions of customers who used AI music generator Suno.",
+          "href": "https://techcrunch.com/2026/07/21/ai-music-generator-suno-breach-affects-55m-users-per-have-i-been-pwned/",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/mikey-shulman-2159558534.jpg?resize=1200,942",
+          "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "openai-says-hugging-face-was-breached-by-its-pre-8eac5838-jul22",
+          "category": "Model Releases",
+          "title": "OpenAI says Hugging Face was breached by its pre-release models",
+          "source": "TechCrunch",
+          "summary": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
+          "href": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-1849294862.jpg?w=1024",
+          "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "openai-models-escaped-containment-and-hacked-hug-823d9bb3-jul22",
+          "category": "Model Releases",
+          "title": "OpenAI Models Escaped Containment and Hacked Hugging Face",
+          "source": "WIRED AI",
+          "summary": "The cybersecurity-focused models, including GPT-5.6 Sol, broke out of a testing sandbox, exploited a zero-day, and gained access to the open internet to pull off the attack.",
+          "href": "https://www.wired.com/story/openai-models-escaped-containment-and-hacked-huggingface/",
+          "imageUrl": "https://media.wired.com/photos/6a5ff5b0f95e7d91469f8f3d/master/pass/security_openai_hack_huggingface.jpg",
+          "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "the-cheapest-token-is-a-cached-one-prompt-cachin-97a708b4-jul22",
+          "category": "Developer Tools",
+          "title": "The Cheapest Token Is a Cached One: Prompt Caching + Sticky Routing",
+          "source": "OpenRouter Announcements",
+          "summary": "Your agent sends the same system prompt, tool definitions, and schemas on every turn. Cache reads cost 0.1x to 0.5x of fresh input, but only if the next request lands on the provider holding the warm cache. Here's how caching and sticky routing work together,...",
+          "href": "https://openrouter.ai/blog/tutorials/prompt-caching-sticky-routing/",
+          "imageUrl": "https://openrouter.ai/blog/images/prompt-caching-sticky-routing.png",
+          "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "fireflies-vs-zoom-ai-companion-now-zoom-workplac-e97cf111-jul22",
+          "category": "Product Updates",
+          "title": "Fireflies vs. Zoom AI Companion (Now Zoom Workplace AI) in 2026: Which Should You Choose?",
+          "source": "Fireflies Blog",
+          "summary": "Fireflies vs. Zoom AI Companion compared on features, languages, integrations, and use cases in 2026. See which fits your team and where each tool wins.",
+          "href": "https://fireflies.ai/blog/fireflies-vs-zoom-ai-companion/",
+          "imageUrl": "https://storage.ghost.io/c/18/b5/18b50ec6-aaa0-4f89-82bd-97facf43831a/content/images/2023/10/FF-v-Zoom.jpg",
+          "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "fireflies-ai-vs-gong-features-pricing-and-which-d5de4ae4-jul22",
+          "category": "Developer Tools",
+          "title": "Fireflies.ai vs Gong: Features, Pricing, and Which One Your Sales Team Needs",
+          "source": "Fireflies Blog",
+          "summary": "A guide to the Fireflies for Sales intelligence stack: what each AI skill produces, who it's for, and how it compares to Gong.",
+          "href": "https://fireflies.ai/blog/fireflies-vs-gong/",
+          "imageUrl": "assets/news/openai-databricks-agent-workflows.webp",
+          "excerpt": "Radar signal: Fireflies Blog surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "the-proliferation-of-deepfakes-is-profoundly-cha-ca1c4a71-jul22",
+          "category": "Product Updates",
+          "title": "The Proliferation of Deepfakes Is Profoundly Changing the Way Teenagers Use the Internet",
+          "source": "Futurism AI",
+          "summary": "\"We grew as AI grew. We grew up together. Adults don't have the same life experience that we do. They don't understand how advanced and how intense AI is.\" The post The Proliferation of Deepfakes Is Profoundly Changing the Way Teenagers Use the Internet appea...",
+          "href": "https://futurism.com/artificial-intelligence/deepfakes-teenagers-internet",
+          "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/deepfakes-teenagers-internet.jpg?quality=85",
+          "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "the-army-is-burning-through-its-ai-tokens-6f874977-jul22",
+          "category": "Product Updates",
+          "title": "The Army Is Burning Through Its AI Tokens",
+          "source": "WIRED AI",
+          "summary": "Members of the Army received an email informing them that they were rapidly depleting their AI tokens, and needed to limit use.",
+          "href": "https://www.wired.com/story/the-army-is-burning-through-its-ai-tokens/",
+          "imageUrl": "https://media.wired.com/photos/6a5a5366ad0fb31ed65fa3d3/master/pass/Politics_ArmyBurningThroughAITokens_v4.jpg",
+          "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "routine-ai-1d3f8f5c-jul22",
+          "category": "Product Updates",
+          "title": "Routine AI",
+          "source": "producthunt",
+          "summary": "producthunt reported: Routine AI",
+          "href": "https://www.producthunt.com/products/routine",
+          "imageUrl": "https://ph-files.imgix.net/3764b1b8-cfd3-4440-8d62-939e72d74303.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+          "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "mlb-bans-hitters-from-consulting-ai-chatbots-bef-cce5d6d0-jul22",
+          "category": "Product Updates",
+          "title": "MLB Bans Hitters From Consulting AI Chatbots Before Going Up to Bat",
+          "source": "Futurism AI",
+          "summary": "Teams were using AI to make \"in-game decisions traditionally made by players and coaches.\" The post MLB Bans Hitters From Consulting AI Chatbots Before Going Up to Bat appeared first on Futurism .",
+          "href": "https://futurism.com/artificial-intelligence/mlb-hitters-chatbots-pitch-calling-ipads-baseball",
+          "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/mlb-hitters-chatbots-pitch-calling-ipads-baseball.jpg?quality=85",
+          "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "meta-is-testing-an-ai-bedtime-story-app-for-peop-7d968fc2-jul22",
+          "category": "Product Updates",
+          "title": "Meta is testing an AI bedtime story app for people with no imagination",
+          "source": "TechCrunch AI",
+          "summary": "Meta's StoryKit app is only available in certain regions while the company tests how parents react to it. Meta's StoryKit app is only available in certain regions while the company tests how parents react to it. Latest AI Amazon Apps Biotech & Health Climate...",
+          "href": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2248543137.jpg?resize=1200,840",
+          "excerpt": "Radar signal: TechCrunch AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "meloty-ai-c2e3c4a1-jul22",
+          "category": "Product Updates",
+          "title": "Meloty AI",
+          "source": "producthunt",
+          "summary": "producthunt reported: Meloty AI",
+          "href": "https://www.producthunt.com/products/meloty-ai",
+          "imageUrl": "https://ph-files.imgix.net/9050dbe7-57d6-4657-aef2-7f8e8a20e666.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+          "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "man-of-his-word-pope-leo-speeches-declared-human-d2f2191a-jul22",
+          "category": "Product Updates",
+          "title": "Man of his word: Pope Leo speeches declared human-authored by Australian AI detection tool",
+          "source": "The Guardian AI",
+          "summary": "Maps of Hope has been certified by Proudly Human, a company led by former chief scientist, Dr Alan Finkel Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast A collection of speeches and writings...",
+          "href": "https://www.theguardian.com/world/2026/jul/21/pope-leo-speech-human-not-ai-artificial-intelligence",
+          "imageUrl": "https://i.guim.co.uk/img/media/abe612a87f4f60d3524484cff5f54fa295d348e3/446_0_4436_3551/master/4436.jpg?width=140&quality=85&auto=format&fit=max&s=e99cd27f3c61ae5ea86782b0a17f60c3",
+          "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "frontier-ai-is-faceplanting-at-real-world-workpl-0ebc97b6-jul22",
+          "category": "Product Updates",
+          "title": "Frontier AI Is Faceplanting at Real-World Workplace Tasks",
+          "source": "Futurism AI",
+          "summary": "\"They are still far from human-level performance.\" The post Frontier AI Is Faceplanting at Real-World Workplace Tasks appeared first on Futurism .",
+          "href": "https://futurism.com/artificial-intelligence/frontier-ai-faceplanting-real-world-tasks",
+          "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/frontier-ai-faceplanting-real-world-tasks.jpg?quality=85",
+          "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "author-invited-to-give-speech-at-openai-headquar-0bac1a93-jul22",
+          "category": "Product Updates",
+          "title": "Author Invited to Give Speech at OpenAI Headquarters, Uses Opportunity to Trash AI to Their Faces",
+          "source": "Futurism AI",
+          "summary": "\"I had a ball.\" The post Author Invited to Give Speech at OpenAI Headquarters, Uses Opportunity to Trash AI to Their Faces appeared first on Futurism .",
+          "href": "https://futurism.com/artificial-intelligence/author-speech-openai-employees-trash-ai",
+          "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/author-speech-openai-employees-trash-ai.jpg?quality=85",
+          "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "the-hidden-tax-on-your-ai-ambitions-9d5d7993-jul22",
+          "category": "Model Releases",
+          "title": "The hidden tax on your AI ambitions",
+          "source": "TechRadar Software",
+          "summary": "Enterprises are optimizing models while ignoring the real cost drivers.",
+          "href": "https://www.techradar.com/pro/the-hidden-tax-on-your-ai-ambitions",
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/9WT9t3hZhDVD84bF8rSypL-1280-80.jpg",
+          "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "safety-and-alignment-in-an-era-of-long-horizon-m-d4ff9ec8-jul22",
+          "category": "Model Releases",
+          "title": "Safety and alignment in an era of long-horizon models",
+          "source": "OpenAI Blog",
+          "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+          "href": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1Xa7VsDMfKDQaCRhafmq4r/58954b4318f57a81a96ad23470ed2497/SEO_image.png?w=1600&h=900&fit=fill",
+          "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "a-harvard-mathematician-and-an-ai-model-may-have-064dbcb3-jul22",
+          "category": "Model Releases",
+          "title": "A Harvard mathematician and an AI model may have cracked an 87-year-old math problem",
+          "source": "Fast Company AI",
+          "summary": "Artificial intelligence is increasingly being used as a collaborator in mathematical research rather than simply a computational tool.",
+          "href": "https://www.fastcompany.com/91577272/jacobin-conjecture-anthropic-ai-levent-alpoge?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07222026",
+          "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91577272-why-people-are-freaking-out-about-a-claim-that-an-ai-has-figured-out-one-of-the-hardest-open-math-problems-the-jacobin-conjecture.jpg",
+          "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "5-free-courses-to-go-from-ai-beginner-to-practit-068d0058-jul22",
+          "category": "Model Releases",
+          "title": "5 Free Courses to Go From AI Beginner to Practitioner",
+          "source": "KDnuggets",
+          "summary": "Follow this free five-course roadmap to build real AI skills, from classical algorithms to training LLMs from scratch.",
+          "href": "https://www.kdnuggets.com/5-free-courses-to-go-from-ai-beginner-to-practitioner",
+          "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-5-free-courses-ai-beginner-practitioner-feature.png",
+          "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "the-sandboxing-manifesto-for-agentic-execution-24a011d9-jul22",
+          "category": "Agents",
+          "title": "The Sandboxing Manifesto for Agentic Execution",
+          "source": "Hacker News · 24h最热",
+          "summary": "A sandbox is a falsifiable claim. \"Sandbox\" has been diluted until it guarantees nothing. Ours is a definition sharp enough to be proven wrong: seven checkable properties, enforced by hardware-level microVM isolation, not by configuration. A sandbox is a fals...",
+          "href": "https://www.nofire.ai/blog/the-sandboxing-manifesto",
+          "imageUrl": "https://nofire.ai/blog-covers/the-sandboxing-manifesto.png",
+          "excerpt": "Radar signal: Hacker News · 24h最热 surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "tradesdontlie-tradingview-mcp-5b0cd698-jul22",
+          "category": "Developer Tools",
+          "title": "tradesdontlie / tradingview-mcp",
+          "source": "github",
+          "summary": "github reported: tradesdontlie / tradingview-mcp",
+          "href": "https://github.com/tradesdontlie/tradingview-mcp",
+          "imageUrl": "https://opengraph.githubassets.com/70ced1ea507266483808ccf0863895457246ee51e807910d6ce3561ada7fbc3c/tradesdontlie/tradingview-mcp",
+          "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "tell-us-your-experiences-of-living-near-ai-datac-af8b8ffb-jul22",
+          "category": "Developer Tools",
+          "title": "Tell us your experiences of living near AI datacentres in the UK",
+          "source": "The Guardian AI",
+          "summary": "We would like to hear from people living near AI datacentres about their experiences and any concerns they might have There are around 450 large data centres across the UK. These warehouses contain computing infrastructure that power cloud services and, incre...",
+          "href": "https://www.theguardian.com/technology/2026/jul/21/tell-us-your-experiences-living-near-ai-datacentres-uk",
+          "imageUrl": "https://i.guim.co.uk/img/media/b06cb76a8d1930cd7908c77e28a524a5ece8ed02/671_0_6726_5381/master/6726.jpg?width=140&quality=85&auto=format&fit=max&s=6466c7d7e2287c4c3a00ac7a60d18693",
+          "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "poolside-releases-laguna-s-2-1-an-open-weight-ag-27794fba-jul22",
+          "category": "Developer Tools",
+          "title": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multil...",
+          "source": "MarkTechPost Research",
+          "summary": "Poolside's Laguna S 2.1: a 118B open-weight MoE coding model matching larger rivals, running on one DGX Spark. Poolside's Laguna S 2.1: a 118B open-weight MoE coding model matching larger rivals, running on one DGX Spark. Poolside has released Laguna S 2.1 ,...",
+          "href": "https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1",
+          "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/07/blog19132-44-1024x731.png",
+          "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "how-to-build-interactive-experiences-with-canvas-5bd2fa98-jul22",
+          "category": "Developer Tools",
+          "title": "How to build interactive experiences with canvases",
+          "source": "GitHub Blog",
+          "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
+          "href": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+          "imageUrl": "https://github.blog/wp-content/uploads/2026/06/MSFTBuild_Blog_Header_01.jpg?fit=2400%2C1260",
+          "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+        },
+        {
+          "id": "dottxt-ai-outlines-56498c5f-jul22",
+          "category": "Developer Tools",
+          "title": "dottxt-ai / outlines",
+          "source": "github",
+          "summary": "github reported: dottxt-ai / outlines",
+          "href": "https://github.com/dottxt-ai/outlines",
+          "imageUrl": "https://opengraph.githubassets.com/953c5891f7be2fcfa72f0b8b3caef59dc272518a98d7339f08063e70f1189f95/dottxt-ai/outlines",
+          "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+        }
+      ]
+    },
     {
       "date": "2026-07-21",
       "label": "July 21, 2026",
