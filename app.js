@@ -371,6 +371,954 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-04",
+    "label": "August 4, 2026",
+    "items": [
+      {
+        "id": "i-paired-gemini-with-google-keep-and-never-lost-8423d131-aug04",
+        "category": "Developer Tools",
+        "title": "I paired Gemini with Google Keep and never lost a great idea again",
+        "source": "Android Police",
+        "summary": "Android Police reported: I paired Gemini with Google Keep and never lost a great idea again",
+        "href": "https://www.androidpolice.com/paired-gemini-with-google-keep-never-lost-great-idea",
+        "imageUrl": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/07/google-keep-icon-above-an-open-hand-with-a-colorful-gemini-shape-in-the-background.png?w=1600&h=900&fit=crop",
+        "excerpt": "Radar signal: Android Police surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-agent-framework-harness-and-hosted-age-5b12b910-aug04",
+        "category": "Developer Tools",
+        "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability",
+        "source": "InfoQ AI",
+        "summary": "Microsoft's Agent Framework now ships a supported runtime. Build 2026 brought the Agent Harness, the GitHub Copilot and Claude Agent SDK connectors, and the orchestration patterns to stable release; the harness and Foundry Hosted Agents have since reached GA....",
+        "href": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/08/agent-framework-harness-ga/en/headerimage/generatedHeaderImage-1785148565256.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "alishahryar1-free-claude-code-d1aa340a-aug04",
+        "category": "Developer Tools",
+        "title": "Alishahryar1 / free-claude-code",
+        "source": "github",
+        "summary": "github reported: Alishahryar1 / free-claude-code",
+        "href": "https://github.com/Alishahryar1/free-claude-code",
+        "imageUrl": "https://opengraph.githubassets.com/202a55257a383cd3d39521f2040ea6f1649cff6a6524adf57c6496f2f33ee353/Alishahryar1/free-claude-code",
+        "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "qwen3-8-max-arrives-with-a-bold-claim-it-outperf-ca35a324-aug04",
+        "category": "Developer Tools",
+        "title": "Qwen3.8-Max arrives with a bold claim: it outperforms GPT-5.6 Sol Max and Fable 5 on agentic computer use",
+        "source": "VentureBeat",
+        "summary": "Chinese e-commerce and cloud giant Alibaba's famed Qwen team of AI researchers last night unveiled Qwen3.8-Max , a new flagship 2.4-trillion-parameter mixture-of-experts (MoE) multimodal large language model (LLM) that targets one of the most competitive corn...",
+        "href": "https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/TEZ90oDEVagcCeMlphUJp/c305312054f50210a953952ab93385b1/ChatGPT_Image_Aug_3__2026__07_32_45_PM.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "alibaba-s-new-qwen-model-is-also-taking-your-job-fe6c1dfd-aug04",
+        "category": "Developer Tools",
+        "title": "Alibaba's new Qwen model is also taking your job, but this time it's great",
+        "source": "The Decoder",
+        "summary": "Alibaba is marketing its new AI model Qwen 3.8 with a video that shows the AI working while a person enjoys their hobbies. It's a deliberate contrast to the job loss warnings from OpenAI and Anthropic. Of course, it's still just marketing. The article Alibaba...",
+        "href": "https://the-decoder.com/alibabas-new-qwen-model-is-also-taking-your-job-but-this-time-its-great/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/qwenlogo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "12-ai-automation-examples-and-how-teams-built-th-5bfd8cd6-aug04",
+        "category": "Agents",
+        "title": "12 AI automation examples (and how teams built them)",
+        "source": "Zapier Blog",
+        "summary": "I use and write about AI for a living, but even I tend to roll my eyes whenever I see an ad for AI in the wild. They're usually generic and surface-level (\"AI can write emails for you!\" \"A chatbot can summarize books so you don't have to use your human brain...",
+        "href": "https://zapier.com/blog/ai-automation-examples",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/5uXh4Lf3QAYaVD06o3RU5o/cf4bbef922e1b10c278ead9d63dbe965/ai_by_zapier_hero_neutral.png",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "visa-is-buying-biocatch-for-2-4-billion-because-3707f417-aug04",
+        "category": "Product Updates",
+        "title": "Visa is buying BioCatch for $2.4 billion because AI scams now cost the global economy $1 trillion a year",
+        "source": "The Next Web",
+        "summary": "Visa is acquiring BioCatch for $2.4B in cash. The startup detects fraud by analysing typing cadence and touchscreen pressure. It protects 760 million users across 350 banks. Visa is acquiring BioCatch for $2.4B in cash. The startup detects fraud by analysing...",
+        "href": "https://thenextweb.com/news/visa-biocatch-2-4-billion-acquisition-fraud-ai-scams",
+        "imageUrl": "assets/news/openai-databricks-agent-workflows.webp",
+        "excerpt": "Radar signal: The Next Web surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-marc-benioff-backed-startup-thinks-ai-can-solv-b6a8849c-aug04",
+        "category": "Product Updates",
+        "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch AI reported: A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+        "href": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
+        "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+        "excerpt": "Radar signal: TechCrunch AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-white-house-says-its-ai-framework-is-done-it-a6a1b137-aug04",
+        "category": "Model Releases",
+        "title": "The White House says its AI framework is done. It will not say what is in it.",
+        "source": "The Next Web",
+        "summary": "The voluntary AI model evaluation framework met its August 1 deadline. The White House will not disclose its contents, who has seen it, or when companies will use it. The voluntary AI model evaluation framework met its August 1 deadline. The White House will...",
+        "href": "https://thenextweb.com/news/white-house-ai-framework-secret-voluntary-classified",
+        "imageUrl": "assets/news/bright-safety.svg",
+        "excerpt": "Radar signal: The Next Web surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "design-arena-creators-raise-7-9-million-to-bring-6005530a-aug04",
+        "category": "Model Releases",
+        "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+        "source": "TechCrunch AI",
+        "summary": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs. Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs. Latest AI Amazon Apps Biote...",
+        "href": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/Screenshot-2026-08-03-at-12.31.35-PM.jpg?resize=1200,739",
+        "excerpt": "Radar signal: TechCrunch AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "does-minimax-agent-actually-make-work-easier-12c11036-aug04",
+        "category": "Agents",
+        "title": "Does MiniMax Agent Actually Make Work Easier?",
+        "source": "KDnuggets",
+        "summary": "Read about MiniMax's own architecture, and see how it runs a real task against the actual API. Learn the pieces of the MiniMax story that weren't covered in the launch post.",
+        "href": "https://www.kdnuggets.com/does-minimax-agent-actually-make-work-easier",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Does-MiniMax-Agent-Actually-Make-Work-Easier-scaled.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-white-house-says-it-has-met-its-deadline-to-4f2bd9ae-aug04",
+        "category": "Developer Tools",
+        "title": "The White House says it has met its deadline to establish a voluntary framework for evaluating advanced AI models; it d...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: The White House says it has met its deadline to establish a voluntary framework for evaluating advanced AI models; it did not provide details of the framework (Maria Curi/Axios)",
+        "href": "https://www.techmeme.com/260803/p28",
+        "imageUrl": "https://images.axios.com/F1PH7XnlINui3t3j01VEUotpIdk=/1366x768/smart/2023/10/23/230350-1698102230808.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-hosted-influencers-at-a-luxury-retreat-wi-1a951039-aug04",
+        "category": "Developer Tools",
+        "title": "OpenAI hosted influencers at a luxury retreat with beekeeping. The internet backlash was swift.",
+        "source": "Business Insider",
+        "summary": "Over the weekend, influencers posted optimistic videos of AI after attending an OpenAI-led content creator retreat. Over the weekend, influencers posted optimistic videos of AI after attending an OpenAI-led content creator retreat. Beneath a canopy of trees a...",
+        "href": "https://www.businessinsider.com/openai-creators-retreat-upstate-new-york-backlash-2026-8",
+        "imageUrl": "https://i.insider.com/6a70ed63a62e6e00bc539f34?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Business Insider surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "label": "August 3, 2026",
+    "items": [
+      {
+        "id": "how-google-used-ai-agents-to-find-and-fix-1-072-895b8cf6-aug03",
+        "category": "Agents",
+        "title": "How Google used AI agents to find and fix 1,072 Chrome security bugs - in 60 days",
+        "source": "ZDNet AI",
+        "summary": "With 3.5 billion active users to protect, Google is relying on Gemini to find Chrome security bugs fast - and before attackers do.",
+        "href": "https://www.zdnet.com/article/google-used-ai-to-fix-1072-chrome-security-bugs-in-60-days/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/3dc9b6f162c4a7899c23cff002361d0a0bd39eab/2026/08/03/36ac3326-5a3d-43c2-b9d5-0148f113a9a8/gettyimages-2239767228.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-keep-your-conversations-with-chatgpt-gemi-0cff586b-aug03",
+        "category": "Developer Tools",
+        "title": "How to keep your conversations with ChatGPT, Gemini, Copilot or Claude as private as possible",
+        "source": "ZDNet AI",
+        "summary": "Worried about your personal AI chats being exposed? Here's how to tighten your privacy across several major chatbots.",
+        "href": "https://www.zdnet.com/article/how-to-keep-ai-conversations-private-chatgpt-gemini-copilot-claude/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/3ff3c6e7154a80adb4eb08cd787aeaef44fffd29/2026/08/03/11be35ff-0e6b-4b3c-8085-1009370fb820/gettyimages-2278636957.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "youtuber-hank-green-faces-online-criticism-after-850f36e8-aug03",
+        "category": "Model Releases",
+        "title": "YouTuber Hank Green faces online criticism after using ChatGPT to help research a script, and says his LLM usage \"is no...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: YouTuber Hank Green faces online criticism after using ChatGPT to help research a script, and says his LLM usage \"is not healthy for me or good for the world\" (Anthony Ha/TechCrunch)",
+        "href": "https://www.techmeme.com/260803/p10",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-1040458588.jpg?w=1024",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "artificial-analysis-deepseek-s-v4-flash-costs-0-978f000c-aug03",
+        "category": "Model Releases",
+        "title": "Artificial Analysis: DeepSeek's V4-Flash costs $0.14/1M input and $0.28/1M output tokens, or $0.03 per test, far below...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Artificial Analysis: DeepSeek's V4-Flash costs $0.14/1M input and $0.28/1M output tokens, or $0.03 per test, far below Kimi K3's $0.86 and GPT-5.6 Sol's $1.86 (Eduardo Baptista/Reuters)",
+        "href": "https://www.techmeme.com/260803/p12",
+        "imageUrl": "https://www.reuters.com/resizer/v2/GISLIOTOZZPZFKOVDMNN7TDEIU.jpg?auth=a25efec6b4d8a4a132cd815ccc4bb02f5edea1ff19f9f990a0b9f356cfb5ffb0&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "unicorn-pelican-middle-earth-openai-co-founder-k-0536ecf2-aug03",
+        "category": "Developer Tools",
+        "title": "Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test",
+        "source": "The Decoder",
+        "summary": "One paragraph of \"Lord of the Rings\" in, 5,500 lines of code out. Andrej Karpathy had Claude Opus 5 turn Tolkien's opening into a 3D browser scene. The article Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test app...",
+        "href": "https://the-decoder.com/unicorn-pelican-middle-earth-openai-co-founder-karpathy-is-looking-for-the-next-ai-vibe-test/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/Karpathy-LOTR-Opus-5-title.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "alibaba-qwen-releases-qwen3-8-max-a-2-4-trillion-11a1893b-aug03",
+        "category": "Model Releases",
+        "title": "Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Da...",
+        "source": "MarkTechPost Research",
+        "summary": "MarkTechPost Research reported: Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date",
+        "href": "https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog6176-5-1024x731.png",
+        "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "hubspot-redesigns-jita-authorization-with-rule-e-50760847-aug03",
+        "category": "Agents",
+        "title": "HubSpot Redesigns JITA Authorization with Rule Engine Architecture",
+        "source": "InfoQ AI",
+        "summary": "HubSpot has redesigned its Just-In-Time Access (JITA) authorization system using a rule engine architecture. The system evaluates access requests through independent rules organized as a directed acyclic graph, adding structured decision metadata, rule-level...",
+        "href": "https://www.infoq.com/news/2026/08/hubspot-jita-rule-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/08/hubspot-jita-rule-engine/en/headerimage/generatedHeaderImage-1785708273545.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "in-a-twist-of-irony-a-chinese-open-source-glm-5-b1bcee93-aug03",
+        "category": "Model Releases",
+        "title": "In a twist of irony, a Chinese open source GLM 5.2 AI model contained 'rogue' OpenAI GPT-5.6 Sol in a Hugging Face hack...",
+        "source": "TechRadar",
+        "summary": "TechRadar reported: In a twist of irony, a Chinese open source GLM 5.2 AI model contained 'rogue' OpenAI GPT-5.6 Sol in a Hugging Face hack just as the US mulls banning open-weight AI",
+        "href": "https://www.techradar.com/pro/in-a-twist-of-irony-a-chinese-open-source-glm-5-2-ai-model-contained-rogue-openai-gpt-5-6-sol-in-a-hugging-face-hack-just-as-the-us-mulls-banning-open-weight-ai",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/GLDqkFiVQotSrQoqid5LnX-1920-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "hugging-face-ceo-says-ai-companies-should-be-req-9ebc895c-aug03",
+        "category": "Developer Tools",
+        "title": "Hugging Face CEO says AI companies should be required to disclose hacks after OpenAI breach",
+        "source": "Business Insider",
+        "summary": "Business Insider reported: Hugging Face CEO says AI companies should be required to disclose hacks after OpenAI breach",
+        "href": "https://www.businessinsider.com/hugging-face-ceo-hack-openai-mandatory-transparency-law-ai-2026-8",
+        "imageUrl": "https://i.insider.com/6a70175587737bff3ebda7b4?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Business Insider surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ori-eval-find-the-best-model-for-what-you-re-bui-1c345a4c-aug03",
+        "category": "Developer Tools",
+        "title": "Ori Eval: Find the Best Model for What You're Building",
+        "source": "OpenRouter Announcements",
+        "summary": "Choosing the model inside your product is often decided without a systematic method. Ori Eval answers the question with proof: it runs your agent on your own prompts, checks the tools it called, and grades the answers.",
+        "href": "https://openrouter.ai/blog/announcements/ori-eval/",
+        "imageUrl": "https://openrouter.ai/blog/images/ori-eval.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "your-ai-project-will-break-welcome-to-the-day-2-ae928d2a-aug03",
+        "category": "Product Updates",
+        "title": "Your AI project WILL break. Welcome to the Day 2 problem.",
+        "source": "n8n Blog",
+        "summary": "The questions to ask BEFORE you start building, to make sure it keeps working.",
+        "href": "https://blog.n8n.io/building-with-ai-the-day-2-problem/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/07/day2_v3.jpg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "open-source-workflow-automation-software-compare-77e58277-aug03",
+        "category": "Agents",
+        "title": "Open-Source Workflow Automation Software Compared",
+        "source": "n8n Blog",
+        "summary": "Compare top open-source workflow automation platforms. Review deployment models, secrets handling, and audit capabilities to choose the right tool.",
+        "href": "https://blog.n8n.io/open-source-workflow-automation/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/07/TL-9.jpeg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "zapier-s-ai-tools-get-to-know-our-governed-ai-pr-20fce56b-aug03",
+        "category": "Agents",
+        "title": "Zapier's AI tools: Get to know our governed AI products and features",
+        "source": "Zapier Blog",
+        "summary": "I've been writing about AI and automation for Zapier for the last two years. In that time, I've seen Zapier ship one useful AI tool after another: some for automating securely with AI, and others for bringing secure automation into your AI tool of choice. Kee...",
+        "href": "https://zapier.com/blog/zapier-ai-guide",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/2Nwuxoq1IjIVLxc45aRkuG/8035727f5019508cbe4b21a13505e3b1/Hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-frameworks-definition-types-and-how-to-choose-7067ef98-aug03",
+        "category": "Developer Tools",
+        "title": "AI frameworks: Definition, types, and how to choose",
+        "source": "Zapier Blog",
+        "summary": "Whenever there's a shiny new AI tool, it makes sense to dive in and see if it's worth introducing into your work. You start with a single tab in your browser, which somehow turns into a dozen, all filled with chatbots, automation workflows, and a master plan...",
+        "href": "https://zapier.com/blog/ai-frameworks",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/4MqYnsftrLS3Fhr0Yvq4rE/0d5c76fc6a4dc14d06299f76615c6485/zapier-app-logo.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-vertical-ai-is-the-defining-opportunity-for-e64ccf78-aug03",
+        "category": "Product Updates",
+        "title": "Why vertical AI is the defining opportunity for enterprise right now",
+        "source": "TechRadar",
+        "summary": "TechRadar reported: Why vertical AI is the defining opportunity for enterprise right now",
+        "href": "https://www.techradar.com/pro/why-vertical-ai-is-the-defining-opportunity-for-enterprise-right-now",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/DVffQnnibMWmNpx2Wfb5Se-1920-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-even-the-biggest-brands-have-low-ai-readines-267a0ce1-aug03",
+        "category": "Product Updates",
+        "title": "Why even the biggest brands have low AI readiness",
+        "source": "TechRadar",
+        "summary": "TechRadar reported: Why even the biggest brands have low AI readiness",
+        "href": "https://www.techradar.com/pro/why-even-the-biggest-brands-have-low-ai-readiness",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/TaxPLZc75WiicpmgZNzWzL-2560-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-biological-data-matters-more-in-ai-drug-disc-649a379c-aug03",
+        "category": "Product Updates",
+        "title": "Why biological data matters more in AI drug discovery",
+        "source": "Artificial Intelligence News",
+        "summary": "Artificial Intelligence News reported: Why biological data matters more in AI drug discovery",
+        "href": "https://www.artificialintelligence-news.com/news/gsk-relation-therapeutics-ai-drug-discovery-biological-data",
+        "imageUrl": "assets/news/mit-compressm.png",
+        "excerpt": "Radar signal: Artificial Intelligence News surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "visa-plans-to-acquire-israeli-company-biocatch-w-2f1da309-aug03",
+        "category": "Product Updates",
+        "title": "Visa plans to acquire Israeli company BioCatch, which uses AI to detect fraud and distinguish legitimate users from att...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Visa plans to acquire Israeli company BioCatch, which uses AI to detect fraud and distinguish legitimate users from attackers in real time, for $2.4B in cash (Katherine Hamilton/Wall Street Journal)",
+        "href": "https://www.techmeme.com/260803/p20",
+        "imageUrl": "https://images.wsj.net/im-645438/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "this-150-lifetime-ai-powered-app-listens-while-y-4a655219-aug03",
+        "category": "Product Updates",
+        "title": "This $150 lifetime AI-powered app listens while you play piano and coaches you in real time",
+        "source": "Mashable",
+        "summary": "Mashable reported: This $150 lifetime AI-powered app listens while you play piano and coaches you in real time",
+        "href": "https://mashable.com/life/aug-3-skoove-premium-lifetime-subscription",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/02Pn6t4KUot4dV1Mxvxtywo/hero-image.fill.size_1200x675.v1785419092.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-six-stage-journey-why-62-of-organizations-ar-da427068-aug03",
+        "category": "Product Updates",
+        "title": "The six-stage journey: Why 62% of organizations are stuck below the AI value line",
+        "source": "TechRadar",
+        "summary": "Achieving value from AI requires more than robust technology Achieving value from AI requires more than robust technology Achieving value from AI requires more than robust technology",
+        "href": "https://www.techradar.com/pro/the-six-stage-journey-why-62-percent-of-organizations-are-stuck-below-the-ai-value-line",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/U76sZeRd6fS2fKt5RqBYPL-2560-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-the-trump-administration-invites-staffer-2b115987-aug03",
+        "category": "Product Updates",
+        "title": "Sources: the Trump administration invites staffers from OpenAI, Google, Anthropic, and others to the White House on Tue...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: the Trump administration invites staffers from OpenAI, Google, Anthropic, and others to the White House on Tuesday to review the AI oversight framework (The Information)",
+        "href": "https://www.techmeme.com/260803/p23",
+        "imageUrl": "https://tii.imgix.net/global/defaults/article_default_normal.jpg?auto=compress",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "pisiguard-protect-your-personal-and-sensitive-in-84e6fed4-aug03",
+        "category": "Product Updates",
+        "title": "PISIGuard: Protect your personal and sensitive info when you chat with AI",
+        "source": "hackernews",
+        "summary": "hackernews reported: PISIGuard: Protect your personal and sensitive info when you chat with AI",
+        "href": "https://news.ycombinator.com/item?id=49153029",
+        "imageUrl": "assets/news/bright-productivity.svg",
+        "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "merchup-ai-f38e645a-aug03",
+        "category": "Product Updates",
+        "title": "MerchUp AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: MerchUp AI",
+        "href": "https://www.producthunt.com/products/merchup-ai",
+        "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "indeed-uk-employers-are-creating-jobs-for-senior-e4fd270a-aug03",
+        "category": "Product Updates",
+        "title": "Indeed: UK employers are creating jobs for senior staff in software engineering and IT, where AI enhances the value of...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Indeed: UK employers are creating jobs for senior staff in software engineering and IT, where AI enhances the value of experience, while cutting back elsewhere (Irina Anghel/Bloomberg)",
+        "href": "https://www.techmeme.com/260803/p5",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iTs5O5jZXqsg/v0/1200x799.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-we-built-a-realtime-system-for-responsive-vo-d04cc35b-aug03",
+        "category": "Product Updates",
+        "title": "How we built a realtime system for responsive voice AI in six months",
+        "source": "OpenAI News",
+        "summary": "OpenAI News reported: How we built a realtime system for responsive voice AI in six months",
+        "href": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/yTlvMCvVXsIfkU2OOi99f/157c83857ebe75544195add9e1f75039/gpt-live-responsive-seo-card.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI News surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "horizon3-whose-ai-penetration-testing-platform-n-68118305-aug03",
+        "category": "Product Updates",
+        "title": "Horizon3, whose AI penetration testing platform NodeZero helps find and exploit attack paths in production systems, rai...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Horizon3, whose AI penetration testing platform NodeZero helps find and exploit attack paths in production systems, raised a $250M Series E at a $2B valuation (Kate Park/TechCrunch)",
+        "href": "https://www.techmeme.com/260803/p19",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1197780051.jpg?resize=1200,800",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "hollywood-fights-ai-in-public-while-quietly-buil-f7d3121f-aug03",
+        "category": "Product Updates",
+        "title": "Hollywood Fights AI In Public While Quietly Building It Into Movies",
+        "source": "Slashdot",
+        "summary": "Slashdot reported: Hollywood Fights AI In Public While Quietly Building It Into Movies",
+        "href": "https://entertainment.slashdot.org/story/26/08/03/0350223/hollywood-fights-ai-in-public-while-quietly-building-it-into-movies",
+        "imageUrl": "https://a.fsdn.com/sd/topics/movies_64.png",
+        "excerpt": "Radar signal: Slashdot surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-s-decimation-of-call-center-jobs-has-begun-b5bcb8f6-aug03",
+        "category": "Product Updates",
+        "title": "'AI's Decimation of Call Center Jobs Has Begun'",
+        "source": "Slashdot",
+        "summary": "Slashdot reported: 'AI's Decimation of Call Center Jobs Has Begun'",
+        "href": "https://it.slashdot.org/story/26/08/03/031248/ais-decimation-of-call-center-jobs-has-begun",
+        "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png",
+        "excerpt": "Radar signal: Slashdot surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-poster-wins-ohio-state-fair-contest-1666ed52-aug03",
+        "category": "Product Updates",
+        "title": "AI poster wins Ohio State Fair contest",
+        "source": "hackernews",
+        "summary": "hackernews reported: AI poster wins Ohio State Fair contest",
+        "href": "https://news.ycombinator.com/item?id=49149188",
+        "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
+        "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-migrated-legacy-cobol-programs-to-java-bugs-i-1818afa0-aug03",
+        "category": "Product Updates",
+        "title": "AI migrated legacy COBOL programs to Java, bugs included",
+        "source": "hackernews",
+        "summary": "hackernews reported: AI migrated legacy COBOL programs to Java, bugs included",
+        "href": "https://news.ycombinator.com/item?id=49150773",
+        "imageUrl": "assets/news/superhuman-claude-mythos.png",
+        "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-profile-of-nanit-a-maker-of-ai-equipped-baby-c-7294da02-aug03",
+        "category": "Product Updates",
+        "title": "A profile of Nanit, a maker of AI-equipped baby cameras for hyper-detailed tracking, which says it has 1M daily users a...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: A profile of Nanit, a maker of AI-equipped baby cameras for hyper-detailed tracking, which says it has 1M daily users and $100M+ in annual revenue (Sapna Maheshwari/New York Times)",
+        "href": "https://www.techmeme.com/260803/p8",
+        "imageUrl": "https://static01.nyt.com/images/2026/08/02/multimedia/02biz-babytech-lede-flwk/02biz-babytech-lede-flwk-facebookJumbo.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-look-at-the-growing-tensions-over-ai-data-cent-dee301b4-aug03",
+        "category": "Product Updates",
+        "title": "A look at the growing tensions over AI data centers in London, Europe's biggest data center hub, as housing, power, and...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: A look at the growing tensions over AI data centers in London, Europe's biggest data center hub, as housing, power, and water come under increasing strain (Francesca Perry/Financial Times)",
+        "href": "https://www.techmeme.com/260803/p6",
+        "imageUrl": "http://www.techmeme.com/img/techmeme_sq328.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "two-independent-teams-used-gpt-5-6-sol-ultra-on-c970a795-aug03",
+        "category": "Model Releases",
+        "title": "Two independent teams used GPT-5.6 Sol Ultra on the same quantum cryptography problem, filing papers 3 hours apart, rai...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Two independent teams used GPT-5.6 Sol Ultra on the same quantum cryptography problem, filing papers 3 hours apart, raising questions about scientific credit (Peter Hall/Scientific American)",
+        "href": "https://www.techmeme.com/260802/p15",
+        "imageUrl": "https://static.scientificamerican.com/dam/asset/e97018e5-ae61-4316-a006-bdb874245d1d/Man-at-mathematics-blackboard.jpg?m=1785512847.541&w=1200",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cogent-ai-team-releases-vr-1-a-frontier-cyber-re-33dd8345-aug03",
+        "category": "Model Releases",
+        "title": "Cogent AI Team Releases VR-1: A Frontier Cyber Reasoning Model That Composes and Verifies Enterprise Attack Paths",
+        "source": "MarkTechPost Research",
+        "summary": "MarkTechPost Research reported: Cogent AI Team Releases VR-1: A Frontier Cyber Reasoning Model That Composes and Verifies Enterprise Attack Paths",
+        "href": "https://www.marktechpost.com/2026/08/03/ogent-ai-team-releases-vr-1",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/cogent-ai-team-releases-vr-1-a-frontier-_RRfw-MN8XHCVMiq25ns72Q_GZ6ubPNqQVGq-eTcWMe7jw_cover_2k-1024x768.png",
+        "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-detailed-recap-of-the-real-world-target-hacks-042cf8de-aug03",
+        "category": "Model Releases",
+        "title": "A detailed recap of the real-world target hacks by OpenAI's and Anthropic's models, exposing failures in AI alignment t...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: A detailed recap of the real-world target hacks by OpenAI's and Anthropic's models, exposing failures in AI alignment training and meaningful supervision (Zvi Mowshowitz/Don't Worry About the Vase)",
+        "href": "https://www.techmeme.com/260803/p3",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Y-db!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4f045d39-2fe6-469a-874c-8d57231d647d_1448x1086.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "zenity-which-develops-a-platform-for-securing-ai-d4e6661d-aug03",
+        "category": "Agents",
+        "title": "Zenity, which develops a platform for securing AI agents, raised a $125M Series C led by Norwest Venture Partners, taki...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Zenity, which develops a platform for securing AI agents, raised a $125M Series C led by Norwest Venture Partners, taking its total funding to ~$185M (Meir Orbach/CTech)",
+        "href": "https://www.techmeme.com/260803/p21",
+        "imageUrl": "https://pic1.calcalist.co.il/picserver3/crop_images/2026/08/03/HyFJElRSGe/HyFJElRSGe_0_0_1280_721_0_large.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "june-which-aims-to-help-enterprise-ai-deployment-a6a277c7-aug03",
+        "category": "Agents",
+        "title": "June, which aims to help enterprise AI deployment by finding bottlenecks and building agents, emerges from stealth with...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: June, which aims to help enterprise AI deployment by finding bottlenecks and building agents, emerges from stealth with $20M led by Marc Benioff's Time Ventures (Tim Fernholz/TechCrunch)",
+        "href": "https://www.techmeme.com/260803/p17",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/June-Headshots-7740.jpg?resize=1200,800",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "is-ai-creating-the-next-wave-of-software-sprawl-6ec81cf1-aug03",
+        "category": "Agents",
+        "title": "Is AI creating the next wave of software sprawl?",
+        "source": "TechRadar",
+        "summary": "How can organizations manage the next wave of automation? How can organizations manage the next wave of automation? How can organizations manage the next wave of automation?",
+        "href": "https://www.techradar.com/pro/is-ai-creating-the-next-wave-of-software-sprawl",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/ywSwn3oGxXv4PfcRPZmTrc-2560-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "two-teams-solved-the-same-quantum-crypto-problem-54d7cfa9-aug03",
+        "category": "Developer Tools",
+        "title": "Two teams solved the same quantum crypto problem using GPT-5.6 just three hours apart",
+        "source": "The Decoder AI News",
+        "summary": "The Decoder AI News reported: Two teams solved the same quantum crypto problem using GPT-5.6 just three hours apart",
+        "href": "https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart",
+        "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+        "excerpt": "Radar signal: The Decoder AI News surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-infrastructure-debt-ai-creates-isn-t-in-the-c1743df9-aug03",
+        "category": "Developer Tools",
+        "title": "The infrastructure debt AI creates isn't in the code. It's in the operations",
+        "source": "TechRadar",
+        "summary": "TechRadar reported: The infrastructure debt AI creates isn't in the code. It's in the operations",
+        "href": "https://www.techradar.com/pro/the-infrastructure-debt-ai-creates-isnt-in-the-code-its-in-the-operations",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/qP76MS2BAb7kSuWrvJXXYL-2560-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-eu-s-ai-act-enforcement-powers-take-effect-l-08d4382d-aug03",
+        "category": "Developer Tools",
+        "title": "The EU's AI Act enforcement powers take effect, letting it evaluate AI models before regional release, restrict market...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: The EU's AI Act enforcement powers take effect, letting it evaluate AI models before regional release, restrict market access, fine model providers, and more (Kai Nicol-Schwarz/CNBC)",
+        "href": "https://www.techmeme.com/260803/p16",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108125174-1743618895320-OpenAI_Anth.jpg?v=1770839647&w=1920&h=1080",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meet-the-coaches-measurers-and-builders-carving-cb242949-aug03",
+        "category": "Developer Tools",
+        "title": "Meet the coaches, measurers, and builders carving out a slice of the AI cost-saving business",
+        "source": "Business Insider",
+        "summary": "Business Insider reported: Meet the coaches, measurers, and builders carving out a slice of the AI cost-saving business",
+        "href": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
+        "imageUrl": "https://i.insider.com/6a6f6b27a62e6e00bc539903?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Business Insider surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-is-starting-to-rewrite-the-software-that-made-883225ba-aug03",
+        "category": "Developer Tools",
+        "title": "AI is starting to rewrite the software that made Nvidia untouchable",
+        "source": "Business Insider",
+        "summary": "Business Insider reported: AI is starting to rewrite the software that made Nvidia untouchable",
+        "href": "https://www.businessinsider.com/nvidia-cuda-new-threats-ai-coding-agents-2026-8",
+        "imageUrl": "https://i.insider.com/6a6cc3df97a2276a3423bd96?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Business Insider surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-conquered-coding-fast-food-is-next-34c7197f-aug03",
+        "category": "Developer Tools",
+        "title": "AI Conquered Coding. Fast Food Is Next",
+        "source": "Wired AI",
+        "summary": "Wired AI reported: AI Conquered Coding. Fast Food Is Next",
+        "href": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next",
+        "imageUrl": "https://media.wired.com/photos/6a6cda249489ec53630e72b8/191:100/w_1280,c_limit/Business_AI%20Is%20Taking%20Over%20at%20the%20Drive-Thru_v1.jpg",
+        "excerpt": "Radar signal: Wired AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-guide-to-saving-token-usage-with-multi-agent-a-8963f328-aug03",
+        "category": "Developer Tools",
+        "title": "A Guide to Saving Token Usage with Multi-Agent AI",
+        "source": "KDnuggets",
+        "summary": "Scaling up and streamlining a multi-agent architecture doesn't necessarily entail escalated costs if you know how to properly implement these four strategies for saving token usage.",
+        "href": "https://www.kdnuggets.com/a-guide-to-saving-token-usage-with-multi-agent-ai",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-a-guide-to-saving-token-usage-with-multi-agent-ai-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-former-oracle-engineer-on-an-h-1b-visa-says-ai-538fdf50-aug03",
+        "category": "Developer Tools",
+        "title": "A former Oracle engineer on an H-1B visa says AI and tech layoffs pushed him into constant career-prep mode",
+        "source": "Business Insider",
+        "summary": "Business Insider reported: A former Oracle engineer on an H-1B visa says AI and tech layoffs pushed him into constant career-prep mode",
+        "href": "https://www.businessinsider.com/former-oracle-software-engineer-visa-how-adapting-ai-tools-layoffs-2026-8",
+        "imageUrl": "https://i.insider.com/6a6cd4ef97a2276a3423be86?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Business Insider surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "london-based-ai-chip-startup-olix-raised-312m-le-68441860-aug03",
+        "category": "Funding",
+        "title": "London-based AI chip startup Olix raised $312M led by Fundomo, with participation from Arm, at a $3.3B valuation, up fr...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: London-based AI chip startup Olix raised $312M led by Fundomo, with participation from Arm, at a $3.3B valuation, up from $1B+ after raising $220M in February (Tim Bradshaw/Financial Times)",
+        "href": "https://www.techmeme.com/260803/p9",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8f0d36f5-b764-4aa6-b7eb-f2179cf68a62.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-south-korean-ai-chip-designer-deepx-rais-f7999087-aug03",
+        "category": "Creative AI",
+        "title": "Sources: South Korean AI chip designer DeepX raised a ~$29M Series D at a ~$2.2B valuation, and is in talks to raise ~$...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: South Korean AI chip designer DeepX raised a ~$29M Series D at a ~$2.2B valuation, and is in talks to raise ~$209M at a ~$2.4B valuation by September (Yoolim Lee/Bloomberg)",
+        "href": "https://www.techmeme.com/260803/p14",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/idRw2XzDo.A8/v0/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-ai-boom-has-college-majors-of-all-types-dabb-44ba98fa-aug03",
+        "category": "Research Workflows",
+        "title": "The AI boom has college majors of all types dabbling in computer science",
+        "source": "Fast Company AI",
+        "summary": "Demand for AI literacy is on the rise with college students.",
+        "href": "https://www.fastcompany.com/91584042/ai-boom-college-majors-all-types-dabbling-computer-science?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=08042026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/AP26201785507578.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "label": "August 2, 2026",
+    "items": [
+      {
+        "id": "sam-altman-suggests-parents-generate-ai-podcasts-aa4aab3f-aug02",
+        "category": "Model Releases",
+        "title": "Sam Altman suggests parents generate AI podcasts about their kids",
+        "source": "Mashable",
+        "summary": "On X, Sam Altman said a \"cool use case\" for ChatGPT was for parents to generate podcasts' about their children's lives.",
+        "href": "https://mashable.com/tech/sam-altman-suggests-parents-generate-ai-podcasts-about-kids",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00EHMqMixIQfrYSZREmX3YD/hero-image.fill.size_1200x675.v1785601533.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "hank-green-apologizes-for-relying-too-heavily-on-904e114c-aug02",
+        "category": "Model Releases",
+        "title": "Hank Green apologizes for relying too heavily on ChatGPT",
+        "source": "Mashable",
+        "summary": "Hank Green apologized for relying too heavily on ChatGPT research and said he may pause his YouTube channel and two online games.",
+        "href": "https://mashable.com/life/hank-green-chatgpt-ai-apology",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00eEDdt0zGtNJm3JWWzfeL0/hero-image.fill.size_1200x675.v1785680560.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-reveals-its-claude-ai-model-hacked-int-6d62f575-aug02",
+        "category": "Model Releases",
+        "title": "Anthropic reveals its Claude AI model hacked into 3 organizations during testing",
+        "source": "Fast Company AI",
+        "summary": "Anthropic reached out to the firms, which went unnamed.",
+        "href": "https://www.fastcompany.com/91583266/anthropic-reveals-claude-ai-model-hacked-into-3-organizations-during-testing?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=8&partner=newsletter&campaign_date=08042026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/AP26182544649628_a490fa.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-published-malicious-code-to-the-internet-2db26e24-aug02",
+        "category": "Developer Tools",
+        "title": "Claude published malicious code to the Internet and attacked 3 real companies",
+        "source": "Ars Technica",
+        "summary": "Had the hacks used conventional methods, someone would likely go to prison.",
+        "href": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/robot-in-handcuffs-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "reddit-keeps-its-strange-dmca-fight-over-google-ea66f092-aug02",
+        "category": "Product Updates",
+        "title": "Reddit keeps its strange DMCA fight over Google search results alive",
+        "source": "Ars Technica",
+        "summary": "Reddit advances lawsuit accusing Perplexity AI of conspiring with web scraper.",
+        "href": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2218358312-1024x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "stacked-sessions-and-pull-requests-in-the-github-998361c2-aug02",
+        "category": "Developer Tools",
+        "title": "Stacked sessions and pull requests in the GitHub Copilot app",
+        "source": "GitHub Blog",
+        "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app. The post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog .",
+        "href": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "llm-security-how-to-safeguard-production-ai-work-1c398ebe-aug02",
+        "category": "Agents",
+        "title": "LLM Security: How To Safeguard Production AI Workflows",
+        "source": "n8n Blog",
+        "summary": "Explore LLM security threats, from prompt injection to data poisoning. Discover actionable best practices for reliable, auditable enterprise deployment.",
+        "href": "https://blog.n8n.io/llm-security/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/07/TL-2_BlogHeader_llm-security--1--1.jpg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-agent-identity-management-for-production-da609add-aug02",
+        "category": "Developer Tools",
+        "title": "AI Agent Identity Management for Production",
+        "source": "n8n Blog",
+        "summary": "AI agent identity management controls authentication, authorization, and delegated access for autonomous systems operating across tools, APIs, and workflows.",
+        "href": "https://blog.n8n.io/ai-agent-identity-management/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/07/TL--12-.jpeg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "open-source-project-fools-ai-scrapers-with-poiso-bbd57551-aug02",
+        "category": "Open Models",
+        "title": "Open source project fools AI scrapers with poisoned font",
+        "source": "The Register AI",
+        "summary": "ShieldFont is available today if you've got copy that needs protecting",
+        "href": "https://www.theregister.com/ai-and-ml/2026/07/30/open-source-project-fools-ai-scrapers-with-poisoned-font/5281303",
+        "imageUrl": "https://image.theregister.com/?imageId=5281330&width=800",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-evaluate-sourcegraph-on-your-own-codebase-66a20c9c-aug02",
+        "category": "Developer Tools",
+        "title": "How to evaluate Sourcegraph on your own codebase",
+        "source": "Sourcegraph Blog",
+        "summary": "Better code retrieval does not automatically mean better task completion. Here is how to measure retrieval, agent performance, and cost without confusing one for another.",
+        "href": "https://sourcegraph.com/blog/how-to-evaluate-sourcegraph-on-your-own-codebase",
+        "imageUrl": "https://storage.googleapis.com/blog-static-assets-prod/20260731_how-to-evaluate-sourcegraph-on-your-own-codebase_preview.png",
+        "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-a-u-s-sovereign-wealth-fund-for-ai-is-harder-dd47e409-aug02",
+        "category": "Product Updates",
+        "title": "Why a U.S. sovereign wealth fund for AI is harder than it sounds",
+        "source": "Fast Company AI",
+        "summary": "Creating a government fund to own AI stock and benefit all Americans would require many hard choices.",
+        "href": "https://www.fastcompany.com/91582650/us-ai-sovereign-wealth-fund?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=08042026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91582650-us-ai-sovereign-wealth-fund.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "we-are-mildly-horrified-by-this-ai-startup-that-11abe1ed-aug02",
+        "category": "Product Updates",
+        "title": "We Are Mildly Horrified by This AI Startup That Coerced People Into Getting Tattoos of Its Logo in Exchange for a Job I...",
+        "source": "Futurism AI",
+        "summary": "\"If you're reaching out to us to apply for a job, you might want to take notes.\" The post We Are Mildly Horrified by This AI Startup That Coerced People Into Getting Tattoos of Its Logo in Exchange for a Job Interview appeared first on Futurism .",
+        "href": "https://futurism.com/future-society/ai-startup-coerced-tattoos-logo-job-interview",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/horrified-ai-startup-tattoos-logo.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-more-people-learn-about-ai-the-more-they-wan-497e2b22-aug02",
+        "category": "Product Updates",
+        "title": "The More People Learn About AI, the More They Want It Out of Their Lives",
+        "source": "Futurism AI",
+        "summary": "\"I hear people champion AI and I'm like, 'sure, why don't we all participate in our collective downfall?'\" The post The More People Learn About AI, the More They Want It Out of Their Lives appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ai-learn-negative-sentiment-polling-american-attitudes",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/more-people-learn-ai-want-out-lives.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "stock-market-turmoil-sheds-stark-light-on-the-op-7c969508-aug02",
+        "category": "Product Updates",
+        "title": "Stock market turmoil sheds stark light on the opaque AI economy",
+        "source": "The Guardian AI",
+        "summary": "Investors scramble to make sense of a shock Chinese challenge to the dominance of western chipmakers Even for the rollercoaster world of AI, last week was particularly volatile as investors scrambled to keep up with developments that threatened the dominance...",
+        "href": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy",
+        "imageUrl": "https://i.guim.co.uk/img/media/f3c5945bf000f1a831b643986588a8d2fb63555a/213_0_2133_1707/master/2133.jpg?width=140&quality=85&auto=format&fit=max&s=962c63fe0325c197179f22d29e53f6c9",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "major-publisher-cans-2-4-million-book-deal-after-f7b7bec0-aug02",
+        "category": "Product Updates",
+        "title": "Major Publisher Cans $2.4 Million Book Deal After Author Was Accused of Using AI, for a Very Cynical Reason",
+        "source": "Futurism AI",
+        "summary": "\"Unfortunately, we are no longer able to authenticate how the manuscript fully evolved from origin to completion.\" The post Major Publisher Cans $2.4 Million Book Deal After Author Was Accused of Using AI, for a Very Cynical Reason appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/major-publisher-million-book-deal-author-accused-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/major-publisher-million-book-deal-author-accused-ai.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "employees-long-for-the-days-before-the-workplace-9ded7d8b-aug02",
+        "category": "Product Updates",
+        "title": "Employees Long for the Days Before the Workplace Filled Up With AI Slop",
+        "source": "Futurism AI",
+        "summary": "Those were the days. The post Employees Long for the Days Before the Workplace Filled Up With AI Slop appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/employees-long-days-before-ai-slop",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/employees-long-days-before-ai-slop.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-prominent-ai-investor-is-now-crumbling-in-what-b2fe7b9e-aug02",
+        "category": "Product Updates",
+        "title": "A Prominent AI Investor Is Now Crumbling, in What Could Be a Sign of Things to Come",
+        "source": "Futurism AI",
+        "summary": "Careful who you trust your billions of dollars with. The post A Prominent AI Investor Is Now Crumbling, in What Could Be a Sign of Things to Come appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/situational-awareness-ai-investor-crumbling",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/situational-awareness-ai-investor-crumbling.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-pr-firm-is-using-fake-publicists-with-ai-gener-618824eb-aug02",
+        "category": "Product Updates",
+        "title": "A PR Firm Is Using Fake Publicists With AI-Generated Headshots to Spam Journalists With Pitches for Its Clients",
+        "source": "Futurism AI",
+        "summary": "Why am I getting emails from fake PR reps with AI-generated faces? The post A PR Firm Is Using Fake Publicists With AI-Generated Headshots to Spam Journalists With Pitches for Its Clients appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/pr-firm-fake-ai-publicists",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/pr-firm-fake-ai-publicists.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "5-ways-ai-could-save-our-democracy-54c068ae-aug02",
+        "category": "Product Updates",
+        "title": "5 ways AI could save our democracy",
+        "source": "Fast Company AI",
+        "summary": "What if we treat democratic dysfunction the way we treat cancer or carbon emissions?",
+        "href": "https://www.fastcompany.com/91578212/ai-could-save-democracy?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=08042026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91578212-Tech-NBIC-Why-the-Future-of-Democracy-May-Depend-on-AI.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-eu-is-cracking-down-on-hacking-and-ai-deepfa-17653850-aug02",
+        "category": "Model Releases",
+        "title": "The EU is cracking down on hacking and AI deepfakes with this new team in Brussels",
+        "source": "Fast Company AI",
+        "summary": "Brussels will begin to track models for violations ahead of the launch of the AI Act this weekend.",
+        "href": "https://www.fastcompany.com/91583269/eu-cracking-down-hacking-ai-deepfakes-new-team-brussels?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=7&partner=newsletter&campaign_date=08042026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/AP26211309920163.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-ai-industry-is-rallying-around-open-models-i-a4608dd4-aug02",
+        "category": "Model Releases",
+        "title": "The AI industry is rallying around open models. Is it more than talk?",
+        "source": "Fast Company AI",
+        "summary": "Transparent open-weight models may be great for safety and security, but very problematic for making money and paying off investors.",
+        "href": "https://www.fastcompany.com/91581867/the-ai-industry-is-rallying-around-open-models-is-it-more-than-talk?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=11&partner=newsletter&campaign_date=08042026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91581867-the-ai-industry-is-rallying-around-open-models-is-it-more-than-talk.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "5-books-that-will-deepen-your-understanding-of-l-58ca09f0-aug02",
+        "category": "Model Releases",
+        "title": "5 Books That Will Deepen Your Understanding of Large Language Models",
+        "source": "KDnuggets",
+        "summary": "Check out these five books on building, fine-tuning, and deploying large language models.",
+        "href": "https://www.kdnuggets.com/5-books-that-will-deepen-your-understanding-of-large-language-models",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-5-books-deepen-understanding-large-language-models-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "building-voice-controlled-ai-agents-bbe5ba14-aug02",
+        "category": "Agents",
+        "title": "Building Voice-Controlled AI Agents",
+        "source": "KDnuggets",
+        "summary": "Building a voice-controlled AI agents isn't hard, this article breaks the pipeline into its real components: streaming speech recognition, turn detection, streaming generation, interruption handling, and tool calling under voice constraints and shows what eac...",
+        "href": "https://www.kdnuggets.com/building-voice-controlled-ai-agents",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Building-Voice-Controlled-AI-Agents-scaled.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-presence-wants-to-make-ai-agents-producti-54c4eac2-aug02",
+        "category": "Developer Tools",
+        "title": "OpenAI Presence wants to make AI agents production-ready for businesses",
+        "source": "The Decoder",
+        "summary": "OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For complex cases, OpenAI's own engineers step i...",
+        "href": "https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/openai-scientific-software-nano-banana-pro.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-the-ai-industry-forgot-two-of-its-best-ideas-3f55373d-aug02",
+        "category": "Developer Tools",
+        "title": "How the AI industry forgot two of its best ideas",
+        "source": "Fast Company AI",
+        "summary": "And what it can learn from Roman concrete.",
+        "href": "https://www.fastcompany.com/91577826/how-ai-industry-forgot-two-best-ideas?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=10&partner=newsletter&campaign_date=08042026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-91577826-how-AI-industry-forgot-two-of-its-greatest-ideas.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "could-ai-take-your-job-some-workers-in-china-alr-15cc492f-aug02",
+        "category": "Developer Tools",
+        "title": "Could AI take your job? Some workers in China already know the answer",
+        "source": "The Guardian AI",
+        "summary": "Across the country, workers are fearful about the impact of AI on their livelihoods in an increasingly fragile labour market On the tree-lined streets of Wuhan, where cars jostle for space with mopeds and cargo trucks, the malfunctioning of a new type of vehi...",
+        "href": "https://www.theguardian.com/world/2026/jul/31/china-ai-jobs-workers-labour-market-technology",
+        "imageUrl": "https://i.guim.co.uk/img/media/3ce356aad9a745854a5c27720db1c03216959a5a/1364_788_3114_2492/master/3114.jpg?width=140&quality=85&auto=format&fit=max&s=a0ac91e1359cda86ccbab3b9392da136",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "building-abundant-intelligence-6e145b01-aug02",
+        "category": "Developer Tools",
+        "title": "Building abundant intelligence",
+        "source": "OpenAI Blog",
+        "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+        "href": "https://openai.com/index/building-abundant-intelligence",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2nex5TzYgCDCspDRG54rgh/2be09e779b11b569ce391490323e86bb/Frame__8_.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "advancing-responsible-ai-across-europe-b86dc435-aug02",
+        "category": "Policy",
+        "title": "Advancing responsible AI across Europe",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+        "href": "https://openai.com/index/advancing-responsible-ai-across-europe",
+        "imageUrl": "assets/news/fallback-ai-datacenter-aerial.jpg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-labels-to-be-compulsory-on-authentic-looking-2b050ff8-aug02",
+        "category": "Creative AI",
+        "title": "AI labels to be compulsory on authentic-looking content under EU rules",
+        "source": "The Guardian AI",
+        "summary": "Companies must ensure people know when they are interacting with artificially generated images, audio and text designed to look real From apparently conspiring to steal elections to abusing staff or performing embarrassing dance moves, the last few years have...",
+        "href": "https://www.theguardian.com/technology/2026/jul/31/ai-labels-to-be-compulsory-on-authentic-looking-content-under-eu-rules",
+        "imageUrl": "https://i.guim.co.uk/img/media/406704301905abb072d8bd2b3d9d87864722bf4a/0_21_3000_2399/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=b8cbe530f7257c7745e8605a667b3601",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ten-advances-in-mathematics-and-theoretical-comp-6d58997b-aug02",
+        "category": "Research Workflows",
+        "title": "Ten advances in mathematics and theoretical computer science",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+        "href": "https://openai.com/index/ten-advances-in-mathematics",
+        "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chinese-ai-researchers-are-finding-their-voice-o-f112272f-aug02",
+        "category": "Research Workflows",
+        "title": "Chinese AI Researchers Are Finding Their Voice on X",
+        "source": "WIRED AI",
+        "summary": "As OpenAI and Anthropic employees grow quieter online, researchers at Chinese AI labs are flocking to X to explain their work, recruit talent, and shape the global conversation on AI.",
+        "href": "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/",
+        "imageUrl": "https://media.wired.com/photos/6a6bc43ecd95420c8647a339/master/pass/Made-in-China--China-AI-Researchers-Are-Finding-Their-Voice-on-X-Business.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-07-23",
     "label": "July 23, 2026",
     "items": [
@@ -1755,16 +2703,6 @@
         "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
       },
       {
-        "id": "what-building-shippy-taught-us-about-building-ag-53e3149d-jul18",
-        "category": "Agents",
-        "title": "What building Shippy taught us about building agents",
-        "source": "Hugging Face Blog",
-        "summary": "Hugging Face Blog reported: What building Shippy taught us about building agents",
-        "href": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/2Ncq9fY3Po30QjlACoYTY.png",
-        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
-      },
-      {
         "id": "every-modality-through-one-api-d8f0329e-jul18",
         "category": "Model Releases",
         "title": "Every Modality Through One API",
@@ -3141,16 +4079,6 @@
         "href": "https://www.kdnuggets.com/getting-started-with-conductor-for-gemini-cli",
         "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-An-Introduction-to-the-Antigravity-CLI-for-Gemini-scaled.png",
         "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "mistral-vibe-for-code-vs-claude-code-vs-cursor-v-03f73e56-jul15",
-        "category": "Developer Tools",
-        "title": "Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task",
-        "source": "MarkTechPost Research",
-        "summary": "MarkTechPost Research reported: Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task",
-        "href": "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/07/blog19132-20-1024x731.png",
-        "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window."
       },
       {
         "id": "codex-starts-encrypting-sub-agent-prompts-4bd90928-jul15",
@@ -9285,16 +10213,6 @@
         "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
-        "id": "xiaomi-s-new-open-source-agentic-ai-coding-harne-20130169-jun12",
-        "category": "Developer Tools",
-        "title": "Xiaomi's new open source, agentic AI coding harness MiMo Code beats Claude Code at ultra-long, 200+ step tasks",
-        "source": "VentureBeat",
-        "summary": "Xiaomi's MiMo AI team has open-sourced MiMo Code V0.1.0 , a terminal-native AI coding assistant that the Chinese electronics giant says outperforms Anthropic's Claude Code on key agentic coding benchmarks, especially on long-horizon, multi-step tasks (200+ st...",
-        "href": "https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks",
-        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/12q7BpuvmPejutBrIyn6sZ/404c467dfe2af6da6c3a0854eb32fc98/Gemini_Generated_Image_fg84xafg84xafg84.png?w=300&q=30",
-        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
-      },
-      {
         "id": "evaluate-ai-agents-systematically-with-agent-eva-06b27fa5-jun12",
         "category": "Developer Tools",
         "title": "Evaluate AI agents systematically with Agent-EvalKit",
@@ -12157,16 +13075,6 @@
         "href": "https://www.zdnet.com/article/google-omni-ai-tool-video-gemini/",
         "imageUrl": "https://www.zdnet.com/a/img/resize/a51153c4d1a4e53d2da41218afebe9489ca556ce/2026/05/08/b82b10eb-f9ab-468e-b9f1-27bb60e7cb8f/google-io-zdnet-02.jpg?auto=webp&fit=crop&height=675&width=1200",
         "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "nvidia-releases-polar-a-token-faithful-rollout-f-fd0adca1-may28",
-        "category": "Developer Tools",
-        "title": "NVIDIA Releases Polar, a Token-Faithful Rollout Framework for GRPO Training Across Codex, Claude Code, and Qwen Code",
-        "source": "MarkTechPost",
-        "summary": "NVIDIA researchers have introduced Polar, a rollout framework that trains language agents using reinforcement learning without modifying their agent harnesses. Polar places a model API proxy between the harness and the inference server, capturing token-level...",
-        "href": "https://www.marktechpost.com/2026/05/27/nvidia-releases-polar-a-token-faithful-rollout-framework-for-grpo-training-across-codex-claude-code-and-qwen-code/",
-        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/05/Screenshot-2026-05-27-at-10.08.51-AM-1.png",
-        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
       },
       {
         "id": "robinhood-lets-ai-agents-trade-shares-and-make-c-cf70ab9b-may28",
