@@ -371,6 +371,578 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-06",
+    "label": "August 6, 2026",
+    "items": [
+      {
+        "id": "google-says-it-will-begin-removing-google-assist-b61b9ade-aug06",
+        "category": "Model Releases",
+        "title": "Google says it will begin removing Google Assistant from Android and Wear OS devices on September 4, replaced by Gemini...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Google says it will begin removing Google Assistant from Android and Wear OS devices on September 4, replaced by Gemini; Assistant remains on connected cars (Abner Li/9to5Google)",
+        "href": "https://www.techmeme.com/260805/p15",
+        "imageUrl": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/04/Google-Assistant-UI-9.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-stopped-scrubbing-through-long-youtube-videos-097b1053-aug06",
+        "category": "Developer Tools",
+        "title": "I stopped scrubbing through long YouTube videos after tapping this hidden Gemini button",
+        "source": "Android Police",
+        "summary": "I'll never watch long tutorials the old way again I'll never watch long tutorials the old way again I'll never watch long tutorials the old way again Watching videos on YouTube usually means sitting through the entire clip. If a section goes by too quickly or...",
+        "href": "https://www.androidpolice.com/stopped-scrubbing-through-long-youtube-videos-after-tapping-hidden-gemini-button",
+        "imageUrl": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/05/using-gemini-with-youtube-music.jpg?w=1600&h=900&fit=crop",
+        "excerpt": "Radar signal: Android Police surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-says-my-prepaid-credits-were-consumed-ref-b1ddc240-aug06",
+        "category": "Developer Tools",
+        "title": "OpenAI says my prepaid credits were consumed, refuses to show any record",
+        "source": "Hacker News",
+        "summary": "I was a happy OpenAI customer. ChatGPT Pro subscription, Codex for my daily work as a lighting designer, $379 spent on credits in July alone. This is the story of how OpenAI turned me into someone who will not give them another dollar - and documented every s...",
+        "href": "https://community.openai.com/t/how-openai-lost-a-paying-customer-over-160-it-refuses-to-explain/1389233",
+        "imageUrl": "https://us1.discourse-cdn.com/openai1/original/4X/0/4/c/04c8546833f0824a49d21f50e2b08dd44bfd3d05.png",
+        "excerpt": "Radar signal: Hacker News surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "game-set-chat-how-tennis-players-use-ai-to-scout-cebe5fe2-aug06",
+        "category": "Developer Tools",
+        "title": "Game, set, Chat: how tennis players use AI to scout opponents and run their lives",
+        "source": "The Guardian AI",
+        "summary": "The emergence of GenAI has led to a generational shift with stars conflicted on the impact of technology on their sport Not so long ago, Emma Raducanu was on her phone when she found herself wondering what her comprehensive usage of ChatGPT said about her own...",
+        "href": "https://www.theguardian.com/sport/2026/aug/05/ai-chatgpt-robots-tennis-players-scouting-technology",
+        "imageUrl": "https://i.guim.co.uk/img/media/dc344b3cb9fc91d7e6ba9e0059188a561855dcf7/1076_755_2215_1771/master/2215.jpg?width=140&quality=85&auto=format&fit=max&s=b14ff8b716d18f1a7a2ce517d40b162a",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-222-a2aa8ac1-aug06",
+        "category": "Developer Tools",
+        "title": "v2.1.222",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.222",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.222",
+        "imageUrl": "https://opengraph.githubassets.com/25f80c55f139c53efde9361c090d343147d7d9e2dbb6f13c91afc19c12398858/anthropics/claude-code/releases/tag/v2.1.222",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-mythos-5-made-sock-puppet-accounts-to-soc-924408ca-aug06",
+        "category": "Developer Tools",
+        "title": "Claude Mythos 5 made sock puppet accounts to socially engineer developers: here's what enterprises should know",
+        "source": "VentureBeat",
+        "summary": "The UK AI Security Institute (AISI ) disclosed last night that the leading two frontier AI models from Anthropic and OpenAI took 19 unsanctioned actions against the live internet during cybersecurity tests the agency was running, including a sustained campaig...",
+        "href": "https://venturebeat.com/security/claude-mythos-5-made-sock-puppet-accounts-to-socially-engineer-developers-heres-what-enterprises-should-know",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5IwdKCmPVOLnPwHjiXnBSH/8bf0c1fb63a64d9b11f56b7cb1ce707a/ChatGPT_Image_Aug_5__2026__12_54_37_PM.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "deploy-local-agents-everywhere-with-lfm2-5-2-6b-ea7f6df3-aug06",
+        "category": "Agents",
+        "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Deploy local agents everywhere with LFM2.5-2.6B",
+        "href": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/DsoMk3kqhMYedjPiZINKv.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "hark-founded-by-figure-ai-ceo-brett-adcock-previ-b6e333f5-aug06",
+        "category": "Agents",
+        "title": "Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opu...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus 4.8, and plans for a summer release (Ivan Mehta/TechCrunch)",
+        "href": "https://www.techmeme.com/260805/p30",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/Screenshot-2026-08-05-at-8.10.59-PM.jpg?resize=1200,596",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "prime-agent-a-self-improving-rlm-agent-8546e017-aug06",
+        "category": "Developer Tools",
+        "title": "Prime Agent: A self-improving RLM agent",
+        "source": "Hacker News",
+        "summary": "Prime Agent is our open-source, self-improving coding harness built around two abstractions: the Recursive Language Model (RLM) and the Continual Harness. With Opus 5, it achieves 95.5% on ARC-AGI-3, surpassing the reported human expert baseline. Prime Agent...",
+        "href": "https://www.primeintellect.ai/blog/prime-agent",
+        "imageUrl": "https://primeintellect.ai/blog/prime-agent/cover.png?v=prime-agent",
+        "excerpt": "Radar signal: Hacker News surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "filing-microsoft-recorded-24-1b-in-revenue-from-a7d6c0ae-aug06",
+        "category": "Product Updates",
+        "title": "Filing: Microsoft recorded $24.1B in revenue from OpenAI during the year ended in June, suggesting OpenAI accounted for...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Filing: Microsoft recorded $24.1B in revenue from OpenAI during the year ended in June, suggesting OpenAI accounted for more than half of Microsoft's AI sales (Bloomberg)",
+        "href": "https://www.techmeme.com/260805/p35",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iUa4SNMP_XyE/v1/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "your-model-already-knows-the-answer-how-benchmar-81c65333-aug06",
+        "category": "Model Releases",
+        "title": "Your model already knows the answer: how benchmark answers leak into LLMs",
+        "source": "HN Algolia · AI 24h",
+        "summary": "The best test of an AI model is a real world problem with a known answer. It is also the easiest test to cheat. The best test of an AI model is a real world problem with a known answer. It is also the easiest test to cheat. Three ways the answer leaks in, and...",
+        "href": "https://elman.ai/news/your-model-already-knows-the-answer",
+        "imageUrl": "https://elman.ai/assets/og-news-contamination.png",
+        "excerpt": "Radar signal: HN Algolia · AI 24h surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "reddit-expands-its-test-of-rules-hub-a-suite-of-60e7f49f-aug06",
+        "category": "Model Releases",
+        "title": "Reddit expands its test of Rules Hub, a suite of tools that rely on LLMs to help moderators manage their communities, a...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Reddit expands its test of Rules Hub, a suite of tools that rely on LLMs to help moderators manage their communities, and plans a full launch later this year (Jay Peters/The Verge)",
+        "href": "https://www.techmeme.com/260805/p31",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-hacks-are-bad-ai-worms-and-viruses-will-be-wo-5b89f46f-aug06",
+        "category": "Model Releases",
+        "title": "AI Hacks Are Bad. AI Worms and Viruses Will Be Worse",
+        "source": "WIRED AI",
+        "summary": "Chinese researchers have shown that AI models have the capacity to act like aggressive and adaptive computer viruses.",
+        "href": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
+        "imageUrl": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-smart-people-in-tech-are-saying-about-googl-34570d9a-aug06",
+        "category": "Developer Tools",
+        "title": "What smart people in tech are saying about Google's AI leadership restructuring",
+        "source": "Business Insider",
+        "summary": "Opinions diverge on what it means for DeepMind's future as Google overhauls its AI leadership. Opinions diverge on what it means for DeepMind's future as Google overhauls its AI leadership. Google is overhauling its AI leadership . CEO Sundar Pichai said in a...",
+        "href": "https://www.businessinsider.com/smart-people-in-tech-and-business-react-google-ai-restructuring-2026-8",
+        "imageUrl": "https://i.insider.com/6a739abd3f00ff875d13d8c3?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Business Insider surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "source-yunfeng-capital-a-pe-firm-co-founded-by-j-9c9580a8-aug06",
+        "category": "Developer Tools",
+        "title": "Source: Yunfeng Capital, a PE firm co-founded by Jack Ma, invested ~$30M in AI insurance tech startup Corgi, leading a...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Source: Yunfeng Capital, a PE firm co-founded by Jack Ma, invested ~$30M in AI insurance tech startup Corgi, leading a round that reportedly valued Corgi at $4B (Business Insider)",
+        "href": "https://www.techmeme.com/260805/p33",
+        "imageUrl": "https://i.insider.com/6a736c18f9ea6266446ef07d?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meta-releases-muse-code-in-beta-a-terminal-codin-b383e297-aug06",
+        "category": "Developer Tools",
+        "title": "Meta releases Muse Code in beta, a terminal coding agent powered by Muse Spark 1.2, a coding-focused model priced at $1...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Meta releases Muse Code in beta, a terminal coding agent powered by Muse Spark 1.2, a coding-focused model priced at $1.25/1M input and $4.25/1M output tokens (Jonathan Vanian/CNBC)",
+        "href": "https://www.techmeme.com/260805/p34",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108317329-1780663279355-gettyimages-2279132083-BLOOMBERG_TECH.jpeg?v=1780663408&w=1920&h=1080",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-shakes-up-ai-leadership-demis-hassabis-st-ec53d1f2-aug06",
+        "category": "Developer Tools",
+        "title": "Google shakes up AI leadership. Demis Hassabis steps down as CEO of DeepMind, and Jeff Dean leaves.",
+        "source": "Business Insider",
+        "summary": "Some of Google's top AI leaders are leaving their roles, with DeepMind CEO Demis Hassabis taking another role at Alphabet and Jeff Dean leaving. Some of Google's top AI leaders are leaving their roles, with DeepMind CEO Demis Hassabis taking another role at A...",
+        "href": "https://www.businessinsider.com/google-ai-leadership-demis-hassabis-steps-down-deepmind-ceo-2026-8",
+        "imageUrl": "https://i.insider.com/6a736564f9ea6266446ef024?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Business Insider surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "disney-s-latest-tiktok-deal-shows-it-s-betting-o-3986334a-aug06",
+        "category": "Developer Tools",
+        "title": "Disney's latest TikTok deal shows it's betting on real creators instead of AI-generated videos",
+        "source": "TechRadar",
+        "summary": "Doubling down on creators over AI Doubling down on creators over AI Doubling down on creators over AI",
+        "href": "https://www.techradar.com/streaming/entertainment/disneys-latest-tiktok-deal-shows-its-betting-on-real-creators-instead-of-ai-generated-videos",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/FDJVHckNtgaE9c9EALrKZc-1920-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "disney-ceo-josh-d-amaro-outlines-his-vision-for-49a5bdf8-aug06",
+        "category": "Developer Tools",
+        "title": "Disney CEO Josh D'Amaro outlines his vision for Disney+ and AI in a new staff memo after a strong quarter",
+        "source": "Business Insider",
+        "summary": "Disney CEO Josh D'Amaro said the company's strong quarter \"reflects the strength of our businesses\" and \"the extraordinary work you do every day.\" Disney CEO Josh D'Amaro said the company's strong quarter \"reflects the strength of our businesses\" and \"the ext...",
+        "href": "https://www.businessinsider.com/disney-ceo-josh-damaro-read-the-memo-employees-strong-quarter-2026-8",
+        "imageUrl": "https://i.insider.com/6a733e224327cd5a0ae2e9f3?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Business Insider surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "democracy-is-at-stake-when-foolish-humans-bet-on-47480acd-aug06",
+        "category": "Developer Tools",
+        "title": "Democracy is at stake when foolish humans bet on machines being intelligent | Rafael Behr",
+        "source": "The Guardian AI",
+        "summary": "We need an enlightened US president to make the case for global AI regulation. Donald Trump is the exact opposite of what is needed When I am woken by the sound of my dog whining, I understand that she is hungry and wants me to get up. When my alarm clock goe...",
+        "href": "https://www.theguardian.com/commentisfree/2026/aug/05/ai-regulation-donald-trump-artificial-intelligence",
+        "imageUrl": "https://i.guim.co.uk/img/media/a49e30a11ac40a6645f2c7e72f02d47b8b5b7b42/569_0_4202_3362/master/4202.jpg?width=140&quality=85&auto=format&fit=max&s=3e52d41756d570fa880147a45fa15c23",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "jeff-dean-and-three-other-google-execs-are-leavi-fc128a91-aug06",
+        "category": "Creative AI",
+        "title": "Jeff Dean and three other Google execs are leaving to launch Discovery Loop, which will seek AI-powered breakthroughs i...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Jeff Dean and three other Google execs are leaving to launch Discovery Loop, which will seek AI-powered breakthroughs in drug discovery, chip design, and more (Steven Levy/Wired)",
+        "href": "https://www.techmeme.com/260805/p27",
+        "imageUrl": "https://media.wired.com/photos/6a731599a89f1c896d22f70e/191:100/w_1280,c_limit/Discovery%20Loop%20-%20Founders%202.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "label": "August 5, 2026",
+    "items": [
+      {
+        "id": "google-plans-to-kill-assistant-on-your-phone-on-3432a5c0-aug05",
+        "category": "Model Releases",
+        "title": "Google plans to kill Assistant on your phone on September 4",
+        "source": "Ars Technica",
+        "summary": "Assistant will disappear, leaving only Gemini for voice control in the coming weeks.",
+        "href": "https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-assistant-to-shut-down-on-android-wear-os-f5cb2d49-aug05",
+        "category": "Model Releases",
+        "title": "Google Assistant to shut down on Android, Wear OS next month",
+        "source": "Mashable",
+        "summary": "After a decade of existence, Google is finally sunsetting Google Assistant in favor of Gemini.",
+        "href": "https://mashable.com/tech/google-assistant-shutting-down-android-wearos-september",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/03Te4AVqItlWJblxYthxCQz/hero-image.fill.size_1200x675.v1785940427.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "circles-powers-telco-personalization-with-openai-54e616a3-aug05",
+        "category": "Developer Tools",
+        "title": "Circles powers telco personalization with OpenAI technology",
+        "source": "OpenAI Blog",
+        "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+        "href": "https://openai.com/index/circles",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6SrsRUn9KUfNC6pQe9TnWE/8da0b4ff1f315d237b7bc5354af29ad1/oai_Circles_SEO.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "8-working-parents-share-how-they-use-ai-to-give-cdcb3dff-aug05",
+        "category": "Developer Tools",
+        "title": "8 working parents share how they use AI to give them more time with their kids",
+        "source": "Business Insider",
+        "summary": "Working parents say AI platforms like ChatGPT and Claude help them manage schedules, freeing them up to spend more time with their kids. Working parents say AI platforms like ChatGPT and Claude help them manage schedules, freeing them up to spend more time wi...",
+        "href": "https://www.businessinsider.com/working-parents-use-ai-chatgpt-claude-family-kids-2026-8",
+        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+        "excerpt": "Radar signal: Business Insider surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-confirms-it-is-building-an-in-house-si-18da8b2f-aug05",
+        "category": "Developer Tools",
+        "title": "Anthropic confirms it is building an in-house silicon team to design custom chips for Claude, co-designing hardware and...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Anthropic confirms it is building an in-house silicon team to design custom chips for Claude, co-designing hardware and models and using a \"multi-chip approach\" (Tom Carter/Business Insider)",
+        "href": "https://www.techmeme.com/260805/p19",
+        "imageUrl": "https://i.insider.com/6a732d573f00ff875d13d40a?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "us-appeals-court-allows-perplexity-s-ai-shopping-77512325-aug05",
+        "category": "Developer Tools",
+        "title": "US appeals court allows Perplexity's AI shopping agent back on Amazon",
+        "source": "The Decoder",
+        "summary": "A US appeals court has overturned Amazon's injunction against Perplexity's AI shopping agents, ruling that it's the users who access Amazon, not the startup. It's the first federal appeals court decision on whether AI agents can lawfully act on online platfor...",
+        "href": "https://the-decoder.com/us-appeals-court-allows-perplexitys-ai-shopping-agent-back-on-amazon/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/amazon_vs_perplexity_lawsuit.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "genspark-open-sources-genoffice-a-free-ad-free-a-abe490a3-aug05",
+        "category": "Developer Tools",
+        "title": "Genspark Open Sources GenOffice: A Free, Ad-Free AI Office Suite for macOS and Windows with Docs, Sheets, Slides, PDF",
+        "source": "MarkTechPost",
+        "summary": "Genspark has open sourced GenOffice under the Apache License 2.0. It is an AI-native office suite for macOS and Windows, covering Docs, Sheets, Slides and PDF as five Electron apps over one shared engine layer. The notable engineering claim is a byte-preservi...",
+        "href": "https://www.marktechpost.com/2026/08/03/genspark-open-sources-genoffice-a-free-ad-free-ai-office-suite-for-macos-and-windows-with-docs-sheets-slides-pdf/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/high-level-description-a-tech-news-cover_ZCsPPdgeWVyT_N_w-0YNbw_80NcwxTETLOSb0ADNIkbhA_cover_2k-1024x768.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-give-your-ai-agents-reliable-app-access-f-a7a88c82-aug05",
+        "category": "Agents",
+        "title": "How to give your AI agents reliable app access for free",
+        "source": "Zapier Blog",
+        "summary": "As advanced as AI agents have become, they still fall short in one respect: connecting to your apps reliably. That's because every app authenticates, structures its endpoints, shapes its data, and breaks in its own way. An agent has to learn all those rules b...",
+        "href": "https://zapier.com/blog/connect-ai-agents-to-apps",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/1WLrdhT0KKKoplgaXGV8xC/68a7c74381f0cee6dc1548aeda1e6389/Hero__App_tips__-icon-__1_.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cursor-open-sources-mixture-of-kittens-mok-a-det-bdf5c1a6-aug05",
+        "category": "Model Releases",
+        "title": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+        "source": "MarkTechPost",
+        "summary": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Composer models. MoK fuses all mixture-of-experts communication and computation into a single deterministic kernel, and runs up to 2.37x faster than the stronges...",
+        "href": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog6176-10.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-organizations-are-making-trade-offs-on-softw-9d12038c-aug05",
+        "category": "Product Updates",
+        "title": "Why organizations are making trade-offs on software quality in the race to deliver faster",
+        "source": "TechRadar Software",
+        "summary": "AI is shifting software quality from an engineering challenge to a leadership and governance priority.",
+        "href": "https://www.techradar.com/pro/why-organizations-are-making-trade-offs-on-software-quality-in-the-race-to-deliver-faster",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/ywSwn3oGxXv4PfcRPZmTrc-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "turn-any-csv-into-an-executive-report-with-pytho-244d7049-aug05",
+        "category": "Product Updates",
+        "title": "Turn Any CSV into an Executive Report with Python and AI",
+        "source": "KDnuggets",
+        "summary": "Learn to implement a repeatable pipeline that cleans a CSV, finds the story, and writes it up.",
+        "href": "https://www.kdnuggets.com/turn-any-csv-into-an-executive-report-with-python-and-ai",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-CSV-Executive-Report-Python-AI-1.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "to-navigate-the-fraught-ai-landscape-we-need-to-3a9c0be2-aug05",
+        "category": "Product Updates",
+        "title": "To navigate the fraught AI landscape, we need to shift from debate to dialogue",
+        "source": "Fast Company AI",
+        "summary": "Debate asks who is right. Dialogue asks what is true, what matters, and what should we do next.",
+        "href": "https://www.fastcompany.com/91582883/ai-landscape-we-need-to-shift-from-debate-to-dialog?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=08062026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91582883-Tech-CN-To-navigate-the-fraught-AI-landscape-we-need-to-shift-from-dialog-to-debate.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-ai-notetaker-has-been-invited-to-all-the-mee-b6227919-aug05",
+        "category": "Product Updates",
+        "title": "The AI Notetaker Has Been Invited to All the Meetings",
+        "source": "WIRED AI",
+        "summary": "Wispr Flow, a popular dictation tool, has released a live notetaker that transcribes and summarizes meetings. It joins a growing wave of AI notetakers for the workplace.",
+        "href": "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/",
+        "imageUrl": "https://media.wired.com/photos/6a723b563dd3b6c0778900ef/master/pass/Gear_Wispr%20CEO%20Talks%20About%20the%20App%E2%80%99s%20New%20AI%20Notetaker_v1.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "tech-companies-are-setting-themselves-on-fire-to-5310c879-aug05",
+        "category": "Product Updates",
+        "title": "Tech Companies Are Setting Themselves on Fire to Keep Up in the AI Race",
+        "source": "Futurism AI",
+        "summary": "But why? The post Tech Companies Are Setting Themselves on Fire to Keep Up in the AI Race appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/tech-companies-setting-on-fire-ai-race",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/tech-companies-setting-on-fire-ai-race.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "parents-horrified-as-boomer-mawmaws-gift-childre-5e519d15-aug05",
+        "category": "Product Updates",
+        "title": "Parents Horrified as Boomer Mawmaws Gift Children Blatant AI Slop Picture Books",
+        "source": "Futurism AI",
+        "summary": "\"Well-meaning on their end, but f**king yikes.\" The post Parents Horrified as Boomer Mawmaws Gift Children Blatant AI Slop Picture Books appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/parents-horrified-ai-children-book",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/boomers-ai-slop-picturebooks.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "new-ai-chatbot-turns-out-to-be-one-overworked-gu-260afd6d-aug05",
+        "category": "Product Updates",
+        "title": "New AI Chatbot Turns Out to Be One Overworked Guy Answering All the Messages by Hand",
+        "source": "Futurism AI",
+        "summary": "\"You ask a question, and a person named Tucker reads it, thinks about it, and writes back when awake and motivated.\" The post New AI Chatbot Turns Out to Be One Overworked Guy Answering All the Messages by Hand appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ai-chatbot-one-overworked-guy",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/ai-chatbot-one-overworked-guy.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-pringles-maker-kellanova-is-using-ai-and-a-p-18046526-aug05",
+        "category": "Product Updates",
+        "title": "How Pringles maker Kellanova is using AI and a partnership with Siemens to improve production of the chip in Europe, in...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: How Pringles maker Kellanova is using AI and a partnership with Siemens to improve production of the chip in Europe, including making digital twins of its dough (Isabelle Bousquette/Wall Street Journal)",
+        "href": "https://www.techmeme.com/260805/p20",
+        "imageUrl": "https://images.wsj.net/im-45838981/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "duckduckgo-is-selling-anti-pervert-glasses-that-2d3c70b9-aug05",
+        "category": "Product Updates",
+        "title": "DuckDuckGo Is Selling Anti Pervert Glasses That Contain Zero AI, Cameras, or Even Electronics Whatsoever",
+        "source": "Futurism AI",
+        "summary": "\"0/10... Useless for perverts.\" The post DuckDuckGo Is Selling Anti Pervert Glasses That Contain Zero AI, Cameras, or Even Electronics Whatsoever appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/duckduckgo-selling-anti-pervert-glasses",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/duckduckgo-selling-anti-pervert-glasses.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "business-world-stunned-that-a-restaurant-chain-i-4abd2411-aug05",
+        "category": "Product Updates",
+        "title": "Business World Stunned That a Restaurant Chain Is Doing Well Without Mindlessly Embracing AI",
+        "source": "Futurism AI",
+        "summary": "Shocking! The post Business World Stunned That a Restaurant Chain Is Doing Well Without Mindlessly Embracing AI appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/chilis-restaurant-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/chilis-restaurant-ai.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "at-the-2026-international-congress-of-mathematic-9a05457c-aug05",
+        "category": "Product Updates",
+        "title": "At the 2026 International Congress of Mathematicians, 20+ mathematicians reflect on how AI advances are transforming th...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: At the 2026 International Congress of Mathematicians, 20+ mathematicians reflect on how AI advances are transforming their work and field; many are optimistic (Kai Williams/Understanding AI)",
+        "href": "https://www.techmeme.com/260805/p5",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!DufQ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0935e35c-afb9-4aa7-a94a-9062b496dc04_2048x1445.jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-deepfakes-are-already-in-full-force-this-elec-5093cd88-aug05",
+        "category": "Product Updates",
+        "title": "AI deepfakes are already in full force this election season",
+        "source": "Fast Company AI",
+        "summary": "Synthetic campaign ads have become a routine feature of American politics. Their real influence remains an open question.",
+        "href": "https://www.fastcompany.com/91585118/ai-deepfakes-are-already-in-full-force-this-election-season?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=08062026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91585118-weve-lost-the-ai-political-ads-battle.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-benefits-of-medical-ai-assistance-vary-based-e7216953-aug05",
+        "category": "Model Releases",
+        "title": "The benefits of medical AI assistance vary based on user expertise",
+        "source": "MIT News AI",
+        "summary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
+        "href": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/MIT-AI-Dermatology-01.jpg?itok=SvrI0eha",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-says-one-of-its-models-exploited-a-websit-5932aa57-aug05",
+        "category": "Model Releases",
+        "title": "OpenAI says one of its models exploited a website after third-party AI security lab Irregular mistakenly gave it access...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: OpenAI says one of its models exploited a website after third-party AI security lab Irregular mistakenly gave it access to the internet during evaluations (Wired)",
+        "href": "https://www.techmeme.com/260804/p53",
+        "imageUrl": "https://media.wired.com/photos/6a726eae679c5abd64d0d058/191:100/w_1280,c_limit/Chat-GPT-Agents-Hacking-More-Business-2275331611.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "europe-s-established-tech-groups-sap-capgemini-s-dc34c456-aug05",
+        "category": "Model Releases",
+        "title": "Europe's established tech groups SAP, Capgemini, Sopra Steria, and OVHcloud report stronger AI demand, as enterprises s...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Europe's established tech groups SAP, Capgemini, Sopra Steria, and OVHcloud report stronger AI demand, as enterprises shift from experimentation to deployment (Leo Marchandon/Reuters)",
+        "href": "https://www.techmeme.com/260805/p7",
+        "imageUrl": "https://www.reuters.com/resizer/v2/VIHOYGPUAZK25PYU7FIDR6GZ3A.jpg?auth=8d2f09c98bc0a21f6e79e7361304cad8b5916351f652be4fc07f0d65c01c8073&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "dover-mcp-a926424b-aug05",
+        "category": "Agents",
+        "title": "Dover MCP",
+        "source": "producthunt",
+        "summary": "producthunt reported: Dover MCP",
+        "href": "https://www.producthunt.com/products/dover",
+        "imageUrl": "assets/news/perplexity-billion-build.png",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cloudflare-announces-cloudflare-wallets-for-user-f5a4e6bb-aug05",
+        "category": "Agents",
+        "title": "Cloudflare announces Cloudflare Wallets for users to pay for APIs and content via stablecoins, with the ability to crea...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Cloudflare announces Cloudflare Wallets for users to pay for APIs and content via stablecoins, with the ability to create virtual wallets for agentic shopping (Jeff John Roberts/Fortune)",
+        "href": "https://www.techmeme.com/260804/p57",
+        "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/08/GettyImages-2259521299.jpg?resize=1200,600",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "turn-one-giant-ai-generated-pull-request-to-a-re-1dd7108e-aug05",
+        "category": "Developer Tools",
+        "title": "Turn one giant AI-generated pull request to a reviewable stack",
+        "source": "GitHub Blog",
+        "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable stack appeared first on The GitHub Blog .",
+        "href": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "third-party-cyber-evaluations-involving-openai-m-977f60f7-aug05",
+        "category": "Developer Tools",
+        "title": "Third-party cyber evaluations involving OpenAI models",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+        "href": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6RSPaWdKwEvT9xWx4IjQy2/a334438e4daf9f62c24541c00c212749/third-party-cyber-evaluations_16x9.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-google-is-in-talks-with-ai-coding-agent-ef9c56b3-aug05",
+        "category": "Developer Tools",
+        "title": "Sources: Google is in talks with AI coding agent startup Mechanize on a possible deal, potentially worth $1.5B+, to hir...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: Google is in talks with AI coding agent startup Mechanize on a possible deal, potentially worth $1.5B+, to hire some of its talent and license its tech (Business Insider)",
+        "href": "https://www.techmeme.com/260805/p18",
+        "imageUrl": "https://i.insider.com/6a72811d4327cd5a0ae2e26c?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "report-claims-china-is-distilling-u-s-frontier-m-154d3127-aug05",
+        "category": "Developer Tools",
+        "title": "Report claims China is distilling U.S. frontier models to power military AI applications",
+        "source": "SiliconANGLE AI",
+        "summary": "An exclusive report by Reuters today has surfaced evidence that suggests Chinese artificial intelligence firms have been leveraging the outputs of American frontier models developed by OpenAI Group PBC and Anthropic PBC to train their own AI systems for defen...",
+        "href": "https://siliconangle.com/2026/08/02/report-claims-china-distilling-u-s-frontier-models-power-military-ai-applications/",
+        "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/08/Screenshot-from-2026-08-03-10-22-03.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-moves-billions-in-anthropic-chip-risk-off-a2d04f52-aug05",
+        "category": "Developer Tools",
+        "title": "Google moves billions in Anthropic chip risk off its balance sheet",
+        "source": "The Decoder",
+        "summary": "Google is working with Broadcom, Apollo, Blackstone, and Morgan Stanley on a multibillion-dollar financing structure that supplies Anthropic with AI chips and data centers while keeping most of the risk off Google's balance sheet. The setup leaves roughly $20...",
+        "href": "https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/google_anthropic_finance_illustration.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "developers-in-africa-are-increasingly-choosing-c-014f1d0c-aug05",
+        "category": "Developer Tools",
+        "title": "Developers in Africa are increasingly choosing Chinese open-source AI models over US models, saying they are downloadab...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Developers in Africa are increasingly choosing Chinese open-source AI models over US models, saying they are downloadable, easier to customize, and much cheaper (New York Times)",
+        "href": "https://www.techmeme.com/260805/p22",
+        "imageUrl": "https://static01.nyt.com/images/2026/07/30/30visualUploader-29943-cover/30visualUploader-29943-cover-facebookJumbo.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "7-approaches-to-reduce-inference-latency-in-your-802b83f4-aug05",
+        "category": "Developer Tools",
+        "title": "7 Approaches to Reduce Inference Latency in Your LLM Workflows",
+        "source": "KDnuggets",
+        "summary": "From quantization to speculative decoding, here are seven engineering strategies to ship faster, more responsive generative AI applications in production.",
+        "href": "https://www.kdnuggets.com/7-approaches-to-reduce-inference-latency-in-your-llm-workflows",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-7-approaches-reduce-inference-latency-llm-workflows-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-white-house-is-keeping-its-ai-cybersecurity-feac0131-aug05",
+        "category": "Policy",
+        "title": "The White House Is Keeping Its AI Cybersecurity Framework Secret",
+        "source": "WIRED AI",
+        "summary": "The Trump administration shared the details of its plan with OpenAI, Anthropic, and other AI labs on Tuesday. For now, the public remains in the dark.",
+        "href": "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
+        "imageUrl": "https://media.wired.com/photos/6a7199c152cbcac31bc249b1/master/pass/Trump-Admin-Convenes-AI-Labs-to-Share-AI-Framework-Business-2282299237.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "faye-which-offers-travel-insurance-services-and-ba50d66c-aug05",
+        "category": "Funding",
+        "title": "Faye, which offers travel insurance services and uses AI to help resolve claims, raised a $50M Series C led by Madrona,...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Faye, which offers travel insurance services and uses AI to help resolve claims, raised a $50M Series C led by Madrona, taking its total funding to $100M (Chris Metinko/Axios)",
+        "href": "https://www.techmeme.com/260805/p23",
+        "imageUrl": "https://images.axios.com/-NbCEoKh_1D3H5YTGIrT3C8ddGA=/1366x768/smart/2024/07/29/230406-1722294246112.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-04",
     "label": "August 4, 2026",
     "items": [
