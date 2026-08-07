@@ -371,6 +371,342 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-07",
+    "label": "August 7, 2026",
+    "items": [
+      {
+        "id": "google-is-expanding-its-gemini-powered-ask-maps-3a40b89c-aug07",
+        "category": "Agents",
+        "title": "Google is expanding its Gemini-powered Ask Maps feature in English to 130+ countries and adds agentic food ordering, ho...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Google is expanding its Gemini-powered Ask Maps feature in English to 130+ countries and adds agentic food ordering, hotel booking, and attraction searching (Jada Jones/ZDNET)",
+        "href": "https://www.techmeme.com/260806/p20",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/2cdac9d6f5bc8a54ec96e880107b97835b5402b4/2025/03/25/bc0e1770-e2af-476a-ab6f-708d5b561fae/gemini-now-lets-you-talk-to-google-maps-to-find-out-more-about-a-business.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-canva-slashed-revenue-growth-forecast-as-979294ea-aug07",
+        "category": "Model Releases",
+        "title": "Sources: Canva slashed revenue growth forecast as heavy use of new AI features drove up costs and slowed their rollout,...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: Canva slashed revenue growth forecast as heavy use of new AI features drove up costs and slowed their rollout, while more Canva users turned to ChatGPT (The Information)",
+        "href": "https://www.techmeme.com/260806/p51",
+        "imageUrl": "https://tii.imgix.net/production/articles/17581/cdad7c68-39c8-46e8-829f-a499eb60eab5.jpg?fm=jpeg&auto=compress&w=610",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-improves-gpt-5-6-sol-in-chatgpt-and-restr-dfd3b132-aug07",
+        "category": "Developer Tools",
+        "title": "OpenAI improves GPT-5.6 Sol in ChatGPT and restricts free users to its weakest model",
+        "source": "The Decoder",
+        "summary": "OpenAI has updated GPT-5.6 Sol with more focused responses and a reasoning slider that lets users adjust how deeply the model thinks. Free users will get unlimited text chats with the smaller GPT-5.6 Luna starting next week, plus a button that lets Luna reaso...",
+        "href": "https://the-decoder.com/openai-improves-gpt-5-6-sol-in-chatgpt-and-restricts-free-users-to-its-weakest-model/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/openai_chatgpt.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-code-is-the-fastest-agent-framework-but-c-260ac77d-aug07",
+        "category": "Developer Tools",
+        "title": "Claude Code is the fastest agent framework but costs nearly three times more than the cheapest rival",
+        "source": "The Decoder AI News",
+        "summary": "Composio tested Deepseek V4 Flash across four agent frameworks on 30 real-world tasks. Success rates were mostly similar, but costs varied by nearly 3x: OpenCode came in cheapest at $0.073 per task, while Claude Code cost $0.195 despite using the fewest tool...",
+        "href": "https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/harness_agentic_software-1200x670.png",
+        "excerpt": "Radar signal: The Decoder AI News surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-deepseek-has-resumed-its-funding-round-s-f73f10aa-aug07",
+        "category": "Funding",
+        "title": "Sources: DeepSeek has resumed its funding round, seeking $8B at a $74B valuation, after pausing talks following the lea...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: DeepSeek has resumed its funding round, seeking $8B at a $74B valuation, after pausing talks following the leak of Liang Wenfeng's remarks to investors (Bloomberg)",
+        "href": "https://www.techmeme.com/260806/p25",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.MANQ2tjtk0/v0/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-will-design-its-own-hardware-to-power-e9bc6578-aug07",
+        "category": "Creative AI",
+        "title": "Anthropic will design its own hardware to power Claude",
+        "source": "Ars Technica",
+        "summary": "Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia.",
+        "href": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/amodei_header_1-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "figma-ceo-dylan-field-forfeits-46m-in-stock-awar-b3db1928-aug07",
+        "category": "Developer Tools",
+        "title": "Figma CEO Dylan Field forfeits ~$46M in stock awards to revive investor confidence amid AI disruption fears; FIG is dow...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Figma CEO Dylan Field forfeits ~$46M in stock awards to revive investor confidence amid AI disruption fears; FIG is down ~77% from its peak more than a year ago (Brody Ford/Bloomberg)",
+        "href": "https://www.techmeme.com/260806/p41",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iK7nIUGGhHrI/v1/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "suno-shares-plans-to-combat-spammy-ai-music-41710572-aug07",
+        "category": "Creative AI",
+        "title": "Suno shares plans to combat spammy AI music",
+        "source": "The Verge",
+        "summary": "Watermarks and download limits are a start. Suno announced plans to combat spammy AI music uploads with new watermarking technology and download limits. Watermarks and download limits are a start. Posts from this topic will be added to your daily email digest...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKB368_SUNO_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "suno-hopes-to-go-legit-with-watermarks-for-ai-ge-58ae0a2f-aug07",
+        "category": "Creative AI",
+        "title": "Suno hopes to go legit with watermarks for AI-generated music",
+        "source": "Ars Technica",
+        "summary": "Suno plans watermarks and download limits to stop \"large-scale abuse.\"",
+        "href": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/singing_robot_hero-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-guide-to-slash-commands-in-the-github-copilot-4427aa48-aug07",
+        "category": "Developer Tools",
+        "title": "A guide to slash commands in the GitHub Copilot app",
+        "source": "GitHub AI & ML",
+        "summary": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow. Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate...",
+        "href": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/06/MSFTBuild_Blog_Header_01.jpg",
+        "excerpt": "Radar signal: GitHub AI & ML surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-reportedly-slows-research-after-its-own-m-21778caf-aug07",
+        "category": "Developer Tools",
+        "title": "OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected",
+        "source": "The Decoder",
+        "summary": "During internal security tests, OpenAI's AI agents built their own message board with hundreds of thousands of posts, shared exploits and credentials, and eventually attacked external platforms like Hugging Face. When OpenAI shut the board down, the agents re...",
+        "href": "https://the-decoder.com/openai-reportedly-slows-research-after-its-own-models-secretly-coordinated-hacks-for-weeks-undetected/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/openai_logo_vis-1.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-developer-warns-the-tireless-eagle-eyes-o-247d0c83-aug07",
+        "category": "Developer Tools",
+        "title": "OpenAI developer warns the \"tireless eagle eyes of a million models\" are coming for your exposed API keys and crypto wa...",
+        "source": "The Decoder",
+        "summary": "OpenAI developer \"roon\" warns on X that AI models could soon start scanning for exposed API keys, crypto wallets, and login credentials at scale. His warning follows OpenAI's autonomous Hugging Face hack, which he called a \"warning shot.\" The article OpenAI d...",
+        "href": "https://the-decoder.com/openai-developer-warns-the-tireless-eagle-eyes-of-a-million-models-are-coming-for-your-exposed-api-keys-and-crypto-wallets/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/eagle_eyes_cybersecurity.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "governing-ai-spend-across-a-team-on-openrouter-e80a2fc4-aug07",
+        "category": "Developer Tools",
+        "title": "Governing AI Spend Across a Team on OpenRouter",
+        "source": "OpenRouter Announcements",
+        "summary": "Your team's AI bill is the total of every key each engineer holds. OpenRouter gives you six ways to control that spend, from per-key limits to Enterprise workspace budgets. This guide explains what each control caps, what plan it needs, and which ones fit you...",
+        "href": "https://openrouter.ai/blog/insights/governing-team-ai-spend/",
+        "imageUrl": "https://openrouter.ai/blog/images/governing-team-ai-spend.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-build-safe-and-trustworthy-ai-agents-with-0fdcebc9-aug07",
+        "category": "Developer Tools",
+        "title": "How to build safe and trustworthy AI agents with Zapier",
+        "source": "Zapier Blog",
+        "summary": "The idea of autonomous AI agents that research prospects, qualify leads, create content briefs, and enrich data across your business systems while you sleep sounds appealing. But an agent is only useful if you can trust it to do the right thing securely. Spee...",
+        "href": "https://zapier.com/blog/safe-trustworthy-ai-agents",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/6tgXiDNr89kA2Y9ILOMCsO/80fb0dae7f501aa4dd522ae46c8dd0a2/Zapier_Agents.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-best-ai-observability-tools-for-engineering-e369fa6d-aug07",
+        "category": "Funding",
+        "title": "The Best AI Observability Tools for Engineering Teams",
+        "source": "n8n Blog",
+        "summary": "Discover the best AI observability tools for tracing, evaluation, monitoring, and cost tracking, plus expert guidance on choosing the right platform.",
+        "href": "https://blog.n8n.io/ai-observability-tools/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/07/TL--9--1.jpeg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-write-a-winning-creative-brief-61154695-aug07",
+        "category": "Creative AI",
+        "title": "How to write a winning creative brief",
+        "source": "Zapier Blog",
+        "summary": "In my past life as a freelance graphic designer, a client once asked me to design a logo of a \"husky chef.\" So I did what any reasonable person would do: I illustrated a Siberian husky in a toque, holding a whisk, looking extremely employable. I was proud of...",
+        "href": "https://zapier.com/blog/creative-brief",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/47qob37SsoRW9xKnuuzcML/3bc170dddb75eb0061673ae6180a8bfe/brief-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "when-semantic-chunking-beats-fixed-size-splittin-b8739bf2-aug07",
+        "category": "Research Workflows",
+        "title": "When Semantic Chunking Beats Fixed-Size Splitting",
+        "source": "n8n Blog",
+        "summary": "Learn how semantic chunking improves RAG performance by preserving context, increasing retrieval accuracy, reducing token costs, and improving AI responses.",
+        "href": "https://blog.n8n.io/semantic-chunking/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/07/TL--8-.jpeg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-minimal-ai-engineer-toolkit-for-2026-fb2075ea-aug07",
+        "category": "Product Updates",
+        "title": "The Minimal AI Engineer Toolkit for 2026",
+        "source": "KDnuggets",
+        "summary": "Discover the six essential tools AI engineers need in 2026 to build and deploy production-grade autonomous systems.",
+        "href": "https://www.kdnuggets.com/the-minimal-ai-engineer-toolkit-for-2026",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-minimal-ai-engineer-toolkit-2026-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-detail-intel-s-turnaround-under-lip-bu-t-cab971e1-aug07",
+        "category": "Product Updates",
+        "title": "Sources detail Intel's turnaround under Lip-Bu Tan as AI demand for CPUs boosts business; Intel's deal to make Arm's AI...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources detail Intel's turnaround under Lip-Bu Tan as AI demand for CPUs boosts business; Intel's deal to make Arm's AI data center chip fell through in 2024 (Michael Acton/Financial Times)",
+        "href": "https://www.techmeme.com/260806/p2",
+        "imageUrl": "https://i.ibb.co/gFJXrdVw/ftcms-f1a5d8bd-468a-4003-beef-50a053f6c1fe.webp",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-says-apple-should-not-be-permitted-to-use-10391e2f-aug07",
+        "category": "Product Updates",
+        "title": "OpenAI says \"Apple should not be permitted to use a baseless and pretextual lawsuit to make up for its failures to inte...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: OpenAI says \"Apple should not be permitted to use a baseless and pretextual lawsuit to make up for its failures to integrate AI into its products\" (Megan Morrone/Axios)",
+        "href": "https://www.techmeme.com/260806/p8",
+        "imageUrl": "https://images.axios.com/yKcyVTCy-ou_naynJzDs4JmOP5A=/1366x768/smart/2025/06/23/181225-1750702345704.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ooredoo-nvidia-nokia-and-indosat-launch-zankore-dfe70508-aug07",
+        "category": "Product Updates",
+        "title": "Ooredoo, Nvidia, Nokia, and Indosat launch Zankore, Indonesia's first dedicated AI compute and neocloud platform; Oored...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Ooredoo, Nvidia, Nokia, and Indosat launch Zankore, Indonesia's first dedicated AI compute and neocloud platform; Ooredoo, which owns a 49% stake, commits $800M (Melissa Hancock/Fortune)",
+        "href": "https://www.techmeme.com/260806/p22",
+        "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/08/Ooredoo-CEO-e1785966877954.jpg?resize=1200,600",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "jealously-watching-openai-and-anthropic-meta-sud-2e87cec3-aug07",
+        "category": "Product Updates",
+        "title": "Jealously Watching OpenAI and Anthropic, Meta Suddenly Claims That Its AI Went on a Hacking Spree Too",
+        "source": "Futurism AI",
+        "summary": "A likely story. The post Jealously Watching OpenAI and Anthropic, Meta Suddenly Claims That Its AI Went on a Hacking Spree Too appeared first on Futurism .",
+        "href": "https://futurism.com/future-society/jealous-meta-claims-ai-went-hacking-too",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/jealous-meta-claims-ai-went-hacking-too.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "docs-us-data-labeling-companies-like-surge-ai-an-f2e63453-aug07",
+        "category": "Product Updates",
+        "title": "Docs: US data labeling companies, like Surge AI and Mercor, that sell training datasets to US AI labs and the governmen...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Docs: US data labeling companies, like Surge AI and Mercor, that sell training datasets to US AI labs and the government are also selling them to Chinese labs (Anna Tong/Forbes)",
+        "href": "https://www.techmeme.com/260806/p42",
+        "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/6a72777906d99f5b480662be/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "beyond-bots-rethinking-ai-support-with-a-hybrid-ac20b5ea-aug07",
+        "category": "Product Updates",
+        "title": "Beyond Bots: Rethinking AI Support with a Hybrid AI Architecture",
+        "source": "KDnuggets",
+        "summary": "Learn how blending RAG and fine-tuning creates more effective AI support experiences.",
+        "href": "https://www.kdnuggets.com/beyond-bots-rethinking-ai-support-with-a-hybrid-ai-architecture",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-beyond-bots-rethinking-ai-support-with-a-hybrid-ai-architecture-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sapiom-which-helps-businesses-build-ship-and-sca-82468797-aug07",
+        "category": "Agents",
+        "title": "Sapiom, which helps businesses build, ship, and scale AI agents and lower token costs, raised a $35M Series A led by Dr...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sapiom, which helps businesses build, ship, and scale AI agents and lower token costs, raised a $35M Series A led by Dragonfly, taking its total funding to $50M (Reed Albergotti/Semafor)",
+        "href": "https://www.techmeme.com/260805/p50",
+        "imageUrl": "https://img.semafor.com/0fc60b8da629c8b07d7dbcdbc3b94026ccf761f9-2500x1667.jpg?rect=0,178,2500,1313&w=1200&h=630&q=75&auto=format",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cloudflare-open-sources-a-new-version-of-cloudfl-68387684-aug07",
+        "category": "Agents",
+        "title": "Cloudflare open sources a new version of Cloudflare OS, an AI agentic workspace for enterprises running on a company's...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Cloudflare open sources a new version of Cloudflare OS, an AI agentic workspace for enterprises running on a company's account and accessible via browser (Kyt Dotson/SiliconANGLE)",
+        "href": "https://www.techmeme.com/260805/p54",
+        "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2025/09/A-digital-AI-agent-depicted-as-a-guiding-presence-in-a-software-project-environment-connecting-line.jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "7-best-web-crawling-tools-and-apis-in-2026-54eb9947-aug07",
+        "category": "Agents",
+        "title": "7 Best Web Crawling Tools and APIs in 2026",
+        "source": "KDnuggets",
+        "summary": "Learn about the best web crawling tools for collecting website content, crawling subpages, generating clean web data, and powering AI agents.",
+        "href": "https://www.kdnuggets.com/7-best-web-crawling-tools-and-apis-in-2026",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-best-web-crawling-tools-and-apis-in-2026-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "working-with-the-american-psychological-associat-6da5f2d2-aug07",
+        "category": "Developer Tools",
+        "title": "Working with the American Psychological Association on youth mental health and AI",
+        "source": "OpenAI News",
+        "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health. OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safe...",
+        "href": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6CQ3mqxKiApPHF2wTXSybs/5e0f83d5d5817dbac9b7e7f440e692ed/openai-and-apa-advance-responsible-ai-for-youth-16_9.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI News surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-s-ai-revenue-reportedly-depends-on-ope-9deab004-aug07",
+        "category": "Developer Tools",
+        "title": "Microsoft's AI revenue reportedly depends on OpenAI for 70 percent",
+        "source": "The Decoder",
+        "summary": "Microsoft generated $24.1 billion in AI revenue through OpenAI in the fiscal year ending in June. That's about 70 percent of its total AI business, according to a Bloomberg analysis. The heavy reliance helps explain why a company long known for vendor lock-in...",
+        "href": "https://the-decoder.com/microsofts-ai-revenue-reportedly-depends-on-openai-for-70-percent/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/microsoft_openai.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gravity-which-places-text-based-ads-within-ai-ch-48588ff5-aug07",
+        "category": "Developer Tools",
+        "title": "Gravity, which places text-based ads within AI chatbots, raised a $30.5M Series A co-led by Lightspeed and Committed, t...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Gravity, which places text-based ads within AI chatbots, raised a $30.5M Series A co-led by Lightspeed and Committed, taking its total funding to $38.5M (Lara O'Reilly/Business Insider)",
+        "href": "https://www.techmeme.com/260806/p43",
+        "imageUrl": "https://i.insider.com/6a730aa84327cd5a0ae2e880?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-centralizes-its-ai-leadership-at-mountain-5e038009-aug07",
+        "category": "Developer Tools",
+        "title": "Google centralizes its AI leadership at Mountain View in a bid to catch its rivals; Sebastian Borgeaud, who led a major...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Google centralizes its AI leadership at Mountain View in a bid to catch its rivals; Sebastian Borgeaud, who led a major AI coding effort, moved from the UK (Bloomberg)",
+        "href": "https://www.techmeme.com/260806/p13",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ifqnd.a.nIH0/v1/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-look-at-sequoia-s-revamped-strategy-under-new-ce3c68a4-aug07",
+        "category": "Funding",
+        "title": "A look at Sequoia's revamped strategy under new stewards Alfred Lin and Pat Grady, including bold AI bets; sources: Seq...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: A look at Sequoia's revamped strategy under new stewards Alfred Lin and Pat Grady, including bold AI bets; sources: Sequoia recently closed $10B in new funding (Bloomberg)",
+        "href": "https://www.techmeme.com/260806/p10",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ihqbdnfmc5fM/v0/1200x630.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-some-google-researchers-have-grown-frust-38bd5151-aug07",
+        "category": "Research Workflows",
+        "title": "Sources: some Google researchers have grown frustrated over AI compute access for ambitious projects while Google Cloud...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: some Google researchers have grown frustrated over AI compute access for ambitious projects while Google Cloud sells TPUs to customers like Anthropic (MacKenzie Sigalos/CNBC)",
+        "href": "https://www.techmeme.com/260806/p11",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108240447-1765446709105-gettyimages-2151467780-UK_HASSABIS.jpeg?v=1785995548&w=1920&h=1080",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-06",
     "label": "August 6, 2026",
     "items": [
