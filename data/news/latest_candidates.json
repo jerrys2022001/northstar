@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-08-07T01:17:33+00:00",
+  "updatedAt": "2026-08-07T01:19:28+00:00",
   "digestDate": "2026-08-07",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-08-04T09:00:57+08:00",
-  "windowEnd": "2026-08-07T09:00:57+08:00",
+  "windowStart": "2026-08-04T09:00:56+08:00",
+  "windowEnd": "2026-08-07T09:00:56+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -278,7 +278,7 @@
       {
         "source": "Meta AI",
         "url": "https://ai.meta.com/blog/rss/",
-        "error": "URLError: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+        "error": "URLError: <urlopen error timed out>"
       },
       {
         "source": "Hugging Face Blog",
@@ -298,12 +298,17 @@
       {
         "source": "Notion Blog",
         "url": "https://www.notion.so/blog/rss.xml",
-        "error": "URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>"
+        "error": "HTTPError: HTTP Error 404: Not Found"
       },
       {
         "source": "Figma Blog",
         "url": "https://www.figma.com/blog/rss.xml",
         "error": "HTTPError: HTTP Error 404: Not Found"
+      },
+      {
+        "source": "HubSpot AI Blog",
+        "url": "https://blog.hubspot.com/marketing/topic/artificial-intelligence/rss.xml",
+        "error": "URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>"
       },
       {
         "source": "Miro Blog",
@@ -349,11 +354,6 @@
         "source": "Synthesia Blog",
         "url": "https://www.synthesia.io/blog/rss.xml",
         "error": "HTTPError: HTTP Error 404: Not Found"
-      },
-      {
-        "source": "Mashable",
-        "url": "https://mashable.com/feeds/rss/all",
-        "error": "URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>"
       },
       {
         "source": "The Register AI",
@@ -1098,7 +1098,7 @@
       "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health. OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safe...",
       "href": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
       "excerpt": "Radar signal: OpenAI News surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6CQ3mqxKiApPHF2wTXSybs/5e0f83d5d5817dbac9b7e7f440e692ed/openai-and-apa-advance-responsible-ai-for-youth-16_9.png?w=1600&h=900&fit=fill",
       "publishedAt": "2026-08-06T06:00:00+00:00",
       "toolIds": [
         "chatgpt"
@@ -1284,6 +1284,39 @@
       "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
       "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/04/google_gemini_optical_trick.png",
       "publishedAt": "2026-08-05T17:59:38+00:00",
+      "toolIds": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "researchers-watched-openai-anthropic-models-take-9fdf7ba0-aug07",
+      "date": "2026-08-07",
+      "dateLabel": "August 7, 2026",
+      "category": "Model Releases",
+      "title": "Researchers watched OpenAI, Anthropic models take extreme measures in hacking test",
+      "source": "Mashable",
+      "summary": "AI models from OpenAI and Anthropic did some pretty out-there things as part of a hacking research test.",
+      "href": "https://mashable.com/tech/openai-anthropic-ai-research-hacking-extreme-measures",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/articles/02HbbvODc9INRci9RnVkpZs/hero-image.fill.size_1200x675.v1785945688.jpg",
+      "publishedAt": "2026-08-05T16:24:22+00:00",
+      "toolIds": [
+        "chatgpt",
+        "claude"
+      ]
+    },
+    {
+      "id": "google-assistant-to-shut-down-on-android-wear-os-f5cb2d49-aug07",
+      "date": "2026-08-07",
+      "dateLabel": "August 7, 2026",
+      "category": "Model Releases",
+      "title": "Google Assistant to shut down on Android, Wear OS next month",
+      "source": "Mashable",
+      "summary": "After a decade of existence, Google is finally sunsetting Google Assistant in favor of Gemini.",
+      "href": "https://mashable.com/tech/google-assistant-shutting-down-android-wearos-september",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+      "publishedAt": "2026-08-05T15:18:38+00:00",
       "toolIds": [
         "gemini"
       ]
