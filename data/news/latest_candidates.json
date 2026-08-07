@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-08-07T01:16:13+00:00",
+  "updatedAt": "2026-08-07T01:17:33+00:00",
   "digestDate": "2026-08-07",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-08-04T09:00:56+08:00",
-  "windowEnd": "2026-08-07T09:00:56+08:00",
+  "windowStart": "2026-08-04T09:00:57+08:00",
+  "windowEnd": "2026-08-07T09:00:57+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -278,7 +278,7 @@
       {
         "source": "Meta AI",
         "url": "https://ai.meta.com/blog/rss/",
-        "error": "URLError: <urlopen error timed out>"
+        "error": "URLError: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
       },
       {
         "source": "Hugging Face Blog",
@@ -298,7 +298,7 @@
       {
         "source": "Notion Blog",
         "url": "https://www.notion.so/blog/rss.xml",
-        "error": "HTTPError: HTTP Error 404: Not Found"
+        "error": "URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>"
       },
       {
         "source": "Figma Blog",
@@ -323,7 +323,7 @@
       {
         "source": "Replit Blog",
         "url": "https://blog.replit.com/rss.xml",
-        "error": "TimeoutError: The read operation timed out"
+        "error": "URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>"
       },
       {
         "source": "HeyGen Blog",
@@ -1098,7 +1098,7 @@
       "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health. OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safe...",
       "href": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
       "excerpt": "Radar signal: OpenAI News surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6CQ3mqxKiApPHF2wTXSybs/5e0f83d5d5817dbac9b7e7f440e692ed/openai-and-apa-advance-responsible-ai-for-youth-16_9.png?w=1600&h=900&fit=fill",
+      "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
       "publishedAt": "2026-08-06T06:00:00+00:00",
       "toolIds": [
         "chatgpt"
@@ -1219,7 +1219,7 @@
       "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
       "href": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/openai-databricks-agent-workflows.webp",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5qbXuYJxwp7q4YnQENtCCP/0d1dd2519af8128544b23560c7fd7dca/SEO_Card__10_.png?w=1600&h=900&fit=fill",
       "publishedAt": "2026-08-06T00:00:00+00:00",
       "toolIds": [
         "chatgpt"

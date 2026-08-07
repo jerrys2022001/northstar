@@ -645,16 +645,6 @@
         "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
       },
       {
-        "id": "working-with-the-american-psychological-associat-6da5f2d2-aug07",
-        "category": "Developer Tools",
-        "title": "Working with the American Psychological Association on youth mental health and AI",
-        "source": "OpenAI News",
-        "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health. OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safe...",
-        "href": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6CQ3mqxKiApPHF2wTXSybs/5e0f83d5d5817dbac9b7e7f440e692ed/openai-and-apa-advance-responsible-ai-for-youth-16_9.png?w=1600&h=900&fit=fill",
-        "excerpt": "Radar signal: OpenAI News surfaced this item in the latest AI news window."
-      },
-      {
         "id": "microsoft-s-ai-revenue-reportedly-depends-on-ope-9deab004-aug07",
         "category": "Developer Tools",
         "title": "Microsoft's AI revenue reportedly depends on OpenAI for 70 percent",
