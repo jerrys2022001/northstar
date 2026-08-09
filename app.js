@@ -371,6 +371,132 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-09",
+    "label": "August 9, 2026",
+    "items": [
+      {
+        "id": "readers-rate-ai-generated-short-stories-higher-t-f4d71962-aug09",
+        "category": "Developer Tools",
+        "title": "Readers rate AI-generated short stories higher than human ones until they learn a machine wrote them",
+        "source": "The Decoder",
+        "summary": "People can't tell ChatGPT-generated short stories from human-written ones, according to a new study. More than 2,500 participants performed no better than chance. The AI-generated texts were actually rated higher, but scores dropped as soon as participants le...",
+        "href": "https://the-decoder.com/readers-rate-ai-generated-short-stories-higher-than-human-ones-until-they-learn-a-machine-wrote-them/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/ai_writing_a_book.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-acquires-presentation-startup-nextslide-c9329978-aug09",
+        "category": "Developer Tools",
+        "title": "OpenAI acquires presentation startup NextSlide",
+        "source": "TechCrunch",
+        "summary": "NextSlide says its team members are now working on ChatGPT.",
+        "href": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2259148891.jpg?resize=1200,686",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "xai-s-imagine-image-2-0-lands-just-behind-openai-38557ef8-aug09",
+        "category": "Developer Tools",
+        "title": "xAI's Imagine Image 2.0 lands just behind OpenAI's GPT-Image-2 in Arena benchmarks",
+        "source": "The Decoder",
+        "summary": "xAI has released Imagine Image 2.0 as a new image generator for Grok. The model ranks second in the Arena benchmarks, just behind OpenAI's GPT-Image-2. New editing tools like Magic Wand and Multi-Ref Editing, along with preconfigured templates, target practic...",
+        "href": "https://the-decoder.com/xais-imagine-image-2-0-lands-just-behind-openais-gpt-image-2-in-arena-benchmarks/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/xai_logo_wall-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-code-sessions-can-now-talk-to-each-other-bf667af5-aug09",
+        "category": "Developer Tools",
+        "title": "Claude Code sessions can now talk to each other and share context across terminals",
+        "source": "The Decoder",
+        "summary": "Claude Code now lets sessions talk to each other. On macOS and Linux, instances running in parallel can send messages, share insights, and check on each other's status. The article Claude Code sessions can now talk to each other and share context across termi...",
+        "href": "https://the-decoder.com/claude-code-sessions-can-now-talk-to-each-other-and-share-context-across-terminals/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/claude_logo-1.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-sets-claude-code-to-auto-mode-by-defau-581154df-aug09",
+        "category": "Developer Tools",
+        "title": "Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals",
+        "source": "The Decoder",
+        "summary": "Starting August 14, Anthropic will make Auto Mode in Claude Code the default for Pro, Max, and Team plans. The company says it's safer. In tests, the classifier caught 89 percent of dangerous commands, while human reviewers caught only 13.6 percent. For the m...",
+        "href": "https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_logo_wall-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "tutormoments-do-ai-tutors-know-when-to-help-and-fd5b733b-aug09",
+        "category": "Product Updates",
+        "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: TutorMoments: Do AI tutors know when to help and when to hold back?",
+        "href": "https://huggingface.co/blog/allenai/tutormoments",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/j9L73K19mkz-n8Rr8ZI_B.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "5-free-courses-to-learn-modern-ai-and-llms-b868f184-aug09",
+        "category": "Agents",
+        "title": "5 Free Courses to Learn Modern AI and LLMs",
+        "source": "KDnuggets",
+        "summary": "Learn how to use generative AI at work, build RAG and agentic apps, fine-tune models, work with the Hugging Face ecosystem, and prototype AI products with hands-on resources.",
+        "href": "https://www.kdnuggets.com/5-free-courses-to-learn-modern-ai-and-llms",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-free-courses-to-learn-modern-ai-and-llms-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "why-ai-infrastructure-planning-must-happen-now-098ad995-aug09",
+        "category": "Product Updates",
+        "title": "Why AI infrastructure planning must happen now",
+        "source": "TechRadar Software",
+        "summary": "To succeed, enterprises must plan balanced, open AI infrastructure early.",
+        "href": "https://www.techradar.com/pro/why-ai-infrastructure-planning-must-happen-now",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/h8ZQHernNUVpnGYX7QnxVM-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openais-ai-smart-speaker-will-reportedly-be-shap-c691da75-aug09",
+        "category": "Product Updates",
+        "title": "OpenAIs AI smart speaker will reportedly be shaped like a doughnut",
+        "source": "Mashable",
+        "summary": "OpenAI's screenless smart speaker will reportedly be shaped like a doughnut, and carry a price tag in the ballpark of $300.",
+        "href": "https://mashable.com/tech/openai-smart-speaker-form-factor-pricing-report",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/04Z4R0WHrMsWz9hAgTbG9N9/hero-image.fill.size_1200x675.v1786085321.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "analysis-south-korea-and-taiwan-each-surpassed-j-b5460b5b-aug09",
+        "category": "Product Updates",
+        "title": "Analysis: South Korea and Taiwan each surpassed Japan in total exports for the first time in H1 2026, as AI demand drov...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Analysis: South Korea and Taiwan each surpassed Japan in total exports for the first time in H1 2026, as AI demand drove explosive growth in chip exports (Nikkei Asia)",
+        "href": "https://www.techmeme.com/260808/p2",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F8%2F8%2F2%2F12952889-2-eng-GB%2F8046dc0b0b93-photo_SXM2026080600001560.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&width=1260&height=630",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "amazon-is-backing-a-7-65-gw-gas-plant-for-an-off-ee38a5b8-aug09",
+        "category": "Product Updates",
+        "title": "Amazon is backing a 7.65 GW gas plant for an off-grid TX AI data center, potentially the largest single US emissions so...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Amazon is backing a 7.65 GW gas plant for an off-grid TX AI data center, potentially the largest single US emissions source, at odds with its 2040 net-zero goal (Hiroko Tabuchi/New York Times)",
+        "href": "https://www.techmeme.com/260808/p7",
+        "imageUrl": "https://static01.nyt.com/images/2026/08/08/multimedia/08CLI-AMAZON-jtbw/08CLI-AMAZON-jtbw-facebookJumbo.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "fields-medalist-who-published-a-paper-on-ai-driv-9b06a7eb-aug09",
+        "category": "Developer Tools",
+        "title": "Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI",
+        "source": "The Decoder",
+        "summary": "Newly awarded Fields Medalist Jacob Tsimerman is leaving the University of Toronto to join OpenAI and work on AI safety. In a recent paper, he analyzes scenarios where AI could contribute to human extinction and calls for far more investment in safety researc...",
+        "href": "https://the-decoder.com/fields-medalist-who-published-a-paper-on-ai-driven-human-extinction-now-works-for-openai/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/math_blackboard_illustration.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-08",
     "label": "August 8, 2026",
     "items": [
