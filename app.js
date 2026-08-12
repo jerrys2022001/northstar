@@ -371,6 +371,528 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-12",
+    "label": "August 12, 2026",
+    "items": [
+      {
+        "id": "made-by-google-2026-heres-what-to-expect-68326a91-aug12",
+        "category": "Model Releases",
+        "title": "Made by Google 2026: Heres what to expect",
+        "source": "Mashable",
+        "summary": "Pixel 11, Pixel 11 Pro Fold, Watch 5, Gemini AI, and more: everything expected at Made by Google, Aug 12.",
+        "href": "https://mashable.com/tech/made-by-google-what-to-expect-2026",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/071A2KPwx4dBp8aLFSLEiSi/hero-image.fill.size_1200x675.v1786475953.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gemini-becomes-google-s-fastest-growing-product-f1a9ee4a-aug12",
+        "category": "Model Releases",
+        "title": "Gemini becomes Google's fastest-growing product ever as it hits 1B users",
+        "source": "Ars Technica",
+        "summary": "But will Gemini's surge survive slowing model releases?",
+        "href": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-launches-a-chatgpt-desktop-app-for-linux-e88676f3-aug12",
+        "category": "Developer Tools",
+        "title": "OpenAI launches a ChatGPT desktop app for Linux in preview, supporting ChatGPT Work, Codex, and more; Computer Use outs...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: OpenAI launches a ChatGPT desktop app for Linux in preview, supporting ChatGPT Work, Codex, and more; Computer Use outside the in-app browser is not available (Frederic Lardinois/The New Stack)",
+        "href": "https://www.techmeme.com/260811/p41",
+        "imageUrl": "https://cdn.thenewstack.io/media/2026/08/9e7a394a-screenshot-2026-08-11-at-10.42.00-am-1024x695.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "but-marinade-and-leaked-passwords-are-what-resea-9936901a-aug12",
+        "category": "Developer Tools",
+        "title": "\"But marinade\" and leaked passwords are what researchers found in ChatGPT's hidden reasoning",
+        "source": "The Decoder",
+        "summary": "Security researchers found a vulnerability in the APIs of OpenAI, Anthropic, and Google that lets them extract encrypted reasoning traces and move them between models. A scan of public sessions turned up dozens of passwords and API keys. The traces also show...",
+        "href": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/marinade.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spacexai-rolls-out-grok-bot-ai-agent-app-in-beta-76622527-aug12",
+        "category": "Agents",
+        "title": "SpaceXAI rolls out Grok Bot AI agent app in beta on Mac, iOS, Windows, and Linux, initially for SuperGrok Heavy, Cursor...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: SpaceXAI rolls out Grok Bot AI agent app in beta on Mac, iOS, Windows, and Linux, initially for SuperGrok Heavy, Cursor Ultra, and Cursor Teams Premium users (Zac Hall/9to5Mac)",
+        "href": "https://www.techmeme.com/260811/p29",
+        "imageUrl": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200%2C628&quality=82&strip=all&ssl=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spacexai-s-grok-bot-turns-agents-into-persistent-b9525c42-aug12",
+        "category": "Developer Tools",
+        "title": "SpaceXAI's Grok Bot turns agents into persistent digital coworkers that can operate your apps for $120-per-month",
+        "source": "VentureBeat",
+        "summary": "SpaceXAI, the division of SpaceX f ormerly known as xAI , is launching an early beta version of Grok Bot , a new agent designed to move AI assistants beyond answering prompts and toward continuously executing work across the software employees already use. Th...",
+        "href": "https://venturebeat.com/orchestration/spacexais-grok-bot-turns-agents-into-persistent-digital-coworkers-that-can-operate-your-apps-for-120-per-month",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/65dnXPFAFPxGWtfPsYnWgc/638125a94f51d541348c275f60f12788/ChatGPT_Image_Aug_11__2026__02_49_29_PM.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-says-claude-models-in-the-eu-will-now-3d3b6944-aug12",
+        "category": "Model Releases",
+        "title": "Anthropic says Claude models in the EU will now add invisible watermarks to generated text and C2PA metadata to generat...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Anthropic says Claude models in the EU will now add invisible watermarks to generated text and C2PA metadata to generated files, to comply with the EU AI Act (Thomas Claburn/The Register)",
+        "href": "https://www.techmeme.com/260811/p2",
+        "imageUrl": "https://image.theregister.com/261698.jpg?imageId=261698&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-228-fd4cb20b-aug12",
+        "category": "Developer Tools",
+        "title": "v2.1.228",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.228",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228",
+        "imageUrl": "https://opengraph.githubassets.com/3ddda923da50973fb48ee20b45e4ece7f9e37dc75ce4f718be3c98352166cdeb/anthropics/claude-code/releases/tag/v2.1.228",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "making-knowledge-distillation-cheap-enough-to-ru-90d59cd2-aug12",
+        "category": "Product Updates",
+        "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Making Knowledge Distillation Cheap Enough to Run at Scale",
+        "href": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/nB5NK4bdfr7AY1IAO14Gh.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meta-is-back-with-muse-glimmer-local-agentic-mul-0da6fb77-aug12",
+        "category": "Agents",
+        "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+        "href": "https://huggingface.co/blog/muse-glimmer",
+        "imageUrl": "https://huggingface.co/blog/assets/muse-glimmer/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-david-sacks-craft-ventures-is-targeting-27a2b8aa-aug12",
+        "category": "Product Updates",
+        "title": "Sources: David Sacks' Craft Ventures is targeting around $1B for a new fund, its first since Sacks stepped down as the...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: David Sacks' Craft Ventures is targeting around $1B for a new fund, its first since Sacks stepped down as the White House AI and crypto czar (The Information)",
+        "href": "https://www.techmeme.com/260811/p30",
+        "imageUrl": "https://tii.imgix.net/production/articles/17604/bf9ac33b-7852-419d-896d-8b769ca057cb.png?fm=jpeg&auto=compress&w=610",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-india-s-it-services-sector-which-employs-6m-1906732c-aug12",
+        "category": "Product Updates",
+        "title": "How India's IT services sector, which employs 6M people, contributes ~7% of GDP, and generates $300B+ annually, is shed...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: How India's IT services sector, which employs 6M people, contributes ~7% of GDP, and generates $300B+ annually, is shedding jobs as AI automates formulaic work (Financial Times)",
+        "href": "https://www.techmeme.com/260811/p10",
+        "imageUrl": "assets/news/bright-product-updates.svg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "general-catalyst-leads-1-1b-round-into-2-month-o-76fde138-aug12",
+        "category": "Agents",
+        "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
+        "source": "TechCrunch",
+        "summary": "River AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1.1 billion out of the gate.",
+        "href": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/River-AI-Igor-Babuschkin.jpeg?resize=1197,1200",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-former-openai-chief-product-officer-kevi-4d80446c-aug12",
+        "category": "Developer Tools",
+        "title": "Sources: former OpenAI Chief Product Officer Kevin Weil is aiming to raise $150M for a new AI science startup, seeking...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: former OpenAI Chief Product Officer Kevin Weil is aiming to raise $150M for a new AI science startup, seeking a valuation of at least $750M (Business Insider)",
+        "href": "https://www.techmeme.com/260811/p36",
+        "imageUrl": "https://i.insider.com/6a7b755ce3df4d0cbe684c4c?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "from-coder-to-orchestrator-how-agents-shift-the-a41dba9f-aug12",
+        "category": "Developer Tools",
+        "title": "From coder to orchestrator: How agents shift the role of a developer",
+        "source": "GitHub Blog",
+        "summary": "Developers are owning more of the delivery system around code, not just code itself. Join us during GitHub Universe to meet other devs, learn something new, and explore what's next. The post From coder to orchestrator: How agents shift the role of a developer...",
+        "href": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/08/Group-2055249890.jpg",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-models-will-soon-inject-watermarks-ide-20534a10-aug12",
+        "category": "Developer Tools",
+        "title": "Anthropic models will soon inject watermarks identifying AI-generated text",
+        "source": "Fast Company AI",
+        "summary": "The imperceptible marks will be invisible and will travel with the text, the company says.",
+        "href": "https://www.fastcompany.com/91588728/anthropic-models-will-soon-inject-watermarks-identifying-ai-generated-text?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=08122026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91588728-anthropic-models-will-soon-inject-watermarks-identifying-ai-generated-text.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "amie-our-research-medical-ai-system-demonstrates-dbc30e86-aug12",
+        "category": "Developer Tools",
+        "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its...",
+        "source": "Google AI Blog",
+        "summary": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
+        "href": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "label": "August 11, 2026",
+    "items": [
+      {
+        "id": "homeschool-parents-are-planning-lessons-with-cha-ed6512cc-aug11",
+        "category": "Model Releases",
+        "title": "Homeschool Parents Are Planning Lessons With ChatGPT",
+        "source": "Futurism AI",
+        "summary": "\"So I just make my own curriculum, and sometimes I'll just use, like, ChatGPT.\" The post Homeschool Parents Are Planning Lessons With ChatGPT appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/homeschool-parents-chatpgt-ai-chatbots-lesson-plans-education",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/homeschool-parents-chatpgt-ai-chatbots-lesson-plans-education.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-introduces-125-premium-seats-for-chatgpt-d4cd8b0f-aug11",
+        "category": "Developer Tools",
+        "title": "OpenAI introduces $125 Premium Seats for ChatGPT Business as agentic AI burns through more tokens",
+        "source": "The Decoder",
+        "summary": "OpenAI is rolling out \"Premium Seats\" for ChatGPT Business customers at $125 per user per month, five times the price of the existing Standard Seats. In return, users get significantly more capacity and no five-hour usage limit. The move signals that the flat...",
+        "href": "https://the-decoder.com/openai-introduces-125-premium-seats-for-chatgpt-business-as-agentic-ai-burns-through-more-tokens/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/openai_chatgpt_pattern_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-now-leaves-machine-readable-marks-on-ai-g-745814e5-aug11",
+        "category": "Developer Tools",
+        "title": "Claude Now Leaves Machine-Readable Marks on AI-Generated Content",
+        "source": "TechRepublic AI",
+        "summary": "Anthropic now marks supported Claude-generated text and files worldwide, adding invisible watermarks and provenance data under new EU transparency rules. The post Claude Now Leaves Machine-Readable Marks on AI-Generated Content appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/news-claude-ai-watermarks/",
+        "imageUrl": "assets/news/mit-compressm.png",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-watermarks-all-claude-outputs-globally-309ed8fd-aug11",
+        "category": "Developer Tools",
+        "title": "Anthropic watermarks all Claude outputs globally with marks that \"may persist through some editing\"",
+        "source": "The Decoder",
+        "summary": "Anthropic will embed invisible watermarks in all Claude-generated text and sign files using the C2PA standard. New models shipping from August 2026 onward will have labeling built in from day one. The policy applies worldwide, and Anthropic plans to provide d...",
+        "href": "https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/05/anthropic_logo_wall-1.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "old-ocr-text-cripples-language-model-training-an-2f9877a2-aug11",
+        "category": "Developer Tools",
+        "title": "Old OCR text cripples language model training, and FineBooks wants to fix that at scale",
+        "source": "The Decoder",
+        "summary": "The FineBooks project from Hugging Face and EleutherAI tested 14 open-source OCR models on more than 2,000 historical book pages. The top model, dots.mocr, hits 97.6 percent character accuracy at under two dollars per thousand pages. That's good enough for AI...",
+        "href": "https://the-decoder.com/old-ocr-text-cripples-language-model-training-and-finebooks-wants-to-fix-that-at-scale/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/ocr_page_scanning.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "build-low-latency-multilingual-voice-agents-open-e5b664a3-aug11",
+        "category": "Agents",
+        "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+        "href": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/Ol-uDBWtBtVDbowXgP-Un.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "model-routing-powered-by-wisdom-of-the-market-ffa43803-aug11",
+        "category": "Developer Tools",
+        "title": "Model Routing Powered by Wisdom of the Market",
+        "source": "OpenRouter Announcements",
+        "summary": "Our new Auto router is informed by the model decisions of millions of people, and it outperforms conventional task-based classifiers across a wide spectrum of tasks.",
+        "href": "https://openrouter.ai/blog/announcements/introducing-the-new-auto-router/",
+        "imageUrl": "https://openrouter.ai/blog/images/auto-router-beta.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "easier-connections-to-70-mcp-servers-plus-when-t-421acd2e-aug11",
+        "category": "Agents",
+        "title": "Easier connections to 70 MCP servers, plus when to use them in your workflows",
+        "source": "n8n Blog",
+        "summary": "You can now connect to dozens more MCP servers directly from the Node panel with a simple OAuth flow. Pick a server, sign in, and it's ready for your agent to use.",
+        "href": "https://blog.n8n.io/one-click-connection-to-70-mcp-servers-and-when-to-use-them/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/08/MCP-Registry-blog-PMM-29.jpg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-is-enterprise-workflow-automation-060abfd7-aug11",
+        "category": "Agents",
+        "title": "What is enterprise workflow automation?",
+        "source": "Zapier Blog",
+        "summary": "I married into a big family that loves to camp, and quite a few trips die in the group chat. The usual suspect is the handoffs. Camping spaces aren't booked until the headcount is confirmed, which depends on checking school and work schedules. Meanwhile, some...",
+        "href": "https://zapier.com/blog/enterprise-workflow-automation",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/44OjRqCZlwUe4JCe0VPx1S/8fe838e87d3c287bd5e3cf6aa73b89c6/workflow-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "deterministic-ai-what-it-is-and-when-to-use-it-49dbafa9-aug11",
+        "category": "Agents",
+        "title": "Deterministic AI: What it is and when to use it",
+        "source": "Zapier Blog",
+        "summary": "We haven't exactly worked out all of AI's kinks yet. The same prompt can return a different, sometimes unhinged, answer every time. It's just the nature of probabilistic systems. That variability's fine for brainstorming and exploration, but it becomes a prob...",
+        "href": "https://zapier.com/blog/deterministic-ai",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/3D2wFWwSWf41luik6ecn5H/9c1edc58061700878ec284d613ccd898/ai-hero.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "xai-co-founder-igor-babuschkin-s-river-ai-raised-adece5e8-aug11",
+        "category": "Product Updates",
+        "title": "xAI co-founder Igor Babuschkin's River AI raised $1B led by General Catalyst to build home or small business computer s...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: xAI co-founder Igor Babuschkin's River AI raised $1B led by General Catalyst to build home or small business computer servers capable of running AI locally (Cade Metz/New York Times)",
+        "href": "https://www.techmeme.com/260811/p11",
+        "imageUrl": "https://static01.nyt.com/images/2026/08/07/multimedia/07biz-river-ai--01-fpmc/07biz-river-ai--01-fpmc-facebookJumbo.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-building-an-ai-native-finance-function-taug-7a678e9a-aug11",
+        "category": "Product Updates",
+        "title": "What building an AI-native finance function taught me",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+        "href": "https://openai.com/index/building-an-ai-native-finance-function",
+        "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "top-10-ai-influencers-of-2026-0ebf5b7a-aug11",
+        "category": "Product Updates",
+        "title": "Top 10 AI Influencers of 2026",
+        "source": "KDnuggets",
+        "summary": "Ten AI influencers who are actually shaping 2026, from safe superintelligence to AI-native search. Here is who to follow and why.",
+        "href": "https://www.kdnuggets.com/top-10-ai-influencers-of-2026",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-top-10-ai-influencers-of-2026-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spotify-plans-to-roll-out-ai-persona-labeling-in-bcba60cb-aug11",
+        "category": "Product Updates",
+        "title": "Spotify plans to roll out AI Persona labeling in mid-September for profiles that do \"not represent a real person\"; the...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Spotify plans to roll out AI Persona labeling in mid-September for profiles that do \"not represent a real person\"; the system uses human review and AI tools (Emma Roth/The Verge)",
+        "href": "https://www.techmeme.com/260811/p17",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/AI-Personas-Display-2.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "specification-engineering-the-new-skill-after-pr-4592c6c4-aug11",
+        "category": "Product Updates",
+        "title": "Specification Engineering: The New Skill After Prompt Engineering",
+        "source": "KDnuggets",
+        "summary": "Prompt engineering taught us how to ask better questions. Specification engineering teaches us how to define better work.",
+        "href": "https://www.kdnuggets.com/specification-engineering-the-new-skill-after-prompt-engineering",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-specification-engineering-the-new-skill-after-prompt-engineering-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "reimagined-work-will-create-ai-transformation-da34ae3d-aug11",
+        "category": "Product Updates",
+        "title": "Reimagined work will create AI transformation",
+        "source": "Fast Company AI",
+        "summary": "Organizations should approach AI less as a technology deployment and more as an opportunity to rethink how work gets done.",
+        "href": "https://www.fastcompany.com/91586667/reimagined-work-will-create-ai-transformation?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=08122026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/Darren-Person.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meta-exec-rages-against-employees-asking-for-mor-ea0a6ff1-aug11",
+        "category": "Product Updates",
+        "title": "Meta Exec Rages Against Employees Asking for More Time Off Because AI Made Them More Efficient",
+        "source": "Futurism AI",
+        "summary": "\"Go to your parents and ask them: hey, like every time I get a chance to talk to my boss, ask me if I can have more days off.\" The post Meta Exec Rages Against Employees Asking for More Time Off Because AI Made Them More Efficient appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/meta-exec-rages-against-employees-more-time-off-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/meta-exec-rages-against-employees-more-time-off-ai.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "can-skeptics-survive-the-misinformation-age-c42a8c5e-aug11",
+        "category": "Product Updates",
+        "title": "Can skeptics survive the misinformation age?",
+        "source": "Fast Company AI",
+        "summary": "As AI and social media make falsehoods harder to detect, the community devoted to debunking bad information faces an uncertain future.",
+        "href": "https://www.fastcompany.com/91581838/can-skeptics-survive-the-misinformation-age?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=8&partner=newsletter&campaign_date=08122026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-91581838-skeptics-and-the-misinformation-age.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "big-tech-s-ai-boom-echoes-the-1870s-railroad-exp-3a2a5a68-aug11",
+        "category": "Product Updates",
+        "title": "Big Tech's AI boom echoes the 1870s railroad expansion, and Nvidia shifting risk to institutional capital may expose in...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Big Tech's AI boom echoes the 1870s railroad expansion, and Nvidia shifting risk to institutional capital may expose investors if revenues fail to materialize (Ben Thompson/Stratechery)",
+        "href": "https://www.techmeme.com/260811/p13",
+        "imageUrl": "http://www.techmeme.com/img/techmeme_sq328.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-is-dead-organoids-are-alive-c073b333-aug11",
+        "category": "Product Updates",
+        "title": "AI Is Dead. Organoids Are Alive",
+        "source": "WIRED AI",
+        "summary": "Mini human brains are being grown in labs all over the world. Soon, they could outthink neural networks.",
+        "href": "https://www.wired.com/story/organoids-lab-grown-brains-neural-networks/",
+        "imageUrl": "https://media.wired.com/photos/6a7a2641ddfb8a809864e7f8/master/pass/IN-LINE_LILAC.png",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-investors-are-suddenly-quaking-in-their-boots-300f5fbc-aug11",
+        "category": "Product Updates",
+        "title": "AI Investors Are Suddenly Quaking in Their Boots",
+        "source": "Futurism AI",
+        "summary": "\"Capital can bridge the gap for a while, but not indefinitely.\" The post AI Investors Are Suddenly Quaking in Their Boots appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ai-investors-suddenly-quaking-boots",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/ai-investors-suddenly-quaking-boots.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "source-trajectory-founded-by-ex-deepmind-apple-o-3b242355-aug11",
+        "category": "Model Releases",
+        "title": "Source: Trajectory, founded by ex-DeepMind, Apple, OpenAI, and Meta staffers to build continual learning models, raised...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Source: Trajectory, founded by ex-DeepMind, Apple, OpenAI, and Meta staffers to build continual learning models, raised $40M led by Sequoia at a $300M valuation (Stephanie Palazzolo/The Information)",
+        "href": "https://www.techmeme.com/260811/p22",
+        "imageUrl": "https://tii.imgix.net/production/articles/17601/7f06a09a-8fbc-4c20-9de5-e6e12d728e97-fwluSn.jpg?fm=jpeg&auto=compress&w=610",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ibm-and-together-ai-sign-a-240m-multi-year-deal-79688545-aug11",
+        "category": "Model Releases",
+        "title": "IBM and Together AI sign a $240M, multi-year deal to build an AI inference cluster on IBM Cloud, using Nvidia's HGX B30...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: IBM and Together AI sign a $240M, multi-year deal to build an AI inference cluster on IBM Cloud, using Nvidia's HGX B300 systems, to support open-source models (Anhata Rooprai/Reuters)",
+        "href": "https://www.techmeme.com/260811/p14",
+        "imageUrl": "https://www.reuters.com/resizer/v2/SXT5IBRB2BMPXIKT4N2B7H47FU.jpg?auth=23ad017cf0d35bce2c12fa3867047ae0c52000feb5f5885a645c9f1d0ddcd52b&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-look-at-london-based-ai-startup-cosine-which-i-5fd1b134-aug11",
+        "category": "Model Releases",
+        "title": "A look at London-based AI startup Cosine, which is building a frontier model with UK government backing, as some questi...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: A look at London-based AI startup Cosine, which is building a frontier model with UK government backing, as some question if it has the talent and resources (Financial Times)",
+        "href": "https://www.techmeme.com/260811/p7",
+        "imageUrl": "assets/news/openai-databricks-agent-workflows.webp",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-releases-nemotron-3-5-lightning-an-open-3-829cb1a3-aug11",
+        "category": "Agents",
+        "title": "Nvidia releases Nemotron 3.5 Lightning, an open 30B-parameter MoE model that it says delivers up to 4x faster output sp...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Nvidia releases Nemotron 3.5 Lightning, an open 30B-parameter MoE model that it says delivers up to 4x faster output speeds, and an agentic AI model router (Kyt Dotson/SiliconANGLE)",
+        "href": "https://www.techmeme.com/260811/p18",
+        "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/03/nemotron-3-release.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "new-free-ebook-understanding-agentic-ai-an-execu-204a8c5a-aug11",
+        "category": "Agents",
+        "title": "New Free eBook: Understanding Agentic AI, an Executive Briefing",
+        "source": "KDnuggets",
+        "summary": "Written for CEOs, CTOs, CIOs, and technology executives, our new free ebook \"Understanding Agentic AI: An Executive Briefing\" walks through the components every real agentic system is built from.",
+        "href": "https://www.kdnuggets.com/new-free-ebook-understanding-agentic-ai-an-executive-briefing",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-ebook-agentic-ai-executive-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "evolve-your-marketing-with-new-ai-tools-ae2292bf-aug11",
+        "category": "Agents",
+        "title": "Evolve your marketing with new AI tools",
+        "source": "Google AI Blog",
+        "summary": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
+        "href": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-to-pause-some-work-on-ai-model-astra-due-20c457a6-aug11",
+        "category": "Developer Tools",
+        "title": "OpenAI to pause some work on AI model Astra due to security concerns",
+        "source": "The Guardian AI",
+        "summary": "Agent found to be able to find and exploit vulnerabilities without human intervention, and to carry out cyber-attacks OpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated on Friday, following a serie...",
+        "href": "https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns",
+        "imageUrl": "https://i.guim.co.uk/img/media/75370b7d2e86da8743ca26266a8659d6b1b70393/667_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=bf8b16025f2e29ec6571a13a66115169",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-launches-gpt-5-6-cyber-to-help-defenders-b56d54f3-aug11",
+        "category": "Developer Tools",
+        "title": "OpenAI launches GPT-5.6-Cyber to help defenders find vulnerabilities before attackers do",
+        "source": "The Decoder",
+        "summary": "OpenAI aims to give cybersecurity defenders a head start: The new GPT-5.6-Cyber model answers up to 98.5 percent of security queries that would otherwise be blocked and has already uncovered two previously unknown Chrome vulnerabilities. According to OpenAI,...",
+        "href": "https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/openai_logo_background_dark.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-s-open-weight-nemotron-3-5-lightning-prio-fd32193a-aug11",
+        "category": "Developer Tools",
+        "title": "Nvidia's open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence",
+        "source": "The Decoder",
+        "summary": "Nvidia's Nemotron 3.5 Lightning is an open-weights model with just 3.6 billion active parameters that matches OpenAI's gpt-oss-120b on the Intelligence Index despite being four times smaller. At nearly 670 tokens per second, it's also the fastest model in the...",
+        "href": "https://the-decoder.com/nvidias-open-weight-nemotron-3-5-lightning-prioritizes-speed-over-maximum-intelligence/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/nvidia_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-is-helping-solve-the-intricate-genetic-puzzle-fb96ce21-aug11",
+        "category": "Developer Tools",
+        "title": "AI Is Helping Solve the Intricate Genetic Puzzle of Schizophrenia",
+        "source": "WIRED AI",
+        "summary": "Recent findings provide one of the most detailed pictures to date of the genetic architecture of schizophrenia, opening up new avenues for research into the disorder.",
+        "href": "https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/",
+        "imageUrl": "https://media.wired.com/photos/6a74f6a1ee5313e488f90591/master/pass/esquizofrenia.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-anthropic-is-courting-investors-for-what-f0ed8e76-aug11",
+        "category": "Funding",
+        "title": "Sources: Anthropic is courting investors for what could be the biggest IPO ever, touting rapid growth and plans to addr...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: Anthropic is courting investors for what could be the biggest IPO ever, touting rapid growth and plans to address mounting public backlash against AI (Wall Street Journal)",
+        "href": "https://www.techmeme.com/260811/p1",
+        "imageUrl": "https://images.wsj.net/im-50714106/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "singapore-raises-its-2026-gdp-growth-forecast-to-2f559561-aug11",
+        "category": "Funding",
+        "title": "Singapore raises its 2026 GDP growth forecast to 4.5%-5.5% from 2%-4%, citing stronger-than-expected global AI investme...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Singapore raises its 2026 GDP growth forecast to 4.5%-5.5% from 2%-4%, citing stronger-than-expected global AI investment and improved external demand (Bloomberg)",
+        "href": "https://www.techmeme.com/260811/p3",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_wUFClqzWMg/v0/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "data-movement-is-the-new-performance-battlegroun-af14be26-aug11",
+        "category": "Creative AI",
+        "title": "Data movement is the new performance battleground in semiconductor design",
+        "source": "TechRadar Software",
+        "summary": "Performance bottlenecks are moving from processors to what connects them.",
+        "href": "https://www.techradar.com/pro/data-movement-is-the-new-performance-battleground-in-semiconductor-design",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/YoQ7bF6XQjs33SMa72NcwK-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-10",
     "label": "August 10, 2026",
     "items": [
