@@ -371,6 +371,492 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-13",
+    "label": "August 13, 2026",
+    "items": [
+      {
+        "id": "sources-detail-moves-behind-google-s-ai-reshuffl-8a7fe853-aug13",
+        "category": "Model Releases",
+        "title": "Sources detail moves behind Google's AI reshuffle; Sergey Brin urged key staff to go all in on Gemini, and some teams s...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources detail moves behind Google's AI reshuffle; Sergey Brin urged key staff to go all in on Gemini, and some teams shifted from DeepMind to corporate Google (Kenrick Cai/Reuters)",
+        "href": "https://www.techmeme.com/260812/p44",
+        "imageUrl": "https://www.reuters.com/resizer/v2/AY6W37WSYZN6JPDN35U3BSOVCA.jpg?auth=e37a59443994d0332d17da0a44949c68019707454fd55cd80128b4e8fbdf390d&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gemini-is-the-glp-1-of-tech-declares-trevor-noah-c480bbc1-aug13",
+        "category": "Model Releases",
+        "title": "Gemini is the GLP-1 of tech declares Trevor Noah at Made by Google event",
+        "source": "Mashable",
+        "summary": "Made By Google launches a suite of new Gemini tools for Pixel phones, as the AI assistant hits one billion monthly users.",
+        "href": "https://mashable.com/tech/made-by-google-gemini-pixel-11",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/03ojNmyIrxflXfYXqqXEcWn/hero-image.fill.size_1200x675.v1786578976.png",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "testing-ads-in-chatgpt-de2ca3d7-aug13",
+        "category": "Model Releases",
+        "title": "Testing ads in ChatGPT",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+        "href": "https://openai.com/index/testing-ads-in-chatgpt",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/21TdmlEzFwgoo7ZER7SNCV/001b3d542fd4d025a2dcd1a5ab9417fe/OAI_AdsTest_Blog_OpenGraph_1200x630.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "deepseek-v4-pro-0813-fbdfaa10-aug13",
+        "category": "Product Updates",
+        "title": "DeepSeek V4 Pro 0813",
+        "source": "openrouter.ai",
+        "summary": "openrouter.ai reported: DeepSeek V4 Pro 0813",
+        "href": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+        "imageUrl": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813/opengraph-image-1oizug?abd1ffaa6102aa5f",
+        "excerpt": "Radar signal: openrouter.ai surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-s-new-mai-code-1-1-flash-gets-crushed-22773792-aug13",
+        "category": "Developer Tools",
+        "title": "Microsoft's new MAI Code 1.1 Flash gets crushed by Deepseek on both price and performance",
+        "source": "The Decoder",
+        "summary": "Microsoft has released MAI Code 1.1 Flash, a code model for GitHub Copilot that's said to be 25 percent more token-efficient at a quarter of the cost of its predecessor. In benchmarks, though, it gets crushed by the cheaper Deepseek V4 Flash. The move fits a...",
+        "href": "https://the-decoder.com/microsofts-new-mai-code-1-1-flash-gets-crushed-by-deepseek-on-both-price-and-performance/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/microsoft_logo_red_pink.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spacexai-releases-grok-4-6-saying-it-matches-gpt-06da30cc-aug13",
+        "category": "Model Releases",
+        "title": "SpaceXAI releases Grok 4.6, saying it matches GPT-5.6 Sol on the Artificial Analysis Intelligence Index, and prices it...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: SpaceXAI releases Grok 4.6, saying it matches GPT-5.6 Sol on the Artificial Analysis Intelligence Index, and prices it at $2/1M input and $6/1M output tokens (xAI)",
+        "href": "https://www.techmeme.com/260812/p39",
+        "imageUrl": "https://x.ai/images/news/grok-4-6-og.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-229-8743e98e-aug13",
+        "category": "Developer Tools",
+        "title": "v2.1.229",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.229",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229",
+        "imageUrl": "https://opengraph.githubassets.com/925d4f45fa173e321131890a6d1e76303fea087a7dfaedd8b4362b237c276b0d/anthropics/claude-code/releases/tag/v2.1.229",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-cowork-can-now-run-in-a-chrome-sidebar-674f972f-aug13",
+        "category": "Developer Tools",
+        "title": "Claude Cowork can now run in a Chrome sidebar",
+        "source": "Engadget",
+        "summary": "Take your conversations with the chatbot into the Anthropic browser extension. Take your conversations with the chatbot into the Anthropic browser extension. Take your conversations with the chatbot into the Anthropic browser extension. Take your conversation...",
+        "href": "https://www.engadget.com/2235919/claude-cowork-can-now-run-in-a-chrome-sidebar",
+        "imageUrl": "https://www.engadget.com/img/gallery/claude-cowork-can-now-run-in-a-chrome-sidebar/l-intro-1786572241.jpg",
+        "excerpt": "Radar signal: Engadget surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-w-06e533fd-aug13",
+        "category": "Model Releases",
+        "title": "Serve Qwen3.8-2.4T-A95B, a 2.4T-Parameter Model, with Configurable Reasoning on NVIDIA GB300 NVL72",
+        "source": "NVIDIA Technical Blog AI",
+        "summary": "Alibaba released the open weights for Qwen3.8-2.4T-A95B (Qwen3.8-Max), its largest open-weight model, bringing near-frontier capabilities to the open...",
+        "href": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72/",
+        "imageUrl": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Qwen-Open-Source-768x432.jpg",
+        "excerpt": "Radar signal: NVIDIA Technical Blog AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "write-your-first-prompt-with-the-github-copilot-57803b26-aug13",
+        "category": "Developer Tools",
+        "title": "Write your first prompt with the GitHub Copilot app",
+        "source": "GitHub Blog",
+        "summary": "Learn how to write your first prompt in the GitHub Copilot app, choose the right context and model, and start your first task with confidence. The post Write your first prompt with the GitHub Copilot app appeared first on The GitHub Blog .",
+        "href": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/08/Screenshot-2026-08-11-at-6.38.49-PM.png?fit=1095%2C626",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "stockholm-based-ai-coding-startup-lovable-raised-71faebb3-aug13",
+        "category": "Developer Tools",
+        "title": "Stockholm-based AI coding startup Lovable raised $400M at a $13.3B valuation, up from $6.6B in December 2025, becoming...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Stockholm-based AI coding startup Lovable raised $400M at a $13.3B valuation, up from $6.6B in December 2025, becoming one of Europe's most valuable startups (Ben Dummett/Wall Street Journal)",
+        "href": "https://www.techmeme.com/260812/p8",
+        "imageUrl": "https://images.wsj.net/im-93767098/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "thinking-of-ace-we-can-do-it-with-fewer-tokens-5eb3c49c-aug13",
+        "category": "Product Updates",
+        "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Thinking of ACE? We Can Do It with Fewer Tokens",
+        "href": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/G2z5bU66FNnhBf_UhSNij.jpeg",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "tool-calling-across-any-model-write-the-loop-onc-c208d1a5-aug13",
+        "category": "Developer Tools",
+        "title": "Tool Calling Across Any Model: Write the Loop Once, Swap the Model String",
+        "source": "OpenRouter Announcements",
+        "summary": "Most tool-calling tutorials cover one provider, so you rewrite the loop when you switch. This guide shows the full loop in Python, JavaScript, and cURL, then runs it against three providers by changing one string.",
+        "href": "https://openrouter.ai/blog/tutorials/tool-calling/",
+        "imageUrl": "https://openrouter.ai/blog/images/tool-calling.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ytshorts-ai-26ea81c7-aug13",
+        "category": "Product Updates",
+        "title": "YTShorts.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: YTShorts.ai",
+        "href": "https://www.producthunt.com/products/ytshorts-ai",
+        "imageUrl": "https://ph-files.imgix.net/3f0759b0-3cad-4bd6-9dd5-6499d8d8edf3.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "srnd-ai-1e7e7a29-aug13",
+        "category": "Product Updates",
+        "title": "SRND AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: SRND AI",
+        "href": "https://www.producthunt.com/products/srnd-ai",
+        "imageUrl": "https://ph-files.imgix.net/fb50c9ed-0d7f-4a3e-8263-45d6480b505b.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-the-uk-government-is-planning-to-regulat-9c8647aa-aug13",
+        "category": "Product Updates",
+        "title": "Sources: the UK government is planning to regulate the use of AI in gene synthesis to prevent terrorists and other bad...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: the UK government is planning to regulate the use of AI in gene synthesis to prevent terrorists and other bad actors from using AI for bioweapons (Ellen Milligan/Bloomberg)",
+        "href": "https://www.techmeme.com/260812/p42",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/isXQKENBAqyk/v0/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "some-health-and-fitness-obsessives-are-using-ai-dd19370a-aug13",
+        "category": "Product Updates",
+        "title": "Some health and fitness obsessives are using AI for hyperpersonalized training, building custom dashboards and tools to...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Some health and fitness obsessives are using AI for hyperpersonalized training, building custom dashboards and tools to analyze their sleep, workouts, and diet (Wall Street Journal)",
+        "href": "https://www.techmeme.com/260812/p6",
+        "imageUrl": "https://images.wsj.net/im-06442262/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "rebyte-ai-1e27efe3-aug13",
+        "category": "Product Updates",
+        "title": "Rebyte.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: Rebyte.ai",
+        "href": "https://www.producthunt.com/products/rebyte-ai",
+        "imageUrl": "https://ph-files.imgix.net/8b7d94ab-7f09-4b02-b99b-abb7118d3ff1.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-is-introducing-an-insulin-resistance-tren-a642d037-aug13",
+        "category": "Product Updates",
+        "title": "Google is introducing an insulin-resistance trend feature that uses AI, accelerometer, and other sensors, launching fir...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Google is introducing an insulin-resistance trend feature that uses AI, accelerometer, and other sensors, launching first on the Watch 5 and Fitbit devices (Samantha Kelly/Bloomberg)",
+        "href": "https://www.techmeme.com/260812/p33",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/icidfFnsMa3M/v1/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-is-cutting-the-google-one-ai-pro-trial-bu-962cc9e5-aug13",
+        "category": "Product Updates",
+        "title": "Google is cutting the Google One AI Pro trial bundled with Pixel 11 Pro and other handsets from 12 to 6 months, and rem...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Google is cutting the Google One AI Pro trial bundled with Pixel 11 Pro and other handsets from 12 to 6 months, and removes the free trial from the Pixel 11 (Damien Wilde/9to5Google)",
+        "href": "https://www.techmeme.com/260812/p32",
+        "imageUrl": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/08/Pixel-11-Pro-XL-homescreen-4.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "godmother-of-ai-says-biggest-ai-risk-in-schools-bb7736be-aug13",
+        "category": "Product Updates",
+        "title": "'Godmother of AI' Says Biggest AI Risk In Schools Is Students Losing the Desire to Learn",
+        "source": "Slashdot",
+        "summary": "Fei-Fei Li, aka The Godmother of AI, says the biggest AI risk in education may be students losing the motivation and agency to learn, rather than simply using the technology to cheat. She argues against banning AI outright, saying it can be valuable when used...",
+        "href": "https://news.slashdot.org/story/26/08/12/2021223/godmother-of-ai-says-biggest-ai-risk-in-schools-is-students-losing-the-desire-to-learn",
+        "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png",
+        "excerpt": "Radar signal: Slashdot surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "farmer-horrified-as-ai-gives-bad-advice-that-kil-7485012b-aug13",
+        "category": "Product Updates",
+        "title": "Farmer Horrified as AI Gives Bad Advice That Kills 25 Acres of Crops",
+        "source": "Futurism AI",
+        "summary": "Tragic. The post Farmer Horrified as AI Gives Bad Advice That Kills 25 Acres of Crops appeared first on Futurism .",
+        "href": "https://futurism.com/science-energy/farmer-horrified-ai-advice-agriculture-crops-sesame",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/farmer-horrified-ai-advice-agriculture-crops-sesame.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "clearjet-whose-ai-enabled-logistics-service-conn-42d15341-aug13",
+        "category": "Product Updates",
+        "title": "ClearJet, whose AI-enabled logistics service connects shippers with unused cargo capacity on commercial flights, raised...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: ClearJet, whose AI-enabled logistics service connects shippers with unused cargo capacity on commercial flights, raised a $25M Series B led by Edison Partners (Mary Ann Azevedo/Crunchbase News)",
+        "href": "https://www.techmeme.com/260812/p38",
+        "imageUrl": "https://news.crunchbase.com/wp-content/uploads/Supply_Chain.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cisco-reports-q4-revenue-up-18-yoy-to-17-25b-vs-c7c9d1be-aug13",
+        "category": "Product Updates",
+        "title": "Cisco reports Q4 revenue up 18% YoY to $17.25B, vs. $16.82B est., AI infrastructure orders from hyperscalers worth $4B,...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Cisco reports Q4 revenue up 18% YoY to $17.25B, vs. $16.82B est., AI infrastructure orders from hyperscalers worth $4B, forecasts FY 2027 revenue above est. (Juby Babu/Reuters)",
+        "href": "https://www.techmeme.com/260812/p50",
+        "imageUrl": "https://www.reuters.com/resizer/v2/JIFW4EQ7HBJYBARJMRVU3K55JM.jpg?auth=811ee84d01109eadb651cff1764ac80ce4a2ff8dbbf9916bdf2ab71b8f915bae&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "another-openai-executive-takes-off-4b76f34b-aug13",
+        "category": "Product Updates",
+        "title": "Another OpenAI executive takes off",
+        "source": "The Verge AI",
+        "summary": "Brad Lightcap, OpenAI's special projects lead and the company's former COO, announced his departure after an eight-year stint at the AI lab. In an internal memo he later posted to X, Lightcap told colleagues he'd be starting \"something new.\" \"Over the last fe...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2151647832.jpg?quality=90&strip=all&crop=0%2C10.664146549656%2C100%2C78.671706900689&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-nuclear-power-firm-fermi-finally-has-a-new-ce-deb9cf1e-aug13",
+        "category": "Product Updates",
+        "title": "AI nuclear power firm Fermi finally has a new CEO",
+        "source": "TechCrunch",
+        "summary": "Lee McIntire, an independent member of Fermi's board, has been hired as CEO, more than three months since the company fired co-founder Toby Neugebauer from the top post. Lee McIntire, an independent member of Fermi's board, has been hired as CEO, more than th...",
+        "href": "https://techcrunch.com/2026/08/12/ai-nuclear-power-firm-fermi-finally-has-a-new-ceo",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2014/08/2468396121_7c6c132c8e_b.jpg?w=1000",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-look-at-ai-news-website-runtimewire-which-cost-48e5744c-aug13",
+        "category": "Product Updates",
+        "title": "A look at AI news website RuntimeWire, which costs $100/day to run and \"beat\" human reporters to OpenAI's Black Hat dis...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: A look at AI news website RuntimeWire, which costs $100/day to run and \"beat\" human reporters to OpenAI's Black Hat disclosure, favoring quantity over quality (Kate Knibbs/Wired)",
+        "href": "https://www.techmeme.com/260812/p17",
+        "imageUrl": "https://media.wired.com/photos/6a7ba72882c71ca2ec1d3267/191:100/w_1280,c_limit/AI-Breaking-News-Business.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-white-house-is-going-to-expand-its-ai-policy-99584ee2-aug13",
+        "category": "Model Releases",
+        "title": "The White House Is Going to Expand Its AI Policy",
+        "source": "WIRED AI",
+        "summary": "Open models may soon be added to an updated AI framework, sources tell WIRED, as the White House continues to grapple with how to regulate a technology it has tried not to regulate.",
+        "href": "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/",
+        "imageUrl": "https://media.wired.com/photos/6a7bbf68f5d2df0bb3e19f91/master/pass/politics_white_house_ai_policy.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-expands-daybreak-cybersecurity-research-p-003b7328-aug13",
+        "category": "Model Releases",
+        "title": "OpenAI expands Daybreak cybersecurity research program",
+        "source": "SiliconANGLE AI",
+        "summary": "OpenAI Group PBC is expanding a program that enables cybersecurity professionals to use its models for vulnerability research. Daybreak, as the the program is called, launched in May. OpenAI today added two new access tiers called Daybreak Blue and Daybreak R...",
+        "href": "https://siliconangle.com/2026/08/10/openai-expands-daybreak-cybersecurity-research-program/",
+        "imageUrl": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/08/OpenAI1.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "model-ml-completes-finance-work-more-efficiently-c7b962b1-aug13",
+        "category": "Model Releases",
+        "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+        "source": "OpenAI Blog",
+        "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+        "href": "https://openai.com/index/model-ml",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7i6SdT5kG4y6MXKSP9lOtK/cb719d5c67c96695c7de9048d7562fd8/modelml-og.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "mistral-says-its-platform-will-support-third-par-25ef1a31-aug13",
+        "category": "Model Releases",
+        "title": "Mistral says its platform will support third-party open models, starting with Z.ai's GLM-5.2, and run them on the same...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Mistral says its platform will support third-party open models, starting with Z.ai's GLM-5.2, and run them on the same infrastructure as its own models (Mistral AI Blog)",
+        "href": "https://www.techmeme.com/260812/p48",
+        "imageUrl": "https://mistral.ai/cms-media/api/media/file/Cover-SovereignAI.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "at-t-says-open-models-currently-account-for-25-o-559ee696-aug13",
+        "category": "Model Releases",
+        "title": "AT&T says open models currently account for ~25% of its AI usage, and it targets 70% to 80% over time; AT&T uses an ave...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: AT&T says open models currently account for ~25% of its AI usage, and it targets 70% to 80% over time; AT&T uses an average of 45B AI tokens per day (Belle Lin/Wall Street Journal)",
+        "href": "https://www.techmeme.com/260812/p22",
+        "imageUrl": "https://images.wsj.net/im-943861/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "uxspot-mcp-server-edd5ac40-aug13",
+        "category": "Agents",
+        "title": "uxspot MCP Server",
+        "source": "producthunt",
+        "summary": "producthunt reported: uxspot MCP Server",
+        "href": "https://www.producthunt.com/products/uxspot-mcp-server",
+        "imageUrl": "https://ph-files.imgix.net/03f6dc07-1c62-439e-b9dd-7b068f2ee8ca.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "researchers-say-suspected-chinese-hackers-used-o-2c372f11-aug13",
+        "category": "Agents",
+        "title": "Researchers say suspected Chinese hackers used open-source AI agents to build an autonomous hacking tool that compromis...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Researchers say suspected Chinese hackers used open-source AI agents to build an autonomous hacking tool that compromised Taiwanese government websites in July (Tom Wilson/Financial Times)",
+        "href": "https://www.techmeme.com/260812/p2",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F7523a6c6-0279-42eb-b2e3-7447048a2e24.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "daybreak-models-are-now-available-on-aws-b274e009-aug13",
+        "category": "Agents",
+        "title": "Daybreak models are now available on AWS",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+        "href": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+        "imageUrl": "assets/news/superhuman-claude-mythos.png",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "your-contributors-are-ai-first-now-is-your-proje-52817327-aug13",
+        "category": "Developer Tools",
+        "title": "Your contributors are AI-first now. Is your project?",
+        "source": "GitHub Blog",
+        "summary": "AI contributors are already in your queue. AutoGPT maintainer Nicholas Tindle shares the repo instructions, gates, and boundaries that keep maintainers in control. The post Your contributors are AI-first now. Is your project? appeared first on The GitHub Blog...",
+        "href": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/01/00ab37fbbb9bc343b007734b0e5805a26e747c90d955750bd976cb9ce84f6a2a-1920x1080-1.png",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-ai-coding-startup-cognition-is-in-early-af7b519b-aug13",
+        "category": "Developer Tools",
+        "title": "Sources: AI coding startup Cognition is in early talks with investors to raise $1B+ at a $40B+ valuation, after raising...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: AI coding startup Cognition is in early talks with investors to raise $1B+ at a $40B+ valuation, after raising $1B at a $26B valuation in May (Rebecca Torrence/Bloomberg)",
+        "href": "https://www.techmeme.com/260812/p7",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_fF7aPqST8s/v1/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "silicon-data-which-offers-real-time-compute-pric-aa7aa386-aug13",
+        "category": "Developer Tools",
+        "title": "Silicon Data, which offers real-time compute pricing data to financial institutions and exchanges, raised a $30.5M Seri...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Silicon Data, which offers real-time compute pricing data to financial institutions and exchanges, raised a $30.5M Series A led by the Valor Atreides AI Fund (Chris Metinko/Axios)",
+        "href": "https://www.techmeme.com/260812/p40",
+        "imageUrl": "https://images.axios.com/AEPcjSH_jiEfrlouC90foftjgNY=/0x0:1920x1080/1366x768/2026/07/31/1785530287114.jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "science-funding-and-unnecessary-fear-letters-109cbfac-aug13",
+        "category": "Developer Tools",
+        "title": "Science funding and unnecessary fear | Letters",
+        "source": "The Guardian AI",
+        "summary": "Prof Stephen Blundell on the plight of the Rutherford Appleton Laboratory, and Peter Forbes on bacteriophages and AI Much of the commentary about the UK Research and Innovation science funding cuts has centred around the decision to close Jodrell Bank, with t...",
+        "href": "https://www.theguardian.com/science/2026/aug/12/science-funding-and-unnecessary-fear",
+        "imageUrl": "https://i.guim.co.uk/img/media/2b93431f3dd9e20ae6c6e124461967ad03648de6/398_0_4288_3431/master/4288.jpg?width=140&quality=85&auto=format&fit=max&s=b2f29a2a19d8ba984387390ebe2d0f4b",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "researchers-can-now-reverse-engineer-llm-prompts-4adb1872-aug13",
+        "category": "Developer Tools",
+        "title": "Researchers can now reverse-engineer LLM prompts from output text with near-perfect accuracy",
+        "source": "The Decoder",
+        "summary": "Researchers at IIT Bombay and Adobe Research have built an inverse language model that reconstructs the original prompt from an LLM's output with near-perfect accuracy. Their method, called \"Previous-Token Prediction,\" doesn't need access to model weights and...",
+        "href": "https://the-decoder.com/researchers-can-now-reverse-engineer-llm-prompts-from-output-text-with-near-perfect-accuracy/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/prompt_extracting.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "if-the-markets-reject-openai-and-anthropic-the-u-aa0e57f8-aug13",
+        "category": "Developer Tools",
+        "title": "If the markets reject OpenAI and Anthropic, the US should nationalize them | Bruce Schneier and Nathan E Sanders",
+        "source": "The Guardian AI",
+        "summary": "From space to telecommunications, the US has a long history of fostering technology for the public good. These AI models could be aligned to democratic values, not corporate profits OpenAI, and then Anthropic, were each formed by AI developers who feared unre...",
+        "href": "https://www.theguardian.com/commentisfree/2026/aug/12/openai-anthropic-ai-models",
+        "imageUrl": "https://i.guim.co.uk/img/media/dbf620b0570af6971845b140c7b695e407e9d7ae/313_0_3136_2509/master/3136.jpg?width=140&quality=85&auto=format&fit=max&s=2f0b2b2edb653c31ac785a56f01b08f9",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "four-of-five-enterprises-that-secured-ai-agent-i-d1db2a24-aug13",
+        "category": "Developer Tools",
+        "title": "Four of five enterprises that secured AI agent identities still can't contain one that goes rogue",
+        "source": "VentureBeat",
+        "summary": "Visa's president of technology, Rajat Taneja, walked the VB Transform 2026 audience through aiming Anthropic's Mythos at Visa's own payment network . The model stitched minor weaknesses into working exploit chains, and Visa open-sourced the harness that gover...",
+        "href": "https://venturebeat.com/security/four-of-five-enterprises-that-secured-ai-agent-identities-still-cant-contain-one-that-goes-rogue",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5n5rmnYkbIGSFc4nayFtGc/e24edab926693c1f72335107e86c0c2c/hero.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-code-testing-startup-blacksmith-raised-a-45m-5e799b4b-aug13",
+        "category": "Developer Tools",
+        "title": "AI code-testing startup Blacksmith raised a $45M Series B led by Peak XV Partners at a $550M valuation, up from $60M af...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: AI code-testing startup Blacksmith raised a $45M Series B led by Peak XV Partners at a $550M valuation, up from $60M after it raised a $10M Series A in 2025 (Jagmeet Singh/TechCrunch)",
+        "href": "https://www.techmeme.com/260812/p14",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/blacksmith-logo.jpg?resize=1200,800",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-code-review-startup-coderabbit-raised-a-143m-58b5b2d7-aug13",
+        "category": "Developer Tools",
+        "title": "AI code review startup CodeRabbit raised a $143M Series C co-led by Atomico and Smash at a $1.5B valuation, after raisi...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: AI code review startup CodeRabbit raised a $143M Series C co-led by Atomico and Smash at a $1.5B valuation, after raising a $60M Series B in September 2025 (Prakhar Srivastava/Reuters)",
+        "href": "https://www.techmeme.com/260812/p21",
+        "imageUrl": "https://www.reuters.com/resizer/v2/BGDCNZX44FK4LA574O6UUBCXPA.jpg?auth=8353068bfda2aefa1e1bbbcc76e4155a9f0c3afaf5eabe779b3b3a96458cf575&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "thrive-capital-s-thrive-holdings-which-acquires-542d72b0-aug13",
+        "category": "Funding",
+        "title": "Thrive Capital's Thrive Holdings, which acquires traditional service businesses and adds AI, raised $2B from SoftBank,...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Thrive Capital's Thrive Holdings, which acquires traditional service businesses and adds AI, raised $2B from SoftBank, D1, and others at a $12B valuation (Michael J. de la Merced/New York Times)",
+        "href": "https://www.techmeme.com/260812/p20",
+        "imageUrl": "https://static01.nyt.com/images/2026/08/12/multimedia/12db-kushner-htmz/12db-kushner-htmz-facebookJumbo.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-backed-thrive-holdings-raises-2b-to-bring-26e311ec-aug13",
+        "category": "Funding",
+        "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+        "source": "TechCrunch",
+        "summary": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
+        "href": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/holdings_all_team.jpg?resize=1200,407",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-ai-era-is-creating-a-new-cto-67fbbbc2-aug13",
+        "category": "Creative AI",
+        "title": "The AI era is creating a new CTO",
+        "source": "TechRadar Software",
+        "summary": "AI shifts CTOs from managing engineers to designing systems that govern autonomous development.",
+        "href": "https://www.techradar.com/pro/the-ai-era-is-creating-a-new-cto",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/4d3FzfBhbeGTkD9mnMpEdM-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "q-a-with-redwood-research-chief-scientist-ryan-g-60940646-aug13",
+        "category": "Research Workflows",
+        "title": "Q&A with Redwood Research Chief Scientist Ryan Greenblatt on AI R&D, RSI, whether human expert data is bottlenecking pr...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Q&A with Redwood Research Chief Scientist Ryan Greenblatt on AI R&D, RSI, whether human expert data is bottlenecking progress, token prices, alignment, and more (Dwarkesh Patel/Dwarkesh Podcast)",
+        "href": "https://www.techmeme.com/260812/p13",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!FzOK!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F210737923%2F07f1f1b0-f21d-482a-b648-3c4f1b6c3c6b%2Ftranscoded-1786521947.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-12",
     "label": "August 12, 2026",
     "items": [
