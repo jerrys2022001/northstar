@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-08-17T01:04:31+00:00",
+  "updatedAt": "2026-08-17T01:09:50+00:00",
   "digestDate": "2026-08-17",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-08-14T09:01:30+08:00",
-  "windowEnd": "2026-08-17T09:01:30+08:00",
+  "windowStart": "2026-08-14T09:01:29+08:00",
+  "windowEnd": "2026-08-17T09:01:29+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -248,22 +248,22 @@
   ],
   "fetchDiagnostics": {
     "sourcesAttempted": 59,
-    "sourcesSucceeded": 40,
+    "sourcesSucceeded": 37,
     "sourceErrors": [
       {
         "source": "Anthropic News",
         "url": "https://www.anthropic.com/news/rss.xml",
-        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+        "error": "HTTPError: HTTP Error 404: Not Found"
       },
       {
         "source": "Anthropic Engineering",
         "url": "https://www.anthropic.com/engineering/rss.xml",
-        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+        "error": "HTTPError: HTTP Error 404: Not Found"
       },
       {
         "source": "Google Developers AI",
         "url": "https://developers.googleblog.com/en/search/label/ai/rss.xml",
-        "error": "HTTPError: HTTP Error 404: Not Found"
+        "error": "URLError: <urlopen error timed out>"
       },
       {
         "source": "Google DeepMind",
@@ -278,17 +278,27 @@
       {
         "source": "Meta AI",
         "url": "https://ai.meta.com/blog/rss/",
-        "error": "HTTPError: HTTP Error 404: Not Found"
+        "error": "URLError: <urlopen error timed out>"
+      },
+      {
+        "source": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "error": "URLError: <urlopen error timed out>"
       },
       {
         "source": "Perplexity Blog",
         "url": "https://www.perplexity.ai/hub/blog/rss.xml",
-        "error": "HTTPError: HTTP Error 403: Forbidden"
+        "error": "URLError: <urlopen error timed out>"
+      },
+      {
+        "source": "The Guardian AI",
+        "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+        "error": "URLError: <urlopen error timed out>"
       },
       {
         "source": "Notion Blog",
         "url": "https://www.notion.so/blog/rss.xml",
-        "error": "HTTPError: HTTP Error 404: Not Found"
+        "error": "URLError: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
       },
       {
         "source": "Figma Blog",
@@ -318,7 +328,7 @@
       {
         "source": "HeyGen Blog",
         "url": "https://www.heygen.com/blog/rss.xml",
-        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+        "error": "URLError: <urlopen error timed out>"
       },
       {
         "source": "Otter Blog",
@@ -344,6 +354,11 @@
         "source": "Synthesia Blog",
         "url": "https://www.synthesia.io/blog/rss.xml",
         "error": "HTTPError: HTTP Error 404: Not Found"
+      },
+      {
+        "source": "The Register AI",
+        "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
+        "error": "ParseError: not well-formed (invalid token): line 7, column 22"
       }
     ]
   },
@@ -511,7 +526,7 @@
       "summary": "producthunt reported: MCPScan",
       "href": "https://www.producthunt.com/products/mcpscan",
       "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window.",
-      "imageUrl": "https://ph-files.imgix.net/d6f34a54-2446-4f89-8ab1-898cec0c6a82.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+      "imageUrl": "assets/news/fallback-google-ai-economy.webp",
       "publishedAt": "2026-08-16T10:11:16+00:00",
       "toolIds": []
     },
@@ -541,7 +556,7 @@
       "summary": "producthunt reported: Mbason-ai",
       "href": "https://www.producthunt.com/products/mbason-ai",
       "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window.",
-      "imageUrl": "https://ph-files.imgix.net/4b167f0f-bc49-4d81-acbb-de7f6845197a.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+      "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
       "publishedAt": "2026-08-16T07:45:46+00:00",
       "toolIds": []
     },
@@ -555,22 +570,8 @@
       "summary": "producthunt reported: Novelens.ai",
       "href": "https://www.producthunt.com/products/novelens-ai",
       "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window.",
-      "imageUrl": "https://ph-files.imgix.net/b632d972-40f2-4942-808b-ef50b74bae17.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+      "imageUrl": "assets/news/fallback-ai-datacenter-aerial.jpg",
       "publishedAt": "2026-08-16T07:45:46+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "ai-cheating-leaked-papers-and-marking-errors-how-fb1102f2-aug17",
-      "date": "2026-08-17",
-      "dateLabel": "August 17, 2026",
-      "category": "Developer Tools",
-      "title": "AI cheating, leaked papers and marking errors: how exam protests went global",
-      "source": "The Guardian AI",
-      "summary": "Student unrest sweeps India, Portugal and Mexico as grievances and pressure for good grades in tough job market collide Families with teenagers in education know the private, hidden pain of exam season. But this year, what might have been a summer of quiet fa...",
-      "href": "https://www.theguardian.com/global-development/2026/aug/16/ai-cheating-leaked-papers-marking-errors-how-exam-protests-went-global",
-      "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://i.guim.co.uk/img/media/f59fdc6ca49456115605c5555d4f96d97e18d4e6/424_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=efbc988852132d5a5f5ead33264bd27a",
-      "publishedAt": "2026-08-16T07:00:19+00:00",
       "toolIds": []
     },
     {
