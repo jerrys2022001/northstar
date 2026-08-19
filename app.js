@@ -371,6 +371,322 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-19",
+    "label": "August 19, 2026",
+    "items": [
+      {
+        "id": "google-s-ai-can-see-your-business-data-by-defaul-e5882e27-aug19",
+        "category": "Model Releases",
+        "title": "Google's AI can see your business data by default in Workspace - unless you disable it",
+        "source": "ZDNet AI",
+        "summary": "In Google Workspace, Gemini has access to Gmail, Docs, Calendar, Chat, and more by default. Here's why it matters, and how administrators can disable it today.",
+        "href": "https://www.zdnet.com/article/googles-ai-can-see-your-business-data-by-default-in-workspace-unless-you-disable-it/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/43b86af30d64119389a442cbef8c25410b04ec71/2026/08/18/455d2d62-749a-4c14-b83f-bacdfe9c02b6/gettyimages-1149449071.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "get-closer-to-the-game-with-gemini-and-pixel-ef87e3b0-aug19",
+        "category": "Model Releases",
+        "title": "Get closer to the game with Gemini and Pixel",
+        "source": "Google AI Blog",
+        "summary": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
+        "href": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp",
+        "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "man-obliterated-when-court-obtains-his-chatgpt-t-651c5b47-aug19",
+        "category": "Model Releases",
+        "title": "Man Obliterated When Court Obtains His ChatGPT Transcripts",
+        "source": "Futurism AI",
+        "summary": "We would simply never recover. The post Man Obliterated When Court Obtains His ChatGPT Transcripts appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/expert-witness-chatgpt-logs-court",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/expert-witness-chatgpt-logs-court.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "get-6-hours-of-claude-and-chatgpt-project-manage-584da80b-aug19",
+        "category": "Model Releases",
+        "title": "Get 6 hours of Claude and ChatGPT project management training for $20",
+        "source": "Mashable",
+        "summary": "Learn how to use Claude and ChatGPT for project planning, scheduling, risk management and other project management tasks for $19.99.",
+        "href": "https://mashable.com/tech/aug-18-claude-chatgpt-for-project-management-bundle",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/025zPmFtmCsVqOwoRyNhz1J/hero-image.fill.size_1200x675.v1787014683.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "grok-csam-lawsuit-expands-as-more-step-forward-f8290393-aug19",
+        "category": "Creative AI",
+        "title": "Grok CSAM lawsuit expands as more step forward",
+        "source": "Mashable",
+        "summary": "A federal lawsuit against SpaceXAI alleges the company is profiting from Grok-enabled sex trafficking and negligent product design.",
+        "href": "https://mashable.com/tech/grok-child-abuse-lawsuit-expands-new",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/023K5FtfMILLAlF2jwpMZHP/hero-image.fill.size_1200x675.v1786983872.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-235-0fbaecde-aug19",
+        "category": "Developer Tools",
+        "title": "v2.1.235",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.235",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
+        "imageUrl": "https://opengraph.githubassets.com/04d426dc2468b250e29e2ea8a3ab8e473b8f500f8014a025eb260545fcbdda17/anthropics/claude-code/releases/tag/v2.1.235",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-copilot-reveals-secret-input-that-allo-3bbaa3b8-aug19",
+        "category": "Developer Tools",
+        "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+        "source": "Ars Technica",
+        "summary": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
+        "href": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2242817595-1152x648.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "excel-s-copilot-function-is-headed-for-the-recyc-ada03c75-aug19",
+        "category": "Developer Tools",
+        "title": "Excel's Copilot function is headed for the Recycle Bin",
+        "source": "The Register AI",
+        "summary": "Microsoft realizes the side pane should be enough for anyone",
+        "href": "https://www.theregister.com/ai-and-ml/2026/08/17/excels-copilot-function-is-headed-for-the-recycle-bin/5288327",
+        "imageUrl": "https://image.theregister.com/?imageId=5269830&width=800",
+        "excerpt": "Radar signal: The Register AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-institutes-new-safeguards-after-hugging-f-d8b7c851-aug19",
+        "category": "Model Releases",
+        "title": "OpenAI institutes new safeguards after Hugging Face breach",
+        "source": "TechCrunch",
+        "summary": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.",
+        "href": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-releases-tensorrt-model-connect-in-public-b0fac4e9-aug19",
+        "category": "Model Releases",
+        "title": "NVIDIA Releases TensorRT Model Connect in Public Preview: Hugging Face Checkpoint to Native C++ Inference in Two Comman...",
+        "source": "MarkTechPost",
+        "summary": "NVIDIA has released TensorRT Model Connect (TRTMC) in public preview, an Apache-2.0 project that takes a supported Hugging Face or local checkpoint to end-to-end TensorRT inference in two commands, with no intermediate ONNX export. The build emits a versioned...",
+        "href": "https://www.marktechpost.com/2026/08/18/nvidia-releases-tensorrt-model-connect-in-public-preview-hugging-face-checkpoint-to-native-c-inference-in-two-commands/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog619100-13-1024x731.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openrouter-image-generation-a-code-first-api-tut-15a4affa-aug19",
+        "category": "Developer Tools",
+        "title": "OpenRouter Image Generation: A Code-First API Tutorial",
+        "source": "OpenRouter Announcements",
+        "summary": "Supporting more than one image provider means handling different endpoints, data formats, and billing models. Our dedicated Image API gives you one request format and one key across supported models. Here's the full prompt-to-local-file workflow in Python and...",
+        "href": "https://openrouter.ai/blog/tutorials/image-generation/",
+        "imageUrl": "https://openrouter.ai/blog/images/image-generation.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "einride-strikes-deal-to-add-500-tesla-semis-to-i-836cce4a-aug19",
+        "category": "Developer Tools",
+        "title": "Einride strikes deal to add 500 Tesla Semis to its fleet",
+        "source": "TechCrunch",
+        "summary": "The deal will triple the size of Einride's fleet while sweetening the company's sales pitch for its Saga AI software. The Tesla Semis will be available to customers across North America.",
+        "href": "https://techcrunch.com/2026/08/18/einride-strikes-deal-to-add-500-tesla-semis-to-its-fleet/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/Semi_83.jpg?resize=1200,675",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "tokenmaxxing-is-out-valuemaxxing-is-in-28784898-aug19",
+        "category": "Product Updates",
+        "title": "Tokenmaxxing is out, valuemaxxing is in",
+        "source": "Fast Company AI",
+        "summary": "After months of rewarding heavy AI token usage, companies like Tesla, Uber, and Meta are capping spending and shifting from tokenmaxxing to valuemaxxing.",
+        "href": "https://www.fastcompany.com/91590942/tokenmaxxing-is-out-valuemaxxing-is-in?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=08192026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/1-4.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "taku-ai-934ffaa0-aug19",
+        "category": "Product Updates",
+        "title": "Taku AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: Taku AI",
+        "href": "https://www.producthunt.com/products/taku-ai",
+        "imageUrl": "https://ph-files.imgix.net/102d5f12-5c5b-474c-bc17-2d1cfe31ef85.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meterless-ai-83442fac-aug19",
+        "category": "Product Updates",
+        "title": "Meterless.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: Meterless.ai",
+        "href": "https://www.producthunt.com/products/meterless-ai",
+        "imageUrl": "https://ph-files.imgix.net/df659140-60f4-42d8-a2e2-7d454960c128.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "aivory-ai-ca8c1a6a-aug19",
+        "category": "Product Updates",
+        "title": "Aivory AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: Aivory AI",
+        "href": "https://www.producthunt.com/products/aivory-ai",
+        "imageUrl": "https://ph-files.imgix.net/53d9fd86-a5c1-4121-a380-54feb14746dd.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "aimey-ai-0f754c8c-aug19",
+        "category": "Product Updates",
+        "title": "Aimey.ai",
+        "source": "producthunt",
+        "summary": "producthunt reported: Aimey.ai",
+        "href": "https://www.producthunt.com/products/aimey-ai",
+        "imageUrl": "https://ph-files.imgix.net/da5d021a-f8af-471a-89fb-1dec40d78f6c.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-was-supposed-to-put-white-collar-professional-c0de2594-aug19",
+        "category": "Product Updates",
+        "title": "AI was supposed to put white-collar professionals at risk. Instead, another group is shrinking fast",
+        "source": "Fast Company AI",
+        "summary": "An economist found that some of the occupations most frequently labeled as vulnerable have continued growing.",
+        "href": "https://www.fastcompany.com/91584114/ai-was-supposed-put-white-collar-professionals-risk-instead-another-group-shrinking-fast?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=08192026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/ai-replacement-inc-2078555290.webp",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-eyes-in-the-sky-new-satellites-and-artificial-f62e38f2-aug19",
+        "category": "Product Updates",
+        "title": "AI eyes in the sky: new satellites and artificial intelligence are transforming wildfire detection",
+        "source": "The Guardian AI",
+        "summary": "Hi-tech cameras orbiting Earth and on the ground, along with AI, help firefighters extinguish blazes before they spread The fires in Spokane, Washington , this summer are the latest reminder that when a wildfire is detected can be just as important as where i...",
+        "href": "https://www.theguardian.com/us-news/2026/aug/17/satellites-ai-wildfire-detection",
+        "imageUrl": "https://i.guim.co.uk/img/media/c638ed164246c700aabde8f45b8221de4889a000/333_0_3312_2651/master/3312.jpg?width=140&quality=85&auto=format&fit=max&s=27c66cc680b43c2e6b0691516db14751",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "glm-5-3-artificial-analysis-benchmarks-2156e302-aug19",
+        "category": "Model Releases",
+        "title": "GLM-5.3 Artificial Analysis Benchmarks",
+        "source": "Hacker News (黑客新闻)",
+        "summary": "Analysis of Z AI's GLM-5.3 (max) and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window & more. Analysis of Z AI's GLM-5.3 (max) and comparison to other AI models ac...",
+        "href": "https://artificialanalysis.ai/models/glm-5-3",
+        "imageUrl": "https://artificialanalysis.ai/en/models/glm-5-3/opengraph-image?76c5a1db7097b9e1",
+        "excerpt": "Radar signal: Hacker News (黑客新闻) surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "who-owns-the-code-ai-code-no-author-no-copyright-00f450f4-aug19",
+        "category": "Developer Tools",
+        "title": "Who owns the code? AI code == no author == no copyright",
+        "source": "hackernews",
+        "summary": "While assistive uses that enhance human expression do not limit copyright protection, uses where an AI system makes expressive choices require further analysis. This distinction depends on how the system is being used, not on its inherent characteristics Howe...",
+        "href": "https://news.ycombinator.com/item?id=49353603",
+        "imageUrl": "assets/news/bright-product-updates.svg",
+        "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "run-qwen3-8-27b-as-a-local-ai-coding-agent-in-ju-c8ebfc66-aug19",
+        "category": "Developer Tools",
+        "title": "Run Qwen3.8-27B as a Local AI Coding Agent in Just 3 Commands",
+        "source": "KDnuggets",
+        "summary": "Download Ollama, pull and serve Qwen3.8-27B, and launch it with OpenCode using just three command lines.",
+        "href": "https://www.kdnuggets.com/run-qwen3-8-27b-as-a-local-ai-coding-agent-in-just-3-commands",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-run-qwen3-8-27b-as-a-local-ai-coding-agent-in-just-3-commands-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-says-it-s-pacing-model-development-as-ai-844a6dbb-aug19",
+        "category": "Developer Tools",
+        "title": "OpenAI says it's \"pacing model development\" as AI cybersecurity risks grow too dangerous",
+        "source": "The Decoder",
+        "summary": "OpenAI is deliberately \"pacing AI model development,\" partly because the upcoming \"Astra\" model may be close to gaining critical cyberattack capabilities. A new monitoring system triggers an alert within 30 minutes if a model shows suspicious behavior. The ar...",
+        "href": "https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/openai_red_Logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "new-policy-ideas-for-the-intelligence-age-96670aef-aug19",
+        "category": "Developer Tools",
+        "title": "New policy ideas for the Intelligence Age",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+        "href": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "new-benchmark-ranks-search-apis-for-ai-agents-on-0f816379-aug19",
+        "category": "Developer Tools",
+        "title": "New benchmark ranks search APIs for AI agents on quality, cost, and speed",
+        "source": "The Decoder",
+        "summary": "Artificial Analysis has released the \"Search Index,\" a benchmark that rates search API providers for AI agents on quality, cost, and speed. Of seven providers tested with GPT-5.6 Luna, Parallel, Exa, and Firecrawl scored highest. The article New benchmark ran...",
+        "href": "https://the-decoder.com/new-benchmark-ranks-search-apis-for-ai-agents-on-quality-cost-and-speed/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/aa_search_index_benchmark.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ghosts-in-the-machine-ai-malware-shows-why-it-is-6f307f54-aug19",
+        "category": "Developer Tools",
+        "title": "Ghosts in the machine: AI malware shows why it is time to extend Zero Trust to code",
+        "source": "TechRadar Software",
+        "summary": "AI-generated malware is outpacing human-centered security controls, find out how enterprises can fight back.",
+        "href": "https://www.techradar.com/pro/ghosts-in-the-machine-ai-malware-shows-why-it-is-time-to-extend-zero-trust-to-code",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/mdjvPqJZZunuCQDrfEuBFM-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-s-per-token-cost-runs-4-4-times-the-av-d50516d5-aug19",
+        "category": "Developer Tools",
+        "title": "Anthropic's per-token cost runs 4.4 times the average on Vercel, and developers keep paying",
+        "source": "The Decoder",
+        "summary": "Anthropic dominated Vercel's AI Gateway spending in July, pulling in 65.1 percent of total revenue while accounting for only 30 percent of tokens processed. Its tokens cost 4.4 times as much as those from competing providers on average. The article Anthropic'...",
+        "href": "https://the-decoder.com/anthropics-per-token-cost-runs-4-4-times-the-average-on-vercel-and-developers-keep-paying/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/03/anthropic_office_work.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-ceo-says-ai-centralizes-by-nature-and-8b8c052b-aug19",
+        "category": "Developer Tools",
+        "title": "Anthropic CEO says AI centralizes by nature and open models just shift power to whoever owns the chips",
+        "source": "The Decoder",
+        "summary": "An open fight over AI regulation has broken out on X. Investor Gavin Baker, former White House adviser David Sacks, and Meta researcher Yann LeCun accuse Anthropic CEO Dario Amodei of using fear rhetoric to buy himself a regulatory advantage. Amodei counters...",
+        "href": "https://the-decoder.com/anthropic-ceo-says-ai-centralizes-by-nature-and-open-models-just-shift-power-to-whoever-owns-the-chips/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/01/Amodei-WSJ-Interview-title.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-usage-patterns-in-software-teams-d3c89fb3-aug19",
+        "category": "Developer Tools",
+        "title": "AI usage patterns in software teams",
+        "source": "Hacker News (黑客新闻)",
+        "summary": "AI usage patterns in software teams: who is adopting AI, how it reshapes where teams spend their time, and how much more they ship. AI usage patterns in software teams: who is adopting AI, how it reshapes where teams spend their time, and how much more they s...",
+        "href": "https://linear.app/data",
+        "imageUrl": "https://linear.app/static/og/data-v1.jpg",
+        "excerpt": "Radar signal: Hacker News (黑客新闻) surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-coding-tools-unlock-small-software-674e630c-aug19",
+        "category": "Developer Tools",
+        "title": "AI coding tools unlock small software",
+        "source": "Fast Company AI",
+        "summary": "As AI coding tools drive development costs toward zero, millions of small, once-unbuildable programs are finally worth making.",
+        "href": "https://www.fastcompany.com/91590966/ai-coding-tools-unlock-small-software?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=08192026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/1-7.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-cheating-leaked-papers-and-marking-errors-how-fb1102f2-aug19",
+        "category": "Developer Tools",
+        "title": "AI cheating, leaked papers and marking errors: how exam protests went global",
+        "source": "The Guardian AI",
+        "summary": "Student unrest sweeps India, Portugal and Mexico as grievances and pressure for good grades in tough job market collide Families with teenagers in education know the private, hidden pain of exam season. But this year, what might have been a summer of quiet fa...",
+        "href": "https://www.theguardian.com/global-development/2026/aug/16/ai-cheating-leaked-papers-marking-errors-how-exam-protests-went-global",
+        "imageUrl": "https://i.guim.co.uk/img/media/f59fdc6ca49456115605c5555d4f96d97e18d4e6/424_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=efbc988852132d5a5f5ead33264bd27a",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-18",
     "label": "August 18, 2026",
     "items": [
