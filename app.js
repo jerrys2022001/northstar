@@ -371,6 +371,282 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-20",
+    "label": "August 20, 2026",
+    "items": [
+      {
+        "id": "google-packs-search-and-gemini-with-new-ai-study-dd7fdeb4-aug20",
+        "category": "Model Releases",
+        "title": "Google packs Search and Gemini with new AI study tools",
+        "source": "TechCrunch",
+        "summary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
+        "href": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/google-logo.jpg?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-is-turning-search-into-an-ai-study-tool-5f37f636-aug20",
+        "category": "Model Releases",
+        "title": "Google is turning Search into an AI study tool",
+        "source": "Mashable",
+        "summary": "Google announces new education features, free Gemini subscriptions, and AI Search tools for students.",
+        "href": "https://mashable.com/tech/google-search-ai-study-features-gemini",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/04as0oAKIlwJtOtljFHgVM6/hero-image.fill.size_1200x675.v1787164346.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-parents-should-know-about-chatgpt-for-teens-eaaf0ee6-aug20",
+        "category": "Model Releases",
+        "title": "What parents should know about ChatGPT for Teens",
+        "source": "Mashable",
+        "summary": "OpenAI launched a new ChatGPT teen experience amid youth safety concerns. Experts warn the upgrades may not be enough.",
+        "href": "https://mashable.com/tech/chatgpt-for-teens-what-to-know",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.fill.size_1200x675.v1787084522.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-fixes-codex-bug-that-deleted-real-user-fi-605ec803-aug20",
+        "category": "Developer Tools",
+        "title": "OpenAI fixes Codex bug that deleted real user files without permission",
+        "source": "The Decoder",
+        "summary": "OpenAI patched Codex after GPT-5.6 Sol started deleting real user files on its own. A cleanup command meant for temporary folders was wiping home directories instead. Codex now verifies deletion targets first, and full-access mode can no longer be triggered b...",
+        "href": "https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/openai_sol.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "truefoundry-s-open-source-ai-agent-harness-truef-573fe9bd-aug20",
+        "category": "Developer Tools",
+        "title": "TrueFoundry's open source AI agent harness TrueForge boasts 30%-75% cheaper task completion than Claude Managed Agents",
+        "source": "VentureBeat",
+        "summary": "Another day, another new AI agent harness is released. Only this time, it's one that aims to solve a growing enterprise problem as AI agents proliferate: enabling greater developer control of agents and tools, while reducing cost. TrueFoundry , a San Francisc...",
+        "href": "https://venturebeat.com/orchestration/truefoundrys-open-source-ai-agent-harness-trueforge-boasts-30-75-cheaper-task-completion-than-claude-managed-agents",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/Zu58wse6Ue2XSH7QjdasT/cab01dedb55805687b566c53a20fd64d/Carl_Franzen_graphic_novel_flat_illustration_in_dominant_purple_b9eee842-b613-4cb0-82b6-f0d39acd0d96.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "show-hn-turning-websites-into-micro-clis-for-cla-7dcdd5f4-aug20",
+        "category": "Developer Tools",
+        "title": "Show HN: Turning websites into micro CLIs for Claude Code to save on tokens",
+        "source": "HN Algolia · AI 24h",
+        "summary": "Turn any website into a compact CLI tailored for AI agents. Browse the web in hundreds of tokens, not tens of thousands. - only-cli/oc Turn any website into a compact CLI tailored for AI agents. Browse the web in hundreds of tokens, not tens of thousands. - o...",
+        "href": "https://github.com/only-cli/oc",
+        "imageUrl": "https://opengraph.githubassets.com/444d6b9823bdefc48935bd384df6d31ae191554566df0adeafecc4320f4bd3c9/only-cli/oc",
+        "excerpt": "Radar signal: HN Algolia · AI 24h surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-much-memory-does-your-agent-actually-need-5ce81034-aug20",
+        "category": "Agents",
+        "title": "How Much Memory Does Your Agent Actually Need?",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: How Much Memory Does Your Agent Actually Need?",
+        "href": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/j-n1Au9SJ2-RGkT9i98u4.jpeg",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-lays-out-new-security-changes-after-its-a-34d85fbb-aug20",
+        "category": "Developer Tools",
+        "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+        "source": "The Verge AI",
+        "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had alr...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "stripe-buys-ai-model-router-openrouter-in-report-0194bbdc-aug20",
+        "category": "Model Releases",
+        "title": "Stripe buys AI model router OpenRouter in reported $7.5B deal",
+        "source": "SiliconANGLE AI",
+        "summary": "Stripe Inc. today said it has agreed to acquire artificial intelligence model routing startup OpenRouter Inc. in a deal reported at $7.5 billion or more. Neither company disclosed terms and the reported numbers do not agree. The New York Times said $7.5 billi...",
+        "href": "https://siliconangle.com/2026/08/19/stripe-buys-ai-model-router-openrouter-in-reported-7-5b-deal/",
+        "imageUrl": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/openrouter1-scaled.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "6-workato-alternatives-for-enterprise-automation-852cf84d-aug20",
+        "category": "Agents",
+        "title": "6 Workato Alternatives for Enterprise Automation",
+        "source": "n8n Blog",
+        "summary": "Comparing RPA versus workflow automation? See how they stack up across reliability, security, scalability, observability, and long-term operations.",
+        "href": "https://blog.n8n.io/workato-alternatives-for-enterprise-automation/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/07/TL-3_BlogHeader_workato-alternatives-2.jpg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "soc-2-compliance-automation-across-heterogeneous-d83d3383-aug20",
+        "category": "Developer Tools",
+        "title": "SOC 2 Compliance Automation Across Heterogeneous Stacks",
+        "source": "n8n Blog",
+        "summary": "Learn how SOC 2 compliance automation streamlines evidence collection, monitoring, and remediation across complex systems without vendor lock-in.",
+        "href": "https://blog.n8n.io/soc-2-compliance-automation/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/07/TL-6.jpeg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "glm-5-3-hits-the-api-at-1-4-4-4-per-million-toke-77cbd577-aug20",
+        "category": "Developer Tools",
+        "title": "GLM-5.3 hits the API at $1.4/$4.4 per million tokens",
+        "source": "VentureBeat",
+        "summary": "After a stunning debut last week with cyber capabilities so advanced they reportedly found a previously undetected vulnerability in Cursor, GLM-5.3, the new frontier open source language model from Chinese startup z.ai, has now hit the application programming...",
+        "href": "https://venturebeat.com/technology/glm-5-3-hits-the-api-at-1-4-4-4-per-million-tokens",
+        "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/16anNQpfgOFlIDLBYTmOtA/ab9d2c337e6fc6333fb7f26efb1693cd/ChatGPT_Image_Aug_18__2026__09_59_34_PM.png?w=300&q=30",
+        "excerpt": "Radar signal: VentureBeat surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cognition-ceo-denies-report-that-spacex-tried-to-c83af89f-aug20",
+        "category": "Developer Tools",
+        "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+        "source": "TechCrunch",
+        "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+        "href": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/Scott-Wu-of-Cognition.jpg?w=1024",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-data-center-backlash-is-sending-ai-infrastru-1191d56b-aug20",
+        "category": "Product Updates",
+        "title": "The data center backlash is sending AI infrastructure to some unexpected places",
+        "source": "Fast Company AI",
+        "summary": "Some 70% of Americans oppose constructing data centers in their local areas. So why not try the ocean or outer space?",
+        "href": "https://www.fastcompany.com/91590558/the-push-to-put-data-centers-anywhere-but-land?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=7&partner=newsletter&campaign_date=08202026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91590558-the-push-to-put-data-centers-in-space-and-the-ocean.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "teachers-warn-that-students-are-losing-the-abili-9f3977dd-aug20",
+        "category": "Product Updates",
+        "title": "Teachers Warn That Students Are Losing the Ability to Think as They Lean on AI for Everything",
+        "source": "Futurism AI",
+        "summary": "\"If writing is thinking, then any part of the struggle that is outsourced to technology amounts to relinquishing some freedom to perceive.\" The post Teachers Warn That Students Are Losing the Ability to Think as They Lean on AI for Everything appeared first o...",
+        "href": "https://futurism.com/future-society/students-lose-ability-think-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/students-lose-ability-think-ai.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ressearch-ai-3e70d9b6-aug20",
+        "category": "Product Updates",
+        "title": "Ressearch AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: Ressearch AI",
+        "href": "https://www.producthunt.com/products/ressearch-ai",
+        "imageUrl": "https://ph-files.imgix.net/be8d5d8b-30ef-4570-9939-38256e8c1742.webp?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "r-d-must-be-on-the-offensive-7359c327-aug20",
+        "category": "Product Updates",
+        "title": "R&D must be on the offensive",
+        "source": "Fast Company AI",
+        "summary": "AI is turning product development into the way companies learn, respond, and win market share.",
+        "href": "https://www.fastcompany.com/91591258/rd-must-be-on-the-offensive?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=08202026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/1-9-1.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-saw-the-future-of-ai-in-a-robot-that-can-learn-051a5538-aug20",
+        "category": "Product Updates",
+        "title": "I Saw the Future of AI in a Robot That Can Learn on the Spot",
+        "source": "WIRED AI",
+        "summary": "During a recent visit to Generalist AI, I watched a robotic arm improvise and use a banana as a tool.",
+        "href": "https://www.wired.com/story/generalist-ai-robots-learn-like-clever-toddlers/",
+        "imageUrl": "https://media.wired.com/photos/6a85e8ea4518d27679a9b132/master/pass/AI-Lab-Very-Clever-Robot-Creeped-Me-Out-Business.jpg",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "european-central-bank-warns-that-ai-crash-is-loo-e14f7b50-aug20",
+        "category": "Product Updates",
+        "title": "European Central Bank Warns That AI Crash Is Looming",
+        "source": "Futurism AI",
+        "summary": "\"A US AI fallout would not remain a US problem.\" The post European Central Bank Warns That AI Crash Is Looming appeared first on Futurism .",
+        "href": "https://futurism.com/future-society/european-central-bank-economy-ai-investment-crash",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/european-central-bank-economy-ai-investment-crash.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "creators-now-shape-ai-recommendations-e324b581-aug20",
+        "category": "Product Updates",
+        "title": "Creators now shape AI recommendations",
+        "source": "Fast Company AI",
+        "summary": "As AI answer engines replace search results, brands need creator-driven proof to earn a place in the recommendation",
+        "href": "https://www.fastcompany.com/91591267/creators-now-shape-ai-recommendations?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=08202026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/1-11.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "what-comes-after-the-software-defined-vehicle-b77240a5-aug20",
+        "category": "Model Releases",
+        "title": "What comes after the software-defined vehicle?",
+        "source": "TechRadar Software",
+        "summary": "AI-defined vehicles combine intelligent models and road context to deliver safer, smoother journeys.",
+        "href": "https://www.techradar.com/pro/what-comes-after-the-software-defined-vehicle",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/nVETopz7vffrgCUhd9RAnM-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-falls-further-behind-anthropic-with-disap-f2528988-aug20",
+        "category": "Model Releases",
+        "title": "OpenAI falls further behind Anthropic, with disappointing revenue growth and mounting losses",
+        "source": "SiliconANGLE AI",
+        "summary": "OpenAI Group PBC is falling further behind its rival Anthropic PBC, if its latest financials are any indication. The artificial intelligence model maker told investors that its revenue rose 18% on a sequential basis, from the first to the second quarter, but...",
+        "href": "https://siliconangle.com/2026/08/18/openai-falls-further-behind-anthropic-with-disappointing-revenue-growth-and-mounting-losses/",
+        "imageUrl": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/OpenAI-2.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "can-open-weight-ai-pressure-openai-and-anthropic-658b0dec-aug20",
+        "category": "Model Releases",
+        "title": "Can Open-Weight AI Pressure OpenAI and Anthropic Valuations?",
+        "source": "TechRepublic AI",
+        "summary": "Open-weight AI does not need to beat frontier models to test the growth and margin assumptions behind OpenAI and Anthropic's soaring valuations. The post Can Open-Weight AI Pressure OpenAI and Anthropic Valuations? appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/news-open-weight-ai-openai-anthropic-valuations/",
+        "imageUrl": "assets/news/superhuman-claude-mythos.png",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "clipto-mcp-13b8430d-aug20",
+        "category": "Agents",
+        "title": "Clipto MCP",
+        "source": "producthunt",
+        "summary": "producthunt reported: Clipto MCP",
+        "href": "https://www.producthunt.com/products/clipto-ai",
+        "imageUrl": "https://ph-files.imgix.net/0af3e036-edaf-4650-8638-1b78a44b6dde.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "5-tools-for-building-and-deploying-ai-agents-in-6bf999f8-aug20",
+        "category": "Agents",
+        "title": "5 Tools for Building and Deploying AI Agents in Production",
+        "source": "KDnuggets",
+        "summary": "This article walks through five tools, one for each layer of the stack from building the agent's logic to running all of it at scale.",
+        "href": "https://www.kdnuggets.com/5-tools-for-building-and-deploying-ai-agents-in-production",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-tools-for-building-and-deploying-ai-agents-in-production-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "partnering-with-codeai-to-prepare-the-first-ai-g-9765648a-aug20",
+        "category": "Developer Tools",
+        "title": "Partnering with CodeAI to prepare the first AI generation",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+        "href": "https://openai.com/index/partnering-with-codeai",
+        "imageUrl": "assets/news/openai-databricks-agent-workflows.webp",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-passes-openai-on-revenue-for-the-first-47e0582d-aug20",
+        "category": "Developer Tools",
+        "title": "Anthropic passes OpenAI on revenue for the first time",
+        "source": "The Decoder",
+        "summary": "Anthropic has passed OpenAI on revenue for the first time in the AI race. The article Anthropic passes OpenAI on revenue for the first time appeared first on The Decoder .",
+        "href": "https://the-decoder.com/anthropic-passes-openai-on-revenue-for-the-first-time/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/openai_logo_large_right.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-19",
     "label": "August 19, 2026",
     "items": [
