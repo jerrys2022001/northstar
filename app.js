@@ -371,6 +371,534 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-25",
+    "label": "August 25, 2026",
+    "items": [
+      {
+        "id": "this-chatgpt-powered-stock-picker-helps-you-buil-c007b7d2-aug25",
+        "category": "Model Releases",
+        "title": "This ChatGPT-powered stock picker helps you build a portfolio",
+        "source": "Mashable",
+        "summary": "Mashable reported: This ChatGPT-powered stock picker helps you build a portfolio",
+        "href": "https://mashable.com/life/aug-24-sterling-stock-picker-lifetime-subscription-offer",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/06fHCAx9u83Injj8ZzRh79F/hero-image.fill.size_1200x675.v1787235740.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "pew-study-confirms-sharp-rise-of-ai-written-text-04c5653b-aug25",
+        "category": "Developer Tools",
+        "title": "Pew study confirms sharp rise of AI-written text on the web since ChatGPT's launch",
+        "source": "The Decoder",
+        "summary": "The Pew Research Center analyzed nearly half a million English-language web pages for AI-generated content. More than a third of pages published since ChatGPT's launch show signs of machine-written text, and commercial .com sites are ten times more likely to...",
+        "href": "https://the-decoder.com/pew-study-shows-ai-written-text-has-surged-across-the-web-since-late-2022/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/ai_websites_text.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "at-his-first-cursor-all-hands-musk-said-grok-nee-59c1dc3a-aug25",
+        "category": "Product Updates",
+        "title": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthr...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthropic is leading the AI race, and more (Grace Kay/The Information)",
+        "href": "https://www.techmeme.com/260824/p32",
+        "imageUrl": "https://tii.imgix.net/production/articles/17700/3f166692-fc1f-4c26-855e-294746690fef.png?fm=jpeg&auto=compress&w=610",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "take-your-claude-skills-from-beginner-to-pro-for-9259aa54-aug25",
+        "category": "Product Updates",
+        "title": "Take your Claude skills from beginner to pro for just $15",
+        "source": "Mashable",
+        "summary": "Mashable reported: Take your Claude skills from beginner to pro for just $15",
+        "href": "https://mashable.com/life/aug-24-claude-ai-professional-e-degree",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00emhzFro1iNtsTKLKshIN8/hero-image.fill.size_1200x675.v1787241549.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-is-down-60f841cc-aug25",
+        "category": "Product Updates",
+        "title": "Claude is down",
+        "source": "Mashable",
+        "summary": "Mashable reported: Claude is down",
+        "href": "https://mashable.com/tech/anthropic-claude-down",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00zYNikYEgzTg1miT5hRSP0/hero-image.fill.size_1200x675.v1787555339.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-reportedly-eyes-another-investment-in-per-9519ac15-aug25",
+        "category": "Developer Tools",
+        "title": "Nvidia reportedly eyes another investment in Perplexity AI at a $30B valuation",
+        "source": "SiliconANGLE AI",
+        "summary": "Nvidia Corp. is reportedly considering making another investment in the artificial intelligence search startup Perplexity AI Inc. A report by The Information today says the chipmaker is holding talks with Perplexity about an investment that could push the sta...",
+        "href": "https://siliconangle.com/2026/08/24/nvidia-reportedly-eyes-another-investment-in-perplexity-ai-at-a-30b-valuation/",
+        "imageUrl": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/Screenshot-from-2026-08-25-06-37-38.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "amjad-masad-ceo-and-co-founder-of-replit-joins-t-e8e97675-aug25",
+        "category": "Product Updates",
+        "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch AI reported: Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
+        "href": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/Amjad-Masad-Disrupt-Stage-2026.png?w=1200",
+        "excerpt": "Radar signal: TechCrunch AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "energy-hungry-ai-data-centers-spur-new-power-tra-6d22a9dc-aug25",
+        "category": "Product Updates",
+        "title": "Energy-hungry AI data centers spur new power transformer technology",
+        "source": "Ars Technica",
+        "summary": "Ars Technica reported: Energy-hungry AI data centers spur new power transformer technology",
+        "href": "https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology",
+        "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "uk-to-use-ukraine-battlefield-data-to-train-ai-t-1402d740-aug25",
+        "category": "Model Releases",
+        "title": "UK to use Ukraine battlefield data to train AI to protect sensitive sites",
+        "source": "The Guardian AI",
+        "summary": "London and Kyiv in deal to help stop protesters and hostile states targeting military bases and critical infrastructure AI models trained on Ukrainian battlefield data will be used to stop protesters and foreign states targeting UK defence sites, railways and...",
+        "href": "https://www.theguardian.com/politics/2026/aug/24/uk-to-use-ukraine-battlefield-data-to-train-ai-to-protect-sensitive-sites",
+        "imageUrl": "https://i.guim.co.uk/img/media/4fbf14ac8a1a2a35225f1c5b4baa19e2e9e55878/295_0_5159_4125/master/5159.jpg?width=140&quality=85&auto=format&fit=max&s=e27e0ed65ec9dd45579e56d3444fc95c",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-uk-becomes-the-first-foreign-nation-to-gain-43775997-aug25",
+        "category": "Model Releases",
+        "title": "The UK becomes the first foreign nation to gain access to Ukrainian combat data used to train AI models to strike Russi...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: The UK becomes the first foreign nation to gain access to Ukrainian combat data used to train AI models to strike Russian targets, as part of an AI partnership (Financial Times)",
+        "href": "https://www.techmeme.com/260824/p28",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fd7ef182d-c2bc-4454-8813-c5d2f5865f14.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "source-robotics-startup-generalist-which-release-7c61ca44-aug25",
+        "category": "Model Releases",
+        "title": "Source: robotics startup Generalist, which released its GEN-1 model to complete physical tasks in April, raised ~$200M...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Source: robotics startup Generalist, which released its GEN-1 model to complete physical tasks in April, raised ~$200M led by 8VC, after raising $400M in June (Dan Primack/Axios)",
+        "href": "https://www.techmeme.com/260824/p34",
+        "imageUrl": "https://images.axios.com/gqySE7wJVSQzY8aDkTu-SIGuqB8=/0x0:1920x1080/1366x768/2026/06/09/1781023722950.jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "trump-bought-spacex-shares-two-weeks-after-block-160e6c86-aug25",
+        "category": "Funding",
+        "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+        "source": "TechCrunch AI",
+        "summary": "TechCrunch AI reported: Trump bought SpaceX shares two weeks after blockbuster IPO",
+        "href": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217852528.jpg?resize=1200,800",
+        "excerpt": "Radar signal: TechCrunch AI surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "label": "August 24, 2026",
+    "items": [
+      {
+        "id": "gemini-connected-apps-how-to-connect-gemini-to-o-34ec327e-aug24",
+        "category": "Model Releases",
+        "title": "Gemini connected apps: How to connect Gemini to other apps",
+        "source": "Zapier Blog",
+        "summary": "Google's product launch events have always been a quirky grab-bag of Pixel phone updates and smartwatch announcements, with celebrity hosts like Trevor Noah doing their darndest to squeeze laughs out of teleprompter-reading Google product managers. But lately...",
+        "href": "https://zapier.com/blog/gemini-connected-apps",
+        "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/zrujZF8FP9VsL1SMT28wp/c5fe22f164c5ce2cbc8cbf22e434a587/gemini.jpg",
+        "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-chatbots-regularly-link-pregnant-users-to-ant-badf8eb2-aug24",
+        "category": "Developer Tools",
+        "title": "AI chatbots regularly link pregnant users to anti-abortion websites without disclosure",
+        "source": "The Decoder",
+        "summary": "When asked about unplanned pregnancies, AI chatbots regularly link to anti-abortion groups without disclosing their stance. In an AlgorithmWatch investigation of 270 responses from ChatGPT, Gemini, Grok, and Claude, the anti-abortion organization Profemina ap...",
+        "href": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/search_trash_ai.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-use-chatgpt-work-and-my-top-10-tips-for-g-de08db78-aug24",
+        "category": "Agents",
+        "title": "How to use ChatGPT Work - and my top 10 tips for getting started with agentic AI",
+        "source": "ZDNet AI",
+        "summary": "Curious about ChatGPT Work? Here's how the agentic AI handles research, files, and multistep projects, plus its risks and limits.",
+        "href": "https://www.zdnet.com/article/how-to-use-chatgpt-work-and-my-top-tips/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/c97e714e6671683eaa54ed5955ab379cde5a9b61/2026/08/24/c00a59ee-62e9-41f2-bac7-1651ac9a5bab/chatgpt-work.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "build-an-end-to-end-data-science-project-with-gr-811a225f-aug24",
+        "category": "Agents",
+        "title": "Build an End-to-End Data Science Project with Grok Build and Grok 4.6",
+        "source": "KDnuggets",
+        "summary": "Use Grok Build to create a production-ready data science workflow with EDA, scikit-learn, model training, FastAPI, API testing, and cloud deployment.",
+        "href": "https://www.kdnuggets.com/build-an-end-to-end-data-science-project-with-grok-build-and-grok-4-6",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/awan_build_endtoend_data_science_project_grok_build_grok_46_12.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "agricidaniel-claude-obsidian-9fcaf19e-aug24",
+        "category": "Developer Tools",
+        "title": "AgriciDaniel / claude-obsidian",
+        "source": "github",
+        "summary": "github reported: AgriciDaniel / claude-obsidian",
+        "href": "https://github.com/AgriciDaniel/claude-obsidian",
+        "imageUrl": "https://repository-images.githubusercontent.com/1203670949/42f543a9-2bfa-4769-bc33-4f5d8a4364f9",
+        "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-in-talks-to-invest-in-perplexity-at-30-bi-1f3b67e8-aug24",
+        "category": "Developer Tools",
+        "title": "Nvidia in talks to invest in Perplexity at $30 billion-plus valuation",
+        "source": "The Decoder",
+        "summary": "Nvidia is negotiating an investment in Perplexity at a valuation above $30 billion, more than 50 percent higher than its last funding round, The Information reports. Perplexity's annualized revenue has tripled to over $750 million. Much of Nvidia's investment...",
+        "href": "https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/nvidia_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "thomson-reuters-bets-40m-on-owning-its-ai-instea-065db7bd-aug24",
+        "category": "Developer Tools",
+        "title": "Thomson Reuters bets $40M on owning its AI instead of renting from OpenAI or Anthropic",
+        "source": "The Decoder",
+        "summary": "Thomson Reuters is launching \"Thomson,\" its own language model built on Alibaba's Qwen, at a cost of about $40 million over two years. But the benchmarks only show top marks when the model can tap into the company's own content, like Westlaw. CTO Joel Hron ma...",
+        "href": "https://the-decoder.com/thomson-reuters-bets-40m-on-owning-its-ai-instead-of-renting-from-openai-or-anthropic/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/Thomson-Reuters-title.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "alibaba-s-wan3-0-generates-ai-videos-up-to-30-se-19625a06-aug24",
+        "category": "Developer Tools",
+        "title": "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents",
+        "source": "The Decoder",
+        "summary": "Alibaba's video generation model Wan3.0 creates clips up to 30 seconds long from text, PDFs, and PowerPoint files. A 30-second 1080p clip costs $6. Alibaba's quarterly profit dropped 75 percent year-over-year as the company ramps up AI spending. The article A...",
+        "href": "https://the-decoder.com/alibabas-wan3-0-generates-ai-videos-up-to-30-seconds-long-from-text-images-and-documents/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/wan30_screenshot.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-s-ai-first-googlebook-laptop-is-almost-he-e8230da2-aug24",
+        "category": "Developer Tools",
+        "title": "Google's AI-first Googlebook laptop is almost here - can it avoid the Copilot+ PC problem?",
+        "source": "ZDNet AI",
+        "summary": "It won't be another high-end Chromebook like the Pixel, and Google has to hope it'll succeed where Copilot+ PCs have fallen short.",
+        "href": "https://www.zdnet.com/article/googlebook-laptop-is-almost-here-can-it-avoid-copilot-pc-problem/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/6a04afe225a99809c7fe7efc593459c5d08f6cbd/2026/08/24/4dacd8eb-03dc-4079-92fc-a51ed150c727/googlebook.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "report-ai-model-hub-hugging-face-exploring-sale-caf0545c-aug24",
+        "category": "Developer Tools",
+        "title": "Report: AI model hub Hugging Face exploring sale at $13B valuation",
+        "source": "SiliconANGLE AI",
+        "summary": "Hugging Face Inc. is exploring a sale that could value the artificial intelligence model repository at $13 billion or more, Business Insider reported today. The company has brought in a bank to sound out potential buyers, according to the report, which cited...",
+        "href": "https://siliconangle.com/2026/08/23/report-ai-model-hub-hugging-face-exploring-sale-at-13b-valuation/",
+        "imageUrl": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/huggingface.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "us-business-schools-are-racing-to-prepare-studen-299ff912-aug24",
+        "category": "Product Updates",
+        "title": "US business schools are racing to prepare students to become chief AI officers, even as companies are still figuring ou...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: US business schools are racing to prepare students to become chief AI officers, even as companies are still figuring out what the newest C-suite role entails (Rthvika Suvarna/Bloomberg)",
+        "href": "https://www.techmeme.com/260824/p6",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iasmvT5lIvco/v1/-1x-1.webp",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "taiwanese-prosecutors-indict-nine-people-includi-c27e3488-aug24",
+        "category": "Product Updates",
+        "title": "Taiwanese prosecutors indict nine people, including Nvidia and Super Micro employees, for allegedly helping illegally e...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Taiwanese prosecutors indict nine people, including Nvidia and Super Micro employees, for allegedly helping illegally export AI servers to China (Reuters)",
+        "href": "https://www.techmeme.com/260824/p19",
+        "imageUrl": "https://www.reuters.com/resizer/v2/XBHNYLDAANJJPH5HAPRF2VKA7U.jpg?auth=dc8d620f0e6464478015cfbf97b1bdb773dc2667696648c087b92811153b1631&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sam-altman-voices-fears-that-control-of-ai-could-7bf4e120-aug24",
+        "category": "Product Updates",
+        "title": "Sam Altman voices fears that control of AI could be centered in too few hands",
+        "source": "SiliconANGLE AI",
+        "summary": "OpenAI Group PBC Chief Executive Sam Altman is worried that artificial intelligence technology will end up being controlled by just a handful of companies or people in future, resulting in nobody else having any say about how it impacts society. Speaking in a...",
+        "href": "https://siliconangle.com/2026/08/23/sam-altman-voices-fears-that-control-of-ai-could-be-centered-in-too-few-hands/",
+        "imageUrl": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/Screenshot-from-2026-08-24-08-38-38.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "oxford-economics-us-corporate-spending-on-equipm-094d42f6-aug24",
+        "category": "Product Updates",
+        "title": "Oxford Economics: US corporate spending on equipment and facilities is set to rise 40% between 2021 and 2027, over 3x f...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Oxford Economics: US corporate spending on equipment and facilities is set to rise 40% between 2021 and 2027, over 3x faster than Europe, driven by the AI race (Financial Times)",
+        "href": "https://www.techmeme.com/260824/p3",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F5ebbd618-11f8-4d74-ae8c-53a1879bf07e.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "over-a-million-people-have-clicked-linkedin-s-se-d59a2810-aug24",
+        "category": "Product Updates",
+        "title": "Over a million people have clicked LinkedIn's \"seems like AI slop\" button in just a few weeks - so why is my feed still...",
+        "source": "TechRadar",
+        "summary": "TechRadar reported: Over a million people have clicked LinkedIn's \"seems like AI slop\" button in just a few weeks - so why is my feed still full of it?",
+        "href": "https://www.techradar.com/pro/over-a-million-people-have-clicked-linkedins-seems-like-ai-slop-button-in-just-a-few-weeks-so-why-is-my-feed-still-full-of-it",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/UMfvYpANmdmdE8jBmnEsEn-1920-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "dating-app-cofounder-bails-after-scandal-over-us-e78f55db-aug24",
+        "category": "Product Updates",
+        "title": "Dating App Cofounder Bails After Scandal Over Using Fake AI-Generated Influencers",
+        "source": "Futurism AI",
+        "summary": "The app was found to be a \"psyop.\" The post Dating App Cofounder Bails After Scandal Over Using Fake AI-Generated Influencers appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/dating-app-cofounder-bails-scandal-fake-ai-influencers",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/dating-app-ceo-scandal-ai-singles.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "content-pulse-ai-76949037-aug24",
+        "category": "Product Updates",
+        "title": "Content Pulse AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: Content Pulse AI",
+        "href": "https://www.producthunt.com/products/content-pulse-ai",
+        "imageUrl": "https://ph-files.imgix.net/f6dae235-c00a-43dc-bb14-e88fcdcc91d4.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-chip-architectures-273c054a-aug24",
+        "category": "Product Updates",
+        "title": "AI Chip Architectures",
+        "source": "hackernews",
+        "summary": "hackernews reported: AI Chip Architectures",
+        "href": "https://news.ycombinator.com/item?id=49405657",
+        "imageUrl": "assets/news/fallback-ai-datacenter-aerial.jpg",
+        "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-look-at-the-playbook-tech-giants-like-google-m-1297fe54-aug24",
+        "category": "Product Updates",
+        "title": "A look at the playbook tech giants like Google, Microsoft, and OpenAI use to shape American schools to their benefit, a...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: A look at the playbook tech giants like Google, Microsoft, and OpenAI use to shape American schools to their benefit, and the pushback against unproven AI tools (Natasha Singer/New York Times)",
+        "href": "https://www.techmeme.com/260823/p14",
+        "imageUrl": "https://static01.nyt.com/images/2026/08/22/business/22Biz-sun-BigTech-schools-TopArt-cover/22Biz-sun-BigTech-schools-TopArt-cover-facebookJumbo.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ukrainian-officials-say-an-ai-guided-fully-auton-7c2e9a5d-aug24",
+        "category": "Developer Tools",
+        "title": "Ukrainian officials say an AI-guided, fully autonomous Russian drone killed three Ukrainians in a strike on a gas stati...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Ukrainian officials say an AI-guided, fully autonomous Russian drone killed three Ukrainians in a strike on a gas station in the city of Zaporizhzhia (New York Times)",
+        "href": "https://www.techmeme.com/260824/p10",
+        "imageUrl": "https://static01.nyt.com/images/2026/08/24/multimedia/24int-ukraine-ai-kill-05-pczt-promo/24int-ukraine-ai-kill-05-pczt-promo-facebookJumbo.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-leverage-local-small-language-models-for-1ad0dc4a-aug24",
+        "category": "Developer Tools",
+        "title": "How to Leverage Local Small Language Models for Your Projects",
+        "source": "KDnuggets",
+        "summary": "A practical guide to running compact, privacy-preserving language models on your own hardware for faster, cheaper, and more controllable AI-powered applications.",
+        "href": "https://www.kdnuggets.com/how-to-leverage-local-small-language-models-for-your-projects",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-leverage-local-small-language-models-projects-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "source-ai-researcher-luke-metz-who-returned-to-o-ccac7b1f-aug24",
+        "category": "Research Workflows",
+        "title": "Source: AI researcher Luke Metz, who returned to OpenAI from TML earlier this year, joins Meta's Superintelligence Labs...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Source: AI researcher Luke Metz, who returned to OpenAI from TML earlier this year, joins Meta's Superintelligence Labs and will report to Alexandr Wang (Ina Fried/Axios)",
+        "href": "https://www.techmeme.com/260824/p1",
+        "imageUrl": "https://images.axios.com/teWSiw7nZ4UlOf0LTNOtiK53IFY=/0x0:1920x1080/1366x768/2026/01/28/1769632547910.jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-23",
+    "label": "August 23, 2026",
+    "items": [
+      {
+        "id": "first-social-media-came-after-teens-now-ai-is-do-c22f54b5-aug23",
+        "category": "Model Releases",
+        "title": "First social media came after teens. Now AI is doing the same thing",
+        "source": "Fast Company AI",
+        "summary": "A major lawsuit against Meta hit the same week OpenAI launched ChatGPT for Teens. Why do stronger protections so often arrive only after mass adoption?",
+        "href": "https://www.fastcompany.com/91591973/ai-companies-are-repeating-social-medias-mistakes-with-teens?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=9&partner=newsletter&campaign_date=08252026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91591973-ai-companies-are-falling-into-the-same-pattern-as-meta-w-r-t-teen-usage.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "azure-devops-remote-mcp-server-reaches-ga-withou-be3c2f44-aug23",
+        "category": "Developer Tools",
+        "title": "Azure DevOps Remote MCP Server Reaches GA, without Support for Claude, ChatGPT, or Cursor",
+        "source": "InfoQ AI",
+        "summary": "Microsoft has made the Azure DevOps Remote MCP Server generally available, offering a hosted endpoint into work items, repos, and pipelines with nothing to install. Claude Desktop, Claude Code, ChatGPT, and Cursor cannot connect yet because Entra lacks suppor...",
+        "href": "https://www.infoq.com/news/2026/08/azure-devops-remote-mcp-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/08/azure-devops-remote-mcp-ga/en/headerimage/generatedHeaderImage-1787140817833.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "up-to-3-2x-faster-inference-with-lfm2-5-dspark-c7cdb672-aug23",
+        "category": "Product Updates",
+        "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Up to 3.2x Faster Inference with LFM2.5-DSpark",
+        "href": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/ZMoThfdqzAz8cbxweVQfO.gif",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "measuring-benchmark-optimization-in-speech-recog-68e9fb17-aug23",
+        "category": "Model Releases",
+        "title": "Measuring benchmark optimization in speech recognition",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: Measuring benchmark optimization in speech recognition",
+        "href": "https://huggingface.co/blog/asr-benchmark-optimization",
+        "imageUrl": "https://huggingface.co/blog/assets/asr-benchmark-optimization/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "image-benchmarks-see-the-capabilities-of-every-m-cb03d5ea-aug23",
+        "category": "Developer Tools",
+        "title": "Image Benchmarks: See the Capabilities of Every Model",
+        "source": "OpenRouter Announcements",
+        "summary": "We ran 39 image models through 15 deliberately hard prompts and put every result on one page. Compare fill levels, finger counts, poster text, and edits side by side, with the price and generation time under each image.",
+        "href": "https://openrouter.ai/blog/announcements/image-benchmarks/",
+        "imageUrl": "https://openrouter.ai/blog/images/image-benchmarks.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-is-becoming-ai-s-biggest-customer-as-agentic-3258d5c2-aug23",
+        "category": "Developer Tools",
+        "title": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
+        "source": "The Decoder",
+        "summary": "AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual co...",
+        "href": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/tokenization-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-results-of-middle-and-high-school-students-u-c809ed12-aug23",
+        "category": "Product Updates",
+        "title": "The Results of Middle and High School Students Using AI Are Extremely Ominous",
+        "source": "Futurism AI",
+        "summary": "In an age of AI, getting good grades is a mirage. The post The Results of Middle and High School Students Using AI Are Extremely Ominous appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/results-high-school-students-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/results-high-school-students-ai.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-bots-already-won-the-front-door-51952cbc-aug23",
+        "category": "Product Updates",
+        "title": "The bots already won the front door",
+        "source": "Fast Company AI",
+        "summary": "Publishers will never stop all the scrapers. The fight worth having is over what AI does with the content once it has it.",
+        "href": "https://www.fastcompany.com/91591214/bots-already-won-front-door?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=08252026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91591214-the-bots-already-won-the-front-door.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "leaked-memo-shows-republicans-are-terrified-of-t-d0b6bd50-aug23",
+        "category": "Product Updates",
+        "title": "Leaked Memo Shows Republicans Are Terrified of the Backlash Against AI Data Centers",
+        "source": "Futurism AI",
+        "summary": "\"This has become a sleeper issue for the entire election cycle.\" The post Leaked Memo Shows Republicans Are Terrified of the Backlash Against AI Data Centers appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/leaked-memo-data-centers-ai-ohio-republicans-election",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/leaked-memo-data-centers-ai-ohio-republicans-election.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "devious-new-font-turns-ai-scrapers-into-mincemea-11f51fdd-aug23",
+        "category": "Product Updates",
+        "title": "Devious New Font Turns AI Scrapers Into Mincemeat",
+        "source": "Futurism AI",
+        "summary": "The font makes \"the text itself polluted, harder, and more expensive to collect without permission.\" The post Devious New Font Turns AI Scrapers Into Mincemeat appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/devious-new-font-turns-ai-scrapers-into-mincemeat",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/devious-new-font-turns-ai-scrapers-into-mincemeat.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-literacy-is-the-buzzword-this-back-to-school-9b421dd5-aug23",
+        "category": "Product Updates",
+        "title": "AI literacy is the buzzword this back-to-school season, as many teachers pivot to a balanced approach",
+        "source": "Fast Company AI",
+        "summary": "Public schools in the U.S.are now encouraging classroom experimentation with AI so that students can see its shortcomings.",
+        "href": "https://www.fastcompany.com/91593587/ai-literacy-buzzword-back-school-season-teachers-aim-balanced-approach?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=08252026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/AP26203761301909.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "when-everyone-has-the-same-ai-what-makes-your-co-ed085310-aug23",
+        "category": "Model Releases",
+        "title": "When everyone has the same AI, what makes your company smarter?",
+        "source": "Fast Company AI",
+        "summary": "The trick is not to have the biggest model, but the best one for you.",
+        "href": "https://www.fastcompany.com/91590409/when-everyone-same-ai-what-makes-your-company-smarter?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=08252026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91590409-when-everyone-has-the-same-ai-what-makes-your-company-smarter.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-next-ai-phase-is-better-agents-not-bigger-mo-bdbf0dc6-aug23",
+        "category": "Agents",
+        "title": "The next AI phase is better agents not bigger models",
+        "source": "TechRadar Software",
+        "summary": "Agentic AI success depends less on selecting models and more on building strong organizational foundations.",
+        "href": "https://www.techradar.com/pro/the-next-ai-phase-is-better-agents-not-bigger-models",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/DVffQnnibMWmNpx2Wfb5Se-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "run-muse-glimmer-for-local-vibe-coding-with-llam-b216e07b-aug23",
+        "category": "Developer Tools",
+        "title": "Run Muse Glimmer for Local Vibe Coding with llama.cpp, DFlash, and Pi",
+        "source": "KDnuggets",
+        "summary": "Run Muse Glimmer locally on an RTX 3090 GPU using llama.cpp, DFlash speculative decoding, and Pi for fast, private, agentic AI coding.",
+        "href": "https://www.kdnuggets.com/run-muse-glimmer-for-local-vibe-coding-with-llama-cpp-dflash-and-pi",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/awan_run_muse_glimmer_local_vibe_coding_llamacpp_dflash_pi_8.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "major-youtube-creators-are-facing-backlash-for-a-e16f2484-aug23",
+        "category": "Developer Tools",
+        "title": "Major YouTube creators are facing backlash for accepting AI money",
+        "source": "The Verge AI",
+        "summary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently adde...",
+        "href": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/ai-label_eb9dbb.jpg?quality=90&strip=all&crop=0%2C11.121766626924%2C100%2C77.756466746151&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "5-real-world-use-cases-for-ai-agents-transformin-df5a831d-aug23",
+        "category": "Developer Tools",
+        "title": "5 Real-World Use Cases for AI Agents Transforming Industries",
+        "source": "KDnuggets",
+        "summary": "See how AI agents are autonomously handling support, coding, supply chains, healthcare, and fraud detection today.",
+        "href": "https://www.kdnuggets.com/5-real-world-use-cases-for-ai-agents-transforming-industries",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-5-real-world-use-cases-ai-agents-transforming-industries-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-wants-california-to-strengthen-its-newly-87b99c9a-aug23",
+        "category": "Policy",
+        "title": "OpenAI wants California to strengthen its newly passed AI safety law",
+        "source": "Mashable",
+        "summary": "OpenAI is pushing California to strengthen SB 53, the AI safety law it initially supported.",
+        "href": "https://mashable.com/tech/openai-urges-stregthening-of-california-ai-safety-bill",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00yKNSMW5PclegTH1EHxspv/hero-image.fill.size_1200x675.v1787499554.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-21",
     "label": "August 21, 2026",
     "items": [
@@ -8565,16 +9093,6 @@
         "href": "https://www.techradar.com/pro/the-ai-job-apocalypse-is-a-myth-we-need-more-human-talent-than-ever-before",
         "imageUrl": "https://cdn.mos.cms.futurecdn.net/h8ZQHernNUVpnGYX7QnxVM-1280-80.jpg",
         "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "sources-apple-is-looking-for-chip-companies-to-b-324ec43b-jul16",
-        "category": "Product Updates",
-        "title": "Sources: Apple is looking for chip companies to buy to boost its AI server chip efforts as it struggles with the perfor...",
-        "source": "Techmeme",
-        "summary": "Techmeme reported: Sources: Apple is looking for chip companies to buy to boost its AI server chip efforts as it struggles with the performance of its servers running on M2 Ultra (The Information)",
-        "href": "https://www.techmeme.com/260715/p33",
-        "imageUrl": "https://tii.imgix.net/production/articles/17458/99e11fd3-60cb-4cc4-b4ff-52e22c4c1144.png?fm=jpeg&auto=compress&w=610",
-        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
       },
       {
         "id": "sixteen-nobel-winning-economists-warn-that-major-cccfde59-jul16",
