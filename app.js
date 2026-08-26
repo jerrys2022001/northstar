@@ -371,6 +371,452 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-26",
+    "label": "August 26, 2026",
+    "items": [
+      {
+        "id": "google-launches-gemini-enterprise-for-legal-expa-8e703477-aug26",
+        "category": "Agents",
+        "title": "Google launches Gemini Enterprise for Legal, expanding its platform with specialized AI agents and integrations with Th...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Google launches Gemini Enterprise for Legal, expanding its platform with specialized AI agents and integrations with Thomson Reuters, LexisNexis, and Harvey (Mike Scarcella/Reuters)",
+        "href": "https://www.techmeme.com/260825/p16",
+        "imageUrl": "https://www.reuters.com/resizer/v2/I34IHE4LPBMUHOF26IK4OY6A7M.jpg?auth=8d413c15c413d647661f3415d6f142312a1bee6c6581c8922fb47b0c3d7e3ff2&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-launches-gemini-for-legal-work-to-automat-2344a1f7-aug26",
+        "category": "Developer Tools",
+        "title": "Google launches Gemini for legal work to automate contracts and research",
+        "source": "The Decoder",
+        "summary": "With Gemini Enterprise for Legal, Google launches an AI solution for the legal industry that connects to systems like iManage, DocuSign, and Everlaw through MCP connectors. Partners like Deloitte sell ready-made AI agents for tasks like contract review. Anthr...",
+        "href": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/gemini_logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-death-of-the-human-web-report-finds-over-a-t-77ad91de-aug26",
+        "category": "Developer Tools",
+        "title": "The death of the human web? Report finds over a third of web pages pushed live since the launch of ChatGPT show evidenc...",
+        "source": "TechRadar",
+        "summary": "AI is writing the web AI is writing the web AI is writing the web",
+        "href": "https://www.techradar.com/pro/the-death-of-the-human-web-report-finds-over-a-third-of-web-pages-pushed-live-since-the-launch-of-chatgpt-show-evidence-of-being-written-by-ai",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/6t9Lsf3QWte55CdyiDs97L-2560-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "russia-used-chatgpt-to-run-a-covert-influence-ca-a1e7a526-aug26",
+        "category": "Developer Tools",
+        "title": "Russia used ChatGPT to run a covert influence campaign pushing pro-Kremlin narratives across the West",
+        "source": "The Decoder",
+        "summary": "OpenAI has disrupted a covert Russian influence campaign that used ChatGPT to generate social media posts by banning a cluster of accounts. The operators accessed the platform through VPNs from Russia and promoted the fictitious \"International Burke Institute...",
+        "href": "https://the-decoder.com/russia-used-chatgpt-to-run-a-covert-influence-campaign-pushing-pro-kremlin-narratives-across-the-west/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/openai_red_Logo.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "researchers-detail-the-growing-use-of-ai-in-cybe-d1d1dedd-aug26",
+        "category": "Model Releases",
+        "title": "Researchers detail the growing use of AI in cyberattacks across many Chinese state-linked groups, primarily using open-...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Researchers detail the growing use of AI in cyberattacks across many Chinese state-linked groups, primarily using open-weight models like Kimi K3 and DeepSeek (Mark Anderson/Bloomberg)",
+        "href": "https://www.techmeme.com/260824/p39",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iW5kooCGQM3I/v1/1200x770.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "claude-cowork-finally-remembers-what-you-told-th-c00d0b0f-aug26",
+        "category": "Product Updates",
+        "title": "Claude Cowork finally remembers what you told the app in chat",
+        "source": "TechCrunch",
+        "summary": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
+        "href": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/Claude-AI-app.jpg?resize=1200,842",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-246-4fff4d69-aug26",
+        "category": "Developer Tools",
+        "title": "v2.1.246",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.246",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
+        "imageUrl": "https://opengraph.githubassets.com/6eb7cb669db472da0568049c5dd0bcdeca3cfd5c69e67f620ce2dbd387d1b796/anthropics/claude-code/releases/tag/v2.1.246",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "perplexity-ships-portable-computer-on-nvidia-dgx-a628c3b5-aug26",
+        "category": "Model Releases",
+        "title": "Perplexity Ships Portable Computer on NVIDIA DGX Spark: Local Harness, OS-Enforced Sandbox, and Zero Per-Token Cost for...",
+        "source": "MarkTechPost",
+        "summary": "Perplexity releases Portable Computer, packaging local models, harness, sandbox, and connectors into one system running on NVIDIA DGX Spark. The post Perplexity Ships Portable Computer on NVIDIA DGX Spark: Local Harness, OS-Enforced Sandbox, and Zero Per-Toke...",
+        "href": "https://www.marktechpost.com/2026/08/25/perplexity-ships-portable-computer-on-nvidia-dgx-spark-local-harness-os-enforced-sandbox-and-zero-per-token-cost-for-local-steps/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog619100-30.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "perplexity-ai-launches-portable-computer-on-devi-cb0c1a17-aug26",
+        "category": "Developer Tools",
+        "title": "Perplexity AI launches Portable Computer on-device AI agent",
+        "source": "SiliconANGLE AI",
+        "summary": "Perplexity AI Inc. today introduced Portable Computer, an artificial intelligence agent designed to run on desktops equipped with Nvidia Corp. silicon. The launch follows a report that Nvidia is weighing an investment in the startup that could value it at ove...",
+        "href": "https://siliconangle.com/2026/08/25/perplexity-ai-launches-portable-computer-on-device-ai-agent/",
+        "imageUrl": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/Nvidia.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-version-microsoft-will-build-should-be-known-a98d9f47-aug26",
+        "category": "Developer Tools",
+        "title": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but lea...",
+        "source": "TechRadar",
+        "summary": "TechRadar reported: 'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leaked concept remains a grim portent for desktops",
+        "href": "https://www.techradar.com/computing/windows/the-version-microsoft-will-build-should-be-known-as-copilot-os-windows-built-around-ai-may-not-be-happening-but-leaked-concept-remains-a-grim-portent-for-desktops",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/T5tUn7q7ko5tgMxUjPnP8N-2121-80.jpeg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "github-copilot-coding-agent-can-now-use-microsof-f3e1eba1-aug26",
+        "category": "Developer Tools",
+        "title": "GitHub Copilot Coding Agent Can Now Use Microsoft Teams Conversations",
+        "source": "TechRepublic AI",
+        "summary": "GitHub Copilot's coding agent can now use Microsoft Teams conversations as context to investigate software tasks, change code, and create pull requests. The post GitHub Copilot Coding Agent Can Now Use Microsoft Teams Conversations appeared first on TechRepub...",
+        "href": "https://www.techrepublic.com/article/news-github-copilot-teams-conversations-coding-agent/",
+        "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "alabama-ag-probes-openai-after-its-ai-agent-went-f0d59a44-aug26",
+        "category": "Developer Tools",
+        "title": "Alabama AG probes OpenAI after its AI agent went rogue and hacked into external systems",
+        "source": "The Decoder",
+        "summary": "Alabama Attorney General Steve Marshall is investigating OpenAI over what he calls an \"AI lab leak.\" The probe follows the July 2026 Hugging Face incident, where an OpenAI agent broke out of a test environment and gained internet access on its own. Whether th...",
+        "href": "https://the-decoder.com/alabama-is-investigating-openai-following-an-uncontrolled-ai-agent-hack/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/cybersecurity-kraken-1.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gamma-acquires-accel-backed-design-startup-lica-3fceac33-aug26",
+        "category": "Creative AI",
+        "title": "Gamma acquires Accel-backed design startup Lica",
+        "source": "TechCrunch",
+        "summary": "Lica co-founders are going to work on Gamma's new research team.",
+        "href": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/R6II0507.jpg?resize=1200,960",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-choose-the-best-ai-model-live-in-your-edi-867e9e06-aug26",
+        "category": "Agents",
+        "title": "How to Choose the Best AI Model (Live, in Your Editor)",
+        "source": "OpenRouter Announcements",
+        "summary": "There's no single best AI model, only the best model for a given task, budget, and moment. This article describes a six-step framework for choosing one, and how to run every step from your editor through the OpenRouter MCP server.",
+        "href": "https://openrouter.ai/blog/tutorials/choose-best-ai-model/",
+        "imageUrl": "https://openrouter.ai/blog/images/choose-best-ai-model.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openrouter-video-generation-api-a-code-first-gui-7c35c67b-aug26",
+        "category": "Developer Tools",
+        "title": "OpenRouter Video Generation API: A Code-First Guide",
+        "source": "OpenRouter Announcements",
+        "summary": "Every video provider has its own endpoint, job statuses, polling logic, and output format. Our async video API puts Seedance, Veo, Wan, and more behind one submit, poll, and download loop. Here's the full lifecycle in Python and TypeScript.",
+        "href": "https://openrouter.ai/blog/tutorials/video-generation-api/",
+        "imageUrl": "https://openrouter.ai/blog/images/video-generation-api.png",
+        "excerpt": "Radar signal: OpenRouter Announcements surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "cursor-releases-origin-as-an-agent-native-altern-cf726dc8-aug26",
+        "category": "Developer Tools",
+        "title": "Cursor Releases Origin as an Agent-Native Alternative to GitHub",
+        "source": "InfoQ AI",
+        "summary": "AI coding agent Cursor has launched Origin, a git based code hosting platform embedded inside its AI-powered editor, positioning it as an alternative to GitHub for teams that already work in Cursor. Origin is rolling out in early beta on Pro, Teams and Enterp...",
+        "href": "https://www.infoq.com/news/2026/08/cursor-origin-alternative-github/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "imageUrl": "https://res.infoq.com/news/2026/08/cursor-origin-alternative-github/en/headerimage/generatedHeaderImage-1787588546610.jpg",
+        "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "who-really-needs-forward-deployed-engineers-arou-8716f531-aug26",
+        "category": "Product Updates",
+        "title": "Who really needs Forward Deployed Engineers around AI?",
+        "source": "TechRadar Software",
+        "summary": "Amazon and Microsoft are investing heavily in AI delivery services teams, including Forward Deployed Engineers. What is the trend, and why does it matter?",
+        "href": "https://www.techradar.com/pro/who-really-needs-forward-deployed-engineers-around-ai",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/Z89KwLLBdGLuNm2q4tXDKL-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-data-ai-leadership-questions-that-will-defin-22409b57-aug26",
+        "category": "Product Updates",
+        "title": "The Data & AI Leadership Questions That Will Define the Next Stage of Enterprise AI",
+        "source": "KDnuggets",
+        "summary": "If you're responsible for turning data and AI strategy into enterprise reality, this is a conversation worth being part of.",
+        "href": "https://www.kdnuggets.com/2026/08/corinium/the-data-ai-leadership-questions-that-will-define-the-next-stage-of-enterprise-ai",
+        "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-ai-adoption-phase-is-over-87ad98e0-aug26",
+        "category": "Product Updates",
+        "title": "The AI adoption phase is over",
+        "source": "Fast Company AI",
+        "summary": "The next competitive advantage is trust.",
+        "href": "https://www.fastcompany.com/91594145/the-ai-adoption-phase-is-over?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=08262026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/ILF-and-FCIC-templates-.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "pumpd-ai-coach-0d0f0cb5-aug26",
+        "category": "Product Updates",
+        "title": "PUMPD AI Coach",
+        "source": "producthunt",
+        "summary": "producthunt reported: PUMPD AI Coach",
+        "href": "https://www.producthunt.com/products/pumpd-2",
+        "imageUrl": "https://ph-files.imgix.net/2a8cb0b7-24e3-4c3a-b8ea-d06c71b77bb8.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-unveils-the-jetson-orin-nano-2-edge-ai-co-b0bb1a5f-aug26",
+        "category": "Product Updates",
+        "title": "Nvidia unveils the Jetson Orin Nano 2 edge AI computer that it says doubles inference performance, with 78 TOPS of AI c...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Nvidia unveils the Jetson Orin Nano 2 edge AI computer that it says doubles inference performance, with 78 TOPS of AI compute and an eight-core Arm CPU (Eugene Demaitre/The Robot Report)",
+        "href": "https://www.techmeme.com/260825/p32",
+        "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "new-zealand-introduces-under-16-social-media-ai-c119f4bc-aug26",
+        "category": "Product Updates",
+        "title": "New Zealand Introduces Under-16 Social Media, AI Companion Ban",
+        "source": "Slashdot",
+        "summary": "New Zealand has introduced legislation that would ban children under 16 from social media platforms and AI companion services. \"We have protections to keep children safe in the real world and we need them in the virtual world too,\" said Prime Minister Christo...",
+        "href": "https://tech.slashdot.org/story/26/08/25/2116226/new-zealand-introduces-under-16-social-media-ai-companion-ban",
+        "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png",
+        "excerpt": "Radar signal: Slashdot surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "mexico-based-primero-which-aims-to-modernize-leg-412eb777-aug26",
+        "category": "Product Updates",
+        "title": "Mexico-based Primero, which aims to modernize legacy software used by Latin American companies with AI, raised a $12M s...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Mexico-based Primero, which aims to modernize legacy software used by Latin American companies with AI, raised a $12M seed co-led by Kaszek and General Catalyst (Kylie Madry/Reuters)",
+        "href": "https://www.techmeme.com/260825/p29",
+        "imageUrl": "http://www.techmeme.com/img/techmeme_sq328.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "can-ai-discover-new-biology-b2312132-aug26",
+        "category": "Product Updates",
+        "title": "Can AI discover new biology?",
+        "source": "Fast Company AI",
+        "summary": "What a novel non-opioid pain candidate reveals about the future of drug discovery",
+        "href": "https://www.fastcompany.com/91594152/can-ai-discover-new-biology?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=08262026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/ILF-and-FCIC-templates-1.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "australia-s-aria-says-songs-created-mostly-or-en-a1346160-aug26",
+        "category": "Product Updates",
+        "title": "Australia's ARIA says songs created mostly or entirely by AI will be excluded from its charts; a song that used AI beca...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Australia's ARIA says songs created mostly or entirely by AI will be excluded from its charts; a song that used AI became the most-played song on radio in July (Cam Wilson/ABC)",
+        "href": "https://www.techmeme.com/260825/p3",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/4305c5850797519cf17b18a4de0148ab?impolicy=wcms_watermark_news&cropH=640&cropW=1138&xPos=33&yPos=0&width=862&height=485&imformat=generic",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "australia-may-face-a-rush-of-datacentre-construc-e231bfe4-aug26",
+        "category": "Product Updates",
+        "title": "Australia may face a rush of datacentre construction as AI firms look to avoid upcoming rules, experts say",
+        "source": "The Guardian AI",
+        "summary": "Regulations will require new sites to avoid pushing up power prices by building renewable energy plants and minimising water use Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast Planned datace...",
+        "href": "https://www.theguardian.com/australia-news/2026/aug/26/australia-may-face-a-rush-of-datacentre-construction-as-ai-firms-look-to-dodge-upcoming-rules-experts-say",
+        "imageUrl": "https://i.guim.co.uk/img/media/fcf83ae1000340be66ba4432fe0964ba774071ca/491_0_3833_3067/master/3833.jpg?width=140&quality=85&auto=format&fit=max&s=33bacfd9ebaf3225667b2a1e7bfc1e8d",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "apple-updates-the-mac-studio-with-m5-max-and-m5-02e82d14-aug26",
+        "category": "Product Updates",
+        "title": "Apple updates the Mac Studio with M5 Max and M5 Ultra, with up to 4.3x faster AI performance, faster graphics, and up t...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Apple updates the Mac Studio with M5 Max and M5 Ultra, with up to 4.3x faster AI performance, faster graphics, and up to 512GB of unified memory for $2,499+ (Apple)",
+        "href": "https://www.techmeme.com/260825/p18",
+        "imageUrl": "https://www.apple.com/newsroom/images/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/tile/Apple-Mac-Studio-hero-260825-lp.jpg.og.jpg?202608251300",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "apple-unveils-a-mac-mini-with-m6-and-m5-pro-with-429094ac-aug26",
+        "category": "Product Updates",
+        "title": "Apple unveils a Mac mini with M6 and M5 Pro, with up to 4x faster AI performance and up to 2x faster graphics, for $899...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Apple unveils a Mac mini with M6 and M5 Pro, with up to 4x faster AI performance and up to 2x faster graphics, for $899+ with M6 and $1,699+ with M5 Pro (Apple)",
+        "href": "https://www.techmeme.com/260825/p19",
+        "imageUrl": "https://www.apple.com/newsroom/images/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/tile/Apple-Mac-mini-hero-260825-lp.jpg.og.jpg?202608251259",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "an-exceptional-machine-capable-of-producing-some-e2d7d88e-aug26",
+        "category": "Product Updates",
+        "title": "'An exceptional machine capable of producing some of the best 3D prints': Creality K2 Pro Combo offers 4-color support,...",
+        "source": "TechRadar",
+        "summary": "TechRadar reported: 'An exceptional machine capable of producing some of the best 3D prints': Creality K2 Pro Combo offers 4-color support, active chamber heating and dual AI cameras, and it's got a huge discount in Creality's back-to-school sale",
+        "href": "https://www.techradar.com/pro/an-exceptional-machine-capable-of-producing-some-of-the-best-3d-prints-creality-k2-pro-combo-offers-4-color-support-active-chamber-heating-and-dual-ai-cameras-and-its-got-a-huge-discount-in-crealitys-back-to-school-sale",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/L4Hk3MGv9LVFYthAm39M5D-1200-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "agnost-ai-71a7cfa3-aug26",
+        "category": "Product Updates",
+        "title": "Agnost AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: Agnost AI",
+        "href": "https://www.producthunt.com/products/agnost-ai",
+        "imageUrl": "https://ph-files.imgix.net/363740f2-46a8-4f9f-b3a5-2ae32f3ec54e.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "xiaomi-unveils-the-xring-o100-a-6nm-ai-accelerat-5ca1f900-aug26",
+        "category": "Model Releases",
+        "title": "Xiaomi unveils the Xring O100, a 6nm AI accelerator to boost its MiMo models when paired with its O3 mobile chip, and t...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Xiaomi unveils the Xring O100, a 6nm AI accelerator to boost its MiMo models when paired with its O3 mobile chip, and the 3nm Xring D100 for autonomous driving (Iris Deng/South China Morning Post)",
+        "href": "https://www.techmeme.com/260825/p11",
+        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/08/25/fc543c31-ca03-418f-b7fa-2fe89e1e5447_022ac55e.jpg?itok=OhB4F3PP&v=1787643059",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "tel-aviv-and-nyc-based-alice-which-works-to-prot-fb697979-aug26",
+        "category": "Model Releases",
+        "title": "Tel Aviv and NYC-based Alice, which works to protect AI models from misuse and rogue behavior, raised $140M led by Apax...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Tel Aviv and NYC-based Alice, which works to protect AI models from misuse and rogue behavior, raised $140M led by Apax Digital at a valuation \"close to $1B\" (Marissa Newman/Bloomberg)",
+        "href": "https://www.techmeme.com/260825/p28",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iXneYeUSQ5Ks/v0/1200x776.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "stability-ai-which-has-deals-with-umg-wmg-and-ea-e173f784-aug26",
+        "category": "Model Releases",
+        "title": "Stability AI, which has deals with UMG, WMG, and EA to build AI models from their IP, raised a $76M Series B from them,...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Stability AI, which has deals with UMG, WMG, and EA to build AI models from their IP, raised a $76M Series B from them, Sony Music, and others (Corbin Bolies/Variety)",
+        "href": "https://www.techmeme.com/260825/p34",
+        "imageUrl": "https://variety.com/wp-content/uploads/2026/08/Stability_AI_Logo_Studio-Black-logo-on-canvas-white-background_black-dot.png?w=1000&h=563&crop=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "even-babies-are-still-way-better-at-learning-tha-18724ff0-aug26",
+        "category": "Model Releases",
+        "title": "Even Babies Are Still Way Better at Learning Than AI Models",
+        "source": "Futurism AI",
+        "summary": "\"We still have to burn down a forest and scrape the entire sum of all human knowledge to re-create this milestone that happens in our living rooms over the course of a year.\" The post Even Babies Are Still Way Better at Learning Than AI Models appeared first...",
+        "href": "https://futurism.com/artificial-intelligence/babies-way-better-learning-ai-llm-models-language",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/babies-learning-better-ai-models.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "accelerated-understanding-launches-an-enterprise-7eef115e-aug26",
+        "category": "Model Releases",
+        "title": "Accelerated Understanding launches an enterprise-focused physics AI model that uses neural operators and handled 5T pie...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Accelerated Understanding launches an enterprise-focused physics AI model that uses neural operators and handled 5T pieces of data in a single prompt in tests (Jeffrey Dastin/Reuters)",
+        "href": "https://www.techmeme.com/260825/p12",
+        "imageUrl": "https://www.reuters.com/resizer/v2/CGAZSFQDVZMIJLB2EMBOF4JTY4.jpg?auth=0f2d647ffc477f6af0ec1cd8d56838b4d7394c73940e169353905bc7ee6d4fea&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "speakup-mcp-67d15633-aug26",
+        "category": "Agents",
+        "title": "SpeakUp MCP",
+        "source": "producthunt",
+        "summary": "producthunt reported: SpeakUp MCP",
+        "href": "https://www.producthunt.com/products/speakup-4",
+        "imageUrl": "https://ph-files.imgix.net/c1845c04-5913-40f2-9eff-0ff27022e033.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "marble-mcp-6b83e2ee-aug26",
+        "category": "Agents",
+        "title": "Marble MCP",
+        "source": "producthunt",
+        "summary": "producthunt reported: Marble MCP",
+        "href": "https://www.producthunt.com/products/marble-7",
+        "imageUrl": "https://ph-files.imgix.net/90865ff0-442d-4e44-b450-b3e20de3cc5a.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "keenable-which-is-building-a-web-search-index-fo-53cd9cc5-aug26",
+        "category": "Agents",
+        "title": "Keenable, which is building a web search index for AI agents and says several AI labs are using its API, raised a $26M...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Keenable, which is building a web search index for AI agents and says several AI labs are using its API, raised a $26M seed led by Accel (Anna Heim/TechCrunch)",
+        "href": "https://www.techmeme.com/260825/p39",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/Matthias-Petri-and-Andrey-Styskin-Keenable.jpg?w=1200",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-u-s-and-the-eu-regulate-ai-differently-b4424579-aug26",
+        "category": "Developer Tools",
+        "title": "The U.S. and the EU regulate AI differently",
+        "source": "Fast Company AI",
+        "summary": "The comparison explains why the EU may reconsider its AI-related regulation.",
+        "href": "https://www.fastcompany.com/91594112/the-u-s-and-the-eu-regulate-ai-differently?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=08262026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/1-21.png",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "skild-ai-unveils-s1-a-robotics-foundation-model-d4143ba8-aug26",
+        "category": "Developer Tools",
+        "title": "Skild AI unveils S1, a robotics foundation model that it says can learn tasks never seen during pretraining, using a si...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Skild AI unveils S1, a robotics foundation model that it says can learn tasks never seen during pretraining, using a single video demo, without fine-tuning (Skild AI)",
+        "href": "https://www.techmeme.com/260825/p41",
+        "imageUrl": "https://www.skild.ai/_next/static/media/thumbnail_10.ca684a3a.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "harvard-professor-warns-that-ai-execs-are-pushin-fc76022f-aug26",
+        "category": "Developer Tools",
+        "title": "Harvard Professor Warns That AI Execs Are Pushing World Toward Factory Farming of Humans",
+        "source": "Futurism AI",
+        "summary": "\"Who decided this is a way we should be living?\" The post Harvard Professor Warns That AI Execs Are Pushing World Toward Factory Farming of Humans appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/harvard-professor-ai-factory-farming-humans",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/harvard-professor-ai-factory-farming-humans.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "emerald-ai-which-uses-ai-to-optimize-data-center-bacd5efa-aug26",
+        "category": "Funding",
+        "title": "Emerald AI, which uses AI to optimize data center power consumption based on grid demands, raised $150M led by DCVC and...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Emerald AI, which uses AI to optimize data center power consumption based on grid demands, raised $150M led by DCVC and Energize Capital at a $1.05B valuation (Sri Muppidi/New York Times)",
+        "href": "https://www.techmeme.com/260825/p14",
+        "imageUrl": "https://static01.nyt.com/images/2026/08/25/business/25db-emerald-execs/25db-emerald-execs-facebookJumbo.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "stability-ai-maker-of-image-generator-stable-dif-e1546878-aug26",
+        "category": "Creative AI",
+        "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+        "source": "TechCrunch",
+        "summary": "The company's new fundraising total now stands at $232 million.",
+        "href": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/10/unnamed-2.png?w=1152",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "q-a-with-dr-dre-and-jimmy-iovine-on-lessons-from-190ff446-aug26",
+        "category": "Creative AI",
+        "title": "Q&A with Dr. Dre and Jimmy Iovine on lessons from Apple's Beats acquisition, creativity, being pro-AI music creation, A...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Q&A with Dr. Dre and Jimmy Iovine on lessons from Apple's Beats acquisition, creativity, being pro-AI music creation, AI as a tool like drum machines, and more (Jordyn Holman/New York Times)",
+        "href": "https://www.techmeme.com/260825/p6",
+        "imageUrl": "https://static01.nyt.com/images/2026/08/23/multimedia/23biz-corneroffice-iovine-01-cbzt/23biz-corneroffice-iovine-01-cbzt-facebookJumbo.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-25",
     "label": "August 25, 2026",
     "items": [
