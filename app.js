@@ -371,6 +371,372 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-29",
+    "label": "August 29, 2026",
+    "items": [
+      {
+        "id": "google-ai-releases-gemini-3-5-transcribe-a-speec-7b30947d-aug29",
+        "category": "Agents",
+        "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
+        "source": "MarkTechPost",
+        "summary": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoints rather than one. The streaming endpoint delivers sub-second transcription but drops speaker diarization and word timestamps. The batch endpoint keeps both,...",
+        "href": "https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog61999.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-deepmind-s-ai-co-scientist-now-plans-expe-0d2fd10f-aug29",
+        "category": "Developer Tools",
+        "title": "Google Deepmind's AI Co-Scientist now plans experiments, runs lab equipment, and writes scientific papers",
+        "source": "The Decoder",
+        "summary": "Google Deepmind has expanded Co-Scientist from a hypothesis generator into a research system that's integrated into the lab. Across three disciplines, from materials synthesis to the autonomous development of a medical AI architecture, the Gemini-based multi-...",
+        "href": "https://the-decoder.com/google-deepminds-ai-co-scientist-now-plans-experiments-runs-lab-equipment-and-writes-scientific-papers/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/gemini_ai_scientist.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "better-answers-broader-thinking-what-students-ga-3062d8cd-aug29",
+        "category": "Model Releases",
+        "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+        "source": "OpenAI Blog",
+        "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+        "href": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+        "imageUrl": "assets/news/perplexity-billion-build.png",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "always-on-and-self-starting-ai-agents-might-be-o-f3221122-aug29",
+        "category": "Developer Tools",
+        "title": "Always-on and self-starting AI agents might be OpenAI's next big play",
+        "source": "The Decoder",
+        "summary": "OpenAI is building a \"Persistent Mode\" for its AI agent Codex that stays active indefinitely and generates its own follow-up tasks. WIRED found the relevant code, and OpenAI confirmed the tests. The feature comes with risks, though. With GPT-5.6 Sol, persiste...",
+        "href": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/openai_logo_large_right.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-251-4eb68756-aug29",
+        "category": "Developer Tools",
+        "title": "v2.1.251",
+        "source": "Claude Code Releases",
+        "summary": "What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the estimated re-cache... Claude Code is an agentic coding tool that lives in your te...",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+        "imageUrl": "https://opengraph.githubassets.com/3ab3430bbb25cd85f270fbb80610a05570156112a487f62b1ed19ef888ac47f8/anthropics/claude-code/releases/tag/v2.1.251",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-248-a6b29337-aug29",
+        "category": "Developer Tools",
+        "title": "v2.1.248",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.248",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
+        "imageUrl": "https://opengraph.githubassets.com/324b8a97214c16747e55eca74a96f9528fff3f0e3aeb20865a6c39a525465f6a/anthropics/claude-code/releases/tag/v2.1.248",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-67e3e6e3-aug29",
+        "category": "Developer Tools",
+        "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
+        "source": "MarkTechPost",
+        "summary": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training. The post GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architect...",
+        "href": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog2200.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-open-asr-leaderboard-adds-its-first-global-s-b0b2c2da-aug29",
+        "category": "Product Updates",
+        "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: The Open ASR Leaderboard Adds Its First Global South Language",
+        "href": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+        "imageUrl": "https://huggingface.co/blog/assets/open-asr-leaderboard-global-south/thumbnail.png",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-to-buy-hugging-face-for-12-9-billion-repo-14992fee-aug29",
+        "category": "Open Models",
+        "title": "Nvidia to buy Hugging Face for $12.9 billion, report says",
+        "source": "Mashable",
+        "summary": "Nvidia has reportedly struck a deal to buy open-source AI company Hugging Face for $12.9 billion.",
+        "href": "https://mashable.com/tech/nvidia-hugging-face-acquire-12-9-billion-report",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/03bS45GtoJl3hdTmuk1eb4J/hero-image.fill.size_1200x675.v1787901387.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "etl-pipeline-patterns-for-reliable-scalable-auto-140bb8a0-aug29",
+        "category": "Agents",
+        "title": "ETL Pipeline Patterns for Reliable, Scalable Automation",
+        "source": "n8n Blog",
+        "summary": "Learn how an ETL pipeline works and when ETL or ELT makes sense. Discover design patterns that keep workflows reliable and easy to maintain at scale.",
+        "href": "https://blog.n8n.io/etl-pipeline/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/08/TL-5_etl-pipeline--1-.jpg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-smarter-way-to-run-code-migrations-with-less-l-bdc8d566-aug29",
+        "category": "Developer Tools",
+        "title": "A smarter way to run code migrations with less LLM context",
+        "source": "Sourcegraph Blog",
+        "summary": "Deep Search runs scripts in a sandbox around Sourcegraph search APIs, so a migration audit returns a CSV checklist instead of thousands of files worth of tokens.",
+        "href": "https://sourcegraph.com/blog/a-smarter-way-to-run-code-migrations-with-less-llm-context",
+        "imageUrl": "https://storage.googleapis.com/blog-static-assets-prod/20260828_a-smarter-way-to-run-code-migrations-with-less-llm-context_preview.png",
+        "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "x-says-it-found-and-took-down-a-chinese-bot-farm-be96ac4f-aug29",
+        "category": "Product Updates",
+        "title": "X says it found and took down a Chinese bot farm posting anti-AI data center content to thousands of followers",
+        "source": "TechRadar",
+        "summary": "TechRadar reported: X says it found and took down a Chinese bot farm posting anti-AI data center content to thousands of followers",
+        "href": "https://www.techradar.com/pro/security/x-says-it-found-and-took-down-a-chinese-bot-farm-posting-anti-ai-data-center-content-to-thousands-of-followers",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/MeWrRVEuBBgBHZCZbeYSCP-2560-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "unlike-internet-s-one-dimensional-flat-fee-growt-3b2cba71-aug29",
+        "category": "Product Updates",
+        "title": "Unlike internet's one-dimensional, flat-fee growth, AI grows across two exponentials, user penetration and tokens per u...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Unlike internet's one-dimensional, flat-fee growth, AI grows across two exponentials, user penetration and tokens per user, allowing AI labs' economics to work (Fin/@fi56622380)",
+        "href": "https://www.techmeme.com/260828/p17",
+        "imageUrl": "https://pbs.twimg.com/media/HQvlJaobgAAUv0o?format=png&name=medium",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-the-us-is-drafting-a-rule-to-close-an-ex-ca3cc8bb-aug29",
+        "category": "Product Updates",
+        "title": "Sources: the US is drafting a rule to close an export controls loophole that lets Chinese companies access AI chips via...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: the US is drafting a rule to close an export controls loophole that lets Chinese companies access AI chips via data centers in countries like Thailand (The Information)",
+        "href": "https://www.techmeme.com/260828/p15",
+        "imageUrl": "https://tii.imgix.net/production/articles/17732/53884f14-7a92-48ec-987b-e04432ee6210.png?fm=jpeg&auto=compress&w=610",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-stock-closed-up-8-74-on-thursday-adding-4-49b11703-aug29",
+        "category": "Product Updates",
+        "title": "Nvidia stock closed up 8.74% on Thursday, adding ~$440B to Nvidia's market cap, after its revenue guidance reassured in...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Nvidia stock closed up 8.74% on Thursday, adding ~$440B to Nvidia's market cap, after its revenue guidance reassured investors that AI demand remains strong (CNBC)",
+        "href": "https://www.techmeme.com/260827/p49",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108315152-1780405409943-gettyimages-2279396667-042a7029_nhdiseyi.jpeg?v=1780405436&w=1920&h=1080",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nicola-coughlan-and-matt-lucas-among-stars-backi-a69438b3-aug29",
+        "category": "Product Updates",
+        "title": "Nicola Coughlan and Matt Lucas among stars backing campaign against AI voice cloning",
+        "source": "The Guardian AI",
+        "summary": "About 80 people sign open letter to Andy Burnham calling for legislation to protect voice ownership Nicola Coughlan, Hugh Bonneville and Matt Lucas are among a group of actors backing a campaign against artificial intelligence voice cloning. Save Our Voices N...",
+        "href": "https://www.theguardian.com/technology/2026/aug/28/stars-back-campaign-against-ai-voice-cloning-nicola-coughlan-matt-lucas",
+        "imageUrl": "https://i.guim.co.uk/img/media/0462b48abda45181d440d2e6edc2119d4d1ffd58/784_371_4536_3629/master/4536.jpg?width=140&quality=85&auto=format&fit=max&s=34fa44f9c5cbe9250e75f9fbf5370bfc",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meta-executive-leaves-for-openai-as-the-social-m-b8d3f0cb-aug29",
+        "category": "Product Updates",
+        "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+        "source": "TechCrunch AI",
+        "summary": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role. Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role. Latest AI Amazon Apps Biotech & Health Clim...",
+        "href": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/Meta-image.jpg?w=1024",
+        "excerpt": "Radar signal: TechCrunch AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-to-get-free-google-ai-pro-for-an-entire-year-7cfd2758-aug29",
+        "category": "Product Updates",
+        "title": "How to get free Google AI Pro for an entire year - and save $240: 3 ways",
+        "source": "ZDNet AI",
+        "summary": "Google is offering its premium AI subscription plan for free. It usually costs $20 a month - and comes with many benefits.",
+        "href": "https://www.zdnet.com/article/how-to-get-free-google-ai-pro-subscription-for-one-year/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/18ef9e631875b0c066ec41d8af13cab66b4b62a3/2026/08/28/3b11f2e5-75a1-4aac-9b21-36a07536d14f/google-ai-pro.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gurus-are-joining-the-chatbot-trend-as-people-tu-f1ac6f4f-aug29",
+        "category": "Product Updates",
+        "title": "Gurus are joining the chatbot trend as people turn to AI for spiritual guidance",
+        "source": "Fast Company AI",
+        "summary": "Unfettered access and zero judgment lure people in search of answers.",
+        "href": "https://www.fastcompany.com/91597952/gurus-joining-chatbot-trend-people-turn-ai-spiritual-guidance?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=08292026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/AP26239628689636.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a16z-creates-a-1-1b-machine-age-fund-focusing-on-2f7d4e50-aug29",
+        "category": "Product Updates",
+        "title": "a16z creates a $1.1B Machine Age fund focusing on hardware to \"open the throttle and accelerate the physical buildout o...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: a16z creates a $1.1B Machine Age fund focusing on hardware to \"open the throttle and accelerate the physical buildout of AI\" (Sean O'Kane/TechCrunch)",
+        "href": "https://www.techmeme.com/260828/p14",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/andreessen-horowitz-office.jpg?resize=1200,800",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-look-at-beijing-s-agi-bar-the-unofficial-clubh-e2493ce6-aug29",
+        "category": "Product Updates",
+        "title": "A look at Beijing's AGI Bar, the unofficial clubhouse for China's AI industry where entrepreneurs trade gossip, recruit...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: A look at Beijing's AGI Bar, the unofficial clubhouse for China's AI industry where entrepreneurs trade gossip, recruit talent, and court investors over beers (Bloomberg)",
+        "href": "https://www.techmeme.com/260828/p8",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iDAfCS2ZY8ug/v1/1200x900.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-local-ai-stack-for-productive-slms-cd3bc0bf-aug29",
+        "category": "Model Releases",
+        "title": "The Local AI Stack for Productive SLMs",
+        "source": "KDnuggets",
+        "summary": "A practical framework for choosing the right tools at each layer of your local AI setup, from model serving to context retrieval.",
+        "href": "https://www.kdnuggets.com/the-local-ai-stack-for-productive-slms",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-local-ai-stack-productive-slms-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "tencent-releases-hy4-preview-a-770b-parameter-fo-d7613185-aug29",
+        "category": "Model Releases",
+        "title": "Tencent releases Hy4 Preview, a 770B-parameter foundational model with a 1M context window that it says outperforms Z.A...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Tencent releases Hy4 Preview, a 770B-parameter foundational model with a 1M context window that it says outperforms Z.AI and Moonshot models in internal tests (Bloomberg)",
+        "href": "https://www.techmeme.com/260828/p3",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ivt.cknirvOk/v0/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "quantization-and-pruning-methods-to-make-your-ll-2788e592-aug29",
+        "category": "Model Releases",
+        "title": "Quantization and Pruning Methods to Make Your LLM Leaner",
+        "source": "KDnuggets",
+        "summary": "This article walks through what each technique actually does, why skipping them costs real money and real latency, and then gets hands-on with five specific methods people are running in production right now.",
+        "href": "https://www.kdnuggets.com/quantization-and-pruning-methods-to-make-your-llm-leaner",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Quantization-and-Pruning-Methods-to-Make-Your-LLM-Leaner-scaled.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "an-anthropic-researcher-just-gave-us-a-peek-at-s-09fc2e9c-aug29",
+        "category": "Model Releases",
+        "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+        "source": "TechCrunch",
+        "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+        "href": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2287646148.jpg?resize=1200,901",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "vercel-ai-open-sources-vgpu-a-typescript-webgpu-25f477a6-aug29",
+        "category": "Agents",
+        "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
+        "source": "MarkTechPost Research",
+        "summary": "Vercel Labs open-sourced vgpu, an MIT WebGPU library running the same WGSL shader in browsers, Node, and CI. Vercel Labs open-sourced vgpu, an MIT WebGPU library running the same WGSL shader in browsers, Node, and CI. Shaders are still the hardest thing to sh...",
+        "href": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog61999-1.png",
+        "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "uber-says-weekly-ai-agent-requests-have-grown-9-2180e67b-aug29",
+        "category": "Agents",
+        "title": "Uber says weekly AI agent requests have grown 9.4x since February, but total AI spending has stayed stable since April,...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Uber says weekly AI agent requests have grown 9.4x since February, but total AI spending has stayed stable since April, after using up its 2026 AI budget in Q1 (Madison Mills/Axios)",
+        "href": "https://www.techmeme.com/260827/p56",
+        "imageUrl": "https://images.axios.com/c8Mm2Kwowv6c4KIw-0-dhCBfjxI=/0x0:1920x1080/1366x768/2026/05/27/1779901367550.jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "mark-zuckerberg-had-a-secret-plan-to-replace-met-fdb637da-aug29",
+        "category": "Agents",
+        "title": "Mark Zuckerberg Had a Secret Plan to Replace Meta Staff With AI Agents, and It Backfired Spectacularly",
+        "source": "Futurism AI",
+        "summary": "The company's AI efforts are in shambles. The post Mark Zuckerberg Had a Secret Plan to Replace Meta Staff With AI Agents, and It Backfired Spectacularly appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/mark-zuckerberg-secret-plan-replace-meta-staff-ai",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/mark-zuckerberg-secret-plan-replace-meta-staff-ai.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "u-s-court-rules-pentagon-s-blacklisting-of-anthr-8b56fec7-aug29",
+        "category": "Developer Tools",
+        "title": "U.S. court rules Pentagon's blacklisting of Anthropic was unlawful",
+        "source": "The Decoder AI News",
+        "summary": "A federal court in San Francisco has ruled that the Pentagon unlawfully classified Anthropic as a supply chain risk. The Department of Defense blacklisted the company in retaliation for its public criticism of government AI policy. The designation formally re...",
+        "href": "https://the-decoder.com/u-s-court-rules-pentagons-blacklisting-of-anthropic-was-unlawful",
+        "imageUrl": "assets/news/mit-compressm.png",
+        "excerpt": "Radar signal: The Decoder AI News surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "south-korea-unveils-a-project-with-kt-sk-telecom-f3818e71-aug29",
+        "category": "Developer Tools",
+        "title": "South Korea unveils a project with KT, SK Telecom, and Kakao to provide premium AI tools to the public for free, a move...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: South Korea unveils a project with KT, SK Telecom, and Kakao to provide premium AI tools to the public for free, a move that treats AI like a public utility (Jiyoung Sohn/Wall Street Journal)",
+        "href": "https://www.techmeme.com/260828/p6",
+        "imageUrl": "https://images.wsj.net/im-63643520/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-nvidia-paused-some-deals-with-ai-cloud-p-438d6ec1-aug29",
+        "category": "Developer Tools",
+        "title": "Sources: Nvidia paused some deals with AI cloud providers in the revenue-sharing program it announced in July; Nvidia s...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: Nvidia paused some deals with AI cloud providers in the revenue-sharing program it announced in July; Nvidia says the program is still in place (Wall Street Journal)",
+        "href": "https://www.techmeme.com/260827/p54",
+        "imageUrl": "https://images.wsj.net/im-79914915/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "beatport-blocks-fully-ai-generated-music-from-it-eac1f05f-aug29",
+        "category": "Developer Tools",
+        "title": "Beatport blocks fully AI-generated music from its DJ marketplace",
+        "source": "The Decoder AI News",
+        "summary": "Effective immediately, the DJ marketplace Beatport is banning music that is entirely or largely generated by AI. Effective immediately, the DJ marketplace Beatport is banning music that is entirely or largely generated by AI. DJ marketplace Beatport is now ba...",
+        "href": "https://the-decoder.com/beatport-blocks-fully-ai-generated-music-from-its-dj-marketplace",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/Beatport-Beatdapp-AI-Detection.png",
+        "excerpt": "Radar signal: The Decoder AI News surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-benchmarks-have-a-trust-problem-and-google-wa-c63b8a38-aug29",
+        "category": "Developer Tools",
+        "title": "AI benchmarks have a trust problem and Google wants to fix it",
+        "source": "The Decoder AI News",
+        "summary": "Google Deepmind is testing a double-blind evaluation of a frontier AI model for the first time. Cryptographic protection through Confidential Space is meant to keep Google from seeing the test questions and keep evaluators from seeing the model weights. The p...",
+        "href": "https://the-decoder.com/ai-benchmarks-have-a-trust-problem-and-google-wants-to-fix-it",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/google_gemini-2.png",
+        "excerpt": "Radar signal: The Decoder AI News surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-anthropic-discussed-buying-ai-chip-start-89d7e4d4-aug29",
+        "category": "Funding",
+        "title": "Sources: Anthropic discussed buying AI chip startup MatX for ~$7B, but talks are no longer active; MatX is now seeking...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: Anthropic discussed buying AI chip startup MatX for ~$7B, but talks are no longer active; MatX is now seeking to raise new capital at a ~$4B valuation (Reuters)",
+        "href": "https://www.techmeme.com/260827/p53",
+        "imageUrl": "https://www.reuters.com/resizer/v2/C5I5IXWCIBICDJ3W6HQSD5PPWE.jpg?auth=342cdb33ed5e7f062d986960884efa77a9628d23de9d404930835c9fb2565e5f&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "adobe-is-adding-more-ai-to-photoshop-d02f5ca6-aug29",
+        "category": "Creative AI",
+        "title": "Adobe is adding more AI to Photoshop",
+        "source": "The Verge AI",
+        "summary": "Adobe is rolling out an AI-heavy update for Photoshop that includes a new \"optional\" interface dedicated to its AI tools. Launching in beta, the \"AI Assisted Editor\" view will show all of Photoshop's AI features in a single toolbar, including its prompt-based...",
+        "href": "https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/AI-Assisted-Editor_Static.jpg?quality=90&strip=all&crop=0%2C1.0239908854167%2C100%2C93.077370564282&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-us-judge-blocks-the-pentagon-from-blacklisting-a8236a93-aug29",
+        "category": "Creative AI",
+        "title": "A US judge blocks the Pentagon from blacklisting Anthropic, ruling that its designation as a supply-chain risk was \"ill...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: A US judge blocks the Pentagon from blacklisting Anthropic, ruling that its designation as a supply-chain risk was \"illegal and baseless\" (Jack Queen/Reuters)",
+        "href": "https://www.techmeme.com/260827/p60",
+        "imageUrl": "https://www.reuters.com/resizer/v2/C25TVMR4INO7RH5SYZQPIYKVDQ.jpg?auth=dcbabc3b6480e92da5049616f0a07ec0b301a073ee2e11aff40f2eac23bb040c&height=1005&width=1920&quality=80&smart=true",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-28",
     "label": "August 28, 2026",
     "items": [
@@ -22429,16 +22795,6 @@
         "href": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
         "imageUrl": "https://opengraph.githubassets.com/f2d87f3b7cb8c46abeebe71a0bd09c57ab925aa6918c44db67d3313df8f46816/AUTOMATIC1111/stable-diffusion-webui",
         "excerpt": "Radar signal: github surfaced this item in the latest AI news window."
-      },
-      {
-        "id": "ai-is-flooding-the-courts-with-more-cases-more-f-8182efc7-may12",
-        "category": "Research Workflows",
-        "title": "AI is flooding the courts with more cases, more filings, and more fake citations",
-        "source": "Fast Company AI",
-        "summary": "Researchers say generative AI is making it dramatically easier for people to file lawsuits, even as legal professionals are getting caught submitting hallucinated cases.",
-        "href": "https://www.fastcompany.com/91539168/ai-is-flooding-the-courts-with-more-cases-more-filings-and-more-fake-citations?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=05122026",
-        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91539168-ai-is-flooding-the-courts-with-more-cases-more-filings-and-more-fake-citations.jpg",
-        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
       }
     ]
   },
