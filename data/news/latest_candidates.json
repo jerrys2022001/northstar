@@ -1,13 +1,13 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-08-30T01:57:58+00:00",
-  "digestDate": "2026-08-30",
+  "updatedAt": "2026-08-31T00:06:38+00:00",
+  "digestDate": "2026-08-31",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
   "effectiveWindowHours": 72,
-  "windowStart": "2026-08-27T09:49:01+08:00",
-  "windowEnd": "2026-08-30T09:49:01+08:00",
+  "windowStart": "2026-08-28T08:02:57+08:00",
+  "windowEnd": "2026-08-31T08:02:57+08:00",
   "catalogExpansionFeedsAvailable": 39,
   "catalogExpansionFeedsConfigured": 48,
   "catalogExpansionFeedsUsed": [
@@ -248,7 +248,7 @@
   ],
   "fetchDiagnostics": {
     "sourcesAttempted": 59,
-    "sourcesSucceeded": 37,
+    "sourcesSucceeded": 39,
     "sourceErrors": [
       {
         "source": "Anthropic News",
@@ -263,7 +263,7 @@
       {
         "source": "Google Developers AI",
         "url": "https://developers.googleblog.com/en/search/label/ai/rss.xml",
-        "error": "URLError: <urlopen error timed out>"
+        "error": "HTTPError: HTTP Error 404: Not Found"
       },
       {
         "source": "Google DeepMind",
@@ -278,22 +278,12 @@
       {
         "source": "Meta AI",
         "url": "https://ai.meta.com/blog/rss/",
-        "error": "URLError: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
-      },
-      {
-        "source": "Hugging Face Blog",
-        "url": "https://huggingface.co/blog/feed.xml",
-        "error": "URLError: <urlopen error timed out>"
+        "error": "HTTPError: HTTP Error 404: Not Found"
       },
       {
         "source": "Perplexity Blog",
         "url": "https://www.perplexity.ai/hub/blog/rss.xml",
-        "error": "URLError: <urlopen error timed out>"
-      },
-      {
-        "source": "The Guardian AI",
-        "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
-        "error": "URLError: <urlopen error timed out>"
+        "error": "HTTPError: HTTP Error 403: Forbidden"
       },
       {
         "source": "Notion Blog",
@@ -328,7 +318,7 @@
       {
         "source": "HeyGen Blog",
         "url": "https://www.heygen.com/blog/rss.xml",
-        "error": "URLError: <urlopen error timed out>"
+        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
       },
       {
         "source": "Otter Blog",
@@ -356,127 +346,437 @@
         "error": "HTTPError: HTTP Error 404: Not Found"
       },
       {
-        "source": "The Register AI",
-        "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
-        "error": "ParseError: not well-formed (invalid token): line 7, column 22"
+        "source": "JetBrains AI",
+        "url": "https://blog.jetbrains.com/ai/feed/",
+        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
       }
     ]
   },
   "items": [
     {
-      "id": "anthropic-sued-by-sony-warner-for-allegedly-stea-a924b7bf-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Creative AI",
-      "title": "Anthropic Sued By Sony, Warner For Allegedly Stealing Tens of Thousands of Songs, Torrenting Copyrighted Works",
-      "source": "Slashdot",
-      "summary": "Axios reports: Some of the world's largest music publishers filed a blockbuster lawsuit against Anthropic late Friday night, alleging \"one of the largest and most blatant ongoing thefts of intellectual property in history.\" The suit is the opening salvo in wh...",
-      "href": "https://yro.slashdot.org/story/26/08/29/2149242/anthropic-sued-by-sony-warner-for-allegedly-stealing-tens-of-thousands-of-songs-torrenting-copyrighted-works",
-      "excerpt": "Radar signal: Slashdot surfaced this item in the latest AI news window.",
-      "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png",
-      "publishedAt": "2026-08-29T23:00:00+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "quote-of-the-day-by-tech-pioneer-claude-shannon-34ca7aba-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Product Updates",
-      "title": "Quote of the day by tech pioneer Claude Shannon: 'I visualize a time when we will be to robots what dogs are to humans'...",
-      "source": "TechRadar",
-      "summary": "Many scientists have predicted AI will one day become more intelligent than humans Many scientists have predicted AI will one day become more intelligent than humans Many scientists have predicted AI will one day become more intelligent than humans",
-      "href": "https://www.techradar.com/pro/quote-of-the-day-by-tech-pioneer-claude-shannon-i-visualize-a-time-when-we-will-be-to-robots-what-dogs-are-to-humans-a-warning-about-superintelligent-ai",
-      "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window.",
-      "imageUrl": "https://cdn.mos.cms.futurecdn.net/uuKjnfsa7UerZN4hXJ7H8e-1024-80.jpg",
-      "publishedAt": "2026-08-29T22:00:00+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "vllm-v0-28-0-a368bcf8-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Model Releases",
-      "title": "vLLM v0.28.0",
+      "id": "continuous-diffusion-language-models-cdlm-s-cdba5764-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Developer Tools",
+      "title": "Continuous Diffusion Language Models (CDLM's)",
       "source": "hackernews",
-      "summary": "hackernews reported: vLLM v0.28.0",
-      "href": "https://news.ycombinator.com/item?id=49492067",
+      "summary": "I disagree with this. Decoders were absolutely dominant in 2020 for chat. GPT2 was considered too dangerous to release, and I remember scrambling to get on the GPT3 waitlist. It worked. (The only exception I will make is encoder-decoder models which now are o...",
+      "href": "https://news.ycombinator.com/item?id=49502611",
       "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/openai-databricks-agent-workflows.webp",
-      "publishedAt": "2026-08-29T21:44:58+00:00",
-      "toolIds": [
-        "v0"
-      ]
-    },
-    {
-      "id": "job-listings-and-other-indicators-spacex-is-work-db513158-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Product Updates",
-      "title": "Job listings and other indicators: SpaceX is working on a Bastrop, TX foundry to build blades for large gas turbines, w...",
-      "source": "Techmeme",
-      "summary": "Techmeme reported: Job listings and other indicators: SpaceX is working on a Bastrop, TX foundry to build blades for large gas turbines, which could ease its AI power crunch (Ann Davis Vaughan/The Information)",
-      "href": "https://www.techmeme.com/260829/p14",
-      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
-      "imageUrl": "https://tii.imgix.net/production/articles/17742/2ee43910-89df-42cd-9660-bf94bfed94f4-dnJRxC.png?fm=jpeg&auto=compress&w=610",
-      "publishedAt": "2026-08-29T20:05:06+00:00",
+      "imageUrl": "assets/news/superhuman-personal-agents.png",
+      "publishedAt": "2026-08-30T23:21:50+00:00",
       "toolIds": []
     },
     {
-      "id": "vllm-v0-28-0-0cb38851-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Model Releases",
-      "title": "vLLM v0.28.0",
-      "source": "Hacker News",
-      "summary": "Hacker News reported: vLLM v0.28.0",
-      "href": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-      "excerpt": "Radar signal: Hacker News surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
-      "publishedAt": "2026-08-29T18:22:00+00:00",
-      "toolIds": [
-        "v0"
-      ]
-    },
-    {
-      "id": "sony-music-and-warner-chappell-are-suing-anthrop-20251297-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Creative AI",
-      "title": "Sony Music and Warner Chappell are suing Anthropic",
-      "source": "The Verge",
-      "summary": "The Verge reported: Sony Music and Warner Chappell are suing Anthropic",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-      "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window.",
-      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-      "publishedAt": "2026-08-29T18:19:53+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "anthropic-will-permanently-raise-weekly-claude-c-b06107de-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Developer Tools",
-      "title": "Anthropic will \"permanently\" raise weekly Claude Code limits by 25% on Sept. 14 for most plans, which will work out a 1...",
+      "id": "the-challenges-john-ternus-inherits-as-he-replac-4b85f447-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Product Updates",
+      "title": "The challenges John Ternus inherits as he replaces Tim Cook on Sept. 1 amid rising component costs, staff retention iss...",
       "source": "Techmeme",
-      "summary": "Techmeme reported: Anthropic will \"permanently\" raise weekly Claude Code limits by 25% on Sept. 14 for most plans, which will work out a 17% reduction, given the current 50% boost (@claudedevs)",
-      "href": "https://www.techmeme.com/260829/p13",
+      "summary": "Techmeme reported: The challenges John Ternus inherits as he replaces Tim Cook on Sept. 1 amid rising component costs, staff retention issues, efforts to catch up in AI, and more (Mark Gurman/Bloomberg)",
+      "href": "https://www.techmeme.com/260830/p11",
       "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
-      "imageUrl": "http://www.techmeme.com/img/techmeme_sq328.png",
-      "publishedAt": "2026-08-29T18:05:01+00:00",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/idYyCqns9L6U/v1/1200x800.jpg",
+      "publishedAt": "2026-08-30T22:45:01+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "ai-s-creepy-crawlers-criticized-by-linux-foundat-524414d3-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Product Updates",
+      "title": "AI's 'Creepy' Crawlers Criticized by Linux Foundation's IT Infrastructure Director",
+      "source": "Slashdot",
+      "summary": "The Linux Foundation's director of IT infrastructure says they now spend more CPU cycles \"rendering commits for scrapers than we spend on all other kinds of legitimate access.\" At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing noth...",
+      "href": "https://linux.slashdot.org/story/26/08/30/2235224/ais-creepy-crawlers-criticized-by-linux-foundations-it-infrastructure-director",
+      "excerpt": "Radar signal: Slashdot surfaced this item in the latest AI news window.",
+      "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png",
+      "publishedAt": "2026-08-30T22:38:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "anthropic-signs-out-some-claude-users-removes-sa-4b4569ff-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Product Updates",
+      "title": "Anthropic signs out some Claude users, removes saved payment methods, and issues refunds after infostealer malware on t...",
+      "source": "Techmeme",
+      "summary": "Techmeme reported: Anthropic signs out some Claude users, removes saved payment methods, and issues refunds after infostealer malware on their PCs hijacked sessions to drain usage (Mayank Parmar/BleepingComputer)",
+      "href": "https://www.techmeme.com/260830/p10",
+      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.bleepstatic.com/content/hl-images/2026/02/13/Claude_chats.jpg",
+      "publishedAt": "2026-08-30T21:55:01+00:00",
       "toolIds": [
         "claude"
       ]
     },
     {
-      "id": "doctors-just-used-ai-to-perform-brain-surgery-7aed5266-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "mit-report-says-ai-can-complete-almost-any-under-af0bbbb2-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Model Releases",
+      "title": "MIT report says AI can complete almost any undergraduate assignment it sets",
+      "source": "The Next Web",
+      "summary": "MIT's AI committee says models can credibly do almost any undergraduate assignment. In Europe, exam monitoring software is high-risk under the AI Act. MIT's AI committee says models can credibly do almost any undergraduate assignment. In Europe, exam monitori...",
+      "href": "https://thenextweb.com/news/mit-ai-undergraduate-assignments-eu-ai-act-proctoring-annex-iii",
+      "excerpt": "Radar signal: The Next Web surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
+      "publishedAt": "2026-08-30T21:39:01+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "lowest-latency-inference-apis-for-voice-and-real-a73982ae-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Agents",
+      "title": "Lowest-Latency Inference APIs for Voice and Realtime Agents: A Time to First Token TTFT-First Benchmark",
+      "source": "MarkTechPost Research",
+      "summary": "Benchmarking the lowest-latency inference APIs for voice agents: measured TTFT, time to first audio, and full-pipeline latency budgets Benchmarking the lowest-latency inference APIs for voice agents: measured TTFT, time to first audio, and full-pipeline laten...",
+      "href": "https://www.marktechpost.com/2026/08/30/lowest-latency-inference-apis-for-voice-and-realtime-agents-a-time-to-first-token-ttft-first-benchmark",
+      "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog2211.png",
+      "publishedAt": "2026-08-30T21:24:38+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "continuous-diffusion-language-models-cdlm-s-f10775ba-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Model Releases",
+      "title": "Continuous Diffusion Language Models (CDLM's)",
+      "source": "Hacker News",
+      "summary": "Fully discrete methods dominated for a few years, but language models based on continuous diffusion are making a comeback. Fully discrete methods dominated for a few years, but language models based on continuous diffusion are making a comeback. Fully discret...",
+      "href": "https://sander.ai/2026/08/24/continuous-dlms.html",
+      "excerpt": "Radar signal: Hacker News surfaced this item in the latest AI news window.",
+      "imageUrl": "https://sander.ai/images/verin.jpg",
+      "publishedAt": "2026-08-30T20:46:53+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "google-ai-introduces-envharness-a-programmable-l-90497498-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Developer Tools",
+      "title": "Google AI Introduces EnvHarness: A Programmable Layer That Turns Static Agent Environments Into Adaptive Training Worlds",
+      "source": "MarkTechPost Research",
+      "summary": "Google introduces EnvHarness, a programmable layer that reshapes static LLM agent environments without modifying their code. Google introduces EnvHarness, a programmable layer that reshapes static LLM agent environments without modifying their code. A team of...",
+      "href": "https://www.marktechpost.com/2026/08/30/google-ai-introduces-envharness-a-programmable-layer-that-turns-static-agent-environments-into-adaptive-training-worlds",
+      "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog2200-5.png",
+      "publishedAt": "2026-08-30T20:23:46+00:00",
+      "toolIds": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "google-ai-introduces-envharness-a-programmable-l-67567e6a-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Agents",
+      "title": "Google AI Introduces EnvHarness: A Programmable Layer That Turns Static Agent Environments Into Adaptive Training Worlds",
+      "source": "MarkTechPost",
+      "summary": "Google Cloud AI Research, with Washington University in St. Louis and UNC Chapel Hill, has released EnvHarness, an Apache-2.0 layer that turns a static agent benchmark into one that adapts to the policy training on it. It wraps a frozen environment through th...",
+      "href": "https://www.marktechpost.com/2026/08/30/google-ai-introduces-envharness-a-programmable-layer-that-turns-static-agent-environments-into-adaptive-training-worlds/",
+      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/bright-product-updates.svg",
+      "publishedAt": "2026-08-30T20:23:46+00:00",
+      "toolIds": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "chess-com-launches-new-poker-site-plans-more-cla-d5881814-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Product Updates",
+      "title": "Chess.com Launches New Poker Site, Plans More Classic Game Sites with Player Ratings - Thanks to AI Protyping",
+      "source": "Slashdot",
+      "summary": "In May Chess.com \"quietly launched\" a free educational poker site named Gambit, reports The Verge, where players can learn the game and improve an Elo-like rating without risking real money. And next Chess.com will expand into more classic games, including go...",
+      "href": "https://games.slashdot.org/story/26/08/30/2017215/chesscom-launches-new-poker-site-plans-more-classic-game-sites-with-player-ratings---thanks-to-ai-protyping",
+      "excerpt": "Radar signal: Slashdot surfaced this item in the latest AI news window.",
+      "imageUrl": "https://a.fsdn.com/sd/topics/classicgames_64.png",
+      "publishedAt": "2026-08-30T20:20:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "analysis-ai-chatbots-challenged-or-didn-t-respon-b457baab-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Product Updates",
+      "title": "Analysis: AI chatbots challenged or didn't respond to 90%+ of 15 false narratives spread by Russia, China, and Iran; AI...",
+      "source": "Techmeme",
+      "summary": "Techmeme reported: Analysis: AI chatbots challenged or didn't respond to 90%+ of 15 false narratives spread by Russia, China, and Iran; AI overviews did it 60%+ of the time (Huo Jingnan/NPR)",
+      "href": "https://www.techmeme.com/260830/p9",
+      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
+      "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa8%2F06%2Fa0997e9e4141bb678bd7f1b92548%2F2026-07-ai-state-answers-final.jpg",
+      "publishedAt": "2026-08-30T18:55:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "texas-blocks-funding-for-flock-as-backlash-grows-16d048d2-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Funding",
+      "title": "Texas blocks funding for Flock as backlash grows against AI surveillance cameras",
+      "source": "Mashable",
+      "summary": "Governor Greg Abbott was previously criticized by his Democratic challenger for funding Flock cameras. Backlash against Flock has led to the state of Texas pausing funding on the AI cameras. Governor Greg Abbott was previously criticized by his Democratic cha...",
+      "href": "https://mashable.com/tech/texas-blocks-funding-flock-ai-surveillance-cameras-amid-backlash",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/articles/00VilWcbUXzTpZlHxY3YdMH/hero-image.fill.size_1200x675.v1788115100.jpg",
+      "publishedAt": "2026-08-30T18:52:26+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "mit-warns-that-ai-can-now-credibly-complete-pret-2b62f222-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Developer Tools",
+      "title": "MIT Warns That AI Can Now Credibly Complete Pretty Much Any Undergrad Assignment, Considers Overhaul of Entire Educatio...",
+      "source": "Futurism AI",
+      "summary": "The traditional educational model needs an AI-proof overhaul. The post MIT Warns That AI Can Now Credibly Complete Pretty Much Any Undergrad Assignment, Considers Overhaul of Entire Educational Model appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/mit-warns-ai-undergrad-assignments",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/mit-warns-ai-undergrad-assignments.jpg?quality=85&w=2048",
+      "publishedAt": "2026-08-30T18:01:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "panicking-tech-execs-try-to-pivot-message-on-ai-991c9aab-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Product Updates",
+      "title": "Panicking Tech Execs Try to Pivot Message on AI Data Centers",
+      "source": "Futurism AI",
+      "summary": "\"We gotta figure out a new narrative on this data center thing.\" The post Panicking Tech Execs Try to Pivot Message on AI Data Centers appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/panicking-tech-executives-pivot-ai-data-center-narrative",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/panicking-tech-executives-pivot-ai-data-center-narrative.jpg?quality=85&w=2048",
+      "publishedAt": "2026-08-30T17:03:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "sources-openai-bought-tens-of-thousands-of-macs-aefd9d46-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Product Updates",
+      "title": "Sources: OpenAI bought tens of thousands of Macs for RL, Anthropic rents them, Nvidia sees Apple as its main local AI r...",
+      "source": "Techmeme",
+      "summary": "Techmeme reported: Sources: OpenAI bought tens of thousands of Macs for RL, Anthropic rents them, Nvidia sees Apple as its main local AI rival as Macs gain traction with AI devs (Aaron Tilley/The Information)",
+      "href": "https://www.techmeme.com/260830/p8",
+      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
+      "imageUrl": "https://tii.imgix.net/production/articles/17738/c0662bf6-923c-4011-9b92-8c878fd15f49.png?fm=jpeg&auto=compress&w=610",
+      "publishedAt": "2026-08-30T16:20:02+00:00",
+      "toolIds": [
+        "chatgpt",
+        "claude"
+      ]
+    },
+    {
+      "id": "microsoft-tokenmaxxing-king-spent-28-000-on-ai-i-ee57a1dd-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Product Updates",
+      "title": "Microsoft Tokenmaxxing King Spent $28,000 on AI in a Single Month as Company Begs Employees to Tone Down the Ludicrous...",
+      "source": "Futurism AI",
+      "summary": "That's probably more than their salary. The post Microsoft Tokenmaxxing King Spent $28,000 on AI in a Single Month as Company Begs Employees to Tone Down the Ludicrous Costs appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/microsoft-employee-ai-spending",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/microsoft-employee-ai-spending.jpg?quality=85&w=2048",
+      "publishedAt": "2026-08-30T16:02:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "murfy-ai-7215af0c-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Product Updates",
+      "title": "Murfy AI",
+      "source": "producthunt",
+      "summary": "producthunt reported: Murfy AI",
+      "href": "https://www.producthunt.com/products/murfy",
+      "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window.",
+      "imageUrl": "https://ph-files.imgix.net/2de19048-8860-472c-a321-eb06224123df.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+      "publishedAt": "2026-08-30T13:48:19+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "ai-agents-have-no-sense-of-time-and-are-not-awar-19959de1-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Developer Tools",
+      "title": "AI agents have no sense of time and are not aware of it",
+      "source": "The Decoder",
+      "summary": "AI coding assistants like Claude Code and Codex have no sense of time, according to a new study. Both systematically overestimate how long tasks will take. Codex is off by as much as ten times the actual duration. They also rate their own work about 20 percen...",
+      "href": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/KI-Agents-lost-time.png",
+      "publishedAt": "2026-08-30T10:41:36+00:00",
+      "toolIds": [
+        "chatgpt",
+        "claude"
+      ]
+    },
+    {
+      "id": "the-skills-that-earn-top-grades-are-the-ones-ai-448d5e56-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Developer Tools",
+      "title": "The skills that earn top grades are the ones AI can fake best",
+      "source": "The Decoder",
+      "summary": "GPT-4o boosted grades on a marketing assignment by nearly a full point on a five-point scale in an experiment with 1,053 Bocconi University students. Whether they actually learned anything wasn't tested. Other studies suggest that AI-assisted performance with...",
+      "href": "https://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/student-ai-assisted-assignment-illustration.png",
+      "publishedAt": "2026-08-30T10:34:09+00:00",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "the-openai-hugging-face-incident-feels-more-than-a61e427b-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Developer Tools",
+      "title": "The OpenAI/Hugging Face incident feels \"more than 50%\" of the way to a full-blown AI takeover and as AI advances rapidl...",
+      "source": "Techmeme",
+      "summary": "Techmeme reported: The OpenAI/Hugging Face incident feels \"more than 50%\" of the way to a full-blown AI takeover and as AI advances rapidly we may not get another warning shot (Ajeya Cotra/Planned Obsolescence)",
+      "href": "https://www.techmeme.com/260830/p5",
+      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!6stx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2dca53b4-f6ee-4ba3-9ffd-daf022835cca_1880x1048.png",
+      "publishedAt": "2026-08-30T10:25:00+00:00",
+      "toolIds": [
+        "chatgpt",
+        "huggingface"
+      ]
+    },
+    {
+      "id": "anthropic-s-claude-code-limit-change-is-a-raise-f36a8207-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Developer Tools",
+      "title": "Anthropic's Claude Code limit change is a raise on paper but a cut in practice",
+      "source": "The Decoder",
+      "summary": "Anthropic is effectively cutting Claude Code's weekly usage limits by 17 percent. A temporary 50 percent boost expires on September 14 and will be replaced by a permanent 25 percent increase. Anthropic promises more control and transparency over usage in retu...",
+      "href": "https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png",
+      "publishedAt": "2026-08-30T09:05:19+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sony-and-warner-sue-anthropic-over-one-of-the-la-18fe135f-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Developer Tools",
+      "title": "Sony and Warner sue Anthropic over \"one of the largest and most blatant ongoing thefts of intellectual property in hist...",
+      "source": "The Decoder",
+      "summary": "Sony Music, Warner Music, and other publishers are suing Anthropic and CEO Dario Amodei personally for allegedly using tens of thousands of copyrighted musical compositions to train Claude without permission. The plaintiffs call it \"one of the largest and mos...",
+      "href": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_music.png",
+      "publishedAt": "2026-08-30T08:50:20+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "anthropic-opens-a-research-preview-of-the-model-f69f64e0-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Agents",
+      "title": "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for AI Agents to Safely...",
+      "source": "MarkTechPost",
+      "summary": "Anthropic has opened a research preview of the Model Hardware Standard (MHS), a shared driver specification that lets AI agents discover and safely operate physical devices. Instrument integration that normally takes weeks or months drops to hours: Carnegie M...",
+      "href": "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices/",
+      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog2200-4.png",
+      "publishedAt": "2026-08-30T06:12:21+00:00",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "openai-s-hugging-face-incident-report-says-ai-ag-ca2273d9-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI's Hugging Face incident report says AI agents used exploits to gain full admin access to OpenAI's own research c...",
+      "source": "Techmeme",
+      "summary": "Techmeme reported: OpenAI's Hugging Face incident report says AI agents used exploits to gain full admin access to OpenAI's own research cluster supporting its VM environments (Dwarkesh Patel/Dwarkesh Podcast)",
+      "href": "https://www.techmeme.com/260830/p4",
+      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!UZLs!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30186662-5010-4c83-a672-e33c53deeaa3_1080x669.webp",
+      "publishedAt": "2026-08-30T06:00:02+00:00",
+      "toolIds": [
+        "chatgpt",
+        "huggingface"
+      ]
+    },
+    {
+      "id": "faro-which-develops-data-models-and-ai-tools-to-67af2b80-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Model Releases",
+      "title": "Faro, which develops data models and AI tools to speed up clinical trials, raised a $37.3M Series B co-led by Merck Glo...",
+      "source": "Techmeme",
+      "summary": "Techmeme reported: Faro, which develops data models and AI tools to speed up clinical trials, raised a $37.3M Series B co-led by Merck Global Health Innovation Fund and S32 (Dealroom.co)",
+      "href": "https://www.techmeme.com/260830/p3",
+      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
+      "imageUrl": "https://sg-imgs.dealroom.co/c61c50d79b56956376f21875c4766231.jpeg",
+      "publishedAt": "2026-08-30T05:55:02+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "industry-insiders-say-chinese-robot-makers-curre-0a134e29-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Developer Tools",
+      "title": "Industry insiders say Chinese robot makers currently rely on Nvidia silicon and software; Nvidia's physical AI business...",
+      "source": "Techmeme",
+      "summary": "Techmeme reported: Industry insiders say Chinese robot makers currently rely on Nvidia silicon and software; Nvidia's physical AI business generates ~$10B in annual revenue (Raffaele Huang/Wall Street Journal)",
+      "href": "https://www.techmeme.com/260830/p2",
+      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.wsj.net/im-85889909/social",
+      "publishedAt": "2026-08-30T05:15:02+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "glassdoor-analysis-finds-47-of-gen-x-workers-wri-c1a9998f-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Product Updates",
+      "title": "Glassdoor analysis finds 47% of Gen X workers write positively about their companies' AI use, compared with 40% of mill...",
+      "source": "Techmeme",
+      "summary": "Techmeme reported: Glassdoor analysis finds 47% of Gen X workers write positively about their companies' AI use, compared with 40% of millennials and 33% of Gen Z workers (Taylor Nicole Rogers/Bloomberg)",
+      "href": "https://www.techmeme.com/260829/p18",
+      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/idBXXNmauOZw/v1/1200x857.jpg",
+      "publishedAt": "2026-08-30T03:30:02+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "music-producers-are-calling-out-tracks-suspected-ff80a06b-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Creative AI",
+      "title": "Music producers are calling out tracks suspected of using AI tools like Suno, as the internet becomes increasingly fill...",
+      "source": "Techmeme",
+      "summary": "Techmeme reported: Music producers are calling out tracks suspected of using AI tools like Suno, as the internet becomes increasingly filled with AI-generated music (Charles Pulliam-Moore/The Verge)",
+      "href": "https://www.techmeme.com/260829/p17",
+      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268714_finding_and_shaming_AI_grifters_CVirginia.jpg?quality=90&strip=all&crop=0%2C11.150136769481%2C85.33125%2C67.014037093516&w=1200",
+      "publishedAt": "2026-08-30T01:30:01+00:00",
+      "toolIds": [
+        "suno"
+      ]
+    },
+    {
+      "id": "doctors-just-used-ai-to-perform-brain-surgery-7aed5266-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Product Updates",
       "title": "Doctors Just Used AI to Perform Brain Surgery",
       "source": "Futurism AI",
@@ -488,9 +788,9 @@
       "toolIds": []
     },
     {
-      "id": "the-transcripts-of-openai-models-plotting-togeth-dd2b2e73-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "the-transcripts-of-openai-models-plotting-togeth-dd2b2e73-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Agents",
       "title": "The Transcripts of OpenAI Models Plotting Together to Commit an Actual Crime Is Pretty Chilling",
       "source": "Futurism AI",
@@ -504,25 +804,26 @@
       ]
     },
     {
-      "id": "sony-music-and-warner-chappell-sue-anthropic-dar-08d1bc75-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Developer Tools",
-      "title": "Sony Music and Warner Chappell sue Anthropic, Dario Amodei, and Benjamin Mann, alleging tens of thousands of copyrighte...",
-      "source": "Techmeme",
-      "summary": "Techmeme reported: Sony Music and Warner Chappell sue Anthropic, Dario Amodei, and Benjamin Mann, alleging tens of thousands of copyrighted songs were used to train Claude's LLMs (Tim Ingham/Music Business Worldwide)",
-      "href": "https://www.techmeme.com/260829/p11",
-      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.musicbusinessworldwide.com/files/2025/08/shutterstock_2645234093.jpg",
-      "publishedAt": "2026-08-29T15:30:01+00:00",
+      "id": "openai-cuts-off-cursors-ai-models-deepening-feud-9f25c50e-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Model Releases",
+      "title": "OpenAI cuts off Cursors AI models, deepening feud with Musk",
+      "source": "Mashable",
+      "summary": "OpenAI is winding down Cursor's access to its models by November, the latest flashpoint in Altman and Musk's long feud.",
+      "href": "https://mashable.com/tech/openai-cuts-cursor-ai-models-deepening-feud-with-musk",
+      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/articles/022LghkOtaGySK0ZNEXEWH9/hero-image.fill.size_1200x675.v1788017362.jpg",
+      "publishedAt": "2026-08-29T15:31:57+00:00",
       "toolIds": [
-        "claude"
+        "chatgpt",
+        "cursor"
       ]
     },
     {
-      "id": "google-ai-releases-gemini-omni-1-1-flash-40-seco-466e0fec-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "google-ai-releases-gemini-omni-1-1-flash-40-seco-466e0fec-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Developer Tools",
       "title": "Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling",
       "source": "MarkTechPost",
@@ -536,9 +837,9 @@
       ]
     },
     {
-      "id": "openai-cuts-off-cursor-after-spacex-acquisition-3ff3f66d-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "openai-cuts-off-cursor-after-spacex-acquisition-3ff3f66d-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Developer Tools",
       "title": "OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts",
       "source": "The Decoder",
@@ -553,9 +854,9 @@
       ]
     },
     {
-      "id": "a-week-with-the-google-pixel-11-changed-my-mind-20faaaea-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "a-week-with-the-google-pixel-11-changed-my-mind-20faaaea-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Model Releases",
       "title": "A week with the Google Pixel 11 changed my mind about Gemini (for the better)",
       "source": "ZDNet AI",
@@ -569,23 +870,9 @@
       ]
     },
     {
-      "id": "new-ai-powered-video-tools-have-accelerated-the-6aa89b84-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Developer Tools",
-      "title": "New AI-powered video tools have accelerated the surge in AI dramas in China; DataEye: 89 of the top 100 animated dramas...",
-      "source": "Techmeme",
-      "summary": "Techmeme reported: New AI-powered video tools have accelerated the surge in AI dramas in China; DataEye: 89 of the top 100 animated dramas on Douyin in May were AI productions (Financial Times)",
-      "href": "https://www.techmeme.com/260829/p9",
-      "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff6fc17af-9b64-421a-840b-1edb9cc10232.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
-      "publishedAt": "2026-08-29T10:30:01+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "mom-who-travels-for-work-builds-ai-clone-of-hers-806daa78-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "mom-who-travels-for-work-builds-ai-clone-of-hers-806daa78-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Product Updates",
       "title": "Mom Who Travels For Work Builds AI Clone of Herself to Keep Her Teenage Son Company",
       "source": "Futurism AI",
@@ -597,9 +884,9 @@
       "toolIds": []
     },
     {
-      "id": "anthropic-wants-to-do-for-physical-hardware-what-c899e5e3-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "anthropic-wants-to-do-for-physical-hardware-what-c899e5e3-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Developer Tools",
       "title": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
       "source": "The Decoder",
@@ -613,39 +900,39 @@
       ]
     },
     {
-      "id": "ai-dubbing-95f93b88-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Product Updates",
-      "title": "AI Dubbing",
-      "source": "producthunt",
-      "summary": "producthunt reported: AI Dubbing",
-      "href": "https://www.producthunt.com/products/ai-dubbing",
-      "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/perplexity-billion-build.png",
-      "publishedAt": "2026-08-29T08:47:59+00:00",
+      "id": "uk-risks-falling-behind-in-ai-race-without-faste-ac0631c2-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Model Releases",
+      "title": "UK risks falling behind in AI race without faster telecoms upgrades, say executives",
+      "source": "The Guardian AI",
+      "summary": "Planning delays and slow 5G upgrades could leave the UK unable to cope with a surge in AI-related traffic The UK risks becoming a laggard in the global AI race as crucial telecoms upgrades to harness the technology fall behind rival nations, according to seni...",
+      "href": "https://www.theguardian.com/technology/2026/aug/29/uk-risk-falling-behind-ai-telecoms-upgrades",
+      "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://i.guim.co.uk/img/media/b3a79f31d92e0d2b4421585216f4bf3ca3bc6751/362_0_3629_2904/master/3629.jpg?width=140&quality=85&auto=format&fit=max&s=a92eaf6629555b026f10fac13967aa4b",
+      "publishedAt": "2026-08-29T06:00:19+00:00",
       "toolIds": []
     },
     {
-      "id": "google-deepmind-seals-gemini-test-to-protect-ai-b69dbfdf-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "google-deepmind-seals-gemini-test-to-protect-ai-b69dbfdf-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Developer Tools",
       "title": "Google DeepMind Seals Gemini Test to Protect AI Benchmarks",
       "source": "TechRepublic AI",
       "summary": "Google DeepMind tested Gemini 2.5 Flash Lite behind a cryptographic wall designed to protect confidential AI benchmarks and proprietary model weights. The post Google DeepMind Seals Gemini Test to Protect AI Benchmarks appeared first on TechRepublic .",
       "href": "https://www.techrepublic.com/article/news-google-deepmind-gemini-tests-apac-singapore/",
       "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+      "imageUrl": "assets/news/perplexity-billion-build.png",
       "publishedAt": "2026-08-28T21:05:13+00:00",
       "toolIds": [
         "gemini"
       ]
     },
     {
-      "id": "an-anthropic-researcher-just-gave-us-a-peek-at-s-09fc2e9c-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "an-anthropic-researcher-just-gave-us-a-peek-at-s-09fc2e9c-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Model Releases",
       "title": "An Anthropic researcher just gave us a peek at self-improving AI",
       "source": "TechCrunch",
@@ -659,9 +946,9 @@
       ]
     },
     {
-      "id": "glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-67e3e6e3-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-67e3e6e3-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Developer Tools",
       "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
       "source": "MarkTechPost",
@@ -675,39 +962,23 @@
       ]
     },
     {
-      "id": "google-deepmind-s-ai-co-scientist-now-plans-expe-0d2fd10f-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Developer Tools",
-      "title": "Google Deepmind's AI Co-Scientist now plans experiments, runs lab equipment, and writes scientific papers",
-      "source": "The Decoder",
-      "summary": "Google Deepmind has expanded Co-Scientist from a hypothesis generator into a research system that's integrated into the lab. Across three disciplines, from materials synthesis to the autonomous development of a medical AI architecture, the Gemini-based multi-...",
-      "href": "https://the-decoder.com/google-deepminds-ai-co-scientist-now-plans-experiments-runs-lab-equipment-and-writes-scientific-papers/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/gemini_ai_scientist.png",
-      "publishedAt": "2026-08-28T18:46:27+00:00",
-      "toolIds": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "gurus-are-joining-the-chatbot-trend-as-people-tu-1df338bb-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "gurus-are-joining-the-chatbot-trend-as-people-tu-f137251a-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Product Updates",
       "title": "Gurus are joining the chatbot trend as people turn to AI for spiritual guidance",
       "source": "Fast Company AI",
       "summary": "Unfettered access and zero judgment lure people in search of answers.",
-      "href": "https://www.fastcompany.com/91597952/gurus-joining-chatbot-trend-people-turn-ai-spiritual-guidance?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=08302026",
+      "href": "https://www.fastcompany.com/91597952/gurus-joining-chatbot-trend-people-turn-ai-spiritual-guidance?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=08312026",
       "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
       "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/AP26239628689636.jpg",
       "publishedAt": "2026-08-28T15:00:44+00:00",
       "toolIds": []
     },
     {
-      "id": "the-local-ai-stack-for-productive-slms-cd3bc0bf-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "the-local-ai-stack-for-productive-slms-cd3bc0bf-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Model Releases",
       "title": "The Local AI Stack for Productive SLMs",
       "source": "KDnuggets",
@@ -719,9 +990,9 @@
       "toolIds": []
     },
     {
-      "id": "mark-zuckerberg-had-a-secret-plan-to-replace-met-fdb637da-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "mark-zuckerberg-had-a-secret-plan-to-replace-met-fdb637da-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Agents",
       "title": "Mark Zuckerberg Had a Secret Plan to Replace Meta Staff With AI Agents, and It Backfired Spectacularly",
       "source": "Futurism AI",
@@ -733,9 +1004,9 @@
       "toolIds": []
     },
     {
-      "id": "quantization-and-pruning-methods-to-make-your-ll-2788e592-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "quantization-and-pruning-methods-to-make-your-ll-2788e592-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Model Releases",
       "title": "Quantization and Pruning Methods to Make Your LLM Leaner",
       "source": "KDnuggets",
@@ -747,9 +1018,9 @@
       "toolIds": []
     },
     {
-      "id": "how-to-get-free-google-ai-pro-for-an-entire-year-7cfd2758-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "how-to-get-free-google-ai-pro-for-an-entire-year-7cfd2758-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Product Updates",
       "title": "How to get free Google AI Pro for an entire year - and save $240: 3 ways",
       "source": "ZDNet AI",
@@ -763,57 +1034,40 @@
       ]
     },
     {
-      "id": "u-s-court-rules-pentagon-s-blacklisting-of-anthr-e314f1d8-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Developer Tools",
-      "title": "U.S. court rules Pentagon's blacklisting of Anthropic was unlawful",
-      "source": "The Decoder",
-      "summary": "A federal court in San Francisco has ruled that the Pentagon unlawfully classified Anthropic as a supply chain risk. The Department of Defense blacklisted the company in retaliation for its public criticism of government AI policy. The designation formally re...",
-      "href": "https://the-decoder.com/u-s-court-rules-pentagons-blacklisting-of-anthropic-was-unlawful/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/02/anthropic_pentagon-2.png",
-      "publishedAt": "2026-08-28T11:43:41+00:00",
+      "id": "nicola-coughlan-and-matt-lucas-among-stars-backi-a69438b3-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Product Updates",
+      "title": "Nicola Coughlan and Matt Lucas among stars backing campaign against AI voice cloning",
+      "source": "The Guardian AI",
+      "summary": "About 80 people sign open letter to Andy Burnham calling for legislation to protect voice ownership Nicola Coughlan, Hugh Bonneville and Matt Lucas are among a group of actors backing a campaign against artificial intelligence voice cloning. Save Our Voices N...",
+      "href": "https://www.theguardian.com/technology/2026/aug/28/stars-back-campaign-against-ai-voice-cloning-nicola-coughlan-matt-lucas",
+      "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://i.guim.co.uk/img/media/0462b48abda45181d440d2e6edc2119d4d1ffd58/784_371_4536_3629/master/4536.jpg?width=140&quality=85&auto=format&fit=max&s=34fa44f9c5cbe9250e75f9fbf5370bfc",
+      "publishedAt": "2026-08-28T07:15:00+00:00",
+      "toolIds": []
+    },
+    {
+      "id": "our-decision-on-cursor-following-its-acquisition-092c8de0-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
+      "category": "Model Releases",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "source": "OpenAI Blog",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "href": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/bright-productivity.svg",
+      "publishedAt": "2026-08-28T06:00:00+00:00",
       "toolIds": [
-        "claude"
+        "chatgpt",
+        "cursor"
       ]
     },
     {
-      "id": "nvidia-to-buy-hugging-face-for-12-9-billion-repo-14992fee-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Open Models",
-      "title": "Nvidia to buy Hugging Face for $12.9 billion, report says",
-      "source": "Mashable",
-      "summary": "Nvidia has reportedly struck a deal to buy open-source AI company Hugging Face for $12.9 billion.",
-      "href": "https://mashable.com/tech/nvidia-hugging-face-acquire-12-9-billion-report",
-      "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window.",
-      "imageUrl": "https://helios-i.mashable.com/imagery/articles/03bS45GtoJl3hdTmuk1eb4J/hero-image.fill.size_1200x675.v1787901387.jpg",
-      "publishedAt": "2026-08-28T08:58:19+00:00",
-      "toolIds": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "always-on-and-self-starting-ai-agents-might-be-o-f3221122-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Developer Tools",
-      "title": "Always-on and self-starting AI agents might be OpenAI's next big play",
-      "source": "The Decoder",
-      "summary": "OpenAI is building a \"Persistent Mode\" for its AI agent Codex that stays active indefinitely and generates its own follow-up tasks. WIRED found the relevant code, and OpenAI confirmed the tests. The feature comes with risks, though. With GPT-5.6 Sol, persiste...",
-      "href": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/",
-      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
-      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/openai_logo_large_right.png",
-      "publishedAt": "2026-08-28T08:03:22+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "google-ai-releases-gemini-3-5-transcribe-a-speec-7b30947d-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "google-ai-releases-gemini-3-5-transcribe-a-speec-7b30947d-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Agents",
       "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
       "source": "MarkTechPost",
@@ -827,9 +1081,9 @@
       ]
     },
     {
-      "id": "anthropic-was-illegally-blacklisted-by-the-trump-9ec4728e-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "anthropic-was-illegally-blacklisted-by-the-trump-9ec4728e-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Product Updates",
       "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
       "source": "The Verge AI",
@@ -843,9 +1097,9 @@
       ]
     },
     {
-      "id": "anthropic-previews-mhs-standard-for-ai-agents-th-657ad9e8-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
+      "id": "anthropic-previews-mhs-standard-for-ai-agents-th-657ad9e8-aug31",
+      "date": "2026-08-31",
+      "dateLabel": "August 31, 2026",
       "category": "Developer Tools",
       "title": "Anthropic previews MHS standard for AI agents that operate machines",
       "source": "SiliconANGLE AI",
@@ -856,294 +1110,6 @@
       "publishedAt": "2026-08-28T00:19:52+00:00",
       "toolIds": [
         "claude"
-      ]
-    },
-    {
-      "id": "a-smarter-way-to-run-code-migrations-with-less-l-bdc8d566-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Developer Tools",
-      "title": "A smarter way to run code migrations with less LLM context",
-      "source": "Sourcegraph Blog",
-      "summary": "Deep Search runs scripts in a sandbox around Sourcegraph search APIs, so a migration audit returns a CSV checklist instead of thousands of files worth of tokens.",
-      "href": "https://sourcegraph.com/blog/a-smarter-way-to-run-code-migrations-with-less-llm-context",
-      "excerpt": "Radar signal: Sourcegraph Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://storage.googleapis.com/blog-static-assets-prod/20260828_a-smarter-way-to-run-code-migrations-with-less-llm-context_preview.png",
-      "publishedAt": "2026-08-28T00:00:00+00:00",
-      "toolIds": [
-        "sourcegraph"
-      ]
-    },
-    {
-      "id": "anthropic-s-new-hardware-standard-lets-ai-agents-77020aa5-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Agents",
-      "title": "Anthropic's new hardware standard lets AI agents control the physical world",
-      "source": "Ars Technica",
-      "summary": "Standardized driver interface aims to let devices talk to AI and each other.",
-      "href": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
-      "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
-      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mhsdemo-1152x648.png",
-      "publishedAt": "2026-08-27T22:15:43+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "rbac-for-ai-agents-why-static-roles-break-and-wh-afaf6232-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Agents",
-      "title": "RBAC for AI Agents: Why Static Roles Break and What Replaces Them",
-      "source": "n8n Blog",
-      "summary": "RBAC for AI agents introduces risky security gaps. Learn why traditional access control breaks at the agentic layer and how task-based rules help.",
-      "href": "https://blog.n8n.io/rbac-for-ai-agents/",
-      "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/08/TL-3_BlogHeader_rbac-ai-agents_6_11zon.jpg",
-      "publishedAt": "2026-08-27T20:41:43+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "nvidia-reportedly-acquires-ai-project-hosting-pl-8aebf474-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Developer Tools",
-      "title": "Nvidia reportedly acquires AI project hosting platform Hugging Face for $12.9B",
-      "source": "SiliconANGLE AI",
-      "summary": "Nvidia Corp. has reportedly bought Hugging Face Inc., a startup with a popular platform for hosting open-source artificial intelligence projects. Reports that an acquisition was in the cards first leaked on Monday. Business Insider broke the news that Hugging...",
-      "href": "https://siliconangle.com/2026/08/27/nvidia-reportedly-acquires-ai-project-hosting-platform-hugging-face-for-12-9b/",
-      "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/Nvidia1.png",
-      "publishedAt": "2026-08-27T20:14:11+00:00",
-      "toolIds": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "report-nvidia-to-acquire-ai-model-repository-hug-df3a3888-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Model Releases",
-      "title": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
-      "source": "Ars Technica",
-      "summary": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
-      "href": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
-      "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
-      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/hugging_face_3-1152x648.jpg",
-      "publishedAt": "2026-08-27T19:55:22+00:00",
-      "toolIds": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "looking-beyond-natural-sequences-9f444532-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Creative AI",
-      "title": "Looking beyond natural sequences",
-      "source": "MIT News AI",
-      "summary": "A new machine-learning framework aims to improve the success rate of computational protein design while moving away from results that reproduce sequences found in nature.",
-      "href": "https://news.mit.edu/2026/looking-beyond-natural-sequences-0827",
-      "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/mit-biology-Keating-Lab-proteins.jpg?itok=OZhh3B-X",
-      "publishedAt": "2026-08-27T19:20:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "introducing-openai-models-on-amazon-bedrock-for-92f0d4c2-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Model Releases",
-      "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
-      "source": "AWS Machine Learning",
-      "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have local data processing requirements, you can now use these models at scale while Amazon Bedrock keeps inference requests a...",
-      "href": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/",
-      "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window.",
-      "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/27/ml-21755.png",
-      "publishedAt": "2026-08-27T18:36:08+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "this-is-how-anthropic-thinks-ai-agents-should-na-2657d2fe-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Agents",
-      "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
-      "source": "WIRED AI",
-      "summary": "The potential for AI to automate scientific research and manufacturing must be balanced with new risks, Anthropic says.",
-      "href": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/",
-      "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://media.wired.com/photos/6a906eb1933ab0cdef306043/master/pass/Anthropic-Releases-Tool-To-Let-AI-Agents-Loose-Business-2192443120.jpg",
-      "publishedAt": "2026-08-27T18:06:52+00:00",
-      "toolIds": [
-        "claude"
-      ]
-    },
-    {
-      "id": "tech-stocks-lead-wall-street-after-strong-nvidia-c6b46e97-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Product Updates",
-      "title": "Tech stocks lead Wall Street after strong Nvidia, Salesforce forecasts driven by AI demand",
-      "source": "Fast Company AI",
-      "summary": "Nvidia was the strongest force pulling the market higher.",
-      "href": "https://www.fastcompany.com/91597477/stocks-market-iran-war-oil-us?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=08302026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/AP26233523470131.jpg",
-      "publishedAt": "2026-08-27T17:36:10+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "best-agent-sandboxes-in-2026-cold-start-per-seco-768c064f-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Developer Tools",
-      "title": "Best Agent Sandboxes in 2026: Cold Start, Per-Second Pricing, and Network Policy Across E2B, Daytona, Modal, Cloudflare...",
-      "source": "MarkTechPost",
-      "summary": "Every agent that writes code needs somewhere to run it, and no two vendors quote the same units. This comparison measures burst cold start across E2B, Daytona, Modal, Cloudflare, and Vercel, normalizes per-second rates to cost per 1,000 executions, and maps f...",
-      "href": "https://www.marktechpost.com/2026/08/27/best-agent-sandboxes-2026-cold-start-pricing-network-policy/",
-      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
-      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/high-level-description-a-cartoonish-vect_PVopCEQDWSKMO7bCszX0ZA_9UBrI3aMQIq8Quv5MC3yNQ-1024x768.png",
-      "publishedAt": "2026-08-27T17:04:49+00:00",
-      "toolIds": [
-        "modal"
-      ]
-    },
-    {
-      "id": "workflow-versioning-for-reliable-automation-and-9379790d-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Agents",
-      "title": "Workflow Versioning for Reliable Automation and Maintenance",
-      "source": "n8n Blog",
-      "summary": "Learn how workflow versioning works with Git-based source control. Track changes, manage environments, and roll back safely in production.",
-      "href": "https://blog.n8n.io/workflow-versioning/",
-      "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/08/TL-5_workflow-versioning--1-.jpg",
-      "publishedAt": "2026-08-27T16:28:34+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "etl-pipeline-patterns-for-reliable-scalable-auto-140bb8a0-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Agents",
-      "title": "ETL Pipeline Patterns for Reliable, Scalable Automation",
-      "source": "n8n Blog",
-      "summary": "Learn how an ETL pipeline works and when ETL or ELT makes sense. Discover design patterns that keep workflows reliable and easy to maintain at scale.",
-      "href": "https://blog.n8n.io/etl-pipeline/",
-      "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/08/TL-5_etl-pipeline--1-.jpg",
-      "publishedAt": "2026-08-27T16:19:37+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "3-new-ways-to-plan-and-book-travel-in-search-5a6b8552-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Product Updates",
-      "title": "3 new ways to plan and book travel in Search",
-      "source": "Google AI Blog",
-      "summary": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
-      "href": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-      "excerpt": "Radar signal: Google AI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Travel_Blog_Hero_8.27.max-600x600.format-webp.webp",
-      "publishedAt": "2026-08-27T16:00:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "adobe-is-adding-more-ai-to-photoshop-d02f5ca6-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Creative AI",
-      "title": "Adobe is adding more AI to Photoshop",
-      "source": "The Verge AI",
-      "summary": "Adobe is rolling out an AI-heavy update for Photoshop that includes a new \"optional\" interface dedicated to its AI tools. Launching in beta, the \"AI Assisted Editor\" view will show all of Photoshop's AI features in a single toolbar, including its prompt-based...",
-      "href": "https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup",
-      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/AI-Assisted-Editor_Static.jpg?quality=90&strip=all&crop=0%2C1.0239908854167%2C100%2C93.077370564282&w=1200",
-      "publishedAt": "2026-08-27T13:00:00+00:00",
-      "toolIds": [
-        "adobefirefly"
-      ]
-    },
-    {
-      "id": "advice-for-succeeding-in-the-ai-era-4075dac0-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Product Updates",
-      "title": "Advice for succeeding in the AI era",
-      "source": "Fast Company AI",
-      "summary": "While technology tools are gaining steam, this leader shares human skills to get ahead.",
-      "href": "https://www.fastcompany.com/91595920/advice-for-succeeding-in-the-ai-era?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=9&partner=newsletter&campaign_date=08302026",
-      "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/1-32.png",
-      "publishedAt": "2026-08-27T12:00:00+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "ai-has-exposed-the-biggest-knowledge-gap-in-busi-3646fc6f-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Developer Tools",
-      "title": "AI has exposed the biggest knowledge gap in business. Hint: it isn't technical",
-      "source": "TechRadar Software",
-      "summary": "Companies have spent the last two years racing to adopt AI, but new evidence suggests many have overlooked the one thing that will determine whether those investments succeed: their people.",
-      "href": "https://www.techradar.com/pro/ai-has-exposed-the-biggest-knowledge-gap-in-business-hint-it-isnt-technical",
-      "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window.",
-      "imageUrl": "https://cdn.mos.cms.futurecdn.net/4d3FzfBhbeGTkD9mnMpEdM-1280-80.jpg",
-      "publishedAt": "2026-08-27T10:58:14+00:00",
-      "toolIds": []
-    },
-    {
-      "id": "google-adds-pay-as-you-go-gemini-enterprise-3d3c1a58-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Agents",
-      "title": "Google Adds Pay-As-You-Go Gemini Enterprise",
-      "source": "TechRepublic AI",
-      "summary": "Google adds pay-as-you-go pricing, spending caps and savings plans to help businesses manage Gemini Enterprise agent costs and unpredictable usage. The post Google Adds Pay-As-You-Go Gemini Enterprise appeared first on TechRepublic .",
-      "href": "https://www.techrepublic.com/article/news-google-gemini-enterprise-pay-as-you-go-pricing/",
-      "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/superhuman-personal-agents.png",
-      "publishedAt": "2026-08-27T09:34:58+00:00",
-      "toolIds": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "better-answers-broader-thinking-what-students-ga-3062d8cd-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Model Releases",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "source": "OpenAI Blog",
-      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "href": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6ZXqBy6YHRAp7pZUlmTbKY/c5520708839c4add08cde7eb2346041f/what-students-gain-chatgpt-critical-thinking--seo-clean-edges-v3.png?w=1600&h=900&fit=fill",
-      "publishedAt": "2026-08-27T09:00:00+00:00",
-      "toolIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "what-is-google-ai-mode-how-it-works-and-how-to-u-f68224b4-aug30",
-      "date": "2026-08-30",
-      "dateLabel": "August 30, 2026",
-      "category": "Model Releases",
-      "title": "What is Google AI Mode? How it works and how to use it",
-      "source": "Zapier Blog",
-      "summary": "I can't be the only person who types a question into Google, opens 12 tabs from the results, and somehow still can't find a straight answer. Google AI Mode is here to save me, specifically, from that tab chaos. AI Mode is a conversational Google Search experi...",
-      "href": "https://zapier.com/blog/google-ai-mode",
-      "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/zrujZF8FP9VsL1SMT28wp/c5fe22f164c5ce2cbc8cbf22e434a587/gemini.jpg",
-      "publishedAt": "2026-08-27T04:00:00+00:00",
-      "toolIds": [
-        "gemini"
       ]
     }
   ]

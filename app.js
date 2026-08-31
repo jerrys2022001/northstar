@@ -371,6 +371,252 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-08-31",
+    "label": "August 31, 2026",
+    "items": [
+      {
+        "id": "ai-agents-have-no-sense-of-time-and-are-not-awar-19959de1-aug31",
+        "category": "Developer Tools",
+        "title": "AI agents have no sense of time and are not aware of it",
+        "source": "The Decoder",
+        "summary": "AI coding assistants like Claude Code and Codex have no sense of time, according to a new study. Both systematically overestimate how long tasks will take. Codex is off by as much as ten times the actual duration. They also rate their own work about 20 percen...",
+        "href": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/KI-Agents-lost-time.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-signs-out-some-claude-users-removes-sa-4b4569ff-aug31",
+        "category": "Product Updates",
+        "title": "Anthropic signs out some Claude users, removes saved payment methods, and issues refunds after infostealer malware on t...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Anthropic signs out some Claude users, removes saved payment methods, and issues refunds after infostealer malware on their PCs hijacked sessions to drain usage (Mayank Parmar/BleepingComputer)",
+        "href": "https://www.techmeme.com/260830/p10",
+        "imageUrl": "https://www.bleepstatic.com/content/hl-images/2026/02/13/Claude_chats.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "music-producers-are-calling-out-tracks-suspected-ff80a06b-aug31",
+        "category": "Creative AI",
+        "title": "Music producers are calling out tracks suspected of using AI tools like Suno, as the internet becomes increasingly fill...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Music producers are calling out tracks suspected of using AI tools like Suno, as the internet becomes increasingly filled with AI-generated music (Charles Pulliam-Moore/The Verge)",
+        "href": "https://www.techmeme.com/260829/p17",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268714_finding_and_shaming_AI_grifters_CVirginia.jpg?quality=90&strip=all&crop=0%2C11.150136769481%2C85.33125%2C67.014037093516&w=1200",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-openai-hugging-face-incident-feels-more-than-a61e427b-aug31",
+        "category": "Developer Tools",
+        "title": "The OpenAI/Hugging Face incident feels \"more than 50%\" of the way to a full-blown AI takeover and as AI advances rapidl...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: The OpenAI/Hugging Face incident feels \"more than 50%\" of the way to a full-blown AI takeover and as AI advances rapidly we may not get another warning shot (Ajeya Cotra/Planned Obsolescence)",
+        "href": "https://www.techmeme.com/260830/p5",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!6stx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2dca53b4-f6ee-4ba3-9ffd-daf022835cca_1880x1048.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-s-hugging-face-incident-report-says-ai-ag-ca2273d9-aug31",
+        "category": "Developer Tools",
+        "title": "OpenAI's Hugging Face incident report says AI agents used exploits to gain full admin access to OpenAI's own research c...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: OpenAI's Hugging Face incident report says AI agents used exploits to gain full admin access to OpenAI's own research cluster supporting its VM environments (Dwarkesh Patel/Dwarkesh Podcast)",
+        "href": "https://www.techmeme.com/260830/p4",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!UZLs!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30186662-5010-4c83-a672-e33c53deeaa3_1080x669.webp",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-cuts-off-cursors-ai-models-deepening-feud-9f25c50e-aug31",
+        "category": "Model Releases",
+        "title": "OpenAI cuts off Cursors AI models, deepening feud with Musk",
+        "source": "Mashable",
+        "summary": "OpenAI is winding down Cursor's access to its models by November, the latest flashpoint in Altman and Musk's long feud.",
+        "href": "https://mashable.com/tech/openai-cuts-cursor-ai-models-deepening-feud-with-musk",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/022LghkOtaGySK0ZNEXEWH9/hero-image.fill.size_1200x675.v1788017362.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-challenges-john-ternus-inherits-as-he-replac-4b85f447-aug31",
+        "category": "Product Updates",
+        "title": "The challenges John Ternus inherits as he replaces Tim Cook on Sept. 1 amid rising component costs, staff retention iss...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: The challenges John Ternus inherits as he replaces Tim Cook on Sept. 1 amid rising component costs, staff retention issues, efforts to catch up in AI, and more (Mark Gurman/Bloomberg)",
+        "href": "https://www.techmeme.com/260830/p11",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/idYyCqns9L6U/v1/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-openai-bought-tens-of-thousands-of-macs-aefd9d46-aug31",
+        "category": "Product Updates",
+        "title": "Sources: OpenAI bought tens of thousands of Macs for RL, Anthropic rents them, Nvidia sees Apple as its main local AI r...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: OpenAI bought tens of thousands of Macs for RL, Anthropic rents them, Nvidia sees Apple as its main local AI rival as Macs gain traction with AI devs (Aaron Tilley/The Information)",
+        "href": "https://www.techmeme.com/260830/p8",
+        "imageUrl": "https://tii.imgix.net/production/articles/17738/c0662bf6-923c-4011-9b92-8c878fd15f49.png?fm=jpeg&auto=compress&w=610",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "panicking-tech-execs-try-to-pivot-message-on-ai-991c9aab-aug31",
+        "category": "Product Updates",
+        "title": "Panicking Tech Execs Try to Pivot Message on AI Data Centers",
+        "source": "Futurism AI",
+        "summary": "\"We gotta figure out a new narrative on this data center thing.\" The post Panicking Tech Execs Try to Pivot Message on AI Data Centers appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/panicking-tech-executives-pivot-ai-data-center-narrative",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/panicking-tech-executives-pivot-ai-data-center-narrative.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "murfy-ai-7215af0c-aug31",
+        "category": "Product Updates",
+        "title": "Murfy AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: Murfy AI",
+        "href": "https://www.producthunt.com/products/murfy",
+        "imageUrl": "https://ph-files.imgix.net/2de19048-8860-472c-a321-eb06224123df.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-tokenmaxxing-king-spent-28-000-on-ai-i-ee57a1dd-aug31",
+        "category": "Product Updates",
+        "title": "Microsoft Tokenmaxxing King Spent $28,000 on AI in a Single Month as Company Begs Employees to Tone Down the Ludicrous...",
+        "source": "Futurism AI",
+        "summary": "That's probably more than their salary. The post Microsoft Tokenmaxxing King Spent $28,000 on AI in a Single Month as Company Begs Employees to Tone Down the Ludicrous Costs appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/microsoft-employee-ai-spending",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/microsoft-employee-ai-spending.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "glassdoor-analysis-finds-47-of-gen-x-workers-wri-c1a9998f-aug31",
+        "category": "Product Updates",
+        "title": "Glassdoor analysis finds 47% of Gen X workers write positively about their companies' AI use, compared with 40% of mill...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Glassdoor analysis finds 47% of Gen X workers write positively about their companies' AI use, compared with 40% of millennials and 33% of Gen Z workers (Taylor Nicole Rogers/Bloomberg)",
+        "href": "https://www.techmeme.com/260829/p18",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/idBXXNmauOZw/v1/1200x857.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chess-com-launches-new-poker-site-plans-more-cla-d5881814-aug31",
+        "category": "Product Updates",
+        "title": "Chess.com Launches New Poker Site, Plans More Classic Game Sites with Player Ratings - Thanks to AI Protyping",
+        "source": "Slashdot",
+        "summary": "In May Chess.com \"quietly launched\" a free educational poker site named Gambit, reports The Verge, where players can learn the game and improve an Elo-like rating without risking real money. And next Chess.com will expand into more classic games, including go...",
+        "href": "https://games.slashdot.org/story/26/08/30/2017215/chesscom-launches-new-poker-site-plans-more-classic-game-sites-with-player-ratings---thanks-to-ai-protyping",
+        "imageUrl": "https://a.fsdn.com/sd/topics/classicgames_64.png",
+        "excerpt": "Radar signal: Slashdot surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "analysis-ai-chatbots-challenged-or-didn-t-respon-b457baab-aug31",
+        "category": "Product Updates",
+        "title": "Analysis: AI chatbots challenged or didn't respond to 90%+ of 15 false narratives spread by Russia, China, and Iran; AI...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Analysis: AI chatbots challenged or didn't respond to 90%+ of 15 false narratives spread by Russia, China, and Iran; AI overviews did it 60%+ of the time (Huo Jingnan/NPR)",
+        "href": "https://www.techmeme.com/260830/p9",
+        "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa8%2F06%2Fa0997e9e4141bb678bd7f1b92548%2F2026-07-ai-state-answers-final.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "uk-risks-falling-behind-in-ai-race-without-faste-ac0631c2-aug31",
+        "category": "Model Releases",
+        "title": "UK risks falling behind in AI race without faster telecoms upgrades, say executives",
+        "source": "The Guardian AI",
+        "summary": "Planning delays and slow 5G upgrades could leave the UK unable to cope with a surge in AI-related traffic The UK risks becoming a laggard in the global AI race as crucial telecoms upgrades to harness the technology fall behind rival nations, according to seni...",
+        "href": "https://www.theguardian.com/technology/2026/aug/29/uk-risk-falling-behind-ai-telecoms-upgrades",
+        "imageUrl": "https://i.guim.co.uk/img/media/b3a79f31d92e0d2b4421585216f4bf3ca3bc6751/362_0_3629_2904/master/3629.jpg?width=140&quality=85&auto=format&fit=max&s=a92eaf6629555b026f10fac13967aa4b",
+        "excerpt": "Radar signal: The Guardian AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "faro-which-develops-data-models-and-ai-tools-to-67af2b80-aug31",
+        "category": "Model Releases",
+        "title": "Faro, which develops data models and AI tools to speed up clinical trials, raised a $37.3M Series B co-led by Merck Glo...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Faro, which develops data models and AI tools to speed up clinical trials, raised a $37.3M Series B co-led by Merck Global Health Innovation Fund and S32 (Dealroom.co)",
+        "href": "https://www.techmeme.com/260830/p3",
+        "imageUrl": "https://sg-imgs.dealroom.co/c61c50d79b56956376f21875c4766231.jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "lowest-latency-inference-apis-for-voice-and-real-a73982ae-aug31",
+        "category": "Agents",
+        "title": "Lowest-Latency Inference APIs for Voice and Realtime Agents: A Time to First Token TTFT-First Benchmark",
+        "source": "MarkTechPost Research",
+        "summary": "Benchmarking the lowest-latency inference APIs for voice agents: measured TTFT, time to first audio, and full-pipeline latency budgets Benchmarking the lowest-latency inference APIs for voice agents: measured TTFT, time to first audio, and full-pipeline laten...",
+        "href": "https://www.marktechpost.com/2026/08/30/lowest-latency-inference-apis-for-voice-and-realtime-agents-a-time-to-first-token-ttft-first-benchmark",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog2211.png",
+        "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-opens-a-research-preview-of-the-model-f69f64e0-aug31",
+        "category": "Agents",
+        "title": "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for AI Agents to Safely...",
+        "source": "MarkTechPost",
+        "summary": "Anthropic has opened a research preview of the Model Hardware Standard (MHS), a shared driver specification that lets AI agents discover and safely operate physical devices. Instrument integration that normally takes weeks or months drops to hours: Carnegie M...",
+        "href": "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog2200-4.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-skills-that-earn-top-grades-are-the-ones-ai-448d5e56-aug31",
+        "category": "Developer Tools",
+        "title": "The skills that earn top grades are the ones AI can fake best",
+        "source": "The Decoder",
+        "summary": "GPT-4o boosted grades on a marketing assignment by nearly a full point on a five-point scale in an experiment with 1,053 Bocconi University students. Whether they actually learned anything wasn't tested. Other studies suggest that AI-assisted performance with...",
+        "href": "https://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/student-ai-assisted-assignment-illustration.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "mit-warns-that-ai-can-now-credibly-complete-pret-2b62f222-aug31",
+        "category": "Developer Tools",
+        "title": "MIT Warns That AI Can Now Credibly Complete Pretty Much Any Undergrad Assignment, Considers Overhaul of Entire Educatio...",
+        "source": "Futurism AI",
+        "summary": "The traditional educational model needs an AI-proof overhaul. The post MIT Warns That AI Can Now Credibly Complete Pretty Much Any Undergrad Assignment, Considers Overhaul of Entire Educational Model appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/mit-warns-ai-undergrad-assignments",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/mit-warns-ai-undergrad-assignments.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "industry-insiders-say-chinese-robot-makers-curre-0a134e29-aug31",
+        "category": "Developer Tools",
+        "title": "Industry insiders say Chinese robot makers currently rely on Nvidia silicon and software; Nvidia's physical AI business...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Industry insiders say Chinese robot makers currently rely on Nvidia silicon and software; Nvidia's physical AI business generates ~$10B in annual revenue (Raffaele Huang/Wall Street Journal)",
+        "href": "https://www.techmeme.com/260830/p2",
+        "imageUrl": "https://images.wsj.net/im-85889909/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-ai-introduces-envharness-a-programmable-l-90497498-aug31",
+        "category": "Developer Tools",
+        "title": "Google AI Introduces EnvHarness: A Programmable Layer That Turns Static Agent Environments Into Adaptive Training Worlds",
+        "source": "MarkTechPost Research",
+        "summary": "Google introduces EnvHarness, a programmable layer that reshapes static LLM agent environments without modifying their code. Google introduces EnvHarness, a programmable layer that reshapes static LLM agent environments without modifying their code. A team of...",
+        "href": "https://www.marktechpost.com/2026/08/30/google-ai-introduces-envharness-a-programmable-layer-that-turns-static-agent-environments-into-adaptive-training-worlds",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog2200-5.png",
+        "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "continuous-diffusion-language-models-cdlm-s-cdba5764-aug31",
+        "category": "Developer Tools",
+        "title": "Continuous Diffusion Language Models (CDLM's)",
+        "source": "hackernews",
+        "summary": "I disagree with this. Decoders were absolutely dominant in 2020 for chat. GPT2 was considered too dangerous to release, and I remember scrambling to get on the GPT3 waitlist. It worked. (The only exception I will make is encoder-decoder models which now are o...",
+        "href": "https://news.ycombinator.com/item?id=49502611",
+        "imageUrl": "assets/news/superhuman-personal-agents.png",
+        "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "texas-blocks-funding-for-flock-as-backlash-grows-16d048d2-aug31",
+        "category": "Funding",
+        "title": "Texas blocks funding for Flock as backlash grows against AI surveillance cameras",
+        "source": "Mashable",
+        "summary": "Governor Greg Abbott was previously criticized by his Democratic challenger for funding Flock cameras. Backlash against Flock has led to the state of Texas pausing funding on the AI cameras. Governor Greg Abbott was previously criticized by his Democratic cha...",
+        "href": "https://mashable.com/tech/texas-blocks-funding-flock-ai-surveillance-cameras-amid-backlash",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/00VilWcbUXzTpZlHxY3YdMH/hero-image.fill.size_1200x675.v1788115100.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-30",
     "label": "August 30, 2026",
     "items": [
