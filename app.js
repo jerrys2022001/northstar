@@ -371,6 +371,412 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-09-01",
+    "label": "September 1, 2026",
+    "items": [
+      {
+        "id": "the-pentagon-now-has-its-own-version-of-chatgpt-bef216b7-sep01",
+        "category": "Model Releases",
+        "title": "The Pentagon now has its own version of ChatGPT and Grok",
+        "source": "TechCrunch AI",
+        "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools. Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools. Latest AI Amazo...",
+        "href": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2263890424.jpg?w=1024",
+        "excerpt": "Radar signal: TechCrunch AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gemini-notebook-can-analyze-your-google-play-boo-99477117-sep01",
+        "category": "Model Releases",
+        "title": "Gemini Notebook can analyze your Google Play books now: 3 ways I use this feature",
+        "source": "ZDNet AI",
+        "summary": "Import a supported Google Play book, and Gemini Notebook will use it as a source of information to generate reports, quizzes, podcasts, and more.",
+        "href": "https://www.zdnet.com/article/gemini-ai-notebook-google-play-books-feature/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/abffbbce5affd1c12894ae050f4bf5346dbb405c/2026/08/31/7c36c365-ce7d-4473-aaf0-a630b1df289c/figure-top-gemini-ai-notebook-can-now-research-and-explore-your-google-play-books-heres-how-i-use-it.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-says-its-ad-business-has-already-hit-1b-i-7bfffa9d-sep01",
+        "category": "Model Releases",
+        "title": "OpenAI says its ad business has already hit $1B in annualized revenue",
+        "source": "SiliconANGLE AI",
+        "summary": "OpenAI Group PBC today sought to justify its controversial decision to start running ads in ChatGPT several months ago, saying its new advertising business has now crossed the $1 billion annualized revenue run rate mark. In a blog post, OpenAI said the milest...",
+        "href": "https://siliconangle.com/2026/08/31/openai-says-its-ad-business-has-already-hit-1b-in-annualized-revenue/",
+        "imageUrl": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/Screenshot-from-2026-09-01-06-33-42.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "run-nvidia-bionemo-nim-microservices-for-protein-00db43f6-sep01",
+        "category": "Agents",
+        "title": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
+        "source": "NVIDIA Technical Blog AI",
+        "summary": "Agentic AI is changing how research is done. AI scientists can read papers, propose hypotheses, call models, and determine which experiments to prioritize next....",
+        "href": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science/",
+        "imageUrl": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/AdobeStock_842772489-e1787092703768-768x431.webp",
+        "excerpt": "Radar signal: NVIDIA Technical Blog AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "v2-1-252-fb37b61c-sep01",
+        "category": "Developer Tools",
+        "title": "v2.1.252",
+        "source": "Claude Code Releases",
+        "summary": "Claude Code Releases reported: v2.1.252",
+        "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
+        "imageUrl": "https://opengraph.githubassets.com/dcec0eff266d4c51dd4095450962e46367b645d50b04d827b646ebc9af63fcf1/anthropics/claude-code/releases/tag/v2.1.252",
+        "excerpt": "Radar signal: Claude Code Releases surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "i-used-perplexity-s-ai-agent-in-windows-to-tackl-d19b0899-sep01",
+        "category": "Agents",
+        "title": "I used Perplexity's AI agent in Windows to tackle 5 complex tasks - here's what impressed me most",
+        "source": "ZDNet AI",
+        "summary": "No longer limited to the Mac, Perplexity's Personal Computer for Windows AI can complete complex tasks on your PC with little or no input from you.",
+        "href": "https://www.zdnet.com/article/perplexity-ai-agentic-personal-computer-complex-tasks-windows/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/49b287513735a1e1ad63bdecce2f81c76843b4fd/2026/08/30/6be6f250-76e0-456e-ba34-b99c8d90518f/figure-top-how-i-use-perplexitys-agentic-ai-in-windows-to-tackle-complex-tasks-all-on-its-own.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-hugging-face-and-mythos-5-incidents-show-ai-0b4fd197-sep01",
+        "category": "Developer Tools",
+        "title": "The Hugging Face and Mythos 5 incidents show AI agents can self-organize, raising questions about how much agency they...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: The Hugging Face and Mythos 5 incidents show AI agents can self-organize, raising questions about how much agency they should have and when to seek human input (Ethan Mollick/One Useful Thing)",
+        "href": "https://www.techmeme.com/260831/p10",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!LzPL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94cee090-1da6-4c8d-a043-01d835708104_1456x816.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "long-running-agents-beyond-prompt-engineering-2e8d3e25-sep01",
+        "category": "Agents",
+        "title": "Long-running agents beyond prompt engineering",
+        "source": "n8n Blog",
+        "summary": "Y'all relying too much on prompting your way through agent design. Call it context engineering or god damn loop engineering, you still ask the LLM to make sure it only generates factual information and that it reviews information itself. The more you use an L...",
+        "href": "https://blog.n8n.io/long-running-agents-beyond-prompt-engineering/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/08/long-running-agents-header.jpg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "z-ai-reports-h1-2026-revenue-up-400-to-142m-belo-b0c49dca-sep01",
+        "category": "Product Updates",
+        "title": "Z.ai reports H1 2026 revenue up 400% to ~$142M, below its $200M projection; Z.ai's market value surged 800% since its J...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Z.ai reports H1 2026 revenue up 400% to ~$142M, below its $200M projection; Z.ai's market value surged 800% since its January listing, peaking at $137B (Bloomberg)",
+        "href": "https://www.techmeme.com/260831/p11",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ikpwzpDecLrI/v1/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-us-led-ai-boom-is-offsetting-the-global-grow-974ffc34-sep01",
+        "category": "Product Updates",
+        "title": "The US-led AI boom is offsetting the global growth squeeze from the energy crunch; ING says the boom accounts for about...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: The US-led AI boom is offsetting the global growth squeeze from the energy crunch; ING says the boom accounts for about a third of recent US economic growth (Jason Douglas/Wall Street Journal)",
+        "href": "https://www.techmeme.com/260830/p13",
+        "imageUrl": "https://images.wsj.net/im-57718857/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-google-approached-disney-universal-and-o-4f92006f-sep01",
+        "category": "Product Updates",
+        "title": "Sources: Google approached Disney, Universal, and other studios to license characters and films for its AI tools, but l...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: Google approached Disney, Universal, and other studios to license characters and films for its AI tools, but legal and union concerns stalled deals (Wendy Lee/Los Angeles Times)",
+        "href": "https://www.techmeme.com/260831/p8",
+        "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/5e758db/2147483647/strip/true/crop/3000x1575+0+213/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F55%2F6e%2F0b9e117948f59f494d343d138377%2F1550973-fi-tech-headquarters-palo-alto-jlg-016.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sophisticated-ai-swarm-attacks-are-months-away-o-04a1052e-sep01",
+        "category": "Product Updates",
+        "title": "'Sophisticated' AI swarm attacks are months away, OpenAI warns: What experts say businesses must do",
+        "source": "ZDNet AI",
+        "summary": "OpenAI sounds a solemn and dire alarm, but we're woefully unprepared for what's coming.",
+        "href": "https://www.zdnet.com/article/openai-warns-malicious-agents-coming-recommended-action/",
+        "imageUrl": "https://www.zdnet.com/a/img/resize/101b57febe9b8af45fbfbde785cda53b01e8aeb1/2026/08/31/5086918d-ff21-4564-8665-889457522a09/gettyimages-2157337709.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "excerpt": "Radar signal: ZDNet AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sharechef-ai-0187c465-sep01",
+        "category": "Product Updates",
+        "title": "ShareChef AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: ShareChef AI",
+        "href": "https://www.producthunt.com/products/sharechef-ai",
+        "imageUrl": "https://ph-files.imgix.net/33f05ae5-b316-4a6e-8e78-f364044df913.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "reframe-which-uses-ai-and-industrial-robot-arms-dbe62f73-sep01",
+        "category": "Product Updates",
+        "title": "Reframe, which uses AI and industrial robot arms to make modular homes in a factory, raised a $40M Series A extension r...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Reframe, which uses AI and industrial robot arms to make modular homes in a factory, raised a $40M Series A extension round led by Energy Impact Partners (Rocket Drew/The Information)",
+        "href": "https://www.techmeme.com/260831/p30",
+        "imageUrl": "https://tii.imgix.net/production/articles/17746/7a23cbd0-865b-4638-82aa-f1b98aebfcc4-90G7Jt.jpg?fm=jpeg&auto=compress&w=610",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "prompt-god-68672912-sep01",
+        "category": "Product Updates",
+        "title": "Prompt God",
+        "source": "producthunt",
+        "summary": "producthunt reported: Prompt God",
+        "href": "https://www.producthunt.com/products/prompt-god",
+        "imageUrl": "https://ph-files.imgix.net/c7b3c289-a900-43fe-896e-5bdaf7366b9c.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-purchases-tens-of-thousands-of-mac-minis-46d7525c-sep01",
+        "category": "Product Updates",
+        "title": "OpenAI Purchases Tens of Thousands of Mac minis, Mac Studios",
+        "source": "TechRepublic AI",
+        "summary": "OpenAI is reportedly buying tens of thousands of Mac mini and Mac Studio systems as AI labs find a new use for Apple hardware. The post OpenAI Purchases Tens of Thousands of Mac minis, Mac Studios appeared first on TechRepublic .",
+        "href": "https://www.techrepublic.com/article/news-openai-mac-mini-mac-studio-ai-agents/",
+        "imageUrl": "assets/news/superhuman-claude-mythos.png",
+        "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-plans-to-invest-3-5b-into-mediatek-throug-aa0103da-sep01",
+        "category": "Product Updates",
+        "title": "Nvidia plans to invest $3.5B into MediaTek through convertible bonds; MediaTek forecasts AI chip revenue of about $2B t...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Nvidia plans to invest $3.5B into MediaTek through convertible bonds; MediaTek forecasts AI chip revenue of about $2B this year (Bloomberg)",
+        "href": "https://www.techmeme.com/260831/p15",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKHKqpv2FoVc/v1/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "let-data-reign-trump-warns-that-those-who-don-t-b9105464-sep01",
+        "category": "Product Updates",
+        "title": "'Let data reign'; Trump warns that those who don't let AI data centers proliferate will end up 'backwards and poor'",
+        "source": "TechRadar",
+        "summary": "AI has supercharged data center growth and sparked power, resource, and noise concerns, turning it into one massive hot-button topic for consumers AI has supercharged data center growth and sparked power, resource, and noise concerns, turning it into one mass...",
+        "href": "https://www.techradar.com/ai-platforms-assistants/let-data-reign-trump-warns-that-those-who-dont-let-ai-data-centers-proliferate-will-end-up-backwards-and-poor",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/vV9tZyUzrznNHkCv2bd9Kb-1920-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "instagram-says-it-will-reduce-the-reach-of-accou-a3c6678c-sep01",
+        "category": "Product Updates",
+        "title": "Instagram says it will reduce the reach of accounts featuring AI-generated personas if they don't use a new \"AI-generat...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Instagram says it will reduce the reach of accounts featuring AI-generated personas if they don't use a new \"AI-generated profile\" label (Karissa Bell/Engadget)",
+        "href": "https://www.techmeme.com/260831/p17",
+        "imageUrl": "https://www.engadget.com/img/gallery/instagram-will-demote-ai-generated-influencers-if-they-dont-clearly-label-their-account/l-intro-1787977858.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-ai-could-make-it-harder-for-governments-to-u-577fa0d1-sep01",
+        "category": "Product Updates",
+        "title": "How AI could make it harder for governments to use hacking tools",
+        "source": "TechCrunch",
+        "summary": "AI is proving effective at finding and exploiting vulnerabilities. Some say this will make it harder for governments to use hacking tools and spyware and could reignite calls to backdoor devices. AI is proving effective at finding and exploiting vulnerabiliti...",
+        "href": "https://techcrunch.com/2026/08/31/how-ai-could-make-it-harder-for-governments-to-use-hacking-tools",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/07/brianstack-mspy-email-leak-2024.jpg?resize=1200,675",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "governors-who-courted-ai-data-centers-are-now-tr-3ef6b174-sep01",
+        "category": "Product Updates",
+        "title": "Governors who courted AI data centers are now trying to rein them in",
+        "source": "Fast Company AI",
+        "summary": "From Pennsylvania to Texas, elected leaders who offered tax breaks and fast-track permits to win AI investment are responding to a voter backlash by tightening rules and suspending incentives.",
+        "href": "https://www.fastcompany.com/91598011/governors-who-courted-ai-data-centers-are-now-trying-to-rein-them-in?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=09012026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91598011-Tech-Tracking-all-the-governors-U-turns-on-data-centers.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "data-center-backlash-has-officially-rattled-sam-b43ede88-sep01",
+        "category": "Product Updates",
+        "title": "Data Center Backlash Has Officially Rattled Sam Altman",
+        "source": "Futurism AI",
+        "summary": "\"People are pretty negative on AI.\" The post Data Center Backlash Has Officially Rattled Sam Altman appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/data-center-backlash-rattled-sam-altman",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/sam-altman-data-center-backlash.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "bank-of-england-governor-warns-that-advanced-ai-ae8535ff-sep01",
+        "category": "Product Updates",
+        "title": "Bank of England Governor warns that advanced AI could destabilize the highly interconnected global financial system via...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Bank of England Governor warns that advanced AI could destabilize the highly interconnected global financial system via cyber disruption across jurisdictions (Simon Goodley/The Guardian)",
+        "href": "https://www.techmeme.com/260831/p7",
+        "imageUrl": "https://i.guim.co.uk/img/media/14139eee92e51d13808a054fd16d546e33281440/602_0_6020_4816/master/6020.jpg?width=300&dpr=2&s=none",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "alarming-study-suggests-that-using-ai-is-turning-27fd1e9f-sep01",
+        "category": "Product Updates",
+        "title": "Alarming Study Suggests That Using AI Is Turning Humans More Robotic",
+        "source": "Futurism AI",
+        "summary": "\"Robots become more like people, and people become more like robots.\" The post Alarming Study Suggests That Using AI Is Turning Humans More Robotic appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/alarming-ai-humans-more-robotic",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/alarming-ai-humans-more-robotic.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-cannot-optimize-a-company-it-cannot-understan-d9fb3f48-sep01",
+        "category": "Product Updates",
+        "title": "AI cannot optimize a company it cannot understand",
+        "source": "Fast Company AI",
+        "summary": "Before a company can become optimizable, it has to become understandable for the intelligence trying to optimize it.",
+        "href": "https://www.fastcompany.com/91595669/ai-cannot-optimize-a-company-it-cannot-understand?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=09012026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91595669-Tech-CN-AI-cannot-optimize-a-company-it-cannot-understand-.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "a-look-at-pangram-the-ai-detector-at-the-center-994770ad-sep01",
+        "category": "Product Updates",
+        "title": "A look at Pangram, the AI detector at the center of disputed accusations against writers, including a pulled novel and...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: A look at Pangram, the AI detector at the center of disputed accusations against writers, including a pulled novel and a Commonwealth Prize-winning short story (Elaine Moore/Financial Times)",
+        "href": "https://www.techmeme.com/260831/p6",
+        "imageUrl": "https://i.ibb.co/yn9SXZ4g/ftcms-8d7ea430-fbf3-4d8e-a976-d376b513189c.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "together-ai-which-serves-open-models-announces-a-a1296f9d-sep01",
+        "category": "Model Releases",
+        "title": "Together AI, which serves open models, announces a deal to use compute from Humain in Saudi Arabia, where it can bypass...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Together AI, which serves open models, announces a deal to use compute from Humain in Saudi Arabia, where it can bypass US backlash over data centers (Niko Gallogly/New York Times)",
+        "href": "https://www.techmeme.com/260831/p21",
+        "imageUrl": "https://static01.nyt.com/images/2026/08/31/multimedia/31db-saudi-data-center-phooto-mqcf/31db-saudi-data-center-phooto-mqcf-facebookJumbo.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "google-ai-releases-timesfm-3-a-330m-parameter-ze-42849bbf-sep01",
+        "category": "Model Releases",
+        "title": "Google AI Releases TimesFM-3: A 330M Parameter Zero-Shot Foundation Model For Multivariate Time Series Forecasting",
+        "source": "MarkTechPost Research",
+        "summary": "Google releases TimesFM-3, a 330M parameter zero-shot foundation model for multivariate time series forecasting in one forward pass. Google releases TimesFM-3, a 330M parameter zero-shot foundation model for multivariate time series forecasting in one forward...",
+        "href": "https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/08/blog2211-2.png",
+        "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "bank-of-england-chief-warns-new-ai-models-threat-1a96cd5d-sep01",
+        "category": "Model Releases",
+        "title": "Bank of England Chief Warns New AI Models Threaten Global Financial Stability",
+        "source": "Slashdot",
+        "summary": "Bank of England Governor Andrew Bailey is warning that advanced \"frontier\" AI models could materially increase cyber risk across the global financial system by making attacks faster, cheaper, and more scalable. In a letter to G20 finance officials, he said fi...",
+        "href": "https://news.slashdot.org/story/26/08/31/1745218/bank-of-england-chief-warns-new-ai-models-threaten-global-financial-stability",
+        "imageUrl": "https://a.fsdn.com/sd/topics/money_64.png",
+        "excerpt": "Radar signal: Slashdot surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-three-forces-reshaping-the-future-of-enterpr-f586d65d-sep01",
+        "category": "Agents",
+        "title": "The three forces reshaping the future of enterprise SaaS",
+        "source": "TechRadar Software",
+        "summary": "For years, SaaS has enjoyed a comfortable position, but Agentic AI is changing that.",
+        "href": "https://www.techradar.com/pro/the-three-forces-reshaping-the-future-of-enterprise-saas",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/qP76MS2BAb7kSuWrvJXXYL-1280-80.jpg",
+        "excerpt": "Radar signal: TechRadar Software surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openclaw-2-0-is-here-a-crowdsourced-update-to-th-b6fd7b5f-sep01",
+        "category": "Agents",
+        "title": "OpenClaw 2.0 is here: A Crowdsourced update to the AI agent is now live",
+        "source": "Mashable",
+        "summary": "Do you hear that? That's the sound of thousands of Mac Minis all crying out at once. Here's everything we know about OpenClaw 2.0, the latest update to the uber-popular AI agent. Do you hear that? That's the sound of thousands of Mac Minis all crying out at o...",
+        "href": "https://mashable.com/tech/openclaw-2-0-released-agentic-ai",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/06rDS0rB39EKZPMrgVPUh22/hero-image.fill.size_1200x675.v1788189311.jpg",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "chip-design-startup-agentrys-has-raised-a-19-1m-e06482cb-sep01",
+        "category": "Agents",
+        "title": "Chip design startup Agentrys has raised a $19.1M seed round led by Etna Labs and a $5.4M pre-seed led by MediaTek (Chri...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Chip design startup Agentrys has raised a $19.1M seed round led by Etna Labs and a $5.4M pre-seed led by MediaTek (Chris Metinko/Axios)",
+        "href": "https://www.techmeme.com/260830/p12",
+        "imageUrl": "https://images.axios.com/hwFbC8_CquhAextVxiNbPz_uG6Q=/0x0:1920x1080/1366x768/2026/08/26/1787746015987.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "apple-is-suddenly-an-ai-infra-stock-as-openai-bu-fa2bf93d-sep01",
+        "category": "Agents",
+        "title": "Apple Is Suddenly an AI Infra Stock as OpenAI Buys 10k+ Macs",
+        "source": "Hacker News · 24h最热",
+        "summary": "OpenAI has been quietly buying Apple hardware by the tens of thousands, and it has nothing to do with iPhones or consumer gadgets. The reason reveals a surprising gap in how AI labs are building the infrastructure behind their most ambitious agents. OpenAI ha...",
+        "href": "https://247wallst.com/investing/2026/08/31/apple-is-suddenly-an-ai-infrastructure-stock-as-openai-buys-macs-by-the-tens-of-thousands",
+        "imageUrl": "assets/news/bright-product-updates.svg",
+        "excerpt": "Radar signal: Hacker News · 24h最热 surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "speed-up-llm-inference-with-dspark-speculative-d-2c4fe145-sep01",
+        "category": "Developer Tools",
+        "title": "Speed Up LLM Inference with DSpark Speculative Decoding",
+        "source": "KDnuggets",
+        "summary": "Learn how DSpark speculative decoding can improve local LLM generation speed using the same GPU, with Qwen3-8B, llama.cpp, and CUDA.",
+        "href": "https://www.kdnuggets.com/speed-up-llm-inference-with-dspark-speculative-decoding",
+        "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/kdn-speed-up-llm-inference-with-dspark-speculative-decoding-feature.png",
+        "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "instagram-is-cracking-down-on-ai-influencers-who-a3c88233-sep01",
+        "category": "Developer Tools",
+        "title": "Instagram is cracking down on AI influencers who don't self-identify as AI",
+        "source": "Business Insider",
+        "summary": "Instagram wants AI accounts to use the \"AI-generated profile\" label. If they don't do it, Instagram will tank their reach. Instagram wants AI accounts to use the \"AI-generated profile\" label. If they don't do it, Instagram will tank their reach. Instagram wan...",
+        "href": "https://www.businessinsider.com/instagram-ai-generated-slop-creator-accounts-profile-label-2026-8",
+        "imageUrl": "https://i.insider.com/6a95b89879f11f0a89f92cdc?width=1200&format=jpeg",
+        "excerpt": "Radar signal: Business Insider surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "apple-says-former-engineer-used-stolen-trade-sec-c62ed6bf-sep01",
+        "category": "Developer Tools",
+        "title": "Apple Says Former Engineer Used Stolen Trade Secrets at OpenAI, Taught AI Agent to Run Them",
+        "source": "Mac Rumors",
+        "summary": "Apple today submitted new evidence in its lawsuit against OpenAI, with the hope that the new information will persuade the judge to grant an expedited discovery process. Apple filed a theft of trade secrets lawsuit against OpenAI employees Chang Liu and Tang...",
+        "href": "https://www.macrumors.com/2026/08/31/apple-openai-lawsuit-trade-secret-theft-evidence",
+        "imageUrl": "https://images.macrumors.com/t/TlCrSEYb_apobE302EvwVHP-JSc=/2763x/article-new/2026/05/OpenAI-vs-Apple-Feature.jpg",
+        "excerpt": "Radar signal: Mac Rumors surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "filing-tencent-backed-ai-chipmaker-enflame-price-8888f4b9-sep01",
+        "category": "Funding",
+        "title": "Filing: Tencent-backed AI chipmaker Enflame prices its Shanghai IPO at ~$21 per share, aiming to sell 43M shares and ra...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Filing: Tencent-backed AI chipmaker Enflame prices its Shanghai IPO at ~$21 per share, aiming to sell 43M shares and raise ~$911M (Bloomberg)",
+        "href": "https://www.techmeme.com/260831/p14",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iYHcq8ETaY1w/v0/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "spotify-and-youtube-profiles-of-legendary-jazz-m-396dbfef-sep01",
+        "category": "Creative AI",
+        "title": "Spotify and YouTube Profiles of Legendary Jazz Musicians Hijacked by AI Waifu Spam",
+        "source": "Futurism AI",
+        "summary": "Beyond parody. The post Spotify and YouTube Profiles of Legendary Jazz Musicians Hijacked by AI Waifu Spam appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/spotify-youtube-music-jazz-musicians-ai-waifu-spam",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/spotify-youtube-music-jazz-musicians-ai-waifu-spam.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-an-mit-research-project-became-a-global-prog-684febbb-sep01",
+        "category": "Creative AI",
+        "title": "How an MIT research project became a global programming language",
+        "source": "MIT News AI",
+        "summary": "With millions of users across the world, Julia has been used to conduct cutting-edge research and to design new drugs, jet engines, heat pumps, and more.",
+        "href": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
+        "imageUrl": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/MIT-JuliaHubDyad-01-press.jpg?itok=vvjznZ8d",
+        "excerpt": "Radar signal: MIT News AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "big-tech-reported-q2-other-income-rose-significa-c5b39110-sep01",
+        "category": "Research Workflows",
+        "title": "Big Tech reported Q2 \"other income\" rose significantly to $160B+, driven by investments in AI companies, raising concer...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Big Tech reported Q2 \"other income\" rose significantly to $160B+, driven by investments in AI companies, raising concerns of paper gains overstating the AI boom (Financial Times)",
+        "href": "https://www.techmeme.com/260831/p5",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fd8b3caf9-0952-4eac-b0d0-d104d5fde4bd.png?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-08-31",
     "label": "August 31, 2026",
     "items": [
