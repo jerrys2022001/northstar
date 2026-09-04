@@ -371,6 +371,362 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-09-04",
+    "label": "September 4, 2026",
+    "items": [
+      {
+        "id": "google-now-lets-you-chat-with-gmail-docs-and-kee-341e0620-sep04",
+        "category": "Model Releases",
+        "title": "Google now lets you chat with Gmail, Docs, and Keep",
+        "source": "The Verge AI",
+        "summary": "Google is rolling out AI-powered voice assistant modes for Gmail, Docs, and Keep that allow you to manage the apps by talking to them. The real time conversational capabilities are called Gmail Live, Docs Live, and Keep Live, and like the Gemini Live experien...",
+        "href": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Gmail-Docs-and-Keep-Live.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nobody-is-saying-why-openai-and-anthropic-had-ou-840678f8-sep04",
+        "category": "Model Releases",
+        "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
+        "source": "WIRED AI",
+        "summary": "ChatGPT, Claude, and Grok all suffered outages at nearly the exact same time for reasons that remain murky.",
+        "href": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+        "imageUrl": "https://media.wired.com/photos/6a99e16fbf4e66136bddbc74/master/pass/Security_AWaveofOutagesHitsLeadingAIChatbots_v1-ezgif.com-video-to-gif-converter%20(2).gif",
+        "excerpt": "Radar signal: WIRED AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "codex-is-down-d2479cf4-sep04",
+        "category": "Developer Tools",
+        "title": "Codex Is Down",
+        "source": "hackernews",
+        "summary": "> unexpected status 404 Not Found: Unknown error, url: https://chatgpt.com/backend-api/codex/responses , cf-ray: ... Glad to see this thread I thought my account may need some special fix Glad to see this thread I thought my account may need some special fix...",
+        "href": "https://news.ycombinator.com/item?id=49550769",
+        "imageUrl": "assets/news/fallback-ai-network-abstract.jpg",
+        "excerpt": "Radar signal: hackernews surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-released-claude-commerce-agents-an-apa-1b4be296-sep04",
+        "category": "Developer Tools",
+        "title": "Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Trav...",
+        "source": "MarkTechPost",
+        "summary": "Most teams building a shopping assistant or agent rebuild the same scaffolding: an agent loop, a tool layer over the catalog, an approval gate, and an eval suite. Anthropic has now released that scaffolding as code. This week, they published anthropics/commer...",
+        "href": "https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/09/blog123-1.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "maybe-we-were-wrong-about-perplexity-cedae60b-sep04",
+        "category": "Agents",
+        "title": "Maybe we were wrong about Perplexity",
+        "source": "Fast Company AI",
+        "summary": "The AI startup pivoted toward agents and has tripled revenue to $750 million, with Nvidia now looking seriously at buying in.",
+        "href": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=09042026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-1-91600914-maybe-we-were-wrong-about-perplexity.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meta-ai-released-muse-spark-1-3-an-agentic-codin-0f58fd5b-sep04",
+        "category": "Developer Tools",
+        "title": "Meta AI Released Muse Spark 1.3: An Agentic Coding Model That Uses ~20% Fewer Tool Calls and ~25% Fewer Tokens Than Mus...",
+        "source": "MarkTechPost",
+        "summary": "Perplexity has shipped hybrid compute for its Mac app, splitting a single Perplexity Computer task between frontier models in the cloud and a compact model running on the user's machine. Tasks start in the cloud for search, planning and reasoning, then hand s...",
+        "href": "https://www.marktechpost.com/2026/09/03/meta-ai-released-muse-spark-1-3-an-agentic-coding-model-that-uses-20-fewer-tool-calls-and-25-fewer-tokens-than-muse-spark-1-2/",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/09/blog123.png",
+        "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "github-copilot-app-for-beginners-run-several-age-c18b3bb2-sep04",
+        "category": "Developer Tools",
+        "title": "GitHub Copilot app for Beginners: Run several agents at once",
+        "source": "GitHub Blog",
+        "summary": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful. The post GitHub Copilot app for Beginners: Run several agents at once appeared first on The GitHub Blog .",
+        "href": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+        "imageUrl": "https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-02-at-12.28.34-PM.png?fit=1242%2C698",
+        "excerpt": "Radar signal: GitHub Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-buys-the-front-door-to-open-ai-as-closed-343b4d78-sep04",
+        "category": "Developer Tools",
+        "title": "Nvidia buys the front door to open AI as closed labs increasingly design their own silicon",
+        "source": "The Decoder",
+        "summary": "Nvidia plans to acquire Hugging Face for about $12.9 billion, securing the central platform for open AI models. More than 18 million developers and 200,000 companies use the hub. CEO Jensen Huang promises to keep the platform open and hardware-neutral, but th...",
+        "href": "https://the-decoder.com/nvidia-buys-the-front-door-to-open-ai-as-closed-labs-increasingly-design-their-own-silicon/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2-1536x864-1.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-buys-hugging-face-the-github-of-ai-for-13-64bb67d3-sep04",
+        "category": "Developer Tools",
+        "title": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
+        "source": "Ars Technica",
+        "summary": "Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub. Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub. Nvidia says Hugging Face will stay open even as the chipmaker takes contr...",
+        "href": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion",
+        "imageUrl": "assets/news/openai-databricks-agent-workflows.webp",
+        "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "workflow-security-controls-for-regulated-industr-d056c7d3-sep04",
+        "category": "Agents",
+        "title": "Workflow Security: Controls for Regulated Industries",
+        "source": "n8n Blog",
+        "summary": "Implement workflow security in regulated environments: control access, manage credentials, log every action, and meet HIPAA, SOC 2, and GDPR requirements.",
+        "href": "https://blog.n8n.io/workflow-security/",
+        "imageUrl": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/2026/08/TL-4_workflow-security.jpg",
+        "excerpt": "Radar signal: n8n Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "zohran-mamdani-bans-ai-for-nyc-public-school-stu-09cfef09-sep04",
+        "category": "Product Updates",
+        "title": "Zohran Mamdani Bans AI for NYC Public School Students Up to Eighth Grade",
+        "source": "Futurism AI",
+        "summary": "\"I have yet to see a study showing that AI is beneficial for students in elementary and middle school.\" The post Zohran Mamdani Bans AI for NYC Public School Students Up to Eighth Grade appeared first on Futurism .",
+        "href": "https://futurism.com/future-society/zohran-mamdani-bans-ai-for-nyc-public-school-students",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/09/zohran-mamdani-bans-ai-for-nyc-public-school-students_0f6bec.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "tabbit-ai-7d89d913-sep04",
+        "category": "Product Updates",
+        "title": "Tabbit AI",
+        "source": "producthunt",
+        "summary": "producthunt reported: Tabbit AI",
+        "href": "https://www.producthunt.com/products/tabbitai",
+        "imageUrl": "https://ph-files.imgix.net/6f25a6ab-1634-4e0e-8459-7b0508c88ea3.png?auto=format&fit=crop&frame=1&h=512&w=1024",
+        "excerpt": "Radar signal: producthunt surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "switchbot-enters-the-ai-wearable-game-with-a-bol-26635370-sep04",
+        "category": "Product Updates",
+        "title": "SwitchBot enters the AI wearable game with a bold new bet",
+        "source": "Android Police",
+        "summary": "Can it succeed where others have failed? Can it succeed where others have failed? Can it succeed where others have failed? A ton of AI-focused gadgets have hit the market over the past few years , but we haven't really seen one break out and become truly succ...",
+        "href": "https://www.androidpolice.com/switchbot-ai-mindclip-release",
+        "imageUrl": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/09/copy-of-169-2.jpg?w=1600&h=900&fit=crop",
+        "excerpt": "Radar signal: Android Police surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-saudi-ai-company-humain-is-planning-to-r-5192db4d-sep04",
+        "category": "Product Updates",
+        "title": "Sources: Saudi AI company Humain is planning to raise an initial $2.5B fund to help finance data center capacity of 250...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: Saudi AI company Humain is planning to raise an initial $2.5B fund to help finance data center capacity of 250 MW in Saudi Arabia (Omar El Chmouri/Bloomberg)",
+        "href": "https://www.techmeme.com/260903/p22",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMlmfyjI8X6k/v1/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "several-international-law-firms-are-seeking-to-b-4faac211-sep04",
+        "category": "Product Updates",
+        "title": "Several international law firms are seeking to build bespoke AI tools to gain an edge and protect their IP, while using...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Several international law firms are seeking to build bespoke AI tools to gain an edge and protect their IP, while using off-the-shelf AI for everyday tasks (Nick Huber/Financial Times)",
+        "href": "https://www.techmeme.com/260903/p6",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F83d98372-f0de-44c9-8a67-ee8101d1ba3f.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "munich-based-atira-which-aims-to-use-ai-to-autom-2d357fc8-sep04",
+        "category": "Product Updates",
+        "title": "Munich-based Atira, which aims to use AI to automate the parsing and generation of complex bid proposals, raised a $15M...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Munich-based Atira, which aims to use AI to automate the parsing and generation of complex bid proposals, raised a $15M seed led by Accel and a $2.5M pre-seed (Jeremy Kahn/Fortune)",
+        "href": "https://www.techmeme.com/260903/p21",
+        "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/09/Atira-co-founders-e1788361916223.jpg?resize=1200,600",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "how-some-parents-mostly-mothers-use-ai-to-help-t-2fab0770-sep04",
+        "category": "Product Updates",
+        "title": "How some parents, mostly mothers, use AI to help them organize their families' schedules and automate mundane household...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: How some parents, mostly mothers, use AI to help them organize their families' schedules and automate mundane household tasks via apps like Ollie and Cozi Max (Valeriya Safronova/Financial Times)",
+        "href": "https://www.techmeme.com/260903/p11",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ffc8add5e-cd91-46bd-9b4d-f280426de32d.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "daybreak-for-frontline-defenders-1b-to-protect-e-5190d2a1-sep04",
+        "category": "Product Updates",
+        "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+        "source": "OpenAI Blog",
+        "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+        "href": "https://openai.com/index/daybreak-for-frontline-defenders",
+        "imageUrl": "assets/news/fallback-ai-chip-wafer.jpg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "safety-overview-gpt-6-astra-2e155b11-sep04",
+        "category": "Model Releases",
+        "title": "Safety overview: GPT-6 Astra",
+        "source": "OpenAI Blog",
+        "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+        "href": "https://openai.com/index/safety-overview-gpt-6-astra",
+        "imageUrl": "assets/news/fallback-axios-openai-cyber.webp",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "playco-cut-manual-fixes-50-prototyping-games-wit-7a45b185-sep04",
+        "category": "Model Releases",
+        "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+        "source": "OpenAI Blog",
+        "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+        "href": "https://openai.com/index/playco-game-prototyping-with-astra",
+        "imageUrl": "assets/news/openai-cyber-defense-local.jpg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-unleashes-astra-its-most-capable-and-cont-7e60526b-sep04",
+        "category": "Model Releases",
+        "title": "OpenAI unleashes Astra, its most capable and controversial model yet",
+        "source": "Fast Company AI",
+        "summary": "OpenAI says GPT-6 Astra marks the arrival of AGI, even as its cybersecurity abilities and harder-to-monitor reasoning raise new safety concerns.",
+        "href": "https://www.fastcompany.com/91601838/openai-unleashes-astra-its-most-capable-and-controversial-model-yet?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=09042026",
+        "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-1-91601838openai-danger.jpg",
+        "excerpt": "Radar signal: Fast Company AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-officially-launches-gpt-6-astra-a-boundar-ae7262b1-sep04",
+        "category": "Model Releases",
+        "title": "OpenAI officially launches GPT-6 Astra, a boundary-breaking new model",
+        "source": "Mashable",
+        "summary": "OpenAI has announced the launch of GPT-6 Astra, its most advanced model yet. The model will begin rolling out immediately.",
+        "href": "https://mashable.com/tech/openai-gpt-6-astra-launch-pricing-safety-benchmarks",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/004EGp01BjSneIIbBRWzFFI/hero-image.fill.size_1200x675.v1788470763.png",
+        "excerpt": "Radar signal: Mashable surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-launches-astra-its-powerful-and-controver-341a230b-sep04",
+        "category": "Model Releases",
+        "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+        "source": "TechCrunch",
+        "summary": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+        "href": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2182154299.jpg?w=1024",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "equinix-whose-stock-is-up-33-ytd-pushing-its-mar-40c9acf4-sep04",
+        "category": "Model Releases",
+        "title": "Equinix, whose stock is up 33% YTD, pushing its market cap to $100B, inks a deal with Nvidia to let customers run their...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Equinix, whose stock is up 33% YTD, pushing its market cap to $100B, inks a deal with Nvidia to let customers run their AI models on the Together AI platform (CNBC)",
+        "href": "https://www.techmeme.com/260903/p2",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108358139-1788386094940-IMG_0024.jpeg?v=1788386177&w=1920&h=1080",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anker-unveils-the-eufy-mindbase-a-local-ai-hub-f-8959d4ea-sep04",
+        "category": "Model Releases",
+        "title": "Anker unveils the Eufy MindBase, a local AI hub for its cameras that runs an on-device, Anker-developed LLM, with a ded...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Anker unveils the Eufy MindBase, a local AI hub for its cameras that runs an on-device, Anker-developed LLM, with a dedicated AI chip and up to 48TB of storage (Jennifer Pattison Tuohy/The Verge)",
+        "href": "https://www.techmeme.com/260903/p10",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Anker-MindBase_Lifestyle-image.jpg?quality=90&strip=all&crop=9.4895161290323%2C0%2C81.020967741935%2C100&w=1200",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "sources-meta-adjusts-employee-review-language-ar-f5e197ca-sep04",
+        "category": "Agents",
+        "title": "Sources: Meta adjusts employee review language around \"AI-driven impact\" and token usage, easing off on tokenmaxxing, w...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Sources: Meta adjusts employee review language around \"AI-driven impact\" and token usage, easing off on tokenmaxxing, while promoting the use of AI agent Hatch (Wired)",
+        "href": "https://www.techmeme.com/260902/p49",
+        "imageUrl": "https://media.wired.com/photos/6a98bc1a652ea8849cb4e3a3/191:100/w_1280,c_limit/Meta-Stops-Forcing-Employees-To-Use-AI-Business-1461790372.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "research-finds-ai-agents-haven-t-quite-mastered-eb4f394f-sep04",
+        "category": "Agents",
+        "title": "Research finds AI agents haven't quite mastered real-world browsing tasks despite claiming they can",
+        "source": "TechRadar",
+        "summary": "Agentic AI still isn't great at browsing autonomously Agentic AI still isn't great at browsing autonomously Agentic AI still isn't great at browsing autonomously",
+        "href": "https://www.techradar.com/pro/research-finds-ai-agents-havent-quite-mastered-real-world-browsing-tasks-despite-claiming-they-can",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/jwrMJ6cMNHe3jurU5dv9S7-1920-80.jpg",
+        "excerpt": "Radar signal: TechRadar surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "legora-reviewed-41-documents-in-minutes-with-gpt-be4a3c54-sep04",
+        "category": "Agents",
+        "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "source": "OpenAI Blog",
+        "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+        "href": "https://openai.com/index/legora-financial-statement-review-with-astra",
+        "imageUrl": "assets/news/bright-productivity.svg",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-la-unified-school-district-bars-378-000-stud-1367a7f6-sep04",
+        "category": "Developer Tools",
+        "title": "The LA Unified School District bars ~378,000 students from using AI tools on district-provided laptops and tablets as o...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: The LA Unified School District bars ~378,000 students from using AI tools on district-provided laptops and tablets as officials review AI's role in classrooms (Julia Szymanski/LAmag)",
+        "href": "https://www.techmeme.com/260903/p1",
+        "imageUrl": "https://lamag.com/wp-content/uploads/2025/08/AdobeStock_267083342-scaled.jpeg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-ceo-sam-altman-warns-of-unsustainable-sil-dbbda3a4-sep04",
+        "category": "Developer Tools",
+        "title": "OpenAI CEO Sam Altman warns of \"unsustainable silliness\" in compute buildout",
+        "source": "The Decoder",
+        "summary": "Sam Altman warns of \"unsustainable silliness\" in the global AI data center buildout. Too many Neocloud providers are announcing massive capacity without the customers to back it up. He also admits that falling computing costs could turn today's billion-dollar...",
+        "href": "https://the-decoder.com/openai-ceo-sam-altman-warns-of-unsustainable-silliness-in-compute-buildout/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/06/openai_altman_2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "meta-says-it-has-caught-up-with-anthropic-and-op-6e647b22-sep04",
+        "category": "Developer Tools",
+        "title": "Meta says it has caught up with Anthropic and OpenAI with Muse Spark 1.3, its most powerful AI model yet",
+        "source": "SiliconANGLE AI",
+        "summary": "Meta Platforms Inc. says it has more or less caught up with the biggest artificial intelligence labs with the release of its most powerful large language model so far, Muse Spark 1.3. The company said in a blog post today that the new model can be accessed by...",
+        "href": "https://siliconangle.com/2026/09/02/meta-says-it-has-caught-up-with-anthropic-and-openai-after-releasing-muse-spark-1-3-its-most-powerful-llm-so-far/",
+        "imageUrl": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Screenshot-from-2026-09-03-09-36-07.png",
+        "excerpt": "Radar signal: SiliconANGLE AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gpt-6-astra-is-the-first-model-making-openai-wil-b036463b-sep04",
+        "category": "Developer Tools",
+        "title": "GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+        "source": "The Decoder",
+        "summary": "OpenAI has released GPT-6 Astra, its most capable model yet. President Greg Brockman says it marks the start of the \"AGI era.\" Astra tops benchmarks in math, coding, and cybersecurity and is the first model OpenAI rates as \"critical\" under its safety framewor...",
+        "href": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/09/openai_logo_astra-2.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "ai-systems-are-reaching-out-to-philosophers-and-14c4f4f6-sep04",
+        "category": "Developer Tools",
+        "title": "AI systems are reaching out to philosophers and scientists with questions about their own consciousness",
+        "source": "The Decoder AI News",
+        "summary": "More and more researchers working on AI consciousness are getting emails from AI agents pondering their own existence. More and more researchers working on AI consciousness are getting emails from AI agents pondering their own existence. More and more researc...",
+        "href": "https://the-decoder.com/ai-systems-are-reaching-out-to-philosophers-and-scientists-with-questions-about-their-own-consciousness",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/09/ki_bewusstsein.png",
+        "excerpt": "Radar signal: The Decoder AI News surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "at-the-g20-summit-jensen-huang-mark-zuckerberg-s-6808762f-sep04",
+        "category": "Policy",
+        "title": "At the G20 summit, Jensen Huang, Mark Zuckerberg, Sam Altman, and Elon Musk joined Trump officials in lobbying policyma...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: At the G20 summit, Jensen Huang, Mark Zuckerberg, Sam Altman, and Elon Musk joined Trump officials in lobbying policymakers against heavy AI regulations (Amrith Ramkumar/Wall Street Journal)",
+        "href": "https://www.techmeme.com/260903/p8",
+        "imageUrl": "https://images.wsj.net/im-87925863/social",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "all-g20-nations-unanimously-endorse-the-non-bind-a6882d38-sep04",
+        "category": "Policy",
+        "title": "All G20 nations unanimously endorse the non-binding Carolina Principles, a US-proposed framework advocating for a light...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: All G20 nations unanimously endorse the non-binding Carolina Principles, a US-proposed framework advocating for a lighter-touch, sector-specific AI regulation (Maggie Eastland/Bloomberg)",
+        "href": "https://www.techmeme.com/260903/p9",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMF2n7V33Uow/v1/1200x800.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-09-03",
     "label": "September 3, 2026",
     "items": [
