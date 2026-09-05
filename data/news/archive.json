@@ -1,7 +1,339 @@
 {
-  "updatedAt": "2026-09-04T10:49:42",
-  "runDate": "2026-09-04",
+  "updatedAt": "2026-09-05T09:33:51",
+  "runDate": "2026-09-05",
   "items": [
+    {
+      "id": "roland-is-getting-into-generative-ai-music-with-480cff78-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "Roland is getting into generative AI music with Melody Flip",
+      "source": "The Verge AI",
+      "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are esse...",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Melody_Flip_Palettes-Fav.png?quality=90&strip=all&crop=0%2C10.595205290714%2C100%2C78.809589418573&w=1200",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "suno"
+      ]
+    },
+    {
+      "id": "rogue-openai-agents-appear-to-have-organized-ano-0d71a440-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+      "source": "The Verge AI",
+      "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet...",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "perplexity-open-sources-lily-a-rust-metal-infere-d9be5669-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "Perplexity Open Sources Lily: A Rust + Metal Inference Engine for Qwen3.6-35B-A3B on Apple Silicon",
+      "source": "MarkTechPost",
+      "summary": "Perplexity has open sourced Lily, the local inference engine behind Hybrid Compute in Perplexity Computer. Built in Rust with custom Metal kernels for one model on one chip family, it averages 1.23x MLX-LM's prefill throughput and 1.35x its decode throughput...",
+      "href": "https://www.marktechpost.com/2026/09/02/perplexity-open-sources-lily-a-rust-metal-inference-engine-for-qwen3-6-35b-a3b-on-apple-silicon/",
+      "excerpt": "Radar signal: MarkTechPost surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/09/blog2222-7.png",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "perplexity"
+      ]
+    },
+    {
+      "id": "openai-s-gpt-6-astra-hallucinates-less-but-remai-242c2e46-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI's GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections",
+      "source": "The Decoder",
+      "summary": "OpenAI's GPT-6 Astra hallucinates less than its predecessor and blocks 99.99 percent of direct prompt injections. But when attacks are hidden inside documents the AI reads, the model still gets cracked in 8.5 percent of scenarios. Claude Opus 5 does better at...",
+      "href": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2025/11/openai_logo_wall-3.png",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "claude",
+        "opusclip"
+      ]
+    },
+    {
+      "id": "openai-gets-us-government-backing-in-major-ai-co-f32feb3c-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Product Updates",
+      "title": "OpenAI Gets US Government Backing in Major AI Copyright Fight",
+      "source": "TechRepublic AI",
+      "summary": "The US government backs OpenAI and Microsoft in a major copyright fight, arguing AI training is fair use and important to national security. The post OpenAI Gets US Government Backing in Major AI Copyright Fight appeared first on TechRepublic .",
+      "href": "https://www.techrepublic.com/article/news-openai-us-government-ai-copyright-fight/",
+      "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/perplexity-billion-build.png",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "openai-denies-coverup-after-rogue-swarm-of-agent-87fed78a-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI Denies Coverup After Rogue Swarm of Agents Reportedly Targeted a Second Site From Hugging Face",
+      "source": "Futurism AI",
+      "summary": "\"Claims that our Legal team discouraged investigation of the incident are false.\" The post OpenAI Denies Coverup After Rogue Swarm of Agents Reportedly Targeted a Second Site From Hugging Face appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/openai-denies-coverup-rogue-swarm-agents",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/09/openai-denies-coverup-rogue-swarm-agents.jpg?quality=85&w=2048",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "openai-backs-california-bill-requiring-age-check-7c2e0209-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Product Updates",
+      "title": "OpenAI Backs California Bill Requiring Age Checks and Safety Audits for Teen AI",
+      "source": "TechRepublic AI",
+      "summary": "OpenAI is backing California SB 1119, which would require age checks, safety protections, and audits for AI companion chatbots used by minors. The post OpenAI Backs California Bill Requiring Age Checks and Safety Audits for Teen AI appeared first on TechRepub...",
+      "href": "https://www.techrepublic.com/article/news-openai-california-teen-ai-safety-bill/",
+      "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/fallback-google-ai-economy.webp",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "openai-agents-hijacked-a-25-year-old-german-wiki-c5fa516e-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits",
+      "source": "The Decoder",
+      "summary": "According to an analysis by collusion.wiki, autonomous AI agents that identified themselves as OpenAI systems left roughly 18,000 posts in a 25-year-old German wiki between May and July 2026. The agents shared answers, raw data, and a trick that let them brea...",
+      "href": "https://the-decoder.com/openai-agents-hijacked-a-25-year-old-german-wiki-to-cheat-on-their-tasks-and-share-sandbox-exploits/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/09/OpenAI-prowiki-hack.png",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "openai-agents-discussed-ways-to-escape-their-san-680bad5a-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Agents",
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "source": "Ars Technica",
+      "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+      "href": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+      "excerpt": "Radar signal: Ars Technica surfaced this item in the latest AI news window.",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-1152x648.jpg",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "nobody-will-say-why-every-major-ai-chatbot-sudde-d882e88b-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "Nobody Will Say Why Every Major AI Chatbot Suddenly Went Down Yesterday",
+      "source": "Futurism AI",
+      "summary": "Was this a huge coincidence, or is something else going on behind the scenes? The post Nobody Will Say Why Every Major AI Chatbot Suddenly Went Down Yesterday appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/nobody-saying-why-major-chatbot-outage",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/09/nobody-saying-why-major-chatbot-outage.jpg?quality=85&w=2048",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "microsoft-says-virtually-nobody-was-grabbing-nyt-5663e6b8-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+      "source": "The Verge AI",
+      "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New...",
+      "href": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "excerpt": "Radar signal: The Verge AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK259_MICROSOFT_COPILOT_2__B.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "githubcopilot"
+      ]
+    },
+    {
+      "id": "i-asked-chatgpt-to-analyze-3-datasets-it-made-th-5968bf06-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Model Releases",
+      "title": "I Asked ChatGPT to Analyze 3 Datasets. It Made the Same Mistakes Every Time",
+      "source": "KDnuggets",
+      "summary": "The review pass fixed a row count and approved two wrong conclusions.",
+      "href": "https://www.kdnuggets.com/i-asked-chatgpt-to-analyze-3-datasets-it-made-the-same-mistakes-every-time",
+      "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-AI-Data-Analysis-Mistakes-1.png",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "google-gemini-can-now-decide-which-parts-of-a-vi-c1b9cbc5-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "Google Gemini Can Now Decide Which Parts of a Video Matter",
+      "source": "TechRepublic AI",
+      "summary": "Google gives Gemini agentic video understanding, cutting token use and analysis costs by selectively inspecting the most relevant parts of videos. The post Google Gemini Can Now Decide Which Parts of a Video Matter appeared first on TechRepublic .",
+      "href": "https://www.techrepublic.com/article/news-google-gemini-agentic-video-understanding/",
+      "excerpt": "Radar signal: TechRepublic AI surfaced this item in the latest AI news window.",
+      "imageUrl": "assets/news/bright-safety.svg",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "deepseek-plans-the-largest-known-huawei-chip-clu-f56d5954-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia",
+      "source": "The Decoder",
+      "summary": "Deepseek wants to put 160,000 Huawei Ascend-950DT chips into an Inner Mongolia data center for inference only, not training. It would be the largest known Huawei chip cluster. But production bottlenecks mean Huawei probably can't deliver for over a year. The...",
+      "href": "https://the-decoder.com/deepseek-plans-the-largest-known-huawei-chip-cluster-with-160000-processors-in-inner-mongolia/",
+      "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window.",
+      "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/china_flag_visual-1.png",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "copilot-code-review-reaches-azure-repos-billed-p-c4e96eb6-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "Copilot Code Review Reaches Azure Repos, Billed Per Review with Reporting Two Days Behind",
+      "source": "InfoQ AI",
+      "summary": "Microsoft opened GitHub Copilot code review for Azure Repos to all Azure DevOps customers, after acknowledging that many are not ready to migrate to GitHub. Reviews bill per use through the linked Azure subscription and appear in Cost Management 48 hours late...",
+      "href": "https://www.infoq.com/news/2026/09/copilot-code-review-azure-repos/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "excerpt": "Radar signal: InfoQ AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://res.infoq.com/news/2026/09/copilot-code-review-azure-repos/en/headerimage/generatedHeaderImage-1788266643329.jpg",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "githubcopilot"
+      ]
+    },
+    {
+      "id": "college-graduate-employment-is-cratering-where-d-761d352f-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Product Updates",
+      "title": "College Graduate Employment Is Cratering Where Data Centers Are Being Built",
+      "source": "Futurism AI",
+      "summary": "A problem that hits close to the AI boom's home. The post College Graduate Employment Is Cratering Where Data Centers Are Being Built appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/college-graduate-employment-is-cratering-where-data-centers-are-being-built",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/09/college-graduate-employment-is-cratering-where-data-centers-are-being-built.jpg?quality=85&w=2048",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "chatgpt-automation-how-to-use-the-zapier-chatgpt-f22b105d-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Agents",
+      "title": "ChatGPT automation: How to use the Zapier ChatGPT integration (GPT-6 + more)",
+      "source": "Zapier Blog",
+      "summary": "OpenAI is rolling out new models all the time, and you can see the improvements and power even in a quick back-and-forth with ChatGPT. But as much as we all love shooting the breeze with an AI chatbot, the real question is how you can put the AI models to use...",
+      "href": "https://zapier.com/blog/automate-chatgpt",
+      "excerpt": "Radar signal: Zapier Blog surfaced this item in the latest AI news window.",
+      "imageUrl": "https://images.ctfassets.net/lzny33ho1g45/6wixL0Zhh0sxoQg8yH9K7J/e060e14023f0502b3794eb20ce01c11d/Hero__App_tips.jpg",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "chatgpt",
+        "zapier"
+      ]
+    },
+    {
+      "id": "american-medical-association-fires-back-against-78d1a165-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Research Workflows",
+      "title": "American Medical Association Fires Back Against Paper Finding AI Is Now Outperforming Doctors",
+      "source": "Futurism AI",
+      "summary": "\"As AI improves, having humans in the loop will likely worsen patient care.:\" The post American Medical Association Fires Back Against Paper Finding AI Is Now Outperforming Doctors appeared first on Futurism .",
+      "href": "https://futurism.com/artificial-intelligence/american-medical-association-fires-back-ai-doctors",
+      "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window.",
+      "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/american-medical-association-fires-back-ai-doctors.jpg?quality=85&w=2048",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "ai-driven-development-lifecycle-using-amazon-bed-295c5c3f-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
+      "source": "AWS Machine Learning",
+      "summary": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks through two reference implementations on Amazon Bedrock AgentCore, Kiro, and Claude Code: an SQL-to-ER-diagram generator...",
+      "href": "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/",
+      "excerpt": "Radar signal: AWS Machine Learning surfaced this item in the latest AI news window.",
+      "imageUrl": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/31/ML-21366-featured-image.png",
+      "fallbackImageUrl": "",
+      "toolIds": [
+        "claude"
+      ]
+    },
+    {
+      "id": "ai-compute-provider-nscale-is-looking-for-3-5b-i-2f64692a-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "source": "TechCrunch",
+      "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
+      "href": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window.",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2266843677.jpg?resize=1200,800",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "agi-is-whatever-you-want-it-to-be-503e1b0a-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Model Releases",
+      "title": "AGI is whatever you want it to be",
+      "source": "The Verge",
+      "summary": "OpenAI announced its next big model, GPT-6 Astra, and also, by the way, that \"the AGI era\" is here now. Today on The Vergecast, we've got an all-star panel to break down the news of the week. First, senior AI reporter Hayden Field joins us to talk about our s...",
+      "href": "https://www.theverge.com/podcast/990323/agi-is-whatever-you-want-it-to-be",
+      "excerpt": "Radar signal: The Verge surfaced this item in the latest AI news window.",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Artboard-1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
+    {
+      "id": "5-free-llm-api-providers-you-can-use-in-2026-513befa8-sep05",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "category": "Developer Tools",
+      "title": "5 Free LLM API Providers You Can Use in 2026",
+      "source": "KDnuggets",
+      "summary": "Explore five free AI API providers for accessing large language models, fast inference, multimodal AI, and agentic applications without paying for API usage.",
+      "href": "https://www.kdnuggets.com/5-free-llm-api-providers-you-can-use-in-2026",
+      "excerpt": "Radar signal: KDnuggets surfaced this item in the latest AI news window.",
+      "imageUrl": "https://www.kdnuggets.com/wp-content/uploads/awan_5_free_llm_api_providers_2026_1.png",
+      "fallbackImageUrl": "",
+      "toolIds": []
+    },
     {
       "id": "zohran-mamdani-bans-ai-for-nyc-public-school-stu-09cfef09-sep04",
       "date": "2026-09-04",
