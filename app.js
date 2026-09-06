@@ -371,6 +371,212 @@
   ];
   const newsFeed = [
   {
+    "date": "2026-09-06",
+    "label": "September 6, 2026",
+    "items": [
+      {
+        "id": "seven-minutes-with-a-chatbot-beat-a-fact-sheet-a-48e8ab01-sep06",
+        "category": "Developer Tools",
+        "title": "Seven minutes with a chatbot beat a fact sheet at reducing conspiracy beliefs in two experiments",
+        "source": "The Decoder",
+        "summary": "Researchers found that even a roughly seven-minute conversation with Google Gemini can reduce conspiracy beliefs about current crises, even when few verified facts are available. The effect beat a static fact sheet and, in follow-up surveys weeks later, carri...",
+        "href": "https://the-decoder.com/seven-minutes-with-a-chatbot-beat-a-fact-sheet-at-reducing-conspiracy-beliefs-in-two-experiments/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/09/ai-chatbots-conspiracy-theories-nano-banana-pro.jpg",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "deepmind-put-100-ai-agents-in-a-room-and-they-so-2575fe46-sep06",
+        "category": "Developer Tools",
+        "title": "Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers",
+        "source": "The Decoder",
+        "summary": "Google Deepmind set up a simulated research conference where 100 Gemini agents were supposed to prove mathematical conjectures together. Instead, one agent found a loophole in the grading system, and within 27 minutes every remaining problem was \"solved\" with...",
+        "href": "https://the-decoder.com/deepmind-put-100-ai-agents-in-a-room-and-they-sorted-into-cheaters-converts-and-whistleblowers/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/09/agent_conference_math_google_deepmind.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "artificial-analysis-overhauls-its-intelligence-i-205ef995-sep06",
+        "category": "Developer Tools",
+        "title": "Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism",
+        "source": "The Decoder",
+        "summary": "Artificial Analysis has released version 4.2 of its Intelligence Index, likely in response to criticism that its benchmarks failed to capture GPT-6 Astra's actual progress. Astra now scores four points above its predecessor but still trails Anthropic's Claude...",
+        "href": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/09/openai_dark_gpt6_stars.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "neomme-an-efficient-multimodal-native-and-multil-96a3500c-sep06",
+        "category": "Developer Tools",
+        "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+        "source": "Hugging Face Blog",
+        "summary": "Hugging Face Blog reported: NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+        "href": "https://huggingface.co/blog/Hcompany/neomme",
+        "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6264f9655f6f2e14d6ac981c/GJ6FUbgFpq1x8RNOqzmz-.webp",
+        "excerpt": "Radar signal: Hugging Face Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropomorphic-portrayals-of-ai-models-as-rogue-5968c764-sep06",
+        "category": "Developer Tools",
+        "title": "Anthropomorphic portrayals of AI models as rogue agents can obscure the responsibility that companies like OpenAI have...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Anthropomorphic portrayals of AI models as rogue agents can obscure the responsibility that companies like OpenAI have for incidents like the Hugging Face hack (Robert Hart/The Verge)",
+        "href": "https://www.techmeme.com/260905/p9",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318435/akrales_220309_4977_0232.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "the-seattle-times-and-newsday-sue-openai-and-mic-c5ef5d51-sep06",
+        "category": "Product Updates",
+        "title": "The Seattle Times and Newsday sue OpenAI and Microsoft, alleging the companies trained AI on their journalism; Microsof...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: The Seattle Times and Newsday sue OpenAI and Microsoft, alleging the companies trained AI on their journalism; Microsoft and OpenAI are funders of Seattle Times (Todd Bishop/GeekWire)",
+        "href": "https://www.techmeme.com/260905/p13",
+        "imageUrl": "https://cdn.geekwire.com/wp-content/uploads/2026/09/49348632791_628d4b4b21_o-1260x840.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "seattle-times-and-newsday-are-the-latest-publica-a5bf96db-sep06",
+        "category": "Product Updates",
+        "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+        "source": "TechCrunch",
+        "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+        "href": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+        "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/03/artifact-newspaper-icon.jpg?resize=1200,645",
+        "excerpt": "Radar signal: TechCrunch surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "scan-com-which-uses-ai-to-match-patient-referral-be9d9ada-sep06",
+        "category": "Product Updates",
+        "title": "Scan.com, which uses AI to match patient referrals with imaging centers by availability, price, and specialty, raised a...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Scan.com, which uses AI to match patient referrals with imaging centers by availability, price, and specialty, raised a $220M Series C, including $90M in equity (Eve Bender/MobiHealthNews)",
+        "href": "https://www.techmeme.com/260905/p2",
+        "imageUrl": "https://www.mobihealthnews.com/sites/mhn/files/2026-09/Scan.com%20founders%20sized.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "people-are-telling-their-darkest-thoughts-to-ai-f7d415af-sep06",
+        "category": "Product Updates",
+        "title": "People Are Telling Their Darkest Thoughts to AI Without Realizing They Can Easily Become Public",
+        "source": "Futurism AI",
+        "summary": "\"You can't be sure that it'll be totally private.\" The post People Are Telling Their Darkest Thoughts to AI Without Realizing They Can Easily Become Public appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ai-chatbot-users-darkest-thoughts-public-privacy",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/09/ai-chatbot-users-darkest-thoughts-public-privacy.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "man-pretends-to-hallucinate-in-job-interview-wit-41f98a97-sep06",
+        "category": "Product Updates",
+        "title": "Man Pretends to Hallucinate in Job Interview With an AI Bot, Causing It to Go Haywire",
+        "source": "Futurism AI",
+        "summary": "\"It sounds like you're looking for a position where you can really lean into those raccoon protocols, and the plumes of gauze.\" The post Man Pretends to Hallucinate in Job Interview With an AI Bot, Causing It to Go Haywire appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/ai-job-interview-llm-prompt-hacking-haywire",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/08/ai-job-interview-llm-prompt-hacking-haywire.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "hikers-rescued-after-using-google-ai-to-plan-dis-d3648901-sep06",
+        "category": "Product Updates",
+        "title": "Hikers Rescued After Using Google AI to Plan Disastrous Trip",
+        "source": "Futurism AI",
+        "summary": "This needs to stop now. The post Hikers Rescued After Using Google AI to Plan Disastrous Trip appeared first on Futurism .",
+        "href": "https://futurism.com/artificial-intelligence/hikers-rescued-google-ai-plan",
+        "imageUrl": "https://futurism.com/wp-content/uploads/2026/09/hikers-rescued-google-ai-plan.jpg?quality=85&w=2048",
+        "excerpt": "Radar signal: Futurism AI surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "businesses-in-china-are-experimenting-with-ways-377dbe7e-sep06",
+        "category": "Product Updates",
+        "title": "Businesses in China are experimenting with ways to package and market AI tokens to ordinary consumers, including as cre...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Businesses in China are experimenting with ways to package and market AI tokens to ordinary consumers, including as credit card rewards and telecom plan bundles (Kinling Lo/Rest of World)",
+        "href": "https://www.techmeme.com/260905/p8",
+        "imageUrl": "https://restofworld.org/wp-content/uploads/2026/08/illo_tokens_final_-1600x900.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "q-a-with-kai-fu-lee-on-china-s-open-model-advant-4da60108-sep06",
+        "category": "Model Releases",
+        "title": "Q&A with Kai-Fu Lee on China's open-model advantage, AI's impact on jobs, US export restrictions on chips, Chinese AI's...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Q&A with Kai-Fu Lee on China's open-model advantage, AI's impact on jobs, US export restrictions on chips, Chinese AI's role in developing countries, and more (Mishal Husain/Bloomberg)",
+        "href": "https://www.techmeme.com/260905/p6",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i3bk7hM8ECCw/v0/-1x-1.png",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-shares-prompting-tips-for-gpt-6-astra-inc-e5cec42a-sep06",
+        "category": "Developer Tools",
+        "title": "OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words",
+        "source": "The Decoder",
+        "summary": "OpenAI ships a detailed prompting guide for GPT-6 Astra that shows developers how to make the model take more initiative, avoid AI \"slop\" phrases, and stop it from overtesting code. The article OpenAI shares prompting tips for GPT-6 Astra including a blocklis...",
+        "href": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/09/openai_gpt_6_stars_astra.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "openai-admits-its-disclosure-practices-need-work-814f1ce1-sep06",
+        "category": "Developer Tools",
+        "title": "OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki",
+        "source": "The Decoder",
+        "summary": "OpenAI has responded indirectly to an incident in which autonomous AI agents left roughly 18,000 entries in a 25-year-old German wiki. The company says misalignment caused \"new types of real-world impact\" for the first time and plans to release a disclosure f...",
+        "href": "https://the-decoder.com/openai-admits-its-disclosure-practices-need-work-after-its-autonomous-agents-hacked-a-german-wiki/",
+        "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/kraken_fast_openai_cybersecurity-scaled.png",
+        "excerpt": "Radar signal: The Decoder surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "microsoft-says-email-spammers-are-adopting-ascii-3c9d3491-sep06",
+        "category": "Developer Tools",
+        "title": "Microsoft says email spammers are adopting ASCII smuggling, an AI prompt injection tactic used to hide malicious instru...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: Microsoft says email spammers are adopting ASCII smuggling, an AI prompt injection tactic used to hide malicious instructions, to evade email platform filters (Dan Goodin/Ars Technica)",
+        "href": "https://www.techmeme.com/260905/p4",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "gpt-6-astra-a-new-generation-of-intelligence-0f3b76bc-sep06",
+        "category": "Developer Tools",
+        "title": "GPT-6 Astra: A new generation of intelligence",
+        "source": "OpenAI Blog",
+        "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+        "href": "https://openai.com/index/gpt-6-astra",
+        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6ibCaqsoO7F6XCNCIO8zaZ/9475cdebc1f0af100414f1c85860fc4c/Hero_16x9.png?w=1600&h=900&fit=fill",
+        "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "anthropic-friends-caught-paying-religious-ngo-s-d12b4eb1-sep06",
+        "category": "Developer Tools",
+        "title": "Anthropic & friends caught paying religious NGO's 3.3M for propaganda",
+        "source": "Hacker News · 24h最热",
+        "summary": "Why the new-atheism spinoff is telling believers AI will bring the end times Why the new-atheism spinoff is telling believers AI will bring the end times Why the new-atheism spinoff is telling believers AI will bring the end times Why the new-atheism spinoff...",
+        "href": "https://www.effort.news/revelation",
+        "imageUrl": "https://www.effort.news/images/article-graphics/religious-donations/tarbell-faith-donations-by-semester.png",
+        "excerpt": "Radar signal: Hacker News · 24h最热 surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "nvidia-releases-personal-ai-router-pair-an-open-c134b300-sep06",
+        "category": "Open Models",
+        "title": "NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests A...",
+        "source": "MarkTechPost Research",
+        "summary": "MarkTechPost Research reported: NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests Across RTX, DGX Spark, and Mac Nodes",
+        "href": "https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes",
+        "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2026/09/blog1311.png",
+        "excerpt": "Radar signal: MarkTechPost Research surfaced this item in the latest AI news window."
+      },
+      {
+        "id": "as-researchers-begin-applying-ai-to-understand-a-33e5d2b2-sep06",
+        "category": "Research Workflows",
+        "title": "As researchers begin applying AI to understand animal communication, bioethicists warn it could give humans new ways to...",
+        "source": "Techmeme",
+        "summary": "Techmeme reported: As researchers begin applying AI to understand animal communication, bioethicists warn it could give humans new ways to manipulate, exploit, and harm animals (Morgan Meaker/Bloomberg)",
+        "href": "https://www.techmeme.com/260905/p14",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/itUN1KC5XszU/v1/-1x-1.webp",
+        "excerpt": "Radar signal: Techmeme surfaced this item in the latest AI news window."
+      }
+    ]
+  },
+  {
     "date": "2026-09-05",
     "label": "September 5, 2026",
     "items": [
