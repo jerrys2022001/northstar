@@ -1,7 +1,7 @@
 {
   "source": "LearnPrompt/ai-news-radar + Northstar RSS fallback",
   "sourceUrl": "https://github.com/LearnPrompt/ai-news-radar",
-  "updatedAt": "2026-09-17T00:46:45+00:00",
+  "updatedAt": "2026-09-17T00:46:53+00:00",
   "digestDate": "2026-09-10",
   "timeZone": "Asia/Shanghai",
   "requestedWindowHours": 24,
@@ -268,7 +268,7 @@
       {
         "source": "Google DeepMind",
         "url": "https://deepmind.google/discover/blog/rss.xml",
-        "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+        "error": "HTTPError: HTTP Error 404: Not Found"
       },
       {
         "source": "Microsoft AI",
@@ -649,7 +649,7 @@
       "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
       "href": "https://openai.com/index/ai-policy-window",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "assets/news/source-techcrunch-gemini-personal-intelligence.jpg",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3j3cxGtSNDD0McSlczkBsg/2627bd7c7ea80e644696bd92587dc88c/6j6yjkcvdffsmjbvq2uw8u-seo__1_.png?w=1600&h=900&fit=fill",
       "publishedAt": "2026-09-09T13:00:00+00:00",
       "toolIds": []
     },
@@ -756,7 +756,7 @@
       "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
       "href": "https://openai.com/index/codex-quantum-computing-experiments",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/53pCremlimLBTRxuMEnPyB/41f2eb372bada1bc3b0f7b721e671c9a/SEO-Card.png?w=1600&h=900&fit=fill",
+      "imageUrl": "assets/news/superhuman-personal-agents.png",
       "publishedAt": "2026-09-08T17:00:00+00:00",
       "toolIds": [
         "chatgpt"
@@ -834,7 +834,7 @@
       "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
       "href": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
       "excerpt": "Radar signal: OpenAI Blog surfaced this item in the latest AI news window.",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6SOlj6pViSl1M2gHLiaKO2/365f080a0a6c6a350a4c64f46b7e202a/SEO_Card___short_copy_example__2_.png?w=1600&h=900&fit=fill",
+      "imageUrl": "assets/news/fallback-ai-datacenter-aerial.jpg",
       "publishedAt": "2026-09-08T00:00:00+00:00",
       "toolIds": [
         "chatgpt"
